@@ -475,13 +475,13 @@ def place_parts(core_img,
                 part,part_size,rYmin,rYmax = get_part_pos(partlistuni,newboundmin,newboundmax,'y',part,part_size,uniMode=True,core_img=core_img)
                 
             randY = round(random.randrange(round(rYmin),round(rYmax+1))) 
-            posX = randX - round(part_size[0][0]/2) + centW
+            posX = randX - round(part_size[0][0]/2) #+ centW
             posY = randY - round(part_size[0][1]/2)
             core_img.paste(part[0],(posX, posY),part[0])
 
             newboundmin.append([posX,posY])
             #print(f"Newmin:{[posX,posY]}")
-            nposX = randX + round(part_size[0][0]/2) + centW
+            nposX = randX + round(part_size[0][0]/2) #+ centW
             nposY = randY + round(part_size[0][1]/2)
             newboundmax.append([nposX,nposY])
 
