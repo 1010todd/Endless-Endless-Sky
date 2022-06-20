@@ -691,7 +691,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                     except IndexError:
                         nosmaller = True
                     if not nosmaller:
-                        target = ship.outfits_list.index(outfit.name)
+                        target = ship.outfits_list.index(outfit)
                         newoutfitlist.pop(target)
                         shipstats['energy use'] -= outfit.thrust_ener - newengine.thrust_ener
                         shipstats['energy use'] -= outfit.turn_ener - newengine.turn_ener
@@ -704,7 +704,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                         newoutfitlist.append(newengine)
                 elif outfit.turn > 0 and not outfit.thrust > 0:
                     nosmaller = False
-                    oldenginenum = steeringlist.index(outfit.name)
+                    oldenginenum = steeringlist.index(outfit)
                     try:
                         newengine = enginelist[oldenginenum+1] #engines sorted from large to small
                     except IndexError:
