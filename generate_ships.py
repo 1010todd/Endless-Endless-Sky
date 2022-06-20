@@ -130,6 +130,7 @@ class class_ship():
         self.gun_ports = 0
         self.turret_mounts = 0
         self.installed_weapons = 0
+        self.carried = {}
 
 #Analyze stats of their outfits so ships can be made to accomodate them
 def analyze_outfits(faction):
@@ -183,7 +184,7 @@ def outfit_sort(outfitlist,sortby="outfit space"):
                     outfitlist[i].outfit_space,outfitlist[j].outfit_space = outfitlist[j].outfit_space,outfitlist[i].outfit_space
     return outfitlist
 
-def install_engine(faction,ship,shipstats):
+def install_engine(faction,ship,shipstats,steeringlist,thrusterlist,enginelist):
     facengines = faction.engineslist
     facengines.reverse()
     for outfit in facengines: #I'll expect these to come in pairs 
@@ -197,6 +198,8 @@ def install_engine(faction,ship,shipstats):
     enginelist = outfit_sort(enginelist)
     steeringlist = outfit_sort(steeringlist)
     thrusterlist = outfit_sort(thrusterlist)
+    engine_pair_num = None
+    thruster_pair_num = None
     i = -1
     for outfit in enginelist:
         i += 1
@@ -352,6 +355,9 @@ def install_weapons(faction,ship,shipstats,weaponlist):
     return ship,shipstats
 
 def install_generator(faction,ship,shipstats,powergenlist):
+    generator_percent = .5
+    if faction.designpriority[0] == 'power':
+        generator_percent += .1
     gen_loop_check = 0
     while shipstats['energy gen'] <= 0:
         for outfit in powergenlist:
@@ -463,6 +469,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
         shipstats['outfit sp'] -= 20
     #==============Sort Outfits
     faction_outfitlist = faction.outfitlist
+    steeringlist,thrusterlist
     #faction_outfitlist=faction_outfitlist.reverse()
     for outfit in faction_outfitlist:
         if outfit_type(outfit) == "power gen":
@@ -496,7 +503,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
     #=====================Install outfits base on faction design priority
     for pri in faction.designpriority:
         if pri == 'engine':
-            ship,shipstats,i,ii,engine_pair_num,thruster_pair_num = install_engine(faction,ship,shipstats)
+            ship,shipstats,i,ii,engine_pair_num,thruster_pair_num = install_engine(faction,ship,shipstats,steeringlist,thrusterlist,enginelist)
                 #print(f"SHIPGEN: {thrusterlist[n].name} equipped, {thrusterlist[n].engine_space+steeringlist[n].engine_space} used from {shipstats['engine sp']}")
         elif pri == 'weapon':
             ship,shipstats = install_weapons(faction,ship,shipstats,weaponlist)
@@ -767,7 +774,7 @@ def create_ship(faction): #Todo, option for without faction?
             shipmin = int(next(generate_ships_config).removesuffix("\n"))
             ship_amount = random.randrange(shipmin,shipmax)
        
-    ship_amount = faction.shipcount
+    ship_amount = round(faction.shipcount)
     fleet_tactic = faction.fleet_tactic
     #'defense offense balance hitrun kite'
 
@@ -787,7 +794,7 @@ def create_ship(faction): #Todo, option for without faction?
     for n in range(ship_amount):
         count_fighter = ship_category_list.count('Fighter')
         count_drone = ship_category_list.count('Drone')
-        if(n < 1 and faction.agg <= 0): #Aggressive faction will have at least 1 warships, pick it first.
+        if(n < 1 and (faction.agg <= 0 or faction.military > .4)): #Aggressive faction will have at least 1 warships, pick it first.
             warship = random.choice(categories_warship)
             ship_category_list.append(warship)
             if warship == 'Medium Warship' or warship == 'Heavy Warship':
@@ -800,6 +807,8 @@ def create_ship(faction): #Todo, option for without faction?
             ship_category_list.append('Heavy Warship')
             if random.randrange(3) > 1:
                     count_carrier += 1
+        elif(faction.fleet_tactic == 'hitrun') and (ship_category_list.count('Light Warship') < 1):
+            ship_category_list.append('Light Warship')
         else:
             ship_selected = random.choice(ship_wsnciv)
             ship_category_list.append(ship_selected)
@@ -1079,6 +1088,8 @@ def create_ship(faction): #Todo, option for without faction?
         ship_data.death_weapon = shipdeathweapon
         ship_data.gun_ports = ship_guns
         ship_data.turret_mounts = ship_turrets
+        ship_data.carried['Fighter'] = ship_fighters
+        ship_data.carried['Drone'] = ship_drones
         ship_data = outfit_ship(faction,ship_data)
         faction.shiplist.append(ship_data)
 

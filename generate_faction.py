@@ -39,6 +39,7 @@ class government():
         self.lang_charweight = None
         self.fleet_tactic = 'balance'
         self.ftl = 'Hyperdrive'
+        self.military = .5
         #====================Content owned by the faction
         self.shipcount = 3
         self.shiplist = []
@@ -223,9 +224,19 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
             max_ships = int(next(generate_gov_config))
         if ('government_ships_per_gov_mean' in line):
             mean_ships = int(next(generate_gov_config))
+        if ('government_militarization' in line):
+            militarymean = float(next(generate_gov_config))
+        if ('government_use_shipgen_chance' in line):
+            shipgenchance = float(next(generate_gov_config))
 
     if 'mean_count' not in locals():
         mean_count = min_count/max_count
+    if 'militarymean' not in locals():
+        militarymean = .5
+    if 'mean_rep' not in locals():
+        mean_rep = 0
+    if 'shipgenchance' not in locals():
+        shipgenchance = .8
     
     if min_count == max_count:
         government_count = round(max_count)
@@ -238,9 +249,10 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
             faction_tier = random.triangular(min_tier,max_tier,mean_tier)
         except UnboundLocalError:
             faction_tier = random.triangular(min_tier,max_tier)
+
         faction_agg = random.triangular(-1,1,mean_rep)
 
-        if random.random() > .8 or noPIL:
+        if random.random() > shipgenchance or noPIL:
             faction_sprite = get_faction_spriteset()
             faction_partset = ''
         else:
@@ -251,6 +263,13 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
             ships_count = random.triangular(min_ships,max_ships,mean_ships)
         except UnboundLocalError:
             ships_count = random.triangular(min_ships,max_ships)
+        
+        ships_count = max(min_ships,ships_count)
+
+        faction_military = random.triangular(.1,1,militarymean)
+        if faction_agg < 0:
+            faction_military += random.uniform(.1,.3)
+        faction_military = min(1,faction_military)
 
         JDchance = .5
         #I don't know much about this, suggestion welcome.
@@ -269,14 +288,14 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
 
         fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
         designpriority = 'engine power defense weapon'.split()
-        designpriority.shuffle()
+        random.shuffle(designpriority)
         if faction_tier >= 2.5 and random.random() > JDchance+faction_tier/10:
             ftl_method = 'Jump Drive'
         else:
             ftl_method = 'Hyperdrive'
 
         az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
-        lang_wordlen = random.choice([3,4,5,6])
+        lang_wordlen = random.choice([3,4,5])
         lang_spacechance = random.triangular(.01,.9,.2)
         lang_charweight =  []
         for n in az:
@@ -289,7 +308,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
                                              lang_charweight=lang_charweight)
         swizzle = random.randrange(0,22)
         color = [random.random() for n in range(4)] #Randomize 0-1 for 4 times (RGBA)
-        color = max(color[3],.1) #Make sure alpha is at least .1
+        color[3] = max(color[3],.1) #Make sure alpha is at least .1
         player_reputation = round(faction_agg)
 
         faction = government(name,swizzle=swizzle,color=color,player_rep=player_reputation,age=faction_age,tier=faction_tier,agg=faction_agg)
@@ -306,6 +325,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
         faction.lang_charweight = lang_charweight
         faction.ftl = ftl_method
         faction.designpriority = designpriority
+        faction.military = faction_military
 
         print("faction name; ", name)
         print("faction tier " ,faction_tier)

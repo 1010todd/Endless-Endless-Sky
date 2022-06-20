@@ -210,20 +210,22 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
     else:
         cooling_type_amount = max_outfit_count
 
+    coolingmin = max(coolingmin,1)
     cooling_types_generated_count = 1
     while cooling_types_generated_count <= int(cooling_type_amount):
         #Calculates new values
         
         if coolingmin != None:
             for n in range(max_outfit_space*2):
-                cooling_cooling = round(((random.randint(int(coolingmin), int(coolingmin*2)))), 1)
-                cooling_outfit = random.randint(round(max(1,cooling_cooling)/(2.5+faction.tier)), round(max(1,cooling_cooling/2+(faction.tier/2))))
+                cooling_cooling = round(((random.randrange(int(coolingmin), int(coolingmin*2)))), 1)
+                cooling_outfit = random.randrange(round(max(1,cooling_cooling)/(2.5+faction.tier)), round(max(2,cooling_cooling/2+(faction.tier/2))))
                 if cooling_outfit < max_outfit_space:
                     break
         else:
-            cooling_outfit = random.randint(int(max(1,min_outfit_space)), int(max(1,max_outfit_space)))
-            cooling_cooling = round(((random.randint(int(1), int(5*cooling_outfit)))), 1)
-        cooling_cost = roundup100(random.randint(int(8500*(cooling_outfit/cooling_cooling)), int(10000*(cooling_outfit/cooling_cooling)))*faction.tier)
+            cooling_outfit = random.randrange(int(max(1,min_outfit_space)), int(max(2,max_outfit_space)))
+            cooling_cooling = round(random.randrange(int(1), int(5*cooling_outfit)), 1)
+        cooling_outfit = max(1,cooling_outfit)
+        cooling_cost = roundup100(random.randrange(int(8500*(cooling_outfit/cooling_cooling)), int(10000*(cooling_outfit/cooling_cooling)))*faction.tier)
         cooling_ener = 0
         cooling_active = 0
         if random.random() > .7:

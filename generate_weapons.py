@@ -111,7 +111,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         weapon_type_weight = [projectile_wep_weight,25,beam_wep_weight,25]
         weapon_type = random.choices(('projectile','missile','beam','anti-missile'),weights=weapon_type_weight)
         weapon_type = weapon_type[0]
-        weapon_outfit = round(random.randint(weapon_min_outfit,max(1,weapon_max_outfit)))
+        weapon_outfit = round(random.randint(math.floor(weapon_min_outfit),max(1,weapon_max_outfit)))
         weapon_mass = weapon_outfit
 
         #weapon_is_burst = int(random.paretovariate(5)) #1 = no burst
