@@ -48,3 +48,11 @@ government_ships_per_gov_max
 12
 government_ships_per_gov_mean
 8
+
+# Controls mean military value of governments controlling chance to generate warship and number of ships deployed
+government_militarization - .1 to 1 
+.5
+
+# Chance to use ship generator. Requires pillow library.
+government_use_shipgen_chance
+.8
