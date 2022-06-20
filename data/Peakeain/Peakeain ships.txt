@@ -1,0 +1,540 @@
+ship "Muhuaardemaw"
+	sprite "ship/Peakeain/Muhuaardemaw"
+	attributes 
+		category "Medium Warship"
+		"cost" 20424000
+		"shields" 98500
+		"hull" 60300
+		"required crew" 15
+		"bunks" 30
+		"mass" 434.4
+		"drag" 9.02
+		"heat dissipation" 0.73
+		"fuel capacity" 1400
+		"cargo space" 55
+		"outfit space" 570
+		"weapon capacity" 220
+		"engine capacity" 190
+		weapon 
+			"blast radius" 1588
+			"shield damage" 15880
+			"hull damage" 7940
+			"hit force" 23820
+	outfits 
+		"Bozi Tracker" 17
+		"Iwsuvoek Thruster" 1
+		"Iwsuvoek Steering" 1
+		"Urkq Cell" 1
+		"Deme kpei Battery Pack" 1
+		"Faau kauj Shield Regenerator" 1
+		"Iuofadoi Damage Control" 1
+		"Iuekwhue Thruster" 1
+		"Iuekwhue Steering" 1
+		"Hyperdrive"
+	engine 0 44.5
+	gun 72 63
+	gun 131 63
+	turret 103 130
+	turret 135 42
+	turret 63 42
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Uuiweocr"
+	sprite "ship/Peakeain/Uuiweocr"
+	attributes 
+		category "Heavy Warship"
+		"cost" 28759000
+		"shields" 210400
+		"hull" 128800
+		"required crew" 58
+		"bunks" 97
+		"mass" 845.2
+		"drag" 17.93
+		"heat dissipation" 0.84
+		"fuel capacity" 2200
+		"cargo space" 105
+		"outfit space" 1390
+		"weapon capacity" 530
+		"engine capacity" 430
+		weapon 
+			"blast radius" 3392
+			"shield damage" 33920
+			"hull damage" 16960
+			"hit force" 50880
+	outfits 
+		"Kaht Machine Howizer" 2
+		"Bozi Tracker Deployer" 1
+		"Bozi Tracker" 17
+		"Arce Guided Rocket Catapult" 1
+		"Arce Guided Rocket" 12
+		"Roee Beam" 1
+		"Roee Beam Turret" 1
+		"Isog Beam Projector" 1
+		"Iwsuvoek Thruster" 1
+		"Iwsuvoek Steering" 1
+		"Orwe Cell" 2
+		"Deme kpei Battery Pack" 1
+		"Faau kauj Shield Regenerator" 1
+		"Eclp Damage Control" 1
+		"Qrux potj Cell" 1
+		"Urkq Cell" 1
+		"Cgotcifr Temperature Control" 1
+		"Hyperdrive"
+	engine 0 43.7
+	gun 147 132
+	gun 200 103
+	gun 151 103
+	gun 181 128
+	gun 170 128
+	gun 204 132
+	turret 159 134
+	turret 206 105
+	turret 141 105
+	turret 181 123
+	turret 166 123
+	turret 180 147
+	turret 167 147
+	turret 188 134
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Uuipufpaejhu"
+	sprite "ship/Peakeain/Uuipufpaejhu"
+	attributes 
+		category "Medium Warship"
+		"cost" 32944000
+		"shields" 124400
+		"hull" 76100
+		"required crew" 20
+		"bunks" 51
+		"mass" 388.2
+		"drag" 7.3
+		"heat dissipation" 0.51
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 430
+		"weapon capacity" 160
+		"engine capacity" 130
+		weapon 
+			"blast radius" 2005
+			"shield damage" 20050
+			"hull damage" 10030
+			"hit force" 30080
+	outfits 
+		"Bozi Tracker" 17
+		"Arce Guided Rocket Catapult" 1
+		"Arce Guided Rocket" 12
+		"Iwsuvoek Thruster" 1
+		"Iwsuvoek Steering" 1
+		"Jada Generator" 1
+		"Deme kpei Battery Pack" 1
+		"Gepairug Cell" 1
+		"Iuekwhue Thruster" 1
+		"Iuekwhue Steering" 1
+		"Xunushzo Cell" 1
+		"Hyperdrive"
+	engine 0 44.3
+	gun 125 156
+	gun 173 46
+	gun 74 46
+	turret 80 220
+	turret 182 51
+	turret 61 51
+	turret 163 220
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Aruf okcaitkr"
+	sprite "ship/Peakeain/Aruf okcaitkr"
+	attributes 
+		category "Heavy Warship"
+		"cost" 12769000
+		"shields" 242800
+		"hull" 148600
+		"required crew" 21
+		"bunks" 30
+		"mass" 822.4
+		"drag" 16.7
+		"heat dissipation" 0.64
+		"fuel capacity" 1800
+		"cargo space" 100
+		"outfit space" 1000
+		"weapon capacity" 390
+		"engine capacity" 310
+		weapon 
+			"blast radius" 3914
+			"shield damage" 39140
+			"hull damage" 19570
+			"hit force" 58710
+	outfits 
+		"Kaht Machine Howizer" 1
+		"Bozi Tracker Deployer" 3
+		"Bozi Tracker" 51
+		"Arce Guided Rocket Catapult" 1
+		"Arce Guided Rocket" 12
+		"Roee Beam" 1
+		"Roee Beam Turret" 1
+		"Iwsuvoek Thruster" 1
+		"Iwsuvoek Steering" 1
+		"Orwe Cell" 1
+		"Deme kpei Battery Pack" 1
+		"Faau kauj Shield Regenerator" 1
+		"Eclp Damage Control" 1
+		"Qrux potj Cell" 1
+		"Urkq Cell" 1
+		"Cgotcifr Temperature Control" 1
+		"Hyperdrive"
+	engine 0 45.0
+	gun 92 100
+	gun 146 47
+	gun 73 47
+	gun 127 233
+	gun 92 233
+	gun 127 100
+	turret 81 255
+	turret 152 214
+	turret 63 214
+	turret 134 255
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Kkuupirc"
+	sprite "ship/Peakeain/Kkuupirc"
+	attributes 
+		category "Interceptor"
+		"cost" 6193000
+		"shields" 20400
+		"hull" 12500
+		"required crew" 7
+		"bunks" 10
+		"mass" 76.2
+		"drag" 1.63
+		"heat dissipation" 0.63
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 156
+		"weapon capacity" 40
+		"engine capacity" 40
+		weapon 
+			"blast radius" 329
+			"shield damage" 3290
+			"hull damage" 1650
+			"hit force" 4940
+	outfits 
+		"Bozi Tracker Deployer" 3
+		"Bozi Tracker" 51
+		"Googuquc Thruster" 1
+		"Googuquc Steering" 1
+		"Puaarwed Cell" 1
+		"Hyperdrive"
+	engine 0 44.3
+	gun 53 46
+	gun 65 31
+	gun 38 31
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Peakeain T2.7 ship"
+
+ship "Qgiemuuu"
+	sprite "ship/Peakeain/Qgiemuuu"
+	attributes 
+		category "Light Warship"
+		"cost" 5252000
+		"shields" 43200
+		"hull" 26500
+		"required crew" 5
+		"bunks" 26
+		"mass" 193.2
+		"drag" 3.9
+		"heat dissipation" 0.82
+		"fuel capacity" 2200
+		"cargo space" 25
+		"outfit space" 340
+		"weapon capacity" 100
+		"engine capacity" 90
+		weapon 
+			"blast radius" 697
+			"shield damage" 6970
+			"hull damage" 3490
+			"hit force" 10460
+	outfits 
+		"Kaht Machine Howizer" 1
+		"Iuekwhue Thruster" 1
+		"Iuekwhue Steering" 1
+		"Puaarwed Cell" 2
+		"Hyperdrive"
+	engine 0 42.5
+	gun 86 42
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Saodaiuf algl"
+	sprite "ship/Peakeain/Saodaiuf algl"
+	attributes 
+		category "Light Freighter"
+		"cost" 3765000
+		"shields" 18000
+		"hull" 11100
+		"required crew" 16
+		"bunks" 23
+		"mass" 273.4
+		"drag" 5.69
+		"heat dissipation" 0.7
+		"fuel capacity" 1000
+		"cargo space" 85
+		"outfit space" 300
+		"weapon capacity" 100
+		"engine capacity" 100
+		weapon 
+			"blast radius" 291
+			"shield damage" 2910
+			"hull damage" 1460
+			"hit force" 4370
+	outfits 
+		"Kaht Machine Howizer" 1
+		"Iuekwhue Thruster" 1
+		"Iuekwhue Steering" 1
+		"Puaarwed Cell" 2
+		"Hyperdrive"
+	engine 0 40.2
+	gun 62 73
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Peakeain T2.7 ship"
+
+ship "Fkeniurkqgoe"
+	sprite "ship/Peakeain/Fkeniurkqgoe"
+	attributes 
+		category "Interceptor"
+		"cost" 4932000
+		"shields" 15400
+		"hull" 9400
+		"required crew" 1
+		"bunks" 7
+		"mass" 83.0
+		"drag" 1.72
+		"heat dissipation" 1.01
+		"fuel capacity" 1500
+		"cargo space" 10
+		"outfit space" 156
+		"weapon capacity" 40
+		"engine capacity" 40
+		weapon 
+			"blast radius" 248
+			"shield damage" 2480
+			"hull damage" 1240
+			"hit force" 3720
+	outfits 
+		"Bozi Tracker Deployer" 2
+		"Bozi Tracker" 34
+		"Tueu Auto Gun" 1
+		"Googuquc Thruster" 1
+		"Googuquc Steering" 1
+		"Puaarwed Cell" 1
+		"Hyperdrive"
+	engine 0 41.0
+	gun 56 51
+	gun 98 17
+	gun 11 17
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Peakeain T2.7 ship"
+
+ship "Oqfatougtaso"
+	sprite "ship/Peakeain/Oqfatougtaso"
+	attributes 
+		category "Interceptor"
+		"cost" 1911000
+		"shields" 9800
+		"hull" 6000
+		"required crew" 8
+		"bunks" 10
+		"mass" 76.6
+		"drag" 1.45
+		"heat dissipation" 0.7
+		"fuel capacity" 1000
+		"cargo space" 10
+		"outfit space" 108
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 158
+			"shield damage" 1580
+			"hull damage" 790
+			"hit force" 2370
+	outfits 
+		"Bozi Tracker Deployer" 1
+		"Bozi Tracker" 17
+		"Tueu Auto Gun" 1
+		"Googuquc Thruster" 1
+		"Googuquc Steering" 1
+		"Puaarwed Cell" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 30 21
+	gun 71 21
+	turret 52 57
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Peakeain T2.7 ship"
+
+ship "Suaiqate"
+	sprite "ship/Peakeain/Suaiqate"
+	attributes 
+		category "Light Warship"
+		"cost" 15290000
+		"shields" 67700
+		"hull" 41400
+		"required crew" 13
+		"bunks" 21
+		"mass" 227.8
+		"drag" 4.87
+		"heat dissipation" 0.67
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 370
+		"weapon capacity" 120
+		"engine capacity" 130
+		weapon 
+			"blast radius" 1091
+			"shield damage" 10910
+			"hull damage" 5460
+			"hit force" 16370
+	outfits 
+		"Tueu Auto Gun Turret" 1
+		"Iwsuvoek Thruster" 1
+		"Iwsuvoek Steering" 1
+		"Deme kpei Battery Pack" 1
+		"Faau kauj Shield Regenerator" 1
+		"Eclp Damage Control" 1
+		"Thoo Heatsink" 13
+		"Raou Heat Pump" 1
+		"Hyperdrive"
+	engine 0 44.5
+	turret 99 116
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peakeain T2.7 ship"
+
+ship "Kuqopaaa"
+	sprite "ship/Peakeain/Kuqopaaa"
+	attributes 
+		category "Drone"
+		"cost" 6059000
+		"shields" 27100
+		"hull" 16600
+		"required crew" 1
+		"bunks" 4
+		"mass" 32.0
+		"drag" 0.65
+		"heat dissipation" 1.07
+		"fuel capacity" 600
+		"cargo space" 5
+		"outfit space" 60
+		"weapon capacity" 48
+		"engine capacity" 20
+		weapon 
+			"blast radius" 437
+			"shield damage" 4370
+			"hull damage" 2190
+			"hit force" 6560
+	outfits 
+		"Bozi Tracker Deployer" 1
+		"Bozi Tracker" 17
+		"Ewog Laser Turret" 1
+		"Aapghefo Thruster" 1
+		"Aapghefo Steering" 1
+		"Puaarwed Cell" 1
+	engine 0 42.9
+	gun 40 24
+	turret 40 19
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Peakeain T2.7 ship"
+

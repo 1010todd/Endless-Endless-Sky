@@ -1,0 +1,630 @@
+outfit "Dueincyiui Battery Pack"
+	category "Power"
+	cost 388900
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 5350
+	description "Oojqu oinap T3.7 Battery"
+
+outfit "Vacie cakua Battery Pack"
+	category "Power"
+	cost 700100
+	thumbnail "outfit/tiny battery"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 21400
+	description "Oojqu oinap T3.7 Battery"
+
+outfit "Vomii Battery Pack"
+	category "Power"
+	cost 1260200
+	thumbnail "outfit/tiny battery"
+	"mass" 25
+	"outfit space" -25
+	"energy capacity" 85600
+	description "Oojqu oinap T3.7 Battery"
+
+outfit "Xaesc aiodm Battery Pack"
+	category "Power"
+	cost 2268400
+	thumbnail "outfit/tiny battery"
+	"mass" 45
+	"outfit space" -45
+	"energy capacity" 342400
+	description "Oojqu oinap T3.7 Battery"
+
+
+outfit "Uneca Generator"
+	category "Power"
+	cost 294900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 4.4
+	"heat generation" 5.9
+	description "Oojqu oinap T3.7 Power generator"
+
+
+outfit "Ieiki Thruster"
+	category "Engines"
+	cost 2751900
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 6.7
+	"thrusting energy" 0.3
+	"thrusting heat" 0.6
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.2
+	"flare sound" "ka'het small"
+	description "Oojqu oinap T3.7 Thruster"
+
+outfit "Ieiki Steering"
+	category "Engines"
+	cost 2261404
+	thumbnail "outfit/tiny ion steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 194
+	"turning energy" 0.2
+	"turning heat" 0.5
+	description "Oojqu oinap T3.7 steering"
+
+outfit "Spuum cueiw Thruster"
+	category "Engines"
+	cost 4678300
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 26.8
+	"thrusting energy" 1.2
+	"thrusting heat" 2.4
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ka'het medium"
+	description "Oojqu oinap T3.7 Thruster"
+
+outfit "Spuum cueiw Steering"
+	category "Engines"
+	cost 7953200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"turn" 776.0
+	"turning energy" 0.8
+	"turning heat" 2.0
+	description "Oojqu oinap T3.7 steering"
+
+outfit "Udbqo Thruster"
+	category "Engines"
+	cost 7953200
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 77
+	"outfit space" -77
+	"engine capacity" -77
+	"thrust" 107.2
+	"thrusting energy" 4.8
+	"thrusting heat" 9.6
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Oojqu oinap T3.7 Thruster"
+
+outfit "Udbqo Steering"
+	category "Engines"
+	cost 13520500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"turn" 3104.0
+	"turning energy" 3.2
+	"turning heat" 8.0
+	description "Oojqu oinap T3.7 steering"
+
+outfit "Ufiip iduvo Thruster"
+	category "Engines"
+	cost 13520500
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 169
+	"outfit space" -169
+	"engine capacity" -169
+	"thrust" 428.8
+	"thrusting energy" 19.2
+	"thrusting heat" 38.4
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Oojqu oinap T3.7 Thruster"
+
+outfit "Ufiip iduvo Steering"
+	category "Engines"
+	cost 22984900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 141
+	"outfit space" -141
+	"engine capacity" -141
+	"turn" 12416.0
+	"turning energy" 12.8
+	"turning heat" 32.0
+	description "Oojqu oinap T3.7 steering"
+
+outfit "Ycaoi zneou Thruster"
+	category "Engines"
+	cost 22984900
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 372
+	"outfit space" -372
+	"engine capacity" -372
+	"thrust" 1715.2
+	"thrusting energy" 76.8
+	"thrusting heat" 153.6
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Oojqu oinap T3.7 Thruster"
+
+outfit "Ycaoi zneou Steering"
+	category "Engines"
+	cost 39074400
+	thumbnail "outfit/tiny ion steering"
+	"mass" 310
+	"outfit space" -310
+	"engine capacity" -310
+	"turn" 49664.0
+	"turning energy" 51.2
+	"turning heat" 128.0
+	description "Oojqu oinap T3.7 steering"
+
+
+outfit "Doeut vboil Shield Regenerator"
+	category "Systems"
+	cost 704900
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 1.79
+	"shield energy" 2.63
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Iracp Shield Regenerator"
+	category "Systems"
+	cost 1268900
+	thumbnail "outfit/small shield"
+	"mass" 16
+	"outfit space" -16
+	"shield generation" 3.6
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Koiud Shield Regenerator"
+	category "Systems"
+	cost 2284100
+	thumbnail "outfit/medium shield"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 7.2
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Oqyii Shield Regenerator"
+	category "Systems"
+	cost 4111400
+	thumbnail "outfit/large shield"
+	"mass" 36
+	"outfit space" -36
+	"shield generation" 14.4
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Upomz Shield Regenerator"
+	category "Systems"
+	cost 7400600
+	thumbnail "outfit/huge shield"
+	"mass" 54
+	"outfit space" -54
+	"shield generation" 28.8
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Uxzuq Shield Regenerator"
+	category "Systems"
+	cost 13321100
+	thumbnail "outfit/huge shield"
+	"mass" 81
+	"outfit space" -81
+	"shield generation" 57.6
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+outfit "Vsiao qxeha Shield Regenerator"
+	category "Systems"
+	cost 23978000
+	thumbnail "outfit/huge shield"
+	"mass" 122
+	"outfit space" -122
+	"shield generation" 115.2
+	"shield energy" 2.6
+	"shield heat" 4
+	description "Oojqu oinap T3.7 shield gen"
+
+
+outfit "Deekolewoe Damage Control"
+	category "Systems"
+	cost 252000
+	thumbnail "outfit/tiny shield"
+	"mass" 19
+	"outfit space" -19
+	"hull repair rate" 1.56
+	"hull energy" 2.74
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Edjiu deozy Damage Control"
+	category "Systems"
+	cost 453600
+	thumbnail "outfit/small shield"
+	"mass" 28
+	"outfit space" -28
+	"hull repair rate" 3.1
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Ioyiu perpa Damage Control"
+	category "Systems"
+	cost 816500
+	thumbnail "outfit/medium shield"
+	"mass" 42
+	"outfit space" -42
+	"hull repair rate" 6.2
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Nanov zojue Damage Control"
+	category "Systems"
+	cost 1469700
+	thumbnail "outfit/large shield"
+	"mass" 63
+	"outfit space" -63
+	"hull repair rate" 12.4
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Oxmco xpieo Damage Control"
+	category "Systems"
+	cost 2645500
+	thumbnail "outfit/huge shield"
+	"mass" 94
+	"outfit space" -94
+	"hull repair rate" 24.8
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Uwwim Damage Control"
+	category "Systems"
+	cost 4761900
+	thumbnail "outfit/huge shield"
+	"mass" 141
+	"outfit space" -141
+	"hull repair rate" 49.6
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+outfit "Xouuo esyoa Damage Control"
+	category "Systems"
+	cost 8571500
+	thumbnail "outfit/huge shield"
+	"mass" 212
+	"outfit space" -212
+	"hull repair rate" 99.2
+	"hull energy" 2.7
+	"hull heat" 4
+	description "Oojqu oinap T3.7 Hull Repair"
+
+
+outfit "Cubco kicsa Generator"
+	category "Power"
+	cost 897200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 4.2
+	"heat generation" 6.8
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Iwacu iicud Generator"
+	category "Power"
+	cost 1525300
+	thumbnail "outfit/small fuel cell"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 16.8
+	"heat generation" 16.3
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Opdiu Generator"
+	category "Power"
+	cost 2593100
+	thumbnail "outfit/medium fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 67.2
+	"heat generation" 39.1
+	description "Oojqu oinap T3.7 Power generator"
+
+
+outfit "Ocuda eiraw Cell"
+	category "Power"
+	cost 488400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 3.9
+	"heat generation" 6.2
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Sacob Cell"
+	category "Power"
+	cost 830300
+	thumbnail "outfit/small fuel cell"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 15.6
+	"heat generation" 19.8
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Veoiv eiqap Cell"
+	category "Power"
+	cost 1411600
+	thumbnail "outfit/medium fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 62.4
+	"heat generation" 63.4
+	description "Oojqu oinap T3.7 Power generator"
+
+
+outfit "Napyb Cooler"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 58
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Tsovu euecl Heatsink"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 17
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Idrsa oduzi Heatsink"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 15
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Jvool ioebu Heat Shunt"
+	category "Systems"
+	cost 12100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Eposa ealoq Cooling"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 15
+	"active cooling" 11
+	"cooling energy" 6.4903610869821735
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Busuw ketac Cell"
+	category "Power"
+	cost 2680300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 4.5
+	"heat generation" 9.6
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Izaps Cell"
+	category "Power"
+	cost 4556600
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 18.0
+	"heat generation" 28.8
+	description "Oojqu oinap T3.7 Power generator"
+
+
+outfit "Iaxroasbow Cell"
+	category "Power"
+	cost 2921600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 4.4
+	"heat generation" 10.6
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Udcwu Cell"
+	category "Power"
+	cost 4966800
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 17.6
+	"heat generation" 17.0
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Xcene iauoi Cell"
+	category "Power"
+	cost 8443600
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 70.4
+	"heat generation" 27.2
+	description "Oojqu oinap T3.7 Power generator"
+
+outfit "Yumiv Cell"
+	category "Power"
+	cost 14354200
+	thumbnail "outfit/large fuel cell"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 281.6
+	"heat generation" 43.5
+	description "Oojqu oinap T3.7 Power generator"
+
+
+outfit "Eyqib Heat Shunt"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 7
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Eaweo kiajo Heat Pump"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 12
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Uhqez Heat Shunt"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Iohpe bdeai Cooler"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Ovsai Cooler"
+	category "Systems"
+	cost 15600
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	"active cooling" 68
+	"cooling energy" 5.3020092582131575
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Siqii opape Heat Shunt"
+	category "Systems"
+	cost 19000
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 7
+	"active cooling" 4
+	"cooling energy" 3.767300879499733
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Ecboy yiica Cooling"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Uciao Heat Pump"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 7
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Vovno wisao Cooling"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Awnoe iwozc Heat Pump"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 34
+	description "Oojqu oinap T3.7 Cooling"
+
+
+outfit "Vsaaz Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/small heat shunt"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 9
+	description "Oojqu oinap T3.7 Cooling"
+
+

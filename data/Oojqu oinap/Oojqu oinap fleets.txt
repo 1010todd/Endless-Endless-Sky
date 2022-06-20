@@ -1,0 +1,77 @@
+fleet "Oojqu oinap Defense"
+	government "Oojqu oinap"
+	names "Oojqu oinap names"
+	personality
+		heroic
+		confusion 11
+	variant 3
+		"Udemdnomub" 3
+		"Uqyio beabo oetqi" 4
+		"Oazimeoubf" 4
+		"Aiusk jimul uqacc" 3
+	variant 17
+		"Wayaq hwaub" 4
+		"Esexi ilmucucuex" 4
+		"Aiusk jimul uqacc" 5
+		"Zwubi qeduw ukybo" 2
+	variant 12
+		"Esexi ilmucucuex" 5
+		"Zwubi qeduw ukybo" 5
+		"Aiusk jimul uqacc" 4
+		"Oazimeoubf" 4
+	variant 7
+		"Aiusk jimul uqacc" 5
+		"Zwubi qeduw ukybo" 4
+		"Esexi ilmucucuex" 2
+		"Oazimeoubf" 2
+	variant 6
+		"Zwubi qeduw ukybo" 4
+		"Aiusk jimul uqacc" 5
+		"Esexi ilmucucuex" 3
+		"Oazimeoubf" 4
+	variant 18
+		"Aiusk jimul uqacc" 4
+		"Esexi ilmucucuex" 3
+		"Zwubi qeduw ukybo" 3
+		"Oazimeoubf" 2
+	variant 11
+		"Udemdnomub" 3
+		"Uqyio beabo oetqi" 4
+		"Esexi ilmucucuex" 3
+		"Oazimeoubf" 3
+	variant 12
+		"Esexi ilmucucuex" 4
+		"Aiusk jimul uqacc" 5
+		"Zwubi qeduw ukybo" 2
+		"Oazimeoubf" 4
+	variant 15
+		"Esexi ilmucucuex" 3
+		"Aiusk jimul uqacc" 4
+		"Oazimeoubf" 2
+		"Zwubi qeduw ukybo" 3
+	variant 2
+		"Esexi ilmucucuex" 4
+		"Zwubi qeduw ukybo" 2
+		"Aiusk jimul uqacc" 5
+		"Oazimeoubf" 4
+fleet "Oojqu oinap Civilian"
+	government "Oojqu oinap"
+	names "Oojqu oinap names"
+	personality
+		timid
+	variant 0
+		"Oazimeoubf" 1
+		"Esexi ilmucucuex" 4
+		"Wayaq hwaub" 3
+	variant 11
+		"Wayaq hwaub" 4
+		"Oazimeoubf" 1
+		"Esexi ilmucucuex" 2
+	variant 6
+		"Oazimeoubf" 3
+		"Aiusk jimul uqacc" 2
+		"Aiusk jimul uqacc" 3
+	variant 33
+		"Wayaq hwaub" 2
+		"Udemdnomub" 4
+		"Esexi ilmucucuex" 4

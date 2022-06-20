@@ -1,0 +1,248 @@
+outfit "Zqa Beam Projector"
+	category "Guns"
+	cost 542127300
+	thumbnail "outfit/electron laser"
+	"mass" 57
+	"outfit space" -57
+	"weapon capacity" -57
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/electron"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "electron impact"
+		"inaccuracy" 0.0
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.1
+		"firing heat" 9.1
+		"shield damage" 15.4
+		"hull damage" 18.8
+	description "Laakaz T3.0 Beam weapon"
+
+outfit "Zqa Beam Projector Turret"
+	category "Turrets"
+	cost 1192174045.7652035
+	thumbnail "outfit/electron laser turret"
+	"mass" 263
+	"outfit space" -263
+	"weapon capacity" -263
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/electron"
+		"hardpoint sprite" "hardpoint/electron laser turret"
+		sound "disruptor"
+		"hit effect" "electron impact"
+		"inaccuracy" 0.0
+		"turret turn" 0.4
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.1
+		"firing heat" 9.1
+		"shield damage" 46.2
+		"hull damage" 56.400000000000006
+	description "Laakaz T3.0 Beam weapon 3gun Turret"
+
+outfit "Qey Rocket"
+	category "Ammunition"
+	cost 50466563
+	thumbnail "outfit/typhoon"
+	"mass" 0.04
+	"Qey Rocket capacity" -1
+	description "Laakaz Missile"
+
+outfit "Qey Rocket Storage
+	category "Ammunition"
+	cost 428203974
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -2
+	"Qey Rocket capacity" 50
+	ammo "Qey Rocket"
+	description "Qey Rocket Storage"
+
+outfit "Qey Rocket Launcher"
+	category "Secondary Weapons"
+	cost 240012600
+	thumbnail "outfit/typhoon launcher"
+	"mass" 2
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"Qey Rocket capacity" 50
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Qey Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.0
+		"velocity" 8
+		"lifetime" 6200
+		"reload" 1
+		"firing energy" 40.2
+		"firing heat" 30.5
+		"acceleration" 0.2
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 61.3
+		"hull damage" 19.7
+		"hit force" 24
+		"missile strength" 42.2
+	description "Laakaz T3.0 Missile weapon"
+
+outfit "Pae Machine Basilisk"
+	category "Guns"
+	cost 216264800
+	thumbnail "outfit/inhibitor"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/blaster"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3.6
+		"velocity" 31
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 40.4
+		"firing heat" 40.3
+		"shield damage" 60.3
+		"hull damage" 27.2
+		"hit force" 23
+	description "Laakaz T3.0 Projectile weapon"
+
+outfit "Pae Machine Basilisk Turret"
+	category "Turrets"
+	cost 1065040120.6048981
+	thumbnail "outfit/inhibitor turret"
+	"mass" 332
+	"outfit space" -332
+	"weapon capacity" -332
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/blaster"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3.6
+		"turret turn" 0.1
+		"velocity" 31
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 40.4
+		"firing heat" 40.3
+		"shield damage" 60.3
+		"hull damage" 27.2
+		"hit force" 23
+	description "Laakaz T3.0 Projectile weapon 1gun Turret"
+
+outfit "Kee Lance"
+	category "Guns"
+	cost 152115300
+	thumbnail "outfit/slicer"
+	"mass" 71
+	"outfit space" -71
+	"weapon capacity" -71
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/electron"
+			"frame rate" 1
+		sound "skylance"
+		"hit effect" "electron impact"
+		"inaccuracy" 1.2
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.8
+		"firing heat" 16.2
+		"shield damage" 26.2
+		"hull damage" 10.5
+	description "Laakaz T3.0 Beam weapon"
+
+outfit "Kee Lance Turret"
+	category "Turrets"
+	cost 429191486.139176
+	thumbnail "outfit/slicer turret"
+	"mass" 315
+	"outfit space" -315
+	"weapon capacity" -315
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/electron"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "skylance"
+		"hit effect" "electron impact"
+		"inaccuracy" 1.2
+		"turret turn" 0.1
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.8
+		"firing heat" 16.2
+		"shield damage" 26.2
+		"hull damage" 10.5
+	description "Laakaz T3.0 Beam weapon 1gun Turret"
+
+outfit "Jim Torpedo"
+	category "Ammunition"
+	cost 82798722
+	thumbnail "outfit/typhoon"
+	"mass" 0.05
+	"Jim Torpedo capacity" -1
+	description "Laakaz Missile"
+
+outfit "Jim Torpedo Storage
+	category "Ammunition"
+	cost 590453465
+	thumbnail "outfit/typhoon storage"
+	"mass" 1
+	"outfit space" -1
+	"Jim Torpedo capacity" 20
+	ammo "Jim Torpedo"
+	description "Jim Torpedo Storage"
+
+outfit "Jim Torpedo Catapult"
+	category "Secondary Weapons"
+	cost 367387900
+	thumbnail "outfit/typhoon launcher"
+	"mass" 1
+	"outfit space" -66
+	"weapon capacity" -66
+	"gun ports" -1
+	"Jim Torpedo capacity" 20
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Jim Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 2.0
+		"velocity" 42
+		"lifetime" 200
+		"reload" 1
+		"firing energy" 24.2
+		"firing heat" 18.8
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 76.1
+		"homing" 1
+		"tracking" 0.24
+		"shield damage" 73.8
+		"hull damage" 12.1
+		"missile strength" 76.8
+	description "Laakaz T3.0 Missile weapon"
+

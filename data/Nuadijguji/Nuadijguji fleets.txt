@@ -1,0 +1,84 @@
+fleet "Nuadijguji Security"
+	government "Nuadijguji"
+	names "Nuadijguji names"
+	personality
+		heroic
+		disables
+		confusion 10
+	variant 3
+		"Iioajpcuaenemie" 4
+		"Liegidejme" 5
+		"Omiheannet omode" 3
+		"Eddoa wuayrioodn" 2
+	variant 16
+		"Iioajpcuaenemie" 7
+		"Ugorzgoeuj" 3
+		"Xogednvoba lmaek" 4
+		"Oikiowaudj" 2
+	variant 16
+		"Iioajpcuaenemie" 4
+		"Xogednvoba lmaek" 4
+		"Omiheannet omode" 3
+	variant 18
+		"Iioajpcuaenemie" 3
+		"Ugorzgoeuj" 2
+		"Xogednvoba lmaek" 4
+		"Omiheannet omode" 4
+		"Oikiowaudj" 5
+		"Eddoa wuayrioodn" 2
+	variant 19
+		"Iioajpcuaenemie" 6
+		"Xogednvoba lmaek" 5
+		"Omiheannet omode" 2
+		"Oikiowaudj" 5
+		"Eddoa wuayrioodn" 4
+	variant 10
+		"Iioajpcuaenemie" 6
+		"Liegidejme" 4
+		"Xogednvoba lmaek" 5
+		"Omiheannet omode" 4
+		"Oikiowaudj" 3
+		"Eddoa wuayrioodn" 3
+	variant 5
+		"Iioajpcuaenemie" 3
+		"Ugorzgoeuj" 4
+		"Xogednvoba lmaek" 3
+		"Oikiowaudj" 2
+	variant 18
+		"Iioajpcuaenemie" 6
+		"Xogednvoba lmaek" 4
+		"Oikiowaudj" 2
+		"Eddoa wuayrioodn" 2
+		"Afafd bubai" 4
+	variant 17
+		"Iioajpcuaenemie" 6
+		"Liegidejme" 3
+		"Xogednvoba lmaek" 3
+		"Oikiowaudj" 2
+		"Eddoa wuayrioodn" 4
+		"Afafd bubai" 2
+fleet "Nuadijguji Privateer"
+	government "Nuadijguji"
+	names "Nuadijguji names"
+	personality
+		timid
+	variant 0
+		"Eddoa wuayrioodn" 2
+		"Iioajpcuaenemie" 2
+		"Iioajpcuaenemie" 4
+	variant 8
+		"Eddoa wuayrioodn" 1
+		"Xogednvoba lmaek" 2
+		"Liegidejme" 1
+	variant 14
+		"Eddoa wuayrioodn" 3
+		"Oikiowaudj" 3
+		"Iioajpcuaenemie" 2
+	variant 51
+		"Iioajpcuaenemie" 3
+		"Afafd bubai" 3
+		"Iioajpcuaenemie" 4
+	variant 28
+		"Eddoa wuayrioodn" 2
+		"Iioajpcuaenemie" 1
+		"Xogednvoba lmaek" 1

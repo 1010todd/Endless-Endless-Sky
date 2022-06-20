@@ -1,0 +1,479 @@
+outfit "Iehua Capacitor"
+	category "Power"
+	cost 517600
+	thumbnail "outfit/tiny battery"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 6930
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Jengu Capacitor"
+	category "Power"
+	cost 931700
+	thumbnail "outfit/tiny battery"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 26340
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Johinukzox Capacitor"
+	category "Power"
+	cost 1677100
+	thumbnail "outfit/tiny battery"
+	"mass" 28
+	"outfit space" -28
+	"energy capacity" 100100
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Lanir Capacitor"
+	category "Power"
+	cost 3018800
+	thumbnail "outfit/tiny battery"
+	"mass" 56
+	"outfit space" -56
+	"energy capacity" 380380
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Okzou Capacitor"
+	category "Power"
+	cost 5433900
+	thumbnail "outfit/tiny battery"
+	"mass" 112
+	"outfit space" -112
+	"energy capacity" 1445450
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Ugfal Capacitor"
+	category "Power"
+	cost 9781100
+	thumbnail "outfit/tiny battery"
+	"mass" 224
+	"outfit space" -224
+	"energy capacity" 5492710
+	description "Nuadijguji T3.4 Battery"
+
+outfit "Xukeo Capacitor"
+	category "Power"
+	cost 17606000
+	thumbnail "outfit/tiny battery"
+	"mass" 448
+	"outfit space" -448
+	"energy capacity" 20872300
+	description "Nuadijguji T3.4 Battery"
+
+
+outfit "Efuwi ukrai Core"
+	category "Power"
+	cost 146400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 4.2
+	"heat generation" 8.2
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Qobot Core"
+	category "Power"
+	cost 248900
+	thumbnail "outfit/small fuel cell"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 16.0
+	"heat generation" 19.7
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Uzgmu Core"
+	category "Power"
+	cost 423200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 76
+	"outfit space" -76
+	"energy generation" 60.8
+	"heat generation" 47.3
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Veeghheugj Reactor"
+	category "Power"
+	cost 123100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 4.3
+	"heat generation" 11.5
+	description "Nuadijguji T3.4 Power generator"
+
+
+outfit "Imabg Thruster"
+	category "Engines"
+	cost 4407200
+	thumbnail "outfit/small plasma thruster"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 6.5
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.2
+	"flare sound" "plasma small"
+	description "Nuadijguji T3.4 Thruster"
+
+outfit "Imabg Steering"
+	category "Engines"
+	cost 3018817
+	thumbnail "outfit/tiny ion steering"
+	"mass" 6
+	"outfit space" -6
+	"engine capacity" -6
+	"turn" 174
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Nuadijguji T3.4 steering"
+
+outfit "Moius Thruster"
+	category "Engines"
+	cost 7492300
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 24.7
+	"thrusting energy" 1.1
+	"thrusting heat" 1.5
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1.2
+	"flare sound" "plasma medium"
+	description "Nuadijguji T3.4 Thruster"
+
+outfit "Moius Steering"
+	category "Engines"
+	cost 12737000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 661.2
+	"turning energy" 0.8
+	"turning heat" 1.1
+	description "Nuadijguji T3.4 steering"
+
+outfit "Vowin Thruster"
+	category "Engines"
+	cost 12737000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 58
+	"outfit space" -58
+	"engine capacity" -58
+	"thrust" 93.9
+	"thrusting energy" 4.2
+	"thrusting heat" 5.7
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Nuadijguji T3.4 Thruster"
+
+outfit "Vowin Steering"
+	category "Engines"
+	cost 21652900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"turn" 2512.6
+	"turning energy" 3.0
+	"turning heat" 4.2
+	description "Nuadijguji T3.4 steering"
+
+outfit "Vzoui Thruster"
+	category "Engines"
+	cost 21652900
+	thumbnail "outfit/large plasma thruster"
+	"mass" 139
+	"outfit space" -139
+	"engine capacity" -139
+	"thrust" 356.8
+	"thrusting energy" 16.0
+	"thrusting heat" 21.7
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Nuadijguji T3.4 Thruster"
+
+outfit "Vzoui Steering"
+	category "Engines"
+	cost 36810000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 82
+	"outfit space" -82
+	"engine capacity" -82
+	"turn" 9547.9
+	"turning energy" 11.4
+	"turning heat" 16.0
+	description "Nuadijguji T3.4 steering"
+
+outfit "Xoizoiehao Thruster"
+	category "Engines"
+	cost 36810000
+	thumbnail "outfit/large plasma thruster"
+	"mass" 334
+	"outfit space" -334
+	"engine capacity" -334
+	"thrust" 1355.8
+	"thrusting energy" 60.8
+	"thrusting heat" 82.5
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Nuadijguji T3.4 Thruster"
+
+outfit "Xoizoiehao Steering"
+	category "Engines"
+	cost 62577000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 197
+	"outfit space" -197
+	"engine capacity" -197
+	"turn" 36282.0
+	"turning energy" 43.3
+	"turning heat" 60.8
+	description "Nuadijguji T3.4 steering"
+
+
+outfit "Aidaf Shield Generator"
+	category "Systems"
+	cost 798800
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 1.7
+	"shield energy" 2.97
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+outfit "Cufioyhiio Shield Generator"
+	category "Systems"
+	cost 1437900
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 3.4
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+outfit "Ekiuo Shield Generator"
+	category "Systems"
+	cost 2588300
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 6.8
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+outfit "Ipzod Shield Generator"
+	category "Systems"
+	cost 4659000
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 13.6
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+outfit "Mecuw edouv Shield Generator"
+	category "Systems"
+	cost 8386200
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 27.2
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+outfit "Ukdbi Shield Generator"
+	category "Systems"
+	cost 15095200
+	thumbnail "outfit/huge shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 54.4
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Nuadijguji T3.4 shield gen"
+
+
+outfit "Behef Hull Repair"
+	category "Systems"
+	cost 415200
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"hull repair rate" 1.24
+	"hull energy" 1.54
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+outfit "Kaaij Hull Repair"
+	category "Systems"
+	cost 747400
+	thumbnail "outfit/small shield"
+	"mass" 16
+	"outfit space" -16
+	"hull repair rate" 2.5
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+outfit "Ogcov foamn Hull Repair"
+	category "Systems"
+	cost 1345400
+	thumbnail "outfit/medium shield"
+	"mass" 24
+	"outfit space" -24
+	"hull repair rate" 5.0
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+outfit "Ouajw xeozu Hull Repair"
+	category "Systems"
+	cost 2421800
+	thumbnail "outfit/large shield"
+	"mass" 36
+	"outfit space" -36
+	"hull repair rate" 10.0
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+outfit "Oubyaovgiv Hull Repair"
+	category "Systems"
+	cost 4359300
+	thumbnail "outfit/huge shield"
+	"mass" 54
+	"outfit space" -54
+	"hull repair rate" 20.0
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+outfit "Vawoe Hull Repair"
+	category "Systems"
+	cost 7846800
+	thumbnail "outfit/huge shield"
+	"mass" 81
+	"outfit space" -81
+	"hull repair rate" 40.0
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Nuadijguji T3.4 Hull Repair"
+
+
+outfit "Aeqinbitue Core"
+	category "Power"
+	cost 1367500
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 3.5
+	"heat generation" 10.2
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Braoirafda Core"
+	category "Power"
+	cost 2324800
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 13.3
+	"heat generation" 20.4
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Jdeeauhuxz Core"
+	category "Power"
+	cost 3952200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 50.5
+	"heat generation" 40.8
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Nuouw Core"
+	category "Power"
+	cost 6718800
+	thumbnail "outfit/large fuel cell"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 191.9
+	"heat generation" 81.6
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Ossiruujau Core"
+	category "Power"
+	cost 11422000
+	thumbnail "outfit/huge fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 729.2
+	"heat generation" 163.2
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Xwiro Core"
+	category "Power"
+	cost 19417400
+	thumbnail "outfit/huge fuel cell"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 2771.0
+	"heat generation" 326.4
+	description "Nuadijguji T3.4 Power generator"
+
+
+outfit "Ecxan Cell"
+	category "Power"
+	cost 2731500
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 4.2
+	"heat generation" 12.2
+	description "Nuadijguji T3.4 Power generator"
+
+outfit "Wzeiisaugg Cell"
+	category "Power"
+	cost 4643600
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 16.0
+	"heat generation" 34.2
+	description "Nuadijguji T3.4 Power generator"
+
+
+outfit "Okitk Cooler"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 4
+	"active cooling" 14
+	"cooling energy" 1.4961582142611862
+	description "Nuadijguji T3.4 Cooling"
+
+
+outfit "Ibvoo Temperature Control"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 29
+	"outfit space" -29
+	"active cooling" 299
+	description "Nuadijguji T3.4 Cooling"
+
+

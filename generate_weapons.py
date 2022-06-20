@@ -5,7 +5,7 @@ import os
 from generate_outfits import class_Outfit
 
 import namegenerator
-namegen = namegenerator.Namegenerator()
+#namegen = namegenerator.Namegenerator()
 
 
 def roundup1000(x):
@@ -76,6 +76,8 @@ class class_Weapon(class_Outfit):
 
 def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, weapon_max_outfit = 80):
     
+    namegen = namegenerator.Namegenerator(faction)
+
     projectile_list = os.listdir("images/projectile")
     projectile_list = [f.removesuffix(".png") for f in projectile_list]
 

@@ -1,0 +1,131 @@
+outfit "Ouc Anti-Missile"
+	category "Turrets"
+	cost 9247104100
+	thumbnail "outfit/pug anti-missile"
+	"mass" 71
+	"outfit space" -71
+	"weapon capacity" -71
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 12.4
+		"velocity" 360
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 23.7
+		"firing heat" 3.7
+	description "Gli uue T3.7 Anti-missile"
+
+outfit "Arb Rocket"
+	category "Ammunition"
+	cost 10506110086
+	thumbnail "outfit/torpedo"
+	"mass" 0.05
+	"Arb Rocket capacity" -1
+	description "Gli uue Missile"
+
+outfit "Arb Rocket Storage
+	category "Ammunition"
+	cost 52812012423
+	thumbnail "outfit/torpedo storage"
+	"mass" 2
+	"outfit space" -2
+	"Arb Rocket capacity" 40
+	ammo "Arb Rocket"
+	description "Arb Rocket Storage"
+
+outfit "Arb Rocket Deployer"
+	category "Secondary Weapons"
+	cost 51598505200
+	thumbnail "outfit/torpedo launcher"
+	"mass" 2
+	"outfit space" -66
+	"weapon capacity" -66
+	"gun ports" -1
+	"Arb Rocket capacity" 40
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Arb Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.3
+		"velocity" 28
+		"lifetime" 400
+		"reload" 1
+		"firing energy" 77.7
+		"firing heat" 35.5
+		"acceleration" 1.2
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 158.5
+		"hull damage" 74.2
+		"hit force" 18
+		"heat damage" 50.9
+		"energy damage" 50.9
+		"ion damage" 50.9
+		"disruption damage" 50.9
+		"missile strength" 104.5
+	description "Gli uue T3.7 Missile weapon"
+
+outfit "Kig Torpedo"
+	category "Ammunition"
+	cost 18131089065
+	thumbnail "outfit/torpedo"
+	"mass" 0.1
+	"Kig Torpedo capacity" -1
+	description "Gli uue Missile"
+
+outfit "Kig Torpedo Storage
+	category "Ammunition"
+	cost 134953548006
+	thumbnail "outfit/torpedo storage"
+	"mass" 1
+	"outfit space" -2
+	"Kig Torpedo capacity" 20
+	ammo "Kig Torpedo"
+	description "Kig Torpedo Storage"
+
+outfit "Kig Torpedo Tube"
+	category "Secondary Weapons"
+	cost 83125149700
+	thumbnail "outfit/torpedo launcher"
+	"mass" 1
+	"outfit space" -62
+	"weapon capacity" -62
+	"gun ports" -1
+	"Kig Torpedo capacity" 20
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Kig Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.0
+		"velocity" 15
+		"lifetime" 1100
+		"reload" 1
+		"firing energy" 8.2
+		"firing heat" 14.1
+		"acceleration" 0.7
+		"drag" 0.1
+		"turn" 75.3
+		"homing" 2
+		"radar tracking" 0.43
+		"shield damage" 32.8
+		"hull damage" 100.7
+		"missile strength" 62.1
+	description "Gli uue T3.7 Missile weapon"
+

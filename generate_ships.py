@@ -9,7 +9,7 @@ import generate_sprite_ship_PIL
 import generate_weapons
 import generate_outfits
 import namegenerator
-namegen = namegenerator.Namegenerator()
+
 
 from struct import unpack
 
@@ -749,7 +749,7 @@ def identify_category(sprite):
     return guessed_category
 #Ships
 def create_ship(faction): #Todo, option for without faction?
-    
+    namegen = namegenerator.Namegenerator(faction)
     call_generate_sprite = False
     #Load images.
     interceptor_sprites = []

@@ -365,7 +365,6 @@ def place_parts(core_img,
         #place in pairs
         i = 0
         while count > 1:
-            print(f"pair{count}")
             #Randomized Pos
             #clustermode will place parts within area of previous part.
             if len(newboundmin) == 0 or not clustermode:
@@ -461,7 +460,6 @@ def place_parts(core_img,
 
         #place single in the middle
         if count == 1:
-            print(f"sing{count}")
             randX = centW
             if len(newboundmin) == 0 or not clustermode:
                 rYmin = round(boundmin[1])
@@ -471,7 +469,7 @@ def place_parts(core_img,
                 canvasmax = (core_img.size[0])-part_size[0][1]*.5
                 rposmin = max(rYmin,canvasmin)
                 rposmax = min(rYmax,canvasmax)
-                randY = random.randrange(round(rposmin),round(rposmax))
+                randY = random.randrange(round(rYmin),round(rYmax))
             else:
                 #partlistuni should've been shuffled already, so should still be random.
                 part,part_size,rYmin,rYmax = get_part_pos(partlistuni,newboundmin,newboundmax,'y',part,part_size,uniMode=True,core_img=core_img)
@@ -607,7 +605,7 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     #patternformat = [[OriginXY],[TranslationXY],...] in sprite size ratio. TODO: Turn into a function.
     #pattern_Hline = [[0,0],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]
     # 
-    stacktype = 99
+    stacktype = 2
     if stacktype == 1: #Decent without clustermode.
         new_img,bounddict = place_parts(new_img,part_list,count=4,part_type='engine')
         new_img,bounddict = place_parts(new_img,part_list,count=1,part_type='core',bounddict=bounddict)
@@ -690,7 +688,7 @@ elif TestMode:
 
 def call_generate_sprite(faction,category,name,gun,turret):
     if faction.devmode:
-        random.seed(99)
+        random.seed(faction.devmodeseed)
     gunlistx = []
     gunlisty = []
     turlistx = []

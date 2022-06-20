@@ -1,0 +1,505 @@
+ship "Riqaaaufea"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 264865000
+		"shields" 771500
+		"hull" 2732300
+		"required crew" 8
+		"bunks" 26
+		"mass" 406.4
+		"drag" 8.26
+		"heat dissipation" 0.75
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 690
+		"weapon capacity" 220
+		"engine capacity" 220
+		weapon 
+			"blast radius" 35038
+			"shield damage" 350380
+			"hull damage" 175190
+			"hit force" 525570
+	outfits 
+		"Uaool Rocket Tube" 3
+		"Uaool Rocket" 150
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 2
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Njueo rogub Thruster" 1
+		"Njueo rogub Steering" 1
+		"Jeryegagye Core" 1
+		"Ebtou Generator" 1
+		"Teuoe Generator" 1
+		"Xuopc Generator" 1
+		"Oeefb Cooling" 1
+		"Hyperdrive"
+	engine 0 64.9
+	gun 3.1 -73.9
+	gun 3.0 -78.4
+	gun -3.0 -78.4
+	turret 5.0 -49.0
+	turret 2.8 -48.2
+	turret -2.8 -48.2
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Iqexolnoja"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 2408274000
+		"shields" 1820300
+		"hull" 6446500
+		"required crew" 36
+		"bunks" 120
+		"mass" 1046.6
+		"drag" 22.97
+		"heat dissipation" 0.83
+		"fuel capacity" 800
+		"cargo space" 130
+		"outfit space" 1060
+		"weapon capacity" 380
+		"engine capacity" 280
+		weapon 
+			"blast radius" 82668
+			"shield damage" 826680
+			"hull damage" 413340
+			"hit force" 1240020
+	outfits 
+		"Uaool Rocket Tube" 4
+		"Uaool Rocket" 200
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 2
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Njueo rogub Thruster" 1
+		"Njueo rogub Steering" 1
+		"Jeryegagye Core" 1
+		"Ebtou Generator" 1
+		"Teuoe Generator" 1
+		"Xuopc Generator" 1
+		"Oeefb Cooling" 1
+		"Hyperdrive"
+	engine 0 306.5
+	gun 1.7 -290.4
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	gun 82.0 -13.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	turret -70.0 153.0
+	turret 70.0 153.0
+	turret -70.0 223.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Ebmue diibi"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 2896535000
+		"shields" 2111300
+		"hull" 7477300
+		"required crew" 79
+		"bunks" 131
+		"mass" 901.2
+		"drag" 17.45
+		"heat dissipation" 0.52
+		"fuel capacity" 3000
+		"cargo space" 110
+		"outfit space" 1240
+		"weapon capacity" 500
+		"engine capacity" 330
+		weapon 
+			"blast radius" 95886
+			"shield damage" 958860
+			"hull damage" 479430
+			"hit force" 1438290
+	outfits 
+		"Uaool Rocket Tube" 3
+		"Uaool Rocket" 150
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 3
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Uuoueicuqi Thruster" 1
+		"Uuoueicuqi Steering" 1
+		"Jeryegagye Core" 2
+		"Ebtou Generator" 2
+		"Teuoe Generator" 2
+		"Xuopc Generator" 2
+		"Oeefb Cooling" 2
+		"Hyperdrive"
+	engine 0 302.4
+	gun 82.0 -13.0
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Aszaoxmeeo"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 112218000
+		"shields" 272400
+		"hull" 964500
+		"required crew" 8
+		"bunks" 34
+		"mass" 148.6
+		"drag" 2.97
+		"heat dissipation" 0.6
+		"fuel capacity" 1500
+		"cargo space" 20
+		"outfit space" 170
+		"weapon capacity" 80
+		"engine capacity" 50
+		weapon 
+			"blast radius" 12369
+			"shield damage" 123690
+			"hull damage" 61850
+			"hit force" 185540
+	outfits 
+		"Uaool Rocket Tube" 1
+		"Uaool Rocket" 50
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Eutua Thruster" 1
+		"Eutua Steering" 1
+		"Tuboloeujy Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 42.9
+	gun 4.6 -37.9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Mporadveog T4.8 ship"
+
+ship "Cdireolotu"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 458704000
+		"shields" 443100
+		"hull" 1569300
+		"required crew" 93
+		"bunks" 155
+		"mass" 1130.0
+		"drag" 22.53
+		"heat dissipation" 0.9
+		"fuel capacity" 3200
+		"cargo space" 545
+		"outfit space" 1930
+		"weapon capacity" 660
+		"engine capacity" 650
+		weapon 
+			"blast radius" 20124
+			"shield damage" 201240
+			"hull damage" 100620
+			"hit force" 301860
+	outfits 
+		"Uaool Rocket Tube" 2
+		"Uaool Rocket" 100
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 3
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Uuoueicuqi Thruster" 1
+		"Uuoueicuqi Steering" 1
+		"Jeryegagye Core" 2
+		"Ebtou Generator" 2
+		"Teuoe Generator" 2
+		"Xuopc Generator" 2
+		"Oeefb Cooling" 1
+		"Ixten Cooling" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	gun -15.5 -402.5
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	turret 42.5 -361.0
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Kyeia yeaokdtuae"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 303346000
+		"shields" 168700
+		"hull" 597400
+		"required crew" 9
+		"bunks" 86
+		"mass" 199.6
+		"drag" 3.82
+		"heat dissipation" 0.67
+		"fuel capacity" 800
+		"cargo space" 25
+		"outfit space" 280
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 7661
+			"shield damage" 76610
+			"hull damage" 38310
+			"hit force" 114920
+	outfits 
+		"Uaool Rocket Tube" 1
+		"Uaool Rocket" 50
+		"Aloio Core" 2
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Kavau Thruster" 1
+		"Kavau Steering" 1
+		"Oeefb Cooling" 1
+		"Hyperdrive"
+	engine 0 42.7
+	gun 4.4 -45.4
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Mporadveog T4.8 ship"
+
+ship "Eynaemooqi"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 285685000
+		"shields" 336100
+		"hull" 1190200
+		"required crew" 9
+		"bunks" 29
+		"mass" 251.0
+		"drag" 5.12
+		"heat dissipation" 0.7
+		"fuel capacity" 1100
+		"cargo space" 35
+		"outfit space" 400
+		"weapon capacity" 130
+		"engine capacity" 110
+		weapon 
+			"blast radius" 15263
+			"shield damage" 152630
+			"hull damage" 76320
+			"hit force" 228950
+	outfits 
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 2
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Kavau Thruster" 1
+		"Kavau Steering" 1
+		"Jeryegagye Core" 1
+		"Oeefb Cooling" 1
+		"Hyperdrive"
+	engine 0 41.9
+	turret 0.6 -9.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Cutee igdoeonioi"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 187197000
+		"shields" 332000
+		"hull" 1175800
+		"required crew" 1
+		"bunks" 13
+		"mass" 52.6
+		"drag" 1.05
+		"heat dissipation" 1.04
+		"fuel capacity" 2700
+		"cargo space" 10
+		"outfit space" 110
+		"weapon capacity" 40
+		"engine capacity" 30
+		weapon 
+			"blast radius" 15078
+			"shield damage" 150780
+			"hull damage" 75390
+			"hit force" 226170
+	outfits 
+		"Avkoi Anti-Missile" 1
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Ayooe Thruster" 1
+		"Ayooe Steering" 1
+		"Hyperdrive"
+	engine 0 43.8
+	turret 4.5 -38.3
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Mporadveog T4.8 ship"
+
+ship "Aoaooedoijtmeiu"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 549102000
+		"shields" 885300
+		"hull" 3135200
+		"required crew" 36
+		"bunks" 119
+		"mass" 845.0
+		"drag" 17.55
+		"heat dissipation" 0.84
+		"fuel capacity" 2900
+		"cargo space" 410
+		"outfit space" 1690
+		"weapon capacity" 660
+		"engine capacity" 490
+		weapon 
+			"blast radius" 40205
+			"shield damage" 402050
+			"hull damage" 201030
+			"hit force" 603080
+	outfits 
+		"Uaool Rocket Tube" 1
+		"Uaool Rocket" 50
+		"Avkoi Anti-Missile" 1
+		"Aloio Core" 3
+		"Eoqin pueyi Battery" 1
+		"Ceuafouuqh Shield Rejuvenator" 1
+		"Uuoueicuqi Thruster" 1
+		"Uuoueicuqi Steering" 1
+		"Jeryegagye Core" 2
+		"Ebtou Generator" 2
+		"Teuoe Generator" 2
+		"Xuopc Generator" 2
+		"Oeefb Cooling" 1
+		"Ixten Cooling" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	turret 155.0 213.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Mporadveog T4.8 ship"
+
+ship "Xociu iteox"
+	sprite "ship/combat drone"
+	thumbnail "thumbnail/combat drone"
+	attributes 
+		category "Drone"
+		"cost" 45234000
+		"shields" 86900
+		"hull" 307600
+		"required crew" 2
+		"bunks" 4
+		"mass" 69.4
+		"drag" 1.41
+		"heat dissipation" 0.96
+		"fuel capacity" 2900
+		"cargo space" 10
+		"outfit space" 120
+		"weapon capacity" 80
+		"engine capacity" 40
+		weapon 
+			"blast radius" 3945
+			"shield damage" 39450
+			"hull damage" 19730
+			"hit force" 59180
+	outfits 
+		"Uaool Rocket Tube" 1
+		"Uaool Rocket" 50
+		"Eoqin pueyi Battery" 1
+		"Iyxzi Shield Rejuvenator" 1
+		"Eutua Thruster" 1
+		"Eutua Steering" 1
+		"Takiivuqqa Cooling" 1
+		"Hyperdrive"
+	engine 0 40.5
+	gun 4.3 -43.7
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Mporadveog T4.8 ship"
+

@@ -1,0 +1,16 @@
+government "Oojqu oinap"
+	"display name" "Oojqu oinap"
+	"swizzle" 21
+	"color" 0.611 0.015 0.048 0.355
+	"player reputation" 0
+	"crew attack" 8.2
+	"crew defense" 30.5
+	"attitude toward"
+		"Laakaz" 0
+		"Mporadveog" -1
+		"Avkuzfqe" -1
+		"Peakeain" 0
+		"Aosmaq" -1
+		"Gli uue" 0
+		"Nuadijguji" 0
+		"Fah uhr" -1

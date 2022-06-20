@@ -1,0 +1,356 @@
+ship "Nos coz wit"
+	sprite "ship/Gli uue/Nos coz wit"
+	attributes 
+		category "Medium Warship"
+		"cost" 251444000
+		"shields" 259000
+		"hull" 396000
+		"required crew" 39
+		"bunks" 78
+		"mass" 506.4
+		"drag" 8.97
+		"heat dissipation" 0.56
+		"fuel capacity" 2600
+		"cargo space" 65
+		"outfit space" 1029
+		"weapon capacity" 374
+		"engine capacity" 320
+		weapon 
+			"blast radius" 6550
+			"shield damage" 65500
+			"hull damage" 32750
+			"hit force" 98250
+	outfits 
+		"Bea twu Shield Rejuvenator" 1
+		"Ane Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Arb Rocket Deployer" 4
+		"Arb Rocket" 160
+		"Mca gio Thruster" 1
+		"Mca gio Steering" 1
+		"Uio moe Cell" 1
+		"Iza Thruster" 1
+		"Iza Steering" 1
+		"Hau jac Generator" 1
+		"Hyperdrive"
+	engine 0 42.4
+	gun 118 90
+	gun 150 53
+	gun 95 53
+	gun 127 90
+	turret 124 61
+	turret 158 98
+	turret 83 98
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Gli uue T3.7 ship"
+
+ship "Hmu guu azo"
+	sprite "ship/Gli uue/Hmu guu azo"
+	attributes 
+		category "Interceptor"
+		"cost" 27371000
+		"shields" 39000
+		"hull" 59600
+		"required crew" 5
+		"bunks" 10
+		"mass" 78.0
+		"drag" 1.55
+		"heat dissipation" 0.8400000000000001
+		"fuel capacity" 2700
+		"cargo space" 10
+		"outfit space" 260
+		"weapon capacity" 66
+		"engine capacity" 50
+		weapon 
+			"blast radius" 986
+			"shield damage" 9860
+			"hull damage" 4930
+			"hit force" 14790
+	outfits 
+		"Aua wwi Battery" 1
+		"Dvinib Shield Rejuvenator" 1
+		"Arb Rocket Deployer" 1
+		"Arb Rocket" 40
+		"Bir Thruster" 1
+		"Bir Steering" 1
+		"Gij Cooler" 1
+		"Hyperdrive"
+	engine 0 41.5
+	gun 59 78
+	gun 69 37
+	gun 46 37
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Gli uue T3.7 ship"
+
+ship "Uvuervicp"
+	sprite "ship/Gli uue/Uvuervicp"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 204286000
+		"shields" 277900
+		"hull" 424900
+		"required crew" 36
+		"bunks" 73
+		"mass" 838.8
+		"drag" 16.26
+		"heat dissipation" 0.58
+		"fuel capacity" 2800
+		"cargo space" 405
+		"outfit space" 1407
+		"weapon capacity" 517
+		"engine capacity" 350
+		weapon 
+			"blast radius" 7028
+			"shield damage" 70280
+			"hull damage" 35140
+			"hit force" 105420
+	outfits 
+		"Bea twu Shield Rejuvenator" 1
+		"Ane Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Arb Rocket Deployer" 1
+		"Arb Rocket" 40
+		"Kig Torpedo Tube" 1
+		"Kig Torpedo" 20
+		"Mca gio Thruster" 1
+		"Mca gio Steering" 1
+		"Uio moe Cell" 1
+		"Ewg Reactor" 1
+		"Iza Thruster" 1
+		"Iza Steering" 1
+		"Kya Generator" 1
+		"Gic Cooler" 1
+		"Hyperdrive"
+	engine 0 44.9
+	gun 62 35
+	gun 143 35
+	turret 104 127
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Gli uue T3.7 ship"
+
+ship "Wie ieoiyo"
+	sprite "ship/Gli uue/Wie ieoiyo"
+	attributes 
+		category "Light Freighter"
+		"cost" 18411000
+		"shields" 43900
+		"hull" 67100
+		"required crew" 4
+		"bunks" 14
+		"mass" 217.2
+		"drag" 4.46
+		"heat dissipation" 0.64
+		"fuel capacity" 2400
+		"cargo space" 70
+		"outfit space" 430
+		"weapon capacity" 154
+		"engine capacity" 120
+		weapon 
+			"blast radius" 1110
+			"shield damage" 11100
+			"hull damage" 5550
+			"hit force" 16650
+	outfits 
+		"Bea twu Shield Rejuvenator" 1
+		"Awe Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Arb Rocket Deployer" 1
+		"Arb Rocket" 40
+		"Iza Thruster" 1
+		"Iza Steering" 1
+		"Itd Thruster" 1
+		"Itd Steering" 1
+		"Eqz Reactor" 1
+		"Rez uxz Temperature Control" 1
+		"Hyperdrive"
+	engine 0 44.8
+	gun 3 42
+	gun 100 76
+	gun 41 76
+	gun 138 42
+	turret 72 25
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Gli uue T3.7 ship"
+
+ship "Iru ema cua"
+	sprite "ship/Gli uue/Iru ema cua"
+	attributes 
+		category "Medium Warship"
+		"cost" 146029000
+		"shields" 311600
+		"hull" 476400
+		"required crew" 8
+		"bunks" 25
+		"mass" 378.6
+		"drag" 7.76
+		"heat dissipation" 0.65
+		"fuel capacity" 1900
+		"cargo space" 50
+		"outfit space" 651
+		"weapon capacity" 253
+		"engine capacity" 180
+		weapon 
+			"blast radius" 7880
+			"shield damage" 78800
+			"hull damage" 39400
+			"hit force" 118200
+	outfits 
+		"Bea twu Shield Rejuvenator" 1
+		"Ane Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Arb Rocket Deployer" 1
+		"Arb Rocket" 40
+		"Kig Torpedo Tube" 1
+		"Kig Torpedo" 20
+		"Iza Thruster" 1
+		"Iza Steering" 1
+		"Itd Thruster" 1
+		"Itd Steering" 1
+		"Hyperdrive"
+	engine 0 41.5
+	gun 108 82
+	gun 142 70
+	gun 71 70
+	turret 87 155
+	turret 175 77
+	turret 33 77
+	turret 121 155
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Gli uue T3.7 ship"
+
+ship "Veo urg"
+	sprite "ship/Gli uue/Veo urg"
+	attributes 
+		category "Medium Warship"
+		"cost" 42233000
+		"shields" 351200
+		"hull" 537000
+		"required crew" 28
+		"bunks" 47
+		"mass" 423.2
+		"drag" 8.57
+		"heat dissipation" 0.62
+		"fuel capacity" 2700
+		"cargo space" 55
+		"outfit space" 788
+		"weapon capacity" 319
+		"engine capacity" 240
+		weapon 
+			"blast radius" 8882
+			"shield damage" 88820
+			"hull damage" 44410
+			"hit force" 133230
+	outfits 
+		"Aua wwi Battery" 1
+		"Bea twu Shield Rejuvenator" 1
+		"Ane Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Arb Rocket Deployer" 2
+		"Arb Rocket" 80
+		"Kig Torpedo Tube" 1
+		"Kig Torpedo" 20
+		"Iza Thruster" 1
+		"Iza Steering" 1
+		"Ocu Heat Pump" 2
+		"Dis Heatsink" 1
+		"Hyperdrive"
+	engine 0 43.0
+	gun 125 73
+	gun 152 63
+	gun 95 63
+	turret 125 95
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Gli uue T3.7 ship"
+
+ship "Lio doo"
+	sprite "ship/Gli uue/Lio doo"
+	attributes 
+		category "Fighter"
+		"cost" 14181000
+		"shields" 28700
+		"hull" 43900
+		"required crew" 1
+		"bunks" 3
+		"mass" 49.2
+		"drag" 1.01
+		"heat dissipation" 1.09
+		"fuel capacity" 2700
+		"cargo space" 10
+		"outfit space" 500
+		"weapon capacity" 80
+		"engine capacity" 30
+		weapon 
+			"blast radius" 726
+			"shield damage" 7260
+			"hull damage" 3630
+			"hit force" 10890
+	outfits 
+		"Aua wwi Battery" 1
+		"Bea twu Shield Rejuvenator" 1
+		"Ane Hull Reconstructor" 1
+		"Ouc Anti-Missile" 1
+		"Bir Thruster" 1
+		"Bir Steering" 1
+		"Yentok Heat Shunt" 2
+		"Hyperdrive"
+	engine 0 43.2
+	gun 18 27
+	gun 60 17
+	gun 17 17
+	gun 62 31
+	gun 15 31
+	gun 59 27
+	turret 40 47
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Gli uue T3.7 ship"
+

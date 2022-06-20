@@ -13,13 +13,13 @@ try:
 except ModuleNotFoundError:
     print("Python Pillow library is not installed! Sprite generation disabled.")
     noPIL = True
-#Have to be in this order to work, most function depends on ones above
 
+DEVMODE = False #Broken, don't use
 #for n in range(50): #for testing
 
-government_list = generate_faction.create_faction(noPIL)
+government_list = generate_faction.create_faction(noPIL,devmode=DEVMODE)
 generate_faction.generategovernmentRelations(government_list)
-
+#Have to be in this order to work, most function depends on ones above
 for faction in government_list: 
     generate_outfits.load_custom_configs(faction)
     generate_weapons.create_weapon(faction)

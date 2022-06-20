@@ -1,0 +1,3455 @@
+outfit "Atc Capacitor"
+	category "Power"
+	cost 603500
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 6120
+	description "Fah uhr T4.6 Battery"
+
+outfit "Awi aao Capacitor"
+	category "Power"
+	cost 1086300
+	thumbnail "outfit/tiny battery"
+	"mass" 13
+	"outfit space" -13
+	"energy capacity" 30600
+	description "Fah uhr T4.6 Battery"
+
+outfit "Oeooaw Capacitor"
+	category "Power"
+	cost 1955400
+	thumbnail "outfit/tiny battery"
+	"mass" 29
+	"outfit space" -29
+	"energy capacity" 153000
+	description "Fah uhr T4.6 Battery"
+
+outfit "Zahood Capacitor"
+	category "Power"
+	cost 3519800
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 765000
+	description "Fah uhr T4.6 Battery"
+
+
+outfit "Epd yoe Generator"
+	category "Power"
+	cost 466800
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 5.1
+	"heat generation" 11.6
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Oio Generator"
+	category "Power"
+	cost 793600
+	thumbnail "outfit/small fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 25.5
+	"heat generation" 32.5
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Pee Generator"
+	category "Power"
+	cost 1349200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 127.5
+	"heat generation" 91.0
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Eco Reactor"
+	category "Power"
+	cost 369200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 5.4
+	"heat generation" 5.4
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Eur opu Reactor"
+	category "Power"
+	cost 627700
+	thumbnail "outfit/small fuel cell"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 27.0
+	"heat generation" 14.0
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Jie Reactor"
+	category "Power"
+	cost 1067100
+	thumbnail "outfit/medium fuel cell"
+	"mass" 57
+	"outfit space" -57
+	"energy generation" 135.0
+	"heat generation" 36.4
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Eoi etl Reactor"
+	category "Power"
+	cost 145700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 5.7
+	"heat generation" 10.6
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Weaowa Reactor"
+	category "Power"
+	cost 247700
+	thumbnail "outfit/small fuel cell"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 28.5
+	"heat generation" 17.0
+	description "Fah uhr T4.6 Power generator"
+
+
+outfit "Damuie Thruster"
+	category "Engines"
+	cost 2678800
+	thumbnail "outfit/small ion thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 6.4
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "Fah uhr T4.6 Thruster"
+
+outfit "Damuie Steering"
+	category "Engines"
+	cost 1906212
+	thumbnail "outfit/tiny ion steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 166
+	"turning energy" 0.1
+	"turning heat" 0.2
+	description "Fah uhr T4.6 steering"
+
+outfit "Gvi Thruster"
+	category "Engines"
+	cost 4554000
+	thumbnail "outfit/medium ion thruster"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 32.0
+	"thrusting energy" 1.0
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ion medium"
+	description "Fah uhr T4.6 Thruster"
+
+outfit "Gvi Steering"
+	category "Engines"
+	cost 7741800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"turn" 830.0
+	"turning energy" 0.5
+	"turning heat" 1.0
+	description "Fah uhr T4.6 steering"
+
+outfit "Izb Thruster"
+	category "Engines"
+	cost 7741800
+	thumbnail "outfit/large ion thruster"
+	"mass" 72
+	"outfit space" -72
+	"engine capacity" -72
+	"thrust" 160.0
+	"thrusting energy" 5.0
+	"thrusting heat" 7.5
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fah uhr T4.6 Thruster"
+
+outfit "Izb Steering"
+	category "Engines"
+	cost 13161100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"turn" 4150.0
+	"turning energy" 2.5
+	"turning heat" 5.0
+	description "Fah uhr T4.6 steering"
+
+outfit "Jif oey Thruster"
+	category "Engines"
+	cost 13161100
+	thumbnail "outfit/large ion thruster"
+	"mass" 144
+	"outfit space" -144
+	"engine capacity" -144
+	"thrust" 800.0
+	"thrusting energy" 25.0
+	"thrusting heat" 37.5
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fah uhr T4.6 Thruster"
+
+outfit "Jif oey Steering"
+	category "Engines"
+	cost 22373900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 96
+	"outfit space" -96
+	"engine capacity" -96
+	"turn" 20750.0
+	"turning energy" 12.5
+	"turning heat" 25.0
+	description "Fah uhr T4.6 steering"
+
+
+outfit "Aiz Shield Rejuvenator"
+	category "Systems"
+	cost 780500
+	thumbnail "outfit/tiny shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 2.64
+	"shield energy" 4.32
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Ayv dab Shield Rejuvenator"
+	category "Systems"
+	cost 1404900
+	thumbnail "outfit/small shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 5.3
+	"shield energy" 3.5
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Ffo Shield Rejuvenator"
+	category "Systems"
+	cost 2528900
+	thumbnail "outfit/medium shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 10.6
+	"shield energy" 2.8
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Neapoi Shield Rejuvenator"
+	category "Systems"
+	cost 4552100
+	thumbnail "outfit/large shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 21.2
+	"shield energy" 2.2
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Onu Shield Rejuvenator"
+	category "Systems"
+	cost 8193800
+	thumbnail "outfit/huge shield"
+	"mass" 72
+	"outfit space" -72
+	"shield generation" 42.4
+	"shield energy" 1.8
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Paj Shield Rejuvenator"
+	category "Systems"
+	cost 14748900
+	thumbnail "outfit/huge shield"
+	"mass" 108
+	"outfit space" -108
+	"shield generation" 84.8
+	"shield energy" 1.4
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Pua Shield Rejuvenator"
+	category "Systems"
+	cost 26548100
+	thumbnail "outfit/huge shield"
+	"mass" 162
+	"outfit space" -162
+	"shield generation" 169.6
+	"shield energy" 1.1
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Too Shield Rejuvenator"
+	category "Systems"
+	cost 47786600
+	thumbnail "outfit/huge shield"
+	"mass" 243
+	"outfit space" -243
+	"shield generation" 339.2
+	"shield energy" 0.9
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+outfit "Urh Shield Rejuvenator"
+	category "Systems"
+	cost 86015900
+	thumbnail "outfit/huge shield"
+	"mass" 364
+	"outfit space" -364
+	"shield generation" 678.4
+	"shield energy" 0.7
+	"shield heat" 5
+	description "Fah uhr T4.6 shield gen"
+
+
+
+outfit "Ecr Cell"
+	category "Power"
+	cost 4400300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 5.1
+	"heat generation" 9.3
+	description "Fah uhr T4.6 Power generator"
+
+outfit "Eoh Cell"
+	category "Power"
+	cost 7480600
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 25.5
+	"heat generation" 24.2
+	description "Fah uhr T4.6 Power generator"
+
+
+outfit "Nnoyze Temperature Control"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 11
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Akr coi Heatsink"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 30
+	"active cooling" 34
+	"cooling energy" 9.968386347020704
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bue Cooling"
+	category "Systems"
+	cost 17100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 41
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bvubpx Temperature Control"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iuu aou Heatsink"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 38
+	"active cooling" 191
+	"cooling energy" 10.947847680657098
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ouz nub Cooler"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 26
+	"active cooling" 6
+	"cooling energy" 11.730856170080116
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aco Cooling"
+	category "Systems"
+	cost 19400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 32
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rii hoe Cooling"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sae Heatsink"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/cooling module"
+	"mass" 15
+	"outfit space" -15
+	"active cooling" 145
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wxa Heat Shunt"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/small heat shunt"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pbe Heat Pump"
+	category "Systems"
+	cost 23500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 27
+	"active cooling" 64
+	"cooling energy" 13.137716384886666
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ooi Cooling"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 40
+	"active cooling" 63
+	"cooling energy" 18.392400780259102
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zif Temperature Control"
+	category "Systems"
+	cost 23300
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wua Temperature Control"
+	category "Systems"
+	cost 24200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rli Temperature Control"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Afo Cooling"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 34
+	"active cooling" 49
+	"cooling energy" 14.521574838319697
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Xui Temperature Control"
+	category "Systems"
+	cost 13900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hia Temperature Control"
+	category "Systems"
+	cost 23700
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"active cooling" 178
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ige Heat Pump"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 41
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fep Heat Shunt"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 39
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ehu Heat Pump"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 43
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Jofora Heat Pump"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ueuitb Cooling"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 32
+	"active cooling" 58
+	"cooling energy" 14.933258635248523
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ufu nho Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uma Cooler"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ivoahb Cooler"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 9
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Arcpiu Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iem Temperature Control"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 32
+	"active cooling" 32
+	"cooling energy" 14.942251973318434
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hoz Heat Pump"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 34
+	"active cooling" 31
+	"cooling energy" 11.386303279791475
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Coz Cooling"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bou Cooler"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Waoefd Heat Pump"
+	category "Systems"
+	cost 17600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pnuiau Heatsink"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 69
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Epe Cooling"
+	category "Systems"
+	cost 16900
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 28
+	"active cooling" 30
+	"cooling energy" 10.92123168903329
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nia Heatsink"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hof idf Temperature Control"
+	category "Systems"
+	cost 20600
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 41
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ird Cooler"
+	category "Systems"
+	cost 12300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oii fup Cooler"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 43
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sis Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 90
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eux Temperature Control"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wui Cooling"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 51
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Odp ina Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 43
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sapujk Cooling"
+	category "Systems"
+	cost 12700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eou Cooler"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 38
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Atu Heatsink"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 41
+	"active cooling" 92
+	"cooling energy" 18.814700340123608
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Kaoiuj Cooling"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Xeo Cooler"
+	category "Systems"
+	cost 22300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 42
+	"active cooling" 77
+	"cooling energy" 15.101028902655868
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hau ufu Temperature Control"
+	category "Systems"
+	cost 23300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ruhaoy Temperature Control"
+	category "Systems"
+	cost 12100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iez Temperature Control"
+	category "Systems"
+	cost 18800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 42
+	"active cooling" 196
+	"cooling energy" 14.346139740417565
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ibruri Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 75
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fua aee Cooling"
+	category "Systems"
+	cost 21800
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Geb Heat Pump"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ear Heat Pump"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Usf Heat Pump"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Juwlie Heat Pump"
+	category "Systems"
+	cost 19600
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cfo ubp Cooler"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aplezo Heat Pump"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 36
+	"active cooling" 204
+	"cooling energy" 13.778324664103042
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yni joh Heat Pump"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eud Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 31
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Jfi Cooler"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ham dob Cooler"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sey pih Heat Pump"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 133
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ryu yoi Cooler"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 41
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uyf Cooling"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 56
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ufu Heat Shunt"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 3
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Kdatnu Heat Shunt"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Efu Cooler"
+	category "Systems"
+	cost 22900
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"active cooling" 140
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Poe Heat Pump"
+	category "Systems"
+	cost 13900
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 32
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zbe Cooling"
+	category "Systems"
+	cost 18100
+	thumbnail "outfit/water cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ilb Cooler"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "May vez Temperature Control"
+	category "Systems"
+	cost 24100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Woeemp Heat Pump"
+	category "Systems"
+	cost 11700
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yue Heatsink"
+	category "Systems"
+	cost 17100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 38
+	"active cooling" 155
+	"cooling energy" 21.174448226581514
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Dhu esa Cooler"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 185
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yia Cooling"
+	category "Systems"
+	cost 15700
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 25
+	"active cooling" 101
+	"cooling energy" 11.856269196443076
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rleciu Cooler"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Lka Heat Shunt"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Judade Heat Shunt"
+	category "Systems"
+	cost 18200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 41
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Reuopz Heat Pump"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Caxuyu Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 35
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Edu Heat Pump"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iaz Temperature Control"
+	category "Systems"
+	cost 20200
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wowapo Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eei Cooling"
+	category "Systems"
+	cost 22900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Gue Cooler"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 121
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Foa Temperature Control"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zeo Temperature Control"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 40
+	"active cooling" 31
+	"cooling energy" 17.86294234764323
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ouu Heat Shunt"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Har vee Heatsink"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 38
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zzo Heatsink"
+	category "Systems"
+	cost 14700
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 39
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wyo Cooling"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ewgrie Heat Shunt"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Puc Cooler"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 35
+	"active cooling" 45
+	"cooling energy" 21.272826252091676
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nap Cooler"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 35
+	"active cooling" 38
+	"cooling energy" 16.418459261053563
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rap Cooler"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 27
+	"active cooling" 65
+	"cooling energy" 11.07319140456562
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zevwia Cooling"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 42
+	"active cooling" 75
+	"cooling energy" 22.97878683824761
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uuy Temperature Control"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Jea Temperature Control"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eeccup Cooling"
+	category "Systems"
+	cost 24900
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 25
+	"active cooling" 18
+	"cooling energy" 8.737051095620831
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uhg Cooling"
+	category "Systems"
+	cost 20900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 225
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nei Heat Shunt"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 27
+	"active cooling" 22
+	"cooling energy" 13.933688044427587
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rie iwc Heatsink"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Poo Cooling"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pin Cooler"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uru Heat Pump"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 18
+	"active cooling" 100
+	"cooling energy" 6.491181019933052
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pdimoe Heat Pump"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Xie nyo Temperature Control"
+	category "Systems"
+	cost 11500
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 18
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uaa Heat Pump"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aoc Heat Pump"
+	category "Systems"
+	cost 21500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Irt ajh Cooling"
+	category "Systems"
+	cost 23300
+	thumbnail "outfit/cooling module"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Youelq Temperature Control"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	"active cooling" 31
+	"cooling energy" 9.708987083893708
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Coa Heat Shunt"
+	category "Systems"
+	cost 19700
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Kio ops Cooler"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Efo Temperature Control"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ebf oeg Cooling"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/water cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ippoxa Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bci Heat Pump"
+	category "Systems"
+	cost 23900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ehp Heat Shunt"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eio Cooler"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 18
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sin obo Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 28
+	"active cooling" 11
+	"cooling energy" 15.015147760476916
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uzu Cooler"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wuu Cooling"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hapoei Cooler"
+	category "Systems"
+	cost 14500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 83
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Roe Cooling"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ixonoh Heat Shunt"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nec Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Foy Cooling"
+	category "Systems"
+	cost 16500
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ezo Temperature Control"
+	category "Systems"
+	cost 20300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rug Temperature Control"
+	category "Systems"
+	cost 26700
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ooi wof Heat Shunt"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Baceoi Cooler"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 17
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Lti Cooler"
+	category "Systems"
+	cost 18700
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Boaoye Temperature Control"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ueeosb Heat Pump"
+	category "Systems"
+	cost 24100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 17
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bda Heat Pump"
+	category "Systems"
+	cost 13600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 89
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Upe gof Cooling"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ahv Temperature Control"
+	category "Systems"
+	cost 12300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 21
+	"active cooling" 51
+	"cooling energy" 3.549608437674199
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ufw hoe Heatsink"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ezo Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eno err Heatsink"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Autupb Heat Shunt"
+	category "Systems"
+	cost 11800
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Raefaa Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 24
+	"active cooling" 15
+	"cooling energy" 6.030123860555499
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uuc Heat Shunt"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eco Heat Pump"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 115
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Euz rpu Cooler"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cri Heat Pump"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hhofui Cooler"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Naa Heatsink"
+	category "Systems"
+	cost 17000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pwo Cooling"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ick fic Heat Shunt"
+	category "Systems"
+	cost 26600
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 126
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Otd Temperature Control"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oozazl Heat Shunt"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 58
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Tdo Temperature Control"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Boy Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yia uzo Heatsink"
+	category "Systems"
+	cost 22900
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Didecu Cooler"
+	category "Systems"
+	cost 22100
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 23
+	"active cooling" 30
+	"cooling energy" 9.949466674627065
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Vou Heat Pump"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Egiruv Cooler"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oef Cooling"
+	category "Systems"
+	cost 12700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 17
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cae ary Heat Shunt"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Neh Heat Shunt"
+	category "Systems"
+	cost 16900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 121
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Esaoif Cooling"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 19
+	"active cooling" 100
+	"cooling energy" 7.271392970989973
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nii Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 44
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sup Temperature Control"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ave Heat Pump"
+	category "Systems"
+	cost 22500
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 151
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wur Heat Shunt"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eotnai Heat Shunt"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eat Heat Shunt"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ion Temperature Control"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oae Temperature Control"
+	category "Systems"
+	cost 11800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 27
+	"active cooling" 11
+	"cooling energy" 12.961903923512969
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cyu Heatsink"
+	category "Systems"
+	cost 20100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 26
+	"active cooling" 23
+	"cooling energy" 9.441801174437431
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zur Cooling"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ereaea Heatsink"
+	category "Systems"
+	cost 19100
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 21
+	"active cooling" 101
+	"cooling energy" 9.557637235120849
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Vha ipo Heat Pump"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 88
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uyx Cooling"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Roa tar Cooler"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yba Temperature Control"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Enr Heat Shunt"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ruh Heat Pump"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yefaay Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zoa Temperature Control"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eca Temperature Control"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 25
+	"active cooling" 4
+	"cooling energy" 7.967759634814168
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nca Heatsink"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/water cooling"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 132
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Kue Cooling"
+	category "Systems"
+	cost 20600
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hou Temperature Control"
+	category "Systems"
+	cost 21800
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uoi Cooling"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 17
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oeo olo Cooler"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 19
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Izl Heat Pump"
+	category "Systems"
+	cost 22700
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 44
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pna Heat Pump"
+	category "Systems"
+	cost 14500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eaa pne Cooler"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 15
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Puc opo Heatsink"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eei ddi Heat Shunt"
+	category "Systems"
+	cost 18000
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iii Temperature Control"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Acj Cooler"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rle Heat Shunt"
+	category "Systems"
+	cost 18600
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 24
+	"active cooling" 114
+	"cooling energy" 11.552909342267132
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Affora Heat Shunt"
+	category "Systems"
+	cost 22200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ihp Heat Shunt"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Farume Cooling"
+	category "Systems"
+	cost 22700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 18
+	"active cooling" 33
+	"cooling energy" 7.792720879071776
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Neeoei Temperature Control"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uueeyd Cooling"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 22
+	"active cooling" 10
+	"cooling energy" 10.005121372593738
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ree opl Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 115
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Csafia Heat Pump"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 53
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Buohau Heat Pump"
+	category "Systems"
+	cost 23000
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ziewab Heatsink"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fay Temperature Control"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 24
+	"active cooling" 21
+	"cooling energy" 11.920078479729758
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Iey Cooler"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 18
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ifj Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aou Temperature Control"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 37
+	"active cooling" 19
+	"cooling energy" 11.006082848153156
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bwi Cooler"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/cooling module"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Beiyee Heat Pump"
+	category "Systems"
+	cost 17400
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Idd Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Xur Heat Pump"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Pek Heatsink"
+	category "Systems"
+	cost 18200
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aeotee Heatsink"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ral eif Cooling"
+	category "Systems"
+	cost 20100
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 37
+	"active cooling" 206
+	"cooling energy" 12.715461590621464
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eeh ote Heat Pump"
+	category "Systems"
+	cost 22300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eta Heat Shunt"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Adcreo Heat Shunt"
+	category "Systems"
+	cost 16500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eoueua Heatsink"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/small heat shunt"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 187
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ebo Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 58
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hyo Heatsink"
+	category "Systems"
+	cost 12500
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 35
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fte Cooler"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/cooling module"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 109
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Buurma Heatsink"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 21
+	"active cooling" 2
+	"cooling energy" 8.697658685769332
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fho Cooler"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 106
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oza Heatsink"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 79
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Paa ezo Temperature Control"
+	category "Systems"
+	cost 17000
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 107
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Oau Heat Pump"
+	category "Systems"
+	cost 20300
+	thumbnail "outfit/small heat shunt"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 29
+	"active cooling" 171
+	"cooling energy" 9.946319935760382
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ovulin Cooler"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Guz Heat Pump"
+	category "Systems"
+	cost 15400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cua Temperature Control"
+	category "Systems"
+	cost 22300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Onuazy Temperature Control"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 26
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Obe Heatsink"
+	category "Systems"
+	cost 17300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 39
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aew iua Heat Shunt"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 35
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ufo Heatsink"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eioouz Heat Pump"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 32
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eam uhv Cooling"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/cooling module"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yia Heatsink"
+	category "Systems"
+	cost 19200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Izufhu Cooler"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/large heat shunt"
+	"mass" 20
+	"outfit space" -20
+	"active cooling" 158
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ceo Cooler"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 51
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ohi Heat Shunt"
+	category "Systems"
+	cost 15700
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Orurei Heatsink"
+	category "Systems"
+	cost 18700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 39
+	"active cooling" 90
+	"cooling energy" 25.19669099586908
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Muh Temperature Control"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wee lar Temperature Control"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/small heat shunt"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eai Heat Pump"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cfuicj Temperature Control"
+	category "Systems"
+	cost 17600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Wea Heatsink"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Dae Heat Shunt"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Irs ibp Heat Pump"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 84
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ebj dbe Cooler"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uin Heatsink"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"active cooling" 42
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fbu oaf Temperature Control"
+	category "Systems"
+	cost 21600
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 121
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ypo Temperature Control"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 46
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hub ase Cooling"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 62
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "You Heatsink"
+	category "Systems"
+	cost 22500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 35
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ioo Cooler"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/small heat shunt"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 30
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bhofuh Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eyo oap Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Vxooeo Cooling"
+	category "Systems"
+	cost 16900
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ereajy Heat Pump"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 31
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yur Cooler"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 37
+	"active cooling" 57
+	"cooling energy" 16.60997450195099
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ieh Heat Shunt"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 29
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eyv eay Heat Pump"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 111
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Muc Temperature Control"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ayi Temperature Control"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 39
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Yiielo Temperature Control"
+	category "Systems"
+	cost 19100
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aifooo Heat Shunt"
+	category "Systems"
+	cost 21500
+	thumbnail "outfit/small heat shunt"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 31
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Woh uoo Cooling"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Azo fan Heatsink"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 156
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cif ucn Heatsink"
+	category "Systems"
+	cost 17600
+	thumbnail "outfit/cooling ducts"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Vueave Cooling"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 29
+	"active cooling" 10
+	"cooling energy" 11.519345280474036
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Bmialo Heat Pump"
+	category "Systems"
+	cost 19100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 32
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Xoyipx Heatsink"
+	category "Systems"
+	cost 16000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 21
+	"active cooling" 89
+	"cooling energy" 7.789671761641723
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ourmoc Heat Pump"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 32
+	"active cooling" 217
+	"cooling energy" 11.402975828855713
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eba Cooling"
+	category "Systems"
+	cost 19900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Enioso Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 38
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Fcu Heat Pump"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Foz Heat Shunt"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ahe Heat Shunt"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 37
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Aaueri Temperature Control"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 33
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eke Heatsink"
+	category "Systems"
+	cost 18800
+	thumbnail "outfit/small heat shunt"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 36
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Sre Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 24
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Eio pio Heatsink"
+	category "Systems"
+	cost 22200
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 38
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Tuu Cooler"
+	category "Systems"
+	cost 14700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 23
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Obg Cooling"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Nar obi Heat Shunt"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 40
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Upwlan Temperature Control"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 21
+	"active cooling" 31
+	"cooling energy" 9.017738062067304
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Roj Temperature Control"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 103
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rub haa Heatsink"
+	category "Systems"
+	cost 18000
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 38
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Dib Heat Pump"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 31
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Polyee Heat Shunt"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 28
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Cez Heat Pump"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 77
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Hii Temperature Control"
+	category "Systems"
+	cost 18100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 176
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ebiapi Heatsink"
+	category "Systems"
+	cost 11900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Epd Temperature Control"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 22
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Uia pou Heat Shunt"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 31
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ooc Heat Shunt"
+	category "Systems"
+	cost 17500
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 34
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Rof Cooler"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 27
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Gabaab Heatsink"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 25
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Zes Heatsink"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 20
+	description "Fah uhr T4.6 Cooling"
+
+
+outfit "Ici Cooler"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 21
+	description "Fah uhr T4.6 Cooling"
+
+

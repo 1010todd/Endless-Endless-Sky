@@ -1,0 +1,339 @@
+ship "Wayaq hwaub"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 45905000
+		"shields" 286700
+		"hull" 111400
+		"required crew" 4
+		"bunks" 22
+		"mass" 183.0
+		"drag" 3.75
+		"heat dissipation" 0.87
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 304
+		"weapon capacity" 100
+		"engine capacity" 94
+		weapon 
+			"blast radius" 3981
+			"shield damage" 39810
+			"hull damage" 19910
+			"hit force" 59720
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Doeut vboil Shield Regenerator" 1
+		"Oxmco xpieo Damage Control" 1
+		"Spuum cueiw Thruster" 1
+		"Spuum cueiw Steering" 1
+		"Cubco kicsa Generator" 2
+		"Hyperdrive"
+	engine 0 42.0
+	turret 1.3 -9.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Oojqu oinap T3.7 ship"
+
+ship "Aiusk jimul uqacc"
+	sprite "ship/indus1 in 2"
+	thumbnail "thumbnail/indus1 in 2"
+	attributes 
+		category "Interceptor"
+		"cost" 6049000
+		"shields" 86700
+		"hull" 33700
+		"required crew" 3
+		"bunks" 4
+		"mass" 51.4
+		"drag" 1.0
+		"heat dissipation" 0.99
+		"fuel capacity" 2600
+		"cargo space" 10
+		"outfit space" 74
+		"weapon capacity" 30
+		"engine capacity" 32
+		weapon 
+			"blast radius" 1204
+			"shield damage" 12040
+			"hull damage" 6020
+			"hit force" 18060
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Ceezy Beam" 1
+		"Ieiki Thruster" 1
+		"Ieiki Steering" 1
+		"Sacob Cell" 1
+		"Eposa ealoq Cooling" 1
+		"Hyperdrive"
+	engine -17.0 35.0
+	engine 17.0 35.0
+	gun 26.0 -43.0
+	turret 0.0 16.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Oojqu oinap T3.7 ship"
+
+ship "Udemdnomub"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 23345000
+		"shields" 154400
+		"hull" 60000
+		"required crew" 2
+		"bunks" 33
+		"mass" 117.4
+		"drag" 2.51
+		"heat dissipation" 0.76
+		"fuel capacity" 1300
+		"cargo space" 15
+		"outfit space" 252
+		"weapon capacity" 100
+		"engine capacity" 84
+		weapon 
+			"blast radius" 2144
+			"shield damage" 21440
+			"hull damage" 10720
+			"hit force" 32160
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Doeut vboil Shield Regenerator" 1
+		"Spuum cueiw Thruster" 1
+		"Spuum cueiw Steering" 1
+		"Busuw ketac Cell" 1
+		"Vsaaz Cooling" 1
+		"Hyperdrive"
+	engine 0 41.5
+	turret 1.4 -17.9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 0
+	description "Oojqu oinap T3.7 ship"
+
+ship "Uqyio beabo oetqi"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 63863000
+		"shields" 237100
+		"hull" 92100
+		"required crew" 16
+		"bunks" 26
+		"mass" 234.2
+		"drag" 4.76
+		"heat dissipation" 0.55
+		"fuel capacity" 2600
+		"cargo space" 30
+		"outfit space" 262
+		"weapon capacity" 90
+		"engine capacity" 74
+		weapon 
+			"blast radius" 3292
+			"shield damage" 32920
+			"hull damage" 16460
+			"hit force" 49380
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Doeut vboil Shield Regenerator" 1
+		"Xouuo esyoa Damage Control" 1
+		"Spuum cueiw Thruster" 1
+		"Spuum cueiw Steering" 1
+		"Vsaaz Cooling" 3
+		"Hyperdrive"
+	engine 0 41.8
+	turret 4.5 -20.7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Oojqu oinap T3.7 ship"
+
+ship "Zwubi qeduw ukybo"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 140133000
+		"shields" 1389300
+		"hull" 539500
+		"required crew" 26
+		"bunks" 52
+		"mass" 550.0
+		"drag" 11.26
+		"heat dissipation" 0.58
+		"fuel capacity" 2800
+		"cargo space" 70
+		"outfit space" 998
+		"weapon capacity" 360
+		"engine capacity" 252
+		weapon 
+			"blast radius" 19288
+			"shield damage" 192880
+			"hull damage" 96440
+			"hit force" 289320
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Viain Ballista" 2
+		"Viain Ballista Turret" 2
+		"Ceezy Beam" 2
+		"Ceezy Beam Turret" 1
+		"Asvow Beam Projector" 1
+		"Asvow Beam Projector Turret" 1
+		"Doeut vboil Shield Regenerator" 1
+		"Deekolewoe Damage Control" 1
+		"Udbqo Thruster" 1
+		"Udbqo Steering" 1
+		"Uneca Generator" 2
+		"Dueincyiui Battery Pack" 1
+		"Cubco kicsa Generator" 1
+		"Iwacu iicud Generator" 1
+		"Napyb Cooler" 1
+		"Hyperdrive"
+	engine 0 301.2
+	gun -14.0 -328.1
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	gun 82.0 -13.0
+	gun 14.0 -328.1
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Oojqu oinap T3.7 ship"
+
+ship "Esexi ilmucucuex"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 9532000
+		"shields" 98200
+		"hull" 38200
+		"required crew" 23
+		"bunks" 33
+		"mass" 228.0
+		"drag" 4.27
+		"heat dissipation" 0.67
+		"fuel capacity" 2200
+		"cargo space" 70
+		"outfit space" 273
+		"weapon capacity" 80
+		"engine capacity" 94
+		weapon 
+			"blast radius" 1364
+			"shield damage" 13640
+			"hull damage" 6820
+			"hit force" 20460
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Viain Ballista" 1
+		"Ceezy Beam" 1
+		"Koiud Shield Regenerator" 1
+		"Xouuo esyoa Damage Control" 1
+		"Spuum cueiw Thruster" 1
+		"Spuum cueiw Steering" 1
+		"Vsaaz Cooling" 3
+		"Hyperdrive"
+	engine 0 42.9
+	gun -0.2 -48.3
+	gun 0.2 -48.3
+	turret 2.7 -30.6
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Oojqu oinap T3.7 ship"
+
+ship "Oazimeoubf"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 83151000
+		"shields" 366400
+		"hull" 142300
+		"required crew" 8
+		"bunks" 19
+		"mass" 1008.8
+		"drag" 20.17
+		"heat dissipation" 0.64
+		"fuel capacity" 2300
+		"cargo space" 485
+		"outfit space" 1502
+		"weapon capacity" 570
+		"engine capacity" 494
+		weapon 
+			"blast radius" 5087
+			"shield damage" 50870
+			"hull damage" 25440
+			"hit force" 76310
+	outfits 
+		"Eioui Anti-Missile" 1
+		"Viain Ballista" 1
+		"Viain Ballista Turret" 1
+		"Ceezy Beam" 1
+		"Ceezy Beam Turret" 1
+		"Asvow Beam Projector Turret" 1
+		"Doeut vboil Shield Regenerator" 1
+		"Deekolewoe Damage Control" 1
+		"Ufiip iduvo Thruster" 1
+		"Ufiip iduvo Steering" 1
+		"Uneca Generator" 2
+		"Dueincyiui Battery Pack" 1
+		"Cubco kicsa Generator" 1
+		"Iwacu iicud Generator" 1
+		"Opdiu Generator" 1
+		"Napyb Cooler" 1
+		"Tsovu euecl Heatsink" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	gun -15.5 -402.5
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	turret 42.5 -361.0
+	turret -63.0 -342.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Oojqu oinap T3.7 ship"
+

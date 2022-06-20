@@ -1,0 +1,78 @@
+fleet "Laakaz Security"
+	government "Laakaz"
+	names "Laakaz names"
+	personality
+		heroic
+		confusion 14
+	variant 5
+		"Xii zma" 4
+		"Puazom" 0
+		"Uidege elj" 4
+		"Kuuuuf" 4
+	variant 9
+		"Awm fui qaj" 4
+		"Puazom" 0
+		"Xii zma" 2
+		"Ittjoa" 3
+	variant 16
+		"Xii zma" 3
+		"Puazom" 0
+		"Kuuuuf" 2
+		"Ittjoa" 4
+	variant 8
+		"Kuuuuf" 2
+		"Puazom" 0
+		"Xii zma" 3
+		"Awm fui qaj" 4
+	variant 4
+		"Xii zma" 4
+		"Puazom" 0
+		"Falxej" 3
+		"Ittjoa" 2
+	variant 18
+		"Xii zma" 4
+		"Puazom" 0
+		"Uidege elj" 4
+		"Kuuuuf" 4
+	variant 4
+		"Falxej" 2
+		"Puazom" 4
+		"Ittjoa" 4
+		"Xii zma" 3
+	variant 4
+		"Xii zma" 2
+		"Puazom" 0
+		"Uidege elj" 4
+		"Kuuuuf" 2
+	variant 3
+		"Kuuuuf" 3
+		"Puazom" 0
+		"Awm fui qaj" 4
+		"Ittjoa" 2
+	variant 19
+		"Xii zma" 3
+		"Puazom" 0
+		"Falxej" 3
+		"Awm fui qaj" 3
+	variant 8
+		"Ittjoa" 2
+		"Puazom" 0
+		"Awm fui qaj" 4
+		"Uidege elj" 4
+fleet "Laakaz Civilian"
+	government "Laakaz"
+	names "Laakaz names"
+	personality
+		timid
+	variant 0
+		"Oeppiw" 3
+		"Kwiuliree" 1
+		"Xii zma" 4
+	variant 2
+		"Xii zma" 4
+		"Oeppiw" 4
+		"Awm fui qaj" 1
+	variant 24
+		"Puazom" 4
+		"Kuuuuf" 4
+		"Ittjoa" 3

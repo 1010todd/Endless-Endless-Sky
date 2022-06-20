@@ -1,0 +1,78 @@
+fleet "Fah uhr Security"
+	government "Fah uhr"
+	names "Fah uhr names"
+	personality
+		heroic
+		confusion 10
+	variant 12
+		"Ivabez" 5
+		"Oioexy eve" 2
+		"Ubeken" 3
+		"Rcerar" 3
+	variant 5
+		"Ivabez" 5
+		"Iieesf fag" 2
+		"Rcerar" 5
+	variant 16
+		"Ivabez" 7
+		"Oioexy eve" 3
+		"Sezoso" 5
+		"Ubeken" 2
+		"Yxi zis ruf" 2
+	variant 10
+		"Ivabez" 6
+		"Oioexy eve" 4
+		"Sezoso" 2
+		"Ubeken" 4
+	variant 11
+		"Ivabez" 5
+		"Eifheb" 3
+		"Oioexy eve" 5
+		"Iieesf fag" 2
+		"Ubeken" 3
+	variant 10
+		"Ivabez" 3
+		"Eifheb" 5
+		"Ubeken" 4
+		"Yxi zis ruf" 5
+	variant 17
+		"Ivabez" 6
+		"Eifheb" 5
+		"Oioexy eve" 3
+		"Sezoso" 5
+		"Iieesf fag" 5
+	variant 18
+		"Ivabez" 3
+		"Eifheb" 3
+		"Ubeken" 5
+		"Rcerar" 2
+		"Yxi zis ruf" 5
+	variant 7
+		"Ivabez" 3
+		"Eifheb" 4
+		"Oioexy eve" 2
+		"Iieesf fag" 3
+		"Rcerar" 4
+	variant 15
+		"Ivabez" 4
+		"Eifheb" 4
+		"Oioexy eve" 5
+		"Ubeken" 4
+		"Rcerar" 3
+fleet "Fah uhr Privateer"
+	government "Fah uhr"
+	names "Fah uhr names"
+	personality
+		timid
+	variant 0
+		"Eifheb" 2
+		"Iieesf fag" 1
+		"Ubeken" 4
+	variant 17
+		"Ubeken" 3
+		"Oioexy eve" 3
+		"Iieesf fag" 4
+	variant 24
+		"Oioexy eve" 3
+		"Sezoso" 4
+		"Ivabez" 4

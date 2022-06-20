@@ -5,9 +5,7 @@ import os
 #import math
 
 import namegenerator
-namegen = namegenerator.Namegenerator()
 
-DEVMODE = False
 #A faction in reality is extremely complex, here I'll increase the complexity later.
 
 class government():
@@ -42,6 +40,7 @@ class government():
         self.ftl = 'Hyperdrive'
         self.military = .5
         self.devmode = False
+        self.devmodeseed = 0
         #====================Content owned by the faction
         self.shipcount = 3
         self.shiplist = []
@@ -174,7 +173,7 @@ def parse_spriteset(filename):
     return spritelist
 
 #Create a single (currently) basic faction
-def create_faction(noPIL,min_tier=0.1, max_tier=6.):
+def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
     #======Default values
     min_count = 8
     max_count = 12
@@ -240,8 +239,12 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
     if 'shipgenchance' not in locals():
         shipgenchance = .8
 
-    if DEVMODE:
+    if devmode:
         random.seed(int(99))
+    fakefac = government('fake')
+    fakefac.devmode = devmode
+    fakefac.devmodeseed = 89
+    namegen = namegenerator.Namegenerator(fakefac)
     
     if min_count == max_count:
         government_count = round(max_count)
@@ -303,7 +306,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
         lang_wordlen = random.choice([3,4,5])
         lang_spacechance = random.triangular(.01,.9,.2)
         lang_charweight =  []
-        for n in az:
+        for nn in az:
             lang_charweight.append(random.random())
 
         name = namegen.generateNameFromRules(name_length_min,
@@ -331,7 +334,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
         faction.ftl = ftl_method
         faction.designpriority = designpriority
         faction.military = faction_military
-        faction.devmode = DEVMODE
+        faction.devmode = devmode
+        faction.devmodeseed = n+10
 
         print("faction name; ", name)
         print("faction tier " ,faction_tier)

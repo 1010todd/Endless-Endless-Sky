@@ -1,0 +1,448 @@
+ship "Falxej"
+	sprite "ship/spiky hf"
+	thumbnail "thumbnail/spiky hf"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 16006000
+		"shields" 32500
+		"hull" 229600
+		"required crew" 10
+		"bunks" 25
+		"mass" 665.8
+		"drag" 12.95
+		"heat dissipation" 0.51
+		"fuel capacity" 1200
+		"cargo space" 320
+		"outfit space" 1176
+		"weapon capacity" 430
+		"engine capacity" 346
+		weapon 
+			"blast radius" 2621
+			"shield damage" 26210
+			"hull damage" 13110
+			"hit force" 39320
+	outfits 
+		"Ocjpaa Thruster" 1
+		"Ocjpaa Steering" 1
+		"Alu Reactor" 1
+		"Fia Capacitor" 1
+		"Ajw Reactor" 1
+		"Aefdek Cell" 2
+		"Niu Thruster" 1
+		"Niu Steering" 1
+		"Tiw Temperature Control" 1
+		"Hyperdrive"
+	engine 0 127.5
+	gun 2.6 -144.3
+	turret 5.4 -68.1
+	turret 2.9 -23.6
+	turret -2.9 -23.6
+	turret 8.8 -49.9
+	turret -8.8 -49.9
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Laakaz T3.0 ship"
+
+ship "Uidege elj"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Interceptor"
+		"cost" 4213000
+		"shields" 6300
+		"hull" 44100
+		"required crew" 5
+		"bunks" 9
+		"mass" 105.0
+		"drag" 2.12
+		"heat dissipation" 1.1
+		"fuel capacity" 1100
+		"cargo space" 15
+		"outfit space" 250
+		"weapon capacity" 57
+		"engine capacity" 42
+		weapon 
+			"blast radius" 504
+			"shield damage" 5040
+			"hull damage" 2520
+			"hit force" 7560
+	outfits 
+		"Zqa Beam Projector" 1
+		"Ape Thruster" 1
+		"Ape Steering" 1
+		"Jer Generator" 1
+		"Hyperdrive"
+	engine 0 52.2
+	gun -5.2 -45.0
+	gun 0.5 -47.2
+	gun -0.5 -47.2
+	gun 5.2 -45.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+
+ship "Kwiuliree"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 10560000
+		"shields" 13300
+		"hull" 93700
+		"required crew" 6
+		"bunks" 95
+		"mass" 327.0
+		"drag" 6.37
+		"heat dissipation" 0.75
+		"fuel capacity" 1700
+		"cargo space" 40
+		"outfit space" 462
+		"weapon capacity" 140
+		"engine capacity" 136
+		weapon 
+			"blast radius" 1070
+			"shield damage" 10700
+			"hull damage" 5350
+			"hit force" 16050
+	outfits 
+		"Jaipeu Thruster" 1
+		"Jaipeu Steering" 1
+		"Alu Reactor" 2
+		"Fia Capacitor" 1
+		"Rpuipu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 44.0
+	turret 1.0 -41.9
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+
+ship "Kuuuuf"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Interceptor"
+		"cost" 6553000
+		"shields" 3600
+		"hull" 25300
+		"required crew" 1
+		"bunks" 4
+		"mass" 63.8
+		"drag" 1.23
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		"cargo space" 10
+		"outfit space" 136
+		"weapon capacity" 57
+		"engine capacity" 22
+		weapon 
+			"blast radius" 289
+			"shield damage" 2890
+			"hull damage" 1450
+			"hit force" 4340
+	outfits 
+		"Zqa Beam Projector" 1
+		"Wumuah Generator" 1
+		"Hyperdrive"
+	engine 0 49.8
+	gun -2.4 -52.3
+	gun 2.4 -52.3
+	turret 3.6 -12.7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+
+ship "Afeeoi"
+	sprite "ship/spiky lw2"
+	thumbnail "thumbnail/spiky lw2"
+	attributes 
+		category "Light Warship"
+		"cost" 15506000
+		"shields" 17500
+		"hull" 123700
+		"required crew" 6
+		"bunks" 11
+		"mass" 124.6
+		"drag" 2.45
+		"heat dissipation" 0.73
+		"fuel capacity" 500
+		"cargo space" 15
+		"outfit space" 189
+		"weapon capacity" 70
+		"engine capacity" 52
+		weapon 
+			"blast radius" 1412
+			"shield damage" 14120
+			"hull damage" 7060
+			"hit force" 21180
+	outfits 
+		"Iln nee Thruster" 1
+		"Iln nee Steering" 1
+		"Jer Generator" 1
+		"Fia Capacitor" 1
+		"Rpuipu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 65.6
+	turret 4.7 -38.6
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Laakaz T3.0 ship"
+
+ship "Oeppiw"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 18184000
+		"shields" 16800
+		"hull" 118300
+		"required crew" 8
+		"bunks" 78
+		"mass" 222.8
+		"drag" 4.55
+		"heat dissipation" 0.63
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 315
+		"weapon capacity" 110
+		"engine capacity" 84
+		weapon 
+			"blast radius" 1351
+			"shield damage" 13510
+			"hull damage" 6760
+			"hit force" 20270
+	outfits 
+		"Iln nee Thruster" 1
+		"Iln nee Steering" 1
+		"Ldioju Reactor" 1
+		"Fia Capacitor" 1
+		"Rpuipu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 43.7
+	turret 3.7 -5.4
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+
+ship "Xii zma"
+	sprite "ship/spiky mw 2"
+	thumbnail "thumbnail/spiky mw 2"
+	attributes 
+		category "Medium Warship"
+		"cost" 59404000
+		"shields" 36800
+		"hull" 260400
+		"required crew" 40
+		"bunks" 79
+		"mass" 534.0
+		"drag" 10.21
+		"heat dissipation" 0.59
+		"fuel capacity" 1400
+		"cargo space" 65
+		"outfit space" 914
+		"weapon capacity" 350
+		"engine capacity" 242
+		weapon 
+			"blast radius" 2972
+			"shield damage" 29720
+			"hull damage" 14860
+			"hit force" 44580
+	outfits 
+		"Zqa Beam Projector" 1
+		"Zqa Beam Projector Turret" 1
+		"Qey Rocket Launcher" 1
+		"Qey Rocket" 50
+		"Niu Thruster" 1
+		"Niu Steering" 1
+		"Aefdek Cell" 1
+		"Fia Capacitor" 1
+		"Ldioju Reactor" 1
+		"Rpuipu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 101.0
+	gun -2.5 -102.8
+	gun 2.5 -102.8
+	turret 8.3 -27.8
+	turret 9.3 -26.6
+	turret -9.3 -26.6
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Laakaz T3.0 ship"
+
+ship "Awm fui qaj"
+	sprite "ship/spiky hw 1"
+	thumbnail "thumbnail/spiky hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 85641000
+		"shields" 84200
+		"hull" 595800
+		"required crew" 16
+		"bunks" 27
+		"mass" 754.6
+		"drag" 14.0
+		"heat dissipation" 0.81
+		"fuel capacity" 1100
+		"cargo space" 95
+		"outfit space" 1376
+		"weapon capacity" 400
+		"engine capacity" 410
+		weapon 
+			"blast radius" 6800
+			"shield damage" 68000
+			"hull damage" 34000
+			"hit force" 102000
+	outfits 
+		"Qey Rocket Launcher" 2
+		"Qey Rocket" 100
+		"Ocjpaa Thruster" 1
+		"Ocjpaa Steering" 1
+		"Ajw Reactor" 1
+		"Fia Capacitor" 1
+		"Alu Reactor" 1
+		"Ldioju Reactor" 1
+		"Aefdek Cell" 1
+		"Jer Generator" 1
+		"Niu Thruster" 1
+		"Niu Steering" 1
+		"Rpuipu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 146.5
+	gun -16.1 -142.7
+	gun 4.0 -153.7
+	gun -4.0 -153.7
+	gun 16.1 -142.7
+	turret 9.6 -89.5
+	turret 9.8 -68.4
+	turret -9.8 -68.4
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Laakaz T3.0 ship"
+
+ship "Ittjoa"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Interceptor"
+		"cost" 4533000
+		"shields" 3700
+		"hull" 25900
+		"required crew" 5
+		"bunks" 13
+		"mass" 93.2
+		"drag" 1.88
+		"heat dissipation" 0.8
+		"fuel capacity" 2000
+		"cargo space" 15
+		"outfit space" 307
+		"weapon capacity" 60
+		"engine capacity" 52
+		weapon 
+			"blast radius" 296
+			"shield damage" 2960
+			"hull damage" 1480
+			"hit force" 4440
+	outfits 
+		"Zqa Beam Projector" 1
+		"Iln nee Thruster" 1
+		"Iln nee Steering" 1
+		"Wumuah Generator" 1
+		"Hyperdrive"
+	engine 0 49.5
+	gun 4.0 -45.4
+	gun 1.8 -48.4
+	gun -1.8 -48.4
+	gun 2.3 -50.5
+	gun -2.3 -50.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+
+ship "Puazom"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Fighter"
+		"cost" 8961000
+		"shields" 4800
+		"hull" 33700
+		"required crew" 2
+		"bunks" 4
+		"mass" 48.0
+		"drag" 0.93
+		"heat dissipation" 1.02
+		"fuel capacity" 2000
+		"cargo space" 10
+		"outfit space" 136
+		"weapon capacity" 57
+		"engine capacity" 22
+		weapon 
+			"blast radius" 385
+			"shield damage" 3850
+			"hull damage" 1930
+			"hit force" 5780
+	outfits 
+		"Zqa Beam Projector" 1
+		"Wumuah Generator" 1
+		"Hyperdrive"
+	engine 0 48.1
+	gun -5.8 -54.2
+	gun 5.8 -54.2
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Laakaz T3.0 ship"
+

@@ -1,0 +1,315 @@
+outfit "Enxifuqa Battery"
+	category "Power"
+	cost 139900
+	thumbnail "outfit/tiny battery"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 1670
+	description "Avkuzfqe T1.9 Battery"
+
+outfit "Equlpmii Battery"
+	category "Power"
+	cost 251900
+	thumbnail "outfit/tiny battery"
+	"mass" 13
+	"outfit space" -13
+	"energy capacity" 3680
+	description "Avkuzfqe T1.9 Battery"
+
+outfit "Knuq Battery"
+	category "Power"
+	cost 453500
+	thumbnail "outfit/tiny battery"
+	"mass" 23
+	"outfit space" -23
+	"energy capacity" 8100
+	description "Avkuzfqe T1.9 Battery"
+
+outfit "Zaiz Battery"
+	category "Power"
+	cost 816300
+	thumbnail "outfit/tiny battery"
+	"mass" 41
+	"outfit space" -41
+	"energy capacity" 17820
+	description "Avkuzfqe T1.9 Battery"
+
+
+outfit "Eoge pipv Cell"
+	category "Power"
+	cost 38300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 2.1
+	"heat generation" 5.6
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Qeic Cell"
+	category "Power"
+	cost 65200
+	thumbnail "outfit/small fuel cell"
+	"mass" 37
+	"outfit space" -37
+	"energy generation" 4.6
+	"heat generation" 7.8
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Unfi Cell"
+	category "Power"
+	cost 110900
+	thumbnail "outfit/medium fuel cell"
+	"mass" 81
+	"outfit space" -81
+	"energy generation" 10.1
+	"heat generation" 10.9
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Xfaninoe Cell"
+	category "Power"
+	cost 188600
+	thumbnail "outfit/large fuel cell"
+	"mass" 178
+	"outfit space" -178
+	"energy generation" 22.2
+	"heat generation" 15.3
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Knae Reactor"
+	category "Power"
+	cost 26000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 13
+	"outfit space" -13
+	"energy generation" 2.0
+	"heat generation" 4.1
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Lovi ujax Reactor"
+	category "Power"
+	cost 44200
+	thumbnail "outfit/small fuel cell"
+	"mass" 23
+	"outfit space" -23
+	"energy generation" 4.4
+	"heat generation" 8.2
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Nhoe sizi Reactor"
+	category "Power"
+	cost 75200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 41
+	"outfit space" -41
+	"energy generation" 9.7
+	"heat generation" 16.4
+	description "Avkuzfqe T1.9 Power generator"
+
+outfit "Vioubbue Reactor"
+	category "Power"
+	cost 127900
+	thumbnail "outfit/large fuel cell"
+	"mass" 74
+	"outfit space" -74
+	"energy generation" 21.3
+	"heat generation" 32.8
+	description "Avkuzfqe T1.9 Power generator"
+
+
+outfit "Iffa Thruster"
+	category "Engines"
+	cost 1604000
+	thumbnail "outfit/small ion thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 5.2
+	"thrusting energy" 0.6
+	"thrusting heat" 1.2
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "Avkuzfqe T1.9 Thruster"
+
+outfit "Iffa Steering"
+	category "Engines"
+	cost 1427762
+	thumbnail "outfit/tiny ion steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 130
+	"turning energy" 0.5
+	"turning heat" 1.1
+	description "Avkuzfqe T1.9 steering"
+
+outfit "Naof Thruster"
+	category "Engines"
+	cost 2726800
+	thumbnail "outfit/medium ion thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 11.4
+	"thrusting energy" 1.3
+	"thrusting heat" 2.6
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ion medium"
+	description "Avkuzfqe T1.9 Thruster"
+
+outfit "Naof Steering"
+	category "Engines"
+	cost 4635600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 31
+	"outfit space" -31
+	"engine capacity" -31
+	"turn" 286.0
+	"turning energy" 1.1
+	"turning heat" 2.4
+	description "Avkuzfqe T1.9 steering"
+
+outfit "Qoxu Thruster"
+	category "Engines"
+	cost 4635600
+	thumbnail "outfit/large ion thruster"
+	"mass" 77
+	"outfit space" -77
+	"engine capacity" -77
+	"thrust" 25.1
+	"thrusting energy" 2.9
+	"thrusting heat" 5.7
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Avkuzfqe T1.9 Thruster"
+
+outfit "Qoxu Steering"
+	category "Engines"
+	cost 7880600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"turn" 629.2
+	"turning energy" 2.4
+	"turning heat" 5.3
+	description "Avkuzfqe T1.9 steering"
+
+outfit "Upfiewof Thruster"
+	category "Engines"
+	cost 7880600
+	thumbnail "outfit/large ion thruster"
+	"mass" 169
+	"outfit space" -169
+	"engine capacity" -169
+	"thrust" 55.2
+	"thrusting energy" 6.4
+	"thrusting heat" 12.5
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Avkuzfqe T1.9 Thruster"
+
+outfit "Upfiewof Steering"
+	category "Engines"
+	cost 13397100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 150
+	"outfit space" -150
+	"engine capacity" -150
+	"turn" 1384.2
+	"turning energy" 5.3
+	"turning heat" 11.7
+	description "Avkuzfqe T1.9 steering"
+
+
+outfit "Azonkabu Shield Generator"
+	category "Systems"
+	cost 34200
+	thumbnail "outfit/tiny shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 0.66
+	"shield energy" 1.02
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+outfit "Icmoupvw Shield Generator"
+	category "Systems"
+	cost 61600
+	thumbnail "outfit/small shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 1.3
+	"shield energy" 1.8
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+outfit "Kwio Shield Generator"
+	category "Systems"
+	cost 110900
+	thumbnail "outfit/medium shield"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" 2.6
+	"shield energy" 3.2
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+outfit "Tabu Shield Generator"
+	category "Systems"
+	cost 199700
+	thumbnail "outfit/large shield"
+	"mass" 68
+	"outfit space" -68
+	"shield generation" 5.2
+	"shield energy" 5.8
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+outfit "Ufon Shield Generator"
+	category "Systems"
+	cost 359500
+	thumbnail "outfit/huge shield"
+	"mass" 102
+	"outfit space" -102
+	"shield generation" 10.4
+	"shield energy" 10.4
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+outfit "Umum Shield Generator"
+	category "Systems"
+	cost 647100
+	thumbnail "outfit/huge shield"
+	"mass" 153
+	"outfit space" -153
+	"shield generation" 20.8
+	"shield energy" 18.7
+	"shield heat" 1
+	description "Avkuzfqe T1.9 shield gen"
+
+
+
+outfit "Ecix Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/cooling module"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 3
+	description "Avkuzfqe T1.9 Cooling"
+
+
+outfit "Bixi Cooling"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 21
+	description "Avkuzfqe T1.9 Cooling"
+
+

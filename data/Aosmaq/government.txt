@@ -1,0 +1,16 @@
+government "Aosmaq"
+	"display name" "Aosmaq"
+	"swizzle" 12
+	"color" 0.730 0.261 0.942 0.483
+	"player reputation" -1
+	"crew attack" 8.2
+	"crew defense" 30.5
+	"attitude toward"
+		"Laakaz" 0
+		"Mporadveog" -1
+		"Oojqu oinap" -1
+		"Avkuzfqe" -1
+		"Peakeain" -1
+		"Gli uue" -1
+		"Nuadijguji" -1
+		"Fah uhr" -1

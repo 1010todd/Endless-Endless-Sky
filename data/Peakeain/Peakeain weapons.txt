@@ -1,0 +1,376 @@
+outfit "Kaht Machine Howizer"
+	category "Guns"
+	cost 18302000
+	thumbnail "outfit/proton gun"
+	"mass" 69
+	"outfit space" -69
+	"weapon capacity" -69
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.0
+		"velocity" 28
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 58.0
+		"firing heat" 53.5
+		"shield damage" 109.5
+		"hull damage" 347.9
+	description "Peakeain T2.7 Projectile weapon"
+
+outfit "Bozi Tracker"
+	category "Ammunition"
+	cost 11350283
+	thumbnail "outfit/torpedo"
+	"mass" 0.06
+	"Bozi Tracker capacity" -1
+	description "Peakeain Missile"
+
+outfit "Bozi Tracker Storage
+	category "Ammunition"
+	cost 87975075
+	thumbnail "outfit/torpedo storage"
+	"mass" 0
+	"outfit space" -1
+	"Bozi Tracker capacity" 17
+	ammo "Bozi Tracker"
+	description "Bozi Tracker Storage"
+
+outfit "Bozi Tracker Deployer"
+	category "Secondary Weapons"
+	cost 50725400
+	thumbnail "outfit/torpedo launcher"
+	"mass" 0
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	"Bozi Tracker capacity" 17
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Bozi Tracker"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.1
+		"velocity" 42
+		"lifetime" 3400
+		"reload" 1
+		"firing energy" 7.2
+		"firing heat" 3.8
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 8.1
+		"homing" 2
+		"tracking" 0.37
+		"shield damage" 13.8
+		"hull damage" 11.2
+		"hit force" 18
+		"fuel damage" 16.9
+		"ion damage" 16.9
+		"slowing damage" 16.9
+		"missile strength" 37.7
+	description "Peakeain T2.7 Missile weapon"
+
+outfit "Arce Guided Rocket"
+	category "Ammunition"
+	cost 39661060
+	thumbnail "outfit/typhoon"
+	"mass" 0.08
+	"Arce Guided Rocket capacity" -1
+	description "Peakeain Missile"
+
+outfit "Arce Guided Rocket Storage
+	category "Ammunition"
+	cost 270803389
+	thumbnail "outfit/typhoon storage"
+	"mass" 3
+	"outfit space" -1
+	"Arce Guided Rocket capacity" 12
+	ammo "Arce Guided Rocket"
+	description "Arce Guided Rocket Storage"
+
+outfit "Arce Guided Rocket Catapult"
+	category "Secondary Weapons"
+	cost 182577400
+	thumbnail "outfit/typhoon launcher"
+	"mass" 3
+	"outfit space" -68
+	"weapon capacity" -68
+	"gun ports" -1
+	"Arce Guided Rocket capacity" 12
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Arce Guided Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4.0
+		"velocity" 49
+		"lifetime" 600
+		"reload" 1
+		"firing energy" 33.9
+		"firing heat" 23.4
+		"acceleration" 2.2
+		"drag" 0.1
+		"turn" 17.1
+		"homing" 2
+		"infrared tracking" 0.29
+		"shield damage" 83.7
+		"hull damage" 184.2
+		"disruption damage" 183.5
+		"missile strength" 19.2
+	description "Peakeain T2.7 Missile weapon"
+
+outfit "Roee Beam"
+	category "Guns"
+	cost 136294700
+	thumbnail "outfit/moonbeam"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0.2
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.9
+		"firing heat" 6.5
+		"shield damage" 10.7
+		"hull damage" 12.5
+		"slowing damage" 9.8
+	description "Peakeain T2.7 Beam weapon"
+
+outfit "Roee Beam Turret"
+	category "Turrets"
+	cost 373945750.0558836
+	thumbnail "outfit/moonbeam turret"
+	"mass" 174
+	"outfit space" -174
+	"weapon capacity" -174
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0.2
+		"turret turn" 0.5
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.9
+		"firing heat" 6.5
+		"shield damage" 32.099999999999994
+		"hull damage" 37.5
+		"slowing damage" 29.400000000000002
+	description "Peakeain T2.7 Beam weapon 3gun Turret"
+
+outfit "Isog Beam Projector"
+	category "Guns"
+	cost 166619300
+	thumbnail "outfit/moonbeam"
+	"mass" 74
+	"outfit space" -74
+	"weapon capacity" -74
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/heavy laser"
+			"frame rate" 1
+		sound "hion"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 1.2
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12.2
+		"firing heat" 18.2
+		"shield damage" 25.7
+		"hull damage" 21.8
+	description "Peakeain T2.7 Beam weapon"
+
+outfit "Isog Beam Projector Turret"
+	category "Turrets"
+	cost 370154163.45348746
+	thumbnail "outfit/moonbeam turret"
+	"mass" 331
+	"outfit space" -331
+	"weapon capacity" -331
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/heavy laser"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "hion"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 1.2
+		"turret turn" 0.3
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12.2
+		"firing heat" 18.2
+		"shield damage" 51.4
+		"hull damage" 43.6
+	description "Peakeain T2.7 Beam weapon 2gun Turret"
+
+outfit "Aaui Guided Rocket"
+	category "Ammunition"
+	cost 7366461
+	thumbnail "outfit/sidewinder"
+	"mass" 0.02
+	"Aaui Guided Rocket capacity" -1
+	description "Peakeain Missile"
+
+outfit "Aaui Guided Rocket Storage
+	category "Ammunition"
+	cost 54373435
+	thumbnail "outfit/sidewinder storage"
+	"mass" 1
+	"outfit space" -1
+	"Aaui Guided Rocket capacity" 50
+	ammo "Aaui Guided Rocket"
+	description "Aaui Guided Rocket Storage"
+
+outfit "Aaui Guided Rocket Launcher"
+	category "Secondary Weapons"
+	cost 34995300
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"Aaui Guided Rocket capacity" 50
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Aaui Guided Rocket"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.0
+		"velocity" 43
+		"lifetime" 1300
+		"reload" 1
+		"firing energy" 18.5
+		"firing heat" 29.0
+		"acceleration" 1.6
+		"drag" 0.1
+		"turn" 31.3
+		"homing" 3
+		"tracking" 0.52
+		"shield damage" 41.2
+		"hull damage" 7.3
+		"hit force" 23
+		"missile strength" 59.4
+	description "Peakeain T2.7 Missile weapon"
+
+outfit "Tueu Auto Gun"
+	category "Guns"
+	cost 123338800
+	thumbnail "outfit/pulse"
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "particle"
+		"hit effect" "blaster impact"
+		"inaccuracy" 5.4
+		"velocity" 45
+		"lifetime" 4
+		"reload" 1
+		"firing energy" 0.7
+		"firing heat" 5.6
+		"shield damage" 10.9
+		"hull damage" 14.7
+	description "Peakeain T2.7 Projectile weapon"
+
+outfit "Tueu Auto Gun Turret"
+	category "Turrets"
+	cost 425676636.599379
+	thumbnail "outfit/pulse turret"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/tracker"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "particle"
+		"hit effect" "blaster impact"
+		"inaccuracy" 5.4
+		"turret turn" 0.3
+		"velocity" 45
+		"lifetime" 4
+		"reload" 1
+		"firing energy" 0.7
+		"firing heat" 5.6
+		"shield damage" 10.9
+		"hull damage" 14.7
+	description "Peakeain T2.7 Projectile weapon 1gun Turret"
+
+outfit "Ewog Laser"
+	category "Guns"
+	cost 70623900
+	thumbnail "outfit/sunbeam"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.4
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.4
+		"firing heat" 3.8
+		"shield damage" 6.1
+		"hull damage" 4.3
+	description "Peakeain T2.7 Beam weapon"
+
+outfit "Ewog Laser Turret"
+	category "Turrets"
+	cost 333388392.1839307
+	thumbnail "outfit/sunbeam turret"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+		"hardpoint sprite" "hardpoint/sunbeam turret"
+		sound "heavy laser"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.4
+		"turret turn" 1.0
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.4
+		"firing heat" 3.8
+		"shield damage" 12.2
+		"hull damage" 8.6
+	description "Peakeain T2.7 Beam weapon 2gun Turret"
+

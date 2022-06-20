@@ -1,0 +1,16 @@
+government "Laakaz"
+	"display name" "Laakaz"
+	"swizzle" 1
+	"color" 0.810 0.193 0.864 0.787
+	"player reputation" 0
+	"crew attack" 8.2
+	"crew defense" 30.5
+	"attitude toward"
+		"Mporadveog" 0
+		"Oojqu oinap" -1
+		"Avkuzfqe" -1
+		"Peakeain" 0
+		"Aosmaq" 0
+		"Gli uue" -1
+		"Nuadijguji" 1
+		"Fah uhr" -1

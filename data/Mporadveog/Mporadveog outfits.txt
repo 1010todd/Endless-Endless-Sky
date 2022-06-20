@@ -1,0 +1,341 @@
+outfit "Eoqin pueyi Battery"
+	category "Power"
+	cost 453600
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 7040
+	description "Mporadveog T4.8 Battery"
+
+outfit "Ricoy Battery"
+	category "Power"
+	cost 816500
+	thumbnail "outfit/tiny battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 36610
+	description "Mporadveog T4.8 Battery"
+
+outfit "Tqeri Battery"
+	category "Power"
+	cost 1469700
+	thumbnail "outfit/tiny battery"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 190380
+	description "Mporadveog T4.8 Battery"
+
+outfit "Uxjen Battery"
+	category "Power"
+	cost 2645500
+	thumbnail "outfit/tiny battery"
+	"mass" 88
+	"outfit space" -88
+	"energy capacity" 989980
+	description "Mporadveog T4.8 Battery"
+
+outfit "Yeeijoxipu Battery"
+	category "Power"
+	cost 4761900
+	thumbnail "outfit/tiny battery"
+	"mass" 194
+	"outfit space" -194
+	"energy capacity" 5147900
+	description "Mporadveog T4.8 Battery"
+
+
+outfit "Aloio Core"
+	category "Power"
+	cost 262700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 4.9
+	"heat generation" 12.3
+	description "Mporadveog T4.8 Power generator"
+
+outfit "Jeryegagye Core"
+	category "Power"
+	cost 446600
+	thumbnail "outfit/small fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 25.5
+	"heat generation" 27.1
+	description "Mporadveog T4.8 Power generator"
+
+outfit "Ebtou Generator"
+	category "Power"
+	cost 229200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 5.2
+	"heat generation" 5.4
+	description "Mporadveog T4.8 Power generator"
+
+outfit "Teuoe Generator"
+	category "Power"
+	cost 389700
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 27.0
+	"heat generation" 11.9
+	description "Mporadveog T4.8 Power generator"
+
+outfit "Xuopc Generator"
+	category "Power"
+	cost 662500
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 140.4
+	"heat generation" 26.2
+	description "Mporadveog T4.8 Power generator"
+
+
+outfit "Ayooe Thruster"
+	category "Engines"
+	cost 3051200
+	thumbnail "outfit/small atomic thruster"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 5.2
+	"thrusting energy" 0.2
+	"thrusting heat" 0.2
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.2
+	"flare sound" "atomic small"
+	description "Mporadveog T4.8 Thruster"
+
+outfit "Ayooe Steering"
+	category "Engines"
+	cost 2059212
+	thumbnail "outfit/tiny ion steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 149
+	"turning energy" 0.1
+	"turning heat" 0.1
+	description "Mporadveog T4.8 steering"
+
+outfit "Eutua Thruster"
+	category "Engines"
+	cost 5187100
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 27.0
+	"thrusting energy" 1.0
+	"thrusting heat" 1.0
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1.2
+	"flare sound" "atomic medium"
+	description "Mporadveog T4.8 Thruster"
+
+outfit "Eutua Steering"
+	category "Engines"
+	cost 8818100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"turn" 774.8
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Mporadveog T4.8 steering"
+
+outfit "Kavau Thruster"
+	category "Engines"
+	cost 8818100
+	thumbnail "outfit/large atomic thruster"
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"thrust" 140.4
+	"thrusting energy" 5.2
+	"thrusting heat" 5.2
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1.2
+	"flare sound" "atomic large"
+	description "Mporadveog T4.8 Thruster"
+
+outfit "Kavau Steering"
+	category "Engines"
+	cost 14990800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"turn" 4029.0
+	"turning energy" 2.6
+	"turning heat" 2.6
+	description "Mporadveog T4.8 steering"
+
+outfit "Njueo rogub Thruster"
+	category "Engines"
+	cost 14990800
+	thumbnail "outfit/large atomic thruster"
+	"mass" 96
+	"outfit space" -96
+	"engine capacity" -96
+	"thrust" 730.1
+	"thrusting energy" 27.0
+	"thrusting heat" 27.0
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1.2
+	"flare sound" "atomic large"
+	description "Mporadveog T4.8 Thruster"
+
+outfit "Njueo rogub Steering"
+	category "Engines"
+	cost 25484400
+	thumbnail "outfit/tiny ion steering"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"turn" 20950.8
+	"turning energy" 13.5
+	"turning heat" 13.5
+	description "Mporadveog T4.8 steering"
+
+outfit "Uuoueicuqi Thruster"
+	category "Engines"
+	cost 25484400
+	thumbnail "outfit/large atomic thruster"
+	"mass" 192
+	"outfit space" -192
+	"engine capacity" -192
+	"thrust" 3796.5
+	"thrusting energy" 140.4
+	"thrusting heat" 140.4
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1.2
+	"flare sound" "atomic large"
+	description "Mporadveog T4.8 Thruster"
+
+outfit "Uuoueicuqi Steering"
+	category "Engines"
+	cost 43323500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 128
+	"outfit space" -128
+	"engine capacity" -128
+	"turn" 108944.2
+	"turning energy" 70.2
+	"turning heat" 70.2
+	description "Mporadveog T4.8 steering"
+
+
+outfit "Ceuafouuqh Shield Rejuvenator"
+	category "Systems"
+	cost 1033700
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 2.47
+	"shield energy" 2.56
+	"shield heat" 3
+	description "Mporadveog T4.8 shield gen"
+
+outfit "Iyxzi Shield Rejuvenator"
+	category "Systems"
+	cost 1860700
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 4.9
+	"shield energy" 2.0
+	"shield heat" 3
+	description "Mporadveog T4.8 shield gen"
+
+outfit "Maeao Shield Rejuvenator"
+	category "Systems"
+	cost 3349300
+	thumbnail "outfit/medium shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 9.8
+	"shield energy" 1.6
+	"shield heat" 3
+	description "Mporadveog T4.8 shield gen"
+
+outfit "Ourzuilaoi Shield Rejuvenator"
+	category "Systems"
+	cost 6028800
+	thumbnail "outfit/large shield"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 19.6
+	"shield energy" 1.3
+	"shield heat" 3
+	description "Mporadveog T4.8 shield gen"
+
+
+
+outfit "Oeefb Cooling"
+	category "Systems"
+	cost 16900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 113
+	description "Mporadveog T4.8 Cooling"
+
+
+outfit "Ixten Cooling"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/large heat shunt"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 141
+	description "Mporadveog T4.8 Cooling"
+
+
+outfit "Tuboloeujy Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 14
+	description "Mporadveog T4.8 Cooling"
+
+
+outfit "Hooijecepu Cooling"
+	category "Systems"
+	cost 17400
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Mporadveog T4.8 Cooling"
+
+
+outfit "Reiea Heatsink"
+	category "Systems"
+	cost 15400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	description "Mporadveog T4.8 Cooling"
+
+
+outfit "Takiivuqqa Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/cooling module"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 10
+	"active cooling" 9
+	"cooling energy" 4.603113272519134
+	description "Mporadveog T4.8 Cooling"
+
+

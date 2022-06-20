@@ -1,0 +1,79 @@
+fleet "Mporadveog Navy"
+	government "Mporadveog"
+	names "Mporadveog names"
+	personality
+		heroic
+		opportunistic
+		confusion 10
+	variant 9
+		"Aoaooedoijtmeiu" 1
+		"Cdireolotu" 5
+		"Xociu iteox" 1
+		"Iqexolnoja" 3
+		"Aszaoxmeeo" 4
+		"Ebmue diibi" 2
+		"Kyeia yeaokdtuae" 6
+		"Riqaaaufea" 4
+	variant 11
+		"Aszaoxmeeo" 5
+		"Cdireolotu" 4
+		"Ebmue diibi" 3
+		"Xociu iteox" 3
+		"Aoaooedoijtmeiu" 3
+		"Iqexolnoja" 4
+		"Riqaaaufea" 1
+		"Kyeia yeaokdtuae" 1
+	variant 11
+		"Cdireolotu" 2
+		"Ebmue diibi" 1
+		"Xociu iteox" 1
+		"Iqexolnoja" 2
+		"Aszaoxmeeo" 2
+		"Riqaaaufea" 2
+		"Aoaooedoijtmeiu" 2
+		"Kyeia yeaokdtuae" 3
+	variant 14
+		"Aszaoxmeeo" 4
+		"Ebmue diibi" 3
+		"Xociu iteox" 2
+		"Riqaaaufea" 5
+		"Aoaooedoijtmeiu" 3
+		"Iqexolnoja" 4
+		"Cdireolotu" 3
+		"Kyeia yeaokdtuae" 5
+	variant 7
+		"Iqexolnoja" 1
+		"Xociu iteox" 5
+		"Kyeia yeaokdtuae" 2
+		"Aszaoxmeeo" 5
+		"Cdireolotu" 2
+		"Aoaooedoijtmeiu" 2
+		"Riqaaaufea" 2
+		"Ebmue diibi" 3
+	variant 13
+		"Ebmue diibi" 1
+		"Xociu iteox" 2
+		"Aszaoxmeeo" 2
+		"Cdireolotu" 1
+		"Aoaooedoijtmeiu" 2
+		"Riqaaaufea" 6
+		"Kyeia yeaokdtuae" 6
+		"Iqexolnoja" 5
+	variant 5
+		"Ebmue diibi" 6
+		"Xociu iteox" 4
+		"Aszaoxmeeo" 6
+		"Kyeia yeaokdtuae" 1
+		"Riqaaaufea" 1
+		"Cdireolotu" 5
+		"Aoaooedoijtmeiu" 4
+		"Iqexolnoja" 3
+fleet "Mporadveog Civilian"
+	government "Mporadveog"
+	names "Mporadveog names"
+	personality
+		timid
+	variant 0
+		"Xociu iteox" 1
+		"Ebmue diibi" 1
+		"Ebmue diibi" 4

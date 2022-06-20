@@ -1,0 +1,39 @@
+fleet "Avkuzfqe Navy"
+	government "Avkuzfqe"
+	names "Avkuzfqe names"
+	personality
+		coward
+		confusion 11
+	variant 2
+		"Kaovskoe" 5
+		"Tujvooov" 3
+		"Onsaqenk" 4
+	variant 9
+		"Kaovskoe" 5
+		"Tujvooov" 4
+		"Onsaqenk" 2
+	variant 13
+		"Tujvooov" 2
+		"Kaovskoe" 5
+		"Onsaqenk" 4
+fleet "Avkuzfqe Merchant"
+	government "Avkuzfqe"
+	names "Avkuzfqe names"
+	personality
+		timid
+	variant 0
+		"Onsaqenk" 1
+		"Onsaqenk" 3
+		"Onsaqenk" 1
+	variant 5
+		"Onsaqenk" 3
+		"Ibuauqom" 1
+		"Nipgpiooxiji" 4
+	variant 12
+		"Nipgpiooxiji" 2
+		"Ibuauqom" 4
+		"Onsaqenk" 2
+	variant 57
+		"Onsaqenk" 1
+		"Kaovskoe" 1
+		"Tujvooov" 2

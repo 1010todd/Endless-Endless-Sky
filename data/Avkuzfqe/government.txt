@@ -1,0 +1,16 @@
+government "Avkuzfqe"
+	"display name" "Avkuzfqe"
+	"swizzle" 16
+	"color" 0.640 0.947 0.356 0.280
+	"player reputation" 0
+	"crew attack" 8.2
+	"crew defense" 30.5
+	"attitude toward"
+		"Laakaz" -1
+		"Mporadveog" 0
+		"Oojqu oinap" 0
+		"Peakeain" 0
+		"Aosmaq" -1
+		"Gli uue" -1
+		"Nuadijguji" -1
+		"Fah uhr" 0

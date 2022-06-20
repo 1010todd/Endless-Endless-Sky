@@ -1,13 +1,13 @@
 import random
 import math
 
-DEVMODE = False
-if DEVMODE:
-    random.seed(99)
+
 class Namegenerator:
     def __init__(self,faction=None) -> None:
         self.az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         self.vowels = 'a e i o u'.split()
+        if faction.devmode:
+            random.seed(faction.devmodeseed)
 
     def completelyRandomNames(self,minlength=4,maxlength=7):
         if False:
@@ -103,12 +103,14 @@ class Namegenerator:
                 nametype = line[6:]
         pass
 
-namegen = Namegenerator()
+
 
 def generate_namefile(faction,fileout=''):
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} names.txt'
-    
+
+    namegen = Namegenerator(faction)
+
     name_needed = 150
 
     filewrite = open(fileout,'w')

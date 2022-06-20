@@ -1,0 +1,229 @@
+ship "Kaovskoe"
+	sprite "ship/Avkuzfqe/Kaovskoe"
+	attributes 
+		category "Light Warship"
+		"cost" 548000
+		"shields" 10400
+		"hull" 15000
+		"required crew" 2
+		"bunks" 6
+		"mass" 139.3
+		"drag" 3.03
+		"heat dissipation" 0.79
+		"fuel capacity" 900
+		"cargo space" 20
+		"outfit space" 330
+		"weapon capacity" 90
+		"engine capacity" 99
+		weapon 
+			"blast radius" 254
+			"shield damage" 2540
+			"hull damage" 1270
+			"hit force" 3810
+	outfits 
+		"Icmoupvw Shield Generator" 1
+		"Naof Thruster" 1
+		"Naof Steering" 1
+		"Akak Torpedo Launcher" 1
+		"Akak Torpedo" 12
+		"Iffa Thruster" 1
+		"Iffa Steering" 1
+		"Eoge pipv Cell" 1
+		"Ecix Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 42.7
+	gun 81 141
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Avkuzfqe T1.9 ship"
+
+ship "Onsaqenk"
+	sprite "ship/Avkuzfqe/Onsaqenk"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 6595000
+		"shields" 30600
+		"hull" 44000
+		"required crew" 28
+		"bunks" 94
+		"mass" 979.4
+		"drag" 21.83
+		"heat dissipation" 0.54
+		"fuel capacity" 1200
+		"cargo space" 525
+		"outfit space" 2178
+		"weapon capacity" 650
+		"engine capacity" 583
+		weapon 
+			"blast radius" 746
+			"shield damage" 7460
+			"hull damage" 3730
+			"hit force" 11190
+	outfits 
+		"Eoge pipv Cell" 2
+		"Enxifuqa Battery" 1
+		"Azonkabu Shield Generator" 1
+		"Upfiewof Thruster" 1
+		"Upfiewof Steering" 1
+		"Qdou Anti-Missile" 1
+		"Akak Torpedo Launcher" 3
+		"Akak Torpedo" 36
+		"Qeic Cell" 1
+		"Unfi Cell" 1
+		"Xfaninoe Cell" 1
+		"Ecix Heat Shunt" 2
+		"Bixi Cooling" 1
+		"Hyperdrive"
+	engine 0 44.5
+	gun 128 78
+	gun 140 188
+	gun 113 188
+	turret 70 238
+	turret 178 238
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Avkuzfqe T1.9 ship"
+
+ship "Nipgpiooxiji"
+	sprite "ship/Avkuzfqe/Nipgpiooxiji"
+	attributes 
+		category "Interceptor"
+		"cost" 217000
+		"shields" 3700
+		"hull" 5400
+		"required crew" 8
+		"bunks" 15
+		"mass" 95.8
+		"drag" 2.09
+		"heat dissipation" 0.99
+		"fuel capacity" 900
+		"cargo space" 15
+		"outfit space" 231
+		"weapon capacity" 80
+		"engine capacity" 66
+		weapon 
+			"blast radius" 91
+			"shield damage" 910
+			"hull damage" 460
+			"hit force" 1370
+	outfits 
+		"Icmoupvw Shield Generator" 1
+		"Naof Thruster" 1
+		"Naof Steering" 1
+		"Qdou Anti-Missile" 1
+		"Iffa Thruster" 1
+		"Iffa Steering" 1
+		"Hyperdrive"
+	engine 0 42.3
+	gun 35 17
+	gun 68 17
+	turret 53 36
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Avkuzfqe T1.9 ship"
+
+ship "Ibuauqom"
+	sprite "ship/Avkuzfqe/Ibuauqom"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 4436000
+		"shields" 18200
+		"hull" 26200
+		"required crew" 31
+		"bunks" 44
+		"mass" 764.3
+		"drag" 18.93
+		"heat dissipation" 0.85
+		"fuel capacity" 1300
+		"cargo space" 410
+		"outfit space" 1683
+		"weapon capacity" 480
+		"engine capacity" 506
+		weapon 
+			"blast radius" 444
+			"shield damage" 4440
+			"hull damage" 2220
+			"hit force" 6660
+	outfits 
+		"Eoge pipv Cell" 2
+		"Enxifuqa Battery" 1
+		"Azonkabu Shield Generator" 1
+		"Upfiewof Thruster" 1
+		"Upfiewof Steering" 1
+		"Qdou Anti-Missile" 1
+		"Qeic Cell" 1
+		"Unfi Cell" 1
+		"Xfaninoe Cell" 1
+		"Ecix Heat Shunt" 1
+		"Bixi Cooling" 1
+		"Hyperdrive"
+	engine 0 40.0
+	turret 145 156
+	leak "leak" 20
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Avkuzfqe T1.9 ship"
+
+ship "Tujvooov"
+	sprite "ship/Avkuzfqe/Tujvooov"
+	attributes 
+		category "Light Freighter"
+		"cost" 941000
+		"shields" 5200
+		"hull" 7500
+		"required crew" 17
+		"bunks" 34
+		"mass" 284.2
+		"drag" 6.19
+		"heat dissipation" 0.76
+		"fuel capacity" 1400
+		"cargo space" 95
+		"outfit space" 484
+		"weapon capacity" 170
+		"engine capacity" 143
+		weapon 
+			"blast radius" 127
+			"shield damage" 1270
+			"hull damage" 640
+			"hit force" 1910
+	outfits 
+		"Azonkabu Shield Generator" 1
+		"Naof Thruster" 1
+		"Naof Steering" 1
+		"Akak Torpedo Launcher" 2
+		"Akak Torpedo" 24
+		"Iffa Thruster" 1
+		"Iffa Steering" 1
+		"Eoge pipv Cell" 1
+		"Hyperdrive"
+	engine 0 40.0
+	gun 56 17
+	gun 127 17
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Avkuzfqe T1.9 ship"
+

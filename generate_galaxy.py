@@ -6,7 +6,6 @@ import glob
 import random
 
 import namegenerator #Custom Name generator
-namegen = namegenerator.Namegenerator()
 
 def roundup100(x):
     return int(math.ceil(x / 100.0)) * 100
@@ -1227,7 +1226,8 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
 def load_galaxy_configs(government_list):
     if government_list[0].devmode:
         random.seed(99)
-
+    global namegen
+    namegen = namegenerator.Namegenerator(government_list[0])
     galaxy_configs_list = glob.glob("config/galaxy config/*.txt") #Imports files in directory
     galaxy_configs_amount = len(galaxy_configs_list) #Gets amount of items in list\
     

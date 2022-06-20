@@ -1,0 +1,74 @@
+outfit "Qdou Anti-Missile"
+	category "Turrets"
+	cost 556100
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 79
+	"outfit space" -79
+	"weapon capacity" -79
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 10.0
+		"velocity" 140
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 362.3
+		"firing heat" 90.6
+	description "Avkuzfqe T1.9 Anti-missile"
+
+outfit "Akak Torpedo"
+	category "Ammunition"
+	cost 72352
+	thumbnail "outfit/sidewinder"
+	"mass" 0.08
+	"Akak Torpedo capacity" -1
+	description "Avkuzfqe Missile"
+
+outfit "Akak Torpedo Storage
+	category "Ammunition"
+	cost 681477
+	thumbnail "outfit/sidewinder storage"
+	"mass" 1
+	"outfit space" -1
+	"Akak Torpedo capacity" 12
+	ammo "Akak Torpedo"
+	description "Akak Torpedo Storage"
+
+outfit "Akak Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 355700
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -66
+	"weapon capacity" -66
+	"gun ports" -1
+	"Akak Torpedo capacity" 12
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Akak Torpedo"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 10.5
+		"velocity" 36
+		"lifetime" 600
+		"reload" 1
+		"firing energy" 13.2
+		"firing heat" 20.4
+		"acceleration" 1.6
+		"drag" 0.2
+		"turn" 6.4
+		"homing" 1
+		"optical tracking" 0.13
+		"shield damage" 22.0
+		"hull damage" 16.4
+		"missile strength" 15.2
+	description "Avkuzfqe T1.9 Missile weapon"
+

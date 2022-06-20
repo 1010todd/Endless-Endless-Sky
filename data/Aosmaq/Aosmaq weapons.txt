@@ -1,0 +1,168 @@
+outfit "Rid Beam"
+	category "Guns"
+	cost 36978600
+	thumbnail "outfit/electron laser"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 1.2
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 1.8
+		"shield damage" 4.3
+		"hull damage" 2.6
+	description "Aosmaq T2.6 Beam weapon"
+
+outfit "Rid Beam Turret"
+	category "Turrets"
+	cost 88249983.41380568
+	thumbnail "outfit/electron laser turret"
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/electron laser turret"
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 1.2
+		"turret turn" 1.2
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 1.8
+		"shield damage" 12.899999999999999
+		"hull damage" 7.800000000000001
+	description "Aosmaq T2.6 Beam weapon 3gun Turret"
+
+outfit "Jaa Rapid Bombard"
+	category "Guns"
+	cost 16105900
+	thumbnail "outfit/inhibitor"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile8"
+		sound "pulse"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.0
+		"velocity" 16
+		"lifetime" 43
+		"reload" 1
+		"firing energy" 32.4
+		"firing heat" 15.9
+		"shield damage" 57.1
+		"hull damage" 11.8
+		"hit force" 15
+	description "Aosmaq T2.6 Projectile weapon"
+
+outfit "Jaa Rapid Bombard Turret"
+	category "Turrets"
+	cost 71740677.89443363
+	thumbnail "outfit/inhibitor turret"
+	"mass" 155
+	"outfit space" -155
+	"weapon capacity" -155
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile8"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "pulse"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.0
+		"turret turn" 0.6
+		"velocity" 16
+		"lifetime" 43
+		"reload" 1
+		"firing energy" 32.4
+		"firing heat" 15.9
+		"shield damage" 171.3
+		"hull damage" 35.400000000000006
+		"hit force" 45
+	description "Aosmaq T2.6 Projectile weapon 3gun Turret"
+
+outfit "Rku Tachyon Projector"
+	category "Guns"
+	cost 73051900
+	thumbnail "outfit/sunbeam"
+	"mass" 77
+	"outfit space" -77
+	"weapon capacity" -77
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 2.7
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12.3
+		"firing heat" 8.8
+		"shield damage" 37.2
+		"hull damage" 4.6
+		"hit force" 2
+	description "Aosmaq T2.6 Beam weapon"
+
+outfit "Ema Laser"
+	category "Guns"
+	cost 8489500
+	thumbnail "outfit/slicer"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.8
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.9
+		"firing heat" 0.8
+		"shield damage" 10.8
+		"hull damage" 7.2
+		"energy damage" 3.2
+	description "Aosmaq T2.6 Beam weapon"
+
+outfit "Ema Laser Turret"
+	category "Turrets"
+	cost 23163706.03031252
+	thumbnail "outfit/slicer turret"
+	"mass" 117
+	"outfit space" -117
+	"weapon capacity" -117
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/laser"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "heavy laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.5
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.9
+		"firing heat" 0.8
+		"shield damage" 21.6
+		"hull damage" 14.4
+		"energy damage" 6.4
+	description "Aosmaq T2.6 Beam weapon 2gun Turret"
+

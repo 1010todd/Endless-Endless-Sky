@@ -9,7 +9,7 @@ import random
 import os
 
 import namegenerator
-namegen = namegenerator.Namegenerator()
+
 
 def roundup1000(x):
     return int(math.ceil(x / 1000.0)) * 1000
@@ -101,6 +101,7 @@ class class_Outfit():
 
 #Outfits
 def create_battery(faction,fileout=''):
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'
@@ -190,6 +191,7 @@ def create_battery(faction,fileout=''):
 #============================================COOLING=========================================
 #============================================================================================
 def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, max_outfit_space = 10,coolingmin=None):
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'
@@ -311,6 +313,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
 #============================================POWER===========================================
 #============================================================================================
 def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, max_outfit_space = 20): 
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'
@@ -410,6 +413,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
 #============================================ENGINE===========================================
 #============================================================================================
 def create_engines(faction,fileout=''):
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'
@@ -562,6 +566,7 @@ def create_engines(faction,fileout=''):
 #============================================SHIELD===========================================
 #============================================================================================
 def create_shield_generator(faction,fileout=''):
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'
@@ -646,6 +651,7 @@ def create_shield_generator(faction,fileout=''):
 #============================================HULL===========================================
 #============================================================================================
 def create_hull_repair(faction,fileout=''):
+    namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} outfits.txt'

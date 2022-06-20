@@ -1,0 +1,16 @@
+government "Nuadijguji"
+	"display name" "Nuadijguji"
+	"swizzle" 2
+	"color" 0.205 0.785 0.387 0.875
+	"player reputation" 0
+	"crew attack" 8.2
+	"crew defense" 30.5
+	"attitude toward"
+		"Laakaz" 1
+		"Mporadveog" 0
+		"Oojqu oinap" 0
+		"Avkuzfqe" -1
+		"Peakeain" 0
+		"Aosmaq" -1
+		"Gli uue" 0
+		"Fah uhr" 0
