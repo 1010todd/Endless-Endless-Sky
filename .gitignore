@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# testing
+generatedsprites/
+
 # C extensions
 *.so
 
