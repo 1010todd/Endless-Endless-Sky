@@ -361,11 +361,11 @@ def place_parts(core_img,
         partlistany = partlistuni
     else:
         partlistany = partlistdir
-    if symmetric and not center:
+    if symmetric and not center and count > 1:
         
         #place in pairs
-        
-        for i in range(0,count,2):
+        i = 0
+        while count > 1:
             #Randomized Pos
             #clustermode will place parts within area of previous part.
             if len(newboundmin) == 0 or not clustermode:
@@ -456,6 +456,7 @@ def place_parts(core_img,
                 hardpoint[i] = [randX,posY]
                 hardpoint[i+1] = [symX,posY]
             count -= 2
+            i += 2
             #core_img.save(f'generatedsprites/stp{count}.png')
 
         #place single in the middle
