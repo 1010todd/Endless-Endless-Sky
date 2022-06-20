@@ -1,0 +1,126 @@
+ship "Zoovfbypiedqsulmua"
+	sprite "ship/Peeisesaxibb/Zoovfbypiedqsulmua"
+	attributes 
+		category "Transport"
+		"cost" 2542000
+		"shields" 4000
+		"hull" 30900
+		"required crew" 24
+		"bunks" 101
+		"mass" 301.0
+		"drag" 6.42
+		"heat dissipation" 0.52
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 470
+		"weapon capacity" 160
+		"engine capacity" 150
+		weapon 
+			"blast radius" 349
+			"shield damage" 3490
+			"hull damage" 1750
+			"hit force" 5240
+	outfits 
+		"Awemnr kolous Thruster" 1
+		"Awemnr kolous Steering" 1
+		"Akuoauuketev Core" 1
+		"Igeseu Shield Regenerator" 1
+		"Oxoawsuikceo Battery" 1
+		"Hyperdrive"
+	engine 0 42.7
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Peeisesaxibb T2.3 ship"
+
+ship "Aasixe yuaukiuboexi"
+	sprite "ship/Peeisesaxibb/Aasixe yuaukiuboexi"
+	attributes 
+		category "Light Warship"
+		"cost" 5840000
+		"shields" 7900
+		"hull" 61400
+		"required crew" 12
+		"bunks" 24
+		"mass" 266.20000000000005
+		"drag" 5.79
+		"heat dissipation" 0.61
+		"fuel capacity" 1600
+		"cargo space" 35
+		"outfit space" 460
+		"weapon capacity" 170
+		"engine capacity" 140
+		weapon 
+			"blast radius" 693
+			"shield damage" 6930
+			"hull damage" 3470
+			"hit force" 10400
+	outfits 
+		"Aoodlf Thruster" 1
+		"Aoodlf Steering" 1
+		"Oosfao Torpedo Catapult" 1
+		"Oosfao Torpedo" 12
+		"Akuoauuketev Core" 1
+		"Igeseu Shield Regenerator" 1
+		"Oxoawsuikceo Battery" 1
+		"Hyperdrive"
+	engine 0 40.6
+	gun 154 43
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peeisesaxibb T2.3 ship"
+
+ship "Oooeqibaunwa ouiwas"
+	sprite "ship/Peeisesaxibb/Oooeqibaunwa ouiwas"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 7419000
+		"shields" 8400
+		"hull" 65600
+		"required crew" 19
+		"bunks" 31
+		"mass" 933.0
+		"drag" 17.72
+		"heat dissipation" 0.75
+		"fuel capacity" 800
+		"cargo space" 450
+		"outfit space" 1000
+		"weapon capacity" 350
+		"engine capacity" 280
+		weapon 
+			"blast radius" 740
+			"shield damage" 7400
+			"hull damage" 3700
+			"hit force" 11100
+	outfits 
+		"Awemnr kolous Thruster" 1
+		"Awemnr kolous Steering" 1
+		"Oosfao Torpedo Catapult" 1
+		"Oosfao Torpedo" 12
+		"Akuoauuketev Core" 1
+		"Igeseu Shield Regenerator" 1
+		"Oxoawsuikceo Battery" 1
+		"Hyperdrive"
+	engine 0 40.3
+	gun 212 153
+	turret 162 235
+	turret 210 125
+	turret 210 125
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peeisesaxibb T2.3 ship"
+

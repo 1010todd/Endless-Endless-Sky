@@ -1,0 +1,19 @@
+government "Pawe iixe"
+	"display name" "Pawe iixe"
+	"swizzle" 15
+	"color" 0.436 0.541 0.403 0.136
+	"player reputation" 0
+	"crew attack" 1.6
+	"crew defense" 3.0
+	"attitude toward"
+		"Uda zuu" -1
+		"Ooqfoasp" 0
+		"Ujoaa utofb" -1
+		"Geaafe ibueuk" -1
+		"Iao pta" 0
+		"Weupuyyo" 0
+		"Uyouzv asnund" -1
+		"Nis mio" -1
+		"Xoiba vuvel" -1
+		"Peeisesaxibb" 0
+		"Uyau wexa" -1

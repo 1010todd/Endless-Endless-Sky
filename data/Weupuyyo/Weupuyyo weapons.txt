@@ -1,0 +1,172 @@
+outfit "Guae Guided Rocket"
+	category "Ammunition"
+	cost 245577950047823
+	thumbnail "outfit/typhoon"
+	"mass" 0.1
+	"Guae missile capacity" -1
+	description "Weupuyyo Missile"
+
+outfit "Guae Guided Rocket Storage
+	category "Ammunition"
+	cost 1265354859706402
+	thumbnail "outfit/typhoon storage"
+	"mass" 1
+	"outfit space" -2
+	"Guae missile capacity" 20
+	ammo "Guae Missile"
+	description "Guae Guided Rocket Storage"
+
+outfit "Guae Guided Rocket Deployer"
+	category "Secondary Weapons"
+	cost 1132913949518200
+	thumbnail "outfit/typhoon launcher"
+	"mass" 1
+	"outfit space" -55
+	"weapon capacity" -55
+	"gun ports" -1
+	"Guae Guided Rocket capacity" 20
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Guae Missile"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.4
+		"velocity" 9
+		"lifetime" 38300
+		"reload" 1
+		"firing energy" 2.1
+		"firing heat" 16.6
+		"acceleration" 0.3
+		"drag" 0.1
+		"turn" 133.4
+		"homing" 1
+		"infrared tracking" 0.59
+		"shield damage" 67.7
+		"hull damage" 53.1
+		"hit force" 26
+		"energy damage" 62.1
+		"missile strength" 112.8
+	description "Weupuyyo T5.4 Missile weapon"
+
+outfit "Hano Beam Projector"
+	category "Guns"
+	cost 1507042713149900
+	thumbnail "outfit/heavy laser"
+	"mass" 53
+	"outfit space" -53
+	"weapon capacity" -53
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "heliarch repulsor"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.1
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 4.4
+		"shield damage" 40.0
+		"hull damage" 26.8
+		"disruption damage" 35.1
+	description "Weupuyyo T5.4 Beam weapon"
+
+outfit "Udga Beam Projector"
+	category "Guns"
+	cost 376807944277900
+	thumbnail "outfit/heavy laser"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "heliarch attractor"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.3
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.1
+		"firing heat" 1.0
+		"shield damage" 3.7
+		"hull damage" 4.4
+	description "Weupuyyo T5.4 Beam weapon"
+
+outfit "Udga Beam Projector Turret"
+	category "Turrets"
+	cost 803234940314751.2
+	thumbnail "outfit/heavy laser turret"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		sound "heliarch attractor"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.3
+		"turret turn" 2.7
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.1
+		"firing heat" 1.0
+		"shield damage" 7.4
+		"hull damage" 8.8
+	description "Weupuyyo T5.4 Beam weapon 2gun Turret"
+
+outfit "Meve Assault Blaster"
+	category "Guns"
+	cost 215298421569900
+	thumbnail "outfit/ion rain gun"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		sound "plasma"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.6
+		"velocity" 26
+		"lifetime" 9
+		"reload" 1
+		"firing energy" 0.1
+		"firing heat" 1.0
+		"shield damage" 4.8
+		"hull damage" 42.0
+	description "Weupuyyo T5.4 Projectile weapon"
+
+outfit "Meve Assault Blaster Turret"
+	category "Turrets"
+	cost 1054997669573799.4
+	thumbnail "outfit/ion rain turret"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "plasma"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.6
+		"turret turn" 6.7
+		"velocity" 26
+		"lifetime" 9
+		"reload" 1
+		"firing energy" 0.1
+		"firing heat" 1.0
+		"shield damage" 14.399999999999999
+		"hull damage" 126.0
+	description "Weupuyyo T5.4 Projectile weapon 3gun Turret"
+

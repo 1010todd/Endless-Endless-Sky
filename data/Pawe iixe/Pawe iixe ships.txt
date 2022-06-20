@@ -1,0 +1,171 @@
+ship "Tezw apwa"
+	sprite "ship/Pawe iixe/Tezw apwa"
+	attributes 
+		category "Interceptor"
+		"cost" 292697000
+		"shields" 775100
+		"hull" 325200
+		"required crew" 2
+		"bunks" 5
+		"mass" 59.6
+		"drag" 1.22
+		"heat dissipation" 1.1099999999999999
+		"fuel capacity" 3700
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 11003
+			"shield damage" 110030
+			"hull damage" 55020
+			"hit force" 165050
+	outfits 
+		"Ecac Thruster" 1
+		"Ecac Steering" 1
+		"Ekay Ballista" 2
+		"Uzuf Tachyon Projector" 1
+		"Efca evoy Cell" 1
+		"Jump Drive"
+	engine 0 43.6
+	gun 61 63
+	gun 73 48
+	gun 73 48
+	gun 61 63
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Pawe iixe T5.3 ship"
+
+ship "Booljuzuukip"
+	sprite "ship/Pawe iixe/Booljuzuukip"
+	attributes 
+		category "Light Warship"
+		"cost" 726803000
+		"shields" 1901400
+		"hull" 797700
+		"required crew" 12
+		"bunks" 29
+		"mass" 234.60000000000002
+		"drag" 4.58
+		"heat dissipation" 0.51
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 340
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 26991
+			"shield damage" 269910
+			"hull damage" 134960
+			"hit force" 404870
+	outfits 
+		"Ecac Thruster" 1
+		"Ecac Steering" 1
+		"Ekay Ballista Turret" 1
+		"Obadiyai Core" 1
+		"Jump Drive"
+	engine 0 41.9
+	turret 147 58
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Pawe iixe T5.3 ship"
+
+ship "Aaezkereqeiq"
+	sprite "ship/Pawe iixe/Aaezkereqeiq"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 2290280000
+		"shields" 3263300
+		"hull" 1369000
+		"required crew" 30
+		"bunks" 50
+		"mass" 608.0
+		"drag" 12.24
+		"heat dissipation" 0.66
+		"fuel capacity" 1900
+		"cargo space" 295
+		"outfit space" 980
+		"weapon capacity" 360
+		"engine capacity" 250
+		weapon 
+			"blast radius" 46323
+			"shield damage" 463230
+			"hull damage" 231620
+			"hit force" 694850
+	outfits 
+		"Oqoouuup Thruster" 1
+		"Oqoouuup Steering" 1
+		"Ekay Ballista" 1
+		"Ekay Ballista Turret" 1
+		"Tiau Anti-Missile" 1
+		"Uzuf Tachyon Projector Turret" 1
+		"Deepciba Core" 2
+		"Evujgita Shield Rejuvenator" 1
+		"Iaei Hull Reconstructor" 1
+		"Yiqa Battery" 1
+		"Ueppuiuy Core" 1
+		"Akekkoxo Temperature Control" 1
+		"Jump Drive"
+	engine 0 43.1
+	gun 192 123
+	turret 170 97
+	turret 191 101
+	turret 191 101
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Pawe iixe T5.3 ship"
+
+ship "Opbi urcouqtf"
+	sprite "ship/Pawe iixe/Opbi urcouqtf"
+	attributes 
+		category "Light Freighter"
+		"cost" 316631000
+		"shields" 723400
+		"hull" 303500
+		"required crew" 2
+		"bunks" 12
+		"mass" 138.60000000000002
+		"drag" 2.86
+		"heat dissipation" 0.74
+		"fuel capacity" 1300
+		"cargo space" 45
+		"outfit space" 230
+		"weapon capacity" 80
+		"engine capacity" 60
+		weapon 
+			"blast radius" 10269
+			"shield damage" 102690
+			"hull damage" 51350
+			"hit force" 154040
+	outfits 
+		"Ecac Thruster" 1
+		"Ecac Steering" 1
+		"Ekay Ballista" 1
+		"Riga Core" 1
+		"Jump Drive"
+	engine 0 42.5
+	gun 168 37
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Pawe iixe T5.3 ship"
+

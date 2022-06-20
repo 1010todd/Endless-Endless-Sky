@@ -1,0 +1,373 @@
+outfit "Benau Capacitor"
+	category "Power"
+	cost 99500
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 1670
+	description "Xoiba vuvel T1.3 Battery"
+
+outfit "Euayp Capacitor"
+	category "Power"
+	cost 179100
+	thumbnail "outfit/tiny battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 3680
+	description "Xoiba vuvel T1.3 Battery"
+
+outfit "Piafoiedto Capacitor"
+	category "Power"
+	cost 322400
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 8100
+	description "Xoiba vuvel T1.3 Battery"
+
+
+outfit "Defia Cell"
+	category "Power"
+	cost 22600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 1.5
+	"heat generation" 2.3
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Hirewebonu Cell"
+	category "Power"
+	cost 38500
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 3.3
+	"heat generation" 3.2
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Iapco Cell"
+	category "Power"
+	cost 65500
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 7.3
+	"heat generation" 4.5
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Mvuoeiiayi Cell"
+	category "Power"
+	cost 111400
+	thumbnail "outfit/large fuel cell"
+	"mass" 96
+	"outfit space" -96
+	"energy generation" 16.1
+	"heat generation" 6.3
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Qaeii Cell"
+	category "Power"
+	cost 189400
+	thumbnail "outfit/huge fuel cell"
+	"mass" 192
+	"outfit space" -192
+	"energy generation" 35.4
+	"heat generation" 8.8
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Wfaotuyuci Cell"
+	category "Power"
+	cost 322000
+	thumbnail "outfit/huge fuel cell"
+	"mass" 384
+	"outfit space" -384
+	"energy generation" 77.9
+	"heat generation" 12.3
+	description "Xoiba vuvel T1.3 Power generator"
+
+
+outfit "Bwobavciuq Thruster"
+	category "Engines"
+	cost 1952500
+	thumbnail "outfit/small atomic thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 5.1
+	"thrusting energy" 0.9
+	"thrusting heat" 1.2
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.2
+	"flare sound" "atomic small"
+	description "Xoiba vuvel T1.3 Thruster"
+
+outfit "Bwobavciuq Steering"
+	category "Engines"
+	cost 1344005
+	thumbnail "outfit/tiny ion steering"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"turn" 147
+	"turning energy" 0.6
+	"turning heat" 0.8
+	description "Xoiba vuvel T1.3 steering"
+
+outfit "Ojuvb Thruster"
+	category "Engines"
+	cost 3319300
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 11.2
+	"thrusting energy" 2.0
+	"thrusting heat" 2.6
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1.2
+	"flare sound" "atomic medium"
+	description "Xoiba vuvel T1.3 Thruster"
+
+outfit "Ojuvb Steering"
+	category "Engines"
+	cost 5642900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 323.4
+	"turning energy" 1.3
+	"turning heat" 1.8
+	description "Xoiba vuvel T1.3 steering"
+
+outfit "Tiicofcoai Thruster"
+	category "Engines"
+	cost 5642900
+	thumbnail "outfit/large atomic thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 24.6
+	"thrusting energy" 4.4
+	"thrusting heat" 5.7
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1.2
+	"flare sound" "atomic large"
+	description "Xoiba vuvel T1.3 Thruster"
+
+outfit "Tiicofcoai Steering"
+	category "Engines"
+	cost 9593000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 33
+	"outfit space" -33
+	"engine capacity" -33
+	"turn" 711.5
+	"turning energy" 2.9
+	"turning heat" 4.0
+	description "Xoiba vuvel T1.3 steering"
+
+outfit "Ucyae Thruster"
+	category "Engines"
+	cost 9593000
+	thumbnail "outfit/large atomic thruster"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 54.1
+	"thrusting energy" 9.7
+	"thrusting heat" 12.5
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1.2
+	"flare sound" "atomic large"
+	description "Xoiba vuvel T1.3 Thruster"
+
+outfit "Ucyae Steering"
+	category "Engines"
+	cost 16308100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 73
+	"outfit space" -73
+	"engine capacity" -73
+	"turn" 1565.3
+	"turning energy" 6.4
+	"turning heat" 8.8
+	description "Xoiba vuvel T1.3 steering"
+
+
+outfit "Baibp Shield Generator"
+	category "Systems"
+	cost 14600
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 0.21
+	"shield energy" 0.41
+	"shield heat" 1
+	description "Xoiba vuvel T1.3 shield gen"
+
+outfit "Enaveyodmi Shield Generator"
+	category "Systems"
+	cost 26300
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 0.4
+	"shield energy" 0.7
+	"shield heat" 1
+	description "Xoiba vuvel T1.3 shield gen"
+
+outfit "Fbaibtotoa Shield Generator"
+	category "Systems"
+	cost 47400
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 0.8
+	"shield energy" 1.3
+	"shield heat" 1
+	description "Xoiba vuvel T1.3 shield gen"
+
+outfit "Uuulo Shield Generator"
+	category "Systems"
+	cost 85400
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 1.6
+	"shield energy" 2.3
+	"shield heat" 1
+	description "Xoiba vuvel T1.3 shield gen"
+
+outfit "Xafoe Shield Generator"
+	category "Systems"
+	cost 153800
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 3.2
+	"shield energy" 4.1
+	"shield heat" 1
+	description "Xoiba vuvel T1.3 shield gen"
+
+
+outfit "Accye Hull Regenerator"
+	category "Systems"
+	cost 22800
+	thumbnail "outfit/tiny shield"
+	"mass" 7
+	"outfit space" -7
+	"hull repair rate" 0.32
+	"hull energy" 0.58
+	"hull heat" 1
+	description "Xoiba vuvel T1.3 Hull Repair"
+
+outfit "Egzojharpu Hull Regenerator"
+	category "Systems"
+	cost 41100
+	thumbnail "outfit/small shield"
+	"mass" 10
+	"outfit space" -10
+	"hull repair rate" 0.6
+	"hull energy" 1.0
+	"hull heat" 1
+	description "Xoiba vuvel T1.3 Hull Repair"
+
+outfit "Ouaii jheto Hull Regenerator"
+	category "Systems"
+	cost 74000
+	thumbnail "outfit/medium shield"
+	"mass" 15
+	"outfit space" -15
+	"hull repair rate" 1.2
+	"hull energy" 1.8
+	"hull heat" 1
+	description "Xoiba vuvel T1.3 Hull Repair"
+
+outfit "Toebcnowoi Hull Regenerator"
+	category "Systems"
+	cost 133200
+	thumbnail "outfit/large shield"
+	"mass" 22
+	"outfit space" -22
+	"hull repair rate" 2.4
+	"hull energy" 3.2
+	"hull heat" 1
+	description "Xoiba vuvel T1.3 Hull Repair"
+
+outfit "Uenojraqif Hull Regenerator"
+	category "Systems"
+	cost 239800
+	thumbnail "outfit/huge shield"
+	"mass" 33
+	"outfit space" -33
+	"hull repair rate" 4.8
+	"hull energy" 5.8
+	"hull heat" 1
+	description "Xoiba vuvel T1.3 Hull Repair"
+
+
+outfit "Unyur Temperature Control"
+	category "Systems"
+	cost 2400
+	thumbnail "outfit/water cooling"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 410
+	description "Xoiba vuvel T1.3 Cooling"
+
+
+outfit "Afitiadbej Core"
+	category "Power"
+	cost 256800
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 1.7
+	"heat generation" 3.0
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Eeaaw Core"
+	category "Power"
+	cost 436600
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 3.7
+	"heat generation" 3.6
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Jucaiopept Core"
+	category "Power"
+	cost 742300
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 8.1
+	"heat generation" 4.3
+	description "Xoiba vuvel T1.3 Power generator"
+
+outfit "Tiung Core"
+	category "Power"
+	cost 1262000
+	thumbnail "outfit/large fuel cell"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 17.8
+	"heat generation" 5.2
+	description "Xoiba vuvel T1.3 Power generator"
+
+
+outfit "Pbiiu Heat Pump"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 2
+	"active cooling" 12
+	"cooling energy" 0.6887827879476504
+	description "Xoiba vuvel T1.3 Cooling"
+
+

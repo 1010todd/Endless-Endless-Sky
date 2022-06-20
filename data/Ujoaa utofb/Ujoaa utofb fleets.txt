@@ -1,0 +1,18 @@
+fleet "Ujoaa utofb Military"
+	government "Ujoaa utofb"
+	names "Ujoaa utofb names"
+	personality
+		heroic opportunistic
+	variant 17
+		"Oicgiweaca" 1
+		"Oicgiweaca" 2
+		"Alaviauueo" 4
+fleet "Ujoaa utofb Merchant"
+	government "Ujoaa utofb"
+	names "Ujoaa utofb names"
+	personality
+		timid
+	variant 0
+		"Fadlacaagl" 3
+		"Lxuuvuhuhx" 4
+		"Oicgiweaca" 1

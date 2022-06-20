@@ -1,0 +1,507 @@
+outfit "Eunifeur Battery Pack"
+	category "Power"
+	cost 666500
+	thumbnail "outfit/tiny battery"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 5600
+	description "Weupuyyo T5.4 Battery"
+
+outfit "Furoueaa Battery Pack"
+	category "Power"
+	cost 1199700
+	thumbnail "outfit/tiny battery"
+	"mass" 9
+	"outfit space" -9
+	"energy capacity" 33600
+	description "Weupuyyo T5.4 Battery"
+
+outfit "Iiiccyue Battery Pack"
+	category "Power"
+	cost 2159500
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 201600
+	description "Weupuyyo T5.4 Battery"
+
+outfit "Ioea Battery Pack"
+	category "Power"
+	cost 3887100
+	thumbnail "outfit/tiny battery"
+	"mass" 29
+	"outfit space" -29
+	"energy capacity" 1209600
+	description "Weupuyyo T5.4 Battery"
+
+outfit "Oduarnom Battery Pack"
+	category "Power"
+	cost 6996800
+	thumbnail "outfit/tiny battery"
+	"mass" 52
+	"outfit space" -52
+	"energy capacity" 7257600
+	description "Weupuyyo T5.4 Battery"
+
+
+outfit "Muge Reactor"
+	category "Power"
+	cost 475600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 5.7
+	"heat generation" 13.4
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Qsua Reactor"
+	category "Power"
+	cost 808600
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 34.2
+	"heat generation" 26.8
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Yieewodu Reactor"
+	category "Power"
+	cost 1374700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 205.2
+	"heat generation" 53.6
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Ephi Reactor"
+	category "Power"
+	cost 314100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 5.8
+	"heat generation" 15.2
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Ftaainaa Reactor"
+	category "Power"
+	cost 534000
+	thumbnail "outfit/small fuel cell"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 34.8
+	"heat generation" 33.4
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Inca Reactor"
+	category "Power"
+	cost 907800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 42
+	"outfit space" -42
+	"energy generation" 208.8
+	"heat generation" 73.5
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Iutuamep Core"
+	category "Power"
+	cost 340400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 6.6
+	"heat generation" 15.8
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Paorghaa Core"
+	category "Power"
+	cost 578700
+	thumbnail "outfit/small fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 39.6
+	"heat generation" 31.6
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Pewg Core"
+	category "Power"
+	cost 983800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 237.6
+	"heat generation" 63.2
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Yiiyohqi Core"
+	category "Power"
+	cost 1672500
+	thumbnail "outfit/large fuel cell"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 1425.6
+	"heat generation" 126.4
+	description "Weupuyyo T5.4 Power generator"
+
+
+outfit "Apoafgae Thruster"
+	category "Engines"
+	cost 2098100
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 5.0
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.2
+	"flare sound" "ka'het small"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Apoafgae Steering"
+	category "Engines"
+	cost 1660284
+	thumbnail "outfit/tiny ion steering"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 134
+	"turning energy" 0.2
+	"turning heat" 0.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Imim Thruster"
+	category "Engines"
+	cost 3566800
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 30.0
+	"thrusting energy" 1.2
+	"thrusting heat" 1.8
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ka'het medium"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Imim Steering"
+	category "Engines"
+	cost 6063600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 804.0
+	"turning energy" 1.2
+	"turning heat" 1.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Ixeixtuu Thruster"
+	category "Engines"
+	cost 6063600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 80
+	"outfit space" -80
+	"engine capacity" -80
+	"thrust" 180.0
+	"thrusting energy" 7.2
+	"thrusting heat" 10.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Ixeixtuu Steering"
+	category "Engines"
+	cost 10308200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"turn" 4824.0
+	"turning energy" 7.2
+	"turning heat" 7.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Rmiu Thruster"
+	category "Engines"
+	cost 10308200
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 160
+	"outfit space" -160
+	"engine capacity" -160
+	"thrust" 1080.0
+	"thrusting energy" 43.2
+	"thrusting heat" 64.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Rmiu Steering"
+	category "Engines"
+	cost 17524000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 120
+	"outfit space" -120
+	"engine capacity" -120
+	"turn" 28944.0
+	"turning energy" 43.2
+	"turning heat" 43.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Taup Thruster"
+	category "Engines"
+	cost 17524000
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 320
+	"outfit space" -320
+	"engine capacity" -320
+	"thrust" 6480.0
+	"thrusting energy" 259.2
+	"thrusting heat" 388.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Taup Steering"
+	category "Engines"
+	cost 29790800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 240
+	"outfit space" -240
+	"engine capacity" -240
+	"turn" 173664.0
+	"turning energy" 259.2
+	"turning heat" 259.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Ulgotyuu Thruster"
+	category "Engines"
+	cost 29790800
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 640
+	"outfit space" -640
+	"engine capacity" -640
+	"thrust" 38880.0
+	"thrusting energy" 1555.2
+	"thrusting heat" 2332.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Ulgotyuu Steering"
+	category "Engines"
+	cost 50644400
+	thumbnail "outfit/tiny ion steering"
+	"mass" 480
+	"outfit space" -480
+	"engine capacity" -480
+	"turn" 1041984.0
+	"turning energy" 1555.2
+	"turning heat" 1555.2
+	description "Weupuyyo T5.4 steering"
+
+outfit "Yofoabac Thruster"
+	category "Engines"
+	cost 50644400
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 1280
+	"outfit space" -1280
+	"engine capacity" -1280
+	"thrust" 233280.0
+	"thrusting energy" 9331.2
+	"thrusting heat" 13996.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Weupuyyo T5.4 Thruster"
+
+outfit "Yofoabac Steering"
+	category "Engines"
+	cost 86095500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 960
+	"outfit space" -960
+	"engine capacity" -960
+	"turn" 6251904.0
+	"turning energy" 9331.2
+	"turning heat" 9331.2
+	description "Weupuyyo T5.4 steering"
+
+
+outfit "Myih aacd Shield Rejuvenator"
+	category "Systems"
+	cost 1978300
+	thumbnail "outfit/tiny shield"
+	"mass" 17
+	"outfit space" -17
+	"shield generation" 5.56
+	"shield energy" 7.68
+	"shield heat" 13
+	description "Weupuyyo T5.4 shield gen"
+
+outfit "Ridaidda Shield Rejuvenator"
+	category "Systems"
+	cost 3561000
+	thumbnail "outfit/small shield"
+	"mass" 26
+	"outfit space" -26
+	"shield generation" 11.1
+	"shield energy" 4.6
+	"shield heat" 13
+	description "Weupuyyo T5.4 shield gen"
+
+outfit "Uvaopeye Shield Rejuvenator"
+	category "Systems"
+	cost 6409800
+	thumbnail "outfit/medium shield"
+	"mass" 39
+	"outfit space" -39
+	"shield generation" 22.2
+	"shield energy" 2.8
+	"shield heat" 13
+	description "Weupuyyo T5.4 shield gen"
+
+
+
+outfit "Soye Heat Pump"
+	category "Systems"
+	cost 12100
+	thumbnail "outfit/water cooling"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 86
+	"active cooling" 28
+	"cooling energy" 51.927270899244185
+	description "Weupuyyo T5.4 Cooling"
+
+
+outfit "Ayaaoapu Core"
+	category "Power"
+	cost 2283700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 6.3
+	"heat generation" 16.5
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Eouigeip Core"
+	category "Power"
+	cost 3882300
+	thumbnail "outfit/small fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 37.8
+	"heat generation" 33.0
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Nieeugog Core"
+	category "Power"
+	cost 6600000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 226.8
+	"heat generation" 66.0
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Raaq Core"
+	category "Power"
+	cost 11220000
+	thumbnail "outfit/large fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 1360.8
+	"heat generation" 132.0
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Stayquiw Core"
+	category "Power"
+	cost 19074000
+	thumbnail "outfit/huge fuel cell"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 8164.8
+	"heat generation" 264.0
+	description "Weupuyyo T5.4 Power generator"
+
+
+outfit "Aeeu Cell"
+	category "Power"
+	cost 1821300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 6.2
+	"heat generation" 6.3
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Aeinyouo Cell"
+	category "Power"
+	cost 3096300
+	thumbnail "outfit/small fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 37.2
+	"heat generation" 13.9
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Iaaxtmai Cell"
+	category "Power"
+	cost 5263800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 223.2
+	"heat generation" 30.6
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Rehiyeum Cell"
+	category "Power"
+	cost 8948500
+	thumbnail "outfit/large fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 1339.2
+	"heat generation" 67.3
+	description "Weupuyyo T5.4 Power generator"
+
+
+outfit "Uvtm Temperature Control"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/water cooling"
+	"mass" 643
+	"outfit space" -643
+	"cooling" 1909
+	description "Weupuyyo T5.4 Cooling"
+
+
+outfit "Aqirtiid Reactor"
+	category "Power"
+	cost 6221400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 6.8
+	"heat generation" 19.5
+	description "Weupuyyo T5.4 Power generator"
+
+outfit "Nigutiei Reactor"
+	category "Power"
+	cost 10576400
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 40.8
+	"heat generation" 39.0
+	description "Weupuyyo T5.4 Power generator"
+
+

@@ -1,0 +1,512 @@
+ship "Iwkuearoiqaiiseeor"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Interceptor"
+		"cost" 1093000
+		"shields" 2500
+		"hull" 6500
+		"required crew" 2
+		"bunks" 8
+		"mass" 77.0
+		"drag" 1.62
+		"heat dissipation" 0.7999999999999999
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 112
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 1350
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Ioruxe Assault Basilisk" 1
+		"Sfaasuoqksog Core" 1
+		"Oguqakaplueu Shield Generator" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 52.3
+	gun -5.3 -45.3
+	gun 0.7 -56.2
+	gun -0.7 -56.2
+	gun 5.3 -45.3
+	turret 0.4 -25.8
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Coeqhe tvuoti"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 6961000
+		"shields" 12100
+		"hull" 31500
+		"required crew" 1
+		"bunks" 13
+		"mass" 70.2
+		"drag" 1.35
+		"heat dissipation" 0.75
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 20
+		weapon 
+			"blast radius" 436
+			"shield damage" 4360
+			"hull damage" 2180
+			"hit force" 6540
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Ceahqa speoau Cell" 1
+		"Hyperdrive"
+	engine 0 42.1
+	turret 3.9 -36.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Wiayrarwuoei"
+	sprite "ship/spiky mw 2"
+	thumbnail "thumbnail/spiky mw 2"
+	attributes 
+		category "Medium Warship"
+		"cost" 3099000
+		"shields" 19900
+		"hull" 51600
+		"required crew" 24
+		"bunks" 34
+		"mass" 278.0
+		"drag" 5.51
+		"heat dissipation" 0.81
+		"fuel capacity" 1200
+		"cargo space" 35
+		"outfit space" 390
+		"weapon capacity" 120
+		"engine capacity" 110
+		weapon 
+			"blast radius" 715
+			"shield damage" 7150
+			"hull damage" 3580
+			"hit force" 10730
+	outfits 
+		"Hgulia Thruster" 1
+		"Hgulia Steering" 1
+		"Inutle Anti-Missile" 1
+		"Ioruxe Assault Basilisk" 2
+		"Eiakel ecstua Core" 1
+		"Oguqakaplueu Shield Generator" 1
+		"Eaeqri Damage Control" 1
+		"Eealck vufisa Battery" 1
+		"Iarfiusqcuau Core" 1
+		"Hyperdrive"
+	engine 0 101.7
+	gun -7.9 -110.2
+	gun 7.9 -110.2
+	turret -6.0 -84.8
+	turret 6.8 -35.1
+	turret -6.8 -35.1
+	turret 6.0 -84.8
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Ieibuitiuqiefiauuo"
+	sprite "ship/spiky lw2"
+	thumbnail "thumbnail/spiky lw2"
+	attributes 
+		category "Light Warship"
+		"cost" 3250000
+		"shields" 7700
+		"hull" 20000
+		"required crew" 14
+		"bunks" 28
+		"mass" 202.8
+		"drag" 4.17
+		"heat dissipation" 0.58
+		"fuel capacity" 1100
+		"cargo space" 25
+		"outfit space" 320
+		"weapon capacity" 110
+		"engine capacity" 110
+		weapon 
+			"blast radius" 277
+			"shield damage" 2770
+			"hull damage" 1390
+			"hit force" 4160
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Inutle Anti-Missile" 1
+		"Egobux Core" 1
+		"Hyperdrive"
+	engine 0 64.5
+	turret 4.3 -55.7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Uesaieeetubceciiwv"
+	sprite "ship/spiky hw 2"
+	thumbnail "thumbnail/spiky hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 12564000
+		"shields" 38400
+		"hull" 99900
+		"required crew" 47
+		"bunks" 118
+		"mass" 801.6
+		"drag" 14.73
+		"heat dissipation" 0.81
+		"fuel capacity" 1500
+		"cargo space" 100
+		"outfit space" 1210
+		"weapon capacity" 380
+		"engine capacity" 340
+		weapon 
+			"blast radius" 1383
+			"shield damage" 13830
+			"hull damage" 6920
+			"hit force" 20750
+	outfits 
+		"Wsauegfodsix Thruster" 1
+		"Wsauegfodsix Steering" 1
+		"Inutle Anti-Missile" 1
+		"Ieesuv Machine Gun" 2
+		"Ioruxe Assault Basilisk" 2
+		"Ioruxe Assault Basilisk Turret" 2
+		"Eiakel ecstua Core" 2
+		"Oguqakaplueu Shield Generator" 1
+		"Eaeqri Damage Control" 1
+		"Eealck vufisa Battery" 1
+		"Iarfiusqcuau Core" 1
+		"Eouqeu rbaita Core" 1
+		"Sfaasuoqksog Core" 1
+		"Sweisa Core" 1
+		"Hyperdrive"
+	engine 0 155.2
+	gun -15.1 -167.5
+	gun 1.3 -131.5
+	gun -1.3 -131.5
+	gun 15.1 -167.5
+	turret 0.1 -98.7
+	turret 3.4 -132.3
+	turret -3.4 -132.3
+	turret 9.8 -133.1
+	turret -9.8 -133.1
+	turret 4.4 -73.9
+	turret -4.4 -73.9
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Lutueeneerso saeqso"
+	sprite "ship/spiky lw2"
+	thumbnail "thumbnail/spiky lw2"
+	attributes 
+		category "Light Warship"
+		"cost" 2638000
+		"shields" 6700
+		"hull" 17400
+		"required crew" 8
+		"bunks" 25
+		"mass" 172.4
+		"drag" 3.64
+		"heat dissipation" 0.72
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 310
+		"weapon capacity" 90
+		"engine capacity" 90
+		weapon 
+			"blast radius" 241
+			"shield damage" 2410
+			"hull damage" 1210
+			"hit force" 3620
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Ieesuv Machine Gun" 1
+		"Egobux Core" 1
+		"Hyperdrive"
+	engine 0 65.8
+	gun 5.5 -72.3
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Ivigcadroafu"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Interceptor"
+		"cost" 1019000
+		"shields" 3100
+		"hull" 8000
+		"required crew" 4
+		"bunks" 7
+		"mass" 90.2
+		"drag" 1.83
+		"heat dissipation" 0.79
+		"fuel capacity" 1400
+		"cargo space" 15
+		"outfit space" 140
+		"weapon capacity" 50
+		"engine capacity" 40
+		weapon 
+			"blast radius" 111
+			"shield damage" 1110
+			"hull damage" 560
+			"hit force" 1670
+	outfits 
+		"Asadpw Thruster" 1
+		"Asadpw Steering" 1
+		"Lvoawu Anti-Missile" 1
+		"Axinbn owdeuy Core" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 53.5
+	gun -3.4 -53.4
+	gun 0.6 -45.8
+	gun -0.6 -45.8
+	gun 3.4 -53.4
+	turret 5.1 -9.6
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Aoskau xeibya"
+	sprite "ship/spiky hf"
+	thumbnail "thumbnail/spiky hf"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 3697000
+		"shields" 16000
+		"hull" 41600
+		"required crew" 16
+		"bunks" 39
+		"mass" 559.8
+		"drag" 10.65
+		"heat dissipation" 0.78
+		"fuel capacity" 700
+		"cargo space" 270
+		"outfit space" 1070
+		"weapon capacity" 320
+		"engine capacity" 300
+		weapon 
+			"blast radius" 576
+			"shield damage" 5760
+			"hull damage" 2880
+			"hit force" 8640
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Inutle Anti-Missile" 1
+		"Ieesuv Machine Gun" 1
+		"Ioruxe Assault Basilisk" 1
+		"Ioruxe Assault Basilisk Turret" 1
+		"Eiakel ecstua Core" 1
+		"Oguqakaplueu Shield Generator" 1
+		"Eaeqri Damage Control" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 127.7
+	gun -1.6 -141.3
+	gun 1.6 -141.3
+	turret -14.9 -98.7
+	turret 14.9 -98.7
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Erouwo uaucah ayaeue"
+	sprite "ship/spiky lw2"
+	thumbnail "thumbnail/spiky lw2"
+	attributes 
+		category "Light Warship"
+		"cost" 2186000
+		"shields" 11500
+		"hull" 30000
+		"required crew" 6
+		"bunks" 13
+		"mass" 144.60000000000002
+		"drag" 2.68
+		"heat dissipation" 0.84
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 210
+		"weapon capacity" 70
+		"engine capacity" 70
+		weapon 
+			"blast radius" 415
+			"shield damage" 4150
+			"hull damage" 2080
+			"hit force" 6230
+	outfits 
+		"Asadpw Thruster" 1
+		"Asadpw Steering" 1
+		"Inutle Anti-Missile" 1
+		"Eouqeu rbaita Core" 1
+		"Oguqakaplueu Shield Generator" 1
+		"Tbunua cooaqa Damage Control" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 64.3
+	turret 5.2 -31.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Norawo guvuda"
+	sprite "ship/spiky mw 2"
+	thumbnail "thumbnail/spiky mw 2"
+	attributes 
+		category "Medium Warship"
+		"cost" 7120000
+		"shields" 22300
+		"hull" 57900
+		"required crew" 10
+		"bunks" 16
+		"mass" 481.40000000000003
+		"drag" 8.35
+		"heat dissipation" 0.75
+		"fuel capacity" 1200
+		"cargo space" 60
+		"outfit space" 840
+		"weapon capacity" 320
+		"engine capacity" 240
+		weapon 
+			"blast radius" 802
+			"shield damage" 8020
+			"hull damage" 4010
+			"hit force" 12030
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Inutle Anti-Missile" 1
+		"Ieesuv Machine Gun" 2
+		"Ioruxe Assault Basilisk" 1
+		"Eiakel ecstua Core" 1
+		"Oguqakaplueu Shield Generator" 1
+		"Eaeqri Damage Control" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 104.2
+	gun 10.8 -119.7
+	gun 6.1 -123.3
+	gun -6.1 -123.3
+	turret 6.6 -92.3
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geaafe ibueuk T2.0 ship"
+
+ship "Lirzoojaaawo iroheo"
+	sprite "ship/spiky in"
+	thumbnail "thumbnail/spiky in"
+	attributes 
+		category "Drone"
+		"cost" 803000
+		"shields" 2200
+		"hull" 5600
+		"required crew" 2
+		"bunks" 3
+		"mass" 33.400000000000006
+		"drag" 0.73
+		"heat dissipation" 1.0
+		"fuel capacity" 1200
+		"cargo space" 5
+		"outfit space" 88
+		"weapon capacity" 24
+		"engine capacity" 20
+		weapon 
+			"blast radius" 78
+			"shield damage" 780
+			"hull damage" 390
+			"hit force" 1170
+	outfits 
+		"Aewuur Thruster" 1
+		"Aewuur Steering" 1
+		"Ioruxe Assault Basilisk" 1
+		"Urxuruerscoa Core" 1
+		"Eealck vufisa Battery" 1
+		"Hyperdrive"
+	engine 0 49.5
+	gun 3.3 -48.8
+	gun 5.9 -54.6
+	gun -5.9 -54.6
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Geaafe ibueuk T2.0 ship"
+

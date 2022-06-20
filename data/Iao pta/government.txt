@@ -1,0 +1,19 @@
+government "Iao pta"
+	"display name" "Iao pta"
+	"swizzle" 3
+	"color" 0.798 0.652 0.279 0.987
+	"player reputation" 1
+	"crew attack" 1.6
+	"crew defense" 3.0
+	"attitude toward"
+		"Uda zuu" 0
+		"Ooqfoasp" 1
+		"Ujoaa utofb" 1
+		"Geaafe ibueuk" 0
+		"Pawe iixe" -1
+		"Weupuyyo" 0
+		"Uyouzv asnund" -1
+		"Nis mio" 1
+		"Xoiba vuvel" 1
+		"Peeisesaxibb" 1
+		"Uyau wexa" 1

@@ -1,0 +1,19 @@
+government "Uda zuu"
+	"display name" "Uda zuu"
+	"swizzle" 10
+	"color" 0.502 0.228 0.678 0.885
+	"player reputation" 0
+	"crew attack" 1.6
+	"crew defense" 3.0
+	"attitude toward"
+		"Ooqfoasp" 1
+		"Ujoaa utofb" -1
+		"Geaafe ibueuk" 0
+		"Pawe iixe" -1
+		"Iao pta" 1
+		"Weupuyyo" -1
+		"Uyouzv asnund" -1
+		"Nis mio" -1
+		"Xoiba vuvel" 0
+		"Peeisesaxibb" 0
+		"Uyau wexa" 1

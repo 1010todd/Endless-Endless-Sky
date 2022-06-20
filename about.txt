@@ -1,0 +1,11 @@
+Ready-to-use plugin generator derived from Nuclear Taxi's Endless Sky Generator.
+Modified by 1010todd
+
+To use: go to the plugin folder and run main.py
+
+This is a plugin generator intended for players to find new galaxies and make Endless Sky -practically- Endless
+Planned: 
+	Divide systems within a galaxy into multiple JD-required(or not) cluster with different government.
+	Name generator for producing sets of consistent name and able to read ES-format name file.
+	And more...
+	

@@ -1,0 +1,342 @@
+outfit "Aaj Capacitor"
+	category "Power"
+	cost 38800
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 710
+	description "Nis mio T0.5 Battery"
+
+outfit "Awo wuu Capacitor"
+	category "Power"
+	cost 69900
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 1570
+	description "Nis mio T0.5 Battery"
+
+outfit "Bre Capacitor"
+	category "Power"
+	cost 125900
+	thumbnail "outfit/tiny battery"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 3460
+	description "Nis mio T0.5 Battery"
+
+outfit "Qju xuu Capacitor"
+	category "Power"
+	cost 226700
+	thumbnail "outfit/tiny battery"
+	"mass" 42
+	"outfit space" -42
+	"energy capacity" 7620
+	description "Nis mio T0.5 Battery"
+
+
+outfit "Aao Generator"
+	category "Power"
+	cost 3900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 0.5
+	"heat generation" 1.2
+	description "Nis mio T0.5 Power generator"
+
+outfit "Aju wki Generator"
+	category "Power"
+	cost 6700
+	thumbnail "outfit/small fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 1.1
+	"heat generation" -2.4
+	description "Nis mio T0.5 Power generator"
+
+outfit "Igr Generator"
+	category "Power"
+	cost 11400
+	thumbnail "outfit/medium fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 2.4
+	"heat generation" 4.8
+	description "Nis mio T0.5 Power generator"
+
+outfit "Kpo Generator"
+	category "Power"
+	cost 19400
+	thumbnail "outfit/large fuel cell"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 5.3
+	"heat generation" -9.6
+	description "Nis mio T0.5 Power generator"
+
+outfit "Xea loe Generator"
+	category "Power"
+	cost 33000
+	thumbnail "outfit/huge fuel cell"
+	"mass" 160
+	"outfit space" -160
+	"energy generation" 11.7
+	"heat generation" 19.2
+	description "Nis mio T0.5 Power generator"
+
+outfit "Eeo wue Core"
+	category "Power"
+	cost 3700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 0.5
+	"heat generation" 1.5
+	description "Nis mio T0.5 Power generator"
+
+outfit "Ekg Core"
+	category "Power"
+	cost 6300
+	thumbnail "outfit/small fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 1.1
+	"heat generation" 4.5
+	description "Nis mio T0.5 Power generator"
+
+outfit "Eua jip Core"
+	category "Power"
+	cost 10800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 36
+	"outfit space" -36
+	"energy generation" 2.4
+	"heat generation" 13.5
+	description "Nis mio T0.5 Power generator"
+
+outfit "Xwa fok Core"
+	category "Power"
+	cost 18400
+	thumbnail "outfit/large fuel cell"
+	"mass" 65
+	"outfit space" -65
+	"energy generation" 5.3
+	"heat generation" 40.5
+	description "Nis mio T0.5 Power generator"
+
+outfit "Eoo Generator"
+	category "Power"
+	cost 3300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 0.5
+	"heat generation" 0.7
+	description "Nis mio T0.5 Power generator"
+
+outfit "Jka Generator"
+	category "Power"
+	cost 5700
+	thumbnail "outfit/small fuel cell"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 1.1
+	"heat generation" 1.4
+	description "Nis mio T0.5 Power generator"
+
+outfit "Umx Generator"
+	category "Power"
+	cost 9700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 2.4
+	"heat generation" 2.8
+	description "Nis mio T0.5 Power generator"
+
+outfit "Uteoue Generator"
+	category "Power"
+	cost 16500
+	thumbnail "outfit/large fuel cell"
+	"mass" 120
+	"outfit space" -120
+	"energy generation" 5.3
+	"heat generation" 5.6
+	description "Nis mio T0.5 Power generator"
+
+
+outfit "Aan Thruster"
+	category "Engines"
+	cost 2118900
+	thumbnail "outfit/small ion thruster"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 6.1
+	"thrusting energy" 1.6
+	"thrusting heat" 2.6
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "Nis mio T0.5 Thruster"
+
+outfit "Aan Steering"
+	category "Engines"
+	cost 1511883
+	thumbnail "outfit/tiny ion steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 156
+	"turning energy" 1.1
+	"turning heat" 1.9
+	description "Nis mio T0.5 steering"
+
+outfit "Mto Thruster"
+	category "Engines"
+	cost 3602200
+	thumbnail "outfit/medium ion thruster"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"thrust" 13.4
+	"thrusting energy" 3.5
+	"thrusting heat" 5.7
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ion medium"
+	description "Nis mio T0.5 Thruster"
+
+outfit "Mto Steering"
+	category "Engines"
+	cost 6123800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 343.2
+	"turning energy" 2.4
+	"turning heat" 4.2
+	description "Nis mio T0.5 steering"
+
+outfit "Ure Thruster"
+	category "Engines"
+	cost 6123800
+	thumbnail "outfit/large ion thruster"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"thrust" 29.5
+	"thrusting energy" 7.7
+	"thrusting heat" 12.5
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Nis mio T0.5 Thruster"
+
+outfit "Ure Steering"
+	category "Engines"
+	cost 10410500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 755.0
+	"turning energy" 5.3
+	"turning heat" 9.2
+	description "Nis mio T0.5 steering"
+
+
+outfit "Auk Shielding"
+	category "Systems"
+	cost 700
+	thumbnail "outfit/tiny shield"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" 0.15
+	"shield energy" 0.24
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+outfit "Lon Shielding"
+	category "Systems"
+	cost 1300
+	thumbnail "outfit/small shield"
+	"mass" 18
+	"outfit space" -18
+	"shield generation" 0.3
+	"shield energy" 0.4
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+outfit "Nue Shielding"
+	category "Systems"
+	cost 2400
+	thumbnail "outfit/medium shield"
+	"mass" 27
+	"outfit space" -27
+	"shield generation" 0.6
+	"shield energy" 0.7
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+outfit "Ofp gko Shielding"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/large shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 1.2
+	"shield energy" 1.3
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+outfit "Qer Shielding"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/huge shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 2.4
+	"shield energy" 2.3
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+outfit "Xse Shielding"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/huge shield"
+	"mass" 90
+	"outfit space" -90
+	"shield generation" 4.8
+	"shield energy" 4.1
+	"shield heat" 0
+	description "Nis mio T0.5 shield gen"
+
+
+
+outfit "Leaquo Heat Shunt"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 2
+	"active cooling" 30
+	"cooling energy" 1.1990130551597946
+	description "Nis mio T0.5 Cooling"
+
+
+outfit "Aem Temperature Control"
+	category "Systems"
+	cost 900
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 5
+	"active cooling" 10
+	"cooling energy" 3.849959983161269
+	description "Nis mio T0.5 Cooling"
+
+

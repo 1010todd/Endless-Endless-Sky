@@ -1,0 +1,48 @@
+Requires Python 3.9+
+
+Run main.py to generate a galaxy with a few factions.
+If success the script will say it.
+
+1 Sample Galaxy is already provided,
+A wormhole to access will be placed in a system close to Sag* A (the black hole)
+
+Useable Config:
+-government config
+-galaxy config
+-use_seed and <text>_seed for most config
+-planet descriptions.txt
+
+This is a rough proof of concept, very fragile and still buggy, beware.
+
+#========Adding new sprites:
+Currently(21/01/2022), Only new ship sprites are supported
+
+To add new sprite set for the script to pick from, put a txt file 
+in factions folder with partial definition for a ship. The script
+will look for the sprite in the name and use it for the specified 
+category(ies).
+
+"ship" and "category" is required, hardpoints lines (gun,turret,engine)
+only helps the script put weapon in correct places. Else it'll be random.
+
+For multiple category the script will allow the sprite to be used 
+for both categories.
+
+[text] is optional modifier for hardpoints.  (Currently generator don't do anything with it)
+
+Format: *Use only tabs for indents.
+
+ship <sprite name>
+	category <category1>
+	category <category2>
+	gun <x> <y>
+		[over]
+		[parallel]
+		[angle] <n>
+	turret <x> <y>
+		[under]
+	engine <x> <y>
+		[zoom] <n>
+		[angle] <n>
+		[over]
+

@@ -1,0 +1,471 @@
+ship "Vvujia eoixaa ralepi"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 356273000
+		"shields" 257000
+		"hull" 1149500
+		"required crew" 25
+		"bunks" 31
+		"mass" 302.6
+		"drag" 5.6
+		"heat dissipation" 0.54
+		"fuel capacity" 2600
+		"cargo space" 40
+		"outfit space" 510
+		"weapon capacity" 150
+		"engine capacity" 140
+		weapon 
+			"blast radius" 14065
+			"shield damage" 140650
+			"hull damage" 70330
+			"hit force" 210980
+	outfits 
+		"Reioyaimxnai Thruster" 1
+		"Reioyaimxnai Steering" 1
+		"Zsoogo Assault Mortar Turret" 1
+		"Uwnoyd Generator" 1
+		"Dezaoe Shield Core" 1
+		"Gwixar iweeea Capacitor" 1
+		"Yileuf Heat Shunt" 1
+		"Jump Drive"
+	engine 0 44.3
+	turret 3.0 -10.1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Iiaigy eoohoi fusiee"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 57828000
+		"shields" 273000
+		"hull" 1220900
+		"required crew" 8
+		"bunks" 41
+		"mass" 306.4
+		"drag" 6.17
+		"heat dissipation" 0.82
+		"fuel capacity" 1200
+		"cargo space" 40
+		"outfit space" 460
+		"weapon capacity" 180
+		"engine capacity" 130
+		weapon 
+			"blast radius" 14939
+			"shield damage" 149390
+			"hull damage" 74700
+			"hit force" 224090
+	outfits 
+		"Aefooo Thruster" 1
+		"Aefooo Steering" 1
+		"Agufwo Guided Rocket Tube" 1
+		"Agufwo Guided Rocket" 25
+		"Zsoogo Assault Mortar Turret" 1
+		"Ejefuoirzwee Core" 1
+		"Jump Drive"
+	engine 0 68.9
+	gun 6.0 -64.0
+	turret 0.4 -65.2
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Ciomxoaodiczljuixu"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 191240000
+		"shields" 67200
+		"hull" 300600
+		"required crew" 3
+		"bunks" 33
+		"mass" 112.4
+		"drag" 2.37
+		"heat dissipation" 0.65
+		"fuel capacity" 3500
+		"cargo space" 15
+		"outfit space" 170
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon 
+			"blast radius" 3678
+			"shield damage" 36780
+			"hull damage" 18390
+			"hit force" 55170
+	outfits 
+		"Iceiez irsaed Thruster" 1
+		"Iceiez irsaed Steering" 1
+		"Agufwo Guided Rocket Tube" 1
+		"Agufwo Guided Rocket" 25
+		"Evvxol wuiivi Shield Core" 1
+		"Oeozuu Cooler" 4
+		"Einexi vyeyoe Heatsink" 3
+		"Vowuwougpugl Temperature Control" 1
+		"Jump Drive"
+	engine 0 40.4
+	gun 3.9 -43.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Igveui jeaizoeyovag"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 427734000
+		"shields" 577500
+		"hull" 2583200
+		"required crew" 32
+		"bunks" 63
+		"mass" 553.4000000000001
+		"drag" 11.09
+		"heat dissipation" 0.76
+		"fuel capacity" 2300
+		"cargo space" 70
+		"outfit space" 810
+		"weapon capacity" 320
+		"engine capacity" 210
+		weapon 
+			"blast radius" 31607
+			"shield damage" 316070
+			"hull damage" 158040
+			"hit force" 474110
+	outfits 
+		"Aefooo Thruster" 1
+		"Aefooo Steering" 1
+		"Agufwo Guided Rocket Tube" 1
+		"Agufwo Guided Rocket" 25
+		"Xaeoim Chaser Launcher" 1
+		"Xaeoim Chaser" 29
+		"Zsoogo Assault Mortar" 1
+		"Zsoogo Assault Mortar Turret" 1
+		"Ivrasg Rapid Culverin" 1
+		"Uniuli Shield Core" 1
+		"Oeozuu Cooler" 4
+		"Einexi vyeyoe Heatsink" 3
+		"Imavai Cooling" 33
+		"Jump Drive"
+	engine 0 326.2
+	gun 82.0 -13.0
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	turret -70.0 153.0
+	turret 70.0 153.0
+	turret -70.0 223.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Gaxoouzaasil"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 112453000
+		"shields" 76000
+		"hull" 339900
+		"required crew" 30
+		"bunks" 37
+		"mass" 225.4
+		"drag" 4.61
+		"heat dissipation" 0.58
+		"fuel capacity" 2900
+		"cargo space" 70
+		"outfit space" 320
+		"weapon capacity" 110
+		"engine capacity" 110
+		weapon 
+			"blast radius" 4159
+			"shield damage" 41590
+			"hull damage" 20800
+			"hit force" 62390
+	outfits 
+		"Reioyaimxnai Thruster" 1
+		"Reioyaimxnai Steering" 1
+		"Agufwo Guided Rocket Tube" 1
+		"Agufwo Guided Rocket" 25
+		"Uwnoyd Generator" 1
+		"Dezaoe Shield Core" 1
+		"Gwixar iweeea Capacitor" 1
+		"Oeozuu Cooler" 1
+		"Einexi vyeyoe Heatsink" 1
+		"Vowuwougpugl Temperature Control" 1
+		"Jump Drive"
+	engine 0 42.3
+	gun 3.0 -41.8
+	turret 3.9 -29.1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Emncii iaoleo"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 208748000
+		"shields" 148800
+		"hull" 665200
+		"required crew" 10
+		"bunks" 26
+		"mass" 275.8
+		"drag" 5.51
+		"heat dissipation" 0.51
+		"fuel capacity" 1100
+		"cargo space" 35
+		"outfit space" 470
+		"weapon capacity" 160
+		"engine capacity" 160
+		weapon 
+			"blast radius" 8140
+			"shield damage" 81400
+			"hull damage" 40700
+			"hit force" 122100
+	outfits 
+		"Aefooo Thruster" 1
+		"Aefooo Steering" 1
+		"Zsoogo Assault Mortar Turret" 1
+		"Ejefuoirzwee Core" 1
+		"Jump Drive"
+	engine 0 44.5
+	turret 0.9 -6.8
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Mguidg lueiwgoomeea"
+	sprite "ship/indus1 hw 1"
+	thumbnail "thumbnail/indus1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 996173000
+		"shields" 861700
+		"hull" 3854300
+		"required crew" 25
+		"bunks" 84
+		"mass" 1061.8000000000002
+		"drag" 22.46
+		"heat dissipation" 0.68
+		"fuel capacity" 3600
+		"cargo space" 130
+		"outfit space" 1720
+		"weapon capacity" 640
+		"engine capacity" 570
+		weapon 
+			"blast radius" 47160
+			"shield damage" 471600
+			"hull damage" 235800
+			"hit force" 707400
+	outfits 
+		"Vouimn Thruster" 1
+		"Vouimn Steering" 1
+		"Agufwo Guided Rocket Tube" 2
+		"Agufwo Guided Rocket" 50
+		"Xaeoim Chaser Launcher" 1
+		"Xaeoim Chaser" 29
+		"Zsoogo Assault Mortar" 1
+		"Zsoogo Assault Mortar Turret" 1
+		"Ivrasg Rapid Culverin" 1
+		"Ivrasg Rapid Culverin Turret" 1
+		"Dezaoe Shield Core" 1
+		"Gwixar iweeea Capacitor" 1
+		"Gciumvayaudi Generator" 1
+		"Oeozuu Cooler" 5
+		"Einexi vyeyoe Heatsink" 2
+		"Vowuwougpugl Temperature Control" 2
+		"Imavai Cooling" 1
+		"Gjawoe ocnate Heat Pump" 1
+		"Awoodoaxouue Heat Shunt" 1
+		"Jump Drive"
+	engine 0 164.2
+	gun 0.9 -162.6
+	gun 5.9 -179.5
+	gun -5.9 -179.5
+	gun 0.2 -159.5
+	gun -0.2 -159.5
+	turret 6.6 -163.4
+	turret 2.9 -47.2
+	turret -2.9 -47.2
+	turret 4.9 -52.9
+	turret -4.9 -52.9
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Oaeougivdeee"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 195601000
+		"shields" 201400
+		"hull" 900800
+		"required crew" 21
+		"bunks" 35
+		"mass" 262.4
+		"drag" 5.42
+		"heat dissipation" 0.62
+		"fuel capacity" 800
+		"cargo space" 35
+		"outfit space" 380
+		"weapon capacity" 130
+		"engine capacity" 110
+		weapon 
+			"blast radius" 11022
+			"shield damage" 110220
+			"hull damage" 55110
+			"hit force" 165330
+	outfits 
+		"Aefooo Thruster" 1
+		"Aefooo Steering" 1
+		"Agufwo Guided Rocket Tube" 1
+		"Agufwo Guided Rocket" 25
+		"Zsoogo Assault Mortar Turret" 1
+		"Igoyio Cell" 1
+		"Jump Drive"
+	engine 0 68.0
+	gun 0.9 -73.1
+	turret -5.0 -67.4
+	turret 4.9 -29.1
+	turret -4.9 -29.1
+	turret 5.0 -67.4
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Ruxoxoieedtanmooey"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 21131000
+		"shields" 63000
+		"hull" 281800
+		"required crew" 11
+		"bunks" 65
+		"mass" 177.0
+		"drag" 3.31
+		"heat dissipation" 0.81
+		"fuel capacity" 2200
+		"cargo space" 25
+		"outfit space" 200
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 3448
+			"shield damage" 34480
+			"hull damage" 17240
+			"hit force" 51720
+	outfits 
+		"Iceiez irsaed Thruster" 1
+		"Iceiez irsaed Steering" 1
+		"Dezaoe Shield Core" 1
+		"Gwixar iweeea Capacitor" 1
+		"Oeozuu Cooler" 2
+		"Einexi vyeyoe Heatsink" 2
+		"Imavai Cooling" 1
+		"Awoodoaxouue Heat Shunt" 1
+		"Vowuwougpugl Temperature Control" 1
+		"Jump Drive"
+	engine 0 43.9
+	turret 1.3 -10.3
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Uyouzv asnund T4.4 ship"
+
+ship "Xuwarlfaxiiv noeidg"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 247343000
+		"shields" 222100
+		"hull" 993300
+		"required crew" 11
+		"bunks" 36
+		"mass" 265.4
+		"drag" 5.71
+		"heat dissipation" 0.53
+		"fuel capacity" 1700
+		"cargo space" 35
+		"outfit space" 290
+		"weapon capacity" 100
+		"engine capacity" 90
+		weapon 
+			"blast radius" 12154
+			"shield damage" 121540
+			"hull damage" 60770
+			"hit force" 182310
+	outfits 
+		"Aefooo Thruster" 1
+		"Aefooo Steering" 1
+		"Imavai Cooling" 14
+		"Jump Drive"
+	engine 0 42.1
+	turret 2.3 -20.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uyouzv asnund T4.4 ship"
+

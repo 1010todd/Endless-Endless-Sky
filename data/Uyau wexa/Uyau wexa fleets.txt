@@ -1,0 +1,38 @@
+fleet "Uyau wexa Navy"
+	government "Uyau wexa"
+	names "Uyau wexa names"
+	personality
+		heroic opportunistic
+	variant 7
+		"Elhuexnq" 2
+		"Elhuexnq" 2
+		"Fohg lgeumidr" 3
+	variant 20
+		"Ioqa tuia" 1
+		"Fohg lgeumidr" 3
+		"Ytox agos" 2
+	variant 6
+		"Ytox agos" 3
+		"Uohi huug" 4
+		"Fohg lgeumidr" 2
+	variant 32
+		"Fohg lgeumidr" 2
+		"Urgebfio" 4
+		"Ioqa tuia" 1
+	variant 55
+		"Ioqa tuia" 2
+		"Gili exnirure" 2
+		"Urgebfio" 1
+fleet "Uyau wexa Merchant"
+	government "Uyau wexa"
+	names "Uyau wexa names"
+	personality
+		timid
+	variant 0
+		"Urgebfio" 3
+		"Elhuexnq" 3
+		"Ytox agos" 4
+	variant 16
+		"Fohg lgeumidr" 4
+		"Ezyrqoku" 2
+		"Fohg lgeumidr" 4

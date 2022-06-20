@@ -1,0 +1,290 @@
+ship "Izudpzeobucuurh"
+	sprite "ship/fancy1 hf 1"
+	thumbnail "thumbnail/fancy1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 74925000
+		"shields" 137600
+		"hull" 346700
+		"required crew" 29
+		"bunks" 143
+		"mass" 751.0
+		"drag" 15.37
+		"heat dissipation" 0.87
+		"fuel capacity" 2600
+		"cargo space" 365
+		"outfit space" 920
+		"weapon capacity" 300
+		"engine capacity" 270
+		weapon 
+			"blast radius" 4843
+			"shield damage" 48430
+			"hull damage" 24220
+			"hit force" 72650
+	outfits 
+		"Xekad Thruster" 1
+		"Xekad Steering" 1
+		"Abmoe Tracker Catapult" 1
+		"Abmoe Tracker" 33
+		"Ixrxi Auto Mortar Turret" 1
+		"Fciue Core" 2
+		"Bbeadogaao Shielding" 1
+		"Axeoicaiwo Battery" 1
+		"Fubiz Core" 1
+		"Uuice Core" 1
+		"Ciuzi Heat Pump" 1
+		"Jump Drive"
+	engine 0 77.9
+	gun 0.1 -70.8
+	turret -7.0 -59.5
+	turret 7.0 -59.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ujoaa utofb T3.5 ship"
+
+ship "Fadlacaagl"
+	sprite "ship/fancy1 hf 1"
+	thumbnail "thumbnail/fancy1 hf 1"
+	attributes 
+		category "Transport"
+		"cost" 1440000
+		"shields" 45300
+		"hull" 114100
+		"required crew" 8
+		"bunks" 58
+		"mass" 231.0
+		"drag" 4.4
+		"heat dissipation" 0.74
+		"fuel capacity" 1500
+		"cargo space" 30
+		"outfit space" 380
+		"weapon capacity" 130
+		"engine capacity" 130
+		weapon 
+			"blast radius" 1594
+			"shield damage" 15940
+			"hull damage" 7970
+			"hit force" 23910
+	outfits 
+		"Ailhoxezex Thruster" 1
+		"Ailhoxezex Steering" 1
+		"Fciue Core" 1
+		"Bbeadogaao Shielding" 1
+		"Axeoicaiwo Battery" 1
+		"Jump Drive"
+	engine 0 75.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ujoaa utofb T3.5 ship"
+
+ship "Alaviauueo"
+	sprite "ship/fancy1 hw 1"
+	thumbnail "thumbnail/fancy1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 92848000
+		"shields" 352700
+		"hull" 888800
+		"required crew" 26
+		"bunks" 85
+		"mass" 944.0
+		"drag" 18.29
+		"heat dissipation" 0.66
+		"fuel capacity" 2500
+		"cargo space" 115
+		"outfit space" 1540
+		"weapon capacity" 570
+		"engine capacity" 420
+		weapon 
+			"blast radius" 12415
+			"shield damage" 124150
+			"hull damage" 62080
+			"hit force" 186230
+	outfits 
+		"Xekad Thruster" 1
+		"Xekad Steering" 1
+		"Abmoe Tracker Catapult" 2
+		"Abmoe Tracker" 66
+		"Ixrxi Auto Mortar" 1
+		"Ixrxi Auto Mortar Turret" 1
+		"Qxoig Beam Projector" 1
+		"Jeohr Rapid Basilisk" 1
+		"Ipezj Chaser Catapult" 1
+		"Ipezj Chaser" 14
+		"Fciue Core" 2
+		"Bbeadogaao Shielding" 1
+		"Axeoicaiwo Battery" 1
+		"Fubiz Core" 1
+		"Uuice Core" 1
+		"Ciuzi Heat Pump" 1
+		"Jump Drive"
+	engine -19.0 151.5
+	engine 19.0 151.5
+	engine 0.0 156.0
+	gun -1.0 -151.0
+	gun -14.0 -109.5
+	gun 14.0 -109.5
+	gun -23.0 -78.5
+	gun 23.0 -78.5
+	gun 1.0 -151.0
+	turret 0.0 32.0
+	turret 0.0 -49.5
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ujoaa utofb T3.5 ship"
+
+ship "Lxuuvuhuhx"
+	sprite "ship/fancy1 hw 2"
+	thumbnail "thumbnail/fancy1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 104882000
+		"shields" 310800
+		"hull" 783200
+		"required crew" 32
+		"bunks" 81
+		"mass" 981.6
+		"drag" 18.15
+		"heat dissipation" 0.64
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 1370
+		"weapon capacity" 510
+		"engine capacity" 440
+		weapon 
+			"blast radius" 10940
+			"shield damage" 109400
+			"hull damage" 54700
+			"hit force" 164100
+	outfits 
+		"Ailhoxezex Thruster" 1
+		"Ailhoxezex Steering" 1
+		"Abmoe Tracker Catapult" 1
+		"Abmoe Tracker" 33
+		"Ixrxi Auto Mortar" 1
+		"Ixrxi Auto Mortar Turret" 3
+		"Fciue Core" 1
+		"Bbeadogaao Shielding" 1
+		"Axeoicaiwo Battery" 1
+		"Jump Drive"
+	engine -26.0 182.0
+	engine 26.0 182.0
+	gun -10.9 -163.0
+	gun 10.9 -163.0
+	turret 24.5 98.0
+	turret -20.0 -42.5
+	turret 20.0 -42.5
+	turret -27.0 34.0
+	turret 27.0 34.0
+	turret -24.5 98.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ujoaa utofb T3.5 ship"
+
+ship "Oicgiweaca"
+	sprite "ship/fancy1 in 1"
+	thumbnail "thumbnail/fancy1 in 1"
+	attributes 
+		category "Interceptor"
+		"cost" 15398000
+		"shields" 20400
+		"hull" 51400
+		"required crew" 5
+		"bunks" 9
+		"mass" 61.0
+		"drag" 1.22
+		"heat dissipation" 1.22
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 137
+		"weapon capacity" 41
+		"engine capacity" 20
+		weapon 
+			"blast radius" 718
+			"shield damage" 7180
+			"hull damage" 3590
+			"hit force" 10770
+	outfits 
+		"Ailhoxezex Thruster" 1
+		"Ailhoxezex Steering" 1
+		"Abmoe Tracker Catapult" 1
+		"Abmoe Tracker" 33
+		"Eeoko Shielding" 1
+		"Fheaa Heatsink" 1
+		"Jump Drive"
+	engine 0 41.1
+	gun 3.9 -40.7
+	gun 3.4 -37.8
+	gun -3.4 -37.8
+	turret 0.8 -39.8
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Ujoaa utofb T3.5 ship"
+
+ship "Uzxefeizua"
+	sprite "ship/fancy1 lw 2"
+	thumbnail "thumbnail/fancy1 lw 2"
+	attributes 
+		category "Light Warship"
+		"cost" 69336000
+		"shields" 92100
+		"hull" 232100
+		"required crew" 5
+		"bunks" 23
+		"mass" 176.20000000000002
+		"drag" 3.55
+		"heat dissipation" 0.68
+		"fuel capacity" 2300
+		"cargo space" 25
+		"outfit space" 290
+		"weapon capacity" 120
+		"engine capacity" 80
+		weapon 
+			"blast radius" 3242
+			"shield damage" 32420
+			"hull damage" 16210
+			"hit force" 48630
+	outfits 
+		"Ailhoxezex Thruster" 1
+		"Ailhoxezex Steering" 1
+		"Fubiz Core" 1
+		"Eeoko Shielding" 1
+		"Axeoicaiwo Battery" 1
+		"Oozle owoou Heat Shunt" 2
+		"Jump Drive"
+	engine 0 49.0
+	turret 2.1 -33.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ujoaa utofb T3.5 ship"
+

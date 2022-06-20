@@ -1,0 +1,30 @@
+fleet "Pawe iixe Navy"
+	government "Pawe iixe"
+	names "Pawe iixe names"
+	personality
+		heroic opportunistic
+	variant 19
+		"Booljuzuukip" 1
+		"Booljuzuukip" 3
+		"Tezw apwa" 3
+	variant 24
+		"Tezw apwa" 2
+		"Aaezkereqeiq" 4
+		"Opbi urcouqtf" 4
+	variant 30
+		"Aaezkereqeiq" 1
+		"Aaezkereqeiq" 3
+		"Aaezkereqeiq" 1
+	variant 56
+		"Opbi urcouqtf" 1
+		"Booljuzuukip" 1
+		"Booljuzuukip" 4
+fleet "Pawe iixe Merchant"
+	government "Pawe iixe"
+	names "Pawe iixe names"
+	personality
+		timid
+	variant 0
+		"Aaezkereqeiq" 3
+		"Tezw apwa" 3
+		"Aaezkereqeiq" 1

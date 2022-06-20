@@ -1,0 +1,19 @@
+government "Xoiba vuvel"
+	"display name" "Xoiba vuvel"
+	"swizzle" 11
+	"color" 0.700 0.557 0.501 0.222
+	"player reputation" 0
+	"crew attack" 1.6
+	"crew defense" 3.0
+	"attitude toward"
+		"Uda zuu" 0
+		"Ooqfoasp" 0
+		"Ujoaa utofb" 0
+		"Geaafe ibueuk" -1
+		"Pawe iixe" -1
+		"Iao pta" 0
+		"Weupuyyo" -1
+		"Uyouzv asnund" -1
+		"Nis mio" 0
+		"Peeisesaxibb" -1
+		"Uyau wexa" 0

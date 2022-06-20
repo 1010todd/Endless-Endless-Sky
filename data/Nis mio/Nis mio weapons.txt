@@ -1,0 +1,194 @@
+outfit "Olo Anti-Missile"
+	category "Turrets"
+	cost 100
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 0.2
+		"velocity" 180
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.5
+		"firing heat" 2.9
+	description "Nis mio T0.5 Anti-missile"
+
+outfit "Lae Anti-Missile"
+	category "Turrets"
+	cost 100
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 0.2
+		"velocity" 160
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8.2
+		"firing heat" 98.0
+	description "Nis mio T0.5 Anti-missile"
+
+outfit "Eje Tracker"
+	category "Ammunition"
+	cost 21
+	thumbnail "outfit/typhoon"
+	"mass" 0.09
+	"Eje missile capacity" -1
+	description "Nis mio Missile"
+
+outfit "Eje Tracker Storage
+	category "Ammunition"
+	cost 196
+	thumbnail "outfit/typhoon storage"
+	"mass" 1
+	"outfit space" -2
+	"Eje missile capacity" 22
+	ammo "Eje Missile"
+	description "Eje Tracker Storage"
+
+outfit "Eje Tracker Launcher"
+	category "Secondary Weapons"
+	cost 100
+	thumbnail "outfit/typhoon launcher"
+	"mass" 1
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"Eje Tracker capacity" 22
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Eje Missile"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.0
+		"velocity" 31
+		"lifetime" 200
+		"reload" 1
+		"firing energy" 5.1
+		"firing heat" 5.1
+		"acceleration" 1.5
+		"drag" 0.2
+		"turn" 21.0
+		"homing" 2
+		"optical tracking" 0.75
+		"shield damage" 2.1
+		"hull damage" 2.1
+		"missile strength" 0.3
+	description "Nis mio T0.5 Missile weapon"
+
+outfit "Pux Auto Gun"
+	category "Guns"
+	cost 100
+	thumbnail "outfit/inhibitor"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "bombardment"
+		"hit effect" "blaster impact"
+		"inaccuracy" 4.7
+		"velocity" 17
+		"lifetime" 12
+		"reload" 1
+		"firing energy" 7.1
+		"firing heat" 8.8
+		"shield damage" 5.1
+		"hull damage" 5.7
+	description "Nis mio T0.5 Projectile weapon"
+
+outfit "Pux Auto Gun Turret"
+	category "Turrets"
+	cost 306.96972936199165
+	thumbnail "outfit/inhibitor turret"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/tracker"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "bombardment"
+		"hit effect" "blaster impact"
+		"inaccuracy" 4.7
+		"turret turn" 0.4
+		"velocity" 17
+		"lifetime" 12
+		"reload" 1
+		"firing energy" 7.1
+		"firing heat" 8.8
+		"shield damage" 5.1
+		"hull damage" 5.7
+	description "Nis mio T0.5 Projectile weapon 1gun Turret"
+
+outfit "Oua Torpedo"
+	category "Ammunition"
+	cost 25
+	thumbnail "outfit/typhoon"
+	"mass" 0.02
+	"Oua missile capacity" -1
+	description "Nis mio Missile"
+
+outfit "Oua Torpedo Storage
+	category "Ammunition"
+	cost 175
+	thumbnail "outfit/typhoon storage"
+	"mass" 0
+	"outfit space" -1
+	"Oua missile capacity" 50
+	ammo "Oua Missile"
+	description "Oua Torpedo Storage"
+
+outfit "Oua Torpedo Tube"
+	category "Secondary Weapons"
+	cost 100
+	thumbnail "outfit/typhoon launcher"
+	"mass" 0
+	"outfit space" -59
+	"weapon capacity" -59
+	"gun ports" -1
+	"Oua Torpedo capacity" 50
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Oua Missile"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.3
+		"velocity" 39
+		"lifetime" 500
+		"reload" 1
+		"firing energy" 132.6
+		"firing heat" 45.0
+		"acceleration" 1.8
+		"drag" 0.1
+		"turn" 27.7
+		"homing" 2
+		"optical tracking" 0.19
+		"shield damage" 78.8
+		"hull damage" 46.4
+		"missile strength" 0.2
+	description "Nis mio T0.5 Missile weapon"
+

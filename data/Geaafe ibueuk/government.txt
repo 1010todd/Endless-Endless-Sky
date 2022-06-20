@@ -1,0 +1,19 @@
+government "Geaafe ibueuk"
+	"display name" "Geaafe ibueuk"
+	"swizzle" 18
+	"color" 0.754 0.717 0.277 0.377
+	"player reputation" -1
+	"crew attack" 1.6
+	"crew defense" 3.0
+	"attitude toward"
+		"Uda zuu" 0
+		"Ooqfoasp" 0
+		"Ujoaa utofb" 0
+		"Pawe iixe" -1
+		"Iao pta" -1
+		"Weupuyyo" -1
+		"Uyouzv asnund" -1
+		"Nis mio" -1
+		"Xoiba vuvel" -1
+		"Peeisesaxibb" 0
+		"Uyau wexa" -1

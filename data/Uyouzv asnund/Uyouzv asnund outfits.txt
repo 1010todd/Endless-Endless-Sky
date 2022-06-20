@@ -1,0 +1,409 @@
+outfit "Gwixar iweeea Capacitor"
+	category "Power"
+	cost 525400
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 9810
+	description "Uyouzv asnund T4.4 Battery"
+
+outfit "Ooiuiu Capacitor"
+	category "Power"
+	cost 945800
+	thumbnail "outfit/tiny battery"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 47090
+	description "Uyouzv asnund T4.4 Battery"
+
+outfit "Pyuvaeuisiou Capacitor"
+	category "Power"
+	cost 1702500
+	thumbnail "outfit/tiny battery"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 226040
+	description "Uyouzv asnund T4.4 Battery"
+
+outfit "Ueufdi Capacitor"
+	category "Power"
+	cost 3064500
+	thumbnail "outfit/tiny battery"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 1085000
+	description "Uyouzv asnund T4.4 Battery"
+
+
+outfit "Erezlu Generator"
+	category "Power"
+	cost 167900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 5.1
+	"heat generation" 12.6
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Gciumvayaudi Generator"
+	category "Power"
+	cost 285500
+	thumbnail "outfit/small fuel cell"
+	"mass" 37
+	"outfit space" -37
+	"energy generation" 24.5
+	"heat generation" 27.7
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Uwnoyd Generator"
+	category "Power"
+	cost 485400
+	thumbnail "outfit/medium fuel cell"
+	"mass" 81
+	"outfit space" -81
+	"energy generation" 117.6
+	"heat generation" 60.9
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Woonwiyosido Generator"
+	category "Power"
+	cost 825200
+	thumbnail "outfit/large fuel cell"
+	"mass" 178
+	"outfit space" -178
+	"energy generation" 564.5
+	"heat generation" 134.0
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Yaefzl Generator"
+	category "Power"
+	cost 1402900
+	thumbnail "outfit/huge fuel cell"
+	"mass" 392
+	"outfit space" -392
+	"energy generation" 2709.6
+	"heat generation" 294.8
+	description "Uyouzv asnund T4.4 Power generator"
+
+
+outfit "Aefooo Thruster"
+	category "Engines"
+	cost 4670600
+	thumbnail "outfit/small ion thruster"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"thrust" 6.0
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "Uyouzv asnund T4.4 Thruster"
+
+outfit "Aefooo Steering"
+	category "Engines"
+	cost 3512837
+	thumbnail "outfit/tiny ion steering"
+	"mass" 6
+	"outfit space" -6
+	"engine capacity" -6
+	"turn" 154
+	"turning energy" 0.2
+	"turning heat" 0.2
+	description "Uyouzv asnund T4.4 steering"
+
+outfit "Iceiez irsaed Thruster"
+	category "Engines"
+	cost 7940100
+	thumbnail "outfit/medium ion thruster"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 28.8
+	"thrusting energy" 1.0
+	"thrusting heat" 1.4
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ion medium"
+	description "Uyouzv asnund T4.4 Thruster"
+
+outfit "Iceiez irsaed Steering"
+	category "Engines"
+	cost 13498200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 739.2
+	"turning energy" 1.0
+	"turning heat" 1.0
+	description "Uyouzv asnund T4.4 steering"
+
+outfit "Reioyaimxnai Thruster"
+	category "Engines"
+	cost 13498200
+	thumbnail "outfit/large ion thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 138.2
+	"thrusting energy" 4.8
+	"thrusting heat" 6.7
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Uyouzv asnund T4.4 Thruster"
+
+outfit "Reioyaimxnai Steering"
+	category "Engines"
+	cost 22947000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"turn" 3548.2
+	"turning energy" 4.8
+	"turning heat" 4.8
+	description "Uyouzv asnund T4.4 steering"
+
+outfit "Ruzdii Thruster"
+	category "Engines"
+	cost 22947000
+	thumbnail "outfit/large ion thruster"
+	"mass" 127
+	"outfit space" -127
+	"engine capacity" -127
+	"thrust" 663.4
+	"thrusting energy" 23.0
+	"thrusting heat" 32.2
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Uyouzv asnund T4.4 Thruster"
+
+outfit "Ruzdii Steering"
+	category "Engines"
+	cost 39009900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 82
+	"outfit space" -82
+	"engine capacity" -82
+	"turn" 17031.4
+	"turning energy" 23.0
+	"turning heat" 23.0
+	description "Uyouzv asnund T4.4 steering"
+
+outfit "Vouimn Thruster"
+	category "Engines"
+	cost 39009900
+	thumbnail "outfit/large ion thruster"
+	"mass" 305
+	"outfit space" -305
+	"engine capacity" -305
+	"thrust" 3184.3
+	"thrusting energy" 110.4
+	"thrusting heat" 154.6
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Uyouzv asnund T4.4 Thruster"
+
+outfit "Vouimn Steering"
+	category "Engines"
+	cost 66316900
+	thumbnail "outfit/tiny ion steering"
+	"mass" 197
+	"outfit space" -197
+	"engine capacity" -197
+	"turn" 81750.7
+	"turning energy" 110.4
+	"turning heat" 110.4
+	description "Uyouzv asnund T4.4 steering"
+
+
+outfit "Dezaoe Shield Core"
+	category "Systems"
+	cost 957700
+	thumbnail "outfit/tiny shield"
+	"mass" 18
+	"outfit space" -18
+	"shield generation" 3.51
+	"shield energy" 4.89
+	"shield heat" 5
+	description "Uyouzv asnund T4.4 shield gen"
+
+outfit "Evvxol wuiivi Shield Core"
+	category "Systems"
+	cost 1723900
+	thumbnail "outfit/small shield"
+	"mass" 27
+	"outfit space" -27
+	"shield generation" 7.0
+	"shield energy" 3.9
+	"shield heat" 5
+	description "Uyouzv asnund T4.4 shield gen"
+
+outfit "Laoevo Shield Core"
+	category "Systems"
+	cost 3103100
+	thumbnail "outfit/medium shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 14.0
+	"shield energy" 3.1
+	"shield heat" 5
+	description "Uyouzv asnund T4.4 shield gen"
+
+outfit "Mvauhe Shield Core"
+	category "Systems"
+	cost 5585600
+	thumbnail "outfit/large shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 28.0
+	"shield energy" 2.5
+	"shield heat" 5
+	description "Uyouzv asnund T4.4 shield gen"
+
+outfit "Uniuli Shield Core"
+	category "Systems"
+	cost 10054100
+	thumbnail "outfit/huge shield"
+	"mass" 90
+	"outfit space" -90
+	"shield generation" 56.0
+	"shield energy" 2.0
+	"shield heat" 5
+	description "Uyouzv asnund T4.4 shield gen"
+
+
+
+outfit "Yileuf Heat Shunt"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/water cooling"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 409
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Ejefuoirzwee Core"
+	category "Power"
+	cost 1519600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 4.7
+	"heat generation" 13.3
+	description "Uyouzv asnund T4.4 Power generator"
+
+
+outfit "Oeozuu Cooler"
+	category "Systems"
+	cost 19000
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 7
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Einexi vyeyoe Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Vowuwougpugl Temperature Control"
+	category "Systems"
+	cost 38400
+	thumbnail "outfit/water cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 17
+	"active cooling" 203
+	"cooling energy" 6.268799573533697
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Imavai Cooling"
+	category "Systems"
+	cost 14700
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 3
+	"active cooling" 2
+	"cooling energy" 1.583336066247933
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Gjawoe ocnate Heat Pump"
+	category "Systems"
+	cost 22100
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 4
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Awoodoaxouue Heat Shunt"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"active cooling" 9
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Dxazaikeadao Heatsink"
+	category "Systems"
+	cost 43000
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 3
+	"active cooling" 39
+	"cooling energy" 1.3463080513203458
+	description "Uyouzv asnund T4.4 Cooling"
+
+
+outfit "Igoyio Cell"
+	category "Power"
+	cost 4668100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 5.1
+	"heat generation" 14.7
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Nlaeyoloeuwo Cell"
+	category "Power"
+	cost 7935800
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 24.5
+	"heat generation" 38.2
+	description "Uyouzv asnund T4.4 Power generator"
+
+outfit "Osgoasmwioio Cell"
+	category "Power"
+	cost 13490900
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 117.6
+	"heat generation" 99.3
+	description "Uyouzv asnund T4.4 Power generator"
+
+

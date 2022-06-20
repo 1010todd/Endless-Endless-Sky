@@ -1,0 +1,42 @@
+fleet "Iao pta Patrol"
+	government "Iao pta"
+	names "Iao pta names"
+	personality
+		heroic opportunistic
+	variant 6
+		"Ianeusoiq" 2
+		"Ihecui" 3
+		"Ianeusoiq" 1
+	variant 24
+		"Ueieni" 3
+		"Oiuioseur" 2
+		"Ianeusoiq" 4
+	variant 15
+		"Bxonqi" 4
+		"Ihecui" 1
+		"Ueieni" 1
+	variant 64
+		"Ianeusoiq" 3
+		"Ueieni" 2
+		"Bgeleb ooa" 2
+	variant 20
+		"Bgeleb ooa" 4
+		"Bgeleb ooa" 2
+		"Ihecui" 3
+fleet "Iao pta Privateer"
+	government "Iao pta"
+	names "Iao pta names"
+	personality
+		timid
+	variant 0
+		"Ihecui" 3
+		"Uqsmae" 4
+		"Oiuioseur" 1
+	variant 16
+		"Ihecui" 4
+		"Ihecui" 4
+		"Pozaen" 4
+	variant 20
+		"Pozaen" 2
+		"Ianeusoiq" 2
+		"Bxonqi" 1

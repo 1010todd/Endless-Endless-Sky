@@ -1,0 +1,552 @@
+ship "Rob hexapi"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 154000
+		"shields" 4500
+		"hull" 1100
+		"required crew" 10
+		"bunks" 33
+		"mass" 393.6
+		"drag" 8.54
+		"heat dissipation" 0.76
+		"fuel capacity" 400
+		"cargo space" 190
+		"outfit space" 490
+		"weapon capacity" 170
+		"engine capacity" 130
+		weapon 
+			"blast radius" 56
+			"shield damage" 560
+			"hull damage" 280
+			"hit force" 840
+	outfits 
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 1
+		"Eje Tracker" 22
+		"Aao Generator" 1
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Xea loe Generator" 1
+		"Mto Thruster" 1
+		"Mto Steering" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	turret 155.0 213.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Nis mio T0.5 ship"
+
+ship "Mim juu rku"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 157000
+		"shields" 6300
+		"hull" 1500
+		"required crew" 40
+		"bunks" 79
+		"mass" 999.6
+		"drag" 19.35
+		"heat dissipation" 0.82
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 1720
+		"weapon capacity" 660
+		"engine capacity" 530
+		weapon 
+			"blast radius" 78
+			"shield damage" 780
+			"hull damage" 390
+			"hit force" 1170
+	outfits 
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 2
+		"Eje Tracker" 44
+		"Pux Auto Gun" 1
+		"Pux Auto Gun Turret" 3
+		"Oua Torpedo Tube" 1
+		"Oua Torpedo" 50
+		"Aao Generator" 2
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Aju wki Generator" 1
+		"Igr Generator" 1
+		"Hyperdrive"
+	engine 0 323.3
+	gun 82.0 -13.0
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Nis mio T0.5 ship"
+
+ship "Utn jlo"
+	sprite "ship/indus1 hw 1"
+	thumbnail "thumbnail/indus1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 155000
+		"shields" 8600
+		"hull" 2000
+		"required crew" 28
+		"bunks" 93
+		"mass" 819.2
+		"drag" 16.87
+		"heat dissipation" 0.74
+		"fuel capacity" 400
+		"cargo space" 100
+		"outfit space" 1470
+		"weapon capacity" 500
+		"engine capacity" 400
+		weapon 
+			"blast radius" 106
+			"shield damage" 1060
+			"hull damage" 530
+			"hit force" 1590
+	outfits 
+		"Ure Thruster" 1
+		"Ure Steering" 1
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 2
+		"Eje Tracker" 44
+		"Pux Auto Gun" 1
+		"Pux Auto Gun Turret" 5
+		"Oua Torpedo Tube" 1
+		"Oua Torpedo" 50
+		"Aao Generator" 2
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Aju wki Generator" 1
+		"Igr Generator" 1
+		"Kpo Generator" 1
+		"Xea loe Generator" 1
+		"Hyperdrive"
+	engine 0 170.8
+	gun -6.4 -186.0
+	gun 3.1 -164.7
+	gun -3.1 -164.7
+	gun 6.4 -186.0
+	turret -2.7 -170.8
+	turret 2.3 -82.4
+	turret -2.3 -82.4
+	turret 6.5 -62.3
+	turret -6.5 -62.3
+	turret 2.7 -170.8
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Nis mio T0.5 ship"
+
+ship "Xou gum xou"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 43000
+		"shields" 2900
+		"hull" 700
+		"required crew" 6
+		"bunks" 35
+		"mass" 221.4
+		"drag" 4.12
+		"heat dissipation" 0.61
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 300
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 36
+			"shield damage" 360
+			"hull damage" 180
+			"hit force" 540
+	outfits 
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Olo Anti-Missile" 1
+		"Kpo Generator" 1
+		"Lon Shielding" 1
+		"Aaj Capacitor" 1
+		"Hyperdrive"
+	engine 0 40.6
+	turret 1.5 -15.8
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Nis mio T0.5 ship"
+
+ship "Ejb ame noo"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 7000
+		"shields" 1500
+		"hull" 400
+		"required crew" 12
+		"bunks" 30
+		"mass" 193.60000000000002
+		"drag" 4.0
+		"heat dissipation" 0.54
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 390
+		"weapon capacity" 130
+		"engine capacity" 120
+		weapon 
+			"blast radius" 19
+			"shield damage" 190
+			"hull damage" 100
+			"hit force" 290
+	outfits 
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 1
+		"Eje Tracker" 22
+		"Igr Generator" 1
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Eeo wue Core" 2
+		"Mto Thruster" 1
+		"Mto Steering" 1
+		"Leaquo Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 42.8
+	gun 0.5 -45.1
+	turret 0.2 -32.9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Nis mio T0.5 ship"
+
+ship "Rep ujoxae"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 127000
+		"shields" 7500
+		"hull" 1800
+		"required crew" 22
+		"bunks" 43
+		"mass" 422.8
+		"drag" 8.17
+		"heat dissipation" 0.89
+		"fuel capacity" 400
+		"cargo space" 55
+		"outfit space" 440
+		"weapon capacity" 180
+		"engine capacity" 130
+		weapon 
+			"blast radius" 93
+			"shield damage" 930
+			"hull damage" 470
+			"hit force" 1400
+	outfits 
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 2
+		"Eje Tracker" 44
+		"Pux Auto Gun" 1
+		"Pux Auto Gun Turret" 1
+		"Igr Generator" 1
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Mto Thruster" 1
+		"Mto Steering" 1
+		"Hyperdrive"
+	engine 0 68.0
+	gun 3.6 -68.3
+	gun 2.2 -62.4
+	gun -2.2 -62.4
+	turret -1.7 -46.7
+	turret 1.9 -35.0
+	turret -1.9 -35.0
+	turret 1.7 -46.7
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Nis mio T0.5 ship"
+
+ship "Tei huo"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 97000
+		"shields" 2700
+		"hull" 700
+		"required crew" 7
+		"bunks" 34
+		"mass" 114.60000000000001
+		"drag" 2.05
+		"heat dissipation" 0.58
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 210
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon 
+			"blast radius" 34
+			"shield damage" 340
+			"hull damage" 170
+			"hit force" 510
+	outfits 
+		"Olo Anti-Missile" 1
+		"Eeo wue Core" 1
+		"Lon Shielding" 1
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Xwa fok Core" 1
+		"Leaquo Heat Shunt" 1
+		"Aem Temperature Control" 1
+		"Hyperdrive"
+	engine 0 40.7
+	turret 0.9 -10.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Nis mio T0.5 ship"
+
+ship "Eoe pei"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 117000
+		"shields" 3100
+		"hull" 700
+		"required crew" 3
+		"bunks" 34
+		"mass" 79.4
+		"drag" 1.66
+		"heat dissipation" 0.62
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 38
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 570
+	outfits 
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Aaj Capacitor" 1
+		"Leaquo Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 42.2
+	turret 1.9 -16.8
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Nis mio T0.5 ship"
+
+ship "Wui wex ool"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 1000
+		"shields" 1500
+		"hull" 400
+		"required crew" 10
+		"bunks" 20
+		"mass" 161.20000000000002
+		"drag" 3.04
+		"heat dissipation" 0.76
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 280
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 19
+			"shield damage" 190
+			"hull damage" 100
+			"hit force" 290
+	outfits 
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 1
+		"Eje Tracker" 22
+		"Pux Auto Gun" 1
+		"Kpo Generator" 1
+		"Lon Shielding" 1
+		"Aaj Capacitor" 1
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Hyperdrive"
+	engine 0 42.8
+	gun -3.0 -39.9
+	gun 3.0 -39.9
+	turret 2.2 -5.6
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Nis mio T0.5 ship"
+
+ship "Tuobea bmu"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 47000
+		"shields" 6300
+		"hull" 1500
+		"required crew" 47
+		"bunks" 78
+		"mass" 666.0
+		"drag" 13.08
+		"heat dissipation" 0.81
+		"fuel capacity" 400
+		"cargo space" 320
+		"outfit space" 1320
+		"weapon capacity" 520
+		"engine capacity" 360
+		weapon 
+			"blast radius" 78
+			"shield damage" 780
+			"hull damage" 390
+			"hit force" 1170
+	outfits 
+		"Aan Thruster" 1
+		"Aan Steering" 1
+		"Olo Anti-Missile" 1
+		"Eje Tracker Launcher" 1
+		"Eje Tracker" 22
+		"Aao Generator" 2
+		"Auk Shielding" 1
+		"Aaj Capacitor" 1
+		"Aju wki Generator" 1
+		"Igr Generator" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	turret 155.0 213.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Nis mio T0.5 ship"
+
+ship "Ehoxix upu"
+	sprite "ship/combat drone"
+	thumbnail "thumbnail/combat drone"
+	attributes 
+		category "Drone"
+		"cost" 10000
+		"shields" 600
+		"hull" 200
+		"required crew" 3
+		"bunks" 4
+		"mass" 26.8
+		"drag" 0.52
+		"heat dissipation" 1.15
+		"fuel capacity" 400
+		"cargo space" 5
+		"outfit space" 68
+		"weapon capacity" 24
+		"engine capacity" 20
+		weapon 
+			"blast radius" 8
+			"shield damage" 80
+			"hull damage" 40
+			"hit force" 120
+	outfits 
+		"Eje Tracker Launcher" 1
+		"Eje Tracker" 22
+		"Jka Generator" 1
+		"Qer Shielding" 1
+		"Hyperdrive"
+	engine 0 44.5
+	gun -1.5 -38.1
+	gun 1.5 -38.1
+	turret 2.2 -20.8
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Nis mio T0.5 ship"
+

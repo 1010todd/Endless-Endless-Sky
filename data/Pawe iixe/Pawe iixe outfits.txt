@@ -1,0 +1,314 @@
+outfit "Yiqa Battery"
+	category "Power"
+	cost 542000
+	thumbnail "outfit/tiny battery"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 7250
+	description "Pawe iixe T5.3 Battery"
+
+outfit "Zoecguuu Battery"
+	category "Power"
+	cost 975600
+	thumbnail "outfit/tiny battery"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 42050
+	description "Pawe iixe T5.3 Battery"
+
+
+outfit "Deepciba Core"
+	category "Power"
+	cost 161300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 5.7
+	"heat generation" 10.2
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Ueppuiuy Core"
+	category "Power"
+	cost 274300
+	thumbnail "outfit/small fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 33.1
+	"heat generation" 24.5
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Zupbbiiw Core"
+	category "Power"
+	cost 466400
+	thumbnail "outfit/medium fuel cell"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 192.0
+	"heat generation" 58.8
+	description "Pawe iixe T5.3 Power generator"
+
+
+outfit "Ecac Thruster"
+	category "Engines"
+	cost 4884500
+	thumbnail "outfit/small plasma thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 6.4
+	"thrusting energy" 0.2
+	"thrusting heat" 0.2
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.2
+	"flare sound" "plasma small"
+	description "Pawe iixe T5.3 Thruster"
+
+outfit "Ecac Steering"
+	category "Engines"
+	cost 3840076
+	thumbnail "outfit/tiny ion steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 175
+	"turning energy" 0.2
+	"turning heat" 0.2
+	description "Pawe iixe T5.3 steering"
+
+outfit "Euzi Thruster"
+	category "Engines"
+	cost 8303700
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 31
+	"outfit space" -31
+	"engine capacity" -31
+	"thrust" 37.1
+	"thrusting energy" 1.2
+	"thrusting heat" 1.2
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1.2
+	"flare sound" "plasma medium"
+	description "Pawe iixe T5.3 Thruster"
+
+outfit "Euzi Steering"
+	category "Engines"
+	cost 14116300
+	thumbnail "outfit/tiny ion steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 1015.0
+	"turning energy" 1.2
+	"turning heat" 1.2
+	description "Pawe iixe T5.3 steering"
+
+outfit "Oqoouuup Thruster"
+	category "Engines"
+	cost 14116300
+	thumbnail "outfit/large plasma thruster"
+	"mass" 87
+	"outfit space" -87
+	"engine capacity" -87
+	"thrust" 215.2
+	"thrusting energy" 7.0
+	"thrusting heat" 7.0
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Pawe iixe T5.3 Thruster"
+
+outfit "Oqoouuup Steering"
+	category "Engines"
+	cost 23997800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 62
+	"outfit space" -62
+	"engine capacity" -62
+	"turn" 5887.0
+	"turning energy" 7.0
+	"turning heat" 7.0
+	description "Pawe iixe T5.3 steering"
+
+outfit "Pzuozkoo Thruster"
+	category "Engines"
+	cost 23997800
+	thumbnail "outfit/large plasma thruster"
+	"mass" 244
+	"outfit space" -244
+	"engine capacity" -244
+	"thrust" 1248.2
+	"thrusting energy" 40.6
+	"thrusting heat" 40.6
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Pawe iixe T5.3 Thruster"
+
+outfit "Pzuozkoo Steering"
+	category "Engines"
+	cost 40796300
+	thumbnail "outfit/tiny ion steering"
+	"mass" 174
+	"outfit space" -174
+	"engine capacity" -174
+	"turn" 34144.6
+	"turning energy" 40.6
+	"turning heat" 40.6
+	description "Pawe iixe T5.3 steering"
+
+outfit "Yacyaiot Thruster"
+	category "Engines"
+	cost 40796300
+	thumbnail "outfit/large plasma thruster"
+	"mass" 683
+	"outfit space" -683
+	"engine capacity" -683
+	"thrust" 7239.6
+	"thrusting energy" 235.5
+	"thrusting heat" 235.5
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Pawe iixe T5.3 Thruster"
+
+outfit "Yacyaiot Steering"
+	category "Engines"
+	cost 69353800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 487
+	"outfit space" -487
+	"engine capacity" -487
+	"turn" 198038.7
+	"turning energy" 235.5
+	"turning heat" 235.5
+	description "Pawe iixe T5.3 steering"
+
+
+outfit "Evujgita Shield Rejuvenator"
+	category "Systems"
+	cost 5158800
+	thumbnail "outfit/tiny shield"
+	"mass" 7
+	"outfit space" -7
+	"shield generation" 4.69
+	"shield energy" 9.34
+	"shield heat" 3
+	description "Pawe iixe T5.3 shield gen"
+
+outfit "Jiiu Shield Rejuvenator"
+	category "Systems"
+	cost 9285900
+	thumbnail "outfit/small shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 9.4
+	"shield energy" 5.6
+	"shield heat" 3
+	description "Pawe iixe T5.3 shield gen"
+
+
+outfit "Iaei Hull Reconstructor"
+	category "Systems"
+	cost 8179800
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"hull repair rate" 5.68
+	"hull energy" 10.9
+	"hull heat" 4
+	description "Pawe iixe T5.3 Hull Repair"
+
+
+outfit "Efca evoy Cell"
+	category "Power"
+	cost 506300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 6.5
+	"heat generation" 7.4
+	description "Pawe iixe T5.3 Power generator"
+
+
+outfit "Iciy Cell"
+	category "Power"
+	cost 1951400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 5.9
+	"heat generation" 12.2
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Inuzikyj Cell"
+	category "Power"
+	cost 3317400
+	thumbnail "outfit/small fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 34.2
+	"heat generation" 22.0
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Piro Cell"
+	category "Power"
+	cost 5639600
+	thumbnail "outfit/medium fuel cell"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 198.4
+	"heat generation" 39.6
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Qzuu xpde Cell"
+	category "Power"
+	cost 9587400
+	thumbnail "outfit/large fuel cell"
+	"mass" 13
+	"outfit space" -13
+	"energy generation" 1150.7
+	"heat generation" 71.3
+	description "Pawe iixe T5.3 Power generator"
+
+
+outfit "Obadiyai Core"
+	category "Power"
+	cost 4945000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 6.4
+	"heat generation" 18.2
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Oibovqii Core"
+	category "Power"
+	cost 8406500
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 37.1
+	"heat generation" 32.8
+	description "Pawe iixe T5.3 Power generator"
+
+outfit "Riga Core"
+	category "Power"
+	cost 14291100
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 215.2
+	"heat generation" 59.0
+	description "Pawe iixe T5.3 Power generator"
+
+
+outfit "Akekkoxo Temperature Control"
+	category "Systems"
+	cost 29900
+	thumbnail "outfit/water cooling"
+	"mass" 413
+	"outfit space" -413
+	"active cooling" 553
+	description "Pawe iixe T5.3 Cooling"
+
+

@@ -1,0 +1,38 @@
+fleet "Nis mio Navy"
+	government "Nis mio"
+	names "Nis mio names"
+	personality
+		heroic opportunistic
+	variant 19
+		"Wui wex ool" 2
+		"Mim juu rku" 2
+		"Utn jlo" 1
+	variant 32
+		"Tuobea bmu" 3
+		"Wui wex ool" 3
+		"Tuobea bmu" 3
+	variant 57
+		"Wui wex ool" 3
+		"Ejb ame noo" 1
+		"Rep ujoxae" 4
+	variant 24
+		"Ehoxix upu" 1
+		"Tuobea bmu" 1
+		"Wui wex ool" 3
+	variant 95
+		"Wui wex ool" 2
+		"Utn jlo" 4
+		"Ejb ame noo" 4
+fleet "Nis mio Privateer"
+	government "Nis mio"
+	names "Nis mio names"
+	personality
+		timid
+	variant 0
+		"Xou gum xou" 3
+		"Tei huo" 4
+		"Xou gum xou" 3
+	variant 6
+		"Wui wex ool" 4
+		"Rob hexapi" 3
+		"Mim juu rku" 4

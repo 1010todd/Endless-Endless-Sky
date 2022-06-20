@@ -1,0 +1,121 @@
+outfit "Uytic Tracker"
+	category "Ammunition"
+	cost 4487
+	thumbnail "outfit/sidewinder"
+	"mass" 0.05
+	"Uytic missile capacity" -1
+	description "Xoiba vuvel Missile"
+
+outfit "Uytic Tracker Storage
+	category "Ammunition"
+	cost 33482
+	thumbnail "outfit/sidewinder storage"
+	"mass" 1
+	"outfit space" -1
+	"Uytic missile capacity" 20
+	ammo "Uytic Missile"
+	description "Uytic Tracker Storage"
+
+outfit "Uytic Tracker Deployer"
+	category "Secondary Weapons"
+	cost 20800
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	"Uytic Tracker capacity" 20
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Uytic Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 3.7
+		"velocity" 45
+		"lifetime" 800
+		"reload" 1
+		"firing energy" 26.6
+		"firing heat" 13.4
+		"acceleration" 1.5
+		"drag" 0.2
+		"turn" 31.5
+		"homing" 1
+		"optical tracking" 0.27
+		"shield damage" 86.9
+		"hull damage" 76.9
+		"hit force" 19
+		"missile strength" 6.7
+	description "Xoiba vuvel T1.3 Missile weapon"
+
+outfit "Iwoef Gun"
+	category "Guns"
+	cost 16900
+	thumbnail "outfit/blaster"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		sound "pulse"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.0
+		"velocity" 42
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 0.8
+		"shield damage" 4.3
+		"hull damage" 8.2
+	description "Xoiba vuvel T1.3 Projectile weapon"
+
+outfit "Iwoef Gun Turret"
+	category "Turrets"
+	cost 46698.81125445338
+	thumbnail "outfit/blaster turret"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		sound "pulse"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.0
+		"turret turn" 1.4
+		"velocity" 42
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 0.8
+		"shield damage" 12.899999999999999
+		"hull damage" 24.599999999999998
+	description "Xoiba vuvel T1.3 Projectile weapon 3gun Turret"
+
+outfit "Bowoh Anti-Missile"
+	category "Turrets"
+	cost 18900
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 27
+	"outfit space" -27
+	"weapon capacity" -27
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 1.0
+		"velocity" 150
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.2
+		"firing heat" 1.8
+	description "Xoiba vuvel T1.3 Anti-missile"
+

@@ -1,0 +1,353 @@
+outfit "Egs fro Capacitor"
+	category "Power"
+	cost 210100
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 3310
+	description "Uda zuu T2.8 Battery"
+
+outfit "Lec qux Capacitor"
+	category "Power"
+	cost 378200
+	thumbnail "outfit/tiny battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 9930
+	description "Uda zuu T2.8 Battery"
+
+outfit "Mxueyu Capacitor"
+	category "Power"
+	cost 680800
+	thumbnail "outfit/tiny battery"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 29790
+	description "Uda zuu T2.8 Battery"
+
+outfit "Uhm xoq Capacitor"
+	category "Power"
+	cost 1225500
+	thumbnail "outfit/tiny battery"
+	"mass" 88
+	"outfit space" -88
+	"energy capacity" 89370
+	description "Uda zuu T2.8 Battery"
+
+
+outfit "Soa Core"
+	category "Power"
+	cost 112700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 3.6
+	"heat generation" 10.6
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Ukj Core"
+	category "Power"
+	cost 191600
+	thumbnail "outfit/small fuel cell"
+	"mass" 22
+	"outfit space" -22
+	"energy generation" 10.8
+	"heat generation" 38.2
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Yat Core"
+	category "Power"
+	cost 325800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 32.4
+	"heat generation" 137.5
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Isi Generator"
+	category "Power"
+	cost 82400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 3.6
+	"heat generation" 9.7
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Its ozq Generator"
+	category "Power"
+	cost 140100
+	thumbnail "outfit/small fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 10.8
+	"heat generation" 27.2
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Xxu pie Generator"
+	category "Power"
+	cost 238200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 88
+	"outfit space" -88
+	"energy generation" 32.4
+	"heat generation" 76.2
+	description "Uda zuu T2.8 Power generator"
+
+
+outfit "Ihi Thruster"
+	category "Engines"
+	cost 2926000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 5.9
+	"thrusting energy" 0.5
+	"thrusting heat" 0.6
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.2
+	"flare sound" "plasma small"
+	description "Uda zuu T2.8 Thruster"
+
+outfit "Ihi Steering"
+	category "Engines"
+	cost 2271074
+	thumbnail "outfit/tiny ion steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 149
+	"turning energy" 0.4
+	"turning heat" 0.5
+	description "Uda zuu T2.8 steering"
+
+outfit "Uby Thruster"
+	category "Engines"
+	cost 4974200
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 17.7
+	"thrusting energy" 1.5
+	"thrusting heat" 1.8
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1.2
+	"flare sound" "plasma medium"
+	description "Uda zuu T2.8 Thruster"
+
+outfit "Uby Steering"
+	category "Engines"
+	cost 8456200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 447.0
+	"turning energy" 1.2
+	"turning heat" 1.5
+	description "Uda zuu T2.8 steering"
+
+outfit "Uti efu Thruster"
+	category "Engines"
+	cost 8456200
+	thumbnail "outfit/large plasma thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 53.1
+	"thrusting energy" 4.5
+	"thrusting heat" 5.4
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1.2
+	"flare sound" "plasma large"
+	description "Uda zuu T2.8 Thruster"
+
+outfit "Uti efu Steering"
+	category "Engines"
+	cost 14375600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 1341.0
+	"turning energy" 3.6
+	"turning heat" 4.5
+	description "Uda zuu T2.8 steering"
+
+
+outfit "Ibdisp Shield Generator"
+	category "Systems"
+	cost 97200
+	thumbnail "outfit/tiny shield"
+	"mass" 16
+	"outfit space" -16
+	"shield generation" 1.0
+	"shield energy" 1.5
+	"shield heat" 2
+	description "Uda zuu T2.8 shield gen"
+
+outfit "Jau sao Shield Generator"
+	category "Systems"
+	cost 175000
+	thumbnail "outfit/small shield"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 2.0
+	"shield energy" 1.8
+	"shield heat" 2
+	description "Uda zuu T2.8 shield gen"
+
+outfit "Opa six Shield Generator"
+	category "Systems"
+	cost 315000
+	thumbnail "outfit/medium shield"
+	"mass" 36
+	"outfit space" -36
+	"shield generation" 4.0
+	"shield energy" 2.2
+	"shield heat" 2
+	description "Uda zuu T2.8 shield gen"
+
+outfit "Uxizdo Shield Generator"
+	category "Systems"
+	cost 567000
+	thumbnail "outfit/large shield"
+	"mass" 54
+	"outfit space" -54
+	"shield generation" 8.0
+	"shield energy" 2.6
+	"shield heat" 2
+	description "Uda zuu T2.8 shield gen"
+
+
+outfit "Aru Damage Control"
+	category "Systems"
+	cost 125500
+	thumbnail "outfit/tiny shield"
+	"mass" 19
+	"outfit space" -19
+	"hull repair rate" 1.14
+	"hull energy" 1.23
+	"hull heat" 2
+	description "Uda zuu T2.8 Hull Repair"
+
+outfit "Ikl Damage Control"
+	category "Systems"
+	cost 225900
+	thumbnail "outfit/small shield"
+	"mass" 28
+	"outfit space" -28
+	"hull repair rate" 2.3
+	"hull energy" 1.5
+	"hull heat" 2
+	description "Uda zuu T2.8 Hull Repair"
+
+outfit "Xieuum Damage Control"
+	category "Systems"
+	cost 406700
+	thumbnail "outfit/medium shield"
+	"mass" 42
+	"outfit space" -42
+	"hull repair rate" 4.6
+	"hull energy" 1.8
+	"hull heat" 2
+	description "Uda zuu T2.8 Hull Repair"
+
+
+outfit "Osu omp Cooler"
+	category "Systems"
+	cost 14100
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 24
+	"active cooling" 81
+	"cooling energy" 11.720303363621424
+	description "Uda zuu T2.8 Cooling"
+
+
+outfit "Oti oef Cooler"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 21
+	description "Uda zuu T2.8 Cooling"
+
+
+outfit "Yoa Heat Shunt"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 9
+	description "Uda zuu T2.8 Cooling"
+
+
+outfit "Ebeuti Cell"
+	category "Power"
+	cost 448000
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 3.3
+	"heat generation" 7.5
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Idj Cell"
+	category "Power"
+	cost 761600
+	thumbnail "outfit/small fuel cell"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 9.9
+	"heat generation" 1.5
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Iha odf Cell"
+	category "Power"
+	cost 1294800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 29.7
+	"heat generation" 0.3
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Pqi Cell"
+	category "Power"
+	cost 2201200
+	thumbnail "outfit/large fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 89.1
+	"heat generation" 0.1
+	description "Uda zuu T2.8 Power generator"
+
+
+outfit "Eqsueu Reactor"
+	category "Power"
+	cost 501100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 3.0
+	"heat generation" 7.3
+	description "Uda zuu T2.8 Power generator"
+
+outfit "Mjuaul Reactor"
+	category "Power"
+	cost 851900
+	thumbnail "outfit/small fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 9.0
+	"heat generation" 17.5
+	description "Uda zuu T2.8 Power generator"
+
+

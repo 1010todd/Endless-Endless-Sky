@@ -1,0 +1,111 @@
+outfit "Inutle Anti-Missile"
+	category "Turrets"
+	cost 2841900
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 8.0
+		"velocity" 170
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 16.3
+		"firing heat" 41.3
+	description "Geaafe ibueuk T2.0 Anti-missile"
+
+outfit "Lvoawu Anti-Missile"
+	category "Turrets"
+	cost 2077300
+	thumbnail "outfit/anti-missile"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 26.6
+		"velocity" 700
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 140.6
+		"firing heat" 113.8
+	description "Geaafe ibueuk T2.0 Anti-missile"
+
+outfit "Ieesuv Machine Gun"
+	category "Guns"
+	cost 627300
+	thumbnail "outfit/blaster"
+	"mass" 75
+	"outfit space" -75
+	"weapon capacity" -75
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile6"
+		sound "plasma"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 27
+		"lifetime" 9
+		"reload" 1
+		"firing energy" 105.2
+		"firing heat" 106.8
+		"shield damage" 140.5
+		"hull damage" 48.6
+		"hit force" 23
+	description "Geaafe ibueuk T2.0 Projectile weapon"
+
+outfit "Ioruxe Assault Basilisk"
+	category "Guns"
+	cost 2203700
+	thumbnail "outfit/inhibitor"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "particle"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.5
+		"velocity" 30
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 5.3
+		"firing heat" 24.9
+		"shield damage" 83.0
+		"hull damage" 44.5
+	description "Geaafe ibueuk T2.0 Projectile weapon"
+
+outfit "Ioruxe Assault Basilisk Turret"
+	category "Turrets"
+	cost 7842479.73423111
+	thumbnail "outfit/inhibitor turret"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "particle"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.5
+		"turret turn" 1.1
+		"velocity" 30
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 5.3
+		"firing heat" 24.9
+		"shield damage" 249.0
+		"hull damage" 133.5
+	description "Geaafe ibueuk T2.0 Projectile weapon 3gun Turret"
+
