@@ -1,0 +1,192 @@
+outfit "Zeun Cannon"
+	category "Guns"
+	cost 2356870830400
+	thumbnail "outfit/pulse"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.7
+		"velocity" 41
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 16.3
+		"firing heat" 27.3
+		"shield damage" 62.3
+		"hull damage" 33.9
+		"disruption damage" 10.4
+	description "Eafr gfao T4.3 Projectile weapon"
+
+outfit "Zeun Cannon Turret"
+	category "Turrets"
+	cost 5490041309678.032
+	thumbnail "outfit/pulse turret"
+	"mass" 108
+	"outfit space" -108
+	"weapon capacity" -108
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.7
+		"turret turn" 0.2
+		"velocity" 41
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 16.3
+		"firing heat" 27.3
+		"shield damage" 62.3
+		"hull damage" 33.9
+		"disruption damage" 10.4
+	description "Eafr gfao T4.3 Projectile weapon 1gun Turret"
+
+outfit "Vfeo Rapid Basilisk"
+	category "Guns"
+	cost 406035763000
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 74.1
+		"hull damage" 271.6
+		"hit force" 17
+	description "Eafr gfao T4.3 Projectile weapon"
+
+outfit "Vfeo Rapid Basilisk Turret"
+	category "Turrets"
+	cost 1222274001203.7703
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"turret turn" 0.1
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 74.1
+		"hull damage" 271.6
+		"hit force" 17
+	description "Eafr gfao T4.3 Projectile weapon 1gun Turret"
+
+outfit "Zeun Cannon"
+	category "Guns"
+	cost 2356870830400
+	thumbnail "outfit/pulse"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.7
+		"velocity" 41
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 16.3
+		"firing heat" 27.3
+		"shield damage" 62.3
+		"hull damage" 33.9
+		"disruption damage" 10.4
+	description "Eafr gfao T4.3 Projectile weapon"
+
+outfit "Zeun Cannon Turret"
+	category "Turrets"
+	cost 5490041309678.032
+	thumbnail "outfit/pulse turret"
+	"mass" 108
+	"outfit space" -108
+	"weapon capacity" -108
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.7
+		"turret turn" 0.2
+		"velocity" 41
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 16.3
+		"firing heat" 27.3
+		"shield damage" 62.3
+		"hull damage" 33.9
+		"disruption damage" 10.4
+	description "Eafr gfao T4.3 Projectile weapon 1gun Turret"
+
+outfit "Vfeo Rapid Basilisk"
+	category "Guns"
+	cost 406035763000
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 74.1
+		"hull damage" 271.6
+		"hit force" 17
+	description "Eafr gfao T4.3 Projectile weapon"
+
+outfit "Vfeo Rapid Basilisk Turret"
+	category "Turrets"
+	cost 1222274001203.7703
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"turret turn" 0.1
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 74.1
+		"hull damage" 271.6
+		"hit force" 17
+	description "Eafr gfao T4.3 Projectile weapon 1gun Turret"
+

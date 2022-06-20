@@ -1,0 +1,184 @@
+outfit "Fage Machine Mortar"
+	category "Guns"
+	cost 298749100
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 41.7
+		"hull damage" 19.3
+	description "Saom adys T2.9 Projectile weapon"
+
+outfit "Fage Machine Mortar Turret"
+	category "Turrets"
+	cost 695899359.0458132
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"turret turn" 1.0
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 125.10000000000001
+		"hull damage" 57.900000000000006
+	description "Saom adys T2.9 Projectile weapon 3gun Turret"
+
+outfit "Wceo Rapid Basilisk"
+	category "Guns"
+	cost 710535200
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.9
+		"hull damage" 112.6
+	description "Saom adys T2.9 Projectile weapon"
+
+outfit "Wceo Rapid Basilisk Turret"
+	category "Turrets"
+	cost 2138897065.3309698
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.1
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.9
+		"hull damage" 112.6
+	description "Saom adys T2.9 Projectile weapon 1gun Turret"
+
+outfit "Fage Machine Mortar"
+	category "Guns"
+	cost 298749100
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 41.7
+		"hull damage" 19.3
+	description "Saom adys T2.9 Projectile weapon"
+
+outfit "Fage Machine Mortar Turret"
+	category "Turrets"
+	cost 695899359.0458132
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"turret turn" 1.0
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 125.10000000000001
+		"hull damage" 57.900000000000006
+	description "Saom adys T2.9 Projectile weapon 3gun Turret"
+
+outfit "Wceo Rapid Basilisk"
+	category "Guns"
+	cost 710535200
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.9
+		"hull damage" 112.6
+	description "Saom adys T2.9 Projectile weapon"
+
+outfit "Wceo Rapid Basilisk Turret"
+	category "Turrets"
+	cost 2138897065.3309698
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.1
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.9
+		"hull damage" 112.6
+	description "Saom adys T2.9 Projectile weapon 1gun Turret"
+

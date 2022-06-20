@@ -1,0 +1,63 @@
+fleet "Oxi ipj Security"
+	government "Oxi ipj"
+	names "Oxi ipj names"
+	personality
+		coward
+		confusion 18
+	variant 10
+		"Afxoet" 4
+		"Evouki" 4
+		"Alc ole" 4
+	variant 6
+		"Evouki" 3
+		"Ohe oor" 3
+		"Alc ole" 2
+	variant 4
+		"Afxoet" 2
+		"Evouki" 4
+		"Alc ole" 3
+	variant 9
+		"Evouki" 4
+		"Afxoet" 3
+		"Alc ole" 3
+	variant 3
+		"Ohe oor" 4
+		"Evouki" 4
+		"Alc ole" 4
+	variant 12
+		"Alc ole" 3
+		"Evouki" 3
+		"Afxoet" 2
+	variant 2
+		"Evouki" 2
+		"Afxoet" 4
+		"Ohe oor" 4
+	variant 3
+		"Evouki" 4
+		"Ohe oor" 2
+		"Afxoet" 2
+	variant 4
+		"Evouki" 3
+		"Afxoet" 3
+		"Alc ole" 2
+fleet "Oxi ipj Civilian"
+	government "Oxi ipj"
+	names "Oxi ipj names"
+	personality
+		timid
+	variant 0
+		"Ohe oor" 2
+		"Afxoet" 2
+		"Evouki" 4
+	variant 16
+		"Ohe oor" 1
+		"Evouki" 3
+		"Alc ole" 2
+	variant 28
+		"Alc ole" 4
+		"Evouki" 3
+		"Evouki" 1
+	variant 45
+		"Evouki" 4
+		"Ohe oor" 3
+		"Evouki" 3

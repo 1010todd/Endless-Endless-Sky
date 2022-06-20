@@ -1,0 +1,50 @@
+fleet "Ubfzofisej Security"
+	government "Ubfzofisej"
+	names "Ubfzofisej names"
+	personality
+		heroic
+		confusion 12
+	variant 7
+		"Fafeuucokp joaku" 4
+		"Okpui vpueq" 3
+		"Puikzmeoeu" 5
+	variant 7
+		"Fafeuucokp joaku" 4
+		"Aqyea oteme" 3
+		"Puikzmeoeu" 3
+	variant 15
+		"Fafeuucokp joaku" 4
+		"Okpui vpueq" 4
+		"Puikzmeoeu" 2
+	variant 6
+		"Fafeuucokp joaku" 5
+		"Okpui vpueq" 5
+		"Puikzmeoeu" 5
+	variant 8
+		"Fafeuucokp joaku" 3
+		"Puikzmeoeu" 3
+	variant 19
+		"Fafeuucokp joaku" 7
+		"Okpui vpueq" 2
+		"Puikzmeoeu" 5
+	variant 12
+		"Fafeuucokp joaku" 6
+		"Okpui vpueq" 3
+		"Puikzmeoeu" 3
+	variant 17
+		"Fafeuucokp joaku" 3
+		"Okpui vpueq" 5
+		"Puikzmeoeu" 5
+	variant 9
+		"Fafeuucokp joaku" 3
+		"Aqyea oteme" 3
+		"Puikzmeoeu" 5
+fleet "Ubfzofisej Civilian"
+	government "Ubfzofisej"
+	names "Ubfzofisej names"
+	personality
+		timid
+	variant 0
+		"Okpui vpueq" 3
+		"Puikzmeoeu" 1
+		"Fafeuucokp joaku" 1

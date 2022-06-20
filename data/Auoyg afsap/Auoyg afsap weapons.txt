@@ -1,0 +1,184 @@
+outfit "Fafeu Cannon"
+	category "Guns"
+	cost 152264400
+	thumbnail "outfit/pulse"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 40.3
+		"hull damage" 18.7
+	description "Auoyg afsap T2.8 Projectile weapon"
+
+outfit "Fafeu Cannon Turret"
+	category "Turrets"
+	cost 354681230.3886282
+	thumbnail "outfit/pulse turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"turret turn" 1.0
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 120.89999999999999
+		"hull damage" 56.099999999999994
+	description "Auoyg afsap T2.8 Projectile weapon 3gun Turret"
+
+outfit "Tcema Rapid Culverin"
+	category "Guns"
+	cost 358526600
+	thumbnail "outfit/ion rain gun"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.1
+		"hull damage" 108.7
+	description "Auoyg afsap T2.8 Projectile weapon"
+
+outfit "Tcema Rapid Culverin Turret"
+	category "Turrets"
+	cost 1592240239.1159322
+	thumbnail "outfit/ion rain turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.1
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.1
+		"hull damage" 108.7
+	description "Auoyg afsap T2.8 Projectile weapon 1gun Turret"
+
+outfit "Fafeu Cannon"
+	category "Guns"
+	cost 152264400
+	thumbnail "outfit/pulse"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 40.3
+		"hull damage" 18.7
+	description "Auoyg afsap T2.8 Projectile weapon"
+
+outfit "Fafeu Cannon Turret"
+	category "Turrets"
+	cost 354681230.3886282
+	thumbnail "outfit/pulse turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"turret turn" 1.0
+		"velocity" 33
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 15.8
+		"firing heat" 20.4
+		"shield damage" 120.89999999999999
+		"hull damage" 56.099999999999994
+	description "Auoyg afsap T2.8 Projectile weapon 3gun Turret"
+
+outfit "Tcema Rapid Culverin"
+	category "Guns"
+	cost 358526600
+	thumbnail "outfit/ion rain gun"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.1
+		"hull damage" 108.7
+	description "Auoyg afsap T2.8 Projectile weapon"
+
+outfit "Tcema Rapid Culverin Turret"
+	category "Turrets"
+	cost 1592240239.1159322
+	thumbnail "outfit/ion rain turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.1
+		"velocity" 49
+		"lifetime" 17
+		"reload" 1
+		"firing energy" 5.4
+		"firing heat" 0.9
+		"shield damage" 22.1
+		"hull damage" 108.7
+	description "Auoyg afsap T2.8 Projectile weapon 1gun Turret"
+

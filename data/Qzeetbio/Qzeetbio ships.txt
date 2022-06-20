@@ -1,0 +1,175 @@
+ship "Xuqldqub"
+	sprite "ship/Qzeetbio/Xuqldqub"
+	attributes 
+		category "Heavy Warship"
+		"cost" 11355000
+		"shields" 116500
+		"hull" 29600
+		"required crew" 10
+		"bunks" 34
+		"mass" 568.8
+		"drag" 11.11
+		"heat dissipation" 0.79
+		"fuel capacity" 1600
+		"cargo space" 70
+		"outfit space" 790
+		"weapon capacity" 280
+		"engine capacity" 250
+		weapon 
+			"blast radius" 1461
+			"shield damage" 14610
+			"hull damage" 7310
+			"hit force" 21920
+	outfits 
+		"Utueuxto Thruster" 1
+		"Utueuxto Steering" 1
+		"Ejpn Cell" 2
+		"Malb Battery Pack" 1
+		"Lemd Torpedo Launcher" 2
+		"Lemd Torpedo" 28
+		"Uceo Rapid Basilisk" 1
+		"Dimiisem Shield Regenerator" 1
+		"Muuqedud Cell" 1
+		"Outu Cell" 1
+		"Hyperdrive"
+	engine 0 40.2
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	turret 0 -2
+	turret 0 -4
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Qzeetbio T2.1 ship"
+
+ship "Mqui xruexudc"
+	sprite "ship/Qzeetbio/Mqui xruexudc"
+	attributes 
+		category "Light Freighter"
+		"cost" 1310000
+		"shields" 10900
+		"hull" 2800
+		"required crew" 4
+		"bunks" 7
+		"mass" 145.4
+		"drag" 3.17
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 45
+		"outfit space" 200
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 137
+			"shield damage" 1370
+			"hull damage" 690
+			"hit force" 2060
+	outfits 
+		"Ejpn Cell" 2
+		"Malb Battery Pack" 1
+		"Lemd Torpedo Launcher" 1
+		"Lemd Torpedo" 14
+		"Iksditfk Shield Regenerator" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Qzeetbio T2.1 ship"
+
+ship "Euoccame"
+	sprite "ship/Qzeetbio/Euoccame"
+	attributes 
+		category "Light Warship"
+		"cost" 3507000
+		"shields" 29200
+		"hull" 7500
+		"required crew" 2
+		"bunks" 5
+		"mass" 101.4
+		"drag" 2.21
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 60
+		"engine capacity" 40
+		weapon 
+			"blast radius" 367
+			"shield damage" 3670
+			"hull damage" 1840
+			"hit force" 5510
+	outfits 
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Outu Cell" 1
+		"Malb Battery Pack" 1
+		"Hyperdrive"
+	engine 0 43.7
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Qzeetbio T2.1 ship"
+
+ship "Mqui xruexudc"
+	sprite "ship/Qzeetbio/Mqui xruexudc"
+	attributes 
+		category "Light Freighter"
+		"cost" 1310000
+		"shields" 10900
+		"hull" 2800
+		"required crew" 4
+		"bunks" 7
+		"mass" 145.4
+		"drag" 3.17
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 45
+		"outfit space" 200
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 137
+			"shield damage" 1370
+			"hull damage" 690
+			"hit force" 2060
+	outfits 
+		"Ejpn Cell" 2
+		"Malb Battery Pack" 1
+		"Lemd Torpedo Launcher" 1
+		"Lemd Torpedo" 14
+		"Iksditfk Shield Regenerator" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Qzeetbio T2.1 ship"
+

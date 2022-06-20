@@ -689,6 +689,8 @@ elif TestMode:
             os.makedirs('generatedsprites')
 
 def call_generate_sprite(faction,category,name,gun,turret):
+    if faction.devmode:
+        random.seed(99)
     gunlistx = []
     gunlisty = []
     turlistx = []

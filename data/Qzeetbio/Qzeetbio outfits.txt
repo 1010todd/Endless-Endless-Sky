@@ -1,0 +1,490 @@
+outfit "Malb Battery Pack"
+	category "Power"
+	cost 160700
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 2440
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Saom Battery Pack"
+	category "Power"
+	cost 289300
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 5370
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Sumeueej Battery Pack"
+	category "Power"
+	cost 520800
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 11820
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Zesm Battery Pack"
+	category "Power"
+	cost 937500
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 26010
+	description "Qzeetbio T2.1 Battery"
+
+
+outfit "Ejpn Cell"
+	category "Power"
+	cost 38300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 2.2
+	"heat generation" 2.8
+	description "Qzeetbio T2.1 Power generator"
+
+outfit "Muuqedud Cell"
+	category "Power"
+	cost 65200
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 4.8
+	"heat generation" 1.7
+	description "Qzeetbio T2.1 Power generator"
+
+outfit "Outu Cell"
+	category "Power"
+	cost 110900
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 10.6
+	"heat generation" 1.0
+	description "Qzeetbio T2.1 Power generator"
+
+
+outfit "Lbea Thruster"
+	category "Engines"
+	cost 2972300
+	thumbnail "outfit/small remnant thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 5.4
+	"thrusting energy" 0.5
+	"thrusting heat" 0.6
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.2
+	"flare sound" "remnant small"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Lbea Steering"
+	category "Engines"
+	cost 2475966
+	thumbnail "outfit/tiny ion steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 145
+	"turning energy" 0.4
+	"turning heat" 0.5
+	description "Qzeetbio T2.1 steering"
+
+outfit "Omim Thruster"
+	category "Engines"
+	cost 5053000
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 11.9
+	"thrusting energy" 1.1
+	"thrusting heat" 1.3
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1.2
+	"flare sound" "remnant medium"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Omim Steering"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 319.0
+	"turning energy" 0.9
+	"turning heat" 1.1
+	description "Qzeetbio T2.1 steering"
+
+outfit "Smes Thruster"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/large remnant thruster"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 26.2
+	"thrusting energy" 2.4
+	"thrusting heat" 2.9
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Smes Steering"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 701.8
+	"turning energy" 2.0
+	"turning heat" 2.4
+	description "Qzeetbio T2.1 steering"
+
+outfit "Utueuxto Thruster"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/large remnant thruster"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"thrust" 57.6
+	"thrusting energy" 5.3
+	"thrusting heat" 6.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Utueuxto Steering"
+	category "Engines"
+	cost 24825500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 1544.0
+	"turning energy" 4.4
+	"turning heat" 5.3
+	description "Qzeetbio T2.1 steering"
+
+
+outfit "Dimiisem Shield Regenerator"
+	category "Systems"
+	cost 114500
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 0.71
+	"shield energy" 1.02
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Iksditfk Shield Regenerator"
+	category "Systems"
+	cost 206100
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 1.4
+	"shield energy" 1.8
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Oalo Shield Regenerator"
+	category "Systems"
+	cost 371000
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 2.8
+	"shield energy" 3.2
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Udci Shield Regenerator"
+	category "Systems"
+	cost 667800
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 5.6
+	"shield energy" 5.8
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Xiec Shield Regenerator"
+	category "Systems"
+	cost 1202100
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 11.2
+	"shield energy" 10.4
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Xiwpisgq Shield Regenerator"
+	category "Systems"
+	cost 2163800
+	thumbnail "outfit/huge shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 22.4
+	"shield energy" 18.7
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+
+
+outfit "Malb Battery Pack"
+	category "Power"
+	cost 160700
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 2440
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Saom Battery Pack"
+	category "Power"
+	cost 289300
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 5370
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Sumeueej Battery Pack"
+	category "Power"
+	cost 520800
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 11820
+	description "Qzeetbio T2.1 Battery"
+
+outfit "Zesm Battery Pack"
+	category "Power"
+	cost 937500
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 26010
+	description "Qzeetbio T2.1 Battery"
+
+
+outfit "Ejpn Cell"
+	category "Power"
+	cost 38300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 2.2
+	"heat generation" 2.8
+	description "Qzeetbio T2.1 Power generator"
+
+outfit "Muuqedud Cell"
+	category "Power"
+	cost 65200
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 4.8
+	"heat generation" 1.7
+	description "Qzeetbio T2.1 Power generator"
+
+outfit "Outu Cell"
+	category "Power"
+	cost 110900
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 10.6
+	"heat generation" 1.0
+	description "Qzeetbio T2.1 Power generator"
+
+
+outfit "Lbea Thruster"
+	category "Engines"
+	cost 2972300
+	thumbnail "outfit/small remnant thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 5.4
+	"thrusting energy" 0.5
+	"thrusting heat" 0.6
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.2
+	"flare sound" "remnant small"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Lbea Steering"
+	category "Engines"
+	cost 2475966
+	thumbnail "outfit/tiny ion steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 145
+	"turning energy" 0.4
+	"turning heat" 0.5
+	description "Qzeetbio T2.1 steering"
+
+outfit "Omim Thruster"
+	category "Engines"
+	cost 5053000
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 11.9
+	"thrusting energy" 1.1
+	"thrusting heat" 1.3
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1.2
+	"flare sound" "remnant medium"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Omim Steering"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 319.0
+	"turning energy" 0.9
+	"turning heat" 1.1
+	description "Qzeetbio T2.1 steering"
+
+outfit "Smes Thruster"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/large remnant thruster"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 26.2
+	"thrusting energy" 2.4
+	"thrusting heat" 2.9
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Smes Steering"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 701.8
+	"turning energy" 2.0
+	"turning heat" 2.4
+	description "Qzeetbio T2.1 steering"
+
+outfit "Utueuxto Thruster"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/large remnant thruster"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"thrust" 57.6
+	"thrusting energy" 5.3
+	"thrusting heat" 6.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Qzeetbio T2.1 Thruster"
+
+outfit "Utueuxto Steering"
+	category "Engines"
+	cost 24825500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 1544.0
+	"turning energy" 4.4
+	"turning heat" 5.3
+	description "Qzeetbio T2.1 steering"
+
+
+outfit "Dimiisem Shield Regenerator"
+	category "Systems"
+	cost 114500
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 0.71
+	"shield energy" 1.02
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Iksditfk Shield Regenerator"
+	category "Systems"
+	cost 206100
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 1.4
+	"shield energy" 1.8
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Oalo Shield Regenerator"
+	category "Systems"
+	cost 371000
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 2.8
+	"shield energy" 3.2
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Udci Shield Regenerator"
+	category "Systems"
+	cost 667800
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 5.6
+	"shield energy" 5.8
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Xiec Shield Regenerator"
+	category "Systems"
+	cost 1202100
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 11.2
+	"shield energy" 10.4
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+outfit "Xiwpisgq Shield Regenerator"
+	category "Systems"
+	cost 2163800
+	thumbnail "outfit/huge shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 22.4
+	"shield energy" 18.7
+	"shield heat" 1
+	description "Qzeetbio T2.1 shield gen"
+
+
+

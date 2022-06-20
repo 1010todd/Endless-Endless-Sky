@@ -1,0 +1,18 @@
+government "Auoyg afsap"
+	"display name" "Auoyg afsap"
+	"swizzle" 11
+	"color" 0.497 0.558 0.376 0.559
+	"player reputation" 0
+	"crew attack" 9.1
+	"crew defense" 10.8
+	"attitude toward"
+		"Saom adys" -1
+		"Oxi ipj" -1
+		"Kugoeeukeg" 0
+		"Aokgu wlaua" -1
+		"Eafr gfao" -1
+		"Ubfzofisej" -1
+		"Azobueim" -1
+		"Qzeetbio" -1
+		"Yeigvwzuan" -1
+		"Haceizzo" 0

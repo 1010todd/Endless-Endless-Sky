@@ -1,0 +1,69 @@
+fleet "Yeigvwzuan Security"
+	government "Yeigvwzuan"
+	names "Yeigvwzuan names"
+	personality
+		heroic
+		opportunistic
+		confusion 11
+	variant 17
+		"Uhdaaiqili" 2
+		"Iefagdheayuoseu" 5
+		"Uirez eohea nsuio" 3
+		"Xowiaanwih" 3
+	variant 10
+		"Uhdaaiqili" 5
+		"Ravoeiwkanixrko" 4
+		"Iefagdheayuoseu" 3
+		"Aqreauvove idviw" 2
+	variant 6
+		"Iefagdheayuoseu" 4
+		"Xowiaanwih" 2
+		"Uhdaaiqili" 4
+		"Uirez eohea nsuio" 2
+	variant 13
+		"Ravoeiwkanixrko" 2
+		"Uirez eohea nsuio" 5
+		"Zqeoqviadarrawe" 5
+		"Ztaooulidigquga" 5
+	variant 19
+		"Uhdaaiqili" 5
+		"Ztaooulidigquga" 4
+		"Azvaholoza" 3
+		"Ravoeiwkanixrko" 4
+	variant 16
+		"Zqeoqviadarrawe" 5
+		"Azvaholoza" 5
+		"Ravoeiwkanixrko" 5
+		"Uirez eohea nsuio" 5
+	variant 9
+		"Ztaooulidigquga" 4
+		"Uhdaaiqili" 5
+		"Xowiaanwih" 5
+		"Iefagdheayuoseu" 3
+	variant 19
+		"Zqeoqviadarrawe" 2
+		"Uhdaaiqili" 4
+		"Aqreauvove idviw" 3
+		"Iefagdheayuoseu" 4
+	variant 13
+		"Uirez eohea nsuio" 3
+		"Zqeoqviadarrawe" 5
+		"Aqreauvove idviw" 3
+		"Xowiaanwih" 2
+fleet "Yeigvwzuan Civilian"
+	government "Yeigvwzuan"
+	names "Yeigvwzuan names"
+	personality
+		timid
+	variant 0
+		"Uhdaaiqili" 4
+		"Uhdaaiqili" 3
+		"Xowiaanwih" 3
+	variant 13
+		"Ravoeiwkanixrko" 2
+		"Ravoeiwkanixrko" 3
+		"Uhdaaiqili" 3
+	variant 8
+		"Zqeoqviadarrawe" 1
+		"Aqreauvove idviw" 4
+		"Ravoeiwkanixrko" 1

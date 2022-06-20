@@ -129,6 +129,8 @@ def gen_fleet_variant(faction):
     return fleet_composition,personalities
 
 def generate_fleet(faction,fileout=''):
+    if faction.devmode:
+        random.seed(99)
     military_names = ['Patrol','Navy','Guard','Security','Military','Defense']
     civilian_names = ['Merchant','Civilian','Privateer']
     if fileout == '':

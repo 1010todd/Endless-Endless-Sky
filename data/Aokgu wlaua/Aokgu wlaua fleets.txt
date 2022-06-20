@@ -1,0 +1,55 @@
+fleet "Aokgu wlaua Security"
+	government "Aokgu wlaua"
+	names "Aokgu wlaua names"
+	personality
+		heroic
+		confusion 13
+	variant 6
+		"Kruio civodtoafe" 4
+		"Xesmecokru" 5
+		"Vodouxoodn" 5
+	variant 3
+		"Kruio civodtoafe" 3
+		"Xesmecokru" 2
+		"Vodouxoodn" 4
+	variant 16
+		"Vodouxoodn" 5
+		"Kruio civodtoafe" 2
+		"Xesmecokru" 2
+	variant 17
+		"Vodouxoodn" 2
+		"Kruio civodtoafe" 4
+		"Xesmecokru" 4
+	variant 2
+		"Kruio civodtoafe" 3
+		"Xesmecokru" 3
+		"Vodouxoodn" 5
+	variant 16
+		"Kruio civodtoafe" 3
+		"Vodouxoodn" 5
+		"Xesmecokru" 4
+	variant 10
+		"Kruio civodtoafe" 3
+		"Vodouxoodn" 4
+		"Xesmecokru" 3
+	variant 12
+		"Kruio civodtoafe" 4
+		"Xesmecokru" 5
+		"Vodouxoodn" 2
+	variant 16
+		"Kruio civodtoafe" 4
+		"Xesmecokru" 4
+		"Vodouxoodn" 5
+fleet "Aokgu wlaua Privateer"
+	government "Aokgu wlaua"
+	names "Aokgu wlaua names"
+	personality
+		timid
+	variant 0
+		"Xesmecokru" 1
+		"Kruio civodtoafe" 4
+		"Vodouxoodn" 2
+	variant 15
+		"Kruio civodtoafe" 4
+		"Vodouxoodn" 3
+		"Xesmecokru" 3

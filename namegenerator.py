@@ -1,8 +1,11 @@
 import random
 import math
 
+DEVMODE = False
+if DEVMODE:
+    random.seed(99)
 class Namegenerator:
-    def __init__(self) -> None:
+    def __init__(self,faction=None) -> None:
         self.az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         self.vowels = 'a e i o u'.split()
 

@@ -75,6 +75,7 @@ class class_Weapon(class_Outfit):
 
 
 def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, weapon_max_outfit = 80):
+    
     projectile_list = os.listdir("images/projectile")
     projectile_list = [f.removesuffix(".png") for f in projectile_list]
 
@@ -99,6 +100,8 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_seed = next(generate_weapons_config)
             random.seed(int(weapon_seed))
 #End reading data from config file
+    if faction.devmode:
+        random.seed(99)
     if weapon_amount == 0:
         weapon_amount = max(1,random.gauss(4,2))
 

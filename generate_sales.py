@@ -41,6 +41,8 @@ class class_Shipyard():
 
 
 def generate_outfitter(faction, fileout=''):
+    if faction.devmode:
+        random.seed(99)
     
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} sales.txt'

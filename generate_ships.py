@@ -823,6 +823,8 @@ def create_ship(faction): #Todo, option for without faction?
             shipmin = int(next(generate_ships_config).removesuffix("\n"))
             ship_amount = random.randrange(shipmin,shipmax)
        
+    if faction.devmode:
+        random.seed(99)
     ship_amount = round(faction.shipcount)
     fleet_tactic = faction.fleet_tactic
     #'defense offense balance hitrun kite'

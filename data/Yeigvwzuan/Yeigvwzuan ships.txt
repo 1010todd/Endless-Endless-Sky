@@ -1,0 +1,419 @@
+ship "Uirez eohea nsuio"
+	sprite "ship/fancy1 hw 1"
+	thumbnail "thumbnail/fancy1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 8874000
+		"shields" 55900
+		"hull" 166800
+		"required crew" 92
+		"bunks" 131
+		"mass" 1081.0
+		"drag" 20.87
+		"heat dissipation" 0.77
+		"fuel capacity" 700
+		"cargo space" 130
+		"outfit space" 2030
+		"weapon capacity" 750
+		"engine capacity" 560
+		weapon 
+			"blast radius" 2227
+			"shield damage" 22270
+			"hull damage" 11140
+			"hit force" 33410
+	outfits 
+		"Yaihu Thruster" 1
+		"Yaihu Steering" 1
+		"Yaihu Cannon" 3
+		"Yaihu Cannon Turret" 2
+		"Wgeqa Rapid Culverin" 3
+		"Wgeqa Rapid Culverin Turret" 1
+		"Aclinfyoie Shield Core" 1
+		"Kexne oywqo Hull Repair" 1
+		"Lqoaa Cell" 2
+		"Aldez Battery Pack" 1
+		"Quwwe Cell" 1
+		"Rezetyudon Cell" 1
+		"Hyperdrive"
+	engine -19.0 151.5
+	engine 19.0 151.5
+	engine 0.0 156.0
+	gun -12.5 -124.3
+	gun -14.0 -109.5
+	gun 14.0 -109.5
+	gun -23.0 -78.5
+	gun 23.0 -78.5
+	gun 12.5 -124.3
+	turret 0.0 32.0
+	turret 0.0 -49.5
+	turret -19.0 2.0
+	turret 19.0 2.0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Xowiaanwih"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 983000
+		"shields" 3300
+		"hull" 9900
+		"required crew" 15
+		"bunks" 19
+		"mass" 207.6
+		"drag" 4.16
+		"heat dissipation" 0.8
+		"fuel capacity" 1800
+		"cargo space" 65
+		"outfit space" 360
+		"weapon capacity" 120
+		"engine capacity" 110
+		weapon 
+			"blast radius" 132
+			"shield damage" 1320
+			"hull damage" 660
+			"hit force" 1980
+	outfits 
+		"Yaihu Cannon" 1
+		"Wgeqa Rapid Culverin" 1
+		"Lqoaa Cell" 3
+		"Uwwiezanal Thruster" 1
+		"Uwwiezanal Steering" 1
+		"Kuuni Cooler" 1
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 2.0 -51.0
+	gun -2.0 -51.0
+	leak "leak" 0
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Ztaooulidigquga"
+	sprite "ship/fancy1 lw 1"
+	thumbnail "thumbnail/fancy1 lw 1"
+	attributes 
+		category "Light Warship"
+		"cost" 9224000
+		"shields" 14500
+		"hull" 43100
+		"required crew" 6
+		"bunks" 11
+		"mass" 132.0
+		"drag" 2.55
+		"heat dissipation" 0.5
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 230
+		"weapon capacity" 90
+		"engine capacity" 60
+		weapon 
+			"blast radius" 576
+			"shield damage" 5760
+			"hull damage" 2880
+			"hit force" 8640
+	outfits 
+		"Uwwiezanal Thruster" 1
+		"Uwwiezanal Steering" 1
+		"Yaihu Cannon" 1
+		"Kuuni Cooler" 16
+		"Hyperdrive"
+	engine -5.5 63.5
+	engine 5.5 63.5
+	gun 0.0 -67.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Ravoeiwkanixrko"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 1934000
+		"shields" 9100
+		"hull" 27100
+		"required crew" 10
+		"bunks" 20
+		"mass" 196.8
+		"drag" 4.09
+		"heat dissipation" 0.84
+		"fuel capacity" 1100
+		"cargo space" 60
+		"outfit space" 250
+		"weapon capacity" 100
+		"engine capacity" 70
+		weapon 
+			"blast radius" 362
+			"shield damage" 3620
+			"hull damage" 1810
+			"hit force" 5430
+	outfits 
+		"Uwwiezanal Thruster" 1
+		"Uwwiezanal Steering" 1
+		"Yaihu Cannon" 1
+		"Wgeqa Rapid Culverin" 1
+		"Kuuni Cooler" 12
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 5.0 -41.8
+	gun -2.0 -51.0
+	gun 2.0 -51.0
+	turret 0.0 -22.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Zqeoqviadarrawe"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 3166000
+		"shields" 7800
+		"hull" 23100
+		"required crew" 10
+		"bunks" 25
+		"mass" 237.8
+		"drag" 5.05
+		"heat dissipation" 0.77
+		"fuel capacity" 2000
+		"cargo space" 75
+		"outfit space" 400
+		"weapon capacity" 130
+		"engine capacity" 130
+		weapon 
+			"blast radius" 309
+			"shield damage" 3090
+			"hull damage" 1550
+			"hit force" 4640
+	outfits 
+		"Uysuv yuggi Thruster" 1
+		"Uysuv yuggi Steering" 1
+		"Yaihu Cannon" 2
+		"Wgeqa Rapid Culverin" 1
+		"Kuuni Cooler" 12
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 5.2 -47.1
+	gun -2.0 -51.0
+	gun 2.0 -51.0
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Aqreauvove idviw"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 2632000
+		"shields" 4100
+		"hull" 12100
+		"required crew" 14
+		"bunks" 34
+		"mass" 355.0
+		"drag" 7.56
+		"heat dissipation" 0.86
+		"fuel capacity" 1100
+		"cargo space" 110
+		"outfit space" 450
+		"weapon capacity" 180
+		"engine capacity" 150
+		weapon 
+			"blast radius" 162
+			"shield damage" 1620
+			"hull damage" 810
+			"hit force" 2430
+	outfits 
+		"Yaihu Thruster" 1
+		"Yaihu Steering" 1
+		"Yaihu Cannon" 1
+		"Yaihu Cannon Turret" 1
+		"Aclinfyoie Shield Core" 1
+		"Quwwe Cell" 2
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 5.9 -50.5
+	gun -2.0 -51.0
+	gun 2.0 -51.0
+	turret 0.0 -22.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Azvaholoza"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 1311000
+		"shields" 6400
+		"hull" 18900
+		"required crew" 22
+		"bunks" 32
+		"mass" 332.0
+		"drag" 6.69
+		"heat dissipation" 0.89
+		"fuel capacity" 700
+		"cargo space" 100
+		"outfit space" 510
+		"weapon capacity" 200
+		"engine capacity" 130
+		weapon 
+			"blast radius" 253
+			"shield damage" 2530
+			"hull damage" 1270
+			"hit force" 3800
+	outfits 
+		"Uysuv yuggi Thruster" 1
+		"Uysuv yuggi Steering" 1
+		"Yaihu Cannon" 2
+		"Yaihu Cannon Turret" 1
+		"Kuuni Cooler" 7
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 2.0 -51.0
+	gun -2.0 -51.0
+	turret 0.0 -22.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Iefagdheayuoseu"
+	sprite "ship/fancy1 hw 2"
+	thumbnail "thumbnail/fancy1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 21975000
+		"shields" 63000
+		"hull" 187700
+		"required crew" 49
+		"bunks" 81
+		"mass" 632.6
+		"drag" 11.88
+		"heat dissipation" 0.82
+		"fuel capacity" 400
+		"cargo space" 80
+		"outfit space" 1020
+		"weapon capacity" 400
+		"engine capacity" 290
+		weapon 
+			"blast radius" 2507
+			"shield damage" 25070
+			"hull damage" 12540
+			"hit force" 37610
+	outfits 
+		"Yaihu Thruster" 1
+		"Yaihu Steering" 1
+		"Yaihu Cannon" 3
+		"Yaihu Cannon Turret" 2
+		"Wgeqa Rapid Culverin" 1
+		"Rezetyudon Cell" 2
+		"Hyperdrive"
+	engine -26.0 182.0
+	engine 26.0 182.0
+	gun -8.4 -158.9
+	gun 14.6 -171.0
+	gun -14.6 -171.0
+	gun 18.1 -146.4
+	gun -18.1 -146.4
+	gun 8.4 -158.9
+	turret 24.5 98.0
+	turret -20.0 -42.5
+	turret 20.0 -42.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Yeigvwzuan T2.5 ship"
+
+ship "Uhdaaiqili"
+	sprite "ship/fancy1 hw 2"
+	thumbnail "thumbnail/fancy1 hw 2"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 5904000
+		"shields" 23500
+		"hull" 70000
+		"required crew" 17
+		"bunks" 43
+		"mass" 586.0
+		"drag" 11.01
+		"heat dissipation" 0.7
+		"fuel capacity" 1500
+		"cargo space" 285
+		"outfit space" 670
+		"weapon capacity" 230
+		"engine capacity" 190
+		weapon 
+			"blast radius" 935
+			"shield damage" 9350
+			"hull damage" 4680
+			"hit force" 14030
+	outfits 
+		"Yaihu Thruster" 1
+		"Yaihu Steering" 1
+		"Yaihu Cannon" 1
+		"Yaihu Cannon Turret" 1
+		"Wgeqa Rapid Culverin" 1
+		"Aclinfyoie Shield Core" 1
+		"Kexne oywqo Hull Repair" 1
+		"Lqoaa Cell" 2
+		"Aldez Battery Pack" 1
+		"Quwwe Cell" 1
+		"Kuuni Cooler" 3
+		"Hyperdrive"
+	engine -26.0 182.0
+	engine 26.0 182.0
+	gun -8.8 -177.5
+	gun 8.8 -177.5
+	turret 24.5 98.0
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Yeigvwzuan T2.5 ship"
+

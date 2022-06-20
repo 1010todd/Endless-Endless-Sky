@@ -1,0 +1,274 @@
+ship "Fagezsao bada"
+	sprite "ship/Saom adys/Fagezsao bada"
+	attributes 
+		category "Heavy Warship"
+		"cost" 14733000
+		"shields" 243500
+		"hull" 275600
+		"required crew" 32
+		"bunks" 54
+		"mass" 595.4
+		"drag" 12.21
+		"heat dissipation" 0.74
+		"fuel capacity" 2000
+		"cargo space" 75
+		"outfit space" 1029
+		"weapon capacity" 429
+		"engine capacity" 300
+		weapon 
+			"blast radius" 5191
+			"shield damage" 51910
+			"hull damage" 25960
+			"hit force" 77870
+	outfits 
+		"Ejon Cell" 2
+		"Lalb Battery Pack" 1
+		"Vmes Thruster" 1
+		"Vmes Steering" 1
+		"Eiliivem Shield Regenerator" 1
+		"Fage Machine Mortar" 1
+		"Fage Machine Mortar Turret" 1
+		"Wceo Rapid Basilisk" 1
+		"Wceo Rapid Basilisk Turret" 1
+		"Muurgeue Cell" 1
+		"Ouwx Cell" 1
+		"Jump Drive"
+	engine 0 42.1
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	gun -1 0
+	gun 0 0
+	turret 0 0
+	turret 0 -2
+	turret 0 -4
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Saom adys T2.9 ship"
+
+ship "Odlo aixoueci"
+	sprite "ship/Saom adys/Odlo aixoueci"
+	attributes 
+		category "Light Freighter"
+		"cost" 6098000
+		"shields" 21200
+		"hull" 24000
+		"required crew" 4
+		"bunks" 8
+		"mass" 162.4
+		"drag" 3.54
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 50
+		"outfit space" 231
+		"weapon capacity" 99
+		"engine capacity" 70
+		weapon 
+			"blast radius" 452
+			"shield damage" 4520
+			"hull damage" 2260
+			"hit force" 6780
+	outfits 
+		"Omil Thruster" 1
+		"Omil Steering" 1
+		"Eiliivem Shield Regenerator" 1
+		"Fage Machine Mortar" 1
+		"Wceo Rapid Basilisk" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Jump Drive"
+	engine 0 40.9
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Saom adys T2.9 ship"
+
+ship "Exoddame"
+	sprite "ship/Saom adys/Exoddame"
+	attributes 
+		category "Light Warship"
+		"cost" 16325000
+		"shields" 56600
+		"hull" 64100
+		"required crew" 3
+		"bunks" 6
+		"mass" 114.4
+		"drag" 2.49
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 15
+		"outfit space" 147
+		"weapon capacity" 66
+		"engine capacity" 40
+		weapon 
+			"blast radius" 1207
+			"shield damage" 12070
+			"hull damage" 6040
+			"hit force" 18110
+	outfits 
+		"Ejon Cell" 1
+		"Lalb Battery Pack" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Fage Machine Mortar" 1
+		"Jump Drive"
+	engine 0 40.8
+	gun 1 0
+	gun -1 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Saom adys T2.9 ship"
+
+ship "Odlo aixoueci"
+	sprite "ship/Saom adys/Odlo aixoueci"
+	attributes 
+		category "Light Freighter"
+		"cost" 6098000
+		"shields" 21200
+		"hull" 24000
+		"required crew" 4
+		"bunks" 8
+		"mass" 162.4
+		"drag" 3.54
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 50
+		"outfit space" 231
+		"weapon capacity" 99
+		"engine capacity" 70
+		weapon 
+			"blast radius" 452
+			"shield damage" 4520
+			"hull damage" 2260
+			"hit force" 6780
+	outfits 
+		"Omil Thruster" 1
+		"Omil Steering" 1
+		"Eiliivem Shield Regenerator" 1
+		"Fage Machine Mortar" 1
+		"Wceo Rapid Basilisk" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Jump Drive"
+	engine 0 40.9
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Saom adys T2.9 ship"
+
+ship "Odlo aixoueci"
+	sprite "ship/Saom adys/Odlo aixoueci"
+	attributes 
+		category "Light Freighter"
+		"cost" 6098000
+		"shields" 21200
+		"hull" 24000
+		"required crew" 4
+		"bunks" 8
+		"mass" 162.4
+		"drag" 3.54
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 50
+		"outfit space" 231
+		"weapon capacity" 99
+		"engine capacity" 70
+		weapon 
+			"blast radius" 452
+			"shield damage" 4520
+			"hull damage" 2260
+			"hit force" 6780
+	outfits 
+		"Omil Thruster" 1
+		"Omil Steering" 1
+		"Eiliivem Shield Regenerator" 1
+		"Fage Machine Mortar" 1
+		"Wceo Rapid Basilisk" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Jump Drive"
+	engine 0 40.9
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Saom adys T2.9 ship"
+
+ship "Odlo aixoueci"
+	sprite "ship/Saom adys/Odlo aixoueci"
+	attributes 
+		category "Light Freighter"
+		"cost" 6098000
+		"shields" 21200
+		"hull" 24000
+		"required crew" 4
+		"bunks" 8
+		"mass" 162.4
+		"drag" 3.54
+		"heat dissipation" 0.53
+		"fuel capacity" 1400
+		"cargo space" 50
+		"outfit space" 231
+		"weapon capacity" 99
+		"engine capacity" 70
+		weapon 
+			"blast radius" 452
+			"shield damage" 4520
+			"hull damage" 2260
+			"hit force" 6780
+	outfits 
+		"Omil Thruster" 1
+		"Omil Steering" 1
+		"Eiliivem Shield Regenerator" 1
+		"Fage Machine Mortar" 1
+		"Wceo Rapid Basilisk" 1
+		"Lbea Thruster" 1
+		"Lbea Steering" 1
+		"Jump Drive"
+	engine 0 40.9
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Saom adys T2.9 ship"
+

@@ -1,0 +1,188 @@
+outfit "Iai Assault Cannon"
+	category "Guns"
+	cost 10003611300
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 54.2
+		"hull damage" 79.1
+		"slowing damage" 81.7
+	description "Oxi ipj T3.4 Projectile weapon"
+
+outfit "Iai Assault Cannon Turret"
+	category "Turrets"
+	cost 39823365799.493355
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 162.60000000000002
+		"hull damage" 237.29999999999998
+		"slowing damage" 245.10000000000002
+	description "Oxi ipj T3.4 Projectile weapon 3gun Turret"
+
+outfit "Kee Auto Cannon"
+	category "Guns"
+	cost 8094574300
+	thumbnail "outfit/proton gun"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile7"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 7.4
+		"velocity" 24
+		"lifetime" 2
+		"reload" 1
+		"firing energy" 2.8
+		"firing heat" 0.8
+		"shield damage" 10.5
+		"hull damage" 53.3
+	description "Oxi ipj T3.4 Projectile weapon"
+
+outfit "Kee Auto Cannon Turret"
+	category "Turrets"
+	cost 30411943911.07508
+	thumbnail "outfit/proton turret"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile7"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 7.4
+		"turret turn" 3.1
+		"velocity" 24
+		"lifetime" 2
+		"reload" 1
+		"firing energy" 2.8
+		"firing heat" 0.8
+		"shield damage" 21.0
+		"hull damage" 106.6
+	description "Oxi ipj T3.4 Projectile weapon 2gun Turret"
+
+outfit "Iai Assault Cannon"
+	category "Guns"
+	cost 10003611300
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 54.2
+		"hull damage" 79.1
+		"slowing damage" 81.7
+	description "Oxi ipj T3.4 Projectile weapon"
+
+outfit "Iai Assault Cannon Turret"
+	category "Turrets"
+	cost 39823365799.493355
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 162.60000000000002
+		"hull damage" 237.29999999999998
+		"slowing damage" 245.10000000000002
+	description "Oxi ipj T3.4 Projectile weapon 3gun Turret"
+
+outfit "Kee Auto Cannon"
+	category "Guns"
+	cost 8094574300
+	thumbnail "outfit/proton gun"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile7"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 7.4
+		"velocity" 24
+		"lifetime" 2
+		"reload" 1
+		"firing energy" 2.8
+		"firing heat" 0.8
+		"shield damage" 10.5
+		"hull damage" 53.3
+	description "Oxi ipj T3.4 Projectile weapon"
+
+outfit "Kee Auto Cannon Turret"
+	category "Turrets"
+	cost 30411943911.07508
+	thumbnail "outfit/proton turret"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile7"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 7.4
+		"turret turn" 3.1
+		"velocity" 24
+		"lifetime" 2
+		"reload" 1
+		"firing energy" 2.8
+		"firing heat" 0.8
+		"shield damage" 21.0
+		"hull damage" 106.6
+	description "Oxi ipj T3.4 Projectile weapon 2gun Turret"
+

@@ -1,0 +1,51 @@
+fleet "Qzeetbio Security"
+	government "Qzeetbio"
+	names "Qzeetbio names"
+	personality
+		heroic
+		opportunistic
+		confusion 10
+	variant 7
+		"Xuqldqub" 1
+		"Mqui xruexudc" 1
+	variant 10
+		"Xuqldqub" 2
+		"Mqui xruexudc" 2
+	variant 5
+		"Xuqldqub" 6
+		"Mqui xruexudc" 4
+	variant 3
+		"Xuqldqub" 4
+		"Mqui xruexudc" 4
+	variant 12
+		"Xuqldqub" 1
+		"Mqui xruexudc" 5
+	variant 12
+		"Xuqldqub" 6
+		"Mqui xruexudc" 3
+	variant 6
+		"Mqui xruexudc" 2
+		"Xuqldqub" 6
+	variant 6
+		"Mqui xruexudc" 2
+		"Xuqldqub" 4
+	variant 6
+		"Xuqldqub" 5
+		"Mqui xruexudc" 4
+fleet "Qzeetbio Merchant"
+	government "Qzeetbio"
+	names "Qzeetbio names"
+	personality
+		timid
+	variant 0
+		"Mqui xruexudc" 1
+		"Mqui xruexudc" 3
+		"Mqui xruexudc" 2
+	variant 12
+		"Xuqldqub" 1
+		"Mqui xruexudc" 2
+		"Mqui xruexudc" 4
+	variant 14
+		"Euoccame" 4
+		"Mqui xruexudc" 2
+		"Mqui xruexudc" 3

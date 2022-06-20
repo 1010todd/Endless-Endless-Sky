@@ -118,6 +118,8 @@ def create_battery(faction,fileout=''):
         if ("outfit_seed" in line) and use_seed == True:
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
+    if faction.devmode:
+        random.seed(99)
 
 
     battery_type_amount = 1
@@ -205,6 +207,8 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
         if ("outfit_seed" in line) and use_seed == True:
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
+    if faction.devmode:
+        random.seed(99)
     if max_outfit_count > 1:
         cooling_type_amount = random.randrange(1,max(2,max_outfit_count))
     else:
@@ -324,6 +328,8 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         if ("outfit_seed" in line) and use_seed == True:
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
+    if faction.devmode:
+        random.seed(99)
     if power_type_amount <= 0:
         power_type_amount = max(1,round(random.gauss(2, 1),1))
 
@@ -421,6 +427,8 @@ def create_engines(faction,fileout=''):
         if ("outfit_seed" in line) and use_seed == True:
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
+    if faction.devmode:
+        random.seed(99)
     
     global engine_type_amount
     engine_type_amount = random.randrange(1,2)
@@ -722,6 +730,8 @@ def create_hull_repair(faction,fileout=''):
     hull_rep_output.close()
 
 def load_custom_configs(faction):
+    if faction.devmode:
+        random.seed(99)
     outfit_configs_list = glob.glob("config/outfit config/*.txt") #Imports files in directory
     outfit_configs_amount = len(outfit_configs_list) #Gets amount of items in list
     outfit_configs_iterations = 0
@@ -743,60 +753,3 @@ def load_custom_configs(faction):
     create_hull_repair(faction)
     if random.randrange(1,3) > 2.3:
         create_cooling(faction)
-
-def load_outfit_configs():
-
-    outfit_configs_list = glob.glob("config/outfit config/*.txt") #Imports files in directory
-    outfit_configs_amount = len(outfit_configs_list) #Gets amount of items in list
-    outfit_configs_iterations = 0
-
-    while outfit_configs_iterations < outfit_configs_amount: #Creates outfits for each config files
-        global outfit_config_file #Config File
-        outfit_config_file = str(outfit_configs_list[outfit_configs_iterations]).replace("\\", "/")
-        global outfit_output_file #Output file
-        outfit_output_file = str(outfit_configs_list[outfit_configs_iterations]).replace("\\", "/").replace("config/outfit config/", "")
-
-        #outfit_output_file_write = open("output/outfits " + outfit_output_file, "w")
-
-        global outfitter_output_file #Output file
-        outfitter_output_file = str(outfit_configs_list[outfit_configs_iterations]).replace("\\", "/").replace("config/outfit config/", "")
-        global outfitter_output
-        #outfitter_output.write("outfitter " + '"' + outfit_output_file.replace(".txt", "") + '"' + "\n")
-
-
-        create_battery()
-        create_cooling()
-        create_power()
-        create_engines()
-        create_shield_generator()
-
-        print("\n")
-        outfit_configs_iterations += 1
-
-    weapon_configs_list = glob.glob("config/weapon config/*.txt") #Imports files in directory
-    weapon_configs_amount = len(weapon_configs_list) #Gets amount of items in list
-    weapon_configs_iterations = 0
-
-    while weapon_configs_iterations < weapon_configs_amount: #Creates weapons for each config files
-        global weapon_config_file #Config File
-        weapon_config_file = str(weapon_configs_list[weapon_configs_iterations]).replace("\\", "/")
-        global weapon_output_file #Output file
-        weapon_output_file = str(weapon_configs_list[weapon_configs_iterations]).replace("\\", "/").replace("config/weapon config/", "")
-
-        #weapon_output_file_write = open("output/weapon " + weapon_output_file, "w")
-
-        global weaponter_output_file #Output file
-        weaponter_output_file = str(weapon_configs_list[weapon_configs_iterations]).replace("\\", "/").replace("config/weapon config/", "")
-        global weaponter_output
-        #weaponter_output = open("output/outfitter " + outfitter_output_file, "w")
-        #outfitter_output.write("outfitter " + '"' + outfit_output_file.replace(".txt", "") + '"' + "\n")
-
-        #create_weapon()
-        print("\n")
-        weapon_configs_iterations += 1
-
-
-
-#load_outfit_configs()
-
-#input()

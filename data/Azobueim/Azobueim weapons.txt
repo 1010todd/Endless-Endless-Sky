@@ -1,0 +1,192 @@
+outfit "Eaed Machine Mortar"
+	category "Guns"
+	cost 23225004200
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 56.4
+		"hull damage" 82.4
+		"slowing damage" 85.4
+	description "Azobueim T3.6 Projectile weapon"
+
+outfit "Eaed Machine Mortar Turret"
+	category "Turrets"
+	cost 54099796573.8351
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 169.2
+		"hull damage" 247.20000000000002
+		"slowing damage" 256.20000000000005
+	description "Azobueim T3.6 Projectile weapon 3gun Turret"
+
+outfit "Ucel Rapid Basilisk"
+	category "Guns"
+	cost 7748080400
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 61.5
+		"hull damage" 225.5
+		"hit force" 17
+	description "Azobueim T3.6 Projectile weapon"
+
+outfit "Ucel Rapid Basilisk Turret"
+	category "Turrets"
+	cost 23323751489.733944
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"turret turn" 0.1
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 61.5
+		"hull damage" 225.5
+		"hit force" 17
+	description "Azobueim T3.6 Projectile weapon 1gun Turret"
+
+outfit "Eaed Machine Mortar"
+	category "Guns"
+	cost 23225004200
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 56.4
+		"hull damage" 82.4
+		"slowing damage" 85.4
+	description "Azobueim T3.6 Projectile weapon"
+
+outfit "Eaed Machine Mortar Turret"
+	category "Turrets"
+	cost 54099796573.8351
+	thumbnail "outfit/proton turret"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.5
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 14
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 17.8
+		"shield damage" 169.2
+		"hull damage" 247.20000000000002
+		"slowing damage" 256.20000000000005
+	description "Azobueim T3.6 Projectile weapon 3gun Turret"
+
+outfit "Ucel Rapid Basilisk"
+	category "Guns"
+	cost 7748080400
+	thumbnail "outfit/bombardment cannon"
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 61.5
+		"hull damage" 225.5
+		"hit force" 17
+	description "Azobueim T3.6 Projectile weapon"
+
+outfit "Ucel Rapid Basilisk Turret"
+	category "Turrets"
+	cost 23323751489.733944
+	thumbnail "outfit/bombardment turret"
+	"mass" 241
+	"outfit space" -241
+	"weapon capacity" -241
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.9
+		"turret turn" 0.1
+		"velocity" 9
+		"lifetime" 61
+		"reload" 1
+		"firing energy" 22.0
+		"firing heat" 14.2
+		"shield damage" 61.5
+		"hull damage" 225.5
+		"hit force" 17
+	description "Azobueim T3.6 Projectile weapon 1gun Turret"
+

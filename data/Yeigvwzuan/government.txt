@@ -1,0 +1,18 @@
+government "Yeigvwzuan"
+	"display name" "Yeigvwzuan"
+	"swizzle" 19
+	"color" 0.303 0.000 0.172 0.976
+	"player reputation" -1
+	"crew attack" 9.1
+	"crew defense" 10.8
+	"attitude toward"
+		"Saom adys" -1
+		"Oxi ipj" 0
+		"Kugoeeukeg" -1
+		"Aokgu wlaua" -1
+		"Eafr gfao" -1
+		"Auoyg afsap" -1
+		"Ubfzofisej" -1
+		"Azobueim" -1
+		"Qzeetbio" -1
+		"Haceizzo" 0

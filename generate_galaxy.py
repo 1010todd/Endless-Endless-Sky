@@ -1225,6 +1225,8 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     galaxy_output.close()
 
 def load_galaxy_configs(government_list):
+    if government_list[0].devmode:
+        random.seed(99)
 
     galaxy_configs_list = glob.glob("config/galaxy config/*.txt") #Imports files in directory
     galaxy_configs_amount = len(galaxy_configs_list) #Gets amount of items in list\

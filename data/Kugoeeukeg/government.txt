@@ -1,0 +1,18 @@
+government "Kugoeeukeg"
+	"display name" "Kugoeeukeg"
+	"swizzle" 12
+	"color" 0.184 0.913 0.998 0.573
+	"player reputation" 0
+	"crew attack" 9.1
+	"crew defense" 10.8
+	"attitude toward"
+		"Saom adys" 0
+		"Oxi ipj" -1
+		"Aokgu wlaua" -1
+		"Eafr gfao" 0
+		"Auoyg afsap" 0
+		"Ubfzofisej" 0
+		"Azobueim" -1
+		"Qzeetbio" -1
+		"Yeigvwzuan" -1
+		"Haceizzo" -1

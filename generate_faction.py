@@ -7,6 +7,7 @@ import os
 import namegenerator
 namegen = namegenerator.Namegenerator()
 
+DEVMODE = False
 #A faction in reality is extremely complex, here I'll increase the complexity later.
 
 class government():
@@ -40,6 +41,7 @@ class government():
         self.fleet_tactic = 'balance'
         self.ftl = 'Hyperdrive'
         self.military = .5
+        self.devmode = False
         #====================Content owned by the faction
         self.shipcount = 3
         self.shiplist = []
@@ -237,6 +239,9 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
         mean_rep = 0
     if 'shipgenchance' not in locals():
         shipgenchance = .8
+
+    if DEVMODE:
+        random.seed(int(99))
     
     if min_count == max_count:
         government_count = round(max_count)
@@ -326,13 +331,16 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.):
         faction.ftl = ftl_method
         faction.designpriority = designpriority
         faction.military = faction_military
+        faction.devmode = DEVMODE
 
         print("faction name; ", name)
         print("faction tier " ,faction_tier)
         print("faction s/h ", ship_shield_hull_factor)
         #print("faction sprite ", faction_sprite)
-        os.makedirs('data/'+name)
-
+        try:
+            os.makedirs('data/'+name)
+        except FileExistsError:
+            pass
         faction_list.append(faction)
     generate_gov_config.close()
     return faction_list

@@ -1,0 +1,672 @@
+outfit "Kakc Battery Pack"
+	category "Power"
+	cost 295100
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 4460
+	description "Azobueim T3.6 Battery"
+
+outfit "Paok Battery Pack"
+	category "Power"
+	cost 531200
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 17840
+	description "Azobueim T3.6 Battery"
+
+outfit "Sukeveeh Battery Pack"
+	category "Power"
+	cost 956200
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 71360
+	description "Azobueim T3.6 Battery"
+
+outfit "Zesl Battery Pack"
+	category "Power"
+	cost 1721200
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 285440
+	description "Azobueim T3.6 Battery"
+
+
+outfit "Ehml Cell"
+	category "Power"
+	cost 113400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 3.8
+	"heat generation" 4.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Kuuoedud Cell"
+	category "Power"
+	cost 192800
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 15.2
+	"heat generation" 5.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Luuv Cell"
+	category "Power"
+	cost 327800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 60.8
+	"heat generation" 7.0
+	description "Azobueim T3.6 Power generator"
+
+
+outfit "Kcea Thruster"
+	category "Engines"
+	cost 2972300
+	thumbnail "outfit/small remnant thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 5.4
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.2
+	"flare sound" "remnant small"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Kcea Steering"
+	category "Engines"
+	cost 2475966
+	thumbnail "outfit/tiny ion steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 145
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Azobueim T3.6 steering"
+
+outfit "Okik Thruster"
+	category "Engines"
+	cost 5053000
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 21.6
+	"thrusting energy" 1.2
+	"thrusting heat" 1.6
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1.2
+	"flare sound" "remnant medium"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Okik Steering"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 580.0
+	"turning energy" 0.8
+	"turning heat" 1.2
+	description "Azobueim T3.6 steering"
+
+outfit "Slep Thruster"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/large remnant thruster"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 86.4
+	"thrusting energy" 4.8
+	"thrusting heat" 6.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Slep Steering"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 2320.0
+	"turning energy" 3.2
+	"turning heat" 4.8
+	description "Azobueim T3.6 steering"
+
+outfit "Uuveuzso Thruster"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/large remnant thruster"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"thrust" 345.6
+	"thrusting energy" 19.2
+	"thrusting heat" 25.6
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Uuveuzso Steering"
+	category "Engines"
+	cost 24825500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 9280.0
+	"turning energy" 12.8
+	"turning heat" 19.2
+	description "Azobueim T3.6 steering"
+
+
+outfit "Dikiiqek Shield Regenerator"
+	category "Systems"
+	cost 978000
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 2.08
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Ihseisfh Shield Regenerator"
+	category "Systems"
+	cost 1760400
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 4.2
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Lako Shield Regenerator"
+	category "Systems"
+	cost 3168800
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 8.4
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Ucci Shield Regenerator"
+	category "Systems"
+	cost 5703900
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 16.8
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Yixmipgo Shield Regenerator"
+	category "Systems"
+	cost 10267100
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 33.6
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Zhec Shield Regenerator"
+	category "Systems"
+	cost 18480800
+	thumbnail "outfit/huge shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 67.2
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+
+
+outfit "Fuuk Cooler"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Ehml Cell"
+	category "Power"
+	cost 419300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 4.0
+	"heat generation" 8.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Kuuoedud Cell"
+	category "Power"
+	cost 712900
+	thumbnail "outfit/small fuel cell"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 16.0
+	"heat generation" 21.1
+	description "Azobueim T3.6 Power generator"
+
+outfit "Luuv Cell"
+	category "Power"
+	cost 1212000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 64.0
+	"heat generation" 50.6
+	description "Azobueim T3.6 Power generator"
+
+
+outfit "Fuuk Cooler"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 3
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Oixo Heat Pump"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 66
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Oteezaka Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 23
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Sukeveeh Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 48
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Sukeveeh Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Kakc Battery Pack"
+	category "Power"
+	cost 295100
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 4460
+	description "Azobueim T3.6 Battery"
+
+outfit "Paok Battery Pack"
+	category "Power"
+	cost 531200
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 17840
+	description "Azobueim T3.6 Battery"
+
+outfit "Sukeveeh Battery Pack"
+	category "Power"
+	cost 956200
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 71360
+	description "Azobueim T3.6 Battery"
+
+outfit "Zesl Battery Pack"
+	category "Power"
+	cost 1721200
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 285440
+	description "Azobueim T3.6 Battery"
+
+
+outfit "Ehml Cell"
+	category "Power"
+	cost 113400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 3.8
+	"heat generation" 4.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Kuuoedud Cell"
+	category "Power"
+	cost 192800
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 15.2
+	"heat generation" 5.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Luuv Cell"
+	category "Power"
+	cost 327800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 60.8
+	"heat generation" 7.0
+	description "Azobueim T3.6 Power generator"
+
+
+outfit "Kcea Thruster"
+	category "Engines"
+	cost 2972300
+	thumbnail "outfit/small remnant thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 5.4
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.2
+	"flare sound" "remnant small"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Kcea Steering"
+	category "Engines"
+	cost 2475966
+	thumbnail "outfit/tiny ion steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 145
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Azobueim T3.6 steering"
+
+outfit "Okik Thruster"
+	category "Engines"
+	cost 5053000
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 21.6
+	"thrusting energy" 1.2
+	"thrusting heat" 1.6
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1.2
+	"flare sound" "remnant medium"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Okik Steering"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 580.0
+	"turning energy" 0.8
+	"turning heat" 1.2
+	description "Azobueim T3.6 steering"
+
+outfit "Slep Thruster"
+	category "Engines"
+	cost 8590100
+	thumbnail "outfit/large remnant thruster"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 86.4
+	"thrusting energy" 4.8
+	"thrusting heat" 6.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Slep Steering"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 2320.0
+	"turning energy" 3.2
+	"turning heat" 4.8
+	description "Azobueim T3.6 steering"
+
+outfit "Uuveuzso Thruster"
+	category "Engines"
+	cost 14603200
+	thumbnail "outfit/large remnant thruster"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"thrust" 345.6
+	"thrusting energy" 19.2
+	"thrusting heat" 25.6
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Azobueim T3.6 Thruster"
+
+outfit "Uuveuzso Steering"
+	category "Engines"
+	cost 24825500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 9280.0
+	"turning energy" 12.8
+	"turning heat" 19.2
+	description "Azobueim T3.6 steering"
+
+
+outfit "Dikiiqek Shield Regenerator"
+	category "Systems"
+	cost 978000
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 2.08
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Ihseisfh Shield Regenerator"
+	category "Systems"
+	cost 1760400
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 4.2
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Lako Shield Regenerator"
+	category "Systems"
+	cost 3168800
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 8.4
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Ucci Shield Regenerator"
+	category "Systems"
+	cost 5703900
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"shield generation" 16.8
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Yixmipgo Shield Regenerator"
+	category "Systems"
+	cost 10267100
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"shield generation" 33.6
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+outfit "Zhec Shield Regenerator"
+	category "Systems"
+	cost 18480800
+	thumbnail "outfit/huge shield"
+	"mass" 48
+	"outfit space" -48
+	"shield generation" 67.2
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Azobueim T3.6 shield gen"
+
+
+
+outfit "Fuuk Cooler"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Ehml Cell"
+	category "Power"
+	cost 419300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 4.0
+	"heat generation" 8.8
+	description "Azobueim T3.6 Power generator"
+
+outfit "Kuuoedud Cell"
+	category "Power"
+	cost 712900
+	thumbnail "outfit/small fuel cell"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 16.0
+	"heat generation" 21.1
+	description "Azobueim T3.6 Power generator"
+
+outfit "Luuv Cell"
+	category "Power"
+	cost 1212000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 64.0
+	"heat generation" 50.6
+	description "Azobueim T3.6 Power generator"
+
+
+outfit "Fuuk Cooler"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 3
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Oixo Heat Pump"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 66
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Oteezaka Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 23
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Sukeveeh Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 48
+	description "Azobueim T3.6 Cooling"
+
+
+outfit "Sukeveeh Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Azobueim T3.6 Cooling"
+
+

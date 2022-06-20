@@ -1,0 +1,18 @@
+government "Oxi ipj"
+	"display name" "Oxi ipj"
+	"swizzle" 13
+	"color" 0.968 0.826 0.159 0.379
+	"player reputation" 0
+	"crew attack" 9.1
+	"crew defense" 10.8
+	"attitude toward"
+		"Saom adys" 0
+		"Kugoeeukeg" 0
+		"Aokgu wlaua" 0
+		"Eafr gfao" 0
+		"Auoyg afsap" -1
+		"Ubfzofisej" 0
+		"Azobueim" 0
+		"Qzeetbio" 0
+		"Yeigvwzuan" -1
+		"Haceizzo" 0

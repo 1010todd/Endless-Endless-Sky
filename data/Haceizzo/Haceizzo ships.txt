@@ -1,0 +1,300 @@
+ship "Zetmuaol"
+	sprite "ship/Haceizzo/Zetmuaol"
+	attributes 
+		category "Heavy Warship"
+		"cost" 506475000
+		"shields" 2363500
+		"hull" 1490700
+		"required crew" 29
+		"bunks" 58
+		"mass" 934.6
+		"drag" 17.56
+		"heat dissipation" 0.59
+		"fuel capacity" 1900
+		"cargo space" 115
+		"outfit space" 1780
+		"weapon capacity" 610
+		"engine capacity" 500
+		weapon 
+			"blast radius" 38542
+			"shield damage" 385420
+			"hull damage" 192710
+			"hit force" 578130
+	outfits 
+		"Ekon Cell" 2
+		"Lakb Battery Pack" 1
+		"Zetm Cannon" 2
+		"Zetm Cannon Turret" 2
+		"Vden Rapid Basilisk" 1
+		"Vden Rapid Basilisk Turret" 1
+		"Uvwguzvo Thruster" 1
+		"Uvwguzvo Steering" 1
+		"Giliitem Shield Regenerator" 1
+		"Muurgeuf Cell" 1
+		"Nuvw Cell" 1
+		"Huul Cooler" 1
+		"Hyperdrive"
+	engine 0 41.0
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	turret 0 0
+	turret 0 -2
+	turret 0 -4
+	turret 0 -6
+	turret 0 -8
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Haceizzo T4.3 ship"
+
+ship "Saom adxs"
+	sprite "ship/Haceizzo/Saom adxs"
+	attributes 
+		category "Transport"
+		"cost" 110429000
+		"shields" 359700
+		"hull" 226900
+		"required crew" 2
+		"bunks" 25
+		"mass" 94.4
+		"drag" 1.75
+		"heat dissipation" 0.73
+		"fuel capacity" 2600
+		"cargo space" 15
+		"outfit space" 100
+		"weapon capacity" 40
+		"engine capacity" 30
+		weapon 
+			"blast radius" 5866
+			"shield damage" 58660
+			"hull damage" 29330
+			"hit force" 87990
+	outfits 
+		"Ekon Cell" 1
+		"Lakb Battery Pack" 1
+		"Zetm Cannon" 1
+		"Kbea Thruster" 1
+		"Kbea Steering" 1
+		"Hyperdrive"
+	engine 0 42.3
+	gun 1 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Haceizzo T4.3 ship"
+
+ship "Ewoddame"
+	sprite "ship/Haceizzo/Ewoddame"
+	attributes 
+		category "Light Warship"
+		"cost" 165072000
+		"shields" 509400
+		"hull" 321300
+		"required crew" 3
+		"bunks" 6
+		"mass" 108.4
+		"drag" 2.36
+		"heat dissipation" 0.53
+		"fuel capacity" 2500
+		"cargo space" 15
+		"outfit space" 140
+		"weapon capacity" 60
+		"engine capacity" 40
+		weapon 
+			"blast radius" 8307
+			"shield damage" 83070
+			"hull damage" 41540
+			"hit force" 124610
+	outfits 
+		"Lakb Battery Pack" 1
+		"Kbea Thruster" 1
+		"Kbea Steering" 1
+		"Huul Cooler" 1
+		"Hyperdrive"
+	engine 0 43.7
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Haceizzo T4.3 ship"
+
+ship "Mfea lsui"
+	sprite "ship/Haceizzo/Mfea lsui"
+	attributes 
+		category "Light Freighter"
+		"cost" 34925000
+		"shields" 176000
+		"hull" 111000
+		"required crew" 6
+		"bunks" 30
+		"mass" 289.2
+		"drag" 5.69
+		"heat dissipation" 0.54
+		"fuel capacity" 1600
+		"cargo space" 90
+		"outfit space" 500
+		"weapon capacity" 150
+		"engine capacity" 150
+		weapon 
+			"blast radius" 2870
+			"shield damage" 28700
+			"hull damage" 14350
+			"hit force" 43050
+	outfits 
+		"Zetm Cannon" 2
+		"Vden Rapid Basilisk" 1
+		"Uvwguzvo Thruster" 1
+		"Uvwguzvo Steering" 1
+		"Tmes Thruster" 1
+		"Tmes Steering" 1
+		"Huul Cooler" 3
+		"Hyperdrive"
+	engine 0 42.6
+	gun 1 0
+	gun -1 0
+	gun 1 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Haceizzo T4.3 ship"
+
+ship "Lsui xsueyued"
+	sprite "ship/Haceizzo/Lsui xsueyued"
+	attributes 
+		category "Light Freighter"
+		"cost" 61657000
+		"shields" 190300
+		"hull" 120100
+		"required crew" 4
+		"bunks" 7
+		"mass" 154.4
+		"drag" 3.36
+		"heat dissipation" 0.53
+		"fuel capacity" 2500
+		"cargo space" 50
+		"outfit space" 210
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 3104
+			"shield damage" 31040
+			"hull damage" 15520
+			"hit force" 46560
+	outfits 
+		"Ekon Cell" 1
+		"Lakb Battery Pack" 1
+		"Zetm Cannon" 1
+		"Omik Thruster" 1
+		"Omik Steering" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Haceizzo T4.3 ship"
+
+ship "Lsui xsueyued"
+	sprite "ship/Haceizzo/Lsui xsueyued"
+	attributes 
+		category "Light Freighter"
+		"cost" 61657000
+		"shields" 190300
+		"hull" 120100
+		"required crew" 4
+		"bunks" 7
+		"mass" 154.4
+		"drag" 3.36
+		"heat dissipation" 0.53
+		"fuel capacity" 2500
+		"cargo space" 50
+		"outfit space" 210
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 3104
+			"shield damage" 31040
+			"hull damage" 15520
+			"hit force" 46560
+	outfits 
+		"Ekon Cell" 1
+		"Lakb Battery Pack" 1
+		"Zetm Cannon" 1
+		"Omik Thruster" 1
+		"Omik Steering" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Haceizzo T4.3 ship"
+
+ship "Lsui xsueyued"
+	sprite "ship/Haceizzo/Lsui xsueyued"
+	attributes 
+		category "Light Freighter"
+		"cost" 61657000
+		"shields" 190300
+		"hull" 120100
+		"required crew" 4
+		"bunks" 7
+		"mass" 154.4
+		"drag" 3.36
+		"heat dissipation" 0.53
+		"fuel capacity" 2500
+		"cargo space" 50
+		"outfit space" 210
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon 
+			"blast radius" 3104
+			"shield damage" 31040
+			"hull damage" 15520
+			"hit force" 46560
+	outfits 
+		"Ekon Cell" 1
+		"Lakb Battery Pack" 1
+		"Zetm Cannon" 1
+		"Omik Thruster" 1
+		"Omik Steering" 1
+		"Hyperdrive"
+	engine 0 42.2
+	gun 1 0
+	turret 0 0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Haceizzo T4.3 ship"
+
