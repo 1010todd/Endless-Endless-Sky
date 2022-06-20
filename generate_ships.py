@@ -209,6 +209,8 @@ def install_engine(faction,ship,shipstats,steeringlist,thrusterlist,enginelist):
             shipstats['engine sp'] -= outfit.engine_space
             shipstats['energy use'] += outfit.thrust_ener + outfit.turn_ener
             shipstats['engine heat'] += outfit.thrust_heat + outfit.turn_heat
+            shipstats['thrust'] += outfit.thrust
+            shipstats['turn'] += outfit.turn
             engine_pair_num = i
             if (faction.designpriority != "engines") or (outfit.engine_space <= shipstats['outfit sp']*.30):
                 break
@@ -223,6 +225,8 @@ def install_engine(faction,ship,shipstats,steeringlist,thrusterlist,enginelist):
             shipstats['engine sp'] -= thrusterlist[n].engine_space+steeringlist[n].engine_space
             shipstats['energy use'] += thrusterlist[n].thrust_heat+steeringlist[n].thrust_heat
             shipstats['engine heat'] += thrusterlist[n].turn_heat+steeringlist[n].turn_heat
+            shipstats['thrust'] += thrusterlist[n].thrust
+            shipstats['turn'] += steeringlist[n].turn
             thruster_pair_num = n
             shipstats['energy use'] += thrusterlist[n].thrust_ener+steeringlist[n].turn_ener
             if (faction.designpriority != "engines") or (outfit.engine_space <= shipstats['outfit sp']*.30):
@@ -387,7 +391,7 @@ def install_generator(faction,ship,shipstats,powergenlist):
         gen_loop_check += 1
         if gen_loop_check == 101:
             print("SHIPGEN[WARN]: No suitable generator.")
-    return ship,shipstats
+    return ship,shipstats,powergenlist
 
 def install_regen(faction,ship,shipstats,shieldgenlist,hullgenlist):
     shieldgenpercent = min(1,random.gauss(.75,.1))
@@ -450,6 +454,9 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                  "engine heat": 0,
                  "weapon heat": 0,
                  "regen heat": 0,
+
+                 "thrust": 0,
+                 "turn": 0,
                  }
 
     thrusterlist = []
@@ -509,7 +516,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
             ship,shipstats = install_weapons(faction,ship,shipstats,weaponlist)
         elif pri == 'power':
             generator_percent = .5
-            ship,shipstats = install_generator(faction,ship,shipstats,powergenlist)
+            ship,shipstats,powergenlist = install_generator(faction,ship,shipstats,powergenlist)
             ship,shipstats = install_battery(faction,ship,shipstats,batterylist)
         elif pri == 'defense':
             ship,shipstats = install_regen(faction,ship,shipstats,shieldgenlist,hullgenlist)
@@ -549,7 +556,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                     if shipstats['energy use'] > 0:
                         break
             btrychk += 1
-        #Use smaller engines if possible.
+        #Use smaller engines if possible. TODO: Fix,
         if c == len(faction.outfitlist):
             if i >= 0:
                 try:
@@ -577,11 +584,10 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                     shipstats['outfit sp'] += steeringlist[min(len(steeringlist)-1,thruster_pair_num+1)].outfit_space
                 except IndexError:
                     pass    
-    #print(f"spaceleft: {shipstats['outfit sp']}")
+    #====================post outfitting check.
     cl = 0
     cl_chk = 0 #Prevent infinite loop
     totalheat = shipstats['idle heat']+shipstats['regen heat']+shipstats['engine heat']+(shipstats['weapon heat']/2)
-
     #Check if ship is potentially overheating. Try to install existing cooling first.
     #Else generate new cooling. Else remove heat-generating outfit or downgrade reactor.
     while(totalheat > ship_max_heat*0.8) and cl_chk < 100:
@@ -671,7 +677,50 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
         cl_chk += 1
         if cl_chk == 100:
             print("Heat Balance Failed")
-    
+    turn = (shipstats['turn']*60)/(ship.mass+(ship.outfit_space-shipstats['outfit sp'])+ship.cargo_space)
+    insaneturnthreshold = 500
+    if turn > insaneturnthreshold:
+        newoutfitlist = ship.outfits_list
+        for outfit in ship.outfits_list:
+            if turn > insaneturnthreshold:
+                if outfit.turn > 0 and outfit.thrust > 0:
+                    nosmaller = False
+                    oldenginenum = enginelist.index(outfit.name)
+                    try:
+                        newengine = enginelist[oldenginenum+1] #engines sorted from large to small
+                    except IndexError:
+                        nosmaller = True
+                    if not nosmaller:
+                        target = ship.outfits_list.index(outfit.name)
+                        newoutfitlist.pop(target)
+                        shipstats['energy use'] -= outfit.thrust_ener - newengine.thrust_ener
+                        shipstats['energy use'] -= outfit.turn_ener - newengine.turn_ener
+                        shipstats['engine heat'] -= outfit.thrust_heat - newengine.thrust_heat
+                        shipstats['engine heat'] -= outfit.turn_heat - newengine.turn_heat
+                        shipstats['turn'] -= outfit.turn - newengine.turn
+                        shipstats['thrust'] -= outfit.thrust - newengine.thrust
+                        shipstats['outfit sp'] += outfit.outfit_space - newengine.outfit_space
+                        turn = (shipstats['turn']*60)/(ship.mass+(ship.outfit_space-shipstats['outfit sp'])+ship.cargo_space)
+                        newoutfitlist.append(newengine)
+                elif outfit.turn > 0 and not outfit.thrust > 0:
+                    nosmaller = False
+                    oldenginenum = steeringlist.index(outfit.name)
+                    try:
+                        newengine = enginelist[oldenginenum+1] #engines sorted from large to small
+                    except IndexError:
+                        nosmaller = True
+                    if not nosmaller:
+                        target = ship.outfits_list.index(outfit.name)
+                        newoutfitlist.pop(target)
+                        shipstats['energy use'] -= outfit.turn_ener - newengine.turn_ener
+                        shipstats['engine heat'] -= outfit.turn_heat - newengine.turn_heat
+                        shipstats['turn'] -= outfit.turn - newengine.turn
+                        shipstats['thrust'] -= outfit.thrust - newengine.thrust
+                        shipstats['outfit sp'] += outfit.outfit_space - newengine.outfit_space
+                        turn = (shipstats['turn']*60)/(ship.mass+(ship.outfit_space-shipstats['outfit sp'])+ship.cargo_space)
+                        newoutfitlist.append(newengine)
+                #shipstats['outfit sp'] += outfit.outfit_space
+        ship.outfit_list = newoutfitlist
     print(f"SHIPGEN: Done, spaceleft:{shipstats['outfit sp']}, idleheat{round(shipstats['idle heat'],1)}/{ship_max_heat}, eneruse/store{shipstats['energy use']}/{shipstats['energy storage']}")
     return ship
 
