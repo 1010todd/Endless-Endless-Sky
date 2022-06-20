@@ -361,11 +361,11 @@ def place_parts(core_img,
         partlistany = partlistuni
     else:
         partlistany = partlistdir
-    if symmetric and not center and count > 1:
-        
+    if symmetric and not center:
         #place in pairs
         i = 0
         while count > 1:
+            print(f"pair{count}")
             #Randomized Pos
             #clustermode will place parts within area of previous part.
             if len(newboundmin) == 0 or not clustermode:
@@ -461,15 +461,17 @@ def place_parts(core_img,
 
         #place single in the middle
         if count == 1:
-            randX = 0
+            print(f"sing{count}")
+            randX = centW
             if len(newboundmin) == 0 or not clustermode:
                 rYmin = round(boundmin[1])
                 rYmax = round(boundmax[1]+1)
-                #randY = round(random.randrange(rYmin,rYmax))
+                #
                 canvasmin = abs(part_size[0][1]/2)
                 canvasmax = (core_img.size[0])-part_size[0][1]*.5
                 rposmin = max(rYmin,canvasmin)
-                rposmax = min(rYmax,canvasmax) 
+                rposmax = min(rYmax,canvasmax)
+                randY = random.randrange(round(rposmin),round(rposmax))
             else:
                 #partlistuni should've been shuffled already, so should still be random.
                 part,part_size,rYmin,rYmax = get_part_pos(partlistuni,newboundmin,newboundmax,'y',part,part_size,uniMode=True,core_img=core_img)
@@ -605,7 +607,7 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     #patternformat = [[OriginXY],[TranslationXY],...] in sprite size ratio. TODO: Turn into a function.
     #pattern_Hline = [[0,0],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]
     # 
-    stacktype = 2
+    stacktype = 99
     if stacktype == 1: #Decent without clustermode.
         new_img,bounddict = place_parts(new_img,part_list,count=4,part_type='engine')
         new_img,bounddict = place_parts(new_img,part_list,count=1,part_type='core',bounddict=bounddict)
@@ -639,29 +641,10 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
         new_img,bounddict,a = place_parts(new_img,part_list,count=1,part_type='cockpit',bounddict=bounddict,
                                                                                     clustermode=True)
     elif stacktype == 3: #pug
-        new_img,bounddictc = place_parts(new_img,part_list,count=1,part_type='core',boundmin=[0,centH],boundmax=[0,centH])
-        new_img,bounddictc = place_parts(new_img,part_list,count=6,part_type='body',bounddict=bounddictc)
-        new_img,bounddictb = place_parts(new_img,part_list,count=2,part_type='body',bounddict=bounddictc,
-                                                                                    clustermode=True,inputdictonly = True)
-        new_img,bounddict = place_parts(new_img,part_list,count=3,part_type='body',bounddict=bounddictc,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=16,part_type='perimeter',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddictg = place_parts(new_img,part_list,count=4,part_type='gun',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=16,part_type='perimeter',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=8,part_type='body',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=0,part_type='greeble',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=8,part_type='turret',bounddict=bounddictb,
-                                                                                    clustermode=True)
-        new_img,bounddict = place_parts(new_img,part_list,count=1,part_type='cockpit',bounddict=bounddict,
-                                                                                    clustermode=True)
+        a
     elif stacktype == 99:
-        new_img,bounddictc = place_parts(new_img,part_list,count=1,part_type='core')
-        new_img,bounddictb = place_parts(new_img,part_list,count=2,part_type='body',bounddict=bounddictc,
+        new_img,bounddictc,a = place_parts(new_img,part_list,count=1,part_type='core')
+        new_img,bounddictb,a = place_parts(new_img,part_list,count=2,part_type='body',bounddict=bounddictc,
                                                                                     clustermode=True)
     
     gradient = Image.linear_gradient('L')
