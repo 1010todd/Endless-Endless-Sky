@@ -148,8 +148,16 @@ def sort_bounds(newboundmin,newboundmax,sortby='x'):
     return newboundmin,newboundmax
 
 #Sort parts by smallest
-def sort_parts():
-    pass
+def sort_parts(partlist,mode='x',minsize=0,maxsize=100):
+    if mode.casefold() == 'x':
+        mode_sel = 0
+    else:
+        mode_sel = 1
+    for i in range(len(partlist)):
+        for j in range(i+1,len(partlist)):
+            if partlist[i].size[mode_sel] < partlist[j].size[mode_sel]:
+                partlist[i].size[mode_sel],partlist[j].size[mode_sel] = partlist[j].size[mode_sel],partlist[i].size[mode_sel]
+    return partlist
 
 #Get valid range of positions within specified bounds
 def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type=''):
