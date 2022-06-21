@@ -96,9 +96,6 @@ class class_Outfit():
 #for f in filelist:
 #    os.remove(f)
 
-
-#Consolodate outfits into 1 outfit file per config file eg. "outfits"
-
 #Outfits
 def create_battery(faction,fileout=''):
     namegen = namegenerator.Namegenerator(faction)
