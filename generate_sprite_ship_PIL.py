@@ -134,6 +134,7 @@ def pick_part_dir (partDir): #TODO: check and choose appropriate sprite size for
                 Image.open(partDir+part_suffix_r)]
     return part
 
+#Sort bounds by smallest
 def sort_bounds(newboundmin,newboundmax,sortby='x'):
     if sortby.casefold() == 'x':
         mode_sel = 0
@@ -146,22 +147,29 @@ def sort_bounds(newboundmin,newboundmax,sortby='x'):
                 newboundmax[i][mode_sel],newboundmax[j][mode_sel] = newboundmax[j][mode_sel],newboundmax[i][mode_sel]
     return newboundmin,newboundmax
 
-#Get valid range of positions
+#Sort parts by smallest
+def sort_parts():
+    pass
+
+#Get valid range of positions within specified bounds
 def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type=''):
     if mode.casefold() == 'x':
         mode_sel = 0
     else:
         mode_sel = 1
     if part_type == 'center':
-        sortedmin,sortedmax = sort_bounds(newboundmin,newboundmax,'x')
+        newboundmin,newboundmax = sort_bounds(newboundmin,newboundmax,'x')
     elif part_type == 'gun':
-        sortedmin,sortedmax = sort_bounds(newboundmin,newboundmax,'y')
+        newboundmin,newboundmax = sort_bounds(newboundmin,newboundmax,'y')
     valid_part = False
     h = 0
     while not valid_part:
         h += 1
-        
         m = random.randrange(len(newboundmin)) #TODO: Center mode filtering.
+        if part_type == 'gun':
+            m = random.randrange(1,max(2,round(len(newboundmin)/2)))
+        elif part_type == 'center':
+            m = random.randrange(1,max(2,round(len(newboundmin)/2)))
         #print(f"bminmax {mode}:",newboundmin[m][mode_sel],newboundmax[m][mode_sel])
         for n in partlist:
             if mode_sel == 0:
@@ -410,9 +418,9 @@ def place_parts(core_img,
                 
                 #NOTE:y is overriding X, might cause problems.
                 if inputdictonly: #dict from input
-                    part,part_size,rXmin,rXmax = get_part_pos(partlistany,bounddict['min'],bounddict['max'],'x',part,part_size,uniMode,core_img=core_img)
+                    part,part_size,rXmin,rXmax = get_part_pos(partlistany,bounddict['min'],bounddict['max'],'x',part,part_size,uniMode,core_img=core_img,part_type=part_type)
                 else: #dict updated with recently placed
-                    part,part_size,rXmin,rXmax = get_part_pos(partlistany,newboundmin,newboundmax,'x',part,part_size,uniMode,core_img=core_img)
+                    part,part_size,rXmin,rXmax = get_part_pos(partlistany,newboundmin,newboundmax,'x',part,part_size,uniMode,core_img=core_img,part_type=part_type)
                 rXmin = max(centW,rXmin)
                 randX = round(random.triangular(rXmin,rXmax))
                 
@@ -490,7 +498,10 @@ def place_parts(core_img,
                 randY = random.randrange(round(rYmin),round(rYmax))
             else:
                 #partlistuni should've been shuffled already, so should still be random.
-                part,part_size,rYmin,rYmax = get_part_pos(partlistuni,newboundmin,newboundmax,'y',part,part_size,uniMode=True,core_img=core_img)
+                npart_type = part_type
+                if part_type == 'cockpit':
+                    npart_type = 'center'
+                part,part_size,rYmin,rYmax = get_part_pos(partlistuni,newboundmin,newboundmax,'y',part,part_size,uniMode=True,core_img=core_img,part_type=npart_type)
                 
             randY = round(random.randrange(round(rYmin),round(rYmax+1))) 
             posX = randX - round(part_size[0][0]/2) #+ centW
