@@ -630,27 +630,28 @@ def place_parts(core_img,
 def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=[],gun=0,turret=0):
     stacktype = 2
     #TODO consider ship data
-    if category == "Drone" or category == "Fighter":
-        width = random.randrange(80,100,2)
-        height = random.randrange(80,100,2)
-        stacktype = 3
-    elif category == "Interceptor":
-        width = random.randrange(100,120,2)
-        height = random.randrange(100,120,2)
-        stacktype = 3
-    elif category == "Light Warship" or category == "Light Freighter":
-        width = random.randrange(120,200,2)
-        height = random.randrange(120,200,2)
-        stacktype = 3
-    elif category == "Medium Warship":
-        width = random.randrange(170,260,2)
-        height = random.randrange(170,260,2)
-    elif category == "Heavy Warship" or category == "Heavy Freighter":
-        width = random.randrange(200,420,2)
-        height = random.randrange(260,420,2)
-    elif category == "Transport":
-        width = random.randrange(120,260,2)
-        height = random.randrange(120,260,2)
+    if width == 0 or height == 0:
+        if category == "Drone" or category == "Fighter":
+            width = random.randrange(80,100,2)
+            height = random.randrange(80,100,2)
+            stacktype = 3
+        elif category == "Interceptor":
+            width = random.randrange(100,120,2)
+            height = random.randrange(100,120,2)
+            stacktype = 3
+        elif category == "Light Warship" or category == "Light Freighter":
+            width = random.randrange(120,200,2)
+            height = random.randrange(120,200,2)
+            stacktype = 3
+        elif category == "Medium Warship":
+            width = random.randrange(170,260,2)
+            height = random.randrange(170,260,2)
+        elif category == "Heavy Warship" or category == "Heavy Freighter":
+            width = random.randrange(200,420,2)
+            height = random.randrange(260,420,2)
+        elif category == "Transport":
+            width = random.randrange(120,260,2)
+            height = random.randrange(120,260,2)
 
     print(f"Generating ship {category} with size {width,height}")
     part_dir_dict = part_list[0]
@@ -761,7 +762,7 @@ elif TestMode:
         except FileNotFoundError:
             os.makedirs('generatedsprites')
 
-def call_generate_sprite(faction,category,name,gun,turret):
+def call_generate_sprite(faction,category,name,gun,turret,width=0,height=0):
     if faction.devmode:
         random.seed(faction.devmodeseed)
     gunlistx = []
@@ -769,7 +770,7 @@ def call_generate_sprite(faction,category,name,gun,turret):
     turlistx = []
     turlisty = []
     part_list=get_sprites(setselect=faction.partset) 
-    sprite,gpoints,tpoints = generate_sprite(faction,category,gun=gun,turret=turret,part_list=part_list)
+    sprite,gpoints,tpoints = generate_sprite(faction,category,gun=gun,turret=turret,part_list=part_list,width=width,height=height)
     try:
         os.makedirs(f'images/ship/{faction.name}')
     except FileExistsError:

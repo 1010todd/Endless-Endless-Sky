@@ -39,6 +39,7 @@ class government():
         self.fleet_tactic = 'balance'
         self.ftl = 'Hyperdrive'
         self.military = .5
+        self.lenwid = .5
         self.devmode = False
         self.devmodeseed = 0
         #====================Content owned by the faction
@@ -302,6 +303,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         else:
             ftl_method = 'Hyperdrive'
 
+        ship_lenghtwidthratio = random.triangular(.3,.7)
+
         az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         lang_wordlen = random.choice([3,4,5])
         lang_spacechance = random.triangular(.01,.9,.2)
@@ -334,6 +337,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.ftl = ftl_method
         faction.designpriority = designpriority
         faction.military = faction_military
+        faction.lenwid = ship_lenghtwidthratio
         faction.devmode = devmode
         faction.devmodeseed = n+10
 

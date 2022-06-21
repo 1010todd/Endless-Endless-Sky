@@ -1124,13 +1124,17 @@ def create_ship(faction): #Todo, option for without faction?
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
                                                     lang_charweight=faction.lang_charweight)
-
+        #doesn't work yet
+        massperpix = random.triangular(0.009,0.015)
+        areapx = ship_mass/massperpix
+        widthpx,lengthpx = round(areapx*(1-faction.lenwid)),round((areapx*faction.lenwid))
+        widthpx,lengthpx = 0,0
         if call_generate_sprite:
             ship_gun_pos_x,ship_gun_pos_y,ship_turret_pos_x,ship_turret_pos_y = generate_sprite_ship_PIL.call_generate_sprite(faction,
                                                                                 ship,
                                                                                 ship_name,
                                                                                 ship_guns,
-                                                                                ship_turrets)
+                                                                                ship_turrets,width=widthpx,height=lengthpx)
             ship_sprite_path = f"ship/{faction.name}/{ship_name}"
         #ship_name_int = str(random.choice(numbers)) + str(random.choice(numbers)) + str(random.choice(numbers))
         #ship_name = str(ship_name) + "-" + str(ship_name_int)
