@@ -153,11 +153,19 @@ def sort_parts(partlist,mode='x',minsize=0,maxsize=100):
         mode_sel = 0
     else:
         mode_sel = 1
+    #sortlist = [list(p.size) for p in partlist]
     for i in range(len(partlist)):
         for j in range(i+1,len(partlist)):
             if partlist[i].size[mode_sel] < partlist[j].size[mode_sel]:
-                partlist[i].size[mode_sel],partlist[j].size[mode_sel] = partlist[j].size[mode_sel],partlist[i].size[mode_sel]
-    return partlist
+                partlist[i],partlist[j] = partlist[j],partlist[i]
+    npartlist = []
+    for part in partlist:
+        if part.size[mode_sel] > minsize and part.size[mode_sel] < maxsize:
+            partcleanup = part.filename.removesuffix('.png')
+            partcleanup = partcleanup.removesuffix('-l')
+            partcleanup = partcleanup.removesuffix('-r')
+            npartlist.append(partcleanup)
+    return partlist,npartlist
 
 #Get valid range of positions within specified bounds
 def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type=''):
@@ -310,10 +318,23 @@ def place_parts(core_img,
     partlistuni = part_uni_dict[part_type] #non-directional
     if center:
         dir_chance = 0
+    Dirbool = random.random() <= dir_chance
+    partlistobj = []
+    partlistobj2 =[]
+    for pfiles in part_dir_dict[part_type]:
+        partlistobj.append(Image.open(pfiles+"-l.png"))
+    for pfiles in part_uni_dict[part_type]:
+        partlistobj2.append(Image.open(pfiles+".png"))
+    partlistobj,partlistname = sort_parts(partlistobj,'y',0,core_img.size[0]*.7)
+    partlistobj2,partlistname2 = sort_parts(partlistobj2,'y',0,core_img.size[0]*.7)
+    if len(partlistname) > 0:
+        partlistdir = partlistname
+    if len(partlistname2) > 0:
+        partlistuni = partlistname2
     random.shuffle(partlistdir)
     random.shuffle(partlistuni)
     uniMode = False
-    if random.random() <= dir_chance:
+    if Dirbool:
         if(len(partlistdir) != 0):
             part = pick_part_dir(partlistdir[0])
         else:
@@ -382,6 +403,7 @@ def place_parts(core_img,
     else:
         newboundmin = []
         newboundmax = []
+        
 
     hardpoint = {}
     #trimodefuncX = -math.sqrt(boundmax[0])
