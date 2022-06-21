@@ -3,7 +3,7 @@
 
  Partially derived from Nucleartaxi's [Endless Sky Generators](https://github.com/Nucleartaxi/endless-sky-generators)
 
-WARNING: Highly experimental, not stable enough for regular gameplay yet.
+WARNING: Highly experimental, may not stable enough for regular gameplay.
 
 WARNING: Data folder and generated sprites will be reset every update.
 
