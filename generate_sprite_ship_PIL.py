@@ -1,4 +1,5 @@
 #import sys
+from hashlib import new
 import math
 import os
 import random
@@ -133,16 +134,33 @@ def pick_part_dir (partDir): #TODO: check and choose appropriate sprite size for
                 Image.open(partDir+part_suffix_r)]
     return part
 
+def sort_bounds(newboundmin,newboundmax,sortby='x'):
+    if sortby.casefold() == 'x':
+        mode_sel = 0
+    else:
+        mode_sel = 1
+    for i in range(len(newboundmin)):
+        for j in range(i+1,len(newboundmin)):
+            if newboundmin[i][mode_sel] < newboundmin[j][mode_sel]:
+                newboundmin[i][mode_sel],newboundmin[j][mode_sel] = newboundmin[j][mode_sel],newboundmin[i][mode_sel]
+                newboundmax[i][mode_sel],newboundmax[j][mode_sel] = newboundmax[j][mode_sel],newboundmax[i][mode_sel]
+    return newboundmin,newboundmax
+
 #Get valid range of positions
-def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None):
+def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type=''):
     if mode.casefold() == 'x':
         mode_sel = 0
     else:
         mode_sel = 1
+    if part_type == 'center':
+        sortedmin,sortedmax = sort_bounds(newboundmin,newboundmax,'x')
+    elif part_type == 'gun':
+        sortedmin,sortedmax = sort_bounds(newboundmin,newboundmax,'y')
     valid_part = False
     h = 0
     while not valid_part:
         h += 1
+        
         m = random.randrange(len(newboundmin)) #TODO: Center mode filtering.
         #print(f"bminmax {mode}:",newboundmin[m][mode_sel],newboundmax[m][mode_sel])
         for n in partlist:
