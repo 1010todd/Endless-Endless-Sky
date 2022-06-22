@@ -1130,16 +1130,19 @@ def create_ship(faction): #Todo, option for without faction?
         widthpx,lengthpx = round(areapx*(1-faction.lenwid)),round((areapx*faction.lenwid))
         widthpx,lengthpx = 0,0
         if call_generate_sprite:
-            ship_gun_pos_x,ship_gun_pos_y,ship_turret_pos_x,ship_turret_pos_y = generate_sprite_ship_PIL.call_generate_sprite(faction,
+            ship_gun_pos_x,ship_gun_pos_y,ship_turret_pos_x,ship_turret_pos_y,ship_engine_pos_x,ship_engine_pos_y = generate_sprite_ship_PIL.call_generate_sprite(faction,
                                                                                 ship,
                                                                                 ship_name,
                                                                                 ship_guns,
-                                                                                ship_turrets,width=widthpx,height=lengthpx)
+                                                                                ship_turrets,
+                                                                                width=widthpx,height=lengthpx,enginesp=ship_engine_capacity)
             ship_sprite_path = f"ship/{faction.name}/{ship_name}"
         #ship_name_int = str(random.choice(numbers)) + str(random.choice(numbers)) + str(random.choice(numbers))
         #ship_name = str(ship_name) + "-" + str(ship_name_int)
         shipdeathweapon = {"blast radius": ship_blast_radius,"shield damage":ship_shield_damage,"hull damage": ship_hull_damage, "hit force": ship_hit_force}
-        ship_data = class_ship(ship_name,ship_sprite,ship_sprite_path,ship_sprite,thumb_sprite_path,ship,ship_cost,ship_shields,ship_hull,ship_required_crew,ship_bunks,ship_mass,ship_drag,ship_heat_dissipation,ship_fuel_capacity,ship_cargo_space,ship_outfit_space,ship_weapon_capacity,ship_engine_capacity)
+        ship_data = class_ship(ship_name,ship_sprite,ship_sprite_path,ship_sprite,thumb_sprite_path,ship,ship_cost,ship_shields,
+                                ship_hull,ship_required_crew,ship_bunks,ship_mass,ship_drag,ship_heat_dissipation,ship_fuel_capacity,
+                                ship_cargo_space,ship_outfit_space,ship_weapon_capacity,ship_engine_capacity)
         ship_data.death_weapon = shipdeathweapon
         ship_data.gun_ports = ship_guns
         ship_data.turret_mounts = ship_turrets

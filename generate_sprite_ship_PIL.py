@@ -177,6 +177,10 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
         newboundmin,newboundmax = sort_bounds(newboundmin,newboundmax,'x')
     elif part_type == 'gun':
         newboundmin,newboundmax = sort_bounds(newboundmin,newboundmax,'y')
+    elif part_type == 'engine':
+        newboundmin,newboundmax = sort_bounds(newboundmin,newboundmax,'y')
+        newboundmin.reverse()
+        newboundmax.reverse()
     valid_part = False
     h = 0
     while not valid_part:
@@ -509,9 +513,12 @@ def place_parts(core_img,
             #symX = centW - round(part_size[1][0]/2) - randX
             symX = width- round(part_size[1][0]/2) - randX + 1#it was 1 px off for some reason.
             core_img.paste(part[0],(symX, posY),part[0])
-            if part_type == 'gun' or part_type == 'turret' or part_type == 'engine':
+            if part_type == 'gun' or part_type == 'turret':
                 hardpoint[i] = [randX,posY]
                 hardpoint[i+1] = [symX,posY]
+            elif part_type == 'engine':
+                hardpoint[i] = [randX,nposY]
+                hardpoint[i+1] = [symX,nposY]
             count -= 2
             i += 2
             #core_img.save(f'generatedsprites/stp{count}.png')
@@ -557,8 +564,10 @@ def place_parts(core_img,
                 core_img.paste(debugpart,(nposX, nposY),debugpart)
             
             #print(f"Newmax:{[nposX,nposY]}")
-            if part_type == 'gun' or part_type == 'turret' or part_type == 'engine':
+            if part_type == 'gun' or part_type == 'turret':
                 hardpoint[staticcount-count] = [randX,posY]
+            elif part_type == 'engine':
+                hardpoint[staticcount-count] = [randX,randY]
             count -= 1
             #core_img.save(f'generatedsprites/stp{count}.png')
     #===========================CENTER MODE
@@ -741,11 +750,11 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     boarderimg = Image.new('RGBA', (width+2,height+2))
     boarderimg.paste(new_img,(1, 1),new_img)
 
-    return boarderimg,gpoints,tpoints
+    return boarderimg,gpoints,tpoints,epoints
     #new_img.save('test.png')
     #new_img.show()
 StandaloneMode = False
-TestMode = False
+TestMode = True
 if StandaloneMode:
     part_sel = input("Choose part type(default:human): ")
     if part_sel == "":
@@ -764,21 +773,23 @@ elif TestMode:
     #part_list=get_sprites(setselect="human") 
     part_list=get_sprites(setselect=part_sel) 
     for n in range(num):
-        sprite,gpoints,tpoints = generate_sprite(None,category=cat,part_list=part_list)
+        sprite,gpoints,tpoints,epoints = generate_sprite(None,category=cat,part_list=part_list)
         try:
             sprite.save(f'generatedsprites/{n}.png')
         except FileNotFoundError:
             os.makedirs('generatedsprites')
 
-def call_generate_sprite(faction,category,name,gun,turret,width=0,height=0):
+def call_generate_sprite(faction,category,name,gun,turret,width=0,height=0,enginesp=0):
     if faction.devmode:
         random.seed(faction.devmodeseed)
     gunlistx = []
     gunlisty = []
     turlistx = []
     turlisty = []
+    engilistx = []
+    engilisty = []
     part_list=get_sprites(setselect=faction.partset) 
-    sprite,gpoints,tpoints = generate_sprite(faction,category,gun=gun,turret=turret,part_list=part_list,width=width,height=height)
+    sprite,gpoints,tpoints,epoints = generate_sprite(faction,category,gun=gun,turret=turret,part_list=part_list,width=width,height=height,enginesp=enginesp)
     try:
         os.makedirs(f'images/ship/{faction.name}')
     except FileExistsError:
@@ -790,5 +801,8 @@ def call_generate_sprite(faction,category,name,gun,turret,width=0,height=0):
     for i,turxy in tpoints.items():
         turlistx.append(turxy[0])
         turlisty.append(turxy[1])
+    for i,engixy in epoints.items():
+        engilistx.append(engixy[0])
+        engilisty.append(engixy[1])
 
-    return gunlistx,gunlisty,turlistx,turlisty
+    return gunlistx,gunlisty,turlistx,turlisty,engilistx,engilisty
