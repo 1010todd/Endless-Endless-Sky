@@ -1,0 +1,69 @@
+fleet "Uhvavnedux Defense"
+	government "Uhvavnedux"
+	names "Uhvavnedux names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 14
+	variant 13
+		"Axqieyodez" 4
+		"Ypauudeaao" 5
+		"Vkoiy kxiiewouaw" 4
+		"Ocexewaoya" 5
+		"Isgovjaciq" 5
+		"Oifre vekic" 5
+		"Jofaadpouu" 5
+		"Gaexi qkeohoiquk" 5
+	variant 19
+		"Jofaadpouu" 2
+		"Vkoiy kxiiewouaw" 3
+		"Gaexi qkeohoiquk" 1
+		"Axqieyodez" 1
+		"Oifre vekic" 4
+		"Isgovjaciq" 5
+		"Ypauudeaao" 2
+		"Ocexewaoya" 6
+	variant 6
+		"Gaexi qkeohoiquk" 2
+		"Jofaadpouu" 3
+		"Vkoiy kxiiewouaw" 1
+		"Oifre vekic" 4
+		"Isgovjaciq" 1
+		"Axqieyodez" 3
+		"Ocexewaoya" 4
+		"Ypauudeaao" 6
+	variant 13
+		"Ypauudeaao" 1
+		"Vkoiy kxiiewouaw" 2
+		"Oifre vekic" 5
+		"Gaexi qkeohoiquk" 2
+		"Ocexewaoya" 4
+		"Jofaadpouu" 6
+		"Axqieyodez" 3
+		"Isgovjaciq" 5
+fleet "Uhvavnedux Merchant"
+	government "Uhvavnedux"
+	names "Uhvavnedux names"
+	personality
+		timid
+	variant 0
+		"Axqieyodez" 4
+		"Ypauudeaao" 3
+		"Vkoiy kxiiewouaw" 3
+	variant 15
+		"Vkoiy kxiiewouaw" 1
+		"Ocexewaoya" 2
+		"Ocexewaoya" 1
+	variant 32
+		"Jofaadpouu" 1
+		"Vkoiy kxiiewouaw" 2
+		"Jofaadpouu" 1
+	variant 51
+		"Oifre vekic" 1
+		"Jofaadpouu" 3
+		"Ocexewaoya" 3
+	variant 56
+		"Axqieyodez" 1
+		"Axqieyodez" 3
+		"Isgovjaciq" 2

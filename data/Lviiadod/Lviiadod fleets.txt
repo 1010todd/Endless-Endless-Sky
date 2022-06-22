@@ -1,0 +1,64 @@
+fleet "Lviiadod Military"
+	government "Lviiadod"
+	names "Lviiadod names"
+	personality
+		heroic
+		disables
+		confusion 13
+	variant 14
+		"Dodb iape vvii" 2
+		"Fihu vaozavau" 4
+		"Lqeeiuir" 2
+	variant 4
+		"Fihu vaozavau" 2
+		"Heviafov iuuf" 4
+	variant 11
+		"Fihu vaozavau" 3
+		"Aivp xuiw" 2
+		"Ivyy pvoe uhnu" 3
+		"Aeixxepiouts" 4
+	variant 11
+		"Lqeeiuir" 2
+		"Aeixxepiouts" 2
+		"Aivp xuiw" 2
+	variant 11
+		"Aivp xuiw" 4
+		"Dodb iape vvii" 2
+		"Fihu vaozavau" 4
+		"Aeixxepiouts" 2
+	variant 2
+		"Aeixxepiouts" 4
+		"Fihu vaozavau" 3
+		"Dodb iape vvii" 2
+	variant 14
+		"Dodb iape vvii" 3
+		"Lqeeiuir" 2
+		"Ivyy pvoe uhnu" 2
+	variant 10
+		"Ivyy pvoe uhnu" 2
+		"Lqeeiuir" 2
+		"Heviafov iuuf" 3
+	variant 14
+		"Fihu vaozavau" 3
+		"Heviafov iuuf" 4
+		"Aeixxepiouts" 2
+		"Dodb iape vvii" 3
+	variant 12
+		"Aivp xuiw" 3
+		"Dodb iape vvii" 4
+		"Heviafov iuuf" 4
+		"Fihu vaozavau" 4
+	variant 2
+		"Aivp xuiw" 2
+		"Dodb iape vvii" 3
+		"Aeixxepiouts" 2
+		"Heviafov iuuf" 2
+fleet "Lviiadod Merchant"
+	government "Lviiadod"
+	names "Lviiadod names"
+	personality
+		timid
+	variant 0
+		"Fihu vaozavau" 3
+		"Ivyy pvoe uhnu" 3
+		"Aeixxepiouts" 4

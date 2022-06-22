@@ -1,0 +1,264 @@
+outfit "Isee Anti-Missile"
+	category "Turrets"
+	cost 3371300
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 71
+	"outfit space" -71
+	"weapon capacity" -71
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 6.3
+		"velocity" 640
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 23.7
+		"firing heat" 11.5
+	description "Bebe yujo T2.1 Anti-missile"
+
+outfit "Erom Tracker"
+	category "Ammunition"
+	cost 571887
+	thumbnail "outfit/sidewinder"
+	"mass" 0.04
+	"Erom Tracker capacity" -1
+	description "Bebe yujo Missile"
+
+outfit "Erom Tracker Storage
+	category "Ammunition"
+	cost 3320917
+	thumbnail "outfit/sidewinder storage"
+	"mass" 2
+	"outfit space" -1
+	"Erom Tracker capacity" 25
+	ammo "Erom Tracker"
+	description "Erom Tracker Storage"
+
+outfit "Erom Tracker Deployer"
+	category "Secondary Weapons"
+	cost 2809500
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 2
+	"outfit space" -27
+	"weapon capacity" -27
+	"gun ports" -1
+	"Erom Tracker capacity" 25
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Erom Tracker"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.2
+		"velocity" 35
+		"lifetime" 200
+		"reload" 1
+		"firing energy" 4.1
+		"firing heat" 14.7
+		"acceleration" 1.6
+		"drag" 0.1
+		"turn" 61.4
+		"homing" 3
+		"infrared tracking" 0.11
+		"shield damage" 31.6
+		"hull damage" 33.4
+		"missile strength" 29.7
+	description "Bebe yujo T2.1 Missile weapon"
+
+outfit "Zeem Beam Projector"
+	category "Guns"
+	cost 4283000
+	thumbnail "outfit/moonbeam"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/electron"
+			"frame rate" 1
+		sound "heliarch attractor"
+		"hit effect" "electron impact"
+		"inaccuracy" 0.5
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 14.3
+		"shield damage" 21.0
+		"hull damage" 6.8
+	description "Bebe yujo T2.1 Beam weapon"
+
+outfit "Zeem Beam Projector Turret"
+	category "Turrets"
+	cost 19060088.343077198
+	thumbnail "outfit/moonbeam turret"
+	"mass" 139
+	"outfit space" -139
+	"weapon capacity" -139
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/electron"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "heliarch attractor"
+		"hit effect" "electron impact"
+		"inaccuracy" 0.5
+		"turret turn" 0.7
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 14.3
+		"shield damage" 63.0
+		"hull damage" 20.4
+	description "Bebe yujo T2.1 Beam weapon 3gun Turret"
+
+outfit "Koii Tachyon Projector"
+	category "Guns"
+	cost 3675700
+	thumbnail "outfit/slicer"
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/electron"
+			"frame rate" 1
+		sound "hion"
+		"hit effect" "electron impact"
+		"inaccuracy" 0.8
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 22.3
+		"firing heat" 22.6
+		"shield damage" 25.4
+		"hull damage" 7.1
+	description "Bebe yujo T2.1 Beam weapon"
+
+outfit "Ijdu Assault Howizer"
+	category "Guns"
+	cost 2023800
+	thumbnail "outfit/pulse"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.5
+		"velocity" 15
+		"lifetime" 39
+		"reload" 1
+		"firing energy" 9.1
+		"firing heat" 8.9
+		"shield damage" 12.5
+		"hull damage" 18.3
+	description "Bebe yujo T2.1 Projectile weapon"
+
+outfit "Ijdu Assault Howizer Turret"
+	category "Turrets"
+	cost 6013671.603293892
+	thumbnail "outfit/pulse turret"
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.5
+		"turret turn" 1.2
+		"velocity" 15
+		"lifetime" 39
+		"reload" 1
+		"firing energy" 9.1
+		"firing heat" 8.9
+		"shield damage" 37.5
+		"hull damage" 54.900000000000006
+	description "Bebe yujo T2.1 Projectile weapon 3gun Turret"
+
+outfit "Puiu Tracker"
+	category "Ammunition"
+	cost 965903
+	thumbnail "outfit/sidewinder"
+	"mass" 0.03
+	"Puiu Tracker capacity" -1
+	description "Bebe yujo Missile"
+
+outfit "Puiu Tracker Storage
+	category "Ammunition"
+	cost 7456281
+	thumbnail "outfit/sidewinder storage"
+	"mass" 2
+	"outfit space" -1
+	"Puiu Tracker capacity" 33
+	ammo "Puiu Tracker"
+	description "Puiu Tracker Storage"
+
+outfit "Puiu Tracker Deployer"
+	category "Secondary Weapons"
+	cost 4473200
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 2
+	"outfit space" -79
+	"weapon capacity" -79
+	"gun ports" -1
+	"Puiu Tracker capacity" 33
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Puiu Tracker"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 2.0
+		"velocity" 40
+		"lifetime" 400
+		"reload" 1
+		"firing energy" 4.3
+		"firing heat" 3.1
+		"acceleration" 1.9
+		"drag" 0.1
+		"turn" 51.3
+		"homing" 3
+		"infrared tracking" 0.55
+		"shield damage" 10.3
+		"hull damage" 61.9
+		"missile strength" 17.8
+	description "Bebe yujo T2.1 Missile weapon"
+
+outfit "Join Anti-Missile"
+	category "Turrets"
+	cost 4687700
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 51
+	"outfit space" -51
+	"weapon capacity" -51
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 5.6
+		"velocity" 240
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 21.9
+		"firing heat" 18.0
+	description "Bebe yujo T2.1 Anti-missile"
+

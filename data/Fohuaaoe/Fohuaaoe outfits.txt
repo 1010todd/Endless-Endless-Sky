@@ -1,0 +1,3352 @@
+outfit "Oaoe Capacitor"
+	category "Power"
+	cost 111700
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 1750
+	description "Fohuaaoe T1.1 Battery"
+
+outfit "Uerm fwia Capacitor"
+	category "Power"
+	cost 201100
+	thumbnail "outfit/tiny battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 3860
+	description "Fohuaaoe T1.1 Battery"
+
+outfit "Yoao Capacitor"
+	category "Power"
+	cost 362000
+	thumbnail "outfit/tiny battery"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 8500
+	description "Fohuaaoe T1.1 Battery"
+
+
+outfit "Fuua seza Core"
+	category "Power"
+	cost 9400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 1.2
+	"heat generation" 2.0
+	description "Fohuaaoe T1.1 Power generator"
+
+outfit "Ipuu idiu Core"
+	category "Power"
+	cost 16000
+	thumbnail "outfit/small fuel cell"
+	"mass" 33
+	"outfit space" -33
+	"energy generation" 2.6
+	"heat generation" 10.0
+	description "Fohuaaoe T1.1 Power generator"
+
+outfit "Okhl yifi Core"
+	category "Power"
+	cost 27200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 73
+	"outfit space" -73
+	"energy generation" 5.7
+	"heat generation" 50.0
+	description "Fohuaaoe T1.1 Power generator"
+
+
+outfit "Ahms xroo Thruster"
+	category "Engines"
+	cost 2275900
+	thumbnail "outfit/small ion thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 6.0
+	"thrusting energy" 1.2
+	"thrusting heat" 1.4
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.2
+	"flare sound" "ion small"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Ahms xroo Steering"
+	category "Engines"
+	cost 1723365
+	thumbnail "outfit/tiny ion steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 175
+	"turning energy" 0.9
+	"turning heat" 1.1
+	description "Fohuaaoe T1.1 steering"
+
+outfit "Fiue Thruster"
+	category "Engines"
+	cost 3869100
+	thumbnail "outfit/medium ion thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 13.2
+	"thrusting energy" 2.6
+	"thrusting heat" 3.1
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ion medium"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Fiue Steering"
+	category "Engines"
+	cost 6577500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 385.0
+	"turning energy" 2.0
+	"turning heat" 2.4
+	description "Fohuaaoe T1.1 steering"
+
+outfit "Ihui Thruster"
+	category "Engines"
+	cost 6577500
+	thumbnail "outfit/large ion thruster"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 29.0
+	"thrusting energy" 5.7
+	"thrusting heat" 6.8
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Ihui Steering"
+	category "Engines"
+	cost 11181800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"turn" 847.0
+	"turning energy" 4.4
+	"turning heat" 5.3
+	description "Fohuaaoe T1.1 steering"
+
+outfit "Rkipmaah Thruster"
+	category "Engines"
+	cost 11181800
+	thumbnail "outfit/large ion thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 63.8
+	"thrusting energy" 12.5
+	"thrusting heat" 15.0
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Rkipmaah Steering"
+	category "Engines"
+	cost 19009100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"turn" 1863.4
+	"turning energy" 9.7
+	"turning heat" 11.7
+	description "Fohuaaoe T1.1 steering"
+
+outfit "Waqi Thruster"
+	category "Engines"
+	cost 19009100
+	thumbnail "outfit/large ion thruster"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 140.4
+	"thrusting energy" 27.5
+	"thrusting heat" 33.0
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Waqi Steering"
+	category "Engines"
+	cost 32315500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"turn" 4099.5
+	"turning energy" 21.3
+	"turning heat" 25.7
+	description "Fohuaaoe T1.1 steering"
+
+outfit "Wuauyuea Thruster"
+	category "Engines"
+	cost 32315500
+	thumbnail "outfit/large ion thruster"
+	"mass" 211
+	"outfit space" -211
+	"engine capacity" -211
+	"thrust" 308.9
+	"thrusting energy" 60.5
+	"thrusting heat" 72.6
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1.2
+	"flare sound" "ion large"
+	description "Fohuaaoe T1.1 Thruster"
+
+outfit "Wuauyuea Steering"
+	category "Engines"
+	cost 54936400
+	thumbnail "outfit/tiny ion steering"
+	"mass" 146
+	"outfit space" -146
+	"engine capacity" -146
+	"turn" 9018.9
+	"turning energy" 46.9
+	"turning heat" 56.5
+	description "Fohuaaoe T1.1 steering"
+
+
+outfit "Gqerueit Shield Rejuvenator"
+	category "Systems"
+	cost 16000
+	thumbnail "outfit/tiny shield"
+	"mass" 5
+	"outfit space" -5
+	"shield generation" 0.21
+	"shield energy" 0.25
+	"shield heat" 0
+	description "Fohuaaoe T1.1 shield gen"
+
+outfit "Joeu iscy Shield Rejuvenator"
+	category "Systems"
+	cost 28800
+	thumbnail "outfit/small shield"
+	"mass" 8
+	"outfit space" -8
+	"shield generation" 0.4
+	"shield energy" 0.5
+	"shield heat" 0
+	description "Fohuaaoe T1.1 shield gen"
+
+
+
+outfit "Agee leip Heat Shunt"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 100
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yyoiuhaa Cooling"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/large heat shunt"
+	"mass" 175
+	"outfit space" -175
+	"cooling" 402
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eowy emox Cooler"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/hai williwaw"
+	"mass" 120
+	"outfit space" -120
+	"active cooling" 729
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Efya Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 179
+	"outfit space" -179
+	"active cooling" 2537
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Feme Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 196
+	"outfit space" -196
+	"cooling" 394
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hjuk iema Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 167
+	"outfit space" -167
+	"active cooling" 1880
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oeaxueuq Cooling"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 263
+	"active cooling" 1068
+	"cooling energy" 72.68364188465895
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Euqi aiuu Heat Pump"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 193
+	"outfit space" -193
+	"cooling" 449
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uuri Temperature Control"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/large heat shunt"
+	"mass" 176
+	"outfit space" -176
+	"cooling" 413
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hieu Heat Pump"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 311
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yoau iyjg Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 270
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Meaimrio Temperature Control"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 328
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Exihwigo Heat Shunt"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/hai williwaw"
+	"mass" 143
+	"outfit space" -143
+	"cooling" 383
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iaya mumy Cooling"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 428
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vayu Cooler"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 131
+	"outfit space" -131
+	"cooling" 349
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mayuoooj Heatsink"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 133
+	"outfit space" -133
+	"cooling" 472
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eytoootl Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 133
+	"outfit space" -133
+	"cooling" 359
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Qoaqliat Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/large heat shunt"
+	"mass" 131
+	"outfit space" -131
+	"cooling" 341
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Haqu rcim Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/large heat shunt"
+	"mass" 213
+	"outfit space" -213
+	"cooling" 487
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ajuh iaua Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 129
+	"outfit space" -129
+	"active cooling" 67
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Taie Heat Pump"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/large heat shunt"
+	"mass" 180
+	"outfit space" -180
+	"cooling" 497
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Biue Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/large heat shunt"
+	"mass" 187
+	"outfit space" -187
+	"cooling" 415
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xewugpua Heatsink"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 204
+	"outfit space" -204
+	"cooling" 446
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aemo aeoq Heat Pump"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid helium"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 463
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Dafi Cooling"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid helium"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 360
+	"active cooling" 568
+	"cooling energy" 135.1482958512056
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ihlp yoyi Temperature Control"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/hai williwaw"
+	"mass" 165
+	"outfit space" -165
+	"cooling" 363
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Amoa Temperature Control"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 152
+	"outfit space" -152
+	"cooling" 328
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uaix Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 152
+	"outfit space" -152
+	"cooling" 352
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Irsk Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 254
+	"outfit space" -254
+	"cooling" 518
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aupx jpoy Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 182
+	"outfit space" -182
+	"cooling" 457
+	"active cooling" 1519
+	"cooling energy" 190.90770674400343
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jafi Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 278
+	"active cooling" 12
+	"cooling energy" 98.87605731098556
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aove Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/large heat shunt"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 279
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aqci Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 180
+	"outfit space" -180
+	"cooling" 370
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Lale Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 204
+	"outfit space" -204
+	"cooling" 436
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mpuorouy Heatsink"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/large heat shunt"
+	"mass" 146
+	"outfit space" -146
+	"cooling" 424
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Houc Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 275
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mixy Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 133
+	"outfit space" -133
+	"cooling" 286
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ymia Temperature Control"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 124
+	"outfit space" -124
+	"cooling" 406
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ooli Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/large heat shunt"
+	"mass" 146
+	"outfit space" -146
+	"cooling" 369
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uuuu fhai Heat Shunt"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/large heat shunt"
+	"mass" 123
+	"outfit space" -123
+	"cooling" 417
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Agal Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/hai williwaw"
+	"mass" 153
+	"outfit space" -153
+	"cooling" 384
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Pmeafueg Cooling"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid helium"
+	"mass" 155
+	"outfit space" -155
+	"cooling" 468
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Crii Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 120
+	"outfit space" -120
+	"cooling" 280
+	"active cooling" 1172
+	"cooling energy" 166.49460949821452
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Huoh Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 182
+	"outfit space" -182
+	"cooling" 477
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oiti Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 165
+	"outfit space" -165
+	"cooling" 428
+	"active cooling" 624
+	"cooling energy" 237.50712611995075
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Coaiooeu Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 157
+	"outfit space" -157
+	"cooling" 326
+	"active cooling" 2084
+	"cooling energy" 91.14564612335934
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Meop raui Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/hai williwaw"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 283
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xmuaxuku Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 173
+	"outfit space" -173
+	"cooling" 407
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xuua vuua Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 170
+	"outfit space" -170
+	"cooling" 412
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uoie Temperature Control"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 185
+	"outfit space" -185
+	"active cooling" 681
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Qouruequ Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 209
+	"outfit space" -209
+	"cooling" 497
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Esvi Heat Pump"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 192
+	"outfit space" -192
+	"cooling" 388
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aqac fxei Heat Pump"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 203
+	"outfit space" -203
+	"cooling" 452
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ayhijawi Heat Pump"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/large heat shunt"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 314
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xriu uxem Cooling"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 161
+	"outfit space" -161
+	"cooling" 513
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Volo Temperature Control"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 206
+	"outfit space" -206
+	"cooling" 484
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Joef Heat Shunt"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 121
+	"outfit space" -121
+	"active cooling" 312
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ukji Cooler"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 202
+	"outfit space" -202
+	"cooling" 491
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mieeviac Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 134
+	"outfit space" -134
+	"active cooling" 369
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aoojeiuq Cooling"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid helium"
+	"mass" 136
+	"outfit space" -136
+	"cooling" 447
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hohemyoo Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 188
+	"outfit space" -188
+	"cooling" 466
+	"active cooling" 766
+	"cooling energy" 184.66855993081757
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ummoqveo Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/large heat shunt"
+	"mass" 150
+	"outfit space" -150
+	"cooling" 315
+	"active cooling" 15
+	"cooling energy" 161.58541472010268
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xeuo buee Heatsink"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/hai williwaw"
+	"mass" 131
+	"outfit space" -131
+	"cooling" 401
+	"active cooling" 1042
+	"cooling energy" 147.6159873137409
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jihu Heat Pump"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid helium"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 263
+	"active cooling" 730
+	"cooling energy" 131.55600528281917
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eaqatkoo Heat Shunt"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 321
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Juio Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/hai williwaw"
+	"mass" 202
+	"outfit space" -202
+	"cooling" 480
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Feertomx Heatsink"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 275
+	"active cooling" 1768
+	"cooling energy" 99.87727755357123
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Dikeeyia Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/large heat shunt"
+	"mass" 191
+	"outfit space" -191
+	"cooling" 382
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oxju Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 185
+	"outfit space" -185
+	"cooling" 421
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mruy Cooler"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 281
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Usomuiuo Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 339
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ixoo Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 135
+	"outfit space" -135
+	"cooling" 287
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ukaeocwk Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 142
+	"outfit space" -142
+	"cooling" 400
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ouqrtkou Temperature Control"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 150
+	"outfit space" -150
+	"cooling" 425
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oxae Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 243
+	"outfit space" -243
+	"active cooling" 3181
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xeef Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/hai williwaw"
+	"mass" 153
+	"outfit space" -153
+	"cooling" 310
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aalu Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 132
+	"outfit space" -132
+	"cooling" 300
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Cuwraeki Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 135
+	"outfit space" -135
+	"cooling" 288
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iuve Heat Shunt"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 142
+	"outfit space" -142
+	"cooling" 308
+	"active cooling" 761
+	"cooling energy" 109.45269506906422
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Exba Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/hai williwaw"
+	"mass" 184
+	"outfit space" -184
+	"cooling" 368
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ciha ajqc Heat Pump"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 187
+	"outfit space" -187
+	"cooling" 468
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Suaeuqja Cooling"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/large heat shunt"
+	"mass" 143
+	"outfit space" -143
+	"cooling" 494
+	"active cooling" 1179
+	"cooling energy" 271.21837860941463
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aujmpaix Temperature Control"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 224
+	"outfit space" -224
+	"cooling" 492
+	"active cooling" 1340
+	"cooling energy" 177.65567097360733
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mqei luuu Heat Pump"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 211
+	"outfit space" -211
+	"cooling" 467
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Juuf aaoo Temperature Control"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 178
+	"outfit space" -178
+	"cooling" 492
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Baicelao Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 172
+	"outfit space" -172
+	"cooling" 435
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vuevefle Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 160
+	"outfit space" -160
+	"cooling" 438
+	"active cooling" 2123
+	"cooling energy" 216.61958310879913
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Erla Heat Pump"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 165
+	"outfit space" -165
+	"cooling" 384
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Maihxleo Cooler"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 222
+	"outfit space" -222
+	"cooling" 507
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uyoh yaso Heat Pump"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 140
+	"outfit space" -140
+	"cooling" 360
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Erpe ucii Heat Pump"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 112
+	"outfit space" -112
+	"cooling" 404
+	"active cooling" 1553
+	"cooling energy" 187.65958488429686
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eyfahayi Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/large heat shunt"
+	"mass" 190
+	"outfit space" -190
+	"cooling" 388
+	"active cooling" 752
+	"cooling energy" 167.91931008005062
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uumf eium Cooler"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 132
+	"outfit space" -132
+	"cooling" 266
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Roio eois Heatsink"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid helium"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 405
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Samo Heat Shunt"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 190
+	"outfit space" -190
+	"cooling" 407
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jhir Temperature Control"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 225
+	"outfit space" -225
+	"cooling" 512
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uuaa ijoy Heat Shunt"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 230
+	"outfit space" -230
+	"cooling" 476
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ouii ouom Heat Shunt"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 193
+	"outfit space" -193
+	"cooling" 387
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uaol Heat Pump"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 123
+	"outfit space" -123
+	"cooling" 306
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Lija Cooler"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 214
+	"outfit space" -214
+	"cooling" 488
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iela Cooler"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 218
+	"outfit space" -218
+	"cooling" 501
+	"active cooling" 3238
+	"cooling energy" 252.89944833760967
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ojyk Heatsink"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/hai williwaw"
+	"mass" 75
+	"outfit space" -75
+	"active cooling" 528
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yaoa Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 157
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Opiaarpr Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 174
+	"active cooling" 498
+	"cooling energy" 95.66851733768934
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Limyyoao Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 190
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Rijo Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 177
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uxee kuey Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 166
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eumuxoam Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 182
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Weue uemy Heat Shunt"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 237
+	"active cooling" 1004
+	"cooling energy" 72.8672482934765
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Maef Cooler"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/large heat shunt"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 210
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ohge Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/large heat shunt"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 124
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Lruu Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 177
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Roir Cooler"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid helium"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 184
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hiau ivuj Heatsink"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 45
+	"outfit space" -45
+	"active cooling" 459
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ihyl Heat Pump"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 131
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jqei amua Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid helium"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 172
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eoaj Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/large heat shunt"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 213
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Auol vaej Cooling"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/hai williwaw"
+	"mass" 55
+	"outfit space" -55
+	"active cooling" 436
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vuou Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 90
+	"outfit space" -90
+	"active cooling" 775
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oyim Heat Shunt"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/hai williwaw"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 183
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aoqieoei Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 214
+	"active cooling" 1114
+	"cooling energy" 52.608903773240165
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ejev Cooling"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 157
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Holu Cooling"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/hai williwaw"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 163
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uiio xpaa Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 229
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Amaiexxu Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 202
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mouh Cooling"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 41
+	"outfit space" -41
+	"active cooling" 532
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Kexy Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 101
+	"outfit space" -101
+	"cooling" 237
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oeuf Heatsink"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 37
+	"outfit space" -37
+	"cooling" 121
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Rfee Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 125
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hojgejok Heat Shunt"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 66
+	"outfit space" -66
+	"active cooling" 742
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aklo Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 194
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Wqoe Heat Pump"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/hai williwaw"
+	"mass" 36
+	"outfit space" -36
+	"active cooling" 330
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ohyo Heat Shunt"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/hai williwaw"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 211
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xura fiee Heat Shunt"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 181
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Cxai Heatsink"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 170
+	"active cooling" 768
+	"cooling energy" 67.98795756189126
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iama izmu Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/hai williwaw"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 176
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Qipo ehau Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 151
+	"active cooling" 53
+	"cooling energy" 46.20801702730844
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Flia uhaf Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 152
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ijoe eeue Heatsink"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 77
+	"outfit space" -77
+	"active cooling" 989
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Leiu imhe Heat Shunt"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/large heat shunt"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 199
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uiiu Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid helium"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 136
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xpoqeliw Cooler"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 87
+	"outfit space" -87
+	"active cooling" 580
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yexa qoam Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid helium"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 130
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Huaq Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 140
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Assa Heatsink"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/hai williwaw"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 172
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aeha pihh Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 191
+	"active cooling" 822
+	"cooling energy" 116.29685225800583
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Umix Cooling"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 231
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mamo Temperature Control"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 141
+	"active cooling" 183
+	"cooling energy" 58.22062969559043
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Rhiu rhuu Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 163
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oouz Heat Shunt"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 175
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ehti ayea Heat Shunt"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 106
+	"outfit space" -106
+	"cooling" 231
+	"active cooling" 259
+	"cooling energy" 94.96693942946439
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yuie Heat Shunt"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 63
+	"outfit space" -63
+	"active cooling" 674
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uoxgilul Heat Pump"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 136
+	"active cooling" 736
+	"cooling energy" 59.996018112155596
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Siau jauy Cooler"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 140
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ejwe jooj Heatsink"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 70
+	"outfit space" -70
+	"active cooling" 505
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mura Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"active cooling" 590
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ilmoaaom Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 165
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ueia Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid helium"
+	"mass" 44
+	"outfit space" -44
+	"cooling" 151
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eclr eaoh Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 229
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Faqullie Cooler"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/hai williwaw"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 227
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Heyu aiai Heat Pump"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 223
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ojoo Heat Pump"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 138
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Olaa ysoi Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 151
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mrae Heat Shunt"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 239
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aeup lila Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 181
+	"active cooling" 1108
+	"cooling energy" 82.16020673754437
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yoow Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/hai williwaw"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 203
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xhey thau Heat Pump"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 174
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xuew jihe Temperature Control"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 148
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Huqu Cooler"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/large heat shunt"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 169
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Wieo Cooler"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 54
+	"outfit space" -54
+	"active cooling" 142
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ihcm Heat Shunt"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/liquid helium"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 134
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ujoeodca Heatsink"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 59
+	"outfit space" -59
+	"active cooling" 238
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Laulrosl Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/hai williwaw"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 200
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Outiperh Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/hai williwaw"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 157
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yleoohyo Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/large heat shunt"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 208
+	"active cooling" 1176
+	"cooling energy" 92.3501378838165
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Euul Temperature Control"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 230
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Auyq ecaf Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 227
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Heqi afuu Heat Shunt"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/large heat shunt"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 170
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uris mifv Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 227
+	"active cooling" 1058
+	"cooling energy" 56.453904275963566
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ipeu axyc Cooling"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 127
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jaiu Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 202
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Coruuceq Cooling"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 62
+	"outfit space" -62
+	"active cooling" 107
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Afhajaor Cooler"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 120
+	"active cooling" 534
+	"cooling energy" 39.30690848547037
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eooy xiyu Heat Shunt"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 141
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iturluix Cooler"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/hai williwaw"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 229
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ijif Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 218
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Muuj Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 90
+	"outfit space" -90
+	"active cooling" 406
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eaxi aoja Heat Shunt"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/hai williwaw"
+	"mass" 58
+	"outfit space" -58
+	"active cooling" 860
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Huopmooq Heatsink"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/large heat shunt"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 223
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eeyiohyu Heat Pump"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 143
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Kuem Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 151
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Meru Cooling"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 166
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ruud Heat Shunt"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 180
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ruih Heat Shunt"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/hai williwaw"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 145
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ifae vsoy Temperature Control"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/large heat shunt"
+	"mass" 73
+	"outfit space" -73
+	"active cooling" 859
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uflo qoyo Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 180
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Faoj Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 234
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Moqe Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 79
+	"outfit space" -79
+	"active cooling" 473
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Lutc Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid helium"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 146
+	"active cooling" 733
+	"cooling energy" 72.97156641740348
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aqyo uoex Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 123
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Zoso ujew Heat Shunt"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/hai williwaw"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 234
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Heeyaiau Cooler"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 105
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Meeb Cooler"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/large heat shunt"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 107
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Auau Heatsink"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 118
+	"active cooling" 136
+	"cooling energy" 52.67974397747246
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eeme Temperature Control"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 34
+	"outfit space" -34
+	"active cooling" 6
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hora Heat Pump"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 30
+	"outfit space" -30
+	"active cooling" 51
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ffuyqcua Cooling"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/hai williwaw"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 105
+	"active cooling" 297
+	"cooling energy" 62.10024165687086
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Acam avul Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid helium"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 91
+	"active cooling" 162
+	"cooling energy" 31.517108677558543
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Meru Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 119
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aiop ojfe Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 35
+	"outfit space" -35
+	"active cooling" 158
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Elhomeif Temperature Control"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 37
+	"outfit space" -37
+	"cooling" 110
+	"active cooling" 393
+	"cooling energy" 46.688515510536725
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ouoa hoof Heat Pump"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 87
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Taraiyii Heatsink"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 50
+	"outfit space" -50
+	"active cooling" 335
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Euuu Heat Shunt"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid helium"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 101
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jeyo Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 93
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Houapcuh Temperature Control"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 32
+	"outfit space" -32
+	"active cooling" 260
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Weji Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/hai williwaw"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 99
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uoyj codi Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 95
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Emaf Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 34
+	"outfit space" -34
+	"active cooling" 146
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Koal Heat Pump"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid helium"
+	"mass" 37
+	"outfit space" -37
+	"cooling" 103
+	"active cooling" 361
+	"cooling energy" 32.99473791509009
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Leqa wgax Heat Shunt"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 135
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Houe Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 48
+	"outfit space" -48
+	"active cooling" 140
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Mwiq giek Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 133
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ejliophm Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 92
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Lkae Heat Pump"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/large heat shunt"
+	"mass" 37
+	"outfit space" -37
+	"cooling" 81
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ajox Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 70
+	"active cooling" 354
+	"cooling energy" 38.02364203871287
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eyxu Heat Shunt"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/hai williwaw"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 78
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Isja Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/large heat shunt"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 114
+	"active cooling" 45
+	"cooling energy" 68.3562735065073
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hiei Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 104
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hoko film Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 134
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uiauemap Heat Pump"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/large heat shunt"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 68
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oiekyaum Heat Pump"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 92
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Huho Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 91
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aeui feui Temperature Control"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/large heat shunt"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 87
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uwuh Heat Shunt"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 112
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Auye Heat Shunt"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 45
+	"outfit space" -45
+	"active cooling" 178
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oyoq Cooler"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 43
+	"outfit space" -43
+	"active cooling" 365
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Irjs Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 87
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ulaejvui Cooler"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 100
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Afaofeei Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid helium"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 68
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Rehxeaka Cooling"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/large heat shunt"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 93
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xuxeveej Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/hai williwaw"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 82
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xgalauua Cooling"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 31
+	"outfit space" -31
+	"active cooling" 141
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yuaj Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 107
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Fapa huyq Cooling"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 111
+	"active cooling" 454
+	"cooling energy" 42.19123131145907
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Geiuxeyk Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 54
+	"outfit space" -54
+	"active cooling" 20
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ipoeuiuv Cooling"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 103
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Imkx xile Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 89
+	"active cooling" 381
+	"cooling energy" 29.257639695382718
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iuueiheu Heat Pump"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 79
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Moua Cooling"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 63
+	"outfit space" -63
+	"active cooling" 77
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yioeexya Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/hai williwaw"
+	"mass" 41
+	"outfit space" -41
+	"active cooling" 487
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hooa Heatsink"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/hai williwaw"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 70
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Bxeu Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 97
+	"active cooling" 75
+	"cooling energy" 40.91009993232103
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ukac Cooling"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/hai williwaw"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 128
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vjoe Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 104
+	"active cooling" 633
+	"cooling energy" 32.92907603384948
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Cohutaqe Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 115
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oouk yefa Temperature Control"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 49
+	"outfit space" -49
+	"active cooling" 520
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Rlua Temperature Control"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 89
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jiej iuie Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 70
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vimrruwa Heatsink"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid helium"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 130
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Dokuuati Heat Shunt"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 41
+	"outfit space" -41
+	"active cooling" 486
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iemy Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 80
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Pachefuk Cooler"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 128
+	"active cooling" 303
+	"cooling energy" 59.44700716074215
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xayo Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 102
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Leeh Cooler"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 80
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hauerihi Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 108
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Oago Heat Shunt"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 39
+	"outfit space" -39
+	"active cooling" 28
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Heuo Heatsink"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 91
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Poku Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 82
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xroyemya Heat Pump"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/liquid helium"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 116
+	"active cooling" 416
+	"cooling energy" 55.52423487360802
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ueuk ukoq Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 87
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Iyso Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/hai williwaw"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 81
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Omva Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 64
+	"outfit space" -64
+	"active cooling" 674
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Erijeqao Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 68
+	"active cooling" 75
+	"cooling energy" 24.82414184348019
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ijeo Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 87
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Xaou Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/large heat shunt"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 96
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Sila nije Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/large heat shunt"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 114
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eqea ahap Cooling"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/liquid helium"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 92
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Quaraohu Temperature Control"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 115
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Yucp tqou Cooler"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/large heat shunt"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 69
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Vfii uukp Heatsink"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 130
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ikmu Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 72
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Haaryjou Cooling"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 116
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aeou Heat Pump"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 116
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Eqju Temperature Control"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 95
+	"active cooling" 132
+	"cooling energy" 42.50459054520093
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Uahaihai Heat Shunt"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 105
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Fowk Temperature Control"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid helium"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 112
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Hxav uura Cooling"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/large heat shunt"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 126
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Atuh Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/large heat shunt"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 130
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Jaaa miru Cooler"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 44
+	"outfit space" -44
+	"active cooling" 157
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Gehi Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 129
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Edla aqaa Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 51
+	"outfit space" -51
+	"active cooling" 462
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Aiha hoji Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 101
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Moqi Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/large heat shunt"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 78
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ewko Cooling"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 68
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Gaue Cooling"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 72
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Suil Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 96
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Omme Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 99
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Daeeaaxu Cooler"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 79
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ocey Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 80
+	description "Fohuaaoe T1.1 Cooling"
+
+
+outfit "Ekje Heatsink"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 70
+	description "Fohuaaoe T1.1 Cooling"
+
+

@@ -1,0 +1,362 @@
+outfit "Egzuxo Battery Pack"
+	category "Power"
+	cost 375800
+	thumbnail "outfit/tiny battery"
+	"mass" 9
+	"outfit space" -9
+	"energy capacity" 6340
+	description "Sonemx T4.4 Battery"
+
+outfit "Eoa Battery Pack"
+	category "Power"
+	cost 676500
+	thumbnail "outfit/tiny battery"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 30440
+	description "Sonemx T4.4 Battery"
+
+outfit "Fic Battery Pack"
+	category "Power"
+	cost 1217700
+	thumbnail "outfit/tiny battery"
+	"mass" 36
+	"outfit space" -36
+	"energy capacity" 146120
+	description "Sonemx T4.4 Battery"
+
+outfit "Pfutpa Battery Pack"
+	category "Power"
+	cost 2191900
+	thumbnail "outfit/tiny battery"
+	"mass" 72
+	"outfit space" -72
+	"energy capacity" 701380
+	description "Sonemx T4.4 Battery"
+
+
+outfit "Ezu Reactor"
+	category "Power"
+	cost 373900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 5.4
+	"heat generation" 12.8
+	description "Sonemx T4.4 Power generator"
+
+outfit "Ioiopi Reactor"
+	category "Power"
+	cost 635700
+	thumbnail "outfit/small fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 25.9
+	"heat generation" 20.5
+	description "Sonemx T4.4 Power generator"
+
+outfit "Zse Reactor"
+	category "Power"
+	cost 1080700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 53
+	"outfit space" -53
+	"energy generation" 124.3
+	"heat generation" 32.8
+	description "Sonemx T4.4 Power generator"
+
+
+outfit "Abdaxy Thruster"
+	category "Engines"
+	cost 1248700
+	thumbnail "outfit/small remnant thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 5.1
+	"thrusting energy" 0.2
+	"thrusting heat" 0.2
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.2
+	"flare sound" "remnant small"
+	description "Sonemx T4.4 Thruster"
+
+outfit "Abdaxy Steering"
+	category "Engines"
+	cost 863720
+	thumbnail "outfit/tiny ion steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 144
+	"turning energy" 0.1
+	"turning heat" 0.1
+	description "Sonemx T4.4 steering"
+
+outfit "Bie Thruster"
+	category "Engines"
+	cost 2122800
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 24.5
+	"thrusting energy" 1.0
+	"thrusting heat" 1.0
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1.2
+	"flare sound" "remnant medium"
+	description "Sonemx T4.4 Thruster"
+
+outfit "Bie Steering"
+	category "Engines"
+	cost 3608800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 23
+	"outfit space" -23
+	"engine capacity" -23
+	"turn" 691.2
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Sonemx T4.4 steering"
+
+outfit "Ofe lfu Thruster"
+	category "Engines"
+	cost 3608800
+	thumbnail "outfit/large remnant thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 117.6
+	"thrusting energy" 4.8
+	"thrusting heat" 4.8
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Sonemx T4.4 Thruster"
+
+outfit "Ofe lfu Steering"
+	category "Engines"
+	cost 6135000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 41
+	"outfit space" -41
+	"engine capacity" -41
+	"turn" 3317.8
+	"turning energy" 2.4
+	"turning heat" 2.4
+	description "Sonemx T4.4 steering"
+
+outfit "Teh Thruster"
+	category "Engines"
+	cost 6135000
+	thumbnail "outfit/large remnant thruster"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 564.5
+	"thrusting energy" 23.0
+	"thrusting heat" 23.0
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Sonemx T4.4 Thruster"
+
+outfit "Teh Steering"
+	category "Engines"
+	cost 10429500
+	thumbnail "outfit/tiny ion steering"
+	"mass" 74
+	"outfit space" -74
+	"engine capacity" -74
+	"turn" 15925.4
+	"turning energy" 11.5
+	"turning heat" 11.5
+	description "Sonemx T4.4 steering"
+
+outfit "Xuz Thruster"
+	category "Engines"
+	cost 10429500
+	thumbnail "outfit/large remnant thruster"
+	"mass" 211
+	"outfit space" -211
+	"engine capacity" -211
+	"thrust" 2709.6
+	"thrusting energy" 110.4
+	"thrusting heat" 110.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1.2
+	"flare sound" "remnant large"
+	description "Sonemx T4.4 Thruster"
+
+outfit "Xuz Steering"
+	category "Engines"
+	cost 17730200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 133
+	"outfit space" -133
+	"engine capacity" -133
+	"turn" 76441.9
+	"turning energy" 55.2
+	"turning heat" 55.2
+	description "Sonemx T4.4 steering"
+
+
+
+outfit "Ebzioo Hull Repair"
+	category "Systems"
+	cost 806200
+	thumbnail "outfit/tiny shield"
+	"mass" 17
+	"outfit space" -17
+	"hull repair rate" 2.38
+	"hull energy" 4.0
+	"hull heat" 5
+	description "Sonemx T4.4 Hull Repair"
+
+outfit "Kof Hull Repair"
+	category "Systems"
+	cost 1451200
+	thumbnail "outfit/small shield"
+	"mass" 26
+	"outfit space" -26
+	"hull repair rate" 4.8
+	"hull energy" 3.2
+	"hull heat" 5
+	description "Sonemx T4.4 Hull Repair"
+
+outfit "Owbzet Hull Repair"
+	category "Systems"
+	cost 2612200
+	thumbnail "outfit/medium shield"
+	"mass" 39
+	"outfit space" -39
+	"hull repair rate" 9.6
+	"hull energy" 2.6
+	"hull heat" 5
+	description "Sonemx T4.4 Hull Repair"
+
+outfit "Uid Hull Repair"
+	category "Systems"
+	cost 4702000
+	thumbnail "outfit/large shield"
+	"mass" 58
+	"outfit space" -58
+	"hull repair rate" 19.2
+	"hull energy" 2.1
+	"hull heat" 5
+	description "Sonemx T4.4 Hull Repair"
+
+
+outfit "Vueuma Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/large heat shunt"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 175
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Raidno Heat Shunt"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 34
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Wulomm Cooling"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Wuieyu Cooler"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Butury Cooling"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Pio nfu Heat Shunt"
+	category "Systems"
+	cost 22400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 10
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Tuf Heatsink"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	"active cooling" 28
+	"cooling energy" 7.337350712005987
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Pugusy Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 30
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Aca Heat Pump"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Uoz Heatsink"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Sonemx T4.4 Cooling"
+
+
+outfit "Iiomiu Heat Pump"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/cooling module"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 10
+	description "Sonemx T4.4 Cooling"
+
+

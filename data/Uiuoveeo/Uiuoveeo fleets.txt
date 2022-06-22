@@ -1,0 +1,82 @@
+fleet "Uiuoveeo Patrol"
+	government "Uiuoveeo"
+	names "Uiuoveeo names"
+	personality
+		heroic
+		opportunistic
+		confusion 23
+	variant 8
+		"Bemiwtae" 2
+		"Wjeqayqwofwa" 3
+		"Oifogiia" 5
+		"Uxlssixi" 1
+		"Koijivla file" 2
+		"Hajoneiu" 2
+		"Atpjguvnwhie" 5
+		"Biexyzou" 1
+		"Vnixepwu" 3
+	variant 2
+		"Biexyzou" 2
+		"Uxlssixi" 3
+		"Atpjguvnwhie" 4
+		"Koijivla file" 5
+		"Bemiwtae" 3
+		"Wjeqayqwofwa" 3
+		"Hajoneiu" 3
+		"Vnixepwu" 3
+		"Oifogiia" 2
+	variant 11
+		"Atpjguvnwhie" 4
+		"Wjeqayqwofwa" 3
+		"Biexyzou" 4
+		"Uxlssixi" 3
+		"Oifogiia" 1
+		"Bemiwtae" 2
+		"Vnixepwu" 1
+		"Koijivla file" 2
+		"Hajoneiu" 1
+	variant 13
+		"Oifogiia" 5
+		"Uxlssixi" 3
+		"Atpjguvnwhie" 2
+		"Wjeqayqwofwa" 3
+		"Vnixepwu" 5
+		"Koijivla file" 2
+		"Bemiwtae" 2
+		"Biexyzou" 4
+		"Hajoneiu" 4
+	variant 5
+		"Uxlssixi" 4
+		"Biexyzou" 4
+		"Wjeqayqwofwa" 3
+		"Atpjguvnwhie" 2
+		"Bemiwtae" 5
+		"Koijivla file" 5
+		"Oifogiia" 2
+		"Hajoneiu" 5
+		"Vnixepwu" 5
+fleet "Uiuoveeo Civilian"
+	government "Uiuoveeo"
+	names "Uiuoveeo names"
+	personality
+		timid
+	variant 0
+		"Hajoneiu" 4
+		"Koijivla file" 3
+		"Atpjguvnwhie" 4
+	variant 12
+		"Uxlssixi" 1
+		"Oifogiia" 4
+		"Biexyzou" 2
+	variant 12
+		"Biexyzou" 3
+		"Oifogiia" 3
+		"Oifogiia" 4
+	variant 12
+		"Hajoneiu" 4
+		"Koijivla file" 4
+		"Oifogiia" 4
+	variant 68
+		"Koijivla file" 1
+		"Oifogiia" 2
+		"Atpjguvnwhie" 1

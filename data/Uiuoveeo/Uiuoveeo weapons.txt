@@ -1,0 +1,288 @@
+outfit "Hnue Cannon"
+	category "Guns"
+	cost 3349739200
+	thumbnail "outfit/pulse"
+	"mass" 77
+	"outfit space" -77
+	"weapon capacity" -77
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.1
+		"velocity" 50
+		"lifetime" 10
+		"reload" 1
+		"firing energy" 121.1
+		"firing heat" 105.7
+		"shield damage" 266.4
+		"hull damage" 509.5
+		"heat damage" 44.1
+		"energy damage" 44.1
+		"ion damage" 44.1
+	description "Uiuoveeo T3.3 Projectile weapon"
+
+outfit "Hnue Cannon Turret"
+	category "Turrets"
+	cost 10759163380.368027
+	thumbnail "outfit/pulse turret"
+	"mass" 335
+	"outfit space" -335
+	"weapon capacity" -335
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/tracker"
+		"hardpoint sprite" "hardpoint/pulse turret"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.1
+		"turret turn" 0.1
+		"velocity" 50
+		"lifetime" 10
+		"reload" 1
+		"firing energy" 121.1
+		"firing heat" 105.7
+		"shield damage" 266.4
+		"hull damage" 509.5
+		"heat damage" 44.1
+		"energy damage" 44.1
+		"ion damage" 44.1
+	description "Uiuoveeo T3.3 Projectile weapon 1gun Turret"
+
+outfit "Qobf Assault Mortar"
+	category "Guns"
+	cost 1532637800
+	thumbnail "outfit/ion rain gun"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile6"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.2
+		"velocity" 17
+		"lifetime" 32
+		"reload" 1
+		"firing energy" 6.1
+		"firing heat" 3.1
+		"shield damage" 11.9
+		"hull damage" 29.3
+		"energy damage" 16.7
+	description "Uiuoveeo T3.3 Projectile weapon"
+
+outfit "Qobf Assault Mortar Turret"
+	category "Turrets"
+	cost 6182560068.964398
+	thumbnail "outfit/ion rain turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile6"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.2
+		"turret turn" 1.7
+		"velocity" 17
+		"lifetime" 32
+		"reload" 1
+		"firing energy" 6.1
+		"firing heat" 3.1
+		"shield damage" 35.7
+		"hull damage" 87.9
+		"energy damage" 50.099999999999994
+	description "Uiuoveeo T3.3 Projectile weapon 3gun Turret"
+
+outfit "Wuew Anti-Missile"
+	category "Turrets"
+	cost 4039819200
+	thumbnail "outfit/anti-missile hai"
+	"mass" 31
+	"outfit space" -31
+	"weapon capacity" -31
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 69.4
+		"velocity" 1140
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 57.9
+		"firing heat" 61.3
+	description "Uiuoveeo T3.3 Anti-missile"
+
+outfit "Poia Assault Bombard"
+	category "Guns"
+	cost 992390900
+	thumbnail "outfit/ion rain gun"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/pwavecannon"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.6
+		"velocity" 18
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 9.0
+		"firing heat" 6.4
+		"shield damage" 19.7
+		"hull damage" 25.8
+	description "Uiuoveeo T3.3 Projectile weapon"
+
+outfit "Poia Assault Bombard Turret"
+	category "Turrets"
+	cost 4343000896.690343
+	thumbnail "outfit/ion rain turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/pwavecannon"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.6
+		"turret turn" 0.5
+		"velocity" 18
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 9.0
+		"firing heat" 6.4
+		"shield damage" 19.7
+		"hull damage" 25.8
+	description "Uiuoveeo T3.3 Projectile weapon 1gun Turret"
+
+outfit "Egzj Rocket"
+	category "Ammunition"
+	cost 679594574
+	thumbnail "outfit/sidewinder"
+	"mass" 0.06
+	"Egzj Rocket capacity" -1
+	description "Uiuoveeo Missile"
+
+outfit "Egzj Rocket Storage
+	category "Ammunition"
+	cost 4548035842
+	thumbnail "outfit/sidewinder storage"
+	"mass" 0
+	"outfit space" -1
+	"Egzj Rocket capacity" 17
+	ammo "Egzj Rocket"
+	description "Egzj Rocket Storage"
+
+outfit "Egzj Rocket Catapult"
+	category "Secondary Weapons"
+	cost 2755862600
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 0
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	"Egzj Rocket capacity" 17
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Egzj Rocket"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.0
+		"velocity" 8
+		"lifetime" 10900
+		"reload" 1
+		"firing energy" 2.8
+		"firing heat" 5.9
+		"acceleration" 0.3
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 22.4
+		"hull damage" 17.7
+		"disruption damage" 27.2
+		"missile strength" 91.1
+	description "Uiuoveeo T3.3 Missile weapon"
+
+outfit "Iiel Laser"
+	category "Guns"
+	cost 1334233300
+	thumbnail "outfit/laser"
+	"mass" 26
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/heavy laser"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.7
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 0.7
+		"shield damage" 5.4
+		"hull damage" 8.2
+	description "Uiuoveeo T3.3 Beam weapon"
+
+outfit "Iiel Laser Turret"
+	category "Turrets"
+	cost 5018414756.379379
+	thumbnail "outfit/laser turret"
+	"mass" 57
+	"outfit space" -57
+	"weapon capacity" -57
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/heavy laser"
+		"hardpoint sprite" "hardpoint/laser turret"
+		sound "disruptor"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.7
+		"turret turn" 0.4
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 0.7
+		"shield damage" 5.4
+		"hull damage" 8.2
+	description "Uiuoveeo T3.3 Beam weapon 1gun Turret"
+
+outfit "Wzau Anti-Missile"
+	category "Turrets"
+	cost 2216353600
+	thumbnail "outfit/anti-missile"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 38.9
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 19.0
+		"firing heat" 23.5
+	description "Uiuoveeo T3.3 Anti-missile"
+

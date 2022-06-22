@@ -1,0 +1,61 @@
+fleet "Quhnap Defense"
+	government "Quhnap"
+	names "Quhnap names"
+	personality
+		heroic
+		forbearing
+		confusion 14
+	variant 7
+		"Jqa emb" 3
+		"Roi iok dee" 4
+		"Oaufao ohd" 3
+		"Qoaobo" 4
+	variant 5
+		"Oaufao ohd" 3
+		"Roi iok dee" 2
+		"Qoaobo" 2
+		"Ekp kaz" 3
+	variant 17
+		"Qoaobo" 4
+		"Roi iok dee" 2
+		"Jqa emb" 3
+		"Oaufao ohd" 5
+	variant 9
+		"Jqa emb" 2
+		"Roi iok dee" 5
+		"Qoaobo" 3
+		"Qkoqoibeh" 2
+	variant 7
+		"Qoaobo" 3
+		"Roi iok dee" 3
+		"Oaufao ohd" 5
+		"Jqa emb" 4
+	variant 16
+		"Qkoqoibeh" 5
+		"Roi iok dee" 5
+		"Jqa emb" 5
+		"Oaufao ohd" 3
+	variant 11
+		"Jqa emb" 5
+		"Roi iok dee" 4
+		"Qoaobo" 5
+		"Oaufao ohd" 5
+	variant 7
+		"Roi iok dee" 4
+		"Qoaobo" 5
+		"Jqa emb" 3
+		"Qkoqoibeh" 2
+	variant 10
+		"Roi iok dee" 4
+		"Oaufao ohd" 2
+		"Jqa emb" 5
+		"Qkoqoibeh" 2
+fleet "Quhnap Merchant"
+	government "Quhnap"
+	names "Quhnap names"
+	personality
+		timid
+	variant 0
+		"Qoaobo" 2
+		"Ekp kaz" 1
+		"Oaufao ohd" 2

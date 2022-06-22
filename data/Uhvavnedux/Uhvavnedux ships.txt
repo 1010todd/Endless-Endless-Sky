@@ -1,0 +1,409 @@
+ship "Ypauudeaao"
+	sprite "ship/Uhvavnedux/Ypauudeaao"
+	attributes 
+		category "Heavy Warship"
+		"cost" 3772000
+		"shields" 19600
+		"hull" 29100
+		"required crew" 90
+		"bunks" 112
+		"mass" 1171.0
+		"drag" 24.92
+		"heat dissipation" 0.7
+		"fuel capacity" 400
+		"cargo space" 145
+		"outfit space" 1810
+		"weapon capacity" 650
+		"engine capacity" 540
+		weapon 
+			"blast radius" 487
+			"shield damage" 4870
+			"hull damage" 2440
+			"hit force" 7310
+	outfits 
+		"Oeixgiyung Thruster" 1
+		"Oeixgiyung Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 7
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance" 2
+		"Ukrda Lance Turret" 3
+		"Voaul Beam Projector" 2
+		"Voaul Beam Projector Turret" 3
+		"Poghu Anti-Missile" 1
+		"Fnuqe Generator" 5
+		"Hyperdrive"
+	engine 142 122
+	engine 69 122
+	engine 142 139
+	engine 69 139
+	engine 119 86
+	gun 110 163
+	gun 152 50
+	gun 83 50
+	gun 125 163
+	turret 119 99
+	turret 154 72
+	turret 77 72
+	turret 133 100
+	turret 98 100
+	turret 139 71
+	turret 92 71
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Ocexewaoya"
+	sprite "ship/Uhvavnedux/Ocexewaoya"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 1920000
+		"shields" 15300
+		"hull" 22700
+		"required crew" 33
+		"bunks" 111
+		"mass" 837.8
+		"drag" 16.18
+		"heat dissipation" 0.65
+		"fuel capacity" 1100
+		"cargo space" 405
+		"outfit space" 1300
+		"weapon capacity" 520
+		"engine capacity" 340
+		weapon 
+			"blast radius" 380
+			"shield damage" 3800
+			"hull damage" 1900
+			"hit force" 5700
+	outfits 
+		"Oeixgiyung Thruster" 1
+		"Oeixgiyung Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 7
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance" 1
+		"Ukrda Lance Turret" 1
+		"Voaul Beam Projector" 1
+		"Voaul Beam Projector Turret" 1
+		"Fnuqe Generator" 5
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 189 118
+	engine 105 118
+	engine 155 122
+	gun 120 65
+	gun 187 65
+	turret 101 133
+	turret 201 133
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Isgovjaciq"
+	sprite "ship/Uhvavnedux/Isgovjaciq"
+	attributes 
+		category "Heavy Warship"
+		"cost" 3518000
+		"shields" 26600
+		"hull" 39600
+		"required crew" 31
+		"bunks" 62
+		"mass" 862.2
+		"drag" 17.71
+		"heat dissipation" 0.67
+		"fuel capacity" 500
+		"cargo space" 105
+		"outfit space" 1270
+		"weapon capacity" 470
+		"engine capacity" 400
+		weapon 
+			"blast radius" 662
+			"shield damage" 6620
+			"hull damage" 3310
+			"hit force" 9930
+	outfits 
+		"Oeixgiyung Thruster" 1
+		"Oeixgiyung Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 7
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance" 3
+		"Ukrda Lance Turret" 2
+		"Voaul Beam Projector" 3
+		"Voaul Beam Projector Turret" 1
+		"Poghu Anti-Missile" 1
+		"Fnuqe Generator" 5
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 210 160
+	engine 148 160
+	engine 200 128
+	engine 158 128
+	gun 162 136
+	gun 239 120
+	gun 132 120
+	gun 207 105
+	gun 164 105
+	gun 209 136
+	turret 133 112
+	turret 239 126
+	turret 127 126
+	turret 233 112
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Axqieyodez"
+	sprite "ship/Uhvavnedux/Axqieyodez"
+	attributes 
+		category "Light Warship"
+		"cost" 1155000
+		"shields" 6500
+		"hull" 9600
+		"required crew" 18
+		"bunks" 26
+		"mass" 193.0
+		"drag" 4.12
+		"heat dissipation" 0.7
+		"fuel capacity" 900
+		"cargo space" 25
+		"outfit space" 230
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon 
+			"blast radius" 161
+			"shield damage" 1610
+			"hull damage" 810
+			"hit force" 2420
+	outfits 
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 4
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance Turret" 1
+		"Fnuqe Generator" 1
+		"Hheai Thruster" 1
+		"Hheai Steering" 1
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 98 101
+	turret 98 100
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Gaexi qkeohoiquk"
+	sprite "ship/Uhvavnedux/Gaexi qkeohoiquk"
+	attributes 
+		category "Transport"
+		"cost" 256000
+		"shields" 5800
+		"hull" 8700
+		"required crew" 21
+		"bunks" 105
+		"mass" 276.0
+		"drag" 5.0
+		"heat dissipation" 0.76
+		"fuel capacity" 900
+		"cargo space" 35
+		"outfit space" 300
+		"weapon capacity" 120
+		"engine capacity" 100
+		weapon 
+			"blast radius" 145
+			"shield damage" 1450
+			"hull damage" 730
+			"hit force" 2180
+	outfits 
+		"Nouoi Thruster" 1
+		"Nouoi Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 4
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance" 1
+		"Fnuqe Generator" 2
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 106 86
+	gun 106 113
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Uhvavnedux T1.5 ship"
+
+ship "Jofaadpouu"
+	sprite "ship/Uhvavnedux/Jofaadpouu"
+	attributes 
+		category "Heavy Warship"
+		"cost" 3111000
+		"shields" 13100
+		"hull" 19500
+		"required crew" 14
+		"bunks" 69
+		"mass" 576.8
+		"drag" 12.16
+		"heat dissipation" 0.79
+		"fuel capacity" 1200
+		"cargo space" 70
+		"outfit space" 1030
+		"weapon capacity" 380
+		"engine capacity" 270
+		weapon 
+			"blast radius" 326
+			"shield damage" 3260
+			"hull damage" 1630
+			"hit force" 4890
+	outfits 
+		"Oeixgiyung Thruster" 1
+		"Oeixgiyung Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 7
+		"Eeeqo Battery Pack" 1
+		"Ukrda Lance" 2
+		"Ukrda Lance Turret" 2
+		"Voaul Beam Projector" 2
+		"Voaul Beam Projector Turret" 2
+		"Poghu Anti-Missile" 1
+		"Fnuqe Generator" 5
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 158 131
+	engine 62 131
+	engine 118 112
+	gun 101 56
+	gun 160 62
+	gun 73 62
+	gun 132 56
+	turret 118 45
+	turret 162 51
+	turret 66 51
+	turret 123 72
+	turret 105 72
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Oifre vekic"
+	sprite "ship/Uhvavnedux/Oifre vekic"
+	attributes 
+		category "Light Warship"
+		"cost" 458000
+		"shields" 5500
+		"hull" 8100
+		"required crew" 9
+		"bunks" 29
+		"mass" 240.4
+		"drag" 4.28
+		"heat dissipation" 0.86
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 260
+		"weapon capacity" 80
+		"engine capacity" 80
+		weapon 
+			"blast radius" 136
+			"shield damage" 1360
+			"hull damage" 680
+			"hit force" 2040
+	outfits 
+		"Nouoi Thruster" 1
+		"Nouoi Steering" 1
+		"Auwxi Shield Core" 1
+		"Enuxi aousr Generator" 4
+		"Eeeqo Battery Pack" 1
+		"Voaul Beam Projector Turret" 1
+		"Fnuqe Generator" 2
+		"Avlup Temperature Control" 1
+		"Hyperdrive"
+	engine 89 119
+	turret 89 55
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uhvavnedux T1.5 ship"
+
+ship "Vkoiy kxiiewouaw"
+	sprite "ship/Uhvavnedux/Vkoiy kxiiewouaw"
+	attributes 
+		category "Fighter"
+		"cost" 314000
+		"shields" 1400
+		"hull" 2100
+		"required crew" 2
+		"bunks" 5
+		"mass" 57.2
+		"drag" 1.15
+		"heat dissipation" 1.09
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 120
+		"weapon capacity" 40
+		"engine capacity" 30
+		weapon 
+			"blast radius" 35
+			"shield damage" 350
+			"hull damage" 180
+			"hit force" 530
+	outfits 
+		"Auwxi Shield Core" 1
+		"Fyuagbinig Cell" 2
+		"Ukrda Lance" 1
+		"Voaul Beam Projector" 1
+		"Asaqu Thruster" 1
+		"Asaqu Steering" 1
+		"Enuxi aousr Generator" 1
+		"Occau Temperature Control" 1
+		"Hyperdrive"
+	engine 47 42
+	gun 35 17
+	gun 56 17
+	turret 47 42
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Uhvavnedux T1.5 ship"
+

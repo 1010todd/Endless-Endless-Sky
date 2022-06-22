@@ -1,0 +1,16 @@
+government "Uiuoveeo"
+	"display name" "Uiuoveeo"
+	"swizzle" 3
+	"color" 0.872 0.136 0.691 0.545
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 3.4
+	"attitude toward"
+		"Quhnap" 1
+		"Kaapgujjaf" 1
+		"Uhvavnedux" 0
+		"Qxuedehf" -1
+		"Lviiadod" 0
+		"Fohuaaoe" -1
+		"Sonemx" -1
+		"Bebe yujo" -1

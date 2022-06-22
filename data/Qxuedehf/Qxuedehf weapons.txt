@@ -1,0 +1,66 @@
+outfit "Zeko Basilisk"
+	category "Guns"
+	cost 422201119700
+	thumbnail "outfit/blaster"
+	"mass" 73
+	"outfit space" -73
+	"weapon capacity" -73
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile4"
+		sound "disruptor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 7.1
+		"velocity" 43
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 4.3
+		"firing heat" 14.9
+		"shield damage" 47.4
+		"hull damage" 129.9
+		"disruption damage" 86.2
+	description "Qxuedehf T4.4 Projectile weapon"
+
+outfit "Ihgb Anti-Missile"
+	category "Turrets"
+	cost 968752674900
+	thumbnail "outfit/pug anti-missile"
+	"mass" 61
+	"outfit space" -61
+	"weapon capacity" -61
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 323.3
+		"velocity" 1140
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 74.6
+		"firing heat" 169.0
+	description "Qxuedehf T4.4 Anti-missile"
+
+outfit "Ciya Basilisk"
+	category "Guns"
+	cost 1464594127300
+	thumbnail "outfit/ion rain gun"
+	"mass" 75
+	"outfit space" -75
+	"weapon capacity" -75
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile4"
+		sound "inhibitor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.5
+		"velocity" 8
+		"lifetime" 35
+		"reload" 1
+		"firing energy" 29.6
+		"firing heat" 2.5
+		"shield damage" 80.7
+		"hull damage" 83.0
+	description "Qxuedehf T4.4 Projectile weapon"
+

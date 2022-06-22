@@ -1,0 +1,296 @@
+ship "Jqa emb"
+	sprite "ship/Quhnap/Jqa emb"
+	attributes 
+		category "Medium Warship"
+		"cost" 517000
+		"shields" 4100
+		"hull" 8000
+		"required crew" 18
+		"bunks" 46
+		"mass" 472.2
+		"drag" 10.02
+		"heat dissipation" 0.85
+		"fuel capacity" 500
+		"cargo space" 60
+		"outfit space" 672
+		"weapon capacity" 210
+		"engine capacity" 210
+		weapon 
+			"blast radius" 121
+			"shield damage" 1210
+			"hull damage" 610
+			"hit force" 1820
+	outfits 
+		"Kzaaxi Thruster" 1
+		"Kzaaxi Steering" 1
+		"Tog Missile Catapult" 1
+		"Tog Missile" 43
+		"Eoo Shielding" 1
+		"Ned Cell" 9
+		"Adq aei Capacitor" 1
+		"Niv gai Cell" 8
+		"Avy Cooler" 1
+		"Hyperdrive"
+	engine 135 155
+	engine 50 155
+	gun 101 177
+	turret 74 147
+	turret 141 128
+	turret 55 128
+	turret 122 147
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quhnap T0.8 ship"
+
+ship "Ekp kaz"
+	sprite "ship/Quhnap/Ekp kaz"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 680000
+		"shields" 6500
+		"hull" 12700
+		"required crew" 61
+		"bunks" 87
+		"mass" 707.2
+		"drag" 14.42
+		"heat dissipation" 0.63
+		"fuel capacity" 600
+		"cargo space" 340
+		"outfit space" 1060
+		"weapon capacity" 400
+		"engine capacity" 315
+		weapon 
+			"blast radius" 192
+			"shield damage" 1920
+			"hull damage" 960
+			"hit force" 2880
+	outfits 
+		"Kzaaxi Thruster" 1
+		"Kzaaxi Steering" 1
+		"Tog Missile Catapult" 1
+		"Tog Missile" 43
+		"Auo Torpedo Deployer" 1
+		"Auo Torpedo" 11
+		"Eoo Shielding" 1
+		"Ned Cell" 9
+		"Adq aei Capacitor" 1
+		"Niv gai Cell" 8
+		"Avy Cooler" 1
+		"Hyperdrive"
+	engine 231 153
+	engine 72 153
+	engine 160 110
+	gun 93 33
+	gun 224 33
+	turret 89 133
+	turret 225 123
+	turret 89 123
+	turret 225 133
+	leak "leak" 50
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quhnap T0.8 ship"
+
+ship "Oaufao ohd"
+	sprite "ship/Quhnap/Oaufao ohd"
+	attributes 
+		category "Medium Warship"
+		"cost" 308000
+		"shields" 3300
+		"hull" 6400
+		"required crew" 8
+		"bunks" 17
+		"mass" 254.0
+		"drag" 4.97
+		"heat dissipation" 0.8
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 483
+		"weapon capacity" 140
+		"engine capacity" 136
+		weapon 
+			"blast radius" 97
+			"shield damage" 970
+			"hull damage" 490
+			"hit force" 1460
+	outfits 
+		"Kzaaxi Thruster" 1
+		"Kzaaxi Steering" 1
+		"Tog Missile Catapult" 1
+		"Tog Missile" 43
+		"Auo Torpedo Deployer" 1
+		"Auo Torpedo" 11
+		"Eoo Shielding" 1
+		"Ned Cell" 9
+		"Adq aei Capacitor" 1
+		"Niv gai Cell" 8
+		"Avy Cooler" 2
+		"Hyperdrive"
+	engine 115 119
+	gun 115 100
+	gun 185 27
+	gun 42 27
+	turret 35 40
+	turret 189 40
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quhnap T0.8 ship"
+
+ship "Qoaobo"
+	sprite "ship/Quhnap/Qoaobo"
+	attributes 
+		category "Light Warship"
+		"cost" 117000
+		"shields" 1800
+		"hull" 3600
+		"required crew" 18
+		"bunks" 22
+		"mass" 189.2
+		"drag" 4.06
+		"heat dissipation" 0.54
+		"fuel capacity" 600
+		"cargo space" 25
+		"outfit space" 357
+		"weapon capacity" 130
+		"engine capacity" 116
+		weapon 
+			"blast radius" 54
+			"shield damage" 540
+			"hull damage" 270
+			"hit force" 810
+	outfits 
+		"Tog Missile Catapult" 1
+		"Tog Missile" 43
+		"Eoo Shielding" 1
+		"Ned Cell" 8
+		"Adq aei Capacitor" 1
+		"Niv gai Cell" 7
+		"Ibi Thruster" 1
+		"Ibi Steering" 1
+		"Avy Cooler" 1
+		"Hyperdrive"
+	engine 60 75
+	gun 60 90
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quhnap T0.8 ship"
+
+ship "Qkoqoibeh"
+	sprite "ship/Quhnap/Qkoqoibeh"
+	attributes 
+		category "Light Freighter"
+		"cost" 102000
+		"shields" 900
+		"hull" 1800
+		"required crew" 13
+		"bunks" 26
+		"mass" 307.2
+		"drag" 6.25
+		"heat dissipation" 0.86
+		"fuel capacity" 400
+		"cargo space" 95
+		"outfit space" 410
+		"weapon capacity" 140
+		"engine capacity" 126
+		weapon 
+			"blast radius" 27
+			"shield damage" 270
+			"hull damage" 140
+			"hit force" 410
+	outfits 
+		"Kzaaxi Thruster" 1
+		"Kzaaxi Steering" 1
+		"Tog Missile Catapult" 1
+		"Tog Missile" 43
+		"Auo Torpedo Deployer" 1
+		"Auo Torpedo" 11
+		"Eoo Shielding" 1
+		"Ned Cell" 16
+		"Adq aei Capacitor" 1
+		"Yao eeq Heat Shunt" 5
+		"Hyperdrive"
+	engine 76 52
+	gun 76 64
+	gun 100 29
+	gun 49 29
+	turret 76 37
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Quhnap T0.8 ship"
+
+ship "Roi iok dee"
+	sprite "ship/Quhnap/Roi iok dee"
+	attributes 
+		category "Medium Warship"
+		"cost" 273000
+		"shields" 3500
+		"hull" 6800
+		"required crew" 43
+		"bunks" 61
+		"mass" 455.8
+		"drag" 8.64
+		"heat dissipation" 0.56
+		"fuel capacity" 400
+		"cargo space" 55
+		"outfit space" 609
+		"weapon capacity" 230
+		"engine capacity" 200
+		weapon 
+			"blast radius" 103
+			"shield damage" 1030
+			"hull damage" 520
+			"hit force" 1550
+	outfits 
+		"Kzaaxi Thruster" 1
+		"Kzaaxi Steering" 1
+		"Tog Missile Catapult" 2
+		"Tog Missile" 86
+		"Auo Torpedo Deployer" 1
+		"Auo Torpedo" 11
+		"Eoo Shielding" 1
+		"Ned Cell" 9
+		"Adq aei Capacitor" 1
+		"Niv gai Cell" 8
+		"Avy Cooler" 1
+		"Yao eeq Heat Shunt" 1
+		"Hyperdrive"
+	engine 158 106
+	engine 56 106
+	gun 111 144
+	gun 154 46
+	gun 65 46
+	turret 72 72
+	turret 144 72
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quhnap T0.8 ship"
+

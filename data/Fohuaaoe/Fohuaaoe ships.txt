@@ -1,0 +1,297 @@
+ship "Ogal olia"
+	sprite "ship/Fohuaaoe/Ogal olia"
+	attributes 
+		category "Light Warship"
+		"cost" 775000
+		"shields" 10000
+		"hull" 1700
+		"required crew" 10
+		"bunks" 20
+		"mass" 138.4
+		"drag" 2.92
+		"heat dissipation" 0.83
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 264
+		"weapon capacity" 90
+		"engine capacity" 77
+		weapon 
+			"blast radius" 117
+			"shield damage" 1170
+			"hull damage" 590
+			"hit force" 1760
+	outfits 
+		"Ihui Thruster" 1
+		"Ihui Steering" 1
+		"Ipuu idiu Core" 2
+		"Oaoe Capacitor" 1
+		"Fuua seza Core" 2
+		"Fiue Thruster" 1
+		"Fiue Steering" 1
+		"Okhl yifi Core" 1
+		"Agee leip Heat Shunt" 1
+		"Hyperdrive"
+	engine 87 97
+	turret 87 84
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Fohuaaoe T1.1 ship"
+
+ship "Eomaxuuu"
+	sprite "ship/Fohuaaoe/Eomaxuuu"
+	attributes 
+		category "Heavy Warship"
+		"cost" 3394000
+		"shields" 29700
+		"hull" 5000
+		"required crew" 25
+		"bunks" 36
+		"mass" 456.7
+		"drag" 9.56
+		"heat dissipation" 0.54
+		"fuel capacity" 600
+		"cargo space" 65
+		"outfit space" 1034
+		"weapon capacity" 300
+		"engine capacity" 308
+		weapon 
+			"blast radius" 347
+			"shield damage" 3470
+			"hull damage" 1740
+			"hit force" 5210
+	outfits 
+		"Ahmk Torpedo" 80
+		"Aiop Torpedo Catapult" 1
+		"Aiop Torpedo" 20
+		"Ioio Anti-Missile" 1
+		"Ahmk Torpedo Launcher" 1
+		"Waqi Thruster" 1
+		"Waqi Steering" 1
+		"Fuua seza Core" 7
+		"Oaoe Capacitor" 1
+		"Ipuu idiu Core" 7
+		"Okhl yifi Core" 6
+		"Rkipmaah Thruster" 1
+		"Rkipmaah Steering" 1
+		"Agee leip Heat Shunt" 1
+		"Hyperdrive"
+	engine 178 107
+	engine 106 107
+	engine 150 108
+	gun 125 64
+	gun 205 91
+	gun 92 91
+	gun 182 95
+	gun 115 95
+	gun 172 64
+	turret 150 77
+	turret 195 61
+	turret 97 61
+	turret 174 60
+	turret 118 60
+	turret 175 62
+	turret 117 62
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Fohuaaoe T1.1 ship"
+
+ship "Ieua kiehlome"
+	sprite "ship/Fohuaaoe/Ieua kiehlome"
+	attributes 
+		category "Medium Warship"
+		"cost" 14000
+		"shields" 9900
+		"hull" 1700
+		"required crew" 7
+		"bunks" 12
+		"mass" 217.1
+		"drag" 5.11
+		"heat dissipation" 0.8
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 319
+		"weapon capacity" 100
+		"engine capacity" 88
+		weapon 
+			"blast radius" 116
+			"shield damage" 1160
+			"hull damage" 580
+			"hit force" 1740
+	outfits 
+		"Ahmk Torpedo" 40
+		"Oaja Anti-Missile" 1
+		"Ihui Thruster" 1
+		"Ihui Steering" 1
+		"Ipuu idiu Core" 2
+		"Oaoe Capacitor" 1
+		"Fuua seza Core" 2
+		"Fiue Thruster" 1
+		"Fiue Steering" 1
+		"Okhl yifi Core" 1
+		"Agee leip Heat Shunt" 1
+		"Hyperdrive"
+	engine 107 94
+	gun 75 64
+	gun 136 64
+	turret 75 130
+	turret 129 73
+	turret 78 73
+	turret 132 130
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Fohuaaoe T1.1 ship"
+
+ship "Xoxicigv"
+	sprite "ship/Fohuaaoe/Xoxicigv"
+	attributes 
+		category "Light Freighter"
+		"cost" 163000
+		"shields" 2700
+		"hull" 500
+		"required crew" 10
+		"bunks" 25
+		"mass" 220.9
+		"drag" 5.44
+		"heat dissipation" 0.89
+		"fuel capacity" 800
+		"cargo space" 75
+		"outfit space" 484
+		"weapon capacity" 170
+		"engine capacity" 143
+		weapon 
+			"blast radius" 32
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits 
+		"Ahmk Torpedo" 40
+		"Aiop Torpedo Catapult" 1
+		"Aiop Torpedo" 20
+		"Oaja Anti-Missile" 1
+		"Rkipmaah Thruster" 1
+		"Rkipmaah Steering" 1
+		"Fuua seza Core" 4
+		"Oaoe Capacitor" 1
+		"Ipuu idiu Core" 3
+		"Okhl yifi Core" 2
+		"Ihui Thruster" 1
+		"Ihui Steering" 1
+		"Hyperdrive"
+	engine 66 46
+	gun 66 63
+	gun 96 23
+	gun 33 23
+	turret 66 20
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Fohuaaoe T1.1 ship"
+
+ship "Eoazaaeq"
+	sprite "ship/Fohuaaoe/Eoazaaeq"
+	attributes 
+		category "Light Warship"
+		"cost" 717000
+		"shields" 9400
+		"hull" 1600
+		"required crew" 8
+		"bunks" 16
+		"mass" 213.3
+		"drag" 4.6
+		"heat dissipation" 0.56
+		"fuel capacity" 900
+		"cargo space" 30
+		"outfit space" 308
+		"weapon capacity" 90
+		"engine capacity" 88
+		weapon 
+			"blast radius" 110
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 1650
+	outfits 
+		"Ahmk Torpedo" 40
+		"Ihui Thruster" 1
+		"Ihui Steering" 1
+		"Ipuu idiu Core" 2
+		"Oaoe Capacitor" 1
+		"Okhl yifi Core" 2
+		"Fiue Thruster" 1
+		"Fiue Steering" 1
+		"Agee leip Heat Shunt" 1
+		"Eowy emox Cooler" 1
+		"Hyperdrive"
+	engine 75 115
+	gun 75 63
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Fohuaaoe T1.1 ship"
+
+ship "Yuoraexm"
+	sprite "ship/Fohuaaoe/Yuoraexm"
+	attributes 
+		category "Transport"
+		"cost" 284000
+		"shields" 6500
+		"hull" 1100
+		"required crew" 8
+		"bunks" 41
+		"mass" 146.9
+		"drag" 3.35
+		"heat dissipation" 0.55
+		"fuel capacity" 700
+		"cargo space" 20
+		"outfit space" 352
+		"weapon capacity" 120
+		"engine capacity" 110
+		weapon 
+			"blast radius" 76
+			"shield damage" 760
+			"hull damage" 380
+			"hit force" 1140
+	outfits 
+		"Ahmk Torpedo" 40
+		"Rkipmaah Thruster" 1
+		"Rkipmaah Steering" 1
+		"Fuua seza Core" 3
+		"Oaoe Capacitor" 1
+		"Ipuu idiu Core" 2
+		"Okhl yifi Core" 1
+		"Ihui Thruster" 1
+		"Ihui Steering" 1
+		"Hyperdrive"
+	engine 92 50
+	gun 92 70
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Fohuaaoe T1.1 ship"
+

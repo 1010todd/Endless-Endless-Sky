@@ -1,0 +1,200 @@
+outfit "Xud Tachyon Projector"
+	category "Guns"
+	cost 2789411635000
+	thumbnail "outfit/electron laser"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 1.8
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.6
+		"firing heat" 1.9
+		"shield damage" 8.6
+		"hull damage" 4.4
+	description "Sonemx T4.4 Beam weapon"
+
+outfit "Xud Tachyon Projector Turret"
+	category "Turrets"
+	cost 7316694876261.747
+	thumbnail "outfit/electron laser turret"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/laser"
+		"hardpoint sprite" "hardpoint/electron laser turret"
+		sound "heavy laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 1.8
+		"turret turn" 1.3
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.6
+		"firing heat" 1.9
+		"shield damage" 17.2
+		"hull damage" 8.8
+	description "Sonemx T4.4 Beam weapon 2gun Turret"
+
+outfit "Ffo Rocket"
+	category "Ammunition"
+	cost 629265930233
+	thumbnail "outfit/sidewinder"
+	"mass" 0.03
+	"Ffo Rocket capacity" -1
+	description "Sonemx Missile"
+
+outfit "Ffo Rocket Storage
+	category "Ammunition"
+	cost 3204407341491
+	thumbnail "outfit/sidewinder storage"
+	"mass" 3
+	"outfit space" -1
+	"Ffo Rocket capacity" 33
+	ammo "Ffo Rocket"
+	description "Ffo Rocket Storage"
+
+outfit "Ffo Rocket Deployer"
+	category "Secondary Weapons"
+	cost 3008130161600
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 3
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	"Ffo Rocket capacity" 33
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Ffo Rocket"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 5.2
+		"velocity" 33
+		"lifetime" 500
+		"reload" 1
+		"firing energy" 12.0
+		"firing heat" 7.9
+		"acceleration" 1.1
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 37.9
+		"hull damage" 23.4
+		"fuel damage" 2.6
+		"energy damage" 2.6
+		"disruption damage" 2.6
+		"missile strength" 76.0
+	description "Sonemx T4.4 Missile weapon"
+
+outfit "Gao Rocket"
+	category "Ammunition"
+	cost 867308536884
+	thumbnail "outfit/torpedo"
+	"mass" 0.08
+	"Gao Rocket capacity" -1
+	description "Sonemx Missile"
+
+outfit "Gao Rocket Storage
+	category "Ammunition"
+	cost 4627648805912
+	thumbnail "outfit/torpedo storage"
+	"mass" 1
+	"outfit space" -3
+	"Gao Rocket capacity" 38
+	ammo "Gao Rocket"
+	description "Gao Rocket Storage"
+
+outfit "Gao Rocket Catapult"
+	category "Secondary Weapons"
+	cost 3740967083600
+	thumbnail "outfit/torpedo launcher"
+	"mass" 1
+	"outfit space" -46
+	"weapon capacity" -46
+	"gun ports" -1
+	"Gao Rocket capacity" 38
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Gao Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 3.5
+		"velocity" 37
+		"lifetime" 1700
+		"reload" 1
+		"firing energy" 3.8
+		"firing heat" 8.3
+		"acceleration" 1.8
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 64.4
+		"hull damage" 79.6
+		"missile strength" 113.0
+	description "Sonemx T4.4 Missile weapon"
+
+outfit "Ema Auto Bombard"
+	category "Guns"
+	cost 2363966665900
+	thumbnail "outfit/inhibitor"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile6"
+		sound "bombardment"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.1
+		"velocity" 17
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 4.8
+		"firing heat" 5.5
+		"shield damage" 12.9
+		"hull damage" 44.3
+	description "Sonemx T4.4 Projectile weapon"
+
+outfit "Ema Auto Bombard Turret"
+	category "Turrets"
+	cost 5484429163082.14
+	thumbnail "outfit/inhibitor turret"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile6"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "bombardment"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.1
+		"turret turn" 1.3
+		"velocity" 17
+		"lifetime" 6
+		"reload" 1
+		"firing energy" 4.8
+		"firing heat" 5.5
+		"shield damage" 38.7
+		"hull damage" 132.89999999999998
+	description "Sonemx T4.4 Projectile weapon 3gun Turret"
+

@@ -1,0 +1,2319 @@
+outfit "Dukz Capacitor"
+	category "Power"
+	cost 322100
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 3450
+	description "Bebe yujo T2.1 Battery"
+
+outfit "Feiq iuoa Capacitor"
+	category "Power"
+	cost 579800
+	thumbnail "outfit/tiny battery"
+	"mass" 11
+	"outfit space" -11
+	"energy capacity" 8280
+	description "Bebe yujo T2.1 Battery"
+
+outfit "Nuex Capacitor"
+	category "Power"
+	cost 1043700
+	thumbnail "outfit/tiny battery"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 19880
+	description "Bebe yujo T2.1 Battery"
+
+
+outfit "Ibke Reactor"
+	category "Power"
+	cost 54800
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 2.6
+	"heat generation" 3.5
+	description "Bebe yujo T2.1 Power generator"
+
+
+outfit "Cwuo Thruster"
+	category "Engines"
+	cost 5831000
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"thrust" 6.8
+	"thrusting energy" 0.6
+	"thrusting heat" 0.9
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.2
+	"flare sound" "ka'het small"
+	description "Bebe yujo T2.1 Thruster"
+
+outfit "Cwuo Steering"
+	category "Engines"
+	cost 4355896
+	thumbnail "outfit/tiny ion steering"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" -5
+	"turn" 172
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Bebe yujo T2.1 steering"
+
+outfit "Doac ahir Thruster"
+	category "Engines"
+	cost 9912700
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 16.3
+	"thrusting energy" 1.4
+	"thrusting heat" 2.2
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ka'het medium"
+	description "Bebe yujo T2.1 Thruster"
+
+outfit "Doac ahir Steering"
+	category "Engines"
+	cost 16851600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 412.8
+	"turning energy" 1.0
+	"turning heat" 1.7
+	description "Bebe yujo T2.1 steering"
+
+outfit "Liqg Thruster"
+	category "Engines"
+	cost 16851600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 39.1
+	"thrusting energy" 3.4
+	"thrusting heat" 5.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Bebe yujo T2.1 Thruster"
+
+outfit "Liqg Steering"
+	category "Engines"
+	cost 28647800
+	thumbnail "outfit/tiny ion steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 990.7
+	"turning energy" 2.4
+	"turning heat" 4.1
+	description "Bebe yujo T2.1 steering"
+
+
+outfit "Hwuo eezh Shield Rejuvenator"
+	category "Systems"
+	cost 46300
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 0.51
+	"shield energy" 0.94
+	"shield heat" 1
+	description "Bebe yujo T2.1 shield gen"
+
+outfit "Nduu Shield Rejuvenator"
+	category "Systems"
+	cost 83400
+	thumbnail "outfit/small shield"
+	"mass" 16
+	"outfit space" -16
+	"shield generation" 1.0
+	"shield energy" 1.5
+	"shield heat" 1
+	description "Bebe yujo T2.1 shield gen"
+
+outfit "Ouau Shield Rejuvenator"
+	category "Systems"
+	cost 150200
+	thumbnail "outfit/medium shield"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 2.0
+	"shield energy" 2.4
+	"shield heat" 1
+	description "Bebe yujo T2.1 shield gen"
+
+
+
+outfit "Szeu Heat Shunt"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Idjo duha Cell"
+	category "Power"
+	cost 630300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.7
+	"heat generation" 5.8
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Jaha xagu Cell"
+	category "Power"
+	cost 1071600
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 6.5
+	"heat generation" 23.2
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Ndai Cell"
+	category "Power"
+	cost 1821800
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 15.6
+	"heat generation" 92.8
+	description "Bebe yujo T2.1 Power generator"
+
+
+outfit "Exac Generator"
+	category "Power"
+	cost 1055100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.4
+	"heat generation" 3.3
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Hieo Generator"
+	category "Power"
+	cost 1793700
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 5.8
+	"heat generation" 6.6
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Uiimtrok Generator"
+	category "Power"
+	cost 3049300
+	thumbnail "outfit/medium fuel cell"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 13.9
+	"heat generation" 13.2
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Ujkiguoc Generator"
+	category "Power"
+	cost 5183900
+	thumbnail "outfit/large fuel cell"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 33.4
+	"heat generation" 26.4
+	description "Bebe yujo T2.1 Power generator"
+
+
+outfit "Deod Core"
+	category "Power"
+	cost 843700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.4
+	"heat generation" 7.0
+	description "Bebe yujo T2.1 Power generator"
+
+outfit "Snii ubak Core"
+	category "Power"
+	cost 1434300
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 5.8
+	"heat generation" 8.4
+	description "Bebe yujo T2.1 Power generator"
+
+
+outfit "Juub Temperature Control"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ewco Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Hgai jnai Cooling"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kumi bjiu Cooler"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xipo Cooling"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ibue pbop Heat Shunt"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uiamyzoo Temperature Control"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 30
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Oxuocicj Heatsink"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ibur Temperature Control"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Hfus Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 45
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Oxxn Heat Shunt"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ajno Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Eazr xuuo Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Sauj Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Feus Temperature Control"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Aseu issu Cooler"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zoai zuxe Heatsink"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	"active cooling" 5
+	"cooling energy" 5.04581780291883
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Edbu Cooler"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kiti skoi Heat Pump"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Asujuxou Temperature Control"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Gnuo Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	"active cooling" 48
+	"cooling energy" 7.846780806565072
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xjiiieyj Heat Pump"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xoni Temperature Control"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ebio Heat Shunt"
+	category "Systems"
+	cost 11500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Maki jouc Heat Shunt"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Grau Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Bcuu ioui Temperature Control"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Isue bsan Heat Pump"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Oxxi Cooling"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Foon Heat Pump"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zgio Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Yzuqzpbo Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ooauinai Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Qoohpoyi Heatsink"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kixe Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	"active cooling" 6
+	"cooling energy" 5.19936517229583
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zsoeappr Heatsink"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 46
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iuus Heatsink"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Unha sasi Heatsink"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Adkb Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Knarzozo Cooling"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Frui Cooling"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Amez Heat Shunt"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	"active cooling" 40
+	"cooling energy" 3.608291956821077
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Murx ueee Heat Shunt"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	"active cooling" 39
+	"cooling energy" 9.400962287283326
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Mirb Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 5
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uoie Temperature Control"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xlei Cooling"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Pxuedzah Temperature Control"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uewq Temperature Control"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Dizg faes Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Huezsgox Heatsink"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Baez Cooler"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	"active cooling" 20
+	"cooling energy" 6.664454781196192
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Jomd Cooler"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Gcooebyj Heat Pump"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 42
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Jajr imon Cooling"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Rogu Cooler"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Rnun oaib Cooler"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Fjob Temperature Control"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	"active cooling" 7
+	"cooling energy" 9.961554022026029
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Bedpyomc Heat Shunt"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Usxo Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Giga Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Baeb Heat Pump"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	"active cooling" 60
+	"cooling energy" 2.9473786902249635
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iiaj iyeb Heat Shunt"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	"active cooling" 20
+	"cooling energy" 4.544872145685992
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Rzuk edxe Heat Shunt"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zuie Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Otba edue Heat Shunt"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ujma Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Nemi oiay Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Enza aszo Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Cesaijpu Heat Pump"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Geervouo Temperature Control"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Juje Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	"active cooling" 44
+	"cooling energy" 7.670426983989086
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ezsu Cooling"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	"active cooling" 44
+	"cooling energy" 4.696667979639391
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ouik mxix Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ifue Heat Shunt"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xefe Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Inxe zaca Cooler"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iumtrawu Heat Pump"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 34
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ziie heio Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Idzo Cooler"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 1
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Digm adhq Heat Pump"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Yxaz Heatsink"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Buoe Temperature Control"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Geja huqo Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 52
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Euqi Heat Shunt"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Basu Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 23
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ocwu Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Opea maoi Temperature Control"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kuazuuxo Cooler"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Suue osqq Heat Pump"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Afox Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Arix Cooling"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 43
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Eosi ooyu Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Gopx kozu Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Obadzaea Cooling"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 17
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ikya ouah Cooling"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Asna Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 13
+	"active cooling" 21
+	"cooling energy" 6.012373930641141
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Pjie Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 16
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Piou Cooling"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Enko baew Heat Shunt"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Eiaz jmee Cooling"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 13
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Unub Heat Pump"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 30
+	"active cooling" 39
+	"cooling energy" 9.460689443916719
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zaim Temperature Control"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 42
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ojop Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 35
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uxiosepi Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 100
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zuph Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 29
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Yexajnaa Heat Pump"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 42
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Euei boun Cooler"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 23
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ujui xbeo Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 32
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ebbu ifuj Temperature Control"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/cooling module"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 31
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Mico Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 27
+	"active cooling" 23
+	"cooling energy" 13.876958833744824
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Akeu Temperature Control"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 38
+	"active cooling" 90
+	"cooling energy" 12.882423959427907
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ieca Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 26
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Quee uusz Heat Shunt"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 29
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Arad raez Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 41
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Osuo nooq Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 72
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Mzeo uoii Heat Pump"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Suoj Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 25
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Yeos ixkd Heat Shunt"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 38
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Fhou Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 41
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iogi Cooler"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Nosa roci Cooling"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 35
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xzor Temperature Control"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 32
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uuso Heat Pump"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/small heat shunt"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 43
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Puwx Heat Pump"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Bixu cuai Temperature Control"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uleiizuu Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ueke umhu Temperature Control"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/water cooling"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 46
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Nsij suih Heat Pump"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 31
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uiuu Heat Shunt"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling ducts"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 41
+	"active cooling" 129
+	"cooling energy" 16.52572313541048
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ieuh Heat Pump"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 111
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Shaexuse Temperature Control"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 144
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Yiadjruu Heatsink"
+	category "Systems"
+	cost 10400
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 26
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Moij Cooling"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling module"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 40
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Abuo Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 27
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Mdaakoui Cooling"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 29
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ogap deaa Heat Pump"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 34
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Apze espa Heat Shunt"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 24
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Sueiohos Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 22
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Sahe Heat Pump"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 30
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ohrx meni Cooling"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 26
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ojbu Temperature Control"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"active cooling" 183
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Doubafnk Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 39
+	"active cooling" 78
+	"cooling energy" 21.419731419774827
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Dasb orix Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 38
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xiuzubji Cooling"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 31
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kaiu Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/water cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 35
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Oiab ckei Cooling"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 29
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Axuarobo Cooling"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 35
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Rieh xueu Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 38
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Opil auek Cooler"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/cooling module"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 39
+	"active cooling" 62
+	"cooling energy" 20.536962713588597
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kdui Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 36
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Jabefopa Heat Pump"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Nuke Cooling"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 36
+	"active cooling" 17
+	"cooling energy" 15.131090825164014
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Dumo saoo Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 32
+	"active cooling" 149
+	"cooling energy" 11.539157710562689
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Duaa oubo Cooling"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xigz Temperature Control"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 1
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Fziuqiab Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 25
+	"active cooling" 17
+	"cooling energy" 14.334076392839712
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Aoaa Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Pacimapm Heatsink"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 25
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Hbao Heat Pump"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 34
+	"active cooling" 119
+	"cooling energy" 10.171493788217669
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zuui ifuk Heat Pump"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zaba Heatsink"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 24
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Cuuj Heat Pump"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 29
+	"active cooling" 67
+	"cooling energy" 14.749394547217868
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iiijrahe Heatsink"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/large heat shunt"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 41
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Usai Cooler"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 43
+	"active cooling" 215
+	"cooling energy" 17.742259907624952
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ujpo Cooling"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 29
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ngok Heat Shunt"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/liquid helium"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 257
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Moba Temperature Control"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/small heat shunt"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uoiy uaax Cooling"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 34
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Nofu Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 38
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Mivoogen Temperature Control"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 42
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Exon Heat Shunt"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 26
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Dpeodcoa Heatsink"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 41
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Hods mauu Temperature Control"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 43
+	"active cooling" 237
+	"cooling energy" 25.357648147938413
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Oisiijfo Temperature Control"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 147
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Pouk gaoe Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 25
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Buew ozao Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 38
+	"active cooling" 140
+	"cooling energy" 23.90833533702841
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zoju Heat Shunt"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 55
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uzuu Cooling"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 27
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ohsi Cooler"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Inkd Cooling"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 94
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Fweoinye Heat Pump"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 40
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Raiuiiup Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 40
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Kfio Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 23
+	"active cooling" 109
+	"cooling energy" 9.779347246962006
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ioqoauxp Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 26
+	"active cooling" 87
+	"cooling energy" 13.74691063485482
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Gobjkecp Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 32
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ouba dkee Heat Pump"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Epdd zexb Heat Shunt"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/hai williwaw"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 40
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Vsae ieku Cooling"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/water cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 33
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Uzok Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 33
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Udujharb Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 22
+	"active cooling" 11
+	"cooling energy" 8.20270216535599
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Iuin uuqa Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/water cooling"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 168
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Gibi Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 37
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Paop hiko Heat Pump"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling module"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 37
+	"active cooling" 104
+	"cooling energy" 17.237857511162513
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Obzo Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 34
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Puma Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 28
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ukje Cooling"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 41
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Urhi Temperature Control"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 31
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Zaxt quob Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 39
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Ojoh Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 26
+	description "Bebe yujo T2.1 Cooling"
+
+
+outfit "Xauw neiu Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 23
+	description "Bebe yujo T2.1 Cooling"
+
+

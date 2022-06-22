@@ -1,0 +1,457 @@
+ship "Bemiwtae"
+	sprite "ship/Uiuoveeo/Bemiwtae"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 111310000
+		"shields" 250000
+		"hull" 213900
+		"required crew" 17
+		"bunks" 83
+		"mass" 746.6
+		"drag" 14.55
+		"heat dissipation" 0.62
+		"fuel capacity" 2000
+		"cargo space" 360
+		"outfit space" 1270
+		"weapon capacity" 480
+		"engine capacity" 350
+		weapon 
+			"blast radius" 4639
+			"shield damage" 46390
+			"hull damage" 23200
+			"hit force" 69590
+	outfits 
+		"Veqj Thruster" 1
+		"Veqj Steering" 1
+		"Ofui fotn Shield Regenerator" 1
+		"Hnue Cannon" 1
+		"Hnue Cannon Turret" 1
+		"Qobf Assault Mortar Turret" 1
+		"Wuew Anti-Missile" 1
+		"Oeah Thruster" 1
+		"Oeah Steering" 1
+		"Hyperdrive"
+	engine 228 140
+	engine 140 140
+	engine 200 159
+	engine 168 159
+	gun 188 192
+	turret 175 144
+	turret 192 64
+	turret 178 64
+	turret 195 144
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uiuoveeo T3.3 ship"
+
+ship "Biexyzou"
+	sprite "ship/Uiuoveeo/Biexyzou"
+	attributes 
+		category "Heavy Warship"
+		"cost" 57063000
+		"shields" 449200
+		"hull" 384400
+		"required crew" 69
+		"bunks" 98
+		"mass" 1020.0
+		"drag" 19.01
+		"heat dissipation" 0.81
+		"fuel capacity" 1100
+		"cargo space" 125
+		"outfit space" 2020
+		"weapon capacity" 720
+		"engine capacity" 660
+		weapon 
+			"blast radius" 8336
+			"shield damage" 83360
+			"hull damage" 41680
+			"hit force" 125040
+	outfits 
+		"Weqo Thruster" 1
+		"Weqo Steering" 1
+		"Ofui fotn Shield Regenerator" 1
+		"Hnue Cannon" 2
+		"Hnue Cannon Turret" 1
+		"Qobf Assault Mortar" 1
+		"Qobf Assault Mortar Turret" 1
+		"Poia Assault Bombard" 1
+		"Egzj Rocket Catapult" 1
+		"Egzj Rocket" 17
+		"Iiel Laser" 1
+		"Oiuwinex Cell" 1
+		"Veqj Thruster" 1
+		"Veqj Steering" 1
+		"Hyperdrive"
+	engine 219 203
+	engine 139 203
+	engine 203 227
+	engine 155 227
+	engine 202 217
+	engine 156 217
+	engine 183 232
+	gun 138 151
+	gun 212 159
+	gun 151 159
+	gun 197 190
+	gun 166 190
+	gun 225 151
+	turret 120 177
+	turret 240 177
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uiuoveeo T3.3 ship"
+
+ship "Hajoneiu"
+	sprite "ship/Uiuoveeo/Hajoneiu"
+	attributes 
+		category "Interceptor"
+		"cost" 92000
+		"shields" 36300
+		"hull" 31100
+		"required crew" 1
+		"bunks" 3
+		"mass" 47.8
+		"drag" 0.99
+		"heat dissipation" 1.1
+		"fuel capacity" 1600
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 674
+			"shield damage" 6740
+			"hull damage" 3370
+			"hit force" 10110
+	outfits 
+		"Ahriwaga Battery Pack" 1
+		"Ibwg naue Thruster" 1
+		"Ibwg naue Steering" 1
+		"Qobf Assault Mortar" 1
+		"Zaeu Heat Pump" 2
+		"Hyperdrive"
+	engine 58 60
+	gun 58 44
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Uiuoveeo T3.3 ship"
+
+ship "Vnixepwu"
+	sprite "ship/Uiuoveeo/Vnixepwu"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 19141000
+		"shields" 156500
+		"hull" 133900
+		"required crew" 52
+		"bunks" 74
+		"mass" 539.0
+		"drag" 10.63
+		"heat dissipation" 0.87
+		"fuel capacity" 1900
+		"cargo space" 260
+		"outfit space" 600
+		"weapon capacity" 230
+		"engine capacity" 200
+		weapon 
+			"blast radius" 2904
+			"shield damage" 29040
+			"hull damage" 14520
+			"hit force" 43560
+	outfits 
+		"Veqj Thruster" 1
+		"Veqj Steering" 1
+		"Ofui fotn Shield Regenerator" 1
+		"Hnue Cannon" 1
+		"Qobf Assault Mortar Turret" 1
+		"Wuew Anti-Missile" 1
+		"Oeah Thruster" 1
+		"Oeah Steering" 1
+		"Hyperdrive"
+	engine 175 162
+	engine 34 162
+	gun 113 122
+	turret 33 208
+	turret 187 208
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uiuoveeo T3.3 ship"
+
+ship "Oifogiia"
+	sprite "ship/Uiuoveeo/Oifogiia"
+	attributes 
+		category "Heavy Warship"
+		"cost" 90011000
+		"shields" 409200
+		"hull" 350100
+		"required crew" 20
+		"bunks" 66
+		"mass" 788.6
+		"drag" 14.24
+		"heat dissipation" 0.83
+		"fuel capacity" 1200
+		"cargo space" 95
+		"outfit space" 1530
+		"weapon capacity" 590
+		"engine capacity" 440
+		weapon 
+			"blast radius" 7593
+			"shield damage" 75930
+			"hull damage" 37970
+			"hit force" 113900
+	outfits 
+		"Ahriwaga Battery Pack" 1
+		"Weqo Thruster" 1
+		"Weqo Steering" 1
+		"Ofui fotn Shield Regenerator" 1
+		"Hnue Cannon" 1
+		"Hnue Cannon Turret" 1
+		"Qobf Assault Mortar" 1
+		"Qobf Assault Mortar Turret" 1
+		"Wuew Anti-Missile" 1
+		"Poia Assault Bombard Turret" 1
+		"Zaeu Heat Pump" 8
+		"Beaz Heat Pump" 5
+		"Uoie Cooler" 1
+		"Hyperdrive"
+	engine 215 136
+	engine 138 136
+	engine 206 153
+	engine 147 153
+	gun 149 60
+	gun 218 60
+	turret 170 129
+	turret 206 87
+	turret 158 87
+	turret 194 129
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uiuoveeo T3.3 ship"
+
+ship "Koijivla file"
+	sprite "ship/Uiuoveeo/Koijivla file"
+	attributes 
+		category "Transport"
+		"cost" 32715000
+		"shields" 66400
+		"hull" 56800
+		"required crew" 4
+		"bunks" 32
+		"mass" 95.4
+		"drag" 1.92
+		"heat dissipation" 0.76
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 170
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon 
+			"blast radius" 1232
+			"shield damage" 12320
+			"hull damage" 6160
+			"hit force" 18480
+	outfits 
+		"Ahriwaga Battery Pack" 1
+		"Ince Thruster" 1
+		"Ince Steering" 1
+		"Qobf Assault Mortar Turret" 1
+		"Zaeu Heat Pump" 1
+		"Beaz Heat Pump" 1
+		"Uoie Cooler" 1
+		"Hyperdrive"
+	engine 123 115
+	turret 123 117
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Uiuoveeo T3.3 ship"
+
+ship "Atpjguvnwhie"
+	sprite "ship/Uiuoveeo/Atpjguvnwhie"
+	attributes 
+		category "Interceptor"
+		"cost" 6187000
+		"shields" 30100
+		"hull" 25700
+		"required crew" 9
+		"bunks" 13
+		"mass" 92.6
+		"drag" 1.71
+		"heat dissipation" 1.06
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 50
+		"engine capacity" 40
+		weapon 
+			"blast radius" 558
+			"shield damage" 5580
+			"hull damage" 2790
+			"hit force" 8370
+	outfits 
+		"Ahriwaga Battery Pack" 1
+		"Ince Thruster" 1
+		"Ince Steering" 1
+		"Qobf Assault Mortar" 1
+		"Poia Assault Bombard" 1
+		"Zaeu Heat Pump" 1
+		"Beaz Heat Pump" 1
+		"Uoie Cooler" 1
+		"Hyperdrive"
+	engine 51 59
+	gun 41 45
+	gun 67 25
+	gun 32 25
+	gun 58 45
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Uiuoveeo T3.3 ship"
+
+ship "Wjeqayqwofwa"
+	sprite "ship/Uiuoveeo/Wjeqayqwofwa"
+	attributes 
+		category "Medium Warship"
+		"cost" 29619000
+		"shields" 153600
+		"hull" 131500
+		"required crew" 20
+		"bunks" 49
+		"mass" 403.4
+		"drag" 7.57
+		"heat dissipation" 0.52
+		"fuel capacity" 1400
+		"cargo space" 50
+		"outfit space" 620
+		"weapon capacity" 240
+		"engine capacity" 180
+		weapon 
+			"blast radius" 2851
+			"shield damage" 28510
+			"hull damage" 14260
+			"hit force" 42770
+	outfits 
+		"Veqj Thruster" 1
+		"Veqj Steering" 1
+		"Ofui fotn Shield Regenerator" 1
+		"Hnue Cannon" 1
+		"Qobf Assault Mortar" 1
+		"Qobf Assault Mortar Turret" 2
+		"Wuew Anti-Missile" 1
+		"Poia Assault Bombard" 1
+		"Poia Assault Bombard Turret" 1
+		"Oeah Thruster" 1
+		"Oeah Steering" 1
+		"Zaeu Heat Pump" 1
+		"Hyperdrive"
+	engine 153 107
+	engine 61 107
+	gun 111 116
+	gun 153 49
+	gun 66 49
+	turret 28 106
+	turret 167 86
+	turret 49 86
+	turret 188 106
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uiuoveeo T3.3 ship"
+
+ship "Uxlssixi"
+	sprite "ship/Uiuoveeo/Uxlssixi"
+	attributes 
+		category "Drone"
+		"cost" 8075000
+		"shields" 30000
+		"hull" 25700
+		"required crew" 1
+		"bunks" 2
+		"mass" 28.8
+		"drag" 0.55
+		"heat dissipation" 0.92
+		"fuel capacity" 1400
+		"cargo space" 5
+		"outfit space" 82
+		"weapon capacity" 20
+		"engine capacity" 12
+		weapon 
+			"blast radius" 557
+			"shield damage" 5570
+			"hull damage" 2790
+			"hit force" 8360
+	outfits 
+		"Ahriwaga Battery Pack" 1
+		"Zzia huvw Shield Regenerator" 1
+		"Qobf Assault Mortar" 1
+		"Zaeu Heat Pump" 1
+		"Beaz Heat Pump" 1
+	engine 41 53
+	gun 41 32
+	gun 57 20
+	gun 23 20
+	gun 49 30
+	gun 31 30
+	turret 41 50
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Uiuoveeo T3.3 ship"
+

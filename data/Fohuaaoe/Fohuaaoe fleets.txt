@@ -1,0 +1,51 @@
+fleet "Fohuaaoe Military"
+	government "Fohuaaoe"
+	names "Fohuaaoe names"
+	personality
+		coward
+		confusion 18
+	variant 10
+		"Eoazaaeq" 5
+		"Xoxicigv" 5
+		"Ieua kiehlome" 5
+	variant 19
+		"Ieua kiehlome" 4
+		"Yuoraexm" 4
+		"Eoazaaeq" 3
+	variant 12
+		"Ieua kiehlome" 5
+		"Eoazaaeq" 2
+		"Xoxicigv" 3
+	variant 5
+		"Eoazaaeq" 3
+		"Ieua kiehlome" 3
+		"Yuoraexm" 3
+	variant 15
+		"Yuoraexm" 3
+		"Eoazaaeq" 5
+		"Ieua kiehlome" 5
+fleet "Fohuaaoe Civilian"
+	government "Fohuaaoe"
+	names "Fohuaaoe names"
+	personality
+		timid
+	variant 0
+		"Yuoraexm" 2
+		"Eoazaaeq" 3
+		"Eomaxuuu" 1
+	variant 8
+		"Eoazaaeq" 1
+		"Ogal olia" 4
+		"Yuoraexm" 3
+	variant 10
+		"Eomaxuuu" 2
+		"Ogal olia" 4
+		"Ogal olia" 3
+	variant 27
+		"Yuoraexm" 2
+		"Ieua kiehlome" 4
+		"Ieua kiehlome" 4
+	variant 52
+		"Ogal olia" 1
+		"Ieua kiehlome" 4
+		"Xoxicigv" 2

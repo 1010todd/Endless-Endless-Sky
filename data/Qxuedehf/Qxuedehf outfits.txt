@@ -1,0 +1,270 @@
+outfit "Imuy Battery Pack"
+	category "Power"
+	cost 436500
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 6970
+	description "Qxuedehf T4.4 Battery"
+
+outfit "Tpaeevfi Battery Pack"
+	category "Power"
+	cost 785700
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 33460
+	description "Qxuedehf T4.4 Battery"
+
+outfit "Wpaa Battery Pack"
+	category "Power"
+	cost 1414300
+	thumbnail "outfit/tiny battery"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 160610
+	description "Qxuedehf T4.4 Battery"
+
+
+outfit "Cpee Reactor"
+	category "Power"
+	cost 134700
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 4.8
+	"heat generation" 5.1
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Hiauiztw Reactor"
+	category "Power"
+	cost 229000
+	thumbnail "outfit/small fuel cell"
+	"mass" 28
+	"outfit space" -28
+	"energy generation" 23.0
+	"heat generation" 7.1
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Iwgo Reactor"
+	category "Power"
+	cost 389300
+	thumbnail "outfit/medium fuel cell"
+	"mass" 39
+	"outfit space" -39
+	"energy generation" 110.4
+	"heat generation" 9.9
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Tour Reactor"
+	category "Power"
+	cost 661900
+	thumbnail "outfit/large fuel cell"
+	"mass" 55
+	"outfit space" -55
+	"energy generation" 529.9
+	"heat generation" 13.9
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Bose Generator"
+	category "Power"
+	cost 138400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 5.3
+	"heat generation" 13.7
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Duau Generator"
+	category "Power"
+	cost 235300
+	thumbnail "outfit/small fuel cell"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 25.4
+	"heat generation" 43.8
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Gobu Generator"
+	category "Power"
+	cost 400100
+	thumbnail "outfit/medium fuel cell"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 121.9
+	"heat generation" 140.2
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Chie Reactor"
+	category "Power"
+	cost 199200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 4.6
+	"heat generation" 10.7
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Puuy Reactor"
+	category "Power"
+	cost 338700
+	thumbnail "outfit/small fuel cell"
+	"mass" 42
+	"outfit space" -42
+	"energy generation" 22.1
+	"heat generation" 19.3
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Ihmw Generator"
+	category "Power"
+	cost 218900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 4.9
+	"heat generation" 9.9
+	description "Qxuedehf T4.4 Power generator"
+
+outfit "Kiur Generator"
+	category "Power"
+	cost 372200
+	thumbnail "outfit/small fuel cell"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 23.5
+	"heat generation" 17.8
+	description "Qxuedehf T4.4 Power generator"
+
+
+outfit "Kafa Thruster"
+	category "Engines"
+	cost 1697600
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 5.0
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.2
+	"flare sound" "ka'het small"
+	description "Qxuedehf T4.4 Thruster"
+
+outfit "Kafa Steering"
+	category "Engines"
+	cost 1485145
+	thumbnail "outfit/tiny ion steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 127
+	"turning energy" 0.3
+	"turning heat" 0.3
+	description "Qxuedehf T4.4 steering"
+
+outfit "Niea Thruster"
+	category "Engines"
+	cost 2886000
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 24.0
+	"thrusting energy" 1.4
+	"thrusting heat" 1.9
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1.2
+	"flare sound" "ka'het medium"
+	description "Qxuedehf T4.4 Thruster"
+
+outfit "Niea Steering"
+	category "Engines"
+	cost 4906200
+	thumbnail "outfit/tiny ion steering"
+	"mass" 23
+	"outfit space" -23
+	"engine capacity" -23
+	"turn" 609.6
+	"turning energy" 1.4
+	"turning heat" 1.4
+	description "Qxuedehf T4.4 steering"
+
+outfit "Oaeaqeho Thruster"
+	category "Engines"
+	cost 4906200
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"thrust" 115.2
+	"thrusting energy" 6.7
+	"thrusting heat" 9.1
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Qxuedehf T4.4 Thruster"
+
+outfit "Oaeaqeho Steering"
+	category "Engines"
+	cost 8340600
+	thumbnail "outfit/tiny ion steering"
+	"mass" 41
+	"outfit space" -41
+	"engine capacity" -41
+	"turn" 2926.1
+	"turning energy" 6.7
+	"turning heat" 6.7
+	description "Qxuedehf T4.4 steering"
+
+outfit "Tbii Thruster"
+	category "Engines"
+	cost 8340600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 94
+	"outfit space" -94
+	"engine capacity" -94
+	"thrust" 553.0
+	"thrusting energy" 32.2
+	"thrusting heat" 43.7
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1.2
+	"flare sound" "ka'het large"
+	description "Qxuedehf T4.4 Thruster"
+
+outfit "Tbii Steering"
+	category "Engines"
+	cost 14179100
+	thumbnail "outfit/tiny ion steering"
+	"mass" 74
+	"outfit space" -74
+	"engine capacity" -74
+	"turn" 14045.3
+	"turning energy" 32.2
+	"turning heat" 32.2
+	description "Qxuedehf T4.4 steering"
+
+
+
+
+outfit "Houo Cooling"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 25
+	description "Qxuedehf T4.4 Cooling"
+
+
+outfit "Ciatbiib Cooler"
+	category "Systems"
+	cost 23300
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 22
+	description "Qxuedehf T4.4 Cooling"
+
+

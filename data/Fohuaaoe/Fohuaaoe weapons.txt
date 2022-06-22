@@ -1,0 +1,169 @@
+outfit "Ahmk Torpedo"
+	category "Ammunition"
+	cost 932
+	thumbnail "outfit/typhoon"
+	"mass" 0.05
+	"Ahmk Torpedo capacity" -1
+	description "Fohuaaoe Missile"
+
+outfit "Ahmk Torpedo Storage
+	category "Ammunition"
+	cost 4674
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -2
+	"Ahmk Torpedo capacity" 40
+	ammo "Ahmk Torpedo"
+	description "Ahmk Torpedo Storage"
+
+outfit "Ahmk Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 4000
+	thumbnail "outfit/typhoon launcher"
+	"mass" 2
+	"outfit space" -73
+	"weapon capacity" -73
+	"gun ports" -1
+	"Ahmk Torpedo capacity" 40
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Ahmk Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.5
+		"velocity" 37
+		"lifetime" 200
+		"reload" 1
+		"firing energy" 12.6
+		"firing heat" 9.3
+		"acceleration" 1.1
+		"drag" 0.1
+		"turn" 30.1
+		"homing" 1
+		"optical tracking" 0.69
+		"shield damage" 7.2
+		"hull damage" 30.4
+		"missile strength" 1.3
+	description "Fohuaaoe T1.1 Missile weapon"
+
+outfit "Aiop Torpedo"
+	category "Ammunition"
+	cost 873
+	thumbnail "outfit/typhoon"
+	"mass" 0.05
+	"Aiop Torpedo capacity" -1
+	description "Fohuaaoe Missile"
+
+outfit "Aiop Torpedo Storage
+	category "Ammunition"
+	cost 7369
+	thumbnail "outfit/typhoon storage"
+	"mass" 0
+	"outfit space" -1
+	"Aiop Torpedo capacity" 20
+	ammo "Aiop Torpedo"
+	description "Aiop Torpedo Storage"
+
+outfit "Aiop Torpedo Catapult"
+	category "Secondary Weapons"
+	cost 3500
+	thumbnail "outfit/typhoon launcher"
+	"mass" 0
+	"outfit space" -61
+	"weapon capacity" -61
+	"gun ports" -1
+	"Aiop Torpedo capacity" 20
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Aiop Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 8.4
+		"velocity" 22
+		"lifetime" 3700
+		"reload" 1
+		"firing energy" 1.8
+		"firing heat" 2.3
+		"acceleration" 1.0
+		"drag" 0.1
+		"turn" 32.9
+		"homing" 1
+		"radar tracking" 0.57
+		"shield damage" 14.3
+		"hull damage" 24.3
+		"missile strength" 1.7
+	description "Fohuaaoe T1.1 Missile weapon"
+
+outfit "Ioio Anti-Missile"
+	category "Turrets"
+	cost 3100
+	thumbnail "outfit/pug anti-missile"
+	"mass" 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 3.4
+		"velocity" 160
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 89.8
+		"firing heat" 26.0
+	description "Fohuaaoe T1.1 Anti-missile"
+
+outfit "Oaja Anti-Missile"
+	category "Turrets"
+	cost 5300
+	thumbnail "outfit/pug anti-missile"
+	"mass" 17
+	"outfit space" -17
+	"weapon capacity" -17
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 38.9
+		"velocity" 130
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 26.7
+		"firing heat" 82.8
+	description "Fohuaaoe T1.1 Anti-missile"
+
+outfit "Eksx Anti-Missile"
+	category "Turrets"
+	cost 3700
+	thumbnail "outfit/anti-missile hai"
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 1.5
+		"velocity" 320
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 22.2
+		"firing heat" 5.2
+	description "Fohuaaoe T1.1 Anti-missile"
+

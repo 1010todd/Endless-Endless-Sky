@@ -1,0 +1,48 @@
+fleet "Bebe yujo Patrol"
+	government "Bebe yujo"
+	names "Bebe yujo names"
+	personality
+		coward
+		confusion 10
+	variant 10
+		"Ardooyeo" 2
+		"Veuiadps" 2
+		"Xaud szuo" 3
+	variant 4
+		"Woesjiir" 3
+		"Ruoi dusz edbk" 2
+		"Xaud szuo" 2
+		"Ardooyeo" 2
+	variant 15
+		"Uwep hoii" 4
+		"Woesjiir" 4
+		"Xaud szuo" 2
+	variant 4
+		"Woesjiir" 2
+		"Ardooyeo" 5
+		"Uwep hoii" 2
+	variant 15
+		"Woesjiir" 4
+		"Ruoi dusz edbk" 5
+		"Ardooyeo" 5
+	variant 19
+		"Ardooyeo" 3
+		"Lebm absi ixdd" 5
+		"Woesjiir" 2
+fleet "Bebe yujo Privateer"
+	government "Bebe yujo"
+	names "Bebe yujo names"
+	personality
+		timid
+	variant 0
+		"Ruoi dusz edbk" 2
+		"Veuiadps" 3
+		"Xaud szuo" 4
+	variant 7
+		"Ardooyeo" 2
+		"Woesjiir" 4
+		"Zsuf xobi" 3
+	variant 34
+		"Zsuf xobi" 4
+		"Veuiadps" 4
+		"Ardooyeo" 3

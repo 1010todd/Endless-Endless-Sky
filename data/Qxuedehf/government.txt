@@ -1,0 +1,16 @@
+government "Qxuedehf"
+	"display name" "Qxuedehf"
+	"swizzle" 2
+	"color" 0.536 0.628 0.099 0.100
+	"player reputation" -1
+	"crew attack" 1.5
+	"crew defense" 3.4
+	"attitude toward"
+		"Quhnap" -1
+		"Kaapgujjaf" -1
+		"Uhvavnedux" -1
+		"Lviiadod" 0
+		"Fohuaaoe" -1
+		"Uiuoveeo" -1
+		"Sonemx" -1
+		"Bebe yujo" -1

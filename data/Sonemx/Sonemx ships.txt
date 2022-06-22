@@ -1,0 +1,411 @@
+ship "Znaegw"
+	sprite "ship/Sonemx/Znaegw"
+	attributes 
+		category "Heavy Warship"
+		"cost" 558981000
+		"shields" 2398600
+		"hull" 1189700
+		"required crew" 29
+		"bunks" 143
+		"mass" 1080.6
+		"drag" 22.64
+		"heat dissipation" 0.66
+		"fuel capacity" 3500
+		"cargo space" 130
+		"outfit space" 1510
+		"weapon capacity" 490
+		"engine capacity" 470
+		weapon 
+			"blast radius" 35883
+			"shield damage" 358830
+			"hull damage" 179420
+			"hit force" 538250
+	outfits 
+		"Ezu Reactor" 3
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Xuz Thruster" 1
+		"Xuz Steering" 1
+		"Xud Tachyon Projector" 2
+		"Xud Tachyon Projector Turret" 4
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Gao Rocket Catapult" 1
+		"Gao Rocket" 38
+		"Ema Auto Bombard" 1
+		"Ema Auto Bombard Turret" 4
+		"Ioiopi Reactor" 2
+		"Zse Reactor" 2
+		"Vueuma Heatsink" 1
+		"Hyperdrive"
+	engine 220 177
+	engine 140 177
+	engine 199 135
+	engine 161 135
+	engine 188 95
+	gun 188 130
+	gun 239 41
+	gun 134 41
+	gun 235 192
+	gun 138 192
+	turret 164 64
+	turret 237 59
+	turret 133 59
+	turret 228 142
+	turret 142 142
+	turret 202 161
+	turret 168 161
+	turret 206 64
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sonemx T4.4 ship"
+
+ship "Aedeooxau"
+	sprite "ship/Sonemx/Aedeooxau"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 415763000
+		"shields" 1092800
+		"hull" 542100
+		"required crew" 31
+		"bunks" 45
+		"mass" 508.6
+		"drag" 10.47
+		"heat dissipation" 0.73
+		"fuel capacity" 3000
+		"cargo space" 245
+		"outfit space" 640
+		"weapon capacity" 200
+		"engine capacity" 200
+		weapon 
+			"blast radius" 16349
+			"shield damage" 163490
+			"hull damage" 81750
+			"hit force" 245240
+	outfits 
+		"Ezu Reactor" 2
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Teh Thruster" 1
+		"Teh Steering" 1
+		"Xud Tachyon Projector" 1
+		"Xud Tachyon Projector Turret" 2
+		"Ema Auto Bombard Turret" 1
+		"Ioiopi Reactor" 1
+		"Zse Reactor" 1
+		"Vueuma Heatsink" 1
+		"Hyperdrive"
+	engine 197 166
+	engine 93 166
+	gun 153 153
+	turret 153 117
+	turret 198 94
+	turret 102 94
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sonemx T4.4 ship"
+
+ship "Eigyeawte"
+	sprite "ship/Sonemx/Eigyeawte"
+	attributes 
+		category "Medium Warship"
+		"cost" 434748000
+		"shields" 1546500
+		"hull" 767000
+		"required crew" 11
+		"bunks" 36
+		"mass" 340.0
+		"drag" 6.73
+		"heat dissipation" 0.66
+		"fuel capacity" 3000
+		"cargo space" 45
+		"outfit space" 390
+		"weapon capacity" 130
+		"engine capacity" 110
+		weapon 
+			"blast radius" 23135
+			"shield damage" 231350
+			"hull damage" 115680
+			"hit force" 347030
+	outfits 
+		"Ezu Reactor" 1
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Ofe lfu Thruster" 1
+		"Ofe lfu Steering" 1
+		"Xud Tachyon Projector" 1
+		"Xud Tachyon Projector Turret" 2
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Ema Auto Bombard Turret" 1
+		"Zse Reactor" 1
+		"Raidno Heat Shunt" 1
+		"Hyperdrive"
+	engine 88 172
+	gun 59 60
+	gun 114 60
+	turret 88 137
+	turret 113 84
+	turret 57 84
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sonemx T4.4 ship"
+
+ship "Twoyaf"
+	sprite "ship/Sonemx/Twoyaf"
+	attributes 
+		category "Light Freighter"
+		"cost" 30056000
+		"shields" 197300
+		"hull" 97900
+		"required crew" 5
+		"bunks" 23
+		"mass" 226.2
+		"drag" 4.81
+		"heat dissipation" 0.5
+		"fuel capacity" 2100
+		"cargo space" 70
+		"outfit space" 260
+		"weapon capacity" 100
+		"engine capacity" 90
+		weapon 
+			"blast radius" 2952
+			"shield damage" 29520
+			"hull damage" 14760
+			"hit force" 44280
+	outfits 
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Bie Thruster" 1
+		"Bie Steering" 1
+		"Xud Tachyon Projector" 1
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Wulomm Cooling" 1
+		"Hyperdrive"
+	engine 82 133
+	gun 45 46
+	gun 116 46
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Sonemx T4.4 ship"
+
+ship "Gxuoseudy"
+	sprite "ship/Sonemx/Gxuoseudy"
+	attributes 
+		category "Medium Warship"
+		"cost" 272350000
+		"shields" 858500
+		"hull" 425800
+		"required crew" 17
+		"bunks" 21
+		"mass" 353.6
+		"drag" 7.56
+		"heat dissipation" 0.66
+		"fuel capacity" 1000
+		"cargo space" 45
+		"outfit space" 520
+		"weapon capacity" 180
+		"engine capacity" 130
+		weapon 
+			"blast radius" 12843
+			"shield damage" 128430
+			"hull damage" 64220
+			"hit force" 192650
+	outfits 
+		"Ezu Reactor" 2
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Ofe lfu Thruster" 1
+		"Ofe lfu Steering" 1
+		"Xud Tachyon Projector" 1
+		"Xud Tachyon Projector Turret" 2
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Gao Rocket Catapult" 1
+		"Gao Rocket" 38
+		"Ema Auto Bombard Turret" 1
+		"Ioiopi Reactor" 1
+		"Vueuma Heatsink" 1
+		"Hyperdrive"
+	engine 95 87
+	gun 95 138
+	gun 139 60
+	gun 48 60
+	turret 95 144
+	turret 139 63
+	turret 45 63
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sonemx T4.4 ship"
+
+ship "Iiiiozjmi"
+	sprite "ship/Sonemx/Iiiiozjmi"
+	attributes 
+		category "Light Freighter"
+		"cost" 97762000
+		"shields" 320200
+		"hull" 158800
+		"required crew" 33
+		"bunks" 41
+		"mass" 252.8
+		"drag" 5.45
+		"heat dissipation" 0.72
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 330
+		"weapon capacity" 110
+		"engine capacity" 110
+		weapon 
+			"blast radius" 4790
+			"shield damage" 47900
+			"hull damage" 23950
+			"hit force" 71850
+	outfits 
+		"Ebzioo Hull Repair" 1
+		"Ofe lfu Thruster" 1
+		"Ofe lfu Steering" 1
+		"Xud Tachyon Projector" 1
+		"Xud Tachyon Projector Turret" 1
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Bie Thruster" 1
+		"Bie Steering" 1
+		"Ezu Reactor" 1
+		"Vueuma Heatsink" 1
+		"Hyperdrive"
+	engine 96 72
+	gun 69 25
+	gun 120 25
+	turret 96 87
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Sonemx T4.4 ship"
+
+ship "Gyexie"
+	sprite "ship/Sonemx/Gyexie"
+	attributes 
+		category "Light Warship"
+		"cost" 235852000
+		"shields" 673500
+		"hull" 334000
+		"required crew" 12
+		"bunks" 24
+		"mass" 222.8
+		"drag" 4.26
+		"heat dissipation" 0.52
+		"fuel capacity" 1600
+		"cargo space" 30
+		"outfit space" 300
+		"weapon capacity" 100
+		"engine capacity" 100
+		weapon 
+			"blast radius" 10075
+			"shield damage" 100750
+			"hull damage" 50380
+			"hit force" 151130
+	outfits 
+		"Egzuxo Battery Pack" 1
+		"Ebzioo Hull Repair" 1
+		"Bie Thruster" 1
+		"Bie Steering" 1
+		"Xud Tachyon Projector" 1
+		"Iiomiu Heat Pump" 1
+		"Hyperdrive"
+	engine 60 66
+	gun 60 44
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sonemx T4.4 ship"
+
+ship "Wwiwii eav"
+	sprite "ship/Sonemx/Wwiwii eav"
+	attributes 
+		category "Drone"
+		"cost" 49047000
+		"shields" 204400
+		"hull" 101400
+		"required crew" 4
+		"bunks" 5
+		"mass" 36.0
+		"drag" 0.77
+		"heat dissipation" 0.87
+		"fuel capacity" 1600
+		"cargo space" 5
+		"outfit space" 66
+		"weapon capacity" 20
+		"engine capacity" 26
+		weapon 
+			"blast radius" 3058
+			"shield damage" 30580
+			"hull damage" 15290
+			"hit force" 45870
+	outfits 
+		"Egzuxo Battery Pack" 1
+		"Xud Tachyon Projector" 1
+		"Ffo Rocket Deployer" 1
+		"Ffo Rocket" 33
+		"Iiomiu Heat Pump" 2
+		"Hyperdrive"
+	engine 41 51
+	gun 18 20
+	gun 62 20
+	turret 41 45
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Sonemx T4.4 ship"
+

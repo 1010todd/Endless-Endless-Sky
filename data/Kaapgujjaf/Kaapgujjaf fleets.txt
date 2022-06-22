@@ -1,0 +1,22 @@
+fleet "Kaapgujjaf Security"
+	government "Kaapgujjaf"
+	names "Kaapgujjaf names"
+	personality
+		heroic
+		confusion 12
+	variant 2
+	variant 17
+	variant 4
+fleet "Kaapgujjaf Merchant"
+	government "Kaapgujjaf"
+	names "Kaapgujjaf names"
+	personality
+		timid
+	variant 0
+		"Mseeocivvi" 4
+		"Guciuiudqo aukuu" 1
+		"Ugazsouoyumemof" 3
+	variant 10
+		"Guciuiudqo aukuu" 2
+		"Guciuiudqo aukuu" 2
+		"Gifje deoun yoekp" 1

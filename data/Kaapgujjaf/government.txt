@@ -1,0 +1,16 @@
+government "Kaapgujjaf"
+	"display name" "Kaapgujjaf"
+	"swizzle" 21
+	"color" 0.690 0.910 0.384 0.295
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 3.4
+	"attitude toward"
+		"Quhnap" 0
+		"Uhvavnedux" -1
+		"Qxuedehf" -1
+		"Lviiadod" 1
+		"Fohuaaoe" 0
+		"Uiuoveeo" 0
+		"Sonemx" -1
+		"Bebe yujo" -1

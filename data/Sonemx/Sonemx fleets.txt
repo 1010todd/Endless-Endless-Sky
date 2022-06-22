@@ -1,0 +1,61 @@
+fleet "Sonemx Defense"
+	government "Sonemx"
+	names "Sonemx names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 11
+	variant 13
+		"Twoyaf" 2
+		"Eigyeawte" 1
+		"Gxuoseudy" 4
+		"Znaegw" 2
+		"Wwiwii eav" 2
+		"Aedeooxau" 5
+		"Iiiiozjmi" 1
+		"Gyexie" 5
+	variant 11
+		"Gyexie" 2
+		"Gxuoseudy" 5
+		"Znaegw" 1
+		"Wwiwii eav" 1
+		"Twoyaf" 4
+		"Eigyeawte" 1
+		"Aedeooxau" 5
+		"Iiiiozjmi" 3
+	variant 3
+		"Iiiiozjmi" 3
+		"Znaegw" 3
+		"Wwiwii eav" 3
+		"Aedeooxau" 1
+		"Gyexie" 4
+		"Eigyeawte" 2
+		"Twoyaf" 2
+		"Gxuoseudy" 1
+	variant 2
+		"Znaegw" 4
+		"Wwiwii eav" 5
+		"Eigyeawte" 2
+		"Aedeooxau" 1
+		"Iiiiozjmi" 2
+		"Gxuoseudy" 3
+		"Twoyaf" 2
+		"Gyexie" 4
+fleet "Sonemx Privateer"
+	government "Sonemx"
+	names "Sonemx names"
+	personality
+		timid
+	variant 0
+		"Iiiiozjmi" 3
+		"Twoyaf" 1
+		"Aedeooxau" 4
+	variant 5
+		"Wwiwii eav" 1
+		"Iiiiozjmi" 1
+		"Znaegw" 2
+	variant 18
+		"Wwiwii eav" 1
+		"Iiiiozjmi" 4
+		"Eigyeawte" 4

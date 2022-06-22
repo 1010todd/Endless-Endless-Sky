@@ -1,0 +1,16 @@
+government "Sonemx"
+	"display name" "Sonemx"
+	"swizzle" 12
+	"color" 0.009 0.869 0.630 0.297
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 3.4
+	"attitude toward"
+		"Quhnap" 0
+		"Kaapgujjaf" -1
+		"Uhvavnedux" -1
+		"Qxuedehf" -1
+		"Lviiadod" 0
+		"Fohuaaoe" -1
+		"Uiuoveeo" 0
+		"Bebe yujo" 0
