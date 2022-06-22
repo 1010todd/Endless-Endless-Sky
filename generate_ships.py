@@ -1125,7 +1125,7 @@ def create_ship(faction): #Todo, option for without faction?
                                                     spacechance=faction.lang_spacechance,
                                                     lang_charweight=faction.lang_charweight)
         #doesn't work yet
-        massperpix = random.triangular(0.009,0.015)
+        massperpix = 0.0001 #random.triangular(0.0009,0.00015)
         areapx = ship_mass/massperpix
         widthpx,lengthpx = round(areapx*(1-faction.lenwid)),round((areapx*faction.lenwid))
         widthpx,lengthpx = 0,0
