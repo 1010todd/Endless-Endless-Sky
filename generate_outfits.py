@@ -117,7 +117,7 @@ def create_battery(faction,fileout=''):
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
     if faction.devmode:
-        random.seed(99)
+        random.seed(faction.devmodeseed)
 
 
     battery_type_amount = 1
@@ -147,7 +147,8 @@ def create_battery(faction,fileout=''):
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=faction.devmodeseed+n)
             battery_name_list.append(battery_name)
         battery_name_list.sort() #Sort like vanilla names.
 
@@ -187,6 +188,7 @@ def create_battery(faction,fileout=''):
 #============================================================================================
 #============================================COOLING=========================================
 #============================================================================================
+
 def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, max_outfit_space = 10,coolingmin=None):
     namegen = namegenerator.Namegenerator(faction)
     generate_outfits_config = open(outfit_config_file, "r")
@@ -207,7 +209,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
             outfit_seed = next(generate_outfits_config)
             random.seed(int(outfit_seed))
     if faction.devmode:
-        random.seed(99)
+        random.seed(faction.devmodeseed)
     if max_outfit_count > 1:
         cooling_type_amount = random.randrange(1,max(2,max_outfit_count))
     else:
@@ -248,11 +250,15 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
         for n in range(cooling_iterations):
             name_length_min = 3
             name_length_max = 7
+            seedy =0 
+            if faction.devmode:
+                seedy = faction.devmodeseed+n
             cooling_name = namegen.generateNameFromRules(name_length_min,
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=seedy)
             cooling_name = cooling_name + ' ' + cooling_type
             cooling_name_list.append(cooling_name)
         cooling_name_list.sort()
@@ -353,11 +359,15 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         for n in range(power_iterations):
             name_length_min = 3
             name_length_max = 7
+            seedy =0 
+            if faction.devmode:
+                seedy = faction.devmodeseed+n
             power_name = namegen.generateNameFromRules(name_length_min,
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=seedy)
             power_name_list.append(power_name)
         power_name_list.sort()
 
@@ -457,11 +467,15 @@ def create_engines(faction,fileout=''):
         for n in range(engines_iterations):
             name_length_min = 3
             name_length_max = 7
+            seedy =0 
+            if faction.devmode:
+                seedy = faction.devmodeseed+n
             engine_name = namegen.generateNameFromRules(name_length_min,
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=seedy)
             engine_name_list.append(engine_name)
         engine_name_list.sort()
         #print("EngineNameList: ",engine_name_list)
@@ -594,7 +608,8 @@ def create_shield_generator(faction,fileout=''):
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=faction.devmodeseed+n)
             sheild_gen_name_list.append(shield_gen_name)
         sheild_gen_name_list.sort()
 
@@ -681,7 +696,8 @@ def create_hull_repair(faction,fileout=''):
                                                     name_length_max,
                                                     wordlen=faction.lang_wordlen,
                                                     spacechance=faction.lang_spacechance,
-                                                    lang_charweight=faction.lang_charweight)
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=faction.devmodeseed+n)
             sheild_gen_name_list.append(sheild_gen_name)
         sheild_gen_name_list.sort()
 
@@ -734,7 +750,7 @@ def create_hull_repair(faction,fileout=''):
 
 def load_custom_configs(faction):
     if faction.devmode:
-        random.seed(99)
+        random.seed(faction.devmodeseed)
     outfit_configs_list = glob.glob("config/outfit config/*.txt") #Imports files in directory
     outfit_configs_amount = len(outfit_configs_list) #Gets amount of items in list
     outfit_configs_iterations = 0

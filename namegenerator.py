@@ -6,8 +6,12 @@ class Namegenerator:
     def __init__(self,faction=None) -> None:
         self.az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         self.vowels = 'a e i o u'.split()
+        self.seed = 0
         if faction.devmode:
-            random.seed(faction.devmodeseed)
+            #random.seed(faction.devmodeseed)
+            self.seed = faction.devmodeseed
+            pass
+        
 
     def completelyRandomNames(self,minlength=4,maxlength=7):
         if False:
@@ -20,6 +24,7 @@ class Namegenerator:
                 n += 1
         wordlist = []
         for i in range(random.randrange(math.ceil(minlength/3),math.ceil(maxlength/3))):
+            #random.seed(self.seed+i)
             wordlist.append(self.generateRandomShortWord())
         random.shuffle(wordlist)
         randnamestr = ""
@@ -27,10 +32,13 @@ class Namegenerator:
         randnamestr = randnamestr.capitalize()
         return randnamestr
 
-    def generateNameFromRules(self,minlength=4,maxlength=7,wordlen=3,spacechance=.5,lang_charweight=None):
+    def generateNameFromRules(self,minlength=4,maxlength=7,wordlen=3,spacechance=.5,lang_charweight=None,seed=None):
         wordlist = []
+        #if self.seed != 0:
+            #random.seed(seed)
         loopcount = range(random.randrange(math.ceil(minlength/3),math.ceil(maxlength/3)))
         for i in loopcount:
+            #random.seed(self.seed+i)
             wordlist.append(self.generateRandomShortWord(wordlen=wordlen,lang_charweight=lang_charweight))
             if random.random() <= spacechance:
                 wordlist.append(" ")
@@ -46,6 +54,8 @@ class Namegenerator:
         randword = []
         vowelchance = .33
         for i in range(wordlen):
+            #if self.seed != 0:
+                #random.seed(self.seed+i)
             if random.random() < vowelchance:
                 randword.append(random.choice(list(self.vowels)))
                 vowelchance -= .33
@@ -63,6 +73,8 @@ class Namegenerator:
         newname = []
         i = 0
         while len(newname) < random.randrange((minlength),maxlength):
+            #if self.seed != 0:
+                #random.seed(self.seed+i)
             try:
                 newname.append(name[i])
             except IndexError:
