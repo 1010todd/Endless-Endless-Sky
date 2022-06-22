@@ -464,7 +464,7 @@ def create_engines(faction,fileout=''):
                                                     lang_charweight=faction.lang_charweight)
             engine_name_list.append(engine_name)
         engine_name_list.sort()
-        print("EngineNameList: ",engine_name_list)
+        #print("EngineNameList: ",engine_name_list)
 
         engines_cost_curve = .85
         engines_outfit_curve = round(random.gauss(1, .1),1)
