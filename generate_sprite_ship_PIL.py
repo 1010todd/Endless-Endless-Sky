@@ -181,8 +181,10 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
     h = 0
     while not valid_part:
         h += 1
-        m = random.randrange(len(newboundmin)) #TODO: Center mode filtering.
+        m = random.randrange(len(newboundmin))
         if part_type == 'gun':
+            m = random.randrange(1,max(2,round(len(newboundmin)/2)))
+        elif part_type == 'engine':
             m = random.randrange(1,max(2,round(len(newboundmin)/2)))
         elif part_type == 'center':
             m = random.randrange(1,max(2,round(len(newboundmin)/2)))
@@ -627,7 +629,7 @@ def place_parts(core_img,
     bounddict['max'] = newboundmax.copy()
     return core_img,bounddict,hardpoint
 
-def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=[],gun=0,turret=0):
+def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=[],gun=0,turret=0,enginesp=0):
     stacktype = 2
     #TODO consider ship data
     if width == 0 or height == 0:
@@ -652,6 +654,8 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
         elif category == "Transport":
             width = random.randrange(120,260,2)
             height = random.randrange(120,260,2)
+
+    engine = max(1,round(enginesp/100)) #TODO: factor in overall outfitspace or mass?
 
     print(f"Generating ship {category} with size {width,height}")
     part_dir_dict = part_list[0]
@@ -691,6 +695,8 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
                                                                                     clustermode=True)
         new_img,bdg,gpoints = place_parts(new_img,part_list,count=gun,part_type='gun',bounddict=bounddictb,
                                                                                     clustermode=True)
+        new_img,bde,epoints = place_parts(new_img,part_list,count=engine,part_type='engine',bounddict=bounddictb,
+                                                                                    clustermode=True)
         new_img,bounddict,a = place_parts(new_img,part_list,count=8*pcs,part_type='perimeter',bounddict=bounddictb,
                                                                                     clustermode=True)
         new_img,bounddict,a = place_parts(new_img,part_list,count=8*pcs,part_type='body',bounddict=bounddictb,
@@ -704,13 +710,15 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     elif stacktype == 3: #LW or less
         new_img,bounddictc,a = place_parts(new_img,part_list,count=1,part_type='core',boundmin=[0,centH],boundmax=[0,centH])
         #new_img,bounddictc = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictc)
-        new_img,bounddictb,a = place_parts(new_img,part_list,count=8,part_type='body',bounddict=bounddictc,
+        new_img,bounddictb,a = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictc,
                                                                                     clustermode=True)
         new_img,bdg,gpoints = place_parts(new_img,part_list,count=gun,part_type='gun',bounddict=bounddictb,
                                                                                     clustermode=True)
+        new_img,bde,epoints = place_parts(new_img,part_list,count=engine,part_type='engine',bounddict=bounddictb,
+                                                                                    clustermode=True)
         new_img,bounddict,a = place_parts(new_img,part_list,count=2,part_type='perimeter',bounddict=bounddictb,
                                                                                     clustermode=True)
-        new_img,bounddict,a = place_parts(new_img,part_list,count=6,part_type='body',bounddict=bounddictb,
+        new_img,bounddict,a = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictb,
                                                                                     clustermode=True)
         new_img,bounddict,tpoints = place_parts(new_img,part_list,count=turret,part_type='turret',bounddict=bounddictb,
                                                                                     clustermode=True)
@@ -737,7 +745,7 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     #new_img.save('test.png')
     #new_img.show()
 StandaloneMode = False
-TestMode = False
+TestMode = True
 if StandaloneMode:
     part_sel = input("Choose part type(default:human): ")
     if part_sel == "":
