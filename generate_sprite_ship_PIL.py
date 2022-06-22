@@ -745,7 +745,7 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     #new_img.save('test.png')
     #new_img.show()
 StandaloneMode = False
-TestMode = True
+TestMode = False
 if StandaloneMode:
     part_sel = input("Choose part type(default:human): ")
     if part_sel == "":
