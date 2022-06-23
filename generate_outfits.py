@@ -482,9 +482,9 @@ def create_engines(faction,fileout=''):
 
         engines_cost_curve = .85
         engines_outfit_curve = round(random.gauss(1, .1),1)
-        engines_thrust_curve = round(1.1*(max(1,faction.tier/2)),1)
-        engines_engines_curve = round(1.1*(max(1,faction.tier/2)),1)
-        engines_heat_curve = round(1.1*(max(1,faction.tier/2)),1)
+        engines_thrust_curve = round(1.1+(max(1,faction.tier/3)/10),1)
+        engines_engines_curve = round(1.1*(max(1,2/faction.tier)),1)
+        engines_heat_curve = round(1.1*(max(1,2/faction.tier)),1)
 
         engines_flare_list = ['ion flare','plasma flare','atomic flare','remnant flare',"ka'het flare"]
         engines_flare_size = ['small','medium','large']
