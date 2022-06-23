@@ -39,7 +39,9 @@ class government():
         self.fleet_tactic = 'balance'
         self.ftl = 'Hyperdrive'
         self.military = .5
-        self.lenwid = .5
+        self.lenwid = .5 #-Ship lenght-width ratio
+        self.shipsymmode = True #-Ship symmetry
+
         self.devmode = False
         self.devmodeseed = 0
         #====================Content owned by the faction
@@ -183,6 +185,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
     faction_list = []
     mean_rep = 0
     mean_tier = 1
+    shipsymchance = .8
+
 
     gov_config_file = "config/government config.txt"
     generate_gov_config = open(gov_config_file, "r")
@@ -230,6 +234,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             militarymean = float(next(generate_gov_config))
         if ('government_use_shipgen_chance' in line):
             shipgenchance = float(next(generate_gov_config))
+        if ('government_ship_symmetrical_chance' in line):
+            shipsymchance = float(next(generate_gov_config))
 
     if 'mean_count' not in locals():
         mean_count = min_count/max_count
@@ -274,6 +280,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             ships_count = random.triangular(min_ships,max_ships)
         
         ships_count = max(min_ships,ships_count)
+        ships_symmetry = random.random() <= shipsymchance
 
         faction_military = random.triangular(.1,1,militarymean)
         if faction_agg < 0:
@@ -338,6 +345,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.designpriority = designpriority
         faction.military = faction_military
         faction.lenwid = ship_lenghtwidthratio
+        faction.shipsymmode = ships_symmetry
         faction.devmode = devmode
         faction.devmodeseed = n+10
 

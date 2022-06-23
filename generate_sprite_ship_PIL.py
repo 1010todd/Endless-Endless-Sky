@@ -665,6 +665,7 @@ def place_parts(core_img,
 
 def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=[],gun=0,turret=0,enginesp=0):
     stacktype = 2
+    symmode = faction.shipsymmode
     #TODO consider ship data
     if width == 0 or height == 0:
         if category == "Drone" or category == "Fighter":
@@ -710,6 +711,7 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
     #pattern_Hline = [[0,0],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]
     # 
     
+    #TODO: Pack all setting variables into one.
     if stacktype == 1: #Decent without clustermode.
         new_img,bounddict = place_parts(new_img,part_list,count=4,part_type='engine')
         new_img,bounddict = place_parts(new_img,part_list,count=1,part_type='core',bounddict=bounddict)
@@ -727,40 +729,40 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
         new_img,bounddictc,a = place_parts(new_img,part_list,count=1,part_type='core',boundmin=[0,centH],boundmax=[0,centH])
         #new_img,bounddictc = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictc)
         new_img,bounddictb,a = place_parts(new_img,part_list,count=64*pcs,part_type='body',bounddict=bounddictc,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=8*pcs,part_type='body',bounddict=bounddictc,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bdg,gpoints = place_parts(new_img,part_list,count=gun,part_type='gun',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bde,epoints = place_parts(new_img,part_list,count=engine,part_type='engine',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=8*pcs,part_type='perimeter',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=8*pcs,part_type='body',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=0,part_type='greeble',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,tpoints = place_parts(new_img,part_list,count=turret,part_type='turret',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=1,part_type='cockpit',bounddict=bounddict,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
     elif stacktype == 3: #LW or less
         new_img,bounddictc,a = place_parts(new_img,part_list,count=1,part_type='core',boundmin=[0,centH],boundmax=[0,centH])
         #new_img,bounddictc = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictc)
         new_img,bounddictb,a = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictc,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bdg,gpoints = place_parts(new_img,part_list,count=gun,part_type='gun',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bde,epoints = place_parts(new_img,part_list,count=engine,part_type='engine',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=2,part_type='perimeter',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=4,part_type='body',bounddict=bounddictb,
                                                                                     clustermode=True)
         new_img,bounddict,tpoints = place_parts(new_img,part_list,count=turret,part_type='turret',bounddict=bounddictb,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
         new_img,bounddict,a = place_parts(new_img,part_list,count=1,part_type='cockpit',bounddict=bounddict,
-                                                                                    clustermode=True)
+                                                                                    clustermode=True,symmetric=symmode)
     elif stacktype == 99:
         new_img,bounddictc,a = place_parts(new_img,part_list,count=1,part_type='core')
         new_img,bounddictb,a = place_parts(new_img,part_list,count=2,part_type='body',bounddict=bounddictc,

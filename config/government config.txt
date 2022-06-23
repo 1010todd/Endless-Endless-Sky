@@ -56,3 +56,7 @@ government_militarization - .1 to 1
 # Chance to use ship generator. Requires pillow library.
 government_use_shipgen_chance
 .8
+
+# Chance to design symmetrical ships.
+government_ship_symmetrical_chance
+.8
