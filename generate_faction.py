@@ -36,8 +36,12 @@ class government():
         self.lang_wordlen = 3
         self.lang_spacechance = .5
         self.lang_charweight = None
+        self.civienametype = 'parts'
+        self.militnametype = 'pregen'
         self.fleet_tactic = 'balance'
         self.ftl = 'Hyperdrive'
+        self.militaryname = ''
+        self.militaryinit = ''
         self.military = .5
         self.lenwid = .5 #-Ship lenght-width ratio
         self.shipsymmode = True #-Ship symmetry
@@ -311,7 +315,10 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             ftl_method = 'Hyperdrive'
 
         ship_lenghtwidthratio = random.triangular(.3,.7)
+        automation = random.random()
 
+        lang_civie_type = random.choice(['pregen','parts'])
+        lang_milit_type = random.choice(['pregen','parts'])
         az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         lang_wordlen = random.choice([3,4,5])
         lang_spacechance = random.triangular(.01,.9,.2)
@@ -324,6 +331,12 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
                                              wordlen=lang_wordlen,
                                              spacechance=lang_spacechance,
                                              lang_charweight=lang_charweight)
+        militaryname = namegen.generateNameFromRules(name_length_min,
+                                             name_length_max,
+                                             wordlen=lang_wordlen,
+                                             spacechance=lang_spacechance,
+                                             lang_charweight=lang_charweight)
+        militaryinit = namegen.generateInitials(militaryname)
         swizzle = random.randrange(0,22)
         color = [random.random() for n in range(4)] #Randomize 0-1 for 4 times (RGBA)
         color[3] = max(color[3],.1) #Make sure alpha is at least .1
@@ -346,6 +359,10 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.military = faction_military
         faction.lenwid = ship_lenghtwidthratio
         faction.shipsymmode = ships_symmetry
+        faction.militaryname = militaryname
+        faction.militaryinit = militaryinit
+        faction.civienametype = lang_civie_type
+        faction.militnametype = lang_milit_type
         faction.devmode = devmode
         faction.devmodeseed = n+10
 

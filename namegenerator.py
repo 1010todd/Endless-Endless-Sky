@@ -69,6 +69,21 @@ class Namegenerator:
         finalstr = finalstr.join(randword)
         return finalstr
 
+    def generateInitials(self,string=''):
+        inilist = []
+        if string.count(' ') > 0:
+            inilist = string.split()
+        else:
+            wordlen = round(len(string)/3)
+            for a in range(len(string)):
+                if a % wordlen == 0:
+                    inilist.append(string[a])
+        initOut = ''
+        for n in inilist:
+            initOut = initOut + n[0].upper() + '.'
+
+        return initOut
+
     def randomfromExisting(self,refname,minlength=4,maxlength=6): #Very crude, improve later. todo
         name = list([c for c in refname])
         random.shuffle(name)
@@ -120,6 +135,10 @@ class Namegenerator:
 
 
 def generate_namefile(faction,fileout=''):
+    """
+    namemodes 'pregen' 'parts'
+    nametype  'civie' 'military'
+    """
     if fileout == '':
         fileout = f'data/{faction.name}/{faction.name} names.txt'
 
@@ -128,20 +147,40 @@ def generate_namefile(faction,fileout=''):
     name_needed = 150
 
     filewrite = open(fileout,'w')
-
-    filewrite.write(f'phrase "{faction.name} names"' + '\n')
-    filewrite.write(f'\tword' + '\n')
+    
+    
     minlen = 4
     maxlen = 16
-    
-    for n in range(name_needed):
-        name = namegen.generateNameFromRules(minlen,
-                                        maxlen,
-                                        wordlen=faction.lang_wordlen,
-                                        spacechance=faction.lang_spacechance,
-                                        lang_charweight=faction.lang_charweight)
-        filewrite.write(f'\t\t"{name}"' + '\n')
-
+    partscount = 3
+    for mainloop in range(2):
+        if mainloop == 1:
+            filewrite.write(f'phrase "{faction.name} Military names"' + '\n')
+            filewrite.write(f'\tword' + '\n')
+            filewrite.write(f'\t\t"{faction.militaryinit}"' + '\n')
+            namemode = faction.militnametype
+        else:
+            filewrite.write(f'phrase "{faction.name} names"' + '\n')
+            namemode = faction.civienametype
+        if namemode == 'pregen':
+            filewrite.write(f'\tword' + '\n')
+            for n in range(name_needed):
+                name = namegen.generateNameFromRules(minlen,
+                                                maxlen,
+                                                wordlen=faction.lang_wordlen,
+                                                spacechance=faction.lang_spacechance,
+                                                lang_charweight=faction.lang_charweight)
+                filewrite.write(f'\t\t"{name}"' + '\n')
+        elif namemode == 'parts':
+            
+            for k in range(partscount):
+                filewrite.write(f'\tword' + '\n')
+                for n in range(round(name_needed/2)):
+                    name = namegen.generateRandomShortWord(wordlen=faction.lang_wordlen,lang_charweight=faction.lang_charweight)
+                    if k == 0:
+                        name = name.capitalize()
+                    if random.random() <= faction.lang_spacechance:
+                        name = name + ' '
+                    filewrite.write(f'\t\t"{name}"' + '\n')
     filewrite.close()
 
 if False:

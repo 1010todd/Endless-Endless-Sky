@@ -139,6 +139,7 @@ def generate_fleet(faction,fileout=''):
 
     fleet_name = faction.name + ' ' + random.choice(military_names)
     names = faction.name + ' names'
+    militarynames = faction.name + ' Military names'
     personalities = ["heroic","opportunistic"]
 
     fleetvariants = []
@@ -157,7 +158,7 @@ def generate_fleet(faction,fileout=''):
 
     fleetwrite.write(f'fleet "{fleet_name}"' + '\n')
     fleetwrite.write(f'\tgovernment "{faction.name}"' + '\n')
-    fleetwrite.write(f'\tnames "{names}"' + '\n')
+    fleetwrite.write(f'\tnames "{militarynames}"' + '\n')
     fleetwrite.write(f'\tpersonality' + '\n')
     for personality in personalities:
         fleetwrite.write(f'\t\t{personality}' + '\n')
