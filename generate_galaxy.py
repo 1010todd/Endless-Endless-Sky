@@ -904,6 +904,12 @@ def generate_inhabited_planet(system,name):
     base_shipyard_chance = .2
     #description_dict = glo_description_dict
     #spaceport_dict = {}
+    global shipyard_chance
+    global outfitter_chance
+    if shipyard_chance != None:
+        base_shipyard_chance = shipyard_chance
+    if outfitter_chance != None:
+        base_outfitter_chance = outfitter_chance
 
     planet_sprite = planet_type+str(random.randrange(0,6))
     landscape = pick_landscape(planet_type)
@@ -1223,6 +1229,33 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     #myprint("Wrote all systems")
     galaxy_output.close()
 
+def load_planet_config():
+    planet_config_file = "config/planet config.txt"
+    generate_planet_config = open(planet_config_file, "r")
+
+    global outfitter_chance
+    outfitter_chance = None
+    global shipyard_chance
+    shipyard_chance = None
+    #Searches config file for values and creates variables
+    for line in generate_planet_config: #Creates vars from txt file
+        line = line.rstrip('\n')
+        use_seed = False
+        if "use_seed" in line:
+            use_seed_check = next(generate_planet_config)
+            if str(use_seed_check) in ['true', 'True', 'true\n', 'True\n']:
+                use_seed = True
+            else:
+                use_seed = False
+        if ("planet_seed" in line) and use_seed == True:
+            pla_seed = next(generate_planet_config)
+            random.seed(int(pla_seed))
+        if ("planet_outfitter_chance" in line):
+            outfitter_chance = float(next(generate_planet_config))
+        if ("planet_shipyard_chance" in line):
+            shipyard_chance = float(next(generate_planet_config))
+
+
 def load_galaxy_configs(government_list):
     if government_list[0].devmode:
         random.seed(99)
@@ -1230,6 +1263,8 @@ def load_galaxy_configs(government_list):
     namegen = namegenerator.Namegenerator(government_list[0])
     galaxy_configs_list = glob.glob("config/galaxy config/*.txt") #Imports files in directory
     galaxy_configs_amount = len(galaxy_configs_list) #Gets amount of items in list\
+    
+    load_planet_config()
     
     galaxy_sprite_list = glob.glob("images/galaxy/*.jpg") #Get galaxy images, jpg only, png cause problems in ES.
 

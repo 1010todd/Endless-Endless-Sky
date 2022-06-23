@@ -39,7 +39,7 @@ government_name_min_length - Don't set too low to avoid name conflict
 government_name_max_length
 9
 
-government_mean_aggression - from -1 to 1 ,Controls how often aggressive or friendly government generates
+government_mean_aggression - from -1 to 1 ,Controls how often aggressive or friendly government generates, -1 is aggressive
 0
 
 government_ships_per_gov_min
