@@ -58,6 +58,7 @@ class government():
         self.civilianfleets = []
         self.outfitterlist = []
         self.shipyardlist = []
+        self.systemlist = []
 
 class SpriteData():
     def __init__(self) -> None:

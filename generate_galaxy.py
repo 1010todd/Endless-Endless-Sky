@@ -10,6 +10,16 @@ import namegenerator #Custom Name generator
 def roundup100(x):
     return int(math.ceil(x / 100.0)) * 100
 
+def avg_deviation(numlist):
+    totalnum = 0
+    for num in numlist:
+        totalnum += num
+    avg = totalnum/len(numlist)
+    x = 0
+    for num in numlist:
+        x += (num-avg)**2
+    return avg, math.sqrt(x/totalnum)
+
 #log_file = open('galaxy generator log.txt','w')
 def myprint(text):
     print(text)
@@ -26,6 +36,10 @@ class system():
         self.level = level
         self.government = government #reference to gov class
         self.fleets = []
+        self.fleetdicts = {} #new mode
+        self.capital = ''
+
+        self.distgov = []
 
 class galaxy():
     def __init__(self, name, min_x, max_x, min_y, max_y, layer, is_circle, desc_files, planet_config, government,galaxy_center_x,galaxy_center_y):
@@ -44,14 +58,43 @@ class galaxy():
         self.radius_x = abs(max_x-galaxy_center_x)
         self.radius_y = abs(max_y-galaxy_center_y)
 
+#Create a sector for the government along with assigning fleets
 def government_region(center_x,center_y,radius_x,radius_y,system_list,government):
-    for system in system_list:
-        hypot = int(math.hypot(center_x - system.pos[0], center_y - system.pos[1]))
+    prehypot = 0
+    curcap = 0
+    allhypot = []
+    for s in range(len(system_list)):
+        hypot = int(math.hypot(center_x - system_list[s].pos[0], center_y - system_list[s].pos[1]))
         if hypot < radius_x:
-            system.government = government
-            system.fleets.append(government.patrolfleets)
-            system.fleets.append(government.civilianfleets)
+            system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
+            system_list[s].fleets.append(government.patrolfleets)
+            system_list[s].fleets.append(government.civilianfleets)
+            system_list[s].distgov.append([government.name,hypot])
+            allhypot.append(hypot)
+            if hypot > prehypot:
+                system_list[curcap].capital = ''
+                system_list[s].capital = government
+                curcap = s
+            government.systemlist.append(system_list[s])
             #myprint(f"{system.name} government: {government.name}")
+    avghypot,dvhypot = avg_deviation(allhypot)
+    distriRadius = (avghypot/2) #TODO: factor in faction stuffs.
+    for sys in government.systemlist: 
+        addiflet = 0
+        for planet in sys.planet_list:
+            if planet.is_habitable: #Make population affect fleet weight
+                addiflet += 100 * planet.planet_properties.population/5
+        for distlist in sys.distgov:
+            if distlist[0] == government.name:
+                fleetfreq = roundup100(min(4000,max(600,800*(distlist[1]/distriRadius))))
+        fleetfreqmilit = fleetfreq*(.5+government.military)
+        fleetfreqmilit = max(400,fleetfreqmilit-addiflet)
+        fleetfreq = max(400,fleetfreq-addiflet)
+        for fleet in government.patrolfleets:
+            sys.fleetdicts[str(fleet)] = round(fleetfreqmilit)
+        for fleet in government.civilianfleets:
+            sys.fleetdicts[str(fleet)] = round(fleetfreq)
+        
 
 
 def pick_within(center_x,center_y,galaXmin,galaXmax,galaYmin,galaYmax):
@@ -524,7 +567,7 @@ def galaxy_delete_overlapping_systems():
     myprint("\n\n")
 
 class planet_properties():
-    def __init__(self, attribute, shipyard, outfitter, required_reputation, bribe, security, tribute, threshold, fleet, name, sprite, landscape):
+    def __init__(self, attribute, shipyard, outfitter, required_reputation, bribe, security, tribute, threshold, fleet, name, sprite, landscape, population):
         self.attribute = attribute
         self.shipyard = shipyard
         self.outfitter = outfitter
@@ -537,6 +580,7 @@ class planet_properties():
         self.name = name
         self.sprite = sprite
         self.landscape = landscape
+        self.population = population
 
 class planet():
     def __init__(self, sprite, distance, period, is_habitable, name, planet_properties, descriptions):
@@ -658,7 +702,7 @@ def load_description_data():
         planet_sprite_dict[name] = temp_items_list
     myprint('Successfully loaded data.\n\n\n')
         
-def planet_desc_word_replace(description):
+def planet_desc_word_replace(description): #UNUSED
     appending_characters = False
     this_desc_words_list = []
     for char in description:
@@ -984,7 +1028,8 @@ def generate_inhabited_planet(system,name):
                              fleet, 
                              name, 
                              planet_sprite, 
-                             landscape), descriptionFinal
+                             landscape,
+                             population), descriptionFinal
 
 
 def system_planets(system, galaxy): #Generates planets in system
@@ -1061,7 +1106,6 @@ def system_planets(system, galaxy): #Generates planets in system
         if not is_habitable:
             this_system_planet_list.append(planet(sprite, distance, period, is_habitable, None, None, None))        ##########################################################
             pass
-        #======TODO New planet property functions, too many things stacked in layers of list, unreadable.
         if is_habitable:
             i2 = 0
             noinfinite = 0 #Prevent infinite loop of there're more planets than name list.
@@ -1102,15 +1146,15 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     galaxy_output.write('\tsprite ' + '"' + str(galaxy_image) + '"\n')
     galaxy_output.write('\n')
     first_sys = 0
-    for item in system_list:                #W R I T E S   S Y S T E M S
+    for system in system_list:                #WRITES SYSTEMS
         #name
-        galaxy_output.write('system ' + '"' + str(item.name) + '"' + "\n")
+        galaxy_output.write('system ' + '"' + str(system.name) + '"' + "\n")
         #position
-        galaxy_output.write('\tpos ' + str(item.pos).replace('(', '').replace(')', '').replace(',', '') + "\n")
+        galaxy_output.write('\tpos ' + str(system.pos).replace('(', '').replace(')', '').replace(',', '') + "\n")
 
         #government
         try:
-            galaxy_output.write('\tgovernment ' + '"' + str(item.government.name) + '"' + "\n")
+            galaxy_output.write('\tgovernment ' + '"' + str(system.government.name) + '"' + "\n")
         except AttributeError:
             galaxy_output.write('\tgovernment ' + '"' + str('Uninhabited') + '"' + "\n")
 
@@ -1119,7 +1163,7 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
 
         galaxy_output.write('\tbelt ' + str(random.randint(1000, 1500)) + "\n")
 
-        links_temp_list = item.links
+        links_temp_list = system.links
         links_temp_list_write = list(set([str(e) for e in links_temp_list ]))
         for str1 in links_temp_list_write:
             galaxy_output.write('\tlink ' + '"' + str(str1) + '"' + "\n")
@@ -1139,13 +1183,13 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
             galaxy_output.write(f'\tmineables "{minables}" {astrd_num} {astrd_ener}'+'\n')
 
         #commodities
-        for commodity in commodity_dict[item.level]:
+        for commodity in commodity_dict[system.level]:
             galaxy_output.write('\ttrade ' + '"' + str(commodity[0]) + '"' + ' ' + str(random.randint(commodity[1], commodity[2])) + "\n")
 
         #fleet
         default = False
         if(default == True):
-            fleet_properties = galaxy.desc_files['fleet' + str(item.level)]
+            fleet_properties = galaxy.desc_files['fleet' + str(system.level)]
             fleet_amount = random.randint(int(fleet_properties[1]), int(fleet_properties[2]))
             fleets_list = fleet_dict[fleet_properties[0]]
             if fleet_amount > len(fleets_list):
@@ -1157,14 +1201,22 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
                 galaxy_output.write('\tfleet "' + str(fleets_list[i][0]) + '" ' + str(roundup100(random.randint(int(fleets_list[i][1]), int(fleets_list[i][2])))) + "\n")
                 i += 1
         else:
-            fleet_freq_max = 1800
-            fleet_freq_min = 600
-            for xx in range(len(item.fleets)):
-                for ii in range(len(item.fleets[xx])):
-                    galaxy_output.write(f'\tfleet "{item.fleets[xx][ii]}" ' + str(roundup100(random.randrange(fleet_freq_min,fleet_freq_max))) + '\n')
+            newFleetDistribution = True
+            if newFleetDistribution:
+                for key in system.fleetdicts.keys():
+                    galaxy_output.write(f'\tfleet "{key}" ' + str(system.fleetdicts[key]) + '\n')
+            else: #===Even fleet distribution
+                fleet_freq_max = 1800
+                fleet_freq_min = 600
+                for xx in range(len(system.fleets)): #selfNOTE: fleets were stored as list of fleets.
+                    for ii in range(len(system.fleets[xx])): 
+                        fleetfreq = roundup100(random.randrange(fleet_freq_min,fleet_freq_max))
+                        if system.capital:
+                            fleetfreq *= 2
+                        galaxy_output.write(f'\tfleet "{system.fleets[xx][ii]}" ' + str(fleetfreq) + '\n')
 
         #planets
-        for planet in item.planet_list:
+        for planet in system.planet_list:
             if planet.name is None:
                 galaxy_output.write('\tobject' + "\n")
             else:
