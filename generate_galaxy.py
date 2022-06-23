@@ -34,11 +34,15 @@ class system():
         self.system_layer = system_layer
         self.planet_list = []
         self.level = level
+        self.asteroids = {}
+        self.mineables = {} #name: [count, energy]
+        self.hazard = []
+        self.haze = ''
+
         self.government = government #reference to gov class
         self.fleets = []
         self.fleetdicts = {} #new mode
         self.capital = ''
-
         self.distgov = []
 
 class galaxy():
@@ -1031,7 +1035,7 @@ def generate_inhabited_planet(system,name):
                              landscape,
                              population), descriptionFinal
 
-
+#Generate in-system stuffs.
 def system_planets(system, galaxy): #Generates planets in system
     #myprint("Working on planets in system " + str(system.name))
     sprite_controls = planet_sprites_config_dict[galaxy.planet_config]
@@ -1136,6 +1140,20 @@ def system_planets(system, galaxy): #Generates planets in system
         system.planet_list.append(item)
         #myprint("Appended " + str(item))
 
+    mineables_list = ['copper','iron','lead','silicon','tungsten','titanium','gold','platinum','uranium']
+    random_mineables_list = random.choices(mineables_list,k=random.randint(0,5))
+    for minables in random_mineables_list:
+        astrd_num = random.randrange(0,50)
+        astrd_ener = random.uniform(0.1,5)
+        system.mineables[minables] = [astrd_num,astrd_ener]
+
+    asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
+    random_asteroids_list = random.choices(asteroids_list,k=random.randint(0,6))
+    for astrd in random_asteroids_list:
+        astrd_num = random.randrange(0,50)
+        astrd_ener = random.uniform(0.1,5)
+        system.asteroids[astrd] = [astrd_num,astrd_ener]
+
 def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     myprint('Writing systems for galaxy ' + str(galaxy.name) + '...')
     galaxy_output = open("data/galaxy" + str(galaxy.name) + galaxy_output_file, "w")
@@ -1169,18 +1187,17 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
             galaxy_output.write('\tlink ' + '"' + str(str1) + '"' + "\n")
         
         #asteroids
-        asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
-        for astrd in asteroids_list:
-            astrd_num = random.randrange(0,50)
-            astrd_ener = random.uniform(0.1,5)
-            galaxy_output.write(f'\tasteroids "{astrd}" {astrd_num} {astrd_ener}'+'\n')
+        #asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
+        for astrd in system.asteroids.keys():
+            #astrd_num = random.randrange(0,50)
+            #astrd_ener = random.uniform(0.1,5)
+            galaxy_output.write(f'\tasteroids "{astrd}" {system.asteroids[astrd][0]} {system.asteroids[astrd][1]}'+'\n')
         #mineables
-        mineables_list = ['copper','iron','lead','silicon','tungsten','titanium','gold','platinum','uranium']
-        random_mineables_list = random.choices(mineables_list,k=random.randint(0,5))
-        for minables in random_mineables_list:
-            astrd_num = random.randrange(0,50)
-            astrd_ener = random.uniform(0.1,5)
-            galaxy_output.write(f'\tmineables "{minables}" {astrd_num} {astrd_ener}'+'\n')
+        #mineables_list = ['copper','iron','lead','silicon','tungsten','titanium','gold','platinum','uranium']
+        #random_mineables_list = random.choices(mineables_list,k=random.randint(0,5))
+        for minables in system.mineables.keys():
+            galaxy_output.write(f'\tmineables "{minables}" {system.mineables[minables][0]} {system.mineables[minables][1]}'+'\n')
+            
 
         #commodities
         for commodity in commodity_dict[system.level]:
