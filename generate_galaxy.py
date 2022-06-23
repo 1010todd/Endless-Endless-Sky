@@ -11,6 +11,8 @@ def roundup100(x):
     return int(math.ceil(x / 100.0)) * 100
 
 def avg_deviation(numlist):
+    if len(numlist) == 0:
+        return 0,0
     totalnum = 0
     for num in numlist:
         totalnum += num
@@ -67,22 +69,47 @@ class galaxy():
 def government_region(center_x,center_y,radius_x,radius_y,system_list,government):
     prehypot = 0
     curcap = 0
-    allhypot = []
+    allhypot = [] 
     for s in range(len(system_list)):
         hypot = int(math.hypot(center_x - system_list[s].pos[0], center_y - system_list[s].pos[1]))
         if hypot < radius_x:
-            system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
-            system_list[s].fleets.append(government.patrolfleets)
-            system_list[s].fleets.append(government.civilianfleets)
-            system_list[s].distgov.append([government.name,hypot])
-            allhypot.append(hypot)
-            if hypot > prehypot:
-                system_list[curcap].capital = ''
-                system_list[s].capital = government
-                curcap = s
-            government.systemlist.append(system_list[s])
+            if system_list[s].government != None:
+                if duel_over_system(system_list[s],government,hypot):
+                    system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
+                    system_list[s].fleets.append(government.patrolfleets)
+                    system_list[s].fleets.append(government.civilianfleets)
+                    system_list[s].distgov.append([government.name,hypot])
+                    allhypot.append(hypot)
+                    if hypot > prehypot:
+                        system_list[curcap].capital = ''
+                        system_list[s].capital = government
+                        curcap = s
+                    government.systemlist.append(system_list[s])
+            else:
+                system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
+                system_list[s].fleets.append(government.patrolfleets)
+                system_list[s].fleets.append(government.civilianfleets)
+                system_list[s].distgov.append([government.name,hypot])
+                allhypot.append(hypot)
+                if hypot > prehypot:
+                    system_list[curcap].capital = ''
+                    system_list[s].capital = government
+                    curcap = s
+                government.systemlist.append(system_list[s])
             #myprint(f"{system.name} government: {government.name}")
     government.allhypot = allhypot
+
+def duel_over_system(system,government,hypot):
+    prevhypot = 0
+    prevgovpow = system.government.military + system.government.tier
+    prevgovroll = random.random()
+    for h in system.distgov:
+        if h[0] == system.government.name:
+            prevhypot = h[1]
+    newgovpow = government.military + system.government.tier
+    newgovroll = random.random()
+    win = newgovroll*(hypot*newgovpow) > prevgovroll*(prevhypot*prevgovpow)
+    return win
 
 def place_fleets(government):
     avghypot,dvhypot = avg_deviation(government.allhypot)
