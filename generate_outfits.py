@@ -602,6 +602,7 @@ def create_shield_generator(faction,fileout=''):
         shield_gen_shield_energy = round(random.uniform(float(shield_gen_shield_generation), float(shield_gen_shield_generation*2)), 2)
         shield_gen_shield_heat = round(random.uniform(shield_gen_shield_energy*0,shield_gen_shield_energy*2))
         shield_gen_cost = roundup100(random.randint(round(((shield_gen_shield_generation*60*faction.tier)/shield_gen_outfit)*3200*faction.tier), round(((shield_gen_shield_generation*60*faction.tier)/shield_gen_outfit)*5500*faction.tier)))
+        shield_gen_delay = 0
         if random.random() < shield_gen_delaychance:
             shield_gen_delay = round(random.uniform(1,120))
             shield_gen_shield_generation *= round(shield_gen_delay*random.uniform(1,3),1)
