@@ -1,0 +1,740 @@
+outfit "Afski Battery"
+	category "Power"
+	cost 156700
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 1690
+	description "Xviiu elrii T1.1 Battery"
+
+outfit "Hiudfodoxo Battery"
+	category "Power"
+	cost 282100
+	thumbnail "outfit/tiny battery"
+	"mass" 13
+	"outfit space" -13
+	"energy capacity" 3720
+	description "Xviiu elrii T1.1 Battery"
+
+outfit "Iijay Battery"
+	category "Power"
+	cost 507800
+	thumbnail "outfit/tiny battery"
+	"mass" 29
+	"outfit space" -29
+	"energy capacity" 8190
+	description "Xviiu elrii T1.1 Battery"
+
+outfit "Laaqo Battery"
+	category "Power"
+	cost 914100
+	thumbnail "outfit/tiny battery"
+	"mass" 64
+	"outfit space" -64
+	"energy capacity" 18020
+	description "Xviiu elrii T1.1 Battery"
+
+outfit "Puuiaeldka Battery"
+	category "Power"
+	cost 1645400
+	thumbnail "outfit/tiny battery"
+	"mass" 141
+	"outfit space" -141
+	"energy capacity" 39650
+	description "Xviiu elrii T1.1 Battery"
+
+
+outfit "Cinoi Reactor"
+	category "Power"
+	cost 13100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 1.2
+	"heat generation" 1.9
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Ooiko Reactor"
+	category "Power"
+	cost 22300
+	thumbnail "outfit/small fuel cell"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 2.6
+	"heat generation" 3.4
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Rehre Reactor"
+	category "Power"
+	cost 38000
+	thumbnail "outfit/medium fuel cell"
+	"mass" 76
+	"outfit space" -76
+	"energy generation" 5.7
+	"heat generation" 6.1
+	description "Xviiu elrii T1.1 Power generator"
+
+
+outfit "Ceatz Thruster"
+	category "Engines"
+	cost 3462100
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"thrust" 6.9
+	"thrusting energy" 1.2
+	"thrusting heat" 1.8
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.4541284954515012
+	"flare sound" "ka'het small"
+	description "Xviiu elrii T1.1 Thruster"
+
+outfit "Ceatz Steering"
+	category "Engines"
+	cost 2942832
+	thumbnail "outfit/small ka'het steering"
+	"mass" 6
+	"outfit space" -6
+	"engine capacity" -6
+	"turn" 172
+	"turning energy" 1.0
+	"turning heat" 1.5
+	description "Xviiu elrii T1.1 steering"
+
+outfit "Oszuz Thruster"
+	category "Engines"
+	cost 5885600
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 16.6
+	"thrusting energy" 4.8
+	"thrusting heat" 7.2
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Xviiu elrii T1.1 Thruster"
+
+outfit "Oszuz Steering"
+	category "Engines"
+	cost 10005600
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 412.8
+	"turning energy" 4.0
+	"turning heat" 6.0
+	description "Xviiu elrii T1.1 steering"
+
+outfit "Qkaix Thruster"
+	category "Engines"
+	cost 10005600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 39.8
+	"thrusting energy" 19.2
+	"thrusting heat" 28.8
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Xviiu elrii T1.1 Thruster"
+
+outfit "Qkaix Steering"
+	category "Engines"
+	cost 17009600
+	thumbnail "outfit/large ka'het steering"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"turn" 990.7
+	"turning energy" 16.0
+	"turning heat" 24.0
+	description "Xviiu elrii T1.1 steering"
+
+outfit "Ujrauehuou Thruster"
+	category "Engines"
+	cost 17009600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"thrust" 95.5
+	"thrusting energy" 76.8
+	"thrusting heat" 115.2
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Xviiu elrii T1.1 Thruster"
+
+outfit "Ujrauehuou Steering"
+	category "Engines"
+	cost 28916400
+	thumbnail "outfit/large ka'het steering"
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"turn" 2377.7
+	"turning energy" 64.0
+	"turning heat" 96.0
+	description "Xviiu elrii T1.1 steering"
+
+
+outfit "Hikeuvxioi Shield Generator"
+	category "Systems"
+	cost 2400
+	thumbnail "outfit/tiny shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 0.14
+	"shield energy" 0.24
+	description "Xviiu elrii T1.1 shield gen"
+
+outfit "Tikeznovio Shield Generator"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 0.3
+	"shield energy" 0.4
+	description "Xviiu elrii T1.1 shield gen"
+
+
+
+outfit "Lzeuuifaji Cooling"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 38
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Tuifa ahoia Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ifwieridua Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 14
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Tiooo Heatsink"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Pouhmkjeir Temperature Control"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Fijuijukox Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	"active cooling" 54
+	"cooling energy" 8.775507800132942
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Huwex zeifu Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ijeoa Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Oxufaadoic Temperature Control"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 33
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Blosu Heat Pump"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Kiitd Temperature Control"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	"active cooling" 39
+	"cooling energy" 4.290521247828851
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Eeoaiuyqua Cooler"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Oakke Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	"active cooling" 62
+	"cooling energy" 6.662565586921777
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Irhru Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ltukurikoa Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Iereufxeee Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Xwaioksohe Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	"active cooling" 79
+	"cooling energy" 5.239334201196144
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Akaia Cooling"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 16
+	"active cooling" 88
+	"cooling energy" 6.061376472713653
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Xuebookdeo Cooling"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 8
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Lidauesoea Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ijxai Heat Pump"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 8
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Haeae Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	"active cooling" 22
+	"cooling energy" 4.56006467813816
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Jsoac Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	"active cooling" 30
+	"cooling energy" 5.2243498602799825
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Faqex Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Aaiddqadde Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Cauzl Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ixexx Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 8
+	"active cooling" 41
+	"cooling energy" 4.324665056268664
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Kpuhe Temperature Control"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Axjerkueja Cooler"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Corxa Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 41
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Aecocdroue Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ulaeo Heatsink"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ejazf Cooling"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ojuijfkouk Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Kexohqyeaj Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ajqec Cooling"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Uajez Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 6
+	"active cooling" 35
+	"cooling energy" 3.3823044592599967
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Siiju Cooler"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Eurea Cooling"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 15
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Avahp uufau Cooler"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 24
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Ucjuhhheou Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 11
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Kguex Temperature Control"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 7
+	"active cooling" 16
+	"cooling energy" 2.9368266160555843
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Qihlu Heat Shunt"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 7
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Isfauteqer Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 5
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Duena houxo Heatsink"
+	category "Systems"
+	cost 2100
+	thumbnail "outfit/cooling module"
+	"mass" 1
+	"outfit space" -1
+	"active cooling" 7
+	description "Xviiu elrii T1.1 Cooling"
+
+
+outfit "Cxafaofhqe Core"
+	category "Power"
+	cost 103500
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 1.4
+	"heat generation" 3.2
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Earalefoue Core"
+	category "Power"
+	cost 176000
+	thumbnail "outfit/small fuel cell"
+	"mass" 6
+	"outfit space" -6
+	"energy generation" 3.1
+	"heat generation" -3.8
+	description "Xviiu elrii T1.1 Power generator"
+
+
+outfit "Cieccniokf Reactor"
+	category "Power"
+	cost 63800
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 1.4
+	"heat generation" 3.1
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Ljaci Reactor"
+	category "Power"
+	cost 108500
+	thumbnail "outfit/small fuel cell"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 3.1
+	"heat generation" 8.7
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Uafkadutoh Reactor"
+	category "Power"
+	cost 184500
+	thumbnail "outfit/medium fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 6.8
+	"heat generation" 24.4
+	description "Xviiu elrii T1.1 Power generator"
+
+outfit "Ujeia Reactor"
+	category "Power"
+	cost 313700
+	thumbnail "outfit/large fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 15.0
+	"heat generation" 68.3
+	description "Xviiu elrii T1.1 Power generator"
+
+

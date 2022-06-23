@@ -1,0 +1,23 @@
+outfit "Iqexa Tachyon Projector"
+	category "Guns"
+	cost 4787500
+	thumbnail "outfit/laser"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "zapper"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 1.5
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.7
+		"firing heat" 0.7
+		"shield damage" 13.2
+		"hull damage" 25.0
+	description "Apqoifqoae T2.5 Beam weapon"
+

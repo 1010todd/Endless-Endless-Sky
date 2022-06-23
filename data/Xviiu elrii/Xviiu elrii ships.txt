@@ -1,0 +1,352 @@
+ship "Okhacfiaeq"
+	sprite "ship/Xviiu elrii/Okhacfiaeq"
+	attributes 
+		category "Medium Warship"
+		"cost" 330000
+		"shields" 14600
+		"hull" 3500
+		"required crew" 10
+		"bunks" 25
+		"mass" 409.2
+		"drag" 8.45
+		"heat dissipation" 0.79
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 798
+		"weapon capacity" 242
+		"engine capacity" 210
+		weapon 
+			"blast radius" 181
+			"shield damage" 1810
+			"hull damage" 910
+			"hit force" 2720
+	outfits 
+		"Cinoi Reactor" 2
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Afudk Anti-Missile" 1
+		"Likaj Rapid Gun" 3
+		"Ehodo Gun" 1
+		"Ooiko Reactor" 1
+		"Rehre Reactor" 2
+		"Qkaix Thruster" 1
+		"Qkaix Steering" 1
+		"Lzeuuifaji Cooling" 1
+		"Hyperdrive"
+	engine 77.0 42.0
+	engine 12.0 42.0
+	gun 46.5 30.5
+	gun 78.5 28.0
+	gun 13.0 28.0
+	gun 64.5 37.0
+	gun 27.0 37.0
+	turret 46.5 54.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xviiu elrii T1.1 ship"
+
+ship "Fairfkheea xofol"
+	sprite "ship/Xviiu elrii/Fairfkheea xofol"
+	attributes 
+		category "Transport"
+		"cost" 197000
+		"shields" 5200
+		"hull" 1300
+		"required crew" 10
+		"bunks" 61
+		"mass" 172.6
+		"drag" 3.5
+		"heat dissipation" 0.87
+		"fuel capacity" 900
+		"cargo space" 25
+		"outfit space" 304
+		"weapon capacity" 132
+		"engine capacity" 80
+		weapon 
+			"blast radius" 65
+			"shield damage" 650
+			"hull damage" 330
+			"hit force" 980
+	outfits 
+		"Cinoi Reactor" 1
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Likaj Rapid Gun" 1
+		"Ehodo Gun" 1
+		"Oszuz Thruster" 1
+		"Oszuz Steering" 1
+		"Ooiko Reactor" 1
+		"Ajqec Cooling" 2
+		"Hyperdrive"
+	engine 34.0 33.5
+	gun 12.5 12.5
+	gun 54.0 12.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Xviiu elrii T1.1 ship"
+
+ship "Eutiuidsul"
+	sprite "ship/Xviiu elrii/Eutiuidsul"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 1712000
+		"shields" 18400
+		"hull" 4400
+		"required crew" 59
+		"bunks" 84
+		"mass" 973.2
+		"drag" 20.56
+		"heat dissipation" 0.84
+		"fuel capacity" 700
+		"cargo space" 470
+		"outfit space" 1323
+		"weapon capacity" 418
+		"engine capacity" 360
+		weapon 
+			"blast radius" 228
+			"shield damage" 2280
+			"hull damage" 1140
+			"hit force" 3420
+	outfits 
+		"Cinoi Reactor" 7
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Afudk Anti-Missile" 1
+		"Likaj Rapid Gun" 1
+		"Likaj Rapid Gun Turret" 1
+		"Ehodo Gun" 1
+		"Ooiko Reactor" 5
+		"Rehre Reactor" 6
+		"Qkaix Thruster" 1
+		"Qkaix Steering" 1
+		"Lzeuuifaji Cooling" 1
+		"Duena houxo Heatsink" 1
+		"Hyperdrive"
+	engine 140.5 56.0
+	engine 63.5 56.0
+	engine 123.0 88.5
+	engine 81.0 88.5
+	gun 73.5 60.5
+	gun 133.0 60.5
+	turret 56.5 41.0
+	turret 148.5 41.0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xviiu elrii T1.1 ship"
+
+ship "Iorziniqur"
+	sprite "ship/Xviiu elrii/Iorziniqur"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 191000
+		"shields" 15200
+		"hull" 3600
+		"required crew" 21
+		"bunks" 52
+		"mass" 677.0
+		"drag" 13.84
+		"heat dissipation" 0.72
+		"fuel capacity" 700
+		"cargo space" 325
+		"outfit space" 1029
+		"weapon capacity" 352
+		"engine capacity" 320
+		weapon 
+			"blast radius" 188
+			"shield damage" 1880
+			"hull damage" 940
+			"hit force" 2820
+	outfits 
+		"Cinoi Reactor" 4
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Afudk Anti-Missile" 1
+		"Likaj Rapid Gun" 2
+		"Ehodo Gun" 1
+		"Ooiko Reactor" 4
+		"Rehre Reactor" 4
+		"Qkaix Thruster" 1
+		"Qkaix Steering" 1
+		"Lzeuuifaji Cooling" 1
+		"Tuifa ahoia Heat Shunt" 1
+		"Hyperdrive"
+	engine 88.5 77.0
+	engine 21.0 77.0
+	engine 59.0 83.0
+	gun 59.0 89.0
+	gun 85.5 22.0
+	gun 31.0 22.0
+	turret 59.0 100.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xviiu elrii T1.1 ship"
+
+ship "Fiuox oeuer"
+	sprite "ship/Xviiu elrii/Fiuox oeuer"
+	attributes 
+		category "Heavy Warship"
+		"cost" 296000
+		"shields" 22400
+		"hull" 5300
+		"required crew" 19
+		"bunks" 62
+		"mass" 951.2
+		"drag" 20.34
+		"heat dissipation" 0.83
+		"fuel capacity" 800
+		"cargo space" 115
+		"outfit space" 1974
+		"weapon capacity" 814
+		"engine capacity" 480
+		weapon 
+			"blast radius" 277
+			"shield damage" 2770
+			"hull damage" 1390
+			"hit force" 4160
+	outfits 
+		"Cinoi Reactor" 16
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Afudk Anti-Missile" 1
+		"Likaj Rapid Gun" 2
+		"Likaj Rapid Gun Turret" 4
+		"Ehodo Gun" 2
+		"Ehodo Gun Turret" 1
+		"Ooiko Reactor" 7
+		"Qkaix Thruster" 1
+		"Qkaix Steering" 1
+		"Lzeuuifaji Cooling" 2
+		"Ajqec Cooling" 1
+		"Hyperdrive"
+	engine 132.0 89.5
+	engine 28.0 89.5
+	engine 108.0 130.0
+	engine 52.0 130.0
+	engine 84.0 67.5
+	gun 59.5 82.5
+	gun 122.5 62.0
+	gun 44.0 62.0
+	gun 107.0 82.5
+	turret 84.0 100.5
+	turret 114.5 74.0
+	turret 50.5 74.0
+	turret 110.0 114.0
+	turret 55.0 114.0
+	turret 114.0 122.5
+	turret 51.0 122.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xviiu elrii T1.1 ship"
+
+ship "Sioeoenikk hkieu"
+	sprite "ship/Xviiu elrii/Sioeoenikk hkieu"
+	attributes 
+		category "Interceptor"
+		"cost" 154000
+		"shields" 1800
+		"hull" 500
+		"required crew" 2
+		"bunks" 5
+		"mass" 39.8
+		"drag" 0.73
+		"heat dissipation" 0.81
+		"fuel capacity" 500
+		"cargo space" 5
+		"outfit space" 102
+		"weapon capacity" 33
+		"engine capacity" 20
+		weapon 
+			"blast radius" 23
+			"shield damage" 230
+			"hull damage" 120
+			"hit force" 350
+	outfits 
+		"Cxafaofhqe Core" 1
+		"Likaj Rapid Gun" 1
+		"Ceatz Thruster" 1
+		"Ceatz Steering" 1
+		"Ooiko Reactor" 1
+		"Ajqec Cooling" 1
+		"Hyperdrive"
+	engine 25.5 36.0
+	gun 25.5 15.0
+	gun 42.5 12.5
+	gun 7.0 12.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 0
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Xviiu elrii T1.1 ship"
+
+ship "Couhd tsuso"
+	sprite "ship/Xviiu elrii/Couhd tsuso"
+	attributes 
+		category "Light Freighter"
+		"cost" 196000
+		"shields" 2300
+		"hull" 600
+		"required crew" 8
+		"bunks" 13
+		"mass" 139.0
+		"drag" 2.68
+		"heat dissipation" 0.7
+		"fuel capacity" 800
+		"cargo space" 45
+		"outfit space" 158
+		"weapon capacity" 66
+		"engine capacity" 40
+		weapon 
+			"blast radius" 29
+			"shield damage" 290
+			"hull damage" 150
+			"hit force" 440
+	outfits 
+		"Ooiko Reactor" 1
+		"Afski Battery" 1
+		"Hikeuvxioi Shield Generator" 1
+		"Likaj Rapid Gun" 2
+		"Ceatz Thruster" 1
+		"Ceatz Steering" 1
+		"Hyperdrive"
+	engine 43.0 29.0
+	gun 43.0 16.0
+	gun 51.0 12.5
+	gun 33.5 12.5
+	turret 43.0 35.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Xviiu elrii T1.1 ship"
+

@@ -1,0 +1,301 @@
+ship "Mvoiicji"
+	sprite "ship/Peus iiod/Mvoiicji"
+	attributes 
+		category "Medium Warship"
+		"cost" 23743000
+		"shields" 279300
+		"hull" 736700
+		"required crew" 11
+		"bunks" 18
+		"mass" 431.0
+		"drag" 8.99
+		"heat dissipation" 0.76
+		"fuel capacity" 1700
+		"cargo space" 55
+		"outfit space" 798
+		"weapon capacity" 330
+		"engine capacity" 260
+		weapon 
+			"blast radius" 10160
+			"shield damage" 101600
+			"hull damage" 50800
+			"hit force" 152400
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 3
+		"Acvi Beam Turret" 2
+		"Uirs Torpedo Launcher" 2
+		"Uirs Torpedo" 40
+		"Live uvok Thruster" 1
+		"Live uvok Steering" 1
+		"Capoayho Reactor" 1
+		"Apir Capacitor" 1
+		"Hyperdrive"
+	engine 68.5 79.5
+	engine 27.0 79.5
+	engine 54.5 54.5
+	gun 54.5 77.5
+	gun 84.5 41.5
+	gun 23.0 41.5
+	gun 81.5 58.0
+	gun 26.0 58.0
+	turret 20.5 27.0
+	turret 84.5 27.0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peus iiod T4.2 ship"
+
+ship "Dedi xalb"
+	sprite "ship/Peus iiod/Dedi xalb"
+	attributes 
+		category "Light Warship"
+		"cost" 247680000
+		"shields" 231200
+		"hull" 609700
+		"required crew" 14
+		"bunks" 29
+		"mass" 243.6
+		"drag" 4.8
+		"heat dissipation" 0.83
+		"fuel capacity" 2300
+		"cargo space" 30
+		"outfit space" 441
+		"weapon capacity" 143
+		"engine capacity" 120
+		weapon 
+			"blast radius" 8409
+			"shield damage" 84090
+			"hull damage" 42050
+			"hit force" 126140
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 1
+		"Acvi Beam Turret" 1
+		"Uirs Torpedo Launcher" 1
+		"Uirs Torpedo" 20
+		"Live uvok Thruster" 1
+		"Live uvok Steering" 1
+		"Capoayho Reactor" 1
+		"Apir Capacitor" 1
+		"Hyperdrive"
+	engine 48.5 22.5
+	gun 29.0 9.0
+	gun 66.5 9.0
+	turret 48.5 15.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peus iiod T4.2 ship"
+
+ship "Uose lieo"
+	sprite "ship/Peus iiod/Uose lieo"
+	attributes 
+		category "Medium Warship"
+		"cost" 227098000
+		"shields" 366100
+		"hull" 965400
+		"required crew" 24
+		"bunks" 34
+		"mass" 307.4
+		"drag" 6.56
+		"heat dissipation" 0.57
+		"fuel capacity" 2100
+		"cargo space" 40
+		"outfit space" 430
+		"weapon capacity" 143
+		"engine capacity" 140
+		weapon 
+			"blast radius" 13315
+			"shield damage" 133150
+			"hull damage" 66580
+			"hit force" 199730
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 2
+		"Acvi Beam Turret" 4
+		"Uirs Torpedo Launcher" 1
+		"Uirs Torpedo" 20
+		"Live uvok Thruster" 1
+		"Live uvok Steering" 1
+		"Capoayho Reactor" 1
+		"Apir Capacitor" 1
+		"Giok ocaq Heat Shunt" 2
+		"Hyperdrive"
+	engine 44.5 42.0
+	gun 44.5 82.0
+	gun 68.5 25.5
+	gun 19.0 25.5
+	turret 32.0 77.0
+	turret 68.5 11.0
+	turret 16.5 11.0
+	turret 53.0 77.0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Peus iiod T4.2 ship"
+
+ship "Ofio yeei eegp"
+	sprite "ship/Peus iiod/Ofio yeei eegp"
+	attributes 
+		category "Light Freighter"
+		"cost" 34340000
+		"shields" 80900
+		"hull" 213400
+		"required crew" 11
+		"bunks" 38
+		"mass" 296.8
+		"drag" 6.3
+		"heat dissipation" 0.59
+		"fuel capacity" 3200
+		"cargo space" 90
+		"outfit space" 598
+		"weapon capacity" 187
+		"engine capacity" 150
+		weapon 
+			"blast radius" 2943
+			"shield damage" 29430
+			"hull damage" 14720
+			"hit force" 44150
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 2
+		"Acvi Beam Turret" 1
+		"Uirs Torpedo Launcher" 2
+		"Uirs Torpedo" 40
+		"Live uvok Thruster" 1
+		"Live uvok Steering" 1
+		"Capoayho Reactor" 1
+		"Apir Capacitor" 1
+		"Giok ocaq Heat Shunt" 1
+		"Auos Heatsink" 1
+		"Hyperdrive"
+	engine 60.0 47.5
+	engine 15.5 47.5
+	gun 33.5 22.5
+	gun 58.0 8.5
+	gun 26.5 8.5
+	gun 51.0 22.5
+	turret 43.0 10.0
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Peus iiod T4.2 ship"
+
+ship "Moqo tumu ixop"
+	sprite "ship/Peus iiod/Moqo tumu ixop"
+	attributes 
+		category "Interceptor"
+		"cost" 28416000
+		"shields" 79700
+		"hull" 210100
+		"required crew" 3
+		"bunks" 4
+		"mass" 53.6
+		"drag" 1.08
+		"heat dissipation" 0.78
+		"fuel capacity" 3000
+		"cargo space" 10
+		"outfit space" 81
+		"weapon capacity" 33
+		"engine capacity" 20
+		weapon 
+			"blast radius" 2898
+			"shield damage" 28980
+			"hull damage" 14490
+			"hit force" 43470
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 2
+		"Acvi Beam Turret" 1
+		"Apir Capacitor" 1
+		"Giok ocaq Heat Shunt" 9
+		"Auos Heatsink" 9
+		"Olevgemo Temperature Control" 1
+		"Hyperdrive"
+	engine 28.0 26.5
+	gun 28.0 26.0
+	gun 39.0 12.5
+	gun 15.5 12.5
+	gun 31.5 13.0
+	gun 23.0 13.0
+	gun 36.0 23.0
+	gun 18.5 23.0
+	turret 28.0 32.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Peus iiod T4.2 ship"
+
+ship "Sedc jaam"
+	sprite "ship/Peus iiod/Sedc jaam"
+	attributes 
+		category "Fighter"
+		"cost" 25509000
+		"shields" 40600
+		"hull" 107000
+		"required crew" 3
+		"bunks" 5
+		"mass" 52.8
+		"drag" 1.1
+		"heat dissipation" 1.1400000000000001
+		"fuel capacity" 3000
+		"cargo space" 10
+		"outfit space" 105
+		"weapon capacity" 44
+		"engine capacity" 30
+		weapon 
+			"blast radius" 1476
+			"shield damage" 14760
+			"hull damage" 7380
+			"hit force" 22140
+	outfits 
+		"Arsg Shielding" 1
+		"Acvi Beam" 3
+		"Acvi Beam Turret" 1
+		"Erke caby Thruster" 1
+		"Erke caby Steering" 1
+		"Apir Capacitor" 1
+		"Giok ocaq Heat Shunt" 6
+		"Auos Heatsink" 6
+		"Ioji opiq Heat Shunt" 1
+		"Hyperdrive"
+	engine 24.0 26.0
+	gun 11.0 10.5
+	gun 44.0 8.5
+	gun 2.5 8.5
+	gun 35.5 10.5
+	turret 24.0 7.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Peus iiod T4.2 ship"
+

@@ -1,0 +1,115 @@
+outfit "Afudk Anti-Missile"
+	category "Turrets"
+	cost 2400
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 71
+	"outfit space" -71
+	"weapon capacity" -71
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 0.7
+		"velocity" 260
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 13.2
+		"firing heat" 25.6
+	description "Xviiu elrii T1.1 Anti-missile"
+
+outfit "Likaj Rapid Gun"
+	category "Guns"
+	cost 4600
+	thumbnail "outfit/inhibitor"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "disruptor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 11.8
+		"velocity" 18
+		"lifetime" 51
+		"reload" 1
+		"firing energy" 15.4
+		"firing heat" 16.7
+		"shield damage" 9.9
+		"hull damage" 11.7
+	description "Xviiu elrii T1.1 Projectile weapon"
+
+outfit "Likaj Rapid Gun Turret"
+	category "Turrets"
+	cost 15637.017606433066
+	thumbnail "outfit/inhibitor turret"
+	"mass" 77
+	"outfit space" -77
+	"weapon capacity" -77
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/tracker"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "disruptor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 11.8
+		"turret turn" 0.3
+		"velocity" 18
+		"lifetime" 51
+		"reload" 1
+		"firing energy" 15.4
+		"firing heat" 16.7
+		"shield damage" 9.9
+		"hull damage" 11.7
+	description "Xviiu elrii T1.1 Projectile weapon 1gun Turret"
+
+outfit "Ehodo Gun"
+	category "Guns"
+	cost 5900
+	thumbnail "outfit/ion rain gun"
+	"mass" 64
+	"outfit space" -64
+	"weapon capacity" -64
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.2
+		"velocity" 15
+		"lifetime" 3
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 4.8
+		"shield damage" 6.6
+		"hull damage" 49.0
+		"slowing damage" 30.6
+	description "Xviiu elrii T1.1 Projectile weapon"
+
+outfit "Ehodo Gun Turret"
+	category "Turrets"
+	cost 11969.563444035724
+	thumbnail "outfit/ion rain turret"
+	"mass" 220
+	"outfit space" -220
+	"weapon capacity" -220
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 6.2
+		"turret turn" 0.4
+		"velocity" 15
+		"lifetime" 3
+		"reload" 1
+		"firing energy" 4.5
+		"firing heat" 4.8
+		"shield damage" 13.2
+		"hull damage" 98.0
+		"slowing damage" 61.2
+	description "Xviiu elrii T1.1 Projectile weapon 2gun Turret"
+

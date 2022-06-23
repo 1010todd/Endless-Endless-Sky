@@ -1,0 +1,521 @@
+ship "Esouu oiuluoyuxe"
+	sprite "ship/indus1 in 1"
+	thumbnail "thumbnail/indus1 in 1"
+	attributes 
+		category "Interceptor"
+		"cost" 70062000
+		"shields" 155100
+		"hull" 271400
+		"required crew" 6
+		"bunks" 7
+		"mass" 64.0
+		"drag" 1.17
+		"heat dissipation" 0.95
+		"fuel capacity" 2400
+		"cargo space" 10
+		"outfit space" 136
+		"weapon capacity" 40
+		"engine capacity" 42
+		weapon 
+			"blast radius" 4265
+			"shield damage" 42650
+			"hull damage" 21330
+			"hit force" 63980
+	outfits 
+		"Kceoaveeoi Shield Regenerator" 1
+		"Nelan Missile Catapult" 1
+		"Nelan Missile" 100
+		"Haple Thruster" 1
+		"Haple Steering" 1
+		"Ouinlyesis Cell" 1
+		"Inenhpunia Heat Pump" 1
+		"Hyperdrive"
+	engine -7.0 33.0
+	engine 7.0 33.0
+	gun 3.6 -43.6
+	gun -17.5 7.5
+	gun 17.5 7.5
+	gun -3.5 -37.5
+	gun 3.5 -37.5
+	turret 3.8 -12.6
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Eeyuuizhae"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 526912000
+		"shields" 744800
+		"hull" 1303300
+		"required crew" 41
+		"bunks" 68
+		"mass" 866.4
+		"drag" 17.63
+		"heat dissipation" 0.82
+		"fuel capacity" 1200
+		"cargo space" 420
+		"outfit space" 1071
+		"weapon capacity" 310
+		"engine capacity" 346
+		weapon 
+			"blast radius" 20481
+			"shield damage" 204810
+			"hull damage" 102410
+			"hit force" 307220
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Auogu Beam" 1
+		"Oaure Assault Mortar Turret" 4
+		"Xeejn Thruster" 1
+		"Xeejn Steering" 1
+		"Eeotyeweeu Generator" 2
+		"Apijg Battery" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	turret 42.5 -361.0
+	turret -63.0 -342.0
+	turret 63.0 -342.0
+	leak "leak" 50
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Ohwae iulge"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 531868000
+		"shields" 1077000
+		"hull" 1884600
+		"required crew" 18
+		"bunks" 60
+		"mass" 679.6
+		"drag" 13.63
+		"heat dissipation" 0.71
+		"fuel capacity" 2900
+		"cargo space" 330
+		"outfit space" 1218
+		"weapon capacity" 390
+		"engine capacity" 326
+		weapon 
+			"blast radius" 29616
+			"shield damage" 296160
+			"hull damage" 148080
+			"hit force" 444240
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Oaure Assault Mortar Turret" 2
+		"Xeejn Thruster" 1
+		"Xeejn Steering" 1
+		"Eeotyeweeu Generator" 2
+		"Apijg Battery" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	turret 42.5 -361.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Rruaolaedovuuce"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 445086000
+		"shields" 578800
+		"hull" 1012800
+		"required crew" 7
+		"bunks" 14
+		"mass" 123.8
+		"drag" 2.57
+		"heat dissipation" 0.81
+		"fuel capacity" 2200
+		"cargo space" 15
+		"outfit space" 242
+		"weapon capacity" 100
+		"engine capacity" 74
+		weapon 
+			"blast radius" 15916
+			"shield damage" 159160
+			"hull damage" 79580
+			"hit force" 238740
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Lilao Thruster" 1
+		"Lilao Steering" 1
+		"Aeuai tayij Cell" 1
+		"Roetijluao Heatsink" 1
+		"Hyperdrive"
+	engine 0 44.5
+	turret 4.1 -16.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Werol xijuh"
+	sprite "ship/indus1 hw 1"
+	thumbnail "thumbnail/indus1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 790108000
+		"shields" 1657600
+		"hull" 2900600
+		"required crew" 46
+		"bunks" 116
+		"mass" 863.2
+		"drag" 16.58
+		"heat dissipation" 0.81
+		"fuel capacity" 3000
+		"cargo space" 105
+		"outfit space" 1218
+		"weapon capacity" 390
+		"engine capacity" 410
+		weapon 
+			"blast radius" 45582
+			"shield damage" 455820
+			"hull damage" 227910
+			"hit force" 683730
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Auogu Beam" 1
+		"Skusa Rocket Deployer" 1
+		"Skusa Rocket" 17
+		"Oaure Assault Mortar Turret" 4
+		"Xeejn Thruster" 1
+		"Xeejn Steering" 1
+		"Eeotyeweeu Generator" 2
+		"Apijg Battery" 1
+		"Hyperdrive"
+	engine 0 163.3
+	gun -4.5 -190.5
+	gun 4.5 -190.5
+	turret 7.2 -88.1
+	turret 3.4 -70.2
+	turret -3.4 -70.2
+	turret 5.8 -124.9
+	turret -5.8 -124.9
+	turret 2.2 -80.5
+	turret -2.2 -80.5
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Haoilhievi"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 739396000
+		"shields" 630100
+		"hull" 1102600
+		"required crew" 2
+		"bunks" 15
+		"mass" 70.2
+		"drag" 1.33
+		"heat dissipation" 1.05
+		"fuel capacity" 2400
+		"cargo space" 10
+		"outfit space" 74
+		"weapon capacity" 30
+		"engine capacity" 32
+		weapon 
+			"blast radius" 17327
+			"shield damage" 173270
+			"hull damage" 86640
+			"hit force" 259910
+	outfits 
+		"Rjuod tuueb Shield Regenerator" 1
+		"Oaure Assault Mortar" 1
+		"Haple Thruster" 1
+		"Haple Steering" 1
+		"Izzin Reactor" 1
+		"Hyperdrive"
+	engine 0 42.6
+	gun 4.9 -46.7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Hijoudihji"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 902848000
+		"shields" 1377000
+		"hull" 2409600
+		"required crew" 43
+		"bunks" 61
+		"mass" 789.6
+		"drag" 16.72
+		"heat dissipation" 0.88
+		"fuel capacity" 2100
+		"cargo space" 95
+		"outfit space" 1407
+		"weapon capacity" 530
+		"engine capacity" 378
+		weapon 
+			"blast radius" 37866
+			"shield damage" 378660
+			"hull damage" 189330
+			"hit force" 567990
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Auogu Beam" 1
+		"Auogu Beam Turret" 1
+		"Nelan Missile Catapult" 1
+		"Nelan Missile" 100
+		"Oaure Assault Mortar" 1
+		"Xeejn Thruster" 1
+		"Xeejn Steering" 1
+		"Eeotyeweeu Generator" 2
+		"Apijg Battery" 1
+		"Hyperdrive"
+	engine 0 323.5
+	gun 3.1 -286.7
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	gun 82.0 -13.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Wiuyteuooejuyiu"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 382313000
+		"shields" 797100
+		"hull" 1394800
+		"required crew" 4
+		"bunks" 15
+		"mass" 131.6
+		"drag" 2.42
+		"heat dissipation" 0.59
+		"fuel capacity" 1700
+		"cargo space" 20
+		"outfit space" 273
+		"weapon capacity" 90
+		"engine capacity" 94
+		weapon 
+			"blast radius" 21919
+			"shield damage" 219190
+			"hull damage" 109600
+			"hit force" 328790
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Opswo Anti-Missile" 1
+		"Lilao Thruster" 1
+		"Lilao Steering" 1
+		"Izzin Reactor" 1
+		"Hyperdrive"
+	engine 0 42.1
+	turret 4.7 -23.9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Uyuvayoahr yoyua"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 252539000
+		"shields" 588100
+		"hull" 1029100
+		"required crew" 8
+		"bunks" 27
+		"mass" 253.4
+		"drag" 5.15
+		"heat dissipation" 0.52
+		"fuel capacity" 3700
+		"cargo space" 35
+		"outfit space" 483
+		"weapon capacity" 140
+		"engine capacity" 126
+		weapon 
+			"blast radius" 16172
+			"shield damage" 161720
+			"hull damage" 80860
+			"hit force" 242580
+	outfits 
+		"Isjzo Shield Regenerator" 1
+		"Auogu Beam" 1
+		"Uvxuejaloo Thruster" 1
+		"Uvxuejaloo Steering" 1
+		"Eeotyeweeu Generator" 1
+		"Apijg Battery" 1
+		"Inenhpunia Heat Pump" 1
+		"Hyperdrive"
+	engine 0 41.5
+	gun 0.1 -47.1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Cciuuccauxracxi"
+	sprite "ship/indus1 in 3"
+	thumbnail "thumbnail/indus1 in 3"
+	attributes 
+		category "Interceptor"
+		"cost" 99064000
+		"shields" 204900
+		"hull" 358500
+		"required crew" 3
+		"bunks" 10
+		"mass" 87.4
+		"drag" 1.53
+		"heat dissipation" 0.73
+		"fuel capacity" 2800
+		"cargo space" 15
+		"outfit space" 147
+		"weapon capacity" 40
+		"engine capacity" 42
+		weapon 
+			"blast radius" 5634
+			"shield damage" 56340
+			"hull damage" 28170
+			"hit force" 84510
+	outfits 
+		"Kceoaveeoi Shield Regenerator" 1
+		"Nelan Missile Catapult" 1
+		"Nelan Missile" 100
+		"Haple Thruster" 1
+		"Haple Steering" 1
+		"Aizoo Cooler" 2
+		"Hyperdrive"
+	engine 0 65.9
+	gun 0.1 -63.1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Tulzo ruojw T4.7 ship"
+
+ship "Haued cianz"
+	sprite "ship/indus1 ft 1"
+	thumbnail "thumbnail/indus1 ft 1"
+	attributes 
+		category "Fighter"
+		"cost" 24419000
+		"shields" 76700
+		"hull" 134100
+		"required crew" 1
+		"bunks" 4
+		"mass" 34.4
+		"drag" 0.68
+		"heat dissipation" 0.96
+		"fuel capacity" 2800
+		"cargo space" 5
+		"outfit space" 136
+		"weapon capacity" 22
+		"engine capacity" 26
+		weapon 
+			"blast radius" 2108
+			"shield damage" 21080
+			"hull damage" 10540
+			"hit force" 31620
+	outfits 
+		"Kceoaveeoi Shield Regenerator" 1
+		"Oaure Assault Mortar" 1
+		"Aizoo Cooler" 3
+		"Inenhpunia Heat Pump" 1
+		"Roetijluao Heatsink" 1
+		"Hruso Cooling" 1
+		"Hyperdrive"
+	engine 1.0 33.5
+	engine -7.0 32.0
+	engine 6.5 31.5
+	gun -1.4 -30.7
+	gun 1.0 -34.0
+	gun 0.1 -28.9
+	gun -0.1 -28.9
+	gun 1.4 -30.7
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Tulzo ruojw T4.7 ship"
+

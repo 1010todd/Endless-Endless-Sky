@@ -1,0 +1,267 @@
+outfit "Aau Anti-Missile"
+	category "Turrets"
+	cost 20683800
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 19.1
+		"velocity" 130
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.3
+		"firing heat" 2.3
+	description "Yav caa T2.5 Anti-missile"
+
+outfit "Ezu Blaster"
+	category "Guns"
+	cost 19318500
+	thumbnail "outfit/blaster"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/bombardment"
+		sound "particle"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.5
+		"velocity" 46
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 18.9
+		"firing heat" 14.7
+		"shield damage" 41.5
+		"hull damage" 17.6
+	description "Yav caa T2.5 Projectile weapon"
+
+outfit "Apo Guided Rocket"
+	category "Ammunition"
+	cost 7274921
+	thumbnail "outfit/typhoon"
+	"mass" 0.06
+	"Apo Guided Rocket capacity" -1
+	description "Yav caa Missile"
+
+outfit "Apo Guided Rocket Storage
+	category "Ammunition"
+	cost 55839984
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -2
+	"Apo Guided Rocket capacity" 33
+	ammo "Apo Guided Rocket"
+	description "Apo Guided Rocket Storage"
+
+outfit "Apo Guided Rocket Catapult"
+	category "Secondary Weapons"
+	cost 31585500
+	thumbnail "outfit/typhoon launcher"
+	"mass" 2
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"Apo Guided Rocket capacity" 33
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Apo Guided Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.1
+		"velocity" 17
+		"lifetime" 1900
+		"reload" 1
+		"firing energy" 2.4
+		"firing heat" 7.9
+		"acceleration" 0.7
+		"drag" 0.2
+		"turn" 40.5
+		"homing" 3
+		"infrared tracking" 0.94
+		"shield damage" 21.3
+		"hull damage" 107.0
+		"missile strength" 14.8
+	description "Yav caa T2.5 Missile weapon"
+
+outfit "Icv Anti-Missile"
+	category "Turrets"
+	cost 27650100
+	thumbnail "outfit/anti-missile"
+	"mass" 64
+	"outfit space" -64
+	"weapon capacity" -64
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 102.3
+		"velocity" 250
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 261.0
+		"firing heat" 248.1
+	description "Yav caa T2.5 Anti-missile"
+
+outfit "Czu Beam"
+	category "Guns"
+	cost 29446600
+	thumbnail "outfit/slicer"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "zapper"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 1.7
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 13.7
+		"firing heat" 15.7
+		"shield damage" 20.5
+		"hull damage" 4.3
+	description "Yav caa T2.5 Beam weapon"
+
+outfit "Czu Beam Turret"
+	category "Turrets"
+	cost 127151268.99781746
+	thumbnail "outfit/slicer turret"
+	"mass" 143
+	"outfit space" -143
+	"weapon capacity" -143
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "zapper"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 1.7
+		"turret turn" 0.7
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 13.7
+		"firing heat" 15.7
+		"shield damage" 61.5
+		"hull damage" 12.899999999999999
+	description "Yav caa T2.5 Beam weapon 3gun Turret"
+
+outfit "Soi Lance"
+	category "Guns"
+	cost 19156900
+	thumbnail "outfit/heavy laser"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 1.5
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 26.8
+		"firing heat" 19.5
+		"shield damage" 37.7
+		"hull damage" 10.6
+		"heat damage" 1.3
+	description "Yav caa T2.5 Beam weapon"
+
+outfit "Soi Lance Turret"
+	category "Turrets"
+	cost 56489901.66013689
+	thumbnail "outfit/heavy laser turret"
+	"mass" 384
+	"outfit space" -384
+	"weapon capacity" -384
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		sound "disruptor"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 1.5
+		"turret turn" 0.2
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 26.8
+		"firing heat" 19.5
+		"shield damage" 75.4
+		"hull damage" 21.2
+		"heat damage" 2.6
+	description "Yav caa T2.5 Beam weapon 2gun Turret"
+
+outfit "Box Missile"
+	category "Ammunition"
+	cost 11653782
+	thumbnail "outfit/sidewinder"
+	"mass" 0.05
+	"Box Missile capacity" -1
+	description "Yav caa Missile"
+
+outfit "Box Missile Storage
+	category "Ammunition"
+	cost 73133070
+	thumbnail "outfit/sidewinder storage"
+	"mass" 3
+	"outfit space" -2
+	"Box Missile capacity" 40
+	ammo "Box Missile"
+	description "Box Missile Storage"
+
+outfit "Box Missile Tube"
+	category "Secondary Weapons"
+	cost 55421400
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 3
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"Box Missile capacity" 40
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Box Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.2
+		"velocity" 13
+		"lifetime" 4800
+		"reload" 1
+		"firing energy" 8.6
+		"firing heat" 11.4
+		"acceleration" 0.4
+		"drag" 0.1
+		"turn" 39.9
+		"homing" 3
+		"optical tracking" 0.4
+		"shield damage" 18.2
+		"hull damage" 10.1
+		"hit force" 11
+		"missile strength" 39.7
+	description "Yav caa T2.5 Missile weapon"
+

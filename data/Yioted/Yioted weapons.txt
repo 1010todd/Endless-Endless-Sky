@@ -1,0 +1,47 @@
+outfit "Mma Laser"
+	category "Guns"
+	cost 38070500
+	thumbnail "outfit/laser"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 2.6
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.8
+		"firing heat" 6.1
+		"shield damage" 10.5
+		"hull damage" 18.9
+	description "Yioted T2.5 Beam weapon"
+
+outfit "Mma Laser Turret"
+	category "Turrets"
+	cost 126892392.92410263
+	thumbnail "outfit/laser turret"
+	"mass" 155
+	"outfit space" -155
+	"weapon capacity" -155
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/laser turret"
+		sound "disruptor"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 2.6
+		"turret turn" 0.2
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.8
+		"firing heat" 6.1
+		"shield damage" 10.5
+		"hull damage" 18.9
+	description "Yioted T2.5 Beam weapon 1gun Turret"
+

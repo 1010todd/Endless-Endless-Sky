@@ -1,0 +1,244 @@
+outfit "Hea Machine Cannon"
+	category "Guns"
+	cost 441133800
+	thumbnail "outfit/ion rain gun"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile5"
+		sound "pulse"
+		"hit effect" "blaster impact"
+		"inaccuracy" 3.2
+		"velocity" 43
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.1
+		"firing heat" 3.4
+		"shield damage" 10.3
+		"hull damage" 41.7
+		"hit force" 11
+	description "Beiori T3.6 Projectile weapon"
+
+outfit "Iax Machine Basilisk"
+	category "Guns"
+	cost 8473911200
+	thumbnail "outfit/bombardment cannon"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/pulse"
+		sound "plasma"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.2
+		"velocity" 43
+		"lifetime" 0
+		"reload" 1
+		"firing energy" 221.6
+		"firing heat" 243.8
+		"shield damage" 438.5
+		"hull damage" 62.6
+	description "Beiori T3.6 Projectile weapon"
+
+outfit "Apa Laser"
+	category "Guns"
+	cost 2737375400
+	thumbnail "outfit/slicer"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.3
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 0.2
+		"shield damage" 2.0
+		"hull damage" 3.2
+	description "Beiori T3.6 Beam weapon"
+
+outfit "Apa Laser Turret"
+	category "Turrets"
+	cost 8450481792.798357
+	thumbnail "outfit/slicer turret"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "heavy laser"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 2.3
+		"turret turn" 4.7
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 0.2
+		"shield damage" 6.0
+		"hull damage" 9.600000000000001
+	description "Beiori T3.6 Beam weapon 3gun Turret"
+
+outfit "Iuu Beam Projector"
+	category "Guns"
+	cost 22593252700
+	thumbnail "outfit/moonbeam"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "skylance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 2.8
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 1.6
+		"shield damage" 4.4
+		"hull damage" 6.7
+	description "Beiori T3.6 Beam weapon"
+
+outfit "Iuu Beam Projector Turret"
+	category "Turrets"
+	cost 59219731209.555725
+	thumbnail "outfit/moonbeam turret"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "skylance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.6
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.0
+		"firing heat" 1.6
+		"shield damage" 4.4
+		"hull damage" 6.7
+	description "Beiori T3.6 Beam weapon 1gun Turret"
+
+outfit "Wux Rocket"
+	category "Ammunition"
+	cost 1678678899
+	thumbnail "outfit/sidewinder"
+	"mass" 0.02
+	"Wux Rocket capacity" -1
+	description "Beiori Missile"
+
+outfit "Wux Rocket Storage
+	category "Ammunition"
+	cost 12212758729
+	thumbnail "outfit/sidewinder storage"
+	"mass" 3
+	"outfit space" -1
+	"Wux Rocket capacity" 50
+	ammo "Wux Rocket"
+	description "Wux Rocket Storage"
+
+outfit "Wux Rocket Catapult"
+	category "Secondary Weapons"
+	cost 7249816500
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 3
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	"Wux Rocket capacity" 50
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Wux Rocket"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.1
+		"velocity" 33
+		"lifetime" 500
+		"reload" 1
+		"firing energy" 12.2
+		"firing heat" 6.8
+		"acceleration" 1.0
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 21.8
+		"hull damage" 41.0
+		"hit force" 21
+		"missile strength" 54.5
+	description "Beiori T3.6 Missile weapon"
+
+outfit "Kja Rocket"
+	category "Ammunition"
+	cost 1096325623
+	thumbnail "outfit/typhoon"
+	"mass" 0.07
+	"Kja Rocket capacity" -1
+	description "Beiori Missile"
+
+outfit "Kja Rocket Storage
+	category "Ammunition"
+	cost 7081304769
+	thumbnail "outfit/typhoon storage"
+	"mass" 3
+	"outfit space" -3
+	"Kja Rocket capacity" 43
+	ammo "Kja Rocket"
+	description "Kja Rocket Storage"
+
+outfit "Kja Rocket Launcher"
+	category "Secondary Weapons"
+	cost 4389427400
+	thumbnail "outfit/typhoon launcher"
+	"mass" 3
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	"Kja Rocket capacity" 43
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Kja Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 4.9
+		"velocity" 33
+		"lifetime" 700
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 51.1
+		"acceleration" 1.3
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 114.5
+		"hull damage" 40.9
+		"missile strength" 94.8
+	description "Beiori T3.6 Missile weapon"
+

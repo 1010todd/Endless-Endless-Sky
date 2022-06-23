@@ -1,0 +1,18 @@
+government "Elbsuhju"
+	"display name" "Elbsuhju"
+	"swizzle" 2
+	"color" 0.487 0.033 0.681 0.717
+	"player reputation" 0
+	"crew attack" 5.3
+	"crew defense" 20.7
+	"attitude toward"
+		"Xviiu elrii" 0
+		"Yioted" -1
+		"Czaeebib" -1
+		"Yav caa" -1
+		"Ayrue qeovv" 0
+		"Beiori" -1
+		"Tulzo ruojw" 1
+		"Apqoifqoae" 0
+		"Arsauu" -1
+		"Peus iiod" -1

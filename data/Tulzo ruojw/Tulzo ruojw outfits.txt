@@ -1,0 +1,2548 @@
+outfit "Apijg Battery"
+	category "Power"
+	cost 277100
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 5370
+	description "Tulzo ruojw T4.7 Battery"
+
+outfit "Epdepoduwh Battery"
+	category "Power"
+	cost 498800
+	thumbnail "outfit/tiny battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 27930
+	description "Tulzo ruojw T4.7 Battery"
+
+outfit "Ijojc Battery"
+	category "Power"
+	cost 897900
+	thumbnail "outfit/tiny battery"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 145240
+	description "Tulzo ruojw T4.7 Battery"
+
+outfit "Jewluoqohy Battery"
+	category "Power"
+	cost 1616300
+	thumbnail "outfit/tiny battery"
+	"mass" 42
+	"outfit space" -42
+	"energy capacity" 755250
+	description "Tulzo ruojw T4.7 Battery"
+
+outfit "Xutii Battery"
+	category "Power"
+	cost 2909400
+	thumbnail "outfit/tiny battery"
+	"mass" 67
+	"outfit space" -67
+	"energy capacity" 3927300
+	description "Tulzo ruojw T4.7 Battery"
+
+
+outfit "Eeotyeweeu Generator"
+	category "Power"
+	cost 125100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 5.4
+	"heat generation" 9.4
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Uecur ecvii Generator"
+	category "Power"
+	cost 212700
+	thumbnail "outfit/small fuel cell"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 28.1
+	"heat generation" 22.6
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Haple Thruster"
+	category "Engines"
+	cost 2875900
+	thumbnail "outfit/small atomic thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 5.4
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.421443807548358
+	"flare sound" "atomic small"
+	description "Tulzo ruojw T4.7 Thruster"
+
+outfit "Haple Steering"
+	category "Engines"
+	cost 2394175
+	thumbnail "outfit/small atomic steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 140
+	"turning energy" 0.2
+	"turning heat" 0.2
+	description "Tulzo ruojw T4.7 steering"
+
+outfit "Lilao Thruster"
+	category "Engines"
+	cost 4889100
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 14.0
+	"thrusting energy" 0.4
+	"thrusting heat" 0.7
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "atomic medium"
+	description "Tulzo ruojw T4.7 Thruster"
+
+outfit "Lilao Steering"
+	category "Engines"
+	cost 8311500
+	thumbnail "outfit/medium atomic steering"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"turn" 364.0
+	"turning energy" 0.4
+	"turning heat" 0.4
+	description "Tulzo ruojw T4.7 steering"
+
+outfit "Uvxuejaloo Thruster"
+	category "Engines"
+	cost 8311500
+	thumbnail "outfit/large atomic thruster"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"thrust" 36.4
+	"thrusting energy" 0.9
+	"thrusting heat" 1.5
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Tulzo ruojw T4.7 Thruster"
+
+outfit "Uvxuejaloo Steering"
+	category "Engines"
+	cost 14129600
+	thumbnail "outfit/large atomic steering"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"turn" 946.4
+	"turning energy" 0.9
+	"turning heat" 0.9
+	description "Tulzo ruojw T4.7 steering"
+
+outfit "Xeejn Thruster"
+	category "Engines"
+	cost 14129600
+	thumbnail "outfit/large atomic thruster"
+	"mass" 128
+	"outfit space" -128
+	"engine capacity" -128
+	"thrust" 94.6
+	"thrusting energy" 2.0
+	"thrusting heat" 3.3
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Tulzo ruojw T4.7 Thruster"
+
+outfit "Xeejn Steering"
+	category "Engines"
+	cost 24020400
+	thumbnail "outfit/large atomic steering"
+	"mass" 104
+	"outfit space" -104
+	"engine capacity" -104
+	"turn" 2460.6
+	"turning energy" 2.0
+	"turning heat" 2.0
+	description "Tulzo ruojw T4.7 steering"
+
+
+outfit "Isjzo Shield Regenerator"
+	category "Systems"
+	cost 1140600
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 2.49
+	"shield energy" 4.79
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Kceoaveeoi Shield Regenerator"
+	category "Systems"
+	cost 2053100
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 5.0
+	"shield energy" 3.8
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Oddohomeus Shield Regenerator"
+	category "Systems"
+	cost 3695600
+	thumbnail "outfit/medium shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 10.0
+	"shield energy" 3.0
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Rjuod tuueb Shield Regenerator"
+	category "Systems"
+	cost 6652100
+	thumbnail "outfit/large shield"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 20.0
+	"shield energy" 2.4
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Uehehacxos Shield Regenerator"
+	category "Systems"
+	cost 11973800
+	thumbnail "outfit/huge shield"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 40.0
+	"shield energy" 1.9
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Uyyil Shield Regenerator"
+	category "Systems"
+	cost 21552900
+	thumbnail "outfit/huge shield"
+	"mass" 112
+	"outfit space" -112
+	"shield generation" 80.0
+	"shield energy" 1.5
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+outfit "Voaduhjeaj Shield Regenerator"
+	category "Systems"
+	cost 38795300
+	thumbnail "outfit/huge shield"
+	"mass" 168
+	"outfit space" -168
+	"shield generation" 160.0
+	"shield energy" 1.2
+	"shield heat" 9
+	description "Tulzo ruojw T4.7 shield gen"
+
+
+
+outfit "Ouinlyesis Cell"
+	category "Power"
+	cost 265900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 5.3
+	"heat generation" 11.5
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Saobu Cell"
+	category "Power"
+	cost 452100
+	thumbnail "outfit/small fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 27.6
+	"heat generation" 34.5
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Ehaey jiziu Cell"
+	category "Power"
+	cost 666600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 6
+	"outfit space" -6
+	"energy generation" 5.6
+	"heat generation" 15.8
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Haooe Cell"
+	category "Power"
+	cost 1133300
+	thumbnail "outfit/small fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 29.1
+	"heat generation" 37.9
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Sheie Cell"
+	category "Power"
+	cost 1926700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 151.3
+	"heat generation" 91.0
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Ueyciophud Cell"
+	category "Power"
+	cost 3275400
+	thumbnail "outfit/large fuel cell"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 786.8
+	"heat generation" 218.4
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Inenhpunia Heat Pump"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 24
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aeuai tayij Cell"
+	category "Power"
+	cost 1719200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 4.8
+	"heat generation" 10.5
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Ydaui ahcor Cell"
+	category "Power"
+	cost 2922700
+	thumbnail "outfit/small fuel cell"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 25.0
+	"heat generation" 29.4
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Doyonhuayu Reactor"
+	category "Power"
+	cost 1139400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 5.4
+	"heat generation" 7.3
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Edioyivrsi Reactor"
+	category "Power"
+	cost 1937000
+	thumbnail "outfit/small fuel cell"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 28.1
+	"heat generation" 20.4
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Idldu Reactor"
+	category "Power"
+	cost 3292900
+	thumbnail "outfit/medium fuel cell"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 146.1
+	"heat generation" 57.1
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Izzin Reactor"
+	category "Power"
+	cost 5598000
+	thumbnail "outfit/large fuel cell"
+	"mass" 33
+	"outfit space" -33
+	"energy generation" 759.7
+	"heat generation" 159.9
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Roetijluao Heatsink"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 13
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hruso Cooling"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/large heat shunt"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 233
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Lnaar Heat Shunt"
+	category "Systems"
+	cost 21000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 223
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oasuv Temperature Control"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/hai williwaw"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 237
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Exoroaaawj Heat Shunt"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 322
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Leoue Cooler"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/liquid helium"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 204
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Osuirlzoxa Heat Shunt"
+	category "Systems"
+	cost 12700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 288
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Tiqco Heatsink"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/hai williwaw"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 227
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hoiil Heat Pump"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/hai williwaw"
+	"mass" 120
+	"outfit space" -120
+	"cooling" 244
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Reahoolziu Heat Pump"
+	category "Systems"
+	cost 20100
+	thumbnail "outfit/liquid helium"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 250
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Youjyolove Cooler"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 308
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Usiqa oyeia Heat Pump"
+	category "Systems"
+	cost 18100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 292
+	"active cooling" 1420
+	"cooling energy" 92.75393840866637
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hiihevloil Heatsink"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 82
+	"outfit space" -82
+	"active cooling" 1075
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Cuuxr Heat Pump"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/large heat shunt"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 202
+	"active cooling" 50
+	"cooling energy" 103.11581135213956
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ridetagkoe Heatsink"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 78
+	"outfit space" -78
+	"active cooling" 925
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yguuwaoivo Cooler"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/large heat shunt"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 269
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jelie auhix Cooling"
+	category "Systems"
+	cost 11900
+	thumbnail "outfit/large heat shunt"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 181
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iezoseovru Cooler"
+	category "Systems"
+	cost 17300
+	thumbnail "outfit/liquid helium"
+	"mass" 127
+	"outfit space" -127
+	"cooling" 310
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hweigsouka Heat Shunt"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 188
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eoaouhuoho Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/liquid helium"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 188
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Atowxduein Heat Pump"
+	category "Systems"
+	cost 13600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 258
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ajheawaiho Cooling"
+	category "Systems"
+	cost 15700
+	thumbnail "outfit/large heat shunt"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 309
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Opoya Cooler"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/liquid helium"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 178
+	"active cooling" 124
+	"cooling energy" 99.32335084702305
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ehioaayore Heat Shunt"
+	category "Systems"
+	cost 17500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 239
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jusla cudae Heat Shunt"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 227
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Zluat Cooler"
+	category "Systems"
+	cost 15100
+	thumbnail "outfit/liquid helium"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 216
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Locuuoiujw Cooling"
+	category "Systems"
+	cost 21000
+	thumbnail "outfit/liquid helium"
+	"mass" 125
+	"outfit space" -125
+	"cooling" 272
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Liwoyateso Cooling"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/large heat shunt"
+	"mass" 148
+	"outfit space" -148
+	"cooling" 316
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Qohae Temperature Control"
+	category "Systems"
+	cost 17300
+	thumbnail "outfit/large heat shunt"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 244
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Asjietojih Heat Shunt"
+	category "Systems"
+	cost 14600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 177
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Lguoe Heat Shunt"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/liquid helium"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 305
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Srecuyaaos Cooling"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/liquid helium"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 272
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Icdpi Heat Shunt"
+	category "Systems"
+	cost 14600
+	thumbnail "outfit/liquid helium"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 284
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Rusde Cooler"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 225
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wsoezvoovv Temperature Control"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 91
+	"outfit space" -91
+	"active cooling" 225
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Sacadziuou Heat Shunt"
+	category "Systems"
+	cost 12600
+	thumbnail "outfit/liquid helium"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 292
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Poyta Heatsink"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 297
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Lhewouaasa Cooling"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/hai williwaw"
+	"mass" 116
+	"outfit space" -116
+	"cooling" 289
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Itueoocipi Cooling"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 280
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ipesu Cooling"
+	category "Systems"
+	cost 15400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 205
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Odugn Cooling"
+	category "Systems"
+	cost 12300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 162
+	"active cooling" 341
+	"cooling energy" 58.8189462700994
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eaunuuouoe Heatsink"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid helium"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 205
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Roevcjelsi Cooling"
+	category "Systems"
+	cost 21700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 126
+	"outfit space" -126
+	"cooling" 251
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Cdxuo Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/large heat shunt"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 190
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aeijjgixji Temperature Control"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 139
+	"outfit space" -139
+	"cooling" 305
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ovehhisyey Temperature Control"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 207
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Lwaev Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/hai williwaw"
+	"mass" 49
+	"outfit space" -49
+	"active cooling" 541
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wiyde Cooling"
+	category "Systems"
+	cost 20300
+	thumbnail "outfit/hai williwaw"
+	"mass" 128
+	"outfit space" -128
+	"cooling" 287
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Pyoxo Cooler"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/large heat shunt"
+	"mass" 68
+	"outfit space" -68
+	"active cooling" 950
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Sobei Heat Shunt"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 78
+	"outfit space" -78
+	"active cooling" 27
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ixaeuucvxu Heatsink"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/hai williwaw"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 178
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Usdui Heat Shunt"
+	category "Systems"
+	cost 19900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 129
+	"outfit space" -129
+	"cooling" 305
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Zayaa Temperature Control"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/liquid helium"
+	"mass" 44
+	"outfit space" -44
+	"active cooling" 401
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Acpyocaaai Heatsink"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 89
+	"outfit space" -89
+	"cooling" 233
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yezad Temperature Control"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 321
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uocta Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 39
+	"outfit space" -39
+	"active cooling" 562
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oruew Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 204
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Xveieuleyu Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 49
+	"outfit space" -49
+	"active cooling" 422
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Vorew Cooling"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/large heat shunt"
+	"mass" 27
+	"outfit space" -27
+	"active cooling" 322
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Dueodteaij Heat Shunt"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 188
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Scoiaopatd Heatsink"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid helium"
+	"mass" 41
+	"outfit space" -41
+	"active cooling" 315
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Shuavazioq Cooler"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 235
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Julus juawe Cooling"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/hai williwaw"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 290
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Sweye giuja Heatsink"
+	category "Systems"
+	cost 10400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 307
+	"active cooling" 654
+	"cooling energy" 162.7193025173729
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Lhaeo Cooling"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 288
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Gevvoahruj Temperature Control"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 191
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Epizo Heat Shunt"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/large heat shunt"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 263
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Asbilseiis Heatsink"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"active cooling" 327
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Olgcotavro Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/liquid helium"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 304
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eyaia Temperature Control"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/liquid helium"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 265
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uyeun Temperature Control"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/large heat shunt"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 176
+	"active cooling" 550
+	"cooling energy" 71.52475839715719
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uousl Temperature Control"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/liquid helium"
+	"mass" 150
+	"outfit space" -150
+	"cooling" 311
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Deidu Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 189
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Xueae Cooler"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/liquid helium"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 211
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iuouk Heat Pump"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/hai williwaw"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 244
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Neeohauoco Heatsink"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/hai williwaw"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 211
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yujee Cooler"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/large heat shunt"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 169
+	"active cooling" 376
+	"cooling energy" 80.04378895249086
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Qisedyevoo Cooler"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/liquid helium"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 305
+	"active cooling" 1099
+	"cooling energy" 152.97166513417267
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ehaua plago Heat Pump"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/liquid helium"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 306
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ejist locie Temperature Control"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 175
+	"active cooling" 284
+	"cooling energy" 89.88976144634081
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jaewd Cooling"
+	category "Systems"
+	cost 17100
+	thumbnail "outfit/large heat shunt"
+	"mass" 97
+	"outfit space" -97
+	"active cooling" 475
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yoegaaieju Cooler"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/hai williwaw"
+	"mass" 84
+	"outfit space" -84
+	"active cooling" 21
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Taary Heatsink"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/hai williwaw"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 254
+	"active cooling" 449
+	"cooling energy" 101.0078225055893
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Taaee Heat Shunt"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 169
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Gokau Heat Pump"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 162
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Adwaoihooj Heat Pump"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 293
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Tewax Heat Pump"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 63
+	"outfit space" -63
+	"cooling" 312
+	"active cooling" 731
+	"cooling energy" 163.94206717320415
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Zooru Temperature Control"
+	category "Systems"
+	cost 22300
+	thumbnail "outfit/liquid helium"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 194
+	"active cooling" 957
+	"cooling energy" 104.42266360191744
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jliiosoxta Cooling"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/liquid helium"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 187
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Xuhdi Cooling"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 111
+	"outfit space" -111
+	"cooling" 246
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Gocusgijoa Heatsink"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/large heat shunt"
+	"mass" 113
+	"outfit space" -113
+	"active cooling" 297
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eijwaawoli Heat Pump"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 116
+	"outfit space" -116
+	"active cooling" 100
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Tlies Cooler"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"active cooling" 109
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Thauo Heatsink"
+	category "Systems"
+	cost 11600
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 264
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Risiw Cooling"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 40
+	"outfit space" -40
+	"active cooling" 124
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aeehasoiwo Heat Pump"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/hai williwaw"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 296
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Dheiuouauv Cooling"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 25
+	"outfit space" -25
+	"active cooling" 168
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Nusas Temperature Control"
+	category "Systems"
+	cost 14500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 101
+	"outfit space" -101
+	"active cooling" 1013
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Gcuishaacu Temperature Control"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/large heat shunt"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 169
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Vitru Heat Pump"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/liquid helium"
+	"mass" 128
+	"outfit space" -128
+	"active cooling" 1522
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yaaes Temperature Control"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 51
+	"outfit space" -51
+	"active cooling" 76
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yeiuw Temperature Control"
+	category "Systems"
+	cost 15300
+	thumbnail "outfit/hai williwaw"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 271
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Teloyuhiay Cooling"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/hai williwaw"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 232
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Riuah Heat Pump"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 88
+	"outfit space" -88
+	"active cooling" 205
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Drozo Heatsink"
+	category "Systems"
+	cost 13600
+	thumbnail "outfit/hai williwaw"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 216
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iswaueveyj Heat Pump"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 64
+	"outfit space" -64
+	"active cooling" 603
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Tzioi Heatsink"
+	category "Systems"
+	cost 19000
+	thumbnail "outfit/liquid helium"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 221
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wioid Temperature Control"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/large heat shunt"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 185
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ojcatauwuw Cooler"
+	category "Systems"
+	cost 11800
+	thumbnail "outfit/liquid helium"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 214
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ohsav Heatsink"
+	category "Systems"
+	cost 13900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 307
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uesideoobt Cooler"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/large heat shunt"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 233
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ieyhi Temperature Control"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"active cooling" 738
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Praaa suuje Cooler"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 292
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jauaa zoiub Cooler"
+	category "Systems"
+	cost 14100
+	thumbnail "outfit/liquid helium"
+	"mass" 81
+	"outfit space" -81
+	"active cooling" 181
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Luehe Heat Shunt"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/hai williwaw"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 195
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Pucec Temperature Control"
+	category "Systems"
+	cost 21800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 120
+	"outfit space" -120
+	"active cooling" 772
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Rugli Cooling"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/hai williwaw"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 269
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eaewv Cooling"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/liquid helium"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 181
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Sveceadcuo Heat Shunt"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 174
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Cuusc Heat Shunt"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 47
+	"outfit space" -47
+	"active cooling" 557
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eenee ajjse Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 189
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oxehu Temperature Control"
+	category "Systems"
+	cost 21700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 119
+	"outfit space" -119
+	"cooling" 249
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eeolkeadee Temperature Control"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid helium"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 282
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hrwai arddu Cooling"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid helium"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 246
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hayaejewoo Heat Shunt"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 189
+	"active cooling" 285
+	"cooling energy" 76.64822787204899
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Augzeayrip Heatsink"
+	category "Systems"
+	cost 22100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 149
+	"outfit space" -149
+	"cooling" 302
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ejedi Heat Shunt"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/hai williwaw"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 272
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Spaezskeea Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/liquid helium"
+	"mass" 40
+	"outfit space" -40
+	"active cooling" 183
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oeviekeoin Heatsink"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 205
+	"active cooling" 733
+	"cooling energy" 70.85484475344964
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Rociayfoee Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 280
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eioey Cooler"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/hai williwaw"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 217
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Avcejjegao Heat Shunt"
+	category "Systems"
+	cost 16400
+	thumbnail "outfit/hai williwaw"
+	"mass" 125
+	"outfit space" -125
+	"cooling" 309
+	"active cooling" 1116
+	"cooling energy" 32.30528120537117
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ueylacuoap Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/large heat shunt"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 309
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ceulwlulir Cooling"
+	category "Systems"
+	cost 22200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 272
+	"active cooling" 736
+	"cooling energy" 112.01618210331871
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uuleu Heat Pump"
+	category "Systems"
+	cost 11700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 47
+	"outfit space" -47
+	"active cooling" 483
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Baovexedud Heatsink"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/large heat shunt"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 244
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hidxo Temperature Control"
+	category "Systems"
+	cost 11600
+	thumbnail "outfit/hai williwaw"
+	"mass" 67
+	"outfit space" -67
+	"active cooling" 179
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Detoe Heat Pump"
+	category "Systems"
+	cost 20600
+	thumbnail "outfit/liquid helium"
+	"mass" 121
+	"outfit space" -121
+	"cooling" 243
+	"active cooling" 149
+	"cooling energy" 129.47684346954193
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Anoli Heat Shunt"
+	category "Systems"
+	cost 18500
+	thumbnail "outfit/large heat shunt"
+	"mass" 130
+	"outfit space" -130
+	"cooling" 307
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iiaechouuu Cooler"
+	category "Systems"
+	cost 11700
+	thumbnail "outfit/large heat shunt"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 215
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ceeivowhis Heat Pump"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/liquid helium"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 312
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ouuwv Heat Pump"
+	category "Systems"
+	cost 19100
+	thumbnail "outfit/large heat shunt"
+	"mass" 122
+	"outfit space" -122
+	"active cooling" 1672
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Dabyawoaai Heat Shunt"
+	category "Systems"
+	cost 21800
+	thumbnail "outfit/hai williwaw"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 180
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iceojdoiui Cooler"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/liquid helium"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 203
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oecat uvloe Cooler"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/large heat shunt"
+	"mass" 45
+	"outfit space" -45
+	"active cooling" 50
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Zeyol iojge Cooling"
+	category "Systems"
+	cost 23700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 211
+	"active cooling" 934
+	"cooling energy" 81.61719401165765
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Vajuirueec Temperature Control"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 215
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wsuutyuaze Cooling"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/liquid helium"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 167
+	"active cooling" 791
+	"cooling energy" 66.75680981105073
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Guuweioodv Heat Shunt"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/liquid helium"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 236
+	"active cooling" 141
+	"cooling energy" 114.43149812453612
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ijxinweouv Heatsink"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/liquid helium"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 193
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yiedoxooie Cooling"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 92
+	"outfit space" -92
+	"active cooling" 1291
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uwher Heatsink"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/liquid helium"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 171
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Oeidizoctu Heat Shunt"
+	category "Systems"
+	cost 16200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 249
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Teiro Heat Pump"
+	category "Systems"
+	cost 18200
+	thumbnail "outfit/liquid helium"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 167
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wujuy acrue Heat Shunt"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/liquid helium"
+	"mass" 141
+	"outfit space" -141
+	"cooling" 285
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Usoje Heat Shunt"
+	category "Systems"
+	cost 19100
+	thumbnail "outfit/large heat shunt"
+	"mass" 115
+	"outfit space" -115
+	"active cooling" 815
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Asucjepuhy Heat Pump"
+	category "Systems"
+	cost 11600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 52
+	"outfit space" -52
+	"active cooling" 161
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hriyucpiwe Cooling"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 263
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Yirer Heatsink"
+	category "Systems"
+	cost 19200
+	thumbnail "outfit/liquid helium"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 232
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Iyivoxhiuw Cooling"
+	category "Systems"
+	cost 18100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 174
+	"active cooling" 913
+	"cooling energy" 79.87504517832481
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Josia Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/hai williwaw"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 258
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Naupnjweji Heat Pump"
+	category "Systems"
+	cost 21900
+	thumbnail "outfit/hai williwaw"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 243
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aaaacrxuou Temperature Control"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/liquid helium"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 195
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Enenl Heat Pump"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/hai williwaw"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 173
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Exceouyorw Cooling"
+	category "Systems"
+	cost 15700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 299
+	"active cooling" 567
+	"cooling energy" 99.56963730082799
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Inoiayioau Heat Pump"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 47
+	"outfit space" -47
+	"active cooling" 105
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Onueu Heat Shunt"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 257
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eyuvgvetae Heatsink"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/hai williwaw"
+	"mass" 121
+	"outfit space" -121
+	"cooling" 267
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Xehwo Heat Pump"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/large heat shunt"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 190
+	"active cooling" 386
+	"cooling energy" 65.16155634498767
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aduadneuic Heatsink"
+	category "Systems"
+	cost 15300
+	thumbnail "outfit/large heat shunt"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 265
+	"active cooling" 671
+	"cooling energy" 58.056837050930035
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Siinl Cooling"
+	category "Systems"
+	cost 18800
+	thumbnail "outfit/large heat shunt"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 273
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Nevueelgoh Heatsink"
+	category "Systems"
+	cost 11500
+	thumbnail "outfit/liquid helium"
+	"mass" 86
+	"outfit space" -86
+	"cooling" 315
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Azruajzeuc Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 44
+	"outfit space" -44
+	"cooling" 268
+	"active cooling" 266
+	"cooling energy" 148.6417239820262
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Cuvai Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/large heat shunt"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 202
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Seday Cooler"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 176
+	"active cooling" 742
+	"cooling energy" 96.05776186641502
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Cagur uzgsi Cooling"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/hai williwaw"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 197
+	"active cooling" 629
+	"cooling energy" 79.40578161695379
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Pjuno Cooler"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/large heat shunt"
+	"mass" 105
+	"outfit space" -105
+	"cooling" 214
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Peuoo Heat Shunt"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/liquid helium"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 231
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Unnai ihrye Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 253
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hooxphhaow Heat Shunt"
+	category "Systems"
+	cost 16400
+	thumbnail "outfit/hai williwaw"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 197
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eoalihread Cooling"
+	category "Systems"
+	cost 21200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 143
+	"outfit space" -143
+	"active cooling" 1042
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Daayo Heat Shunt"
+	category "Systems"
+	cost 19900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 172
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Arploosioi Heatsink"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/hai williwaw"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 296
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Raude Cooling"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/large heat shunt"
+	"mass" 122
+	"outfit space" -122
+	"cooling" 276
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Pejeduerlo Heatsink"
+	category "Systems"
+	cost 20600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 155
+	"outfit space" -155
+	"cooling" 321
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Etnpuxuazi Heat Shunt"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 236
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Suehe Heat Shunt"
+	category "Systems"
+	cost 17000
+	thumbnail "outfit/large heat shunt"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 171
+	"active cooling" 318
+	"cooling energy" 92.27086509946548
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Eezja Cooler"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/large heat shunt"
+	"mass" 64
+	"outfit space" -64
+	"active cooling" 184
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ixqxu Cooling"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/large heat shunt"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 280
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ovios Cooler"
+	category "Systems"
+	cost 20800
+	thumbnail "outfit/large heat shunt"
+	"mass" 153
+	"outfit space" -153
+	"active cooling" 1699
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Hoiei Heatsink"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/hai williwaw"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 174
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ayoeixcapa Cooler"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 187
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ldeaa Temperature Control"
+	category "Systems"
+	cost 15700
+	thumbnail "outfit/large heat shunt"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 227
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Xaiwovoasi Heat Shunt"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 309
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ucnhevoevo Heat Shunt"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 175
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jihousesay Cooler"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 186
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Vaelo yrgaa Heat Pump"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 49
+	"outfit space" -49
+	"cooling" 249
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ceeujaareh Heat Shunt"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 182
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ayeye Cooler"
+	category "Systems"
+	cost 19700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 127
+	"outfit space" -127
+	"active cooling" 878
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Vaaorjciuh Heatsink"
+	category "Systems"
+	cost 12600
+	thumbnail "outfit/liquid helium"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 195
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Ozace Heat Pump"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/hai williwaw"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 218
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Uatoo Core"
+	category "Power"
+	cost 3486500
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 6.0
+	"heat generation" 7.6
+	description "Tulzo ruojw T4.7 Power generator"
+
+outfit "Yaeoa Core"
+	category "Power"
+	cost 5927100
+	thumbnail "outfit/small fuel cell"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 31.2
+	"heat generation" 15.2
+	description "Tulzo ruojw T4.7 Power generator"
+
+
+outfit "Ohpeu Cooling"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 15
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Wweae Cooling"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 18
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Veujo Cooler"
+	category "Systems"
+	cost 12800
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Igeesuujcl Heat Pump"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	"active cooling" 13
+	"cooling energy" 3.579340475964782
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Jduoarahau Temperature Control"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 11
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aizoo Cooler"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 10
+	description "Tulzo ruojw T4.7 Cooling"
+
+
+outfit "Aiwoo Cooling"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 236
+	description "Tulzo ruojw T4.7 Cooling"
+
+

@@ -1,0 +1,56 @@
+fleet "Ayrue qeovv Defense"
+	government "Ayrue qeovv"
+	names "Ayrue qeovv Military names"
+	personality
+		heroic
+		confusion 11
+	variant 10
+		"Cezltjzeuaeqgab" 3
+		"Qukuvucxin" 3
+	variant 17
+		"Cezltjzeuaeqgab" 3
+		"Olmowzwiil elcmi" 4
+	variant 13
+		"Cezltjzeuaeqgab" 4
+		"Akotb hluaz" 3
+		"Ieoaf cwuqotmoen" 3
+fleet "Ayrue qeovv Privateer"
+	government "Ayrue qeovv"
+	names "Ayrue qeovv names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Wobec ucolm" 4
+		"Wobec ucolm" 1
+		"Wobec ucolm" 3
+	variant 13
+		"Qukuvucxin" 1
+		"Wobec ucolm" 1
+		"Ueqizaupouujbaq" 3
+	variant 34
+		"Qukuvucxin" 2
+		"Olmowzwiil elcmi" 4
+		"Cezltjzeuaeqgab" 3
+	variant 15
+		"Akotb hluaz" 4
+		"Akotb hluaz" 1
+		"Wobec ucolm" 3
+	variant 36
+		"Ieoaf cwuqotmoen" 4
+		"Wobec ucolm" 2
+		"Qukuvucxin" 3
+fleet "Ayrue qeovv Miner"
+	government "Ayrue qeovv"
+	names "Ayrue qeovv names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 8
+		"Ieoaf cwuqotmoen" 4
+		"Ueqizaupouujbaq" 4
+	variant 5
+		"Ieoaf cwuqotmoen" 3
+		"Cezltjzeuaeqgab" 2

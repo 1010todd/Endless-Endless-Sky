@@ -1,0 +1,291 @@
+outfit "Abes Capacitor"
+	category "Power"
+	cost 445900
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 4850
+	description "Elbsuhju T3.3 Battery"
+
+outfit "Ujcesisu Capacitor"
+	category "Power"
+	cost 802700
+	thumbnail "outfit/tiny battery"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 17460
+	description "Elbsuhju T3.3 Battery"
+
+outfit "Vuse ikec Capacitor"
+	category "Power"
+	cost 1444900
+	thumbnail "outfit/tiny battery"
+	"mass" 24
+	"outfit space" -24
+	"energy capacity" 62860
+	description "Elbsuhju T3.3 Battery"
+
+
+outfit "Dseo Core"
+	category "Power"
+	cost 119900
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 4.0
+	"heat generation" 9.2
+	description "Elbsuhju T3.3 Power generator"
+
+outfit "Qeku Core"
+	category "Power"
+	cost 203900
+	thumbnail "outfit/small fuel cell"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 14.4
+	"heat generation" 25.8
+	description "Elbsuhju T3.3 Power generator"
+
+outfit "Raji Core"
+	category "Power"
+	cost 346700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 61
+	"outfit space" -61
+	"energy generation" 51.8
+	"heat generation" 72.2
+	description "Elbsuhju T3.3 Power generator"
+
+
+outfit "Kaamlutl Thruster"
+	category "Engines"
+	cost 3393200
+	thumbnail "outfit/small atomic thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 6.5
+	"thrusting energy" 0.4
+	"thrusting heat" 0.5
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.4640310329708814
+	"flare sound" "atomic small"
+	description "Elbsuhju T3.3 Thruster"
+
+outfit "Kaamlutl Steering"
+	category "Engines"
+	cost 2994792
+	thumbnail "outfit/small atomic steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 172
+	"turning energy" 0.4
+	"turning heat" 0.4
+	description "Elbsuhju T3.3 steering"
+
+outfit "Mzoewifa Thruster"
+	category "Engines"
+	cost 5768500
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 15.6
+	"thrusting energy" 0.9
+	"thrusting heat" 1.1
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "atomic medium"
+	description "Elbsuhju T3.3 Thruster"
+
+outfit "Mzoewifa Steering"
+	category "Engines"
+	cost 9806500
+	thumbnail "outfit/medium atomic steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 412.8
+	"turning energy" 0.9
+	"turning heat" 0.9
+	description "Elbsuhju T3.3 steering"
+
+outfit "Ooxe Thruster"
+	category "Engines"
+	cost 9806500
+	thumbnail "outfit/large atomic thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 37.4
+	"thrusting energy" 2.0
+	"thrusting heat" 2.4
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Elbsuhju T3.3 Thruster"
+
+outfit "Ooxe Steering"
+	category "Engines"
+	cost 16671100
+	thumbnail "outfit/large atomic steering"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"turn" 990.7
+	"turning energy" 2.0
+	"turning heat" 2.0
+	description "Elbsuhju T3.3 steering"
+
+outfit "Qekb Thruster"
+	category "Engines"
+	cost 16671100
+	thumbnail "outfit/large atomic thruster"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 89.8
+	"thrusting energy" 4.4
+	"thrusting heat" 5.3
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Elbsuhju T3.3 Thruster"
+
+outfit "Qekb Steering"
+	category "Engines"
+	cost 28340900
+	thumbnail "outfit/large atomic steering"
+	"mass" 97
+	"outfit space" -97
+	"engine capacity" -97
+	"turn" 2377.7
+	"turning energy" 4.4
+	"turning heat" 4.4
+	description "Elbsuhju T3.3 steering"
+
+outfit "Zkai Thruster"
+	category "Engines"
+	cost 28340900
+	thumbnail "outfit/large atomic thruster"
+	"mass" 257
+	"outfit space" -257
+	"engine capacity" -257
+	"thrust" 215.5
+	"thrusting energy" 9.7
+	"thrusting heat" 11.7
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Elbsuhju T3.3 Thruster"
+
+outfit "Zkai Steering"
+	category "Engines"
+	cost 48179600
+	thumbnail "outfit/large atomic steering"
+	"mass" 213
+	"outfit space" -213
+	"engine capacity" -213
+	"turn" 5706.5
+	"turning energy" 9.7
+	"turning heat" 9.7
+	description "Elbsuhju T3.3 steering"
+
+
+outfit "Fuugukra Shielding"
+	category "Systems"
+	cost 294100
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 1.46
+	"shield energy" 1.51
+	"shield heat" 1
+	description "Elbsuhju T3.3 shield gen"
+
+outfit "Zepafija Shielding"
+	category "Systems"
+	cost 529400
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 2.9
+	"shield energy" 1.5
+	"shield heat" 1
+	description "Elbsuhju T3.3 shield gen"
+
+
+
+outfit "Eojm Heat Pump"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/hai williwaw"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 91
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Evoa Temperature Control"
+	category "Systems"
+	cost 16700
+	thumbnail "outfit/cooling ducts"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 2
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Faoa Cooler"
+	category "Systems"
+	cost 28600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Idiv Temperature Control"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 78
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Meeb Temperature Control"
+	category "Systems"
+	cost 17000
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 13
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Ijba Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 19
+	"active cooling" 28
+	"cooling energy" 10.138125412176946
+	description "Elbsuhju T3.3 Cooling"
+
+
+outfit "Jama Cooler"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/small heat shunt"
+	"mass" 1
+	"outfit space" -1
+	"active cooling" 2
+	description "Elbsuhju T3.3 Cooling"
+
+

@@ -1,0 +1,160 @@
+outfit "Efue Lance"
+	category "Guns"
+	cost 2515906400
+	thumbnail "outfit/moonbeam"
+	"mass" 27
+	"outfit space" -27
+	"weapon capacity" -27
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "heliarch repulsor"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.5
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 1.1
+		"shield damage" 4.3
+		"hull damage" 11.1
+	description "Elbsuhju T3.3 Beam weapon"
+
+outfit "Efue Lance Turret"
+	category "Turrets"
+	cost 7371701185.59226
+	thumbnail "outfit/moonbeam turret"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "heliarch repulsor"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.5
+		"turret turn" 0.3
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 1.1
+		"shield damage" 4.3
+		"hull damage" 11.1
+	description "Elbsuhju T3.3 Beam weapon 1gun Turret"
+
+outfit "Vqui Anti-Missile"
+	category "Turrets"
+	cost 1453035800
+	thumbnail "outfit/anti-missile hai"
+	"mass" 46
+	"outfit space" -46
+	"weapon capacity" -46
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 43.5
+		"velocity" 320
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.7
+		"firing heat" 8.3
+	description "Elbsuhju T3.3 Anti-missile"
+
+outfit "Eqse Rapid Ballista"
+	category "Guns"
+	cost 2028794200
+	thumbnail "outfit/bombardment cannon"
+	"mass" 59
+	"outfit space" -59
+	"weapon capacity" -59
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/pulse"
+		sound "hion"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.7
+		"velocity" 17
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 21.6
+		"firing heat" 11.3
+		"shield damage" 46.1
+		"hull damage" 31.4
+		"heat damage" 24.0
+		"ion damage" 24.0
+	description "Elbsuhju T3.3 Projectile weapon"
+
+outfit "Afqd Tachyon Projector"
+	category "Guns"
+	cost 1606482100
+	thumbnail "outfit/slicer"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0.6
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.2
+		"firing heat" 2.9
+		"shield damage" 13.2
+		"hull damage" 22.6
+	description "Elbsuhju T3.3 Beam weapon"
+
+outfit "Afqd Tachyon Projector Turret"
+	category "Turrets"
+	cost 5055024517.964159
+	thumbnail "outfit/slicer turret"
+	"mass" 143
+	"outfit space" -143
+	"weapon capacity" -143
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/fire-lance"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "laser"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" 0.6
+		"turret turn" 0.5
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 6.2
+		"firing heat" 2.9
+		"shield damage" 39.599999999999994
+		"hull damage" 67.80000000000001
+	description "Elbsuhju T3.3 Beam weapon 3gun Turret"
+
+outfit "Namu Anti-Missile"
+	category "Turrets"
+	cost 6019368800
+	thumbnail "outfit/anti-missile"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 16.6
+		"velocity" 770
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10.6
+		"firing heat" 4.5
+	description "Elbsuhju T3.3 Anti-missile"
+

@@ -1,0 +1,421 @@
+ship "Yieasd pbo"
+	sprite "ship/Arsauu/Yieasd pbo"
+	attributes 
+		category "Transport"
+		"cost" 361000
+		"shields" 5200
+		"hull" 24200
+		"required crew" 24
+		"bunks" 122
+		"mass" 256.8
+		"drag" 5.43
+		"heat dissipation" 0.59
+		"fuel capacity" 1100
+		"cargo space" 35
+		"outfit space" 472
+		"weapon capacity" 130
+		"engine capacity" 136
+		weapon 
+			"blast radius" 294
+			"shield damage" 2940
+			"hull damage" 1470
+			"hit force" 4410
+	outfits 
+		"Usillu Thruster" 1
+		"Usillu Steering" 1
+		"Nue Generator" 9
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 61.5 71.5
+	turret 61.5 36.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Arsauu T2.2 ship"
+
+ship "Ibuaio lge"
+	sprite "ship/Arsauu/Ibuaio lge"
+	attributes 
+		category "Medium Warship"
+		"cost" 5810000
+		"shields" 21200
+		"hull" 98900
+		"required crew" 26
+		"bunks" 43
+		"mass" 450.4
+		"drag" 8.72
+		"heat dissipation" 0.88
+		"fuel capacity" 1400
+		"cargo space" 55
+		"outfit space" 830
+		"weapon capacity" 320
+		"engine capacity" 210
+		weapon 
+			"blast radius" 1201
+			"shield damage" 12010
+			"hull damage" 6010
+			"hit force" 18020
+	outfits 
+		"Usillu Thruster" 1
+		"Usillu Steering" 1
+		"Nue Generator" 9
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Oxo Missile Launcher" 3
+		"Oxo Missile" 51
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 100.5 34.5
+	engine 6.0 34.5
+	gun 57.5 63.5
+	gun 106.0 12.5
+	gun 7.5 12.5
+	turret 57.5 30.0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Igoqdi"
+	sprite "ship/Arsauu/Igoqdi"
+	attributes 
+		category "Transport"
+		"cost" 266000
+		"shields" 6100
+		"hull" 28300
+		"required crew" 8
+		"bunks" 39
+		"mass" 161.4
+		"drag" 3.17
+		"heat dissipation" 0.72
+		"fuel capacity" 1600
+		"cargo space" 20
+		"outfit space" 252
+		"weapon capacity" 90
+		"engine capacity" 74
+		weapon 
+			"blast radius" 344
+			"shield damage" 3440
+			"hull damage" 1720
+			"hit force" 5160
+	outfits 
+		"Niausb Thruster" 1
+		"Niausb Steering" 1
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Oxo Missile Launcher" 1
+		"Oxo Missile" 17
+		"Gle Shield Generator" 1
+		"Nue Generator" 3
+		"Ale Heat Pump" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 44.5 55.5
+	gun 44.5 46.0
+	turret 44.5 45.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Arsauu T2.2 ship"
+
+ship "Spgsoyjre"
+	sprite "ship/Arsauu/Spgsoyjre"
+	attributes 
+		category "Medium Warship"
+		"cost" 11532000
+		"shields" 13600
+		"hull" 63500
+		"required crew" 17
+		"bunks" 34
+		"mass" 290.0
+		"drag" 5.77
+		"heat dissipation" 0.58
+		"fuel capacity" 1400
+		"cargo space" 35
+		"outfit space" 315
+		"weapon capacity" 90
+		"engine capacity" 94
+		weapon 
+			"blast radius" 771
+			"shield damage" 7710
+			"hull damage" 3860
+			"hit force" 11570
+	outfits 
+		"Niausb Thruster" 1
+		"Niausb Steering" 1
+		"Nue Generator" 4
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Oxo Missile Launcher" 1
+		"Oxo Missile" 17
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 51.5 43.5
+	gun 51.5 60.0
+	turret 32.0 32.5
+	turret 74.5 28.5
+	turret 25.5 28.5
+	turret 68.0 32.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Nazsgoals"
+	sprite "ship/Arsauu/Nazsgoals"
+	attributes 
+		category "Medium Warship"
+		"cost" 3533000
+		"shields" 13200
+		"hull" 61500
+		"required crew" 10
+		"bunks" 24
+		"mass" 284.2
+		"drag" 5.96
+		"heat dissipation" 0.59
+		"fuel capacity" 700
+		"cargo space" 35
+		"outfit space" 336
+		"weapon capacity" 100
+		"engine capacity" 116
+		weapon 
+			"blast radius" 747
+			"shield damage" 7470
+			"hull damage" 3740
+			"hit force" 11210
+	outfits 
+		"Niausb Thruster" 1
+		"Niausb Steering" 1
+		"Nue Generator" 4
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Oxo Missile Launcher" 1
+		"Oxo Missile" 17
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 43.0 66.5
+	gun 43.0 38.0
+	gun 67.5 12.5
+	gun 17.0 12.5
+	turret 43.0 60.5
+	turret 68.5 44.5
+	turret 14.5 44.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Dnoyfieya"
+	sprite "ship/Arsauu/Dnoyfieya"
+	attributes 
+		category "Light Warship"
+		"cost" 5193000
+		"shields" 6500
+		"hull" 30200
+		"required crew" 23
+		"bunks" 33
+		"mass" 255.6
+		"drag" 5.26
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 35
+		"outfit space" 388
+		"weapon capacity" 150
+		"engine capacity" 126
+		weapon 
+			"blast radius" 367
+			"shield damage" 3670
+			"hull damage" 1840
+			"hit force" 5510
+	outfits 
+		"Niausb Thruster" 1
+		"Niausb Steering" 1
+		"Nue Generator" 4
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 38.5 53.0
+	turret 38.5 43.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Jdiers"
+	sprite "ship/Arsauu/Jdiers"
+	attributes 
+		category "Light Warship"
+		"cost" 1021000
+		"shields" 10100
+		"hull" 47300
+		"required crew" 10
+		"bunks" 25
+		"mass" 266.0
+		"drag" 5.18
+		"heat dissipation" 0.68
+		"fuel capacity" 800
+		"cargo space" 35
+		"outfit space" 514
+		"weapon capacity" 160
+		"engine capacity" 168
+		weapon 
+			"blast radius" 574
+			"shield damage" 5740
+			"hull damage" 2870
+			"hit force" 8610
+	outfits 
+		"Usillu Thruster" 1
+		"Usillu Steering" 1
+		"Nue Generator" 9
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 60.5 34.5
+	engine 4.5 34.5
+	turret 34.5 6.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Upaanuvuo"
+	sprite "ship/Arsauu/Upaanuvuo"
+	attributes 
+		category "Medium Warship"
+		"cost" 3704000
+		"shields" 13700
+		"hull" 64200
+		"required crew" 10
+		"bunks" 34
+		"mass" 319.6
+		"drag" 6.79
+		"heat dissipation" 0.6
+		"fuel capacity" 1500
+		"cargo space" 40
+		"outfit space" 378
+		"weapon capacity" 130
+		"engine capacity" 116
+		weapon 
+			"blast radius" 779
+			"shield damage" 7790
+			"hull damage" 3900
+			"hit force" 11690
+	outfits 
+		"Niausb Thruster" 1
+		"Niausb Steering" 1
+		"Nue Generator" 4
+		"Lbi Capacitor" 1
+		"Hpa Anti-Missile" 1
+		"Oxo Missile Launcher" 2
+		"Oxo Missile" 34
+		"Gle Shield Generator" 1
+		"Ehn Cooler" 1
+		"Hyperdrive"
+	engine 50.0 41.0
+	gun 50.0 34.0
+	gun 98.0 15.0
+	gun 0.5 15.0
+	turret 50.0 15.5
+	turret 78.5 10.0
+	turret 18.5 10.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Arsauu T2.2 ship"
+
+ship "Xuo dje cou"
+	sprite "ship/Arsauu/Xuo dje cou"
+	attributes 
+		category "Drone"
+		"cost" 680000
+		"shields" 2300
+		"hull" 10800
+		"required crew" 1
+		"bunks" 6
+		"mass" 46.4
+		"drag" 0.84
+		"heat dissipation" 0.88
+		"fuel capacity" 1500
+		"cargo space" 10
+		"outfit space" 340
+		"weapon capacity" 80
+		"engine capacity" 32
+		weapon 
+			"blast radius" 131
+			"shield damage" 1310
+			"hull damage" 660
+			"hit force" 1970
+	outfits 
+		"Atudqo Thruster" 1
+		"Atudqo Steering" 1
+		"Nue Generator" 1
+		"Lbi Capacitor" 1
+		"Oxo Missile Launcher" 2
+		"Oxo Missile" 34
+		"Gle Shield Generator" 1
+		"Hyperdrive"
+	engine 24.5 28.0
+	gun 10.0 11.0
+	gun 41.5 10.0
+	gun 6.5 10.0
+	gun 38.0 11.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 0
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Arsauu T2.2 ship"
+

@@ -1,0 +1,149 @@
+fleet "Czaeebib Military"
+	government "Czaeebib"
+	names "Czaeebib Military names"
+	personality
+		heroic
+		confusion 13
+	variant 12
+		"Bafitumb vaur" 5
+		"Lnoncaerubso" 0
+		"Nieyjieqekfa" 3
+		"Jioanagk" 4
+		"Lsiojecroyij" 2
+		"Ugup neupgocu" 5
+	variant 7
+		"Bafitumb vaur" 7
+		"Lnoncaerubso" 0
+		"Siis ionu" 2
+		"Lsiojecroyij" 5
+		"Ahrsyenb" 2
+		"Inueyiod" 2
+	variant 2
+		"Bafitumb vaur" 5
+		"Lnoncaerubso" 0
+		"Nieyjieqekfa" 4
+		"Jioanagk" 5
+		"Lsiojecroyij" 5
+		"Ugup neupgocu" 4
+		"Apyuabmnujue" 5
+		"Ahrsyenb" 2
+		"Omipomkl" 3
+	variant 7
+		"Bafitumb vaur" 7
+		"Lnoncaerubso" 0
+		"Pjooopfe maik" 5
+		"Nieyjieqekfa" 4
+		"Siis ionu" 2
+		"Ugup neupgocu" 4
+		"Apyuabmnujue" 2
+		"Inueyiod" 4
+	variant 3
+		"Bafitumb vaur" 4
+		"Lnoncaerubso" 0
+		"Nieyjieqekfa" 4
+		"Jioanagk" 5
+		"Lsiojecroyij" 3
+		"Ugup neupgocu" 4
+		"Inueyiod" 3
+	variant 10
+		"Bafitumb vaur" 4
+		"Lnoncaerubso" 0
+		"Pjooopfe maik" 4
+		"Nieyjieqekfa" 5
+		"Jioanagk" 2
+		"Lsiojecroyij" 5
+		"Ugup neupgocu" 3
+		"Apyuabmnujue" 5
+		"Omipomkl" 5
+	variant 17
+		"Bafitumb vaur" 7
+		"Lnoncaerubso" 0
+		"Lsiojecroyij" 4
+		"Ugup neupgocu" 2
+		"Apyuabmnujue" 4
+		"Ahrsyenb" 2
+		"Inueyiod" 4
+	variant 13
+		"Bafitumb vaur" 6
+		"Lnoncaerubso" 0
+		"Pjooopfe maik" 2
+		"Nieyjieqekfa" 5
+		"Ugup neupgocu" 2
+		"Apyuabmnujue" 3
+	variant 18
+		"Bafitumb vaur" 7
+		"Lnoncaerubso" 0
+		"Nieyjieqekfa" 4
+		"Lsiojecroyij" 3
+		"Apyuabmnujue" 4
+		"Ahrsyenb" 2
+		"Inueyiod" 2
+fleet "Czaeebib Merchant"
+	government "Czaeebib"
+	names "Czaeebib names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Ahrsyenb" 2
+		"Lnoncaerubso" 3
+		"Ugup neupgocu" 3
+	variant 13
+		"Bafitumb vaur" 2
+		"Nieyjieqekfa" 3
+		"Siis ionu" 4
+	variant 22
+		"Inueyiod" 1
+		"Pjooopfe maik" 3
+		"Inueyiod" 1
+	variant 51
+		"Lsiojecroyij" 1
+		"Pjooopfe maik" 1
+		"Inueyiod" 1
+	variant 8
+		"Ugup neupgocu" 4
+		"Lnoncaerubso" 4
+		"Inueyiod" 3
+	variant 10
+		"Omipomkl" 4
+		"Jioanagk" 1
+		"Nieyjieqekfa" 4
+	variant 24
+		"Lnoncaerubso" 1
+		"Ugup neupgocu" 3
+		"Inueyiod" 4
+	variant 98
+		"Ahrsyenb" 3
+		"Pjooopfe maik" 1
+		"Inueyiod" 3
+	variant 136
+		"Bafitumb vaur" 2
+		"Bafitumb vaur" 2
+		"Lnoncaerubso" 1
+	variant 18
+		"Omipomkl" 3
+		"Jioanagk" 3
+		"Omipomkl" 1
+fleet "Czaeebib Miner"
+	government "Czaeebib"
+	names "Czaeebib names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 6
+		"Ahrsyenb" 3
+		"Lnoncaerubso" 0
+	variant 3
+		"Omipomkl" 3
+		"Lnoncaerubso" 0
+	variant 17
+		"Ahrsyenb" 3
+		"Lnoncaerubso" 0
+	variant 10
+		"Ahrsyenb" 2
+		"Lnoncaerubso" 0
+	variant 18
+		"Ahrsyenb" 2
+		"Lnoncaerubso" 0

@@ -1,0 +1,359 @@
+ship "Aiwuqfsuasdauki"
+	sprite "ship/Apqoifqoae/Aiwuqfsuasdauki"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 24766000
+		"shields" 37400
+		"hull" 67100
+		"required crew" 26
+		"bunks" 44
+		"mass" 492.8
+		"drag" 8.94
+		"heat dissipation" 0.79
+		"fuel capacity" 2000
+		"cargo space" 240
+		"outfit space" 724
+		"weapon capacity" 270
+		"engine capacity" 231
+		weapon 
+			"blast radius" 1045
+			"shield damage" 10450
+			"hull damage" 5230
+			"hit force" 15680
+	outfits 
+		"Uaoaa Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Uidex Generator" 1
+		"Eeiceonwou Capacitor" 1
+		"Sucle Generator" 1
+		"Okaainxida Thruster" 1
+		"Okaainxida Steering" 1
+		"Nuuofuehoe Cooler" 2
+		"Hyperdrive"
+	engine 86.5 97.0
+	engine 70.5 128.0
+	gun 70.0 57.5
+	gun 73.0 51.0
+	turret 66.0 96.5
+	turret 71.5 50.0
+	turret 74.5 111.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Apqoifqoae T2.5 ship"
+
+ship "Emwukelkiemecne"
+	sprite "ship/Apqoifqoae/Emwukelkiemecne"
+	attributes 
+		category "Medium Warship"
+		"cost" 6022000
+		"shields" 34300
+		"hull" 61500
+		"required crew" 46
+		"bunks" 65
+		"mass" 506.6
+		"drag" 10.47
+		"heat dissipation" 0.62
+		"fuel capacity" 800
+		"cargo space" 65
+		"outfit space" 588
+		"weapon capacity" 180
+		"engine capacity" 158
+		weapon 
+			"blast radius" 958
+			"shield damage" 9580
+			"hull damage" 4790
+			"hit force" 14370
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Okaainxida Thruster" 1
+		"Okaainxida Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Uidex Generator" 1
+		"Eeiceonwou Capacitor" 1
+		"Hyperdrive"
+	engine 67.5 70.0
+	engine 52.0 76.0
+	gun 46.5 25.5
+	turret 56.0 38.5
+	turret 62.5 53.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Apqoifqoae T2.5 ship"
+
+ship "Oluniinliwxouyi"
+	sprite "ship/Apqoifqoae/Oluniinliwxouyi"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 6753000
+		"shields" 35100
+		"hull" 63000
+		"required crew" 11
+		"bunks" 16
+		"mass" 571.6
+		"drag" 12.24
+		"heat dissipation" 0.52
+		"fuel capacity" 1400
+		"cargo space" 275
+		"outfit space" 777
+		"weapon capacity" 230
+		"engine capacity" 242
+		weapon 
+			"blast radius" 981
+			"shield damage" 9810
+			"hull damage" 4910
+			"hit force" 14720
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Uaoaa Thruster" 1
+		"Uaoaa Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Uidex Generator" 1
+		"Eeiceonwou Capacitor" 1
+		"Sucle Generator" 1
+		"Ukohz Core" 1
+		"Nuuofuehoe Cooler" 2
+		"Seicx Cooler" 2
+		"Axfiu Cooling" 1
+		"Hyperdrive"
+	engine 50.0 105.5
+	engine 50.0 94.0
+	gun 62.0 116.5
+	turret 54.5 97.0
+	turret 60.0 84.0
+	turret 69.5 81.5
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Apqoifqoae T2.5 ship"
+
+ship "Eovpohaxoz"
+	sprite "ship/Apqoifqoae/Eovpohaxoz"
+	attributes 
+		category "Medium Warship"
+		"cost" 8828000
+		"shields" 37000
+		"hull" 66500
+		"required crew" 25
+		"bunks" 62
+		"mass" 421.0
+		"drag" 8.05
+		"heat dissipation" 0.64
+		"fuel capacity" 1800
+		"cargo space" 55
+		"outfit space" 672
+		"weapon capacity" 230
+		"engine capacity" 200
+		weapon 
+			"blast radius" 1035
+			"shield damage" 10350
+			"hull damage" 5180
+			"hit force" 15530
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Okaainxida Thruster" 1
+		"Okaainxida Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Uidex Generator" 1
+		"Eeiceonwou Capacitor" 1
+		"Hyperdrive"
+	engine 44.5 70.0
+	engine 45.5 83.0
+	gun 57.5 39.5
+	gun 47.0 37.5
+	gun 59.0 29.0
+	turret 41.0 58.0
+	turret 49.0 50.0
+	turret 43.0 51.5
+	turret 45.5 53.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Apqoifqoae T2.5 ship"
+
+ship "Xiaskfuliu"
+	sprite "ship/Apqoifqoae/Xiaskfuliu"
+	attributes 
+		category "Transport"
+		"cost" 10323000
+		"shields" 25000
+		"hull" 44900
+		"required crew" 7
+		"bunks" 30
+		"mass" 118.6
+		"drag" 2.41
+		"heat dissipation" 0.84
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 158
+		"weapon capacity" 67
+		"engine capacity" 52
+		weapon 
+			"blast radius" 699
+			"shield damage" 6990
+			"hull damage" 3500
+			"hit force" 10490
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Hewua Thruster" 1
+		"Hewua Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Ivwaicmike Generator" 1
+		"Hyperdrive"
+	engine 29.0 53.0
+	gun 35.0 28.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Apqoifqoae T2.5 ship"
+
+ship "Ududuxaaimeaeex"
+	sprite "ship/Apqoifqoae/Ududuxaaimeaeex"
+	attributes 
+		category "Transport"
+		"cost" 2136000
+		"shields" 21000
+		"hull" 37600
+		"required crew" 3
+		"bunks" 15
+		"mass" 66.2
+		"drag" 1.4
+		"heat dissipation" 0.78
+		"fuel capacity" 1400
+		"cargo space" 10
+		"outfit space" 136
+		"weapon capacity" 67
+		"engine capacity" 42
+		weapon 
+			"blast radius" 586
+			"shield damage" 5860
+			"hull damage" 2930
+			"hit force" 8790
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Hewua Thruster" 1
+		"Hewua Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Nuuofuehoe Cooler" 3
+		"Seicx Cooler" 1
+		"Hyperdrive"
+	engine 26.0 60.0
+	gun 31.0 27.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Apqoifqoae T2.5 ship"
+
+ship "Aoxaeeceoxewpuw"
+	sprite "ship/Apqoifqoae/Aoxaeeceoxewpuw"
+	attributes 
+		category "Interceptor"
+		"cost" 750000
+		"shields" 3300
+		"hull" 5900
+		"required crew" 5
+		"bunks" 7
+		"mass" 82.6
+		"drag" 1.59
+		"heat dissipation" 1.07
+		"fuel capacity" 1400
+		"cargo space" 10
+		"outfit space" 233
+		"weapon capacity" 67
+		"engine capacity" 32
+		weapon 
+			"blast radius" 92
+			"shield damage" 920
+			"hull damage" 460
+			"hit force" 1380
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Iqexa Tachyon Projector" 1
+		"Ukohz Core" 1
+		"Eeiceonwou Capacitor" 1
+		"Nuuofuehoe Cooler" 1
+		"Seicx Cooler" 1
+		"Axfiu Cooling" 1
+		"Hyperdrive"
+	engine 32.0 37.0
+	gun 31.0 26.5
+	gun 27.5 24.0
+	gun 27.0 17.5
+	turret 33.0 26.0
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Apqoifqoae T2.5 ship"
+
+ship "Kopgaxmuav"
+	sprite "ship/Apqoifqoae/Kopgaxmuav"
+	attributes 
+		category "Transport"
+		"cost" 12372000
+		"shields" 26500
+		"hull" 47600
+		"required crew" 10
+		"bunks" 58
+		"mass" 238.2
+		"drag" 4.85
+		"heat dissipation" 0.64
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 346
+		"weapon capacity" 120
+		"engine capacity" 116
+		weapon 
+			"blast radius" 741
+			"shield damage" 7410
+			"hull damage" 3710
+			"hit force" 11120
+	outfits 
+		"Melaaeocem Shield Generator" 1
+		"Okaainxida Thruster" 1
+		"Okaainxida Steering" 1
+		"Iqexa Tachyon Projector" 1
+		"Eeiceonwou Capacitor" 1
+		"Eaifkmqooo Core" 1
+		"Nuuofuehoe Cooler" 5
+		"Seicx Cooler" 4
+		"Hyperdrive"
+	engine 29.5 85.5
+	gun 24.0 25.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Apqoifqoae T2.5 ship"
+

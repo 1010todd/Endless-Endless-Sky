@@ -1,0 +1,268 @@
+outfit "Opswo Anti-Missile"
+	category "Turrets"
+	cost 8436129347700
+	thumbnail "outfit/pug anti-missile"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 21.0
+		"velocity" 840
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4.6
+		"firing heat" 4.7
+	description "Tulzo ruojw T4.7 Anti-missile"
+
+outfit "Auogu Beam"
+	category "Guns"
+	cost 1080779853600
+	thumbnail "outfit/sunbeam"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "zapper"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.1
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 14.4
+		"firing heat" 2.4
+		"shield damage" 63.4
+		"hull damage" 18.8
+		"energy damage" 0.1
+	description "Tulzo ruojw T4.7 Beam weapon"
+
+outfit "Auogu Beam Turret"
+	category "Turrets"
+	cost 3403727260984.4175
+	thumbnail "outfit/sunbeam turret"
+	"mass" 347
+	"outfit space" -347
+	"weapon capacity" -347
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+		"hardpoint sprite" "hardpoint/sunbeam turret"
+		sound "zapper"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 0.1
+		"turret turn" 0.3
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 14.4
+		"firing heat" 2.4
+		"shield damage" 190.2
+		"hull damage" 56.400000000000006
+		"energy damage" 0.30000000000000004
+	description "Tulzo ruojw T4.7 Beam weapon 3gun Turret"
+
+outfit "Skusa Rocket"
+	category "Ammunition"
+	cost 7422478142687
+	thumbnail "outfit/typhoon"
+	"mass" 0.06
+	"Skusa Rocket capacity" -1
+	description "Tulzo ruojw Missile"
+
+outfit "Skusa Rocket Storage
+	category "Ammunition"
+	cost 56098486916724
+	thumbnail "outfit/typhoon storage"
+	"mass" 0
+	"outfit space" -1
+	"Skusa Rocket capacity" 17
+	ammo "Skusa Rocket"
+	description "Skusa Rocket Storage"
+
+outfit "Skusa Rocket Deployer"
+	category "Secondary Weapons"
+	cost 29693814365900
+	thumbnail "outfit/typhoon launcher"
+	"mass" 0
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	"Skusa Rocket capacity" 17
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Skusa Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.1
+		"velocity" 38
+		"lifetime" 200
+		"reload" 1
+		"firing energy" 34.8
+		"firing heat" 41.1
+		"acceleration" 1.8
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 108.3
+		"hull damage" 28.5
+		"missile strength" 312.4
+	description "Tulzo ruojw T4.7 Missile weapon"
+
+outfit "Nelan Missile"
+	category "Ammunition"
+	cost 970647203639
+	thumbnail "outfit/typhoon"
+	"mass" 0.01
+	"Nelan Missile capacity" -1
+	description "Tulzo ruojw Missile"
+
+outfit "Nelan Missile Storage
+	category "Ammunition"
+	cost 6686449215608
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -1
+	"Nelan Missile capacity" 100
+	ammo "Nelan Missile"
+	description "Nelan Missile Storage"
+
+outfit "Nelan Missile Catapult"
+	category "Secondary Weapons"
+	cost 4506529181400
+	thumbnail "outfit/typhoon launcher"
+	"mass" 2
+	"outfit space" -38
+	"weapon capacity" -38
+	"gun ports" -1
+	"Nelan Missile capacity" 100
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Nelan Missile"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.0
+		"velocity" 17
+		"lifetime" 2500
+		"reload" 1
+		"firing energy" 27.9
+		"firing heat" 9.8
+		"acceleration" 0.5
+		"drag" 0.2
+		"turn" 15.9
+		"homing" 3
+		"tracking" 0.58
+		"shield damage" 70.4
+		"hull damage" 44.8
+		"hit force" 13
+		"missile strength" 155.1
+	description "Tulzo ruojw T4.7 Missile weapon"
+
+outfit "Ooecx Anti-Missile"
+	category "Turrets"
+	cost 8173218069000
+	thumbnail "outfit/anti-missile"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 29.2
+		"velocity" 460
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 2.0
+	description "Tulzo ruojw T4.7 Anti-missile"
+
+outfit "Oahai Beam Projector"
+	category "Guns"
+	cost 19349700046100
+	thumbnail "outfit/electron laser"
+	"mass" 64
+	"outfit space" -64
+	"weapon capacity" -64
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "electron beam"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.1
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5.3
+		"firing heat" 1.8
+		"shield damage" 26.7
+		"hull damage" 23.9
+	description "Tulzo ruojw T4.7 Beam weapon"
+
+outfit "Oaure Assault Mortar"
+	category "Guns"
+	cost 6566854435800
+	thumbnail "outfit/blaster"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.2
+		"velocity" 35
+		"lifetime" 7
+		"reload" 1
+		"firing energy" 30.9
+		"firing heat" 60.9
+		"shield damage" 164.3
+		"hull damage" 268.8
+		"hit force" 25
+	description "Tulzo ruojw T4.7 Projectile weapon"
+
+outfit "Oaure Assault Mortar Turret"
+	category "Turrets"
+	cost 19893346824983.22
+	thumbnail "outfit/blaster turret"
+	"mass" 42
+	"outfit space" -42
+	"weapon capacity" -42
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile3"
+		"hardpoint sprite" "hardpoint/blaster turret"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.2
+		"turret turn" 0.5
+		"velocity" 35
+		"lifetime" 7
+		"reload" 1
+		"firing energy" 30.9
+		"firing heat" 60.9
+		"shield damage" 164.3
+		"hull damage" 268.8
+		"hit force" 25
+	description "Tulzo ruojw T4.7 Projectile weapon 1gun Turret"
+

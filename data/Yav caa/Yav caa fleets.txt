@@ -1,0 +1,143 @@
+fleet "Yav caa Defense"
+	government "Yav caa"
+	names "Yav caa Military names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 14
+	variant 17
+		"Okvmbo" 1
+		"Umeueg" 2
+		"Aqflvu" 1
+		"Biuulk" 5
+		"Aqa iub duu" 5
+		"Zxa mwu" 1
+		"Ibeceo" 1
+	variant 11
+		"Aqflvu" 4
+		"Aqa iub duu" 1
+		"Ibeceo" 3
+		"Umeueg" 5
+		"Zxa mwu" 4
+		"Biuulk" 4
+		"Okvmbo" 1
+	variant 7
+		"Zxa mwu" 1
+		"Aqflvu" 1
+		"Umeueg" 3
+		"Biuulk" 3
+		"Ibeceo" 1
+		"Okvmbo" 2
+		"Aqa iub duu" 3
+	variant 6
+		"Umeueg" 2
+		"Biuulk" 5
+		"Ibeceo" 3
+		"Aqflvu" 4
+		"Aqa iub duu" 5
+		"Zxa mwu" 5
+		"Okvmbo" 1
+	variant 12
+		"Aqflvu" 3
+		"Ibeceo" 5
+		"Okvmbo" 1
+		"Zxa mwu" 5
+		"Umeueg" 3
+		"Biuulk" 1
+		"Aqa iub duu" 2
+	variant 9
+		"Biuulk" 3
+		"Aqflvu" 5
+		"Umeueg" 4
+		"Ibeceo" 3
+		"Zxa mwu" 3
+		"Aqa iub duu" 4
+		"Okvmbo" 5
+	variant 3
+		"Biuulk" 3
+		"Zxa mwu" 5
+		"Aqflvu" 5
+		"Umeueg" 5
+		"Okvmbo" 3
+		"Aqa iub duu" 2
+		"Ibeceo" 3
+	variant 15
+		"Umeueg" 3
+		"Okvmbo" 5
+		"Aqflvu" 5
+		"Biuulk" 4
+		"Ibeceo" 2
+		"Aqa iub duu" 3
+		"Zxa mwu" 5
+fleet "Yav caa Privateer"
+	government "Yav caa"
+	names "Yav caa names"
+	personality
+		timid
+		disables
+		confusion 24
+	variant 0
+		"Okvmbo" 4
+		"Umeueg" 3
+		"Biuulk" 4
+	variant 12
+		"Viauci" 4
+		"Zxa mwu" 4
+		"Zxa mwu" 3
+	variant 24
+		"Okvmbo" 3
+		"Okvmbo" 1
+		"Zxa mwu" 1
+	variant 30
+		"Viauci" 4
+		"Ibeceo" 3
+		"Umeueg" 2
+	variant 24
+		"Okvmbo" 2
+		"Ibeceo" 3
+		"Okvmbo" 1
+	variant 65
+		"Aqflvu" 3
+		"Biuulk" 4
+		"Biuulk" 1
+	variant 78
+		"Viauci" 1
+		"Okvmbo" 2
+		"Okvmbo" 4
+	variant 133
+		"Okvmbo" 2
+		"Okvmbo" 2
+		"Ibeceo" 2
+	variant 136
+		"Viauci" 1
+		"Aqflvu" 1
+		"Viauci" 2
+	variant 126
+		"Okvmbo" 1
+		"Okvmbo" 3
+		"Aqflvu" 4
+	variant 110
+		"Igyams" 3
+		"Aqa iub duu" 3
+		"Umeueg" 4
+fleet "Yav caa Miner"
+	government "Yav caa"
+	names "Yav caa names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 17
+		"Aqa iub duu" 2
+	variant 5
+		"Aqa iub duu" 4
+	variant 2
+		"Aqa iub duu" 2
+	variant 9
+		"Aqa iub duu" 3
+	variant 17
+		"Aqa iub duu" 2
+	variant 18
+		"Aqa iub duu" 3

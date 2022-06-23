@@ -1,0 +1,62 @@
+fleet "Xviiu elrii Patrol"
+	government "Xviiu elrii"
+	names "Xviiu elrii Military names"
+	personality
+		heroic
+		confusion 11
+	variant 15
+		"Okhacfiaeq" 3
+		"Fairfkheea xofol" 4
+		"Iorziniqur" 2
+		"Couhd tsuso" 4
+	variant 13
+		"Okhacfiaeq" 6
+		"Eutiuidsul" 4
+		"Fiuox oeuer" 2
+		"Sioeoenikk hkieu" 3
+		"Couhd tsuso" 4
+	variant 15
+		"Okhacfiaeq" 6
+		"Iorziniqur" 2
+		"Sioeoenikk hkieu" 3
+	variant 17
+		"Okhacfiaeq" 6
+		"Iorziniqur" 2
+		"Fiuox oeuer" 2
+		"Sioeoenikk hkieu" 4
+		"Couhd tsuso" 4
+fleet "Xviiu elrii Civilian"
+	government "Xviiu elrii"
+	names "Xviiu elrii names"
+	personality
+		timid
+		disables
+		confusion 20
+	variant 0
+		"Eutiuidsul" 1
+		"Iorziniqur" 3
+		"Sioeoenikk hkieu" 4
+	variant 19
+		"Fairfkheea xofol" 3
+		"Couhd tsuso" 2
+		"Iorziniqur" 3
+	variant 26
+		"Sioeoenikk hkieu" 2
+		"Iorziniqur" 2
+		"Fiuox oeuer" 3
+	variant 39
+		"Fairfkheea xofol" 3
+		"Iorziniqur" 4
+		"Sioeoenikk hkieu" 2
+fleet "Xviiu elrii Miner"
+	government "Xviiu elrii"
+	names "Xviiu elrii names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 4
+		"Sioeoenikk hkieu" 3
+	variant 3
+		"Sioeoenikk hkieu" 2

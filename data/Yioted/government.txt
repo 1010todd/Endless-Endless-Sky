@@ -1,0 +1,18 @@
+government "Yioted"
+	"display name" "Yioted"
+	"swizzle" 21
+	"color" 0.885 0.412 0.203 0.285
+	"player reputation" 0
+	"crew attack" 5.3
+	"crew defense" 20.7
+	"attitude toward"
+		"Xviiu elrii" 1
+		"Elbsuhju" -1
+		"Czaeebib" 0
+		"Yav caa" -1
+		"Ayrue qeovv" -1
+		"Beiori" -1
+		"Tulzo ruojw" 1
+		"Apqoifqoae" -1
+		"Arsauu" -1
+		"Peus iiod" 0

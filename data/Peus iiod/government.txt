@@ -1,0 +1,18 @@
+government "Peus iiod"
+	"display name" "Peus iiod"
+	"swizzle" 6
+	"color" 0.238 0.781 0.806 0.224
+	"player reputation" 0
+	"crew attack" 5.3
+	"crew defense" 20.7
+	"attitude toward"
+		"Xviiu elrii" 0
+		"Yioted" 0
+		"Elbsuhju" 0
+		"Czaeebib" -1
+		"Yav caa" 0
+		"Ayrue qeovv" -1
+		"Beiori" -1
+		"Tulzo ruojw" 0
+		"Apqoifqoae" -1
+		"Arsauu" -1

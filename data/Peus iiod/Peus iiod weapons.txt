@@ -1,0 +1,102 @@
+outfit "Acvi Beam"
+	category "Guns"
+	cost 531135902900
+	thumbnail "outfit/slicer"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/electron"
+			"frame rate" 1
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" 1.6
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.3
+		"firing heat" 3.6
+		"shield damage" 7.5
+		"hull damage" 1.4
+	description "Peus iiod T4.2 Beam weapon"
+
+outfit "Acvi Beam Turret"
+	category "Turrets"
+	cost 1870394277458.4822
+	thumbnail "outfit/slicer turret"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/electron"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" 1.6
+		"turret turn" 4.0
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.3
+		"firing heat" 3.6
+		"shield damage" 22.5
+		"hull damage" 4.199999999999999
+	description "Peus iiod T4.2 Beam weapon 3gun Turret"
+
+outfit "Uirs Torpedo"
+	category "Ammunition"
+	cost 230625404415
+	thumbnail "outfit/torpedo"
+	"mass" 0.1
+	"Uirs Torpedo capacity" -1
+	description "Peus iiod Missile"
+
+outfit "Uirs Torpedo Storage
+	category "Ammunition"
+	cost 1910636665374
+	thumbnail "outfit/torpedo storage"
+	"mass" 3
+	"outfit space" -2
+	"Uirs Torpedo capacity" 20
+	ammo "Uirs Torpedo"
+	description "Uirs Torpedo Storage"
+
+outfit "Uirs Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 1150697407800
+	thumbnail "outfit/torpedo launcher"
+	"mass" 3
+	"outfit space" -43
+	"weapon capacity" -43
+	"gun ports" -1
+	"Uirs Torpedo capacity" 20
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Uirs Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.1
+		"velocity" 28
+		"lifetime" 900
+		"reload" 1
+		"firing energy" 5.2
+		"firing heat" 10.1
+		"acceleration" 1.1
+		"drag" 0.2
+		"turn" 2.9
+		"homing" 1
+		"optical tracking" 0.9
+		"shield damage" 23.9
+		"hull damage" 84.0
+		"hit force" 13
+		"ion damage" 4.4
+		"missile strength" 126.7
+	description "Peus iiod T4.2 Missile weapon"
+

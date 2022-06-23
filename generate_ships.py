@@ -681,6 +681,7 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
     insaneturnthreshold = 500
     if turn > insaneturnthreshold:
         newoutfitlist = ship.outfits_list
+        print("Turn too high, refitting..")
         for outfit in ship.outfits_list:
             if turn > insaneturnthreshold:
                 if outfit.turn > 0 and outfit.thrust > 0:

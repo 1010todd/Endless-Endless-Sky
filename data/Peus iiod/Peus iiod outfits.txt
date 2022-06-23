@@ -1,0 +1,312 @@
+outfit "Apir Capacitor"
+	category "Power"
+	cost 682700
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 6990
+	description "Peus iiod T4.2 Battery"
+
+outfit "Ciid Capacitor"
+	category "Power"
+	cost 1228900
+	thumbnail "outfit/tiny battery"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 32160
+	description "Peus iiod T4.2 Battery"
+
+outfit "Eaaa Capacitor"
+	category "Power"
+	cost 2212100
+	thumbnail "outfit/tiny battery"
+	"mass" 24
+	"outfit space" -24
+	"energy capacity" 147940
+	description "Peus iiod T4.2 Battery"
+
+outfit "Icocqjib Capacitor"
+	category "Power"
+	cost 3981800
+	thumbnail "outfit/tiny battery"
+	"mass" 48
+	"outfit space" -48
+	"energy capacity" 680530
+	description "Peus iiod T4.2 Battery"
+
+
+outfit "Capoayho Reactor"
+	category "Power"
+	cost 209400
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 4.8
+	"heat generation" 12.6
+	description "Peus iiod T4.2 Power generator"
+
+outfit "Dgoe vuai Reactor"
+	category "Power"
+	cost 356000
+	thumbnail "outfit/small fuel cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 22.1
+	"heat generation" 27.7
+	description "Peus iiod T4.2 Power generator"
+
+outfit "Odre Reactor"
+	category "Power"
+	cost 605200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 101.7
+	"heat generation" 60.9
+	description "Peus iiod T4.2 Power generator"
+
+outfit "Aotv Generator"
+	category "Power"
+	cost 167300
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 4.4
+	"heat generation" 9.2
+	description "Peus iiod T4.2 Power generator"
+
+outfit "Kuih omli Generator"
+	category "Power"
+	cost 284500
+	thumbnail "outfit/small fuel cell"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 20.2
+	"heat generation" 22.1
+	description "Peus iiod T4.2 Power generator"
+
+outfit "Yiuhgeja Generator"
+	category "Power"
+	cost 483700
+	thumbnail "outfit/medium fuel cell"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 92.9
+	"heat generation" 53.0
+	description "Peus iiod T4.2 Power generator"
+
+
+outfit "Erke caby Thruster"
+	category "Engines"
+	cost 2780300
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"thrust" 6.2
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.0785950267707844
+	"flare sound" "ka'het small"
+	description "Peus iiod T4.2 Thruster"
+
+outfit "Erke caby Steering"
+	category "Engines"
+	cost 1918047
+	thumbnail "outfit/small ka'het steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 158
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Peus iiod T4.2 steering"
+
+outfit "Live uvok Thruster"
+	category "Engines"
+	cost 4726600
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 14.9
+	"thrusting energy" 0.7
+	"thrusting heat" 0.9
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Peus iiod T4.2 Thruster"
+
+outfit "Live uvok Steering"
+	category "Engines"
+	cost 8035300
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"turn" 379.2
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Peus iiod T4.2 steering"
+
+
+outfit "Arsg Shielding"
+	category "Systems"
+	cost 1125400
+	thumbnail "outfit/tiny shield"
+	"mass" 7
+	"outfit space" -7
+	"shield generation" 1.91
+	"shield energy" 1.98
+	"shield heat" 3
+	description "Peus iiod T4.2 shield gen"
+
+outfit "Ides ruee Shielding"
+	category "Systems"
+	cost 2025800
+	thumbnail "outfit/small shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 3.8
+	"shield energy" 1.6
+	"shield heat" 3
+	description "Peus iiod T4.2 shield gen"
+
+outfit "Josuojsu Shielding"
+	category "Systems"
+	cost 3646500
+	thumbnail "outfit/medium shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 7.6
+	"shield energy" 1.3
+	"shield heat" 3
+	description "Peus iiod T4.2 shield gen"
+
+outfit "Mxoh ivao Shielding"
+	category "Systems"
+	cost 6563700
+	thumbnail "outfit/large shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 15.2
+	"shield energy" 1.0
+	"shield heat" 3
+	description "Peus iiod T4.2 shield gen"
+
+outfit "Vsei abco Shielding"
+	category "Systems"
+	cost 11814700
+	thumbnail "outfit/huge shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 30.4
+	"shield energy" 0.8
+	"shield heat" 3
+	description "Peus iiod T4.2 shield gen"
+
+
+
+outfit "Giok ocaq Heat Shunt"
+	category "Systems"
+	cost 37900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Auos Heatsink"
+	category "Systems"
+	cost 36600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Rueo iati Temperature Control"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 68
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Olevgemo Temperature Control"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 48
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Ioji opiq Heat Shunt"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 43
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Vaoj Cooling"
+	category "Systems"
+	cost 19400
+	thumbnail "outfit/hai williwaw"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 50
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Gzoa Cooler"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 73
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Idib Cooling"
+	category "Systems"
+	cost 15400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 30
+	"outfit space" -30
+	"active cooling" 390
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Opyu jtee Temperature Control"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/liquid helium"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 69
+	"active cooling" 159
+	"cooling energy" 28.872059726234546
+	description "Peus iiod T4.2 Cooling"
+
+
+outfit "Qoyu govu Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 44
+	description "Peus iiod T4.2 Cooling"
+
+

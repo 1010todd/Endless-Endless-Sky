@@ -1,0 +1,545 @@
+ship "Opb abj gia"
+	sprite "ship/Beiori/Opb abj gia"
+	attributes 
+		category "Interceptor"
+		"cost" 7663000
+		"shields" 16400
+		"hull" 54900
+		"required crew" 10
+		"bunks" 12
+		"mass" 96.0
+		"drag" 2.04
+		"heat dissipation" 1.17
+		"fuel capacity" 1000
+		"cargo space" 15
+		"outfit space" 170
+		"weapon capacity" 70
+		"engine capacity" 50
+		weapon 
+			"blast radius" 713
+			"shield damage" 7130
+			"hull damage" 3570
+			"hit force" 10700
+	outfits 
+		"Hea Machine Cannon" 1
+		"Ameinu Capacitor" 1
+		"Cueixi Shield Rejuvenator" 1
+		"Aie Thruster" 1
+		"Aie Steering" 1
+		"Ixirej Cooling" 1
+		"Hyperdrive"
+	engine 25.0 32.0
+	gun 25.0 22.0
+	gun 33.0 12.5
+	gun 15.5 12.5
+	gun 29.0 22.0
+	gun 19.5 22.0
+	turret 25.0 10.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Beiori T3.6 ship"
+
+ship "Auitxa"
+	sprite "ship/Beiori/Auitxa"
+	attributes 
+		category "Heavy Warship"
+		"cost" 169347000
+		"shields" 251700
+		"hull" 842400
+		"required crew" 28
+		"bunks" 93
+		"mass" 724.8
+		"drag" 14.27
+		"heat dissipation" 0.79
+		"fuel capacity" 2900
+		"cargo space" 90
+		"outfit space" 1430
+		"weapon capacity" 450
+		"engine capacity" 460
+		weapon 
+			"blast radius" 10941
+			"shield damage" 109410
+			"hull damage" 54710
+			"hit force" 164120
+	outfits 
+		"Hea Machine Cannon" 1
+		"Iax Machine Basilisk" 1
+		"Apa Laser" 1
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector" 1
+		"Iuu Beam Projector Turret" 1
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Teaeeu Thruster" 1
+		"Teaeeu Steering" 1
+		"Riinjo Cell" 1
+		"Hyperdrive"
+	engine 91.0 96.5
+	engine 22.0 96.5
+	engine 65.0 112.5
+	engine 48.0 112.5
+	engine 58.5 119.5
+	gun 33.5 85.0
+	gun 78.5 55.0
+	gun 37.0 55.0
+	gun 82.0 85.0
+	turret 58.5 92.0
+	turret 84.5 65.0
+	turret 29.5 65.0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Ioaanx cop"
+	sprite "ship/Beiori/Ioaanx cop"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 82154000
+		"shields" 97600
+		"hull" 326600
+		"required crew" 66
+		"bunks" 95
+		"mass" 1248.4
+		"drag" 24.12
+		"heat dissipation" 0.58
+		"fuel capacity" 2700
+		"cargo space" 600
+		"outfit space" 2020
+		"weapon capacity" 660
+		"engine capacity" 640
+		weapon 
+			"blast radius" 4242
+			"shield damage" 42420
+			"hull damage" 21210
+			"hit force" 63630
+	outfits 
+		"Hea Machine Cannon" 1
+		"Iax Machine Basilisk" 1
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector Turret" 2
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Teaeeu Thruster" 1
+		"Teaeeu Steering" 1
+		"Riinjo Cell" 1
+		"Hyperdrive"
+	engine 123.5 86.0
+	engine 61.5 86.0
+	engine 118.0 92.5
+	engine 67.0 92.5
+	engine 118.0 112.5
+	engine 67.0 112.5
+	gun 70.5 58.5
+	gun 121.0 58.5
+	turret 73.0 115.0
+	turret 123.0 75.0
+	turret 67.0 75.0
+	turret 117.0 115.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Eaoaruuan"
+	sprite "ship/Beiori/Eaoaruuan"
+	attributes 
+		category "Light Warship"
+		"cost" 59500000
+		"shields" 64000
+		"hull" 214200
+		"required crew" 8
+		"bunks" 14
+		"mass" 117.8
+		"drag" 2.56
+		"heat dissipation" 0.58
+		"fuel capacity" 1400
+		"cargo space" 15
+		"outfit space" 180
+		"weapon capacity" 60
+		"engine capacity" 60
+		weapon 
+			"blast radius" 2782
+			"shield damage" 27820
+			"hull damage" 13910
+			"hit force" 41730
+	outfits 
+		"Apa Laser Turret" 1
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Aie Thruster" 1
+		"Aie Steering" 1
+		"Peo Cooler" 1
+		"Hyperdrive"
+	engine 36.5 22.5
+	turret 36.5 18.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Daoijx ugo"
+	sprite "ship/Beiori/Daoijx ugo"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 3834000
+		"shields" 40900
+		"hull" 136900
+		"required crew" 47
+		"bunks" 94
+		"mass" 929.0
+		"drag" 18.89
+		"heat dissipation" 0.72
+		"fuel capacity" 2200
+		"cargo space" 450
+		"outfit space" 1450
+		"weapon capacity" 430
+		"engine capacity" 370
+		weapon 
+			"blast radius" 1778
+			"shield damage" 17780
+			"hull damage" 8890
+			"hit force" 26670
+	outfits 
+		"Hea Machine Cannon" 1
+		"Apa Laser Turret" 1
+		"Iuu Beam Projector Turret" 1
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Teaeeu Thruster" 1
+		"Teaeeu Steering" 1
+		"Riinjo Cell" 1
+		"Hyperdrive"
+	engine 147.5 77.0
+	engine 47.5 77.0
+	engine 130.0 100.5
+	engine 65.0 100.5
+	gun 99.5 79.0
+	turret 44.5 85.5
+	turret 151.5 85.5
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Uouxaj"
+	sprite "ship/Beiori/Uouxaj"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 132123000
+		"shields" 140200
+		"hull" 469000
+		"required crew" 17
+		"bunks" 43
+		"mass" 699.4
+		"drag" 14.68
+		"heat dissipation" 0.83
+		"fuel capacity" 2200
+		"cargo space" 340
+		"outfit space" 890
+		"weapon capacity" 350
+		"engine capacity" 270
+		weapon 
+			"blast radius" 6092
+			"shield damage" 60920
+			"hull damage" 30460
+			"hit force" 91380
+	outfits 
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector Turret" 1
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Hel Thruster" 1
+		"Hel Steering" 1
+		"Hyperdrive"
+	engine 82.5 92.0
+	engine 24.0 92.0
+	engine 57.5 75.5
+	turret 57.5 97.5
+	turret 95.5 80.0
+	turret 16.5 80.0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Ungpco"
+	sprite "ship/Beiori/Ungpco"
+	attributes 
+		category "Medium Warship"
+		"cost" 72844000
+		"shields" 94100
+		"hull" 314900
+		"required crew" 20
+		"bunks" 28
+		"mass" 319.6
+		"drag" 6.01
+		"heat dissipation" 0.64
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 580
+		"weapon capacity" 230
+		"engine capacity" 160
+		weapon 
+			"blast radius" 4090
+			"shield damage" 40900
+			"hull damage" 20450
+			"hit force" 61350
+	outfits 
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector Turret" 2
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Hel Thruster" 1
+		"Hel Steering" 1
+		"Emjwom Thruster" 1
+		"Emjwom Steering" 1
+		"Ixirej Cooling" 1
+		"Hyperdrive"
+	engine 66.5 61.5
+	engine 10.0 61.5
+	gun 21.0 12.5
+	gun 62.5 12.5
+	turret 29.0 58.5
+	turret 64.5 45.5
+	turret 17.5 45.5
+	turret 53.0 58.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Euo uetaha"
+	sprite "ship/Beiori/Euo uetaha"
+	attributes 
+		category "Heavy Warship"
+		"cost" 288161000
+		"shields" 306600
+		"hull" 1026200
+		"required crew" 34
+		"bunks" 172
+		"mass" 1198.8
+		"drag" 24.35
+		"heat dissipation" 0.82
+		"fuel capacity" 700
+		"cargo space" 145
+		"outfit space" 1600
+		"weapon capacity" 530
+		"engine capacity" 490
+		weapon 
+			"blast radius" 13328
+			"shield damage" 133280
+			"hull damage" 66640
+			"hit force" 199920
+	outfits 
+		"Hea Machine Cannon" 1
+		"Iax Machine Basilisk" 1
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector Turret" 2
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Teaeeu Thruster" 1
+		"Teaeeu Steering" 1
+		"Riinjo Cell" 1
+		"Hyperdrive"
+	engine 82.5 62.5
+	engine 11.0 62.5
+	engine 72.0 87.5
+	engine 21.5 87.5
+	engine 51.0 76.0
+	gun 23.5 67.5
+	gun 77.0 67.5
+	turret 18.0 65.0
+	turret 98.5 76.5
+	turret 0.5 76.5
+	turret 81.0 65.0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Jwoekfjne"
+	sprite "ship/Beiori/Jwoekfjne"
+	attributes 
+		category "Medium Warship"
+		"cost" 128470000
+		"shields" 169100
+		"hull" 565900
+		"required crew" 14
+		"bunks" 18
+		"mass" 382.8
+		"drag" 7.92
+		"heat dissipation" 0.85
+		"fuel capacity" 2000
+		"cargo space" 50
+		"outfit space" 690
+		"weapon capacity" 210
+		"engine capacity" 220
+		weapon 
+			"blast radius" 7350
+			"shield damage" 73500
+			"hull damage" 36750
+			"hit force" 110250
+	outfits 
+		"Hea Machine Cannon" 1
+		"Apa Laser Turret" 2
+		"Iuu Beam Projector Turret" 1
+		"Joxbod Cell" 2
+		"Ameinu Capacitor" 1
+		"Aej Shield Rejuvenator" 1
+		"Mip Hull Reconstructor" 1
+		"Hel Thruster" 1
+		"Hel Steering" 1
+		"Hyperdrive"
+	engine 74.5 49.5
+	engine 9.0 49.5
+	gun 46.0 37.5
+	turret 46.0 42.0
+	turret 74.5 34.5
+	turret 14.5 34.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Beiori T3.6 ship"
+
+ship "Wuiaeejko"
+	sprite "ship/Beiori/Wuiaeejko"
+	attributes 
+		category "Interceptor"
+		"cost" 9472000
+		"shields" 20600
+		"hull" 69000
+		"required crew" 4
+		"bunks" 14
+		"mass" 103.6
+		"drag" 2.11
+		"heat dissipation" 1.07
+		"fuel capacity" 800
+		"cargo space" 15
+		"outfit space" 180
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon 
+			"blast radius" 896
+			"shield damage" 8960
+			"hull damage" 4480
+			"hit force" 13440
+	outfits 
+		"Hea Machine Cannon" 1
+		"Ameinu Capacitor" 1
+		"Cueixi Shield Rejuvenator" 1
+		"Aie Thruster" 1
+		"Aie Steering" 1
+		"Hyperdrive"
+	engine 29.5 36.5
+	gun 29.5 17.5
+	gun 39.0 12.5
+	gun 18.5 12.5
+	turret 29.5 15.0
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Beiori T3.6 ship"
+
+ship "Wwuaeu"
+	sprite "ship/Beiori/Wwuaeu"
+	attributes 
+		category "Drone"
+		"cost" 4970000
+		"shields" 17700
+		"hull" 59300
+		"required crew" 1
+		"bunks" 2
+		"mass" 34.4
+		"drag" 0.71
+		"heat dissipation" 1.09
+		"fuel capacity" 800
+		"cargo space" 5
+		"outfit space" 60
+		"weapon capacity" 20
+		"engine capacity" 32
+		weapon 
+			"blast radius" 770
+			"shield damage" 7700
+			"hull damage" 3850
+			"hit force" 11550
+	outfits 
+		"Apa Laser" 1
+		"Apa Laser Turret" 1
+		"Aaw Cell" 1
+		"Peo Cooler" 1
+		"Hyperdrive"
+	engine 23.5 23.0
+	gun 15.5 13.0
+	gun 40.5 10.0
+	gun 5.5 10.0
+	gun 30.5 13.0
+	turret 23.5 10.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Beiori T3.6 ship"
+
