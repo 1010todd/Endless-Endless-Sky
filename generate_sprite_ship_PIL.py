@@ -281,7 +281,7 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
 def place_parts(core_img,
                part_list,
                count,
-               symmetric=False,
+               symmetric=True,
                center=False,
                part_type='random',
                boundmin=[0,0],
