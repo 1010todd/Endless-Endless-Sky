@@ -461,7 +461,7 @@ def place_parts(core_img,
                     part,part_size,rXmin,rXmax = get_part_pos(partlistany,bounddict['min'],bounddict['max'],'x',part,part_size,uniMode,core_img=core_img,part_type=part_type)
                 else: #dict updated with recently placed
                     part,part_size,rXmin,rXmax = get_part_pos(partlistany,newboundmin,newboundmax,'x',part,part_size,uniMode,core_img=core_img,part_type=part_type)
-                rXmin = max(centW,rXmin)
+                rXmin = max(centW+part_size[0][0]/2,rXmin)
                 randX = round(random.triangular(rXmin,rXmax))
                 
                 mu = 0
@@ -771,7 +771,7 @@ if StandaloneMode:
     except ValueError:
         num = 5
 elif TestMode:
-    part_sel = "curve b"
+    part_sel = "indus a"
     cat = "Heavy Warship"
     num = 100
     #part_list=get_sprites(setselect="human") 
