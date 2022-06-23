@@ -299,7 +299,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
             outfit.cooling = cooling_cooling
             faction.outfitlist.append(outfit)
 
-            print(f'Created cooling {faction.name}' + cooling_name_list[cooling_iterations_count-1] + '.')
+            print(f'Created cooling {faction.name} ' + cooling_name_list[cooling_iterations_count-1] + '.')
 
             #Iterate for next run of loop
             cooling_cost = roundup100((cooling_cost * 2) * float(cooling_cost_curve))
@@ -448,11 +448,13 @@ def create_engines(faction,fileout=''):
     while engine_types_generated_count <= int(engine_type_amount):
 
         engines_outfit = random.randint(int(8), int(20))
-        engines_thrust = round(((random.uniform(float(18000), float(25000))) / 3600), 1)
+        engines_thrust = round(((random.uniform(float(18000), float(25000))) / 3600), 1) #3600 to turn to in-game value thing.
         engines_energy = round(((random.uniform(float(60/max(.8,faction.tier)), float(80/max(.8,faction.tier)))) / 60), 1)
         engines_heat = round(((random.uniform(float(engines_energy*60), float((engines_energy*60)*2))) / 60), 1)
         engines_cost = roundup100(random.uniform(round((engines_thrust*3600)/engines_outfit)*1000, round((engines_thrust*3600)/engines_outfit)*2500))
-        
+        engines_framerate = random.uniform(1,1.5)
+        engines_frameiteration = random.uniform(.1,.2)
+
         steering_modifier = random.uniform(1.1,1.5)
         
         steering_outfit = int(engines_outfit/steering_modifier)
@@ -498,6 +500,7 @@ def create_engines(faction,fileout=''):
             engine_thumb = engines_flare_size[min(2,engines_iterations_count-1)] + ' ' + engine_type + ' thruster'
             engine_flare = engines_flare_type + '/' + engines_flare_size[min(2,engines_iterations_count-1)]
             engine_sound = engine_type + ' ' + engines_flare_size[min(2,engines_iterations_count-1)]
+            
             #Writes ES code to file, use \n for line break
             engines_output.write('outfit "' + engine_name_final + '"' + "\n")
             engines_output.write('\tcategory "Engines"\n')
@@ -510,7 +513,7 @@ def create_engines(faction,fileout=''):
             engines_output.write('\t"thrusting energy" ' + str(engines_energy) + "\n")
             engines_output.write('\t"thrusting heat" ' + str(engines_heat) + "\n")
             engines_output.write(f'\t"flare sprite" "effect/{engine_flare}"\n')
-            engines_output.write('\t\t"frame rate" 1.2\n')
+            engines_output.write(f'\t\t"frame rate" {engines_framerate}\n')
             engines_output.write(f'\t"flare sound" "{engine_sound}"\n')
             engines_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Thruster"\n')
             engines_output.write('\n')
@@ -532,14 +535,16 @@ def create_engines(faction,fileout=''):
             engines_thrust = round((engines_thrust * 2) * float(engines_thrust_curve), 1)
             engines_energy = round((engines_energy * 2) * float(engines_engines_curve), 1)
             engines_heat = round((engines_heat * 2) * float(engines_heat_curve), 1)
+            engines_framerate = round(max(.1,engines_framerate - engines_frameiteration))
 
             #=================================STEERING
             steering_name_final = engine_name_loop+ ' Steering'
+            steer_thumb = engines_flare_size[min(2,engines_iterations_count-1)] + ' ' + engine_type + ' steering'
 
             engines_output.write('outfit "' + steering_name_final + '"' + "\n")
             engines_output.write('\tcategory "Engines"\n')
             engines_output.write('\tcost ' + str(steering_cost) + "\n")
-            engines_output.write('\tthumbnail "outfit/tiny ion steering"\n')
+            engines_output.write(f'\tthumbnail "outfit/{steer_thumb}"\n')
             engines_output.write('\t"mass" ' + str(steering_outfit) + "\n")
             engines_output.write('\t"outfit space" -' + str(steering_outfit) + "\n")
             engines_output.write('\t"engine capacity" -' + str(steering_outfit) + "\n")
@@ -591,12 +596,15 @@ def create_shield_generator(faction,fileout=''):
     shield_gen_types_generated_count = 1
     while shield_gen_types_generated_count <= int(shield_gen_type_amount):
         #Calculates new values
+        shield_gen_delaychance = .1
         shield_gen_outfit = random.randint(int(5), int(20))
         shield_gen_shield_generation = round(random.uniform(float(0.1*max(1,faction.tier*faction.tier)), float(0.2*max(1,faction.tier*faction.tier))), 2)
         shield_gen_shield_energy = round(random.uniform(float(shield_gen_shield_generation), float(shield_gen_shield_generation*2)), 2)
         shield_gen_shield_heat = round(random.uniform(shield_gen_shield_energy*0,shield_gen_shield_energy*2))
         shield_gen_cost = roundup100(random.randint(round(((shield_gen_shield_generation*60*faction.tier)/shield_gen_outfit)*3200*faction.tier), round(((shield_gen_shield_generation*60*faction.tier)/shield_gen_outfit)*5500*faction.tier)))
-
+        if random.random() < shield_gen_delaychance:
+            shield_gen_delay = round(random.uniform(1,120))
+            shield_gen_shield_generation *= round(shield_gen_delay*random.uniform(1,3),1)
         shield_gen_type = random.choice(['Shield Generator','Shield Core','Shield Regenerator', 'Shielding', 'Shield Rejuvenator'])
         shield_gen_iterations = round(random.gauss(4,2))
         #shield_gen Name
@@ -617,6 +625,7 @@ def create_shield_generator(faction,fileout=''):
         shield_gen_outfit_curve = .75
         shield_gen_shield_generation_curve = 1
         shield_gen_shield_energy_curve = round(0.9/(max(1,faction.tier/2)),1)
+        shield_gen_delay_curve = random.uniform(.6,1.2)
 
         #Iterates Values
         shield_gen_iterations_count = 1
@@ -632,8 +641,11 @@ def create_shield_generator(faction,fileout=''):
             shield_gen_output.write('\t"mass" ' + str(shield_gen_outfit) + "\n")
             shield_gen_output.write('\t"outfit space" -' + str(shield_gen_outfit) + "\n")
             shield_gen_output.write('\t"shield generation" ' + str(shield_gen_shield_generation) + "\n")
+            if shield_gen_delay != 0:
+                shield_gen_output.write('\t"shield delay" ' + str(shield_gen_delay) + "\n")
             shield_gen_output.write('\t"shield energy" ' + str(shield_gen_shield_energy) + "\n")
-            shield_gen_output.write('\t"shield heat" ' + str(shield_gen_shield_heat) + "\n")
+            if shield_gen_shield_heat != 0:
+                shield_gen_output.write('\t"shield heat" ' + str(shield_gen_shield_heat) + "\n")
             shield_gen_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} shield gen"\n')
             shield_gen_output.write('\n')
 
@@ -652,6 +664,7 @@ def create_shield_generator(faction,fileout=''):
             shield_gen_outfit = round((shield_gen_outfit * 2) * float(shield_gen_outfit_curve))
             shield_gen_shield_generation = round((shield_gen_shield_generation * 2) * float(shield_gen_shield_generation_curve), 1)
             shield_gen_shield_energy = round((shield_gen_shield_energy * 2) * float(shield_gen_shield_energy_curve), 1)
+            shield_gen_delay *= shield_gen_delay_curve
 
             shield_gen_iterations_count += 1
         shield_gen_types_generated_count += 1
