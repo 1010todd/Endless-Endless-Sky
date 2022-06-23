@@ -39,6 +39,7 @@ class government():
         self.civienametype = 'parts'
         self.militnametype = 'pregen'
         self.fleet_tactic = 'balance'
+        self.civiefleetvariants = 6
         self.ftl = 'Hyperdrive'
         self.militaryname = ''
         self.militaryinit = ''
@@ -56,6 +57,7 @@ class government():
         self.engineslist = []
         self.patrolfleets = []
         self.civilianfleets = []
+        self.miningfleets = []
         self.outfitterlist = []
         self.shipyardlist = []
         self.systemlist = []
@@ -307,6 +309,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         #shield = piercing, disruption...
         ship_special_stats = random.choice('shielding armor heat agility'.split())
 
+        civiefleetvariants = random.randrange(3,12)
         fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
         designpriority = 'engine power defense weapon'.split()
         random.shuffle(designpriority)
@@ -350,6 +353,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.partset = faction_partset
         faction.shipcount = ships_count
         faction.fleet_tactic = fleet_tactic
+        faction.civiefleetvariants = civiefleetvariants
         faction.boarding[0] = round(faction.tier**(faction.tier/random.uniform(2.5,5)),1)
         faction.boarding[1] = round((faction.tier**(faction.tier/random.uniform(2.5,5)))*2,1)
         faction.lang_wordlen = lang_wordlen

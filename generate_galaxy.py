@@ -44,6 +44,7 @@ class system():
         self.fleetdicts = {} #new mode
         self.capital = ''
         self.distgov = []
+        self.allhypot = []
 
 class galaxy():
     def __init__(self, name, min_x, max_x, min_y, max_y, layer, is_circle, desc_files, planet_config, government,galaxy_center_x,galaxy_center_y):
@@ -81,7 +82,10 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
                 curcap = s
             government.systemlist.append(system_list[s])
             #myprint(f"{system.name} government: {government.name}")
-    avghypot,dvhypot = avg_deviation(allhypot)
+    government.allhypot = allhypot
+
+def place_fleets(government):
+    avghypot,dvhypot = avg_deviation(government.allhypot)
     distriRadius = (avghypot/2) #TODO: factor in faction stuffs.
     for sys in government.systemlist: 
         addiflet = 0
@@ -91,6 +95,10 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
         for distlist in sys.distgov:
             if distlist[0] == government.name:
                 fleetfreq = roundup100(min(4000,max(600,800*(distlist[1]/distriRadius))))
+        for minable in sys.mineables.keys():
+            if sys.mineables[minable][0] > 20:
+                for fleet in government.miningfleets:
+                    sys.fleetdicts[str(fleet)] = round(fleetfreq*2)
         fleetfreqmilit = fleetfreq*(.5+government.military)
         fleetfreqmilit = max(400,fleetfreqmilit-addiflet)
         fleetfreq = max(400,fleetfreq-addiflet)
@@ -1389,14 +1397,17 @@ def load_galaxy_configs(government_list):
             #radiusX = galaxy.radius_x+galaxy.radius_x/4 #Off the edge center points.
             #radiusY = galaxy.radius_y+galaxy.radius_y/4
             center_pos = pick_within(galaxy.center_x,galaxy.center_y,galaxy.min_x,galaxy.max_x,galaxy.min_y,galaxy.max_y)
-            region_radius_x = round(random.triangular(0,galaxy.radius_x,(galaxy.radius_x*.1)))
-            region_radius_y = round(random.triangular(0,galaxy.radius_y,(galaxy.radius_y*.1)))
+            region_radius_x = round(random.triangular(0,galaxy.radius_x/3,(galaxy.radius_x*.1)))
+            region_radius_y = round(random.triangular(0,galaxy.radius_y/3,(galaxy.radius_y*.1)))
             #myprint(f"GovRegion: {center_pos} {region_radius_x}")
             government_region(center_pos[0],center_pos[1],region_radius_x,region_radius_y,system_list,government) 
         myprint('Creating planets in galaxy ' + galaxy.name)
         for system in system_list:
             if system.system_layer is galaxy_layer:
                 system_planets(system, galaxy)
+        myprint('Placing fleets...')
+        for government in government_list:
+            place_fleets(government)
         myprint('\n\n\n')
         #todo: load image before generating system and use it as bounding box , maybe even detect features for system clusters.
         galaxy_image = random.choice(galaxy_sprite_list).removeprefix("images/").removesuffix(".jpg").replace("\\", "/")

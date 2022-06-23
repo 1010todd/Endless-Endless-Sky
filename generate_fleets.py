@@ -14,7 +14,37 @@ def ship_sort(shiplist,sortby="installed weapons"):
 
     return shiplist
 
-def gen_fleet_variant(faction):
+def gen_miningfleet_variant(faction):
+    fleet_composition = {}
+    #personalities = ["coward"]
+    shuffledlist = faction.shiplist
+    random.shuffle(shuffledlist)
+    lp = 0
+    while len(fleet_composition) <= 0 and lp < 20:
+        for ship in shuffledlist:
+            fleetcompcount = len(fleet_composition) <= round(1)
+            inlw = (ship.category == 'Interceptor') or (ship.category == 'Light Warship')
+            if ship.installed_weapons > 0 and (inlw) and fleetcompcount and ship.cargo_space > 0:
+                fleet_composition[ship.name] = random.randint(2,4)
+                for ccat,cnum in ship.carried.items():
+                    for shipc in faction.shiplist: #TODO: Could probably optimize, sort fighters out first?
+                        if shipc.category == ccat:
+                            fleet_composition[shipc.name] = cnum
+                            break
+        if len(fleet_composition) <= 0:
+            for n in range(random.randrange(3,6)):
+                ship = random.choice(shuffledlist)
+                if (ship.category != 'Fighter' or ship.category != 'Drone') and ship.installed_weapons > 0 and ship.cargo_space > 0:
+                    fleet_composition[ship.name] = random.randrange(2,4)
+                    for ccat,cnum in ship.carried.items():
+                        for shipc in faction.shiplist: #TODO: Could probably optimize, sort fighters out first?
+                            if shipc.category == ccat:
+                                fleet_composition[shipc.name] = cnum
+                                break
+        lp += 1
+    return fleet_composition
+
+def gen_militaryfleet_variant(faction):
     fleet_composition = {}
     if faction.fleet_tactic == 'defense':
         hwcount = 0
@@ -146,7 +176,7 @@ def generate_fleet(faction,fileout=''):
 
     #fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
     for n in range(random.randrange(3,12)):
-        fleet_composition,personalities = gen_fleet_variant(faction)
+        fleet_composition,personalities = gen_militaryfleet_variant(faction)
         fleetvariants.append(fleet_composition.copy())
             
     if faction.agg >= 0 and random.random() < .5:
@@ -172,14 +202,22 @@ def generate_fleet(faction,fileout=''):
     faction.patrolfleets.append(fleet_name)
 
     fleet_name = faction.name + ' ' + random.choice(civilian_names)
-    personalities = "timid"
+    personalities = ["timid"]
+
+    if faction.agg >= 0 and random.random() < .5:
+        personalities.append('disables')
+    if faction.agg >= 0 and random.random() < .1:
+        personalities.append('forbearing')
+
+    personalities.append('confusion '+str(random.randint(20,max(21,round(30*(1.1-faction.military))))))
 
     fleetwrite.write(f'fleet "{fleet_name}"' + '\n')
     fleetwrite.write(f'\tgovernment "{faction.name}"' + '\n')
     fleetwrite.write(f'\tnames "{names}"' + '\n')
     fleetwrite.write(f'\tpersonality' + '\n')
-    fleetwrite.write(f'\t\t{personalities}' + '\n')
-    for n in range(random.randrange(1,6)):
+    for personality in personalities:
+        fleetwrite.write(f'\t\t{personality}' + '\n')
+    for n in range(faction.civiefleetvariants):
         weight = round(n*random.randrange(2,20))
         ship1 = random.choice(faction.shiplist)
         ship2 = random.choice(faction.shiplist)
@@ -193,5 +231,27 @@ def generate_fleet(faction,fileout=''):
         fleetwrite.write(f'\t\t"{ship3.name}" {ship3_count}' + '\n')
 
     faction.civilianfleets.append(fleet_name)
+
+    fleetcompo = []
+    for n in range(round(faction.civiefleetvariants/2)):
+        fleetcompo.append(gen_miningfleet_variant(faction))
+
+    if len(fleetcompo) > 0:
+        fleet_name = faction.name + ' ' + "Miner"
+        personalities = "timid mining harvests".split()
+        personalities.append('confusion '+str(random.randint(20,max(21,round(30*(1.1-faction.military))))))
+        fleetwrite.write(f'fleet "{fleet_name}"' + '\n')
+        fleetwrite.write(f'\tgovernment "{faction.name}"' + '\n')
+        fleetwrite.write(f'\tnames "{names}"' + '\n')
+        fleetwrite.write(f'\tpersonality' + '\n')
+        for personality in personalities:
+            fleetwrite.write(f'\t\t{personality}' + '\n')
+        for variant in fleetcompo: #TODO, calculate fleet value and adjust accordingly
+            weight = round(random.randrange(2,20))
+            fleetwrite.write(f'\tvariant {weight}'+ '\n')
+            for ship in variant.keys():
+                fleetwrite.write(f'\t\t"{ship}" {variant[ship]}' + '\n')
+
+        faction.miningfleets.append(fleet_name)
 
     fleetwrite.close()
