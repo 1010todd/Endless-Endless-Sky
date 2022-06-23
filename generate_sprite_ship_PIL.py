@@ -168,7 +168,7 @@ def sort_parts(partlist,mode='x',minsize=0,maxsize=100):
     return partlist,npartlist
 
 #Get valid range of positions within specified bounds
-def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type=''):
+def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,stray=[[1,1],[1,1]],core_img=None,part_type='',placemode='symmetric'):
     if mode.casefold() == 'x':
         mode_sel = 0
     else:
@@ -194,10 +194,12 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
             m = random.randrange(1,max(2,round(len(newboundmin)/2)))
         #print(f"bminmax {mode}:",newboundmin[m][mode_sel],newboundmax[m][mode_sel])
         for n in partlist:
-            if mode_sel == 0:
+            if mode_sel == 0: # X pos
                 rposmin = round(newboundmin[m][0]*stray[0][0])
                 rposmax = round((newboundmax[m][0]*stray[0][1]))
                 canvasmin = abs(part_size[0][mode_sel]/2)
+                if placemode == 'asym':
+                    canvasmin = abs(part_size[0][mode_sel])
                 canvasmax = (core_img.size[0])-part_size[0][mode_sel]*.5
                 #print(f"TrueImg:    {core_img.size[0],core_img.size[1]}")
                 #print(f"Compensated:{canvasmin,canvasmax}")
@@ -205,7 +207,7 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
                 rposmin = max(rposmin,canvasmin)
                 rposmax = min(rposmax,canvasmax)
                 #print(f"NewBoundX:  {rposmin,rposmax}")
-            else:
+            else: # Y pos
                 #rposmax = round(newboundmax[m][mode_sel]-abs(part_size[0][mode_sel]/2-core_img.size[0]))
                 #rposmin = round(newboundmin[m][mode_sel]+abs(part_size[0][mode_sel]/2-core_img.size[0]))
                 rposmin = round(newboundmin[m][mode_sel]*stray[1][0])
@@ -254,7 +256,8 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
                     break
         if valid_part:
             break
-        if h >= 100:
+        #print(h)
+        if h >= 50:
             part = [Image.new('RGBA',[1,1],'black') for i in range(2)]
             part_size = [p.size for p in part]
             if mode_sel == 0:
@@ -278,7 +281,7 @@ def get_part_pos (partlist,newboundmin,newboundmax,mode,part,part_size,uniMode,s
 def place_parts(core_img,
                part_list,
                count,
-               symmetric=True,
+               symmetric=False,
                center=False,
                part_type='random',
                boundmin=[0,0],
@@ -294,7 +297,7 @@ def place_parts(core_img,
     width,height = core_img.size
     centW = round(width/2)
     centH = round(height/2)
-    weightXAsym = weightX*2
+    weightXAsym = centW
     if boundmax == [0,0]:
         boundmax = core_img.size
     count = round(count)
@@ -612,19 +615,37 @@ def place_parts(core_img,
     else:
         while count > 0:
             if len(newboundmin) == 0 or not clustermode:
-                randX = round(random.triangular(round(boundmin[0]),round(boundmax[0]+1),weightXAsym))
-                randY = round(random.randrange(round(boundmin[1]),round(boundmax[1]+1)))
+                rXmin = round(centW)
+                #rXmin = max(centW,rXmin)
+                if gaussmode:
+                    rXmax = round(boundmax[0]+1-part_size[0][0]/2)
+                    rXavg,rXdv = avg_deviation([rXmin,rXmax])
+                    randX = round(random.gauss(rXmin,rXdv*10))
+                    randX = min(randX,rXmax)
+                    randX = max(randX,rXmin)
+                    rYmin = round(boundmin[1])
+                    rYmax = round(boundmax[1]+1-part_size[0][1]/2)
+                    rYavg,rYdv = avg_deviation([rYmin,rYmax])
+                    randY = round(random.gauss(rYmax/2,rYdv*5))
+                    randY = min(randY,rYmax)
+                    randY = max(randY,rYmin)
+                else:
+                    rXmax = round(boundmax[0]+1-part_size[0][0]/2)
+                    randX = round(random.triangular(rXmin,rXmax,rXmin))
+                    rYmin = round(boundmin[1])
+                    rYmax = round(boundmax[1]+1-part_size[0][1]/2)
+                    randY = round(random.randrange(rYmin,rYmax))
             else:
                 if uniMode:
                     partlistany = partlistuni
                 else:
                     partlistany = partlistdir
-                part,part_size,rXmin,rXmax = get_part_pos(partlistany,newboundmin,newboundmax,'x',part,part_size,uniMode,core_img=core_img)
-                randX = round(random.triangular(rXmin,rXmax, .1))
+                part,part_size,rXmin,rXmax = get_part_pos(partlistany,newboundmin,newboundmax,'x',part,part_size,uniMode,core_img=core_img,part_type=part_type,placemode='asym')
+                randX = round(random.triangular(rXmin,rXmax))
                 part,part_size,rYmin,rYmax = get_part_pos(partlistany,newboundmin,newboundmax,'y',part,part_size,uniMode,core_img=core_img)
-                randY = round(random.triangular(rYmin,rYmax, .1))
-            posX = randX #- round(part_size[0][0]/2) + round(centW*.7)
-            posY = randY #- round(part_size[0][1]/2) #+ centH
+                randY = round(random.triangular(rYmin,rYmax))
+            posX = randX - round(part_size[0][0]/2) #+ round(centW*.7)
+            posY = randY - round(part_size[0][1]/2) #+ centH
             side_sel = 1
             if centW-posX > 0:
                 side_sel = 0
@@ -649,15 +670,12 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
         if category == "Drone" or category == "Fighter":
             width = random.randrange(80,100,2)
             height = random.randrange(80,100,2)
-            stacktype = 3
         elif category == "Interceptor":
             width = random.randrange(100,120,2)
             height = random.randrange(100,120,2)
-            stacktype = 3
         elif category == "Light Warship" or category == "Light Freighter":
             width = random.randrange(120,200,2)
             height = random.randrange(120,200,2)
-            stacktype = 3
         elif category == "Medium Warship":
             width = random.randrange(170,260,2)
             height = random.randrange(170,260,2)
@@ -668,6 +686,12 @@ def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=
             width = random.randrange(120,260,2)
             height = random.randrange(120,260,2)
 
+    if category == "Drone" or category == "Fighter":
+        stacktype = 3
+    elif category == "Interceptor":
+        stacktype = 3
+    elif category == "Light Warship" or category == "Light Freighter":
+        stacktype = 3
     engine = max(1,round(enginesp/100)) #TODO: factor in overall outfitspace or mass?
 
     print(f"Generating ship {category} with size {width,height}")
