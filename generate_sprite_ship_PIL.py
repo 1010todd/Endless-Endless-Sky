@@ -521,11 +521,11 @@ def place_parts(core_img,
             symX = width- round(part_size[1][0]/2) - randX + 1#it was 1 px off for some reason.
             core_img.paste(part[0],(symX, posY),part[0])
             if part_type == 'gun' or part_type == 'turret':
-                hardpoint[i] = [randX,posY]
-                hardpoint[i+1] = [symX,posY]
+                hardpoint[i] = [randX/2,posY/2] #Sprites are scaled down in game
+                hardpoint[i+1] = [symX/2,posY/2]
             elif part_type == 'engine':
-                hardpoint[i] = [randX,nposY]
-                hardpoint[i+1] = [symX,nposY]
+                hardpoint[i] = [randX/2,nposY/2]
+                hardpoint[i+1] = [symX/2,nposY/2]
             count -= 2
             i += 2
             #core_img.save(f'generatedsprites/stp{count}.png')
@@ -572,9 +572,9 @@ def place_parts(core_img,
             
             #print(f"Newmax:{[nposX,nposY]}")
             if part_type == 'gun' or part_type == 'turret':
-                hardpoint[staticcount-count] = [randX,posY]
+                hardpoint[staticcount-count] = [randX/2,posY/2]
             elif part_type == 'engine':
-                hardpoint[staticcount-count] = [randX,randY]
+                hardpoint[staticcount-count] = [randX/2,randY/2]
             count -= 1
             #core_img.save(f'generatedsprites/stp{count}.png')
     #===========================CENTER MODE
@@ -656,7 +656,12 @@ def place_parts(core_img,
             nposY = randY + round(part_size[0][1]/2)
             newboundmax.append([nposX,nposY])
             #print(f"Newmax:{[nposX,nposY]}")
-
+            if part_type == 'gun' or part_type == 'turret':
+                hardpoint[staticcount-count] = [randX/2,posY/2]
+                #hardpoint[i+1] = [symX-centW,posY]
+            elif part_type == 'engine':
+                hardpoint[staticcount-count] = [randX/2,nposY/2]
+                #hardpoint[i+1] = [symX-centW,nposY]
             count -= 1
     bounddict = {}
     bounddict['min'] = newboundmin.copy()
