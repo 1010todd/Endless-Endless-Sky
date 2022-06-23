@@ -7,10 +7,11 @@ class Namegenerator:
         self.az = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         self.vowels = 'a e i o u'.split()
         self.seed = 0
-        if faction.devmode:
-            #random.seed(faction.devmodeseed)
-            self.seed = faction.devmodeseed
-            pass
+        if faction != None:
+            if faction.devmode:
+                #random.seed(faction.devmodeseed)
+                self.seed = faction.devmodeseed
+                pass
         
 
     def completelyRandomNames(self,minlength=4,maxlength=7):
@@ -45,9 +46,10 @@ class Namegenerator:
         #random.shuffle(wordlist) #and i != 0 and i != len(loopcount)
         randnamestr = ""
         randnamestr = randnamestr.join(wordlist)
+        while randnamestr.endswith(" ") or randnamestr.startswith(" "):
+            randnamestr = randnamestr.removesuffix(" ")
+            randnamestr = randnamestr.removeprefix(" ")
         randnamestr = randnamestr.capitalize()
-        randnamestr = randnamestr.removesuffix(" ")
-        randnamestr = randnamestr.removeprefix(" ")
         return randnamestr
 
     def generateRandomShortWord(self,wordlen=3,lang_charweight=None):
@@ -141,3 +143,10 @@ def generate_namefile(faction,fileout=''):
         filewrite.write(f'\t\t"{name}"' + '\n')
 
     filewrite.close()
+
+if False:
+    namegen = Namegenerator()
+    nametestlist =[]
+    for n in range(50):
+        nametestlist.append(namegen.generateNameFromRules(minlength=4,maxlength=7))
+        print(nametestlist[n])
