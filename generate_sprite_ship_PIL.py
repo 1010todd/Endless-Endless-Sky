@@ -339,6 +339,10 @@ def place_parts(core_img,
         partlistuni = partlistname2
     random.shuffle(partlistdir)
     random.shuffle(partlistuni)
+    if len(partlistdir) == 0 and len(partlistuni) == 0:
+        print(f"WARN: Parts for {part_type} not found, skipping.")
+        hardpoint = [0,0]
+        return core_img,bounddict,hardpoint
     uniMode = False
     if Dirbool:
         if(len(partlistdir) != 0):
