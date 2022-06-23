@@ -54,3 +54,4 @@ These are smaller parts of a ship where the script can assemble a new ship from.
 Any folder without 000 prefix will be read and used. Several suffix can be used for
 ship parts to tell the script what kind of part it is, see human folder for examples.
 Note -greeble is disabled at the moment
+Also note *all* part type should exist for the generator to use or it may fail.
