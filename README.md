@@ -3,9 +3,12 @@
 
  Partially derived from Nucleartaxi's [Endless Sky Generators](https://github.com/Nucleartaxi/endless-sky-generators)
 
+Primarily a script to generate entire galaxy along with its content from systems, governments(aliens) with their own ships fully outfitted with each faction own outfits and even generated ship sprites.
+
+
 WARNING: Highly experimental, may not stable enough for regular gameplay.
 
-WARNING: Data folder and generated sprites will be reset every update.
+WARNING: Data folder and generated sprites will be reset every update to utilize new features, backup what you like.
 
 ## How to use:
  Requires: Python 3.9, Pillow 8.4.0
