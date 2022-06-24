@@ -645,30 +645,33 @@ def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running firs
                             hot_outfit = outfit1
                     if hot_outfit != None:
                         for htnum in range(len(ship.outfits_list)):
-                            if ship.outfits_list[htnum-1].name == hot_outfit.name:
-                                #print("Hot generator:", ship.outfits_list[htnum-1].name)
-                                ship.outfits_list.pop(htnum-1)
-                                shipstats['outfit sp'] += ship.outfits_list[htnum-1].outfit_space
-                                shipstats['energy use'] += ship.outfits_list[htnum-1].energy_gen
-                                shipstats['energy gen'] -= ship.outfits_list[htnum-1].energy_gen
-                                shipstats['energy storage'] -= ship.outfits_list[htnum-1].energy_cap
-                                shipstats['idle heat'] -= ship.outfits_list[htnum-1].heat_gen
-                                totalheat -= ship.outfits_list[htnum-1].heat_gen
-                                if shipstats['energy use'] > 0:
-                                    for outfit3 in powergenlist:
-                                        if (shipstats['energy use'] >= 0) and (outfit3.outfit_space <= (ship.outfits_list[htnum-1].outfit_space)):
-                                            #print(f"installed {outfit3.name}, space{outfit3.outfit_space}/{shipstats['outfit sp']}")
-                                            ship.outfits_list.append(outfit3)
-                                            shipstats['outfit sp'] -= outfit3.outfit_space
-                                            shipstats['energy use'] -= outfit3.energy_gen
-                                            shipstats['energy gen'] += outfit3.energy_gen
-                                            shipstats['energy storage'] += outfit3.energy_cap
-                                            shipstats['idle heat'] += outfit3.heat_gen
-                                            totalheat += outfit3.heat_gen
-                                            #print(f"spaceleft: {shipstats['outfit sp']}")
-                                            break
-                                #print(f"SHIPGEN: update {totalheat:.1f}/{ship_max_heat*0.8:.1f}")
-                                    break
+                            try:
+                                if ship.outfits_list[htnum-1].name == hot_outfit.name:
+                                    #print("Hot generator:", ship.outfits_list[htnum-1].name)
+                                    ship.outfits_list.pop(htnum-1)
+                                    shipstats['outfit sp'] += ship.outfits_list[htnum-1].outfit_space
+                                    shipstats['energy use'] += ship.outfits_list[htnum-1].energy_gen
+                                    shipstats['energy gen'] -= ship.outfits_list[htnum-1].energy_gen
+                                    shipstats['energy storage'] -= ship.outfits_list[htnum-1].energy_cap
+                                    shipstats['idle heat'] -= ship.outfits_list[htnum-1].heat_gen
+                                    totalheat -= ship.outfits_list[htnum-1].heat_gen
+                                    if shipstats['energy use'] > 0:
+                                        for outfit3 in powergenlist:
+                                            if (shipstats['energy use'] >= 0) and (outfit3.outfit_space <= (ship.outfits_list[htnum-1].outfit_space)):
+                                                #print(f"installed {outfit3.name}, space{outfit3.outfit_space}/{shipstats['outfit sp']}")
+                                                ship.outfits_list.append(outfit3)
+                                                shipstats['outfit sp'] -= outfit3.outfit_space
+                                                shipstats['energy use'] -= outfit3.energy_gen
+                                                shipstats['energy gen'] += outfit3.energy_gen
+                                                shipstats['energy storage'] += outfit3.energy_cap
+                                                shipstats['idle heat'] += outfit3.heat_gen
+                                                totalheat += outfit3.heat_gen
+                                                #print(f"spaceleft: {shipstats['outfit sp']}")
+                                                break
+                                    #print(f"SHIPGEN: update {totalheat:.1f}/{ship_max_heat*0.8:.1f}")
+                                        break
+                            except IndexError:
+                                pass
                     else:
                         #print("No generator found?")
                         #print("Expand ship")
