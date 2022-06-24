@@ -46,6 +46,7 @@ class government():
         self.military = .5
         self.lenwid = .5 #-Ship lenght-width ratio
         self.shipsymmode = True #-Ship symmetry
+        self.radius = [] #min max mean
 
         self.devmode = False
         self.devmodeseed = 0
@@ -216,6 +217,12 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             max_tier = float(next(generate_gov_config))
         if ('government_mean_tier' in line):
             mean_tier = float(next(generate_gov_config))
+        if ("government_radius_percent_min" in line):
+            min_rad = float(next(generate_gov_config))
+        if ('government_radius_percent_max' in line):
+            max_rad = float(next(generate_gov_config))
+        if ('government_radius_percent_mean' in line):
+            mean_rad = float(next(generate_gov_config))
         if ('government_min_count' in line):
             min_count = int(next(generate_gov_config))
         if ('government_max_count' in line):
@@ -368,6 +375,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.militaryinit = militaryinit
         faction.civienametype = lang_civie_type
         faction.militnametype = lang_milit_type
+        faction.radius = [min_rad,max_rad,mean_rad]
         faction.devmode = devmode
         faction.devmodeseed = n+10
 

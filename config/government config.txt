@@ -42,6 +42,14 @@ government_name_max_length
 government_mean_aggression - from -1 to 1 ,Controls how often aggressive or friendly government generates, -1 is aggressive
 0
 
+#Percent of the galaxy radius each government can cover.
+government_radius_percent_min
+.2
+government_radius_percent_max
+.5
+government_radius_percent_mean
+.3
+
 government_ships_per_gov_min
 3
 government_ships_per_gov_max

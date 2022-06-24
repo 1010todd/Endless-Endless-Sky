@@ -1423,9 +1423,15 @@ def load_galaxy_configs(government_list):
         for government in government_list:
             #radiusX = galaxy.radius_x+galaxy.radius_x/4 #Off the edge center points.
             #radiusY = galaxy.radius_y+galaxy.radius_y/4
+            minradiusX = galaxy.radius_x*government.radius[0]
+            maxradiusX = galaxy.radius_x*government.radius[1]
+            meanradiusX = galaxy.radius_x*government.radius[2]
+            minradiusY = galaxy.radius_y*government.radius[0]
+            maxradiusY = galaxy.radius_y*government.radius[1]
+            meanradiusY = galaxy.radius_y*government.radius[2]
             center_pos = pick_within(galaxy.center_x,galaxy.center_y,galaxy.min_x,galaxy.max_x,galaxy.min_y,galaxy.max_y)
-            region_radius_x = round(random.triangular(0,galaxy.radius_x/3,(galaxy.radius_x*.1)))
-            region_radius_y = round(random.triangular(0,galaxy.radius_y/3,(galaxy.radius_y*.1)))
+            region_radius_x = round(random.triangular(minradiusX,maxradiusX,meanradiusX))
+            region_radius_y = round(random.triangular(minradiusY,maxradiusY,meanradiusY))
             #myprint(f"GovRegion: {center_pos} {region_radius_x}")
             government_region(center_pos[0],center_pos[1],region_radius_x,region_radius_y,system_list,government) 
         myprint('Creating planets in galaxy ' + galaxy.name)
