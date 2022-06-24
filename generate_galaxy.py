@@ -47,6 +47,9 @@ class system():
         self.capital = ''
         self.distgov = []
         self.allhypot = []
+        self.contestants = {} #list of other government attempting to own the system but failed along with hypot
+
+        self.hyptdifflist = []
 
 class galaxy():
     def __init__(self, name, min_x, max_x, min_y, max_y, layer, is_circle, desc_files, planet_config, government,galaxy_center_x,galaxy_center_y):
@@ -85,6 +88,8 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
                         system_list[s].capital = government
                         curcap = s
                     government.systemlist.append(system_list[s])
+                else:
+                    system_list[s].contestants[government] = hypot
             else:
                 system_list[s].government = government
                 #system_list[s].fleets.append(government.patrolfleets)
@@ -101,7 +106,7 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
 
 def duel_over_system(system,government,hypot):
     prevhypot = 0
-    prevgovroll = random.random() + .3
+    
     for h in system.distgov:
         if h[0] == system.government.name:
             prevhypot = h[1]
@@ -116,11 +121,24 @@ def duel_over_system(system,government,hypot):
                 govlinks += 1
     prevgovpow = govlinks*system.government.military + system.government.tier
     newgovpow = ngovlinks*government.military + system.government.tier 
-    newgovroll = random.random() + .3
+    prevgovroll = (random.random() + .3)*.1
+    newgovroll = (random.random() + .3)*.1
     win = newgovroll*(hypot*newgovpow) > prevgovroll*(prevhypot*prevgovpow)
+    system.hyptdifflist.append(hypot - prevhypot)
     return win
 
-def place_fleets(government):
+def avghyptdiff(systemlist,bleedratio=.1):
+    total = 0
+    count = 0
+    for system in systemlist:
+        for hypt in system.hyptdifflist:
+            total += abs(hypt)
+            count += 1
+    avg = total/count
+    bleedrad = avg*bleedratio #Find base radius for fleets bleeding into another system
+    return avg,bleedrad
+
+def place_fleets(government,bleedrad):
     avghypot,dvhypot = avg_deviation(government.allhypot)
     distriRadius = (avghypot/2) #TODO: factor in faction stuffs.
     for sys in government.systemlist: 
@@ -128,21 +146,35 @@ def place_fleets(government):
         for planet in sys.planet_list:
             if planet.is_habitable: #Make population affect fleet weight
                 addiflet += 100 * planet.planet_properties.population/5
-        for distlist in sys.distgov:
+        for distlist in sys.distgov: #Make distance from gov center affect spawnrate
             if distlist[0] == government.name:
+                thissysdist = distlist[1]
                 fleetfreq = roundup100(min(4000,max(600,800*(distlist[1]/distriRadius))))
-        for minable in sys.mineables.keys():
+        for minable in sys.mineables.keys(): #If there's enough minables spawn miners.
             if sys.mineables[minable][0] > 20:
                 for fleet in government.miningfleets:
                     sys.fleetdicts[str(fleet)] = round(fleetfreq*2)
-        fleetfreqmilit = fleetfreq*(.5+government.military)
+        fleetfreqmilit = fleetfreq*(1.5-government.military)
         fleetfreqmilit = max(400,fleetfreqmilit-addiflet)
         fleetfreq = max(400,fleetfreq-addiflet)
         for fleet in government.patrolfleets:
             sys.fleetdicts[str(fleet)] = round(fleetfreqmilit)
         for fleet in government.civilianfleets:
             sys.fleetdicts[str(fleet)] = round(fleetfreq)
-        
+        #If other government is contesting for the system, add their fleet if below threshold.
+        for altgov in sys.contestants.keys(): #TODO: Probably should consider from the nearest system that can be used as base?
+            if government.relations[altgov.name] >= 0:
+                if thissysdist - sys.contestants[altgov] > bleedrad*(1+government.relations[altgov.name]):
+                    altfleetfreq = roundup100(min(10000,max(600,800*(sys.contestants[altgov]/distriRadius))))
+                    altfleetfreq *= (1+government.relations[altgov.name])
+                    for fleet in altgov.civilianfleets:
+                        sys.fleetdicts[str(fleet)] = round(altfleetfreq)
+            else:
+                if thissysdist - sys.contestants[altgov] > bleedrad + (1-government.military):
+                    altfleetfreq = roundup100(min(20000,max(600,800*(sys.contestants[altgov]/distriRadius))))
+                    altgovmilitfreq = altfleetfreq*(1.5-government.military)
+                    for fleet in altgov.patrolfleets:
+                        sys.fleetdicts[str(fleet)] = round(altgovmilitfreq)
 
 
 def pick_within(center_x,center_y,galaXmin,galaXmax,galaYmin,galaYmax):
@@ -1443,13 +1475,15 @@ def load_galaxy_configs(government_list):
             region_radius_y = round(random.triangular(minradiusY,maxradiusY,meanradiusY))
             #myprint(f"GovRegion: {center_pos} {region_radius_x}")
             government_region(center_pos[0],center_pos[1],region_radius_x,region_radius_y,system_list,government) 
+        
+        avgrad,bleedrad = avghyptdiff(system_list)
         myprint('Creating planets in galaxy ' + galaxy.name)
         for system in system_list:
             if system.system_layer is galaxy_layer:
                 system_planets(system, galaxy)
         myprint('Placing fleets...')
         for government in government_list:
-            place_fleets(government)
+            place_fleets(government,bleedrad)
         myprint('\n\n\n')
         #todo: load image before generating system and use it as bounding box , maybe even detect features for system clusters.
         galaxy_image = random.choice(galaxy_sprite_list).removeprefix("images/").removesuffix(".jpg").replace("\\", "/")
