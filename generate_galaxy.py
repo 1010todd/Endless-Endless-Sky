@@ -75,9 +75,9 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
         if hypot < radius_x:
             if system_list[s].government != None:
                 if duel_over_system(system_list[s],government,hypot):
-                    system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
-                    system_list[s].fleets.append(government.patrolfleets)
-                    system_list[s].fleets.append(government.civilianfleets)
+                    system_list[s].government = government
+                    #system_list[s].fleets.append(government.patrolfleets)
+                    #system_list[s].fleets.append(government.civilianfleets)
                     system_list[s].distgov.append([government.name,hypot])
                     allhypot.append(hypot)
                     if hypot > prehypot:
@@ -86,9 +86,9 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
                         curcap = s
                     government.systemlist.append(system_list[s])
             else:
-                system_list[s].government = government #TODO: calculate contested area who should have it not just override it with new gov.
-                system_list[s].fleets.append(government.patrolfleets)
-                system_list[s].fleets.append(government.civilianfleets)
+                system_list[s].government = government
+                #system_list[s].fleets.append(government.patrolfleets)
+                #system_list[s].fleets.append(government.civilianfleets)
                 system_list[s].distgov.append([government.name,hypot])
                 allhypot.append(hypot)
                 if hypot > prehypot:
@@ -101,13 +101,22 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
 
 def duel_over_system(system,government,hypot):
     prevhypot = 0
-    prevgovpow = system.government.military + system.government.tier
-    prevgovroll = random.random()
+    prevgovroll = random.random() + .3
     for h in system.distgov:
         if h[0] == system.government.name:
             prevhypot = h[1]
-    newgovpow = government.military + system.government.tier
-    newgovroll = random.random()
+    govlinks = 0
+    ngovlinks = 0
+    for link in system.links:
+        for ngsys in government.systemlist:
+            if link == ngsys.name:
+                ngovlinks += 1
+        for gsys in system.government.systemlist:
+            if link == gsys.name:
+                govlinks += 1
+    prevgovpow = govlinks*system.government.military + system.government.tier
+    newgovpow = ngovlinks*government.military + system.government.tier 
+    newgovroll = random.random() + .3
     win = newgovroll*(hypot*newgovpow) > prevgovroll*(prevhypot*prevgovpow)
     return win
 
@@ -545,7 +554,7 @@ def galaxy_place_systems():
         list1 = dict_coordinates_links[key]
         links_name_list = []
         links_name_list.clear()
-        links_name_list = []
+        #links_name_list = []
         i = 0
         while i < len(list1):
             item_from_list1 = list1.pop()
