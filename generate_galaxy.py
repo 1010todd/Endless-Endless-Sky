@@ -123,7 +123,7 @@ def duel_over_system(system,government,hypot):
     newgovpow = ngovlinks*government.military + system.government.tier 
     prevgovroll = (random.random() + .3)*.1
     newgovroll = (random.random() + .3)*.1
-    win = newgovroll*(hypot*newgovpow) > prevgovroll*(prevhypot*prevgovpow)
+    win = (newgovroll*25)+(hypot*newgovpow) > (prevgovroll*25)+(prevhypot*prevgovpow)
     system.hyptdifflist.append(hypot - prevhypot)
     return win
 
