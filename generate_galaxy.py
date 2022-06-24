@@ -190,6 +190,19 @@ def pick_within(center_x,center_y,galaXmin,galaXmax,galaYmin,galaYmax):
     myprint("Failed to find a pos.")
     return 0,0
 
+def assign_haze(systemlist,radiusfull,radiusblackbody):
+    global galaxy_center_x
+    global galaxy_center_y
+    haze_full = "_menu/haze-full"
+    haze_blackbody = "_menu/haze-blackbody"
+    for s in range(len(systemlist)):
+        hypot = int(math.hypot(galaxy_center_x - system_list[s].pos[0], galaxy_center_y - system_list[s].pos[1]))
+        if hypot < radiusfull:
+            system_list[s].haze = haze_full
+        elif hypot < radiusblackbody:
+            system_list[s].haze = haze_blackbody
+    return
+
 def galaxy_place_systems():
     #this dictionary contains everything related to the system's level.
     level_desc_file_dict = {}
@@ -558,28 +571,6 @@ def galaxy_place_systems():
         commodity_dict[i] = commodity_list
         i += 1
     #myprint(commodity_dict)
-
-    #Fleets
-    myprint('Creating fleets...')
-    fleet_file_list = glob.glob("config/planet config/fleets/*.txt") #Imports files in directory
-    global fleet_dict
-    fleet_dict = {}
-    names_list = []
-    for item in fleet_file_list:
-        name = item.replace("config/planet config/fleets\\", "").replace(".txt", "")
-        names_list.append(name)
-
-        i = 1
-        fleet_line_list = []
-        fleet_file = open(item, 'r')
-        for line in fleet_file:
-            line = line.replace(', ', ',').strip()
-            lines = line.split(',')
-            fleet_line_list.append(lines)
-        fleet_dict[name] = fleet_line_list
-        fleet_file.close()
-    #myprint('fleet line dict: ' + str(fleet_dict))
-
     #Renames keys and dict data from coordinates to system names
     myprint('Assigning names to coordinates and finalizing systems...')
     for key in dict_coordinates_links.keys():
@@ -1261,6 +1252,9 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
         links_temp_list_write = list(set([str(e) for e in links_temp_list ]))
         for str1 in links_temp_list_write:
             galaxy_output.write('\tlink ' + '"' + str(str1) + '"' + "\n")
+
+        if system.haze != '':
+            galaxy_output.write(f'\thaze "{system.haze}"' + "\n")
         
         #asteroids
         #asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
@@ -1455,6 +1449,9 @@ def load_galaxy_configs(government_list):
 
     global planet_used_namelist
     planet_used_namelist = []
+    radiusfull = 300
+    radiusblackbody = 500
+    assign_haze(system_list,radiusfull,radiusblackbody)
 
     for galaxy in galaxy_list:
         #myprint(f'Galaxy Radius: {galaxy.radius_x} {galaxy.radius_y}')
