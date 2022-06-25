@@ -1100,10 +1100,10 @@ def create_ship(faction): #Todo, option for without faction?
             ship_outfit_space += abs(ship_outfit_space-(smallest_engine*2 + smallest_gun*ship_guns))
 
 
-        ship_blast_radius =round((ship_shields + ship_hull) * .01 * float(1))
-        ship_shield_damage = roundup10((ship_shields + ship_hull) * .10 * float(1))
-        ship_hull_damage = roundup10((ship_shields + ship_hull) * .05 * float(1))
-        ship_hit_force =  roundup10((ship_shields + ship_hull) * .15 * float(1))
+        ship_blast_radius =round((ship_shields + ship_hull) * .01 / faction.tier)
+        ship_shield_damage = roundup10((ship_shields + ship_hull) * .10 / faction.tier)
+        ship_hull_damage = roundup10((ship_shields + ship_hull) * .05 / faction.tier)
+        ship_hit_force =  roundup10((ship_shields + ship_hull) * .07 / faction.tier)
         
         ship_leak_leak = abs(roundup10(random.randrange(int(max(0,60*shiptypenum)),int(max(0,60*shiptypenum)+5))))
         ship_leak_flame = abs(roundup10(random.randrange(int(max(0,20*shiptypenum)),int(max(0,20*shiptypenum))+5)))
