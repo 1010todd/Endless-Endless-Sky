@@ -40,6 +40,7 @@ class system():
         self.mineables = {} #name: [count, energy]
         self.hazard = []
         self.haze = ''
+        self.cloud = '' #Image to paste behind system location
 
         self.government = government #reference to gov class
         self.fleets = []
@@ -157,6 +158,9 @@ def place_fleets(government,bleedrad):
         fleetfreqmilit = fleetfreq*(1.5-government.military)
         fleetfreqmilit = max(400,fleetfreqmilit-addiflet)
         fleetfreq = max(400,fleetfreq-addiflet)
+        if len(sys.hazard) != 0: #Double fleet rarity if system have hazard TODO: Consider if gov ship's resistance.
+            fleetfreq *= 2
+            fleetfreqmilit *= 2
         for fleet in government.patrolfleets:
             sys.fleetdicts[str(fleet)] = round(fleetfreqmilit)
         for fleet in government.civilianfleets:
@@ -167,12 +171,16 @@ def place_fleets(government,bleedrad):
                 if thissysdist - sys.contestants[altgov] > bleedrad*(1+government.relations[altgov.name]):
                     altfleetfreq = roundup100(min(10000,max(600,800*(sys.contestants[altgov]/distriRadius))))
                     altfleetfreq *= (1+government.relations[altgov.name])
+                    if len(sys.hazard) != 0:
+                        altfleetfreq *= 2
                     for fleet in altgov.civilianfleets:
                         sys.fleetdicts[str(fleet)] = round(altfleetfreq)
             else:
                 if thissysdist - sys.contestants[altgov] > bleedrad + (1-government.military):
                     altfleetfreq = roundup100(min(20000,max(600,800*(sys.contestants[altgov]/distriRadius))))
                     altgovmilitfreq = altfleetfreq*(1.5-government.military)
+                    if len(sys.hazard) != 0:
+                        altgovmilitfreq *= 2
                     for fleet in altgov.patrolfleets:
                         sys.fleetdicts[str(fleet)] = round(altgovmilitfreq)
 
@@ -189,24 +197,52 @@ def assign_haze(systemlist,radiusfull,radiusblackbody):
             system_list[s].haze = haze_blackbody
     return
 
-def add_hazard(systemlist):
-    minradiusX = galaxy.radius_x*government.radius[0]
-    maxradiusX = galaxy.radius_x*government.radius[1]
-    meanradiusX = galaxy.radius_x*government.radius[2]
-    minradiusY = galaxy.radius_y*government.radius[0]
-    maxradiusY = galaxy.radius_y*government.radius[1]
-    meanradiusY = galaxy.radius_y*government.radius[2]
-    center_pos = pick_within(galaxy.center_x,galaxy.center_y,galaxy.min_x,galaxy.max_x,galaxy.min_y,galaxy.max_y)
-    region_radius_x = round(random.triangular(minradiusX,maxradiusX,meanradiusX))
-    region_radius_y = round(random.triangular(minradiusY,maxradiusY,meanradiusY))
-    return
+def add_hazards(systemlist,hazardlist):
+    systemperhazard_min = 1
+    systemperhazard_max = 12
+    for hazard in hazardlist:
+        if hazard.cluster[0] <= 1:
+            for n in range(systemperhazard_min,systemperhazard_max):
+                syssel = random.randrange(len(systemlist))
+                systemlist[syssel].hazard.append(hazard)
+                systemlist[syssel].cloud = hazard.cloud
+                systemlist[syssel].haze = hazard.haze
+        else:
+            for n in range(systemperhazard_min,systemperhazard_max):
+                syssel = random.randrange(len(systemlist))
+                systemlist[syssel].hazard.append(hazard)
+                systemlist[syssel].cloud = hazard.cloud
+                systemlist[syssel].haze = hazard.haze
+                if False: #disabled, too lazy to make rn. TODO: save syslink as object so it's easier to refer to.
+                    for sys2 in systemlist[syssel].links:
+                        systemlist[syssel].hazard.append(hazard)
+                        systemlist[syssel].cloud = hazard.cloud
+                        if hazard.haze != '':
+                            systemlist[syssel].haze = hazard.haze
+    return hazardlist
 
-def generate_hazards(faction):
+class hazard_class():
+    def __init__(self,name) -> None:
+        self.name = name
+        self.conststr = False
+        self.period = 1
+        self.duration = []
+        self.strength = []
+        self.range = []
+        self.enveffect = []
+
+        #For generation.
+        self.cloud = ''
+        self.haze = ''
+        self.cluster = [] #size,count
+
+def generate_hazards(faction,galaxy):
+    namegen = namegenerator.Namegenerator(faction)
     hazard_type_min = 3
     hazard_type_max = 12
     hazard_type_mean = 6
 
-    fileout = f'data/{faction.name}/{faction.name} sales.txt'
+    fileout = f'data/{galaxy.name} hazards.txt'
 
     generate_galaxy_config = open(galaxy_config_file, "r")
     for line in generate_galaxy_config: #reads lines in galaxy config and assigns variables
@@ -233,9 +269,29 @@ def generate_hazards(faction):
         if "hazard_placed_min" in line:
             hazard_place_min = int(next(generate_galaxy_config))
     
-    hazard_count = random.triangular(hazard_type_min,hazard_type_max,hazard_type_mean)
+    hazard_count = round(random.triangular(hazard_type_min,hazard_type_max,hazard_type_mean))
     reldmgtype = ['shield','hull','heat','fuel','energy']
     otherdmgtype= ['ion','disruption','slowing','discharge','corrosion','leak','burn']
+    hazardeffect = {}
+    hazardeffect['ion'] = ['ion hazard','ion spark','disruption spark']
+    hazardeffect['hull'] = ['corrosion spark']
+    hazardeffect['heat'] = ['burning spark']
+    hazardeffect['fuel'] = ['leakage spark']
+    hazardeffect['slow'] = ['slowing spark']
+    hazardcloud = {}
+    hazardcloud['ion'] = ['lbluecloud']
+    hazardcloud['hull'] = ['greencloud']
+    hazardcloud['heat'] = ['redcloud']
+    hazardcloud['fuel'] = ['orangecloud']
+    hazardcloud['slow'] = ['purplecloud']
+    hazardhaze = {}
+    hazardhaze['ion'] = ['haze/lbluehaze']
+    hazardhaze['hull'] = ['haze/greenhaze']
+    hazardhaze['heat'] = ['_menu/haze-red']
+    hazardhaze['fuel'] = ['haze/orangehaze']
+    hazardhaze['slow'] = ['haze/purplehaze']
+
+    hazardlist = []
     for n in range(hazard_count):
         hazarddmgtype = random.choice(['relative','const','both'])
         reldmcount = round(random.triangular(1,3,1))
@@ -253,13 +309,18 @@ def generate_hazards(faction):
         if hazardpiercingchance > random.random():
             hazardpiercing = random.random()
 
-        hazardduration_min = random.range(1,3000)
+        hazardduration_min = random.randrange(1,3000)
         #hazardperiod_min = random.range(1,3000)
-        hazardrange_min = random.range(1,6000)
-        hazardduration = [hazardduration_min,hazardduration_min+random.range(1,3000)]
-        hazardperiod = random.range(1,3000)
-        hazardrange = [hazardrange_min,hazardrange_min+random.range(1,6000)]
-        hazardstrength = random.range(1,3)
+        hazardrange_min = random.randrange(1,6000)
+        hazardduration = [hazardduration_min,hazardduration_min+random.randrange(1,3000)]
+        hazardperiod = random.randrange(1,3000)
+        hazardrange = [hazardrange_min,hazardrange_min+random.randrange(1,6000)]
+        hazardstrength = random.randrange(1,3)
+
+        hzclustersize = 1
+        #hzclustersize = random.randrange(3,12)
+        hzclustercount = 1
+        #hzclustercount = random.randrange(1,3)
 
         hazardconststr = random.random() < .3
         
@@ -268,27 +329,54 @@ def generate_hazards(faction):
                 if hazardreldamage[i] < hazardreldamage[j]:
                     hazardreldmgtype[i],hazardreldmgtype[j] = hazardreldmgtype[j],hazardreldmgtype[i]
                     hazardreldamage[i],hazardreldamage[j] = hazardreldamage[j],hazardreldamage[i]
-
-        hazardeffect = {}
-        hazardeffect['ion'] = ['ion hazard','ion spark','disruption spark']
-        hazardeffect['hull'] = ['corrosion spark']
-        hazardeffect['heat'] = ['burning spark']
-        hazardeffect['fuel'] = ['leakage spark']
-        hazardeffect['slow'] = ['slowing spark']
-
-        if hazardreldmgtype[i] == 'shield' or hazardreldmgtype[i] == 'energy':
-            hazardeffchoice = 'ion'
-        elif hazardreldmgtype[i] == 'hull':
-            hazardeffchoice = 'hull'
-        elif hazardreldmgtype[i] == 'heat':
-            hazardeffchoice = 'heat'
-        elif hazardreldmgtype[i] == 'fuel':
-            hazardeffchoice = 'fuel'
+        for i in range(len(hazarddamage)): #Sort by highest damage
+            for j in range(i+1,len(hazarddamage)):
+                if hazarddamage[i] < hazarddamage[j]:
+                    hazarddmgtype[i],hazarddmgtype[j] = hazarddmgtype[j],hazarddmgtype[i]
+                    hazarddamage[i],hazarddamage[j] = hazarddamage[j],hazarddamage[i]
+        hazardname = ""
+        
+        if (hazardreldamage[0]*14000) >= hazarddamage[0]:
+            if hazardreldmgtype[0] == 'shield' or hazardreldmgtype[0] == 'energy':
+                hazardeffchoice = 'ion'
+            elif hazardreldmgtype[0] == 'hull':
+                hazardeffchoice = 'hull'
+            elif hazardreldmgtype[0] == 'heat':
+                hazardeffchoice = 'heat'
+            elif hazardreldmgtype[0] == 'fuel':
+                hazardeffchoice = 'fuel'
+            hazardname = hazardname.join(hazardreldmgtype)
+            hazardname = hazardname.capitalize()
+            hazardname = namegen.completelyRandomNames() + " " + hazardname + " Hazard"
+        else:
+            if hazarddmgtype[0] == 'ion' or hazarddmgtype[0] == 'disruption' or hazarddmgtype[0] == 'discharge':
+                hazardeffchoice = 'ion'
+            elif hazarddmgtype[0] == 'corrosion':
+                hazardeffchoice = 'hull'
+            elif hazarddmgtype[0] == 'burn':
+                hazardeffchoice = 'heat'
+            elif hazarddmgtype[0] == 'leak':
+                hazardeffchoice = 'fuel'
+            elif hazarddmgtype[0] == 'slowing':
+                hazardeffchoice = 'slow'
+            hazardname = hazardname.join(hazarddmgtype)
+            hazardname = hazardname.capitalize()
+            hazardname = namegen.completelyRandomNames() + " " + hazardname + " Hazard"
         
         hazardenveffect = random.choice(hazardeffect[hazardeffchoice])
+        hazardcloudsel = random.choice(hazardcloud[hazardeffchoice])
+        hazardhazesel = random.choice(hazardhaze[hazardeffchoice])
 
-        hazardname = ""
-        hazardname.join(hazardreldmgtype)
+        if hazarddmgtype == 'relative':
+            hazardenveffectnum = round(hazardreldamage[0]*4)
+        elif hazarddmgtype == 'const':
+            hazardenveffectnum = round(hazarddamage[0]*4)
+        else:
+            hazardenveffectnum = round(hazardreldamage[0]*4)
+            hazardenveffectnum = round(hazarddamage[0]*4)
+        hazardenveffectnum = max(1,hazardenveffectnum)
+            
+        
         
         with open(fileout, "a") as hazard_output:
             hazard_output.write(f'hazard "{hazardname}"' + '\n')
@@ -298,21 +386,36 @@ def generate_hazards(faction):
             hazard_output.write(f'\t"duration" {hazardduration[0]} {hazardduration[1]}' + '\n')
             hazard_output.write(f'\t"range" {hazardrange[0]} {hazardrange[1]}' + '\n')
             hazard_output.write(f'\t"strength" {hazardstrength}' + '\n')
-            hazard_output.write(f'\t"environmental effect" "{hazardenveffect}"' + '\n')
-            hazard_output.write(f'\t"weapon"')
+            hazard_output.write(f'\t"environmental effect" "{hazardenveffect}" {hazardenveffectnum}' + '\n')
+            hazard_output.write(f'\tweapon\n')
             if hazarddmgtype == 'relative':
                 for d in range(len(hazardreldmgtype)):
-                    hazard_output.write(f'\t\t"{hazardreldmgtype[d]} {hazardreldamage[d]}"')
+                    hazard_output.write(f'\t\t"relative {hazardreldmgtype[d]} damage" {hazardreldamage[d]:.5f}'  + '\n')
             elif hazarddmgtype == 'const':
                 for d in range(len(hazarddamage)):
-                    hazard_output.write(f'\t\t"{hazarddamage[d]} {hazarddmgtype[d]}"')
+                    hazard_output.write(f'\t\t"{hazarddmgtype[d]} damage" {hazarddamage[d]:.5f}' + '\n')
             else:
                 for d in range(len(hazardreldmgtype)):
-                    hazard_output.write(f'\t\t"{hazardreldmgtype[d]} {hazardreldamage[d]}"')
+                    hazard_output.write(f'\t\t"relative {hazardreldmgtype[d]} damage" {hazardreldamage[d]:.5f}' + '\n')
                 for d in range(len(hazarddamage)):
-                    hazard_output.write(f'\t\t"{hazarddamage[d]} {hazarddmgtype[d]}"')
+                    hazard_output.write(f'\t\t"{hazarddmgtype[d]} damage" {hazarddamage[d]:.5f}' + '\n')
             if hazardpiercing > 0:
-                hazard_output.write(f'\t\t"piercing" {hazardpiercing}')
+                hazard_output.write(f'\t\t"piercing" {hazardpiercing:.2f}' + '\n')
+
+            hazard_output.write("\n")
+        nhazad = hazard_class(hazardname)
+        nhazad.conststr = hazardconststr
+        nhazad.period = hazardperiod
+        nhazad.duration = hazardduration
+        nhazad.strength = hazardstrength
+        nhazad.range = hazardrange
+        nhazad.enveffect = hazardenveffect
+        nhazad.cloud = hazardcloudsel
+        nhazad.haze = hazardhazesel
+        nhazad.cluster = [hzclustersize,hzclustercount] 
+        hazardlist.append(nhazad)
+        #print(f"Made hazard {hazardname} with {nhazad.haze}")
+    return hazardlist
 
 def pick_within(center_x,center_y,galaXmin,galaXmax,galaYmin,galaYmax):
     r = galaXmax-center_x
@@ -1356,6 +1459,7 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     galaxy_output.write('\tsprite ' + '"' + str(galaxy_image) + '"\n')
     galaxy_output.write('\n')
     first_sys = 0
+    hazardprint = 0
     for system in system_list:                #WRITES SYSTEMS
         #name
         galaxy_output.write('system ' + '"' + str(system.name) + '"' + "\n")
@@ -1380,7 +1484,13 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
 
         if system.haze != '':
             galaxy_output.write(f'\thaze "{system.haze}"' + "\n")
-        
+
+        if len(system.hazard) > 0:
+            for hz in system.hazard:
+                galaxy_output.write(f'\thazard "{hz.name}" '+ '\n')
+                hazardprint = 1
+        else:
+            hazardprint = 0
         #asteroids
         #asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
         for astrd in system.asteroids.keys():
@@ -1399,34 +1509,21 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
             galaxy_output.write('\ttrade ' + '"' + str(commodity[0]) + '"' + ' ' + str(random.randint(commodity[1], commodity[2])) + "\n")
 
         #fleet
-        default = False
-        if(default == True):
-            fleet_properties = galaxy.desc_files['fleet' + str(system.level)]
-            fleet_amount = random.randint(int(fleet_properties[1]), int(fleet_properties[2]))
-            fleets_list = fleet_dict[fleet_properties[0]]
-            if fleet_amount > len(fleets_list):
-                fleet_amount = len(fleets_list)
-
-            random.shuffle(fleets_list) #ensures that fleets at the top of the fleets file don't get priority over lower ones
-            i = 0
-            while i < fleet_amount:
-                galaxy_output.write('\tfleet "' + str(fleets_list[i][0]) + '" ' + str(roundup100(random.randint(int(fleets_list[i][1]), int(fleets_list[i][2])))) + "\n")
-                i += 1
-        else:
-            newFleetDistribution = True
-            if newFleetDistribution:
-                for key in system.fleetdicts.keys():
-                    galaxy_output.write(f'\tfleet "{key}" ' + str(system.fleetdicts[key]) + '\n')
-            else: #===Even fleet distribution
-                fleet_freq_max = 1800
-                fleet_freq_min = 600
-                for xx in range(len(system.fleets)): #selfNOTE: fleets were stored as list of fleets.
-                    for ii in range(len(system.fleets[xx])): 
-                        fleetfreq = roundup100(random.randrange(fleet_freq_min,fleet_freq_max))
-                        if system.capital:
-                            fleetfreq *= 2
-                        galaxy_output.write(f'\tfleet "{system.fleets[xx][ii]}" ' + str(fleetfreq) + '\n')
-
+        newFleetDistribution = True
+        if newFleetDistribution:
+            for key in system.fleetdicts.keys():
+                galaxy_output.write(f'\tfleet "{key}" ' + str(system.fleetdicts[key]) + '\n')
+        else: #===Even fleet distribution
+            fleet_freq_max = 1800
+            fleet_freq_min = 600
+            for xx in range(len(system.fleets)): #selfNOTE: fleets were stored as list of fleets.
+                for ii in range(len(system.fleets[xx])): 
+                    fleetfreq = roundup100(random.randrange(fleet_freq_min,fleet_freq_max))
+                    if system.capital:
+                        fleetfreq *= 2
+                    galaxy_output.write(f'\tfleet "{system.fleets[xx][ii]}" ' + str(fleetfreq) + '\n')
+        
+        
         #planets
         for planet in system.planet_list:
             if planet.name is None:
@@ -1446,6 +1543,12 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
             galaxy_output.write('planet "EES Wormhole"' + "\n")
             first_sys += 1
         galaxy_output.write('\n')
+
+        if hazardprint > 0:
+            galaxy_output.write('galaxy ' + f'"{system.name} Hazard"\n')
+            galaxy_output.write('\tpos ' + str(system.pos).replace('(', '').replace(')', '').replace(',', '') + "\n")
+            galaxy_output.write('\tsprite ' + '"galaxyoverlay/' + str(system.hazard[0].cloud) + '"\n')
+            galaxy_output.write('\n')
 
     for planet in planet_names_list:
         galaxy_output.write('planet "' + planet.name + '"\n')
@@ -1577,9 +1680,12 @@ def load_galaxy_configs(government_list):
     radiusfull = 300
     radiusblackbody = 500
     assign_haze(system_list,radiusfull,radiusblackbody)
+    
 
     for galaxy in galaxy_list:
         #myprint(f'Galaxy Radius: {galaxy.radius_x} {galaxy.radius_y}')
+        hazardlist = generate_hazards(government_list[0],galaxy)
+        add_hazards(system_list,hazardlist)
         galaxy_layer = galaxy.layer
         myprint(f'Generating government sectors..')
         #===============Assign government
