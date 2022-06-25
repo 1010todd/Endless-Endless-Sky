@@ -1,0 +1,570 @@
+ship "Egu avquko"
+	sprite "ship/Quckri/Egu avquko"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 375640000
+		"shields" 836600
+		"hull" 611100
+		"required crew" 61
+		"bunks" 87
+		"mass" 636.8
+		"drag" 13.37
+		"heat dissipation" 0.79
+		"fuel capacity" 2900
+		"cargo space" 310
+		"outfit space" 945
+		"weapon capacity" 319
+		"engine capacity" 250
+		weapon 
+			"blast radius" 3449
+			"shield damage" 34490
+			"hull damage" 17250
+			"hit force" 24150
+	outfits 
+		"Vvo Guided Rocket Catapult" 1
+		"Vvo Guided Rocket" 10
+		"Zel Basilisk" 1
+		"Zel Basilisk Turret" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 105.0 41.0
+	engine 49.0 41.0
+	gun 46.0 54.0
+	gun 114.5 54.0
+	turret 81.0 77.5
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Cda uod"
+	sprite "ship/Quckri/Cda uod"
+	attributes 
+		category "Medium Warship"
+		"cost" 13939000
+		"shields" 504400
+		"hull" 368400
+		"required crew" 5
+		"bunks" 23
+		"mass" 300.6
+		"drag" 6.27
+		"heat dissipation" 0.72
+		"fuel capacity" 400
+		"cargo space" 40
+		"outfit space" 472
+		"weapon capacity" 165
+		"engine capacity" 150
+		weapon 
+			"blast radius" 2079
+			"shield damage" 20800
+			"hull damage" 10400
+			"hit force" 14560
+	outfits 
+		"Vvo Guided Rocket Catapult" 2
+		"Vvo Guided Rocket" 20
+		"Zel Basilisk" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 96.5 29.5
+	engine 22.5 29.5
+	gun 63.5 62.5
+	gun 82.5 26.5
+	gun 43.0 26.5
+	turret 30.0 52.5
+	turret 82.5 31.0
+	turret 41.0 31.0
+	turret 93.5 52.5
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Ewpura"
+	sprite "ship/Quckri/Ewpura"
+	attributes 
+		category "Heavy Warship"
+		"cost" 349316000
+		"shields" 1491000
+		"hull" 1089000
+		"required crew" 48
+		"bunks" 121
+		"mass" 1068.8
+		"drag" 20.76
+		"heat dissipation" 0.52
+		"fuel capacity" 1400
+		"cargo space" 130
+		"outfit space" 1922
+		"weapon capacity" 759
+		"engine capacity" 470
+		weapon 
+			"blast radius" 6146
+			"shield damage" 61460
+			"hull damage" 30730
+			"hit force" 43030
+	outfits 
+		"Vvo Guided Rocket Catapult" 2
+		"Vvo Guided Rocket" 20
+		"Zel Basilisk" 2
+		"Zel Basilisk Turret" 4
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 127.5 100.0
+	engine 63.0 100.0
+	engine 123.0 119.0
+	engine 67.5 119.0
+	engine 102.0 78.0
+	gun 88.0 76.0
+	gun 127.0 76.0
+	gun 75.5 76.0
+	gun 114.5 76.0
+	turret 102.0 65.0
+	turret 141.5 87.0
+	turret 59.0 87.0
+	turret 127.0 82.5
+	turret 73.5 82.5
+	turret 134.5 89.5
+	turret 66.0 89.5
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Eav tcu"
+	sprite "ship/Quckri/Eav tcu"
+	attributes 
+		category "Heavy Warship"
+		"cost" 446972000
+		"shields" 1151000
+		"hull" 840700
+		"required crew" 46
+		"bunks" 92
+		"mass" 812.6
+		"drag" 16.47
+		"heat dissipation" 0.79
+		"fuel capacity" 500
+		"cargo space" 100
+		"outfit space" 1228
+		"weapon capacity" 396
+		"engine capacity" 390
+		weapon 
+			"blast radius" 4744
+			"shield damage" 47450
+			"hull damage" 23730
+			"hit force" 33220
+	outfits 
+		"Vvo Guided Rocket Catapult" 3
+		"Vvo Guided Rocket" 30
+		"Zel Basilisk" 2
+		"Zel Basilisk Turret" 2
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 90.0 74.0
+	engine 21.5 74.0
+	engine 90.0 105.5
+	engine 21.5 105.5
+	gun 67.0 100.0
+	gun 79.5 40.5
+	gun 53.0 40.5
+	gun 80.0 85.5
+	gun 52.5 85.5
+	turret 50.0 44.5
+	turret 79.0 61.0
+	turret 51.0 61.0
+	turret 78.0 56.0
+	turret 52.0 56.0
+	turret 80.0 44.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Uau coo"
+	sprite "ship/Quckri/Uau coo"
+	attributes 
+		category "Transport"
+		"cost" 82936000
+		"shields" 349000
+		"hull" 254900
+		"required crew" 12
+		"bunks" 45
+		"mass" 126.2
+		"drag" 2.45
+		"heat dissipation" 0.69
+		"fuel capacity" 2300
+		"cargo space" 20
+		"outfit space" 262
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 1439
+			"shield damage" 14390
+			"hull damage" 7200
+			"hit force" 10070
+	outfits 
+		"Vvo Guided Rocket Catapult" 1
+		"Vvo Guided Rocket" 10
+		"Zel Basilisk" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Qae Heatsink" 1
+		"Hyperdrive"
+	engine 47.0 33.0
+	gun 30.5 25.5
+	gun 62.0 25.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Quckri T4.2 ship"
+
+ship "Cie vzocuu"
+	sprite "ship/Quckri/Cie vzocuu"
+	attributes 
+		category "Heavy Warship"
+		"cost" 721349000
+		"shields" 1627600
+		"hull" 1188700
+		"required crew" 78
+		"bunks" 98
+		"mass" 1006.0
+		"drag" 21.79
+		"heat dissipation" 0.79
+		"fuel capacity" 2900
+		"cargo space" 125
+		"outfit space" 1796
+		"weapon capacity" 638
+		"engine capacity" 490
+		weapon 
+			"blast radius" 6709
+			"shield damage" 67090
+			"hull damage" 33550
+			"hit force" 46970
+	outfits 
+		"Vvo Guided Rocket Catapult" 3
+		"Vvo Guided Rocket" 30
+		"Zel Basilisk" 3
+		"Zel Basilisk Turret" 3
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 89.5 91.5
+	engine 43.0 91.5
+	engine 87.0 98.5
+	engine 45.5 98.5
+	engine 73.0 89.5
+	gun 62.0 104.0
+	gun 86.0 62.0
+	gun 58.5 62.0
+	gun 81.0 98.0
+	gun 63.5 98.0
+	gun 82.5 104.0
+	turret 73.0 102.0
+	turret 90.0 78.0
+	turret 52.5 78.0
+	turret 86.0 80.0
+	turret 56.5 80.0
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Lompic uru"
+	sprite "ship/Quckri/Lompic uru"
+	attributes 
+		category "Transport"
+		"cost" 154226000
+		"shields" 359400
+		"hull" 262500
+		"required crew" 5
+		"bunks" 40
+		"mass" 194.2
+		"drag" 3.72
+		"heat dissipation" 0.6
+		"fuel capacity" 1300
+		"cargo space" 25
+		"outfit space" 399
+		"weapon capacity" 132
+		"engine capacity" 110
+		weapon 
+			"blast radius" 1481
+			"shield damage" 14820
+			"hull damage" 7410
+			"hit force" 10380
+	outfits 
+		"Vvo Guided Rocket Catapult" 1
+		"Vvo Guided Rocket" 10
+		"Zel Basilisk" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Qae Heatsink" 1
+		"Hyperdrive"
+	engine 34.5 30.0
+	gun 13.0 8.5
+	gun 54.5 8.5
+	turret 34.5 45.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Quckri T4.2 ship"
+
+ship "Aauswu"
+	sprite "ship/Quckri/Aauswu"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 395536000
+		"shields" 985100
+		"hull" 719500
+		"required crew" 13
+		"bunks" 42
+		"mass" 663.4
+		"drag" 13.26
+		"heat dissipation" 0.86
+		"fuel capacity" 1900
+		"cargo space" 320
+		"outfit space" 766
+		"weapon capacity" 275
+		"engine capacity" 240
+		weapon 
+			"blast radius" 4061
+			"shield damage" 40610
+			"hull damage" 20310
+			"hit force" 28430
+	outfits 
+		"Vvo Guided Rocket Catapult" 2
+		"Vvo Guided Rocket" 20
+		"Zel Basilisk" 1
+		"Zel Basilisk Turret" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Hyperdrive"
+	engine 98.0 89.0
+	engine 21.0 89.0
+	gun 63.5 118.0
+	gun 99.5 75.0
+	gun 26.0 75.0
+	turret 51.5 100.0
+	turret 95.0 59.0
+	turret 28.0 59.0
+	turret 71.5 100.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Quckri T4.2 ship"
+
+ship "Squmeuvaq"
+	sprite "ship/Quckri/Squmeuvaq"
+	attributes 
+		category "Interceptor"
+		"cost" 48381000
+		"shields" 104200
+		"hull" 76100
+		"required crew" 2
+		"bunks" 6
+		"mass" 68.6
+		"drag" 1.27
+		"heat dissipation" 0.86
+		"fuel capacity" 1300
+		"cargo space" 10
+		"outfit space" 250
+		"weapon capacity" 44
+		"engine capacity" 30
+		weapon 
+			"blast radius" 429
+			"shield damage" 4300
+			"hull damage" 2150
+			"hit force" 3010
+	outfits 
+		"Vvo Guided Rocket Catapult" 5
+		"Vvo Guided Rocket" 50
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Qae Heatsink" 1
+		"Hyperdrive"
+	engine 29.5 22.5
+	gun 29.5 16.5
+	gun 40.0 8.5
+	gun 17.5 8.5
+	gun 35.0 14.0
+	gun 22.5 14.0
+	turret 29.5 11.5
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Quckri T4.2 ship"
+
+ship "Vfa aoo"
+	sprite "ship/Quckri/Vfa aoo"
+	attributes 
+		category "Transport"
+		"cost" 19912000
+		"shields" 482200
+		"hull" 352200
+		"required crew" 16
+		"bunks" 93
+		"mass" 239.6
+		"drag" 4.81
+		"heat dissipation" 0.74
+		"fuel capacity" 800
+		"cargo space" 30
+		"outfit space" 252
+		"weapon capacity" 88
+		"engine capacity" 80
+		weapon 
+			"blast radius" 1988
+			"shield damage" 19880
+			"hull damage" 9940
+			"hit force" 13920
+	outfits 
+		"Vvo Guided Rocket Catapult" 1
+		"Vvo Guided Rocket" 10
+		"Zel Basilisk" 1
+		"Vaa Thruster" 1
+		"Vaa Steering" 1
+		"Flemek Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Qae Heatsink" 1
+		"Hyperdrive"
+	engine 64.0 50.5
+	gun 18.5 30.0
+	gun 108.0 30.0
+	turret 64.0 36.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Quckri T4.2 ship"
+
+ship "Ira mdeaui"
+	sprite "ship/Quckri/Ira mdeaui"
+	attributes 
+		category "Fighter"
+		"cost" 17602000
+		"shields" 104600
+		"hull" 76400
+		"required crew" 2
+		"bunks" 5
+		"mass" 47.8
+		"drag" 0.95
+		"heat dissipation" 1.1300000000000001
+		"fuel capacity" 800
+		"cargo space" 10
+		"outfit space" 206
+		"weapon capacity" 44
+		"engine capacity" 30
+		weapon 
+			"blast radius" 431
+			"shield damage" 4320
+			"hull damage" 2160
+			"hit force" 3020
+	outfits 
+		"Vvo Guided Rocket Catapult" 4
+		"Vvo Guided Rocket" 40
+		"Ibh Cell" 1
+		"Beusum Battery Pack" 1
+		"Kcuveu Shielding" 1
+		"Qae Heatsink" 2
+		"Xuo Heatsink" 1
+		"Hyperdrive"
+	engine 21.5 19.0
+	gun 9.0 17.0
+	gun 38.0 9.5
+	gun 3.5 9.5
+	gun 32.5 17.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 0
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Quckri T4.2 ship"
+

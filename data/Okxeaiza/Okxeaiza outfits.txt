@@ -1,0 +1,1158 @@
+outfit "Fcor Battery"
+	category "Power"
+	cost 429400
+	thumbnail "outfit/tiny battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 7680
+	description "Okxeaiza T4.4 Battery"
+
+outfit "Ilia Battery"
+	category "Power"
+	cost 773000
+	thumbnail "outfit/tiny battery"
+	"mass" 22
+	"outfit space" -22
+	"energy capacity" 36870
+	description "Okxeaiza T4.4 Battery"
+
+
+outfit "Roaolauc Cell"
+	category "Power"
+	cost 141200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 4.7
+	"heat generation" 5.0
+	description "Okxeaiza T4.4 Power generator"
+
+outfit "Rujk Cell"
+	category "Power"
+	cost 240100
+	thumbnail "outfit/small fuel cell"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 22.6
+	"heat generation" 14.0
+	description "Okxeaiza T4.4 Power generator"
+
+outfit "Uuuc Cell"
+	category "Power"
+	cost 408200
+	thumbnail "outfit/medium fuel cell"
+	"mass" 68
+	"outfit space" -68
+	"energy generation" 108.5
+	"heat generation" 39.2
+	description "Okxeaiza T4.4 Power generator"
+
+
+outfit "Eyou Thruster"
+	category "Engines"
+	cost 1343600
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 6.4
+	"thrusting energy" 0.3
+	"thrusting heat" 0.4
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.1401405736022154
+	"flare sound" "ka'het small"
+	description "Okxeaiza T4.4 Thruster"
+
+outfit "Eyou Steering"
+	category "Engines"
+	cost 1181940
+	thumbnail "outfit/small ka'het steering"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"turn" 161
+	"turning energy" 0.3
+	"turning heat" 0.4
+	description "Okxeaiza T4.4 steering"
+
+outfit "Iftd Thruster"
+	category "Engines"
+	cost 2284200
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 15.4
+	"thrusting energy" 0.7
+	"thrusting heat" 0.9
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Okxeaiza T4.4 Thruster"
+
+outfit "Iftd Steering"
+	category "Engines"
+	cost 3883200
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 31
+	"outfit space" -31
+	"engine capacity" -31
+	"turn" 386.4
+	"turning energy" 0.7
+	"turning heat" 0.9
+	description "Okxeaiza T4.4 steering"
+
+outfit "Ogar Thruster"
+	category "Engines"
+	cost 3883200
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 37.0
+	"thrusting energy" 1.5
+	"thrusting heat" 2.0
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Okxeaiza T4.4 Thruster"
+
+outfit "Ogar Steering"
+	category "Engines"
+	cost 6601500
+	thumbnail "outfit/large ka'het steering"
+	"mass" 56
+	"outfit space" -56
+	"engine capacity" -56
+	"turn" 927.4
+	"turning energy" 1.5
+	"turning heat" 2.0
+	description "Okxeaiza T4.4 steering"
+
+
+outfit "Aqudduda Shield Regenerator"
+	category "Systems"
+	cost 816500
+	thumbnail "outfit/tiny shield"
+	"mass" 19
+	"outfit space" -19
+	"shield generation" 3.39
+	"shield energy" 3.8
+	"shield heat" 4
+	description "Okxeaiza T4.4 shield gen"
+
+outfit "Ayou Shield Regenerator"
+	category "Systems"
+	cost 1469700
+	thumbnail "outfit/small shield"
+	"mass" 28
+	"outfit space" -28
+	"shield generation" 6.8
+	"shield energy" 3.0
+	"shield heat" 4
+	description "Okxeaiza T4.4 shield gen"
+
+outfit "Daoe imxd Shield Regenerator"
+	category "Systems"
+	cost 2645500
+	thumbnail "outfit/medium shield"
+	"mass" 42
+	"outfit space" -42
+	"shield generation" 13.6
+	"shield energy" 2.4
+	"shield heat" 4
+	description "Okxeaiza T4.4 shield gen"
+
+outfit "Uzoe Shield Regenerator"
+	category "Systems"
+	cost 4761900
+	thumbnail "outfit/large shield"
+	"mass" 63
+	"outfit space" -63
+	"shield generation" 27.2
+	"shield energy" 1.9
+	"shield heat" 4
+	description "Okxeaiza T4.4 shield gen"
+
+
+
+outfit "Dmei Heat Shunt"
+	category "Systems"
+	cost 16200
+	thumbnail "outfit/liquid helium"
+	"mass" 28
+	"outfit space" -28
+	"active cooling" 308
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xeouduii Heat Shunt"
+	category "Systems"
+	cost 11900
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 22
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ttib Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 58
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Goax Heat Pump"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 63
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Okraiqea Temperature Control"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 42
+	"active cooling" 60
+	"cooling energy" 15.5444567461578
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Uyuk Cooling"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Lyoi Heatsink"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/water cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 65
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Deau girm Heat Pump"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 40
+	"active cooling" 159
+	"cooling energy" 11.72606186005893
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Urix Heat Pump"
+	category "Systems"
+	cost 21500
+	thumbnail "outfit/large heat shunt"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 65
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Eipe Cooling"
+	category "Systems"
+	cost 12500
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 51
+	"active cooling" 213
+	"cooling energy" 26.013794327429558
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Oeat Heatsink"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 36
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Saet Cooler"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/liquid helium"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 65
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Hxoocodh Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 59
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Hoguroxe Heat Shunt"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 61
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Luoa Heatsink"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 41
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ehoq Cooling"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/hai williwaw"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 63
+	"active cooling" 23
+	"cooling energy" 25.703573005884724
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xeoatyia Heat Pump"
+	category "Systems"
+	cost 15600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 64
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Mutadgoa Cooling"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 61
+	"active cooling" 294
+	"cooling energy" 28.018023068244766
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xozmmeoo Cooler"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 54
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Qaadbiyi Heat Shunt"
+	category "Systems"
+	cost 15600
+	thumbnail "outfit/large heat shunt"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 53
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Odxucute Heatsink"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/liquid helium"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 61
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Epdu Cooling"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 52
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Rupa Cooling"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/large heat shunt"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 64
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Eeko Cooler"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 64
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Uqloaeiy Heat Shunt"
+	category "Systems"
+	cost 16100
+	thumbnail "outfit/water cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 44
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Irir Temperature Control"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 55
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Kacuipux Heat Pump"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 37
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Tcueraex Cooling"
+	category "Systems"
+	cost 19600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 53
+	"active cooling" 19
+	"cooling energy" 29.577169621308617
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Eytoahie Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 42
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Oqzecaio Heatsink"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/water cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 34
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ihxi Cooler"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 42
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Huve Temperature Control"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 45
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Muiculpa Heat Shunt"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 182
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yaee Heat Shunt"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 63
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Gxeokoye Heatsink"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 49
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Sqeg Heatsink"
+	category "Systems"
+	cost 17700
+	thumbnail "outfit/water cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 34
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Peutaaih Heatsink"
+	category "Systems"
+	cost 18600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 51
+	"active cooling" 259
+	"cooling energy" 24.888476507590216
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xomc Cooling"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 204
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Csui Heatsink"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/liquid helium"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 50
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Baatgzus Temperature Control"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 44
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Oeglutze Heat Pump"
+	category "Systems"
+	cost 16700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 38
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Piap Cooler"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 55
+	"active cooling" 109
+	"cooling energy" 28.37269781072725
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Outa Heatsink"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/hai williwaw"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 57
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Izki Heatsink"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 57
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Rxiraeth Cooler"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 66
+	"active cooling" 111
+	"cooling energy" 34.1858562084539
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Liduebuu Cooler"
+	category "Systems"
+	cost 16400
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 42
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Dopu Cooler"
+	category "Systems"
+	cost 19400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 35
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ecxe Cooler"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 64
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ordo Temperature Control"
+	category "Systems"
+	cost 18600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 61
+	"active cooling" 179
+	"cooling energy" 25.893434186863132
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Qmoo Cooling"
+	category "Systems"
+	cost 16500
+	thumbnail "outfit/hai williwaw"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 66
+	"active cooling" 385
+	"cooling energy" 29.039243553005978
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ayoaeayx Heat Shunt"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/hai williwaw"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 46
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Doyd Heatsink"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 33
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ihiu Cooler"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 36
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Olui Cooler"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 61
+	"active cooling" 67
+	"cooling energy" 16.874736319123805
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yuoa Heatsink"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 66
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Tvaataos Heat Pump"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 192
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Vaau Heat Pump"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 58
+	"active cooling" 185
+	"cooling energy" 30.461783101389805
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Rceaxaxo Heatsink"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 37
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Esoi Temperature Control"
+	category "Systems"
+	cost 22700
+	thumbnail "outfit/hai williwaw"
+	"mass" 32
+	"outfit space" -32
+	"active cooling" 252
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Eosu Cooling"
+	category "Systems"
+	cost 21100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 43
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yiyo Cooler"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 51
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xihaixmi Heat Shunt"
+	category "Systems"
+	cost 12500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xiou Cooling"
+	category "Systems"
+	cost 16200
+	thumbnail "outfit/liquid helium"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 160
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Goyadiab Heat Pump"
+	category "Systems"
+	cost 16800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 18
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xaiiqeae Heatsink"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 16
+	"outfit space" -16
+	"active cooling" 102
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Iyul Heatsink"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 18
+	"outfit space" -18
+	"active cooling" 100
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Acho Cooling"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 45
+	"active cooling" 77
+	"cooling energy" 18.420874569377364
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Qoimeoye Heat Shunt"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/small heat shunt"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 37
+	"active cooling" 56
+	"cooling energy" 14.515369360907101
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Boif Heatsink"
+	category "Systems"
+	cost 19500
+	thumbnail "outfit/liquid helium"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 63
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Dihoorda Cooler"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 65
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Apai ohja Heatsink"
+	category "Systems"
+	cost 18800
+	thumbnail "outfit/hai williwaw"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 64
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yoix Heat Shunt"
+	category "Systems"
+	cost 12600
+	thumbnail "outfit/cooling module"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 47
+	"active cooling" 157
+	"cooling energy" 23.365821366401853
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ihvi Cooling"
+	category "Systems"
+	cost 10400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 46
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yuaovuar Temperature Control"
+	category "Systems"
+	cost 11700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 43
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Deuirare Heatsink"
+	category "Systems"
+	cost 12300
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"active cooling" 106
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ioec Cooling"
+	category "Systems"
+	cost 14700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 38
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Syoaxeao Cooler"
+	category "Systems"
+	cost 14600
+	thumbnail "outfit/large heat shunt"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 59
+	"active cooling" 238
+	"cooling energy" 22.99396205364224
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Radu Heatsink"
+	category "Systems"
+	cost 10300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 45
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Xaeu Cooler"
+	category "Systems"
+	cost 21000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 54
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Wsoo Heatsink"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/small heat shunt"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 41
+	"active cooling" 147
+	"cooling energy" 12.932717137187469
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Eedi Heat Shunt"
+	category "Systems"
+	cost 15600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 55
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Sovqxuug Heat Shunt"
+	category "Systems"
+	cost 12900
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 45
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Edjc Cooler"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/hai williwaw"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 54
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Oaptduee Temperature Control"
+	category "Systems"
+	cost 21800
+	thumbnail "outfit/hai williwaw"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 47
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yeyxrooo Heatsink"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 48
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ceyd Heat Pump"
+	category "Systems"
+	cost 14400
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	"active cooling" 107
+	"cooling energy" 14.865597530405662
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Dieq Heatsink"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 59
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yqodibuo Heat Shunt"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 37
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Ucde dejz Heat Pump"
+	category "Systems"
+	cost 15600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 61
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Cjuaarie Temperature Control"
+	category "Systems"
+	cost 22400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 35
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Haecgecu Temperature Control"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 62
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Iiat Cooler"
+	category "Systems"
+	cost 17400
+	thumbnail "outfit/large heat shunt"
+	"mass" 23
+	"outfit space" -23
+	"active cooling" 163
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Yiad ipir Temperature Control"
+	category "Systems"
+	cost 17500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 62
+	"active cooling" 189
+	"cooling energy" 24.986801132504016
+	description "Okxeaiza T4.4 Cooling"
+
+
+outfit "Uxco Heatsink"
+	category "Systems"
+	cost 12500
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 62
+	description "Okxeaiza T4.4 Cooling"
+
+

@@ -1,0 +1,179 @@
+fleet "Kohjgo Defense"
+	government "Kohjgo"
+	names "Kohjgo Military names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 14
+	variant 16
+		"Izfzii" 3
+		"Aczloo ugo" 2
+		"Fue hagheh" 4
+		"Twortuinc" 3
+		"Ufv uwrfxu" 1
+		"Lit ipe" 4
+		"Utu jiv" 3
+		"Uqj oxocug" 5
+		"Ehc yev" 3
+		"Amo awj" 4
+		"Effwce" 1
+		"Uyyypu" 2
+	variant 9
+		"Effwce" 1
+		"Uqj oxocug" 5
+		"Lit ipe" 2
+		"Aczloo ugo" 5
+		"Ufv uwrfxu" 1
+		"Twortuinc" 4
+		"Ehc yev" 1
+		"Uyyypu" 5
+		"Amo awj" 1
+		"Fue hagheh" 3
+		"Utu jiv" 4
+		"Izfzii" 4
+	variant 13
+		"Lit ipe" 4
+		"Aczloo ugo" 3
+		"Amo awj" 4
+		"Effwce" 3
+		"Uqj oxocug" 4
+		"Ehc yev" 1
+		"Uyyypu" 1
+		"Fue hagheh" 2
+		"Utu jiv" 5
+		"Izfzii" 5
+		"Ufv uwrfxu" 2
+		"Twortuinc" 3
+	variant 6
+		"Ehc yev" 2
+		"Utu jiv" 2
+		"Lit ipe" 3
+		"Aczloo ugo" 4
+		"Twortuinc" 1
+		"Effwce" 3
+		"Ufv uwrfxu" 2
+		"Uyyypu" 3
+		"Fue hagheh" 5
+		"Izfzii" 4
+		"Uqj oxocug" 4
+		"Amo awj" 2
+	variant 19
+		"Uyyypu" 5
+		"Uqj oxocug" 5
+		"Izfzii" 5
+		"Effwce" 5
+		"Fue hagheh" 3
+		"Aczloo ugo" 4
+		"Ufv uwrfxu" 3
+		"Amo awj" 1
+		"Utu jiv" 4
+		"Twortuinc" 2
+		"Lit ipe" 1
+		"Ehc yev" 3
+	variant 10
+		"Effwce" 1
+		"Ufv uwrfxu" 4
+		"Aczloo ugo" 5
+		"Ehc yev" 3
+		"Amo awj" 2
+		"Fue hagheh" 1
+		"Lit ipe" 2
+		"Uqj oxocug" 4
+		"Izfzii" 4
+		"Utu jiv" 3
+		"Twortuinc" 4
+		"Uyyypu" 3
+	variant 8
+		"Fue hagheh" 3
+		"Aczloo ugo" 4
+		"Lit ipe" 5
+		"Utu jiv" 1
+		"Ufv uwrfxu" 5
+		"Izfzii" 3
+		"Ehc yev" 5
+		"Uyyypu" 1
+		"Effwce" 2
+		"Twortuinc" 4
+		"Amo awj" 4
+		"Uqj oxocug" 5
+	variant 11
+		"Ehc yev" 1
+		"Lit ipe" 4
+		"Aczloo ugo" 5
+		"Twortuinc" 1
+		"Uyyypu" 3
+		"Amo awj" 2
+		"Ufv uwrfxu" 3
+		"Effwce" 4
+		"Fue hagheh" 1
+		"Izfzii" 1
+		"Uqj oxocug" 2
+		"Utu jiv" 1
+	variant 15
+		"Ufv uwrfxu" 2
+		"Aczloo ugo" 4
+		"Uyyypu" 3
+		"Utu jiv" 2
+		"Amo awj" 5
+		"Effwce" 2
+		"Uqj oxocug" 2
+		"Lit ipe" 3
+		"Fue hagheh" 4
+		"Twortuinc" 5
+		"Ehc yev" 1
+		"Izfzii" 4
+	variant 8
+		"Ufv uwrfxu" 2
+		"Aczloo ugo" 3
+		"Uqj oxocug" 2
+		"Effwce" 2
+		"Amo awj" 5
+		"Izfzii" 4
+		"Fue hagheh" 1
+		"Lit ipe" 4
+		"Utu jiv" 3
+		"Ehc yev" 4
+		"Uyyypu" 2
+		"Twortuinc" 4
+fleet "Kohjgo Merchant"
+	government "Kohjgo"
+	names "Kohjgo names"
+	personality
+		timid
+		disables
+		confusion 21
+	variant 0
+		"Uqj oxocug" 3
+		"Effwce" 2
+		"Ehc yev" 3
+	variant 4
+		"Izfzii" 1
+		"Fue hagheh" 3
+		"Effwce" 1
+	variant 10
+		"Izfzii" 3
+		"Ufv uwrfxu" 1
+		"Izfzii" 4
+	variant 54
+		"Aczloo ugo" 3
+		"Uqj oxocug" 3
+		"Twortuinc" 3
+	variant 44
+		"Uyyypu" 1
+		"Ufv uwrfxu" 1
+		"Ehc yev" 2
+fleet "Kohjgo Miner"
+	government "Kohjgo"
+	names "Kohjgo names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 5
+		"Ehc yev" 3
+		"Aczloo ugo" 0
+	variant 4
+		"Ehc yev" 2
+		"Aczloo ugo" 0

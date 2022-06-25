@@ -1,0 +1,161 @@
+outfit "Beusum Battery Pack"
+	category "Power"
+	cost 217500
+	thumbnail "outfit/tiny battery"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 2920
+	description "Quckri T4.2 Battery"
+
+outfit "Eue Battery Pack"
+	category "Power"
+	cost 391500
+	thumbnail "outfit/tiny battery"
+	"mass" 13
+	"outfit space" -13
+	"energy capacity" 13440
+	description "Quckri T4.2 Battery"
+
+outfit "Uqu Battery Pack"
+	category "Power"
+	cost 704700
+	thumbnail "outfit/tiny battery"
+	"mass" 23
+	"outfit space" -23
+	"energy capacity" 61830
+	description "Quckri T4.2 Battery"
+
+outfit "Zkodup Battery Pack"
+	category "Power"
+	cost 1268500
+	thumbnail "outfit/tiny battery"
+	"mass" 41
+	"outfit space" -41
+	"energy capacity" 284420
+	description "Quckri T4.2 Battery"
+
+
+outfit "Flemek Cell"
+	category "Power"
+	cost 231600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 5.1
+	"heat generation" 11.6
+	description "Quckri T4.2 Power generator"
+
+outfit "Ibh Cell"
+	category "Power"
+	cost 393800
+	thumbnail "outfit/small fuel cell"
+	"mass" 29
+	"outfit space" -29
+	"energy generation" 23.5
+	"heat generation" 32.5
+	description "Quckri T4.2 Power generator"
+
+outfit "Mev Cell"
+	category "Power"
+	cost 669500
+	thumbnail "outfit/medium fuel cell"
+	"mass" 52
+	"outfit space" -52
+	"energy generation" 108.1
+	"heat generation" 91.0
+	description "Quckri T4.2 Power generator"
+
+outfit "Qev Cell"
+	category "Power"
+	cost 1138200
+	thumbnail "outfit/large fuel cell"
+	"mass" 94
+	"outfit space" -94
+	"energy generation" 497.3
+	"heat generation" 254.8
+	description "Quckri T4.2 Power generator"
+
+
+outfit "Vaa Thruster"
+	category "Engines"
+	cost 1674500
+	thumbnail "outfit/small remnant thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 5.4
+	"thrusting energy" 0.3
+	"thrusting heat" 0.3
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.0677271204645842
+	"flare sound" "remnant small"
+	description "Quckri T4.2 Thruster"
+
+outfit "Vaa Steering"
+	category "Engines"
+	cost 1416978
+	thumbnail "outfit/small remnant steering"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 147
+	"turning energy" 0.3
+	"turning heat" 0.3
+	description "Quckri T4.2 steering"
+
+
+outfit "Kcuveu Shielding"
+	category "Systems"
+	cost 1182800
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"shield generation" 1.87
+	"shield energy" 2.98
+	"shield heat" 5
+	description "Quckri T4.2 shield gen"
+
+outfit "Smelli Shielding"
+	category "Systems"
+	cost 2129100
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 3.7
+	"shield energy" 2.4
+	"shield heat" 5
+	description "Quckri T4.2 shield gen"
+
+outfit "Uzo Shielding"
+	category "Systems"
+	cost 3832400
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 7.4
+	"shield energy" 1.9
+	"shield heat" 5
+	description "Quckri T4.2 shield gen"
+
+
+
+outfit "Qae Heatsink"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Quckri T4.2 Cooling"
+
+
+outfit "Xuo Heatsink"
+	category "Systems"
+	cost 12700
+	thumbnail "outfit/small heat shunt"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 25
+	description "Quckri T4.2 Cooling"
+
+

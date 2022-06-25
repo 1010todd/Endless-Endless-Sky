@@ -1,0 +1,94 @@
+fleet "Ceesoa Guard"
+	government "Ceesoa"
+	names "Ceesoa Military names"
+	personality
+		heroic
+		confusion 14
+	variant 7
+		"Odooaq" 3
+		"Idieyypee" 0
+		"Oav mco" 4
+		"Yovgarabb" 3
+	variant 2
+		"Oav mco" 4
+		"Idieyypee" 0
+		"Jloduu" 3
+		"Odooaq" 4
+	variant 2
+		"Ayeuie" 3
+		"Idieyypee" 0
+		"Oav mco" 2
+		"Jloduu" 2
+	variant 18
+		"Ayeuie" 2
+		"Idieyypee" 0
+		"Yovgarabb" 3
+		"Jloduu" 2
+	variant 6
+		"Yovgarabb" 2
+		"Idieyypee" 0
+		"Oav mco" 4
+		"Cacuoygoz" 4
+	variant 10
+		"Oav mco" 4
+		"Idieyypee" 0
+		"Ayeuie" 2
+		"Yovgarabb" 3
+fleet "Ceesoa Privateer"
+	government "Ceesoa"
+	names "Ceesoa names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Uarzauuai" 2
+		"Odooaq" 4
+		"Ayeuie" 2
+	variant 16
+		"Yovgarabb" 4
+		"Uiqoia" 2
+		"Cacuoygoz" 4
+	variant 20
+		"Cacuoygoz" 4
+		"Idieyypee" 3
+		"Oav mco" 3
+	variant 27
+		"Ayeuie" 2
+		"Uiqoia" 2
+		"Uarzauuai" 1
+	variant 60
+		"Uarzauuai" 2
+		"Cacuoygoz" 1
+		"Uarzauuai" 2
+	variant 15
+		"Uarzauuai" 1
+		"Odooaq" 3
+		"Uarzauuai" 4
+	variant 24
+		"Dloasr buu" 2
+		"Uarzauuai" 3
+		"Idieyypee" 4
+	variant 98
+		"Dloasr buu" 3
+		"Yovgarabb" 4
+		"Ayeuie" 3
+fleet "Ceesoa Miner"
+	government "Ceesoa"
+	names "Ceesoa names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 29
+	variant 9
+		"Jloduu" 4
+		"Idieyypee" 0
+	variant 9
+		"Jloduu" 2
+		"Idieyypee" 0
+	variant 16
+		"Yovgarabb" 2
+		"Idieyypee" 0
+	variant 11
+		"Yovgarabb" 2
+		"Idieyypee" 0

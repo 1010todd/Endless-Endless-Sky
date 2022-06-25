@@ -1,0 +1,108 @@
+fleet "Exxugm Patrol"
+	government "Exxugm"
+	names "Exxugm Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 21
+	variant 6
+		"Ouikee" 2
+		"Eri doehed" 2
+		"Geyyea ode" 2
+	variant 15
+		"Leklio" 3
+		"Uxu uleyio" 2
+		"Eri doehed" 3
+		"Ouikee" 2
+	variant 8
+		"Geyyea ode" 2
+		"Ouikee" 3
+		"Uxu uleyio" 2
+	variant 18
+		"Eri doehed" 3
+		"Uxu uleyio" 2
+		"Leklio" 2
+		"Uxe pdo" 3
+	variant 16
+		"Uxe pdo" 3
+		"Geyyea ode" 3
+		"Leklio" 2
+	variant 11
+		"Leklio" 3
+		"Eeu dih" 2
+		"Iooguemir" 2
+	variant 6
+		"Iooguemir" 3
+		"Uxe pdo" 3
+		"Eri doehed" 2
+	variant 7
+		"Eri doehed" 3
+		"Geyyea ode" 3
+		"Iooguemir" 2
+		"Ouikee" 2
+	variant 17
+		"Eliegw" 2
+		"Leklio" 2
+		"Geyyea ode" 2
+	variant 11
+		"Uxe pdo" 2
+		"Eeu dih" 2
+		"Eliegw" 3
+	variant 10
+		"Iooguemir" 2
+		"Geyyea ode" 2
+		"Uxe pdo" 3
+fleet "Exxugm Privateer"
+	government "Exxugm"
+	names "Exxugm names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Eeu dih" 4
+		"Uxu uleyio" 1
+		"Eeu dih" 3
+	variant 14
+		"Leklio" 1
+		"Uxu uleyio" 4
+		"Uxu uleyio" 3
+	variant 32
+		"Uxe pdo" 4
+		"Leklio" 3
+		"Eliegw" 2
+	variant 30
+		"Uxe pdo" 2
+		"Uxe pdo" 1
+		"Uxe pdo" 1
+	variant 56
+		"Iooguemir" 3
+		"Iooguemir" 2
+		"Uxu uleyio" 4
+	variant 95
+		"Uxe pdo" 3
+		"Eliegw" 1
+		"Eeu dih" 4
+	variant 18
+		"Iooguemir" 1
+		"Eeu dih" 3
+		"Uxu uleyio" 3
+	variant 77
+		"Eri doehed" 2
+		"Eri doehed" 2
+		"Uxu uleyio" 4
+	variant 88
+		"Ouikee" 4
+		"Eri doehed" 2
+		"Geyyea ode" 1
+fleet "Exxugm Miner"
+	government "Exxugm"
+	names "Exxugm names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 2
+	variant 11
+	variant 9
+	variant 19

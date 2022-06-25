@@ -1,0 +1,292 @@
+ship "Xdiaos"
+	sprite "ship/Efdfui/Xdiaos"
+	attributes 
+		category "Medium Warship"
+		"cost" 465899000
+		"shields" 2332300
+		"hull" 3435100
+		"required crew" 18
+		"bunks" 45
+		"mass" 377.8
+		"drag" 7.55
+		"heat dissipation" 0.83
+		"fuel capacity" 2500
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 160
+		"engine capacity" 160
+		weapon 
+			"blast radius" 11067
+			"shield damage" 110670
+			"hull damage" 55340
+			"hit force" 77470
+	outfits 
+		"Vpu Blaster" 1
+		"Hih Basilisk" 1
+		"Foo Assault Ballista" 1
+		"Aor Generator" 1
+		"Uzigir Thruster" 1
+		"Uzigir Steering" 1
+		"Hyperdrive"
+	engine 50.5 74.5
+	engine 44.0 93.0
+	gun 46.0 62.5
+	gun 55.0 43.0
+	gun 48.5 49.5
+	turret 54.0 46.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Efdfui T5.2 ship"
+
+ship "Uobeae"
+	sprite "ship/Efdfui/Uobeae"
+	attributes 
+		category "Heavy Warship"
+		"cost" 2663374000
+		"shields" 6001800
+		"hull" 8839600
+		"required crew" 41
+		"bunks" 68
+		"mass" 645.2
+		"drag" 12.34
+		"heat dissipation" 0.77
+		"fuel capacity" 1300
+		"cargo space" 80
+		"outfit space" 950
+		"weapon capacity" 370
+		"engine capacity" 290
+		weapon 
+			"blast radius" 28478
+			"shield damage" 284790
+			"hull damage" 142400
+			"hit force" 199350
+	outfits 
+		"Vpu Blaster" 1
+		"Vpu Blaster Turret" 1
+		"Hih Basilisk" 1
+		"Hih Basilisk Turret" 1
+		"Ifu Laser" 1
+		"Giu Cell" 1
+		"Aio Capacitor" 1
+		"Ouu Shield Rejuvenator" 1
+		"Xaxsau Thruster" 1
+		"Xaxsau Steering" 1
+		"Hyperdrive"
+	engine 100.0 105.0
+	engine 99.0 105.0
+	engine 81.0 86.5
+	gun 97.5 92.5
+	gun 90.5 64.5
+	gun 84.0 55.5
+	gun 84.0 62.0
+	turret 90.5 90.0
+	turret 89.0 50.0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Efdfui T5.2 ship"
+
+ship "Inu imehuu"
+	sprite "ship/Efdfui/Inu imehuu"
+	attributes 
+		category "Heavy Warship"
+		"cost" 5929844000
+		"shields" 8601300
+		"hull" 12668100
+		"required crew" 32
+		"bunks" 53
+		"mass" 804.8
+		"drag" 17.03
+		"heat dissipation" 0.54
+		"fuel capacity" 3000
+		"cargo space" 100
+		"outfit space" 1150
+		"weapon capacity" 390
+		"engine capacity" 380
+		weapon 
+			"blast radius" 40813
+			"shield damage" 408130
+			"hull damage" 204070
+			"hit force" 285690
+	outfits 
+		"Vpu Blaster" 1
+		"Vpu Blaster Turret" 1
+		"Hih Basilisk" 1
+		"Hih Basilisk Turret" 1
+		"Ifu Laser" 1
+		"Ifu Laser Turret" 1
+		"Giu Cell" 1
+		"Aio Capacitor" 1
+		"Ouu Shield Rejuvenator" 1
+		"Xaxsau Thruster" 1
+		"Xaxsau Steering" 1
+		"Hyperdrive"
+	engine 110.0 91.0
+	engine 98.5 96.0
+	engine 121.0 142.0
+	engine 107.0 116.0
+	gun 122.0 74.5
+	gun 87.0 114.5
+	gun 108.0 65.5
+	gun 90.0 103.5
+	gun 103.5 76.0
+	turret 112.5 53.5
+	turret 92.5 72.5
+	turret 93.0 64.5
+	turret 91.0 81.5
+	turret 108.5 82.5
+	turret 99.5 71.5
+	turret 103.0 127.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Efdfui T5.2 ship"
+
+ship "Dauoguwde"
+	sprite "ship/Efdfui/Dauoguwde"
+	attributes 
+		category "Interceptor"
+		"cost" 75532000
+		"shields" 242100
+		"hull" 356600
+		"required crew" 2
+		"bunks" 5
+		"mass" 49.8
+		"drag" 1.0
+		"heat dissipation" 0.65
+		"fuel capacity" 1000
+		"cargo space" 10
+		"outfit space" 82
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 1149
+			"shield damage" 11490
+			"hull damage" 5750
+			"hit force" 8050
+	outfits 
+		"Ifu Laser" 2
+		"Aor Generator" 1
+		"Aio Capacitor" 1
+		"Jaoeou Heatsink" 1
+		"Hyperdrive"
+	engine 28.5 38.0
+	gun 28.5 26.5
+	gun 25.5 22.5
+	gun 27.5 17.5
+	gun 31.0 15.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Efdfui T5.2 ship"
+
+ship "Zeudao"
+	sprite "ship/Efdfui/Zeudao"
+	attributes 
+		category "Light Freighter"
+		"cost" 196698000
+		"shields" 363900
+		"hull" 535900
+		"required crew" 8
+		"bunks" 25
+		"mass" 312.0
+		"drag" 6.35
+		"heat dissipation" 0.67
+		"fuel capacity" 2300
+		"cargo space" 95
+		"outfit space" 630
+		"weapon capacity" 210
+		"engine capacity" 210
+		weapon 
+			"blast radius" 1727
+			"shield damage" 17270
+			"hull damage" 8640
+			"hit force" 12090
+	outfits 
+		"Vpu Blaster" 1
+		"Vpu Blaster Turret" 1
+		"Ifu Laser" 1
+		"Giu Cell" 1
+		"Aio Capacitor" 1
+		"Ouu Shield Rejuvenator" 1
+		"Xaxsau Thruster" 1
+		"Xaxsau Steering" 1
+		"Hyperdrive"
+	engine 32.5 65.0
+	engine 49.5 60.5
+	gun 47.0 23.5
+	gun 34.0 37.5
+	gun 44.0 23.0
+	turret 38.0 39.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Efdfui T5.2 ship"
+
+ship "Oxnpxuisu"
+	sprite "ship/Efdfui/Oxnpxuisu"
+	attributes 
+		category "Medium Warship"
+		"cost" 1268011000
+		"shields" 3051900
+		"hull" 4494900
+		"required crew" 8
+		"bunks" 20
+		"mass" 348.6
+		"drag" 6.75
+		"heat dissipation" 0.64
+		"fuel capacity" 4100
+		"cargo space" 45
+		"outfit space" 400
+		"weapon capacity" 140
+		"engine capacity" 120
+		weapon 
+			"blast radius" 14481
+			"shield damage" 144820
+			"hull damage" 72410
+			"hit force" 101370
+	outfits 
+		"Vpu Blaster" 1
+		"Hih Basilisk" 1
+		"Lli Machine Howizer" 1
+		"Uzigir Thruster" 1
+		"Uzigir Steering" 1
+		"Jaoeou Heatsink" 3
+		"Hyperdrive"
+	engine 31.5 73.0
+	gun 58.5 55.5
+	gun 64.0 76.5
+	gun 59.0 59.5
+	turret 47.5 54.5
+	turret 51.0 69.0
+	turret 59.5 64.0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Efdfui T5.2 ship"
+

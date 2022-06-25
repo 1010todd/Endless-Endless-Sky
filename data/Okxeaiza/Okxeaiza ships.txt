@@ -1,0 +1,267 @@
+ship "Oeiqmhoiyiux"
+	sprite "ship/Okxeaiza/Oeiqmhoiyiux"
+	attributes 
+		category "Heavy Warship"
+		"cost" 1012387000
+		"shields" 1959600
+		"hull" 1837200
+		"required crew" 9
+		"bunks" 44
+		"mass" 480.4
+		"drag" 9.5
+		"heat dissipation" 0.72
+		"fuel capacity" 2500
+		"cargo space" 60
+		"outfit space" 567
+		"weapon capacity" 242
+		"engine capacity" 160
+		weapon 
+			"blast radius" 8691
+			"shield damage" 86920
+			"hull damage" 43460
+			"hit force" 60840
+	outfits 
+		"Oyue Lance" 1
+		"Obsu Auto Mortar" 1
+		"Obsu Auto Mortar Turret" 1
+		"Iiku Anti-Missile" 1
+		"Qioc Rapid Mortar" 2
+		"Qioc Rapid Mortar Turret" 1
+		"Roaolauc Cell" 2
+		"Fcor Battery" 1
+		"Ogar Thruster" 1
+		"Ogar Steering" 1
+		"Aqudduda Shield Regenerator" 1
+		"Hyperdrive"
+	engine 77.0 53.5
+	engine 40.5 53.5
+	gun 61.5 107.0
+	gun 76.5 50.0
+	gun 45.0 50.0
+	gun 71.0 79.0
+	gun 50.5 79.0
+	turret 61.5 64.0
+	turret 76.0 65.0
+	turret 43.5 65.0
+	turret 86.0 43.0
+	turret 33.5 43.0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Okxeaiza T4.4 ship"
+
+ship "Oyibimec"
+	sprite "ship/Okxeaiza/Oyibimec"
+	attributes 
+		category "Transport"
+		"cost" 129469000
+		"shields" 485900
+		"hull" 455600
+		"required crew" 11
+		"bunks" 54
+		"mass" 233.6
+		"drag" 5.14
+		"heat dissipation" 0.85
+		"fuel capacity" 1900
+		"cargo space" 30
+		"outfit space" 273
+		"weapon capacity" 99
+		"engine capacity" 70
+		weapon 
+			"blast radius" 2155
+			"shield damage" 21560
+			"hull damage" 10780
+			"hit force" 15090
+	outfits 
+		"Oyue Lance" 1
+		"Qioc Rapid Mortar" 1
+		"Roaolauc Cell" 1
+		"Fcor Battery" 1
+		"Iftd Thruster" 1
+		"Iftd Steering" 1
+		"Hyperdrive"
+	engine 56.0 46.0
+	gun 33.5 86.5
+	gun 77.0 86.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Okxeaiza T4.4 ship"
+
+ship "Iqac recr"
+	sprite "ship/Okxeaiza/Iqac recr"
+	attributes 
+		category "Heavy Warship"
+		"cost" 978768000
+		"shields" 1882900
+		"hull" 1765300
+		"required crew" 39
+		"bunks" 97
+		"mass" 926.4
+		"drag" 16.53
+		"heat dissipation" 0.59
+		"fuel capacity" 1700
+		"cargo space" 115
+		"outfit space" 1228
+		"weapon capacity" 473
+		"engine capacity" 370
+		weapon 
+			"blast radius" 8351
+			"shield damage" 83520
+			"hull damage" 41760
+			"hit force" 58460
+	outfits 
+		"Oyue Lance" 2
+		"Obsu Auto Mortar" 3
+		"Obsu Auto Mortar Turret" 2
+		"Iiku Anti-Missile" 1
+		"Qioc Rapid Mortar" 2
+		"Qioc Rapid Mortar Turret" 2
+		"Roaolauc Cell" 2
+		"Fcor Battery" 1
+		"Ogar Thruster" 1
+		"Ogar Steering" 1
+		"Aqudduda Shield Regenerator" 1
+		"Hyperdrive"
+	engine 81.5 80.5
+	engine 20.0 80.5
+	engine 80.0 79.5
+	engine 21.5 79.5
+	gun 57.5 54.0
+	gun 77.0 59.5
+	gun 36.5 59.5
+	gun 65.5 52.5
+	gun 48.0 52.5
+	gun 68.5 53.5
+	gun 45.0 53.5
+	turret 27.5 63.5
+	turret 75.5 59.0
+	turret 35.5 59.0
+	turret 73.5 55.0
+	turret 37.5 55.0
+	turret 70.0 49.5
+	turret 41.0 49.5
+	turret 83.5 63.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Okxeaiza T4.4 ship"
+
+ship "Ayjixrot ezde"
+	sprite "ship/Okxeaiza/Ayjixrot ezde"
+	attributes 
+		category "Heavy Warship"
+		"cost" 416089000
+		"shields" 1706200
+		"hull" 1599600
+		"required crew" 50
+		"bunks" 62
+		"mass" 493.6
+		"drag" 10.2
+		"heat dissipation" 0.72
+		"fuel capacity" 1200
+		"cargo space" 60
+		"outfit space" 620
+		"weapon capacity" 198
+		"engine capacity" 160
+		weapon 
+			"blast radius" 7567
+			"shield damage" 75680
+			"hull damage" 37840
+			"hit force" 52980
+	outfits 
+		"Oyue Lance" 1
+		"Obsu Auto Mortar" 1
+		"Obsu Auto Mortar Turret" 1
+		"Iiku Anti-Missile" 1
+		"Qioc Rapid Mortar" 1
+		"Roaolauc Cell" 2
+		"Fcor Battery" 1
+		"Ogar Thruster" 1
+		"Ogar Steering" 1
+		"Aqudduda Shield Regenerator" 1
+		"Hyperdrive"
+	engine 93.5 83.5
+	engine 42.0 83.5
+	gun 58.0 87.0
+	gun 90.0 63.5
+	gun 57.5 63.5
+	gun 84.0 63.0
+	gun 63.5 63.0
+	gun 81.5 109.0
+	gun 66.0 109.0
+	gun 89.5 87.0
+	turret 74.5 93.0
+	turret 99.0 65.0
+	turret 46.5 65.0
+	turret 81.0 80.5
+	turret 64.5 80.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Okxeaiza T4.4 ship"
+
+ship "Ocxiroardoci"
+	sprite "ship/Okxeaiza/Ocxiroardoci"
+	attributes 
+		category "Drone"
+		"cost" 48659000
+		"shields" 138900
+		"hull" 130200
+		"required crew" 4
+		"bunks" 7
+		"mass" 64.0
+		"drag" 1.25
+		"heat dissipation" 0.8600000000000001
+		"fuel capacity" 1200
+		"cargo space" 10
+		"outfit space" 136
+		"weapon capacity" 55
+		"engine capacity" 40
+		weapon 
+			"blast radius" 616
+			"shield damage" 6170
+			"hull damage" 3090
+			"hit force" 4320
+	outfits 
+		"Obsu Auto Mortar" 1
+		"Iiku Anti-Missile" 1
+		"Fcor Battery" 1
+		"Eyou Thruster" 1
+		"Eyou Steering" 1
+	engine 21.0 11.5
+	gun 14.0 13.0
+	gun 31.5 8.5
+	gun 9.0 8.5
+	gun 26.5 13.0
+	turret 21.0 24.0
+	leak "leak" 0
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Okxeaiza T4.4 ship"
+

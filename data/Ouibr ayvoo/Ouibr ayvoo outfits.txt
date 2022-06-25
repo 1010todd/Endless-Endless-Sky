@@ -1,0 +1,279 @@
+outfit "Eaeri Battery"
+	category "Power"
+	cost 321700
+	thumbnail "outfit/tiny battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 3850
+	description "Ouibr ayvoo T4.6 Battery"
+
+outfit "Vuiee Battery"
+	category "Power"
+	cost 579100
+	thumbnail "outfit/tiny battery"
+	"mass" 13
+	"outfit space" -13
+	"energy capacity" 19250
+	description "Ouibr ayvoo T4.6 Battery"
+
+
+outfit "Eolaikeati Reactor"
+	category "Power"
+	cost 311500
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 5.3
+	"heat generation" 8.9
+	description "Ouibr ayvoo T4.6 Power generator"
+
+
+outfit "Aanxa batqi Thruster"
+	category "Engines"
+	cost 2069500
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 5.7
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.0117404067421634
+	"flare sound" "ka'het small"
+	description "Ouibr ayvoo T4.6 Thruster"
+
+outfit "Aanxa batqi Steering"
+	category "Engines"
+	cost 1850639
+	thumbnail "outfit/small ka'het steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 145
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Ouibr ayvoo T4.6 steering"
+
+outfit "Iaalb Thruster"
+	category "Engines"
+	cost 3518200
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 14.8
+	"thrusting energy" 0.4
+	"thrusting heat" 0.7
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Ouibr ayvoo T4.6 Thruster"
+
+outfit "Iaalb Steering"
+	category "Engines"
+	cost 5981000
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 377.0
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Ouibr ayvoo T4.6 steering"
+
+outfit "Ofbeicanye Thruster"
+	category "Engines"
+	cost 5981000
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 38.5
+	"thrusting energy" 0.9
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Ouibr ayvoo T4.6 Thruster"
+
+outfit "Ofbeicanye Steering"
+	category "Engines"
+	cost 10167700
+	thumbnail "outfit/large ka'het steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 980.2
+	"turning energy" 0.9
+	"turning heat" 1.5
+	description "Ouibr ayvoo T4.6 steering"
+
+outfit "Orran Thruster"
+	category "Engines"
+	cost 10167700
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 46
+	"outfit space" -46
+	"engine capacity" -46
+	"thrust" 100.1
+	"thrusting energy" 2.0
+	"thrusting heat" 3.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Ouibr ayvoo T4.6 Thruster"
+
+outfit "Orran Steering"
+	category "Engines"
+	cost 17285100
+	thumbnail "outfit/large ka'het steering"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"turn" 2548.5
+	"turning energy" 2.0
+	"turning heat" 3.3
+	description "Ouibr ayvoo T4.6 steering"
+
+
+outfit "Eiibo aeaca Shielding"
+	category "Systems"
+	cost 3544500
+	thumbnail "outfit/tiny shield"
+	"mass" 5
+	"outfit space" -5
+	"shield generation" 527.735
+	"shield delay" 73
+	"shield energy" 4.74
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Inxyeeomeg Shielding"
+	category "Systems"
+	cost 6380100
+	thumbnail "outfit/small shield"
+	"mass" 8
+	"outfit space" -8
+	"shield generation" 1055.5
+	"shield delay" 81.42786159058024
+	"shield energy" 3.8
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Joalz cnofa Shielding"
+	category "Systems"
+	cost 11484200
+	thumbnail "outfit/medium shield"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" 2111.0
+	"shield delay" 90.8287211399273
+	"shield energy" 3.0
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Obfua Shielding"
+	category "Systems"
+	cost 20671600
+	thumbnail "outfit/large shield"
+	"mass" 18
+	"outfit space" -18
+	"shield generation" 4222.0
+	"shield delay" 101.31491141686863
+	"shield energy" 2.4
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Ohaeurfaea Shielding"
+	category "Systems"
+	cost 37208900
+	thumbnail "outfit/huge shield"
+	"mass" 27
+	"outfit space" -27
+	"shield generation" 8444.0
+	"shield delay" 113.01173402622844
+	"shield energy" 1.9
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Vbafu Shielding"
+	category "Systems"
+	cost 66976100
+	thumbnail "outfit/huge shield"
+	"mass" 40
+	"outfit space" -40
+	"shield generation" 16888.0
+	"shield delay" 126.0589566630027
+	"shield energy" 1.5
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Weetooxbie Shielding"
+	category "Systems"
+	cost 120557000
+	thumbnail "outfit/huge shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 33776.0
+	"shield delay" 140.61248322476627
+	"shield energy" 1.2
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+outfit "Zooos Shielding"
+	category "Systems"
+	cost 217002600
+	thumbnail "outfit/huge shield"
+	"mass" 90
+	"outfit space" -90
+	"shield generation" 67552.0
+	"shield delay" 156.84621673882265
+	"shield energy" 1.0
+	"shield heat" 8
+	description "Ouibr ayvoo T4.6 shield gen"
+
+
+outfit "Avvuozaano Hull Reconstructor"
+	category "Systems"
+	cost 845600
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"hull repair rate" 2.27
+	"hull energy" 2.68
+	"hull heat" 5
+	description "Ouibr ayvoo T4.6 Hull Repair"
+
+outfit "Obhueaocuu Hull Reconstructor"
+	category "Systems"
+	cost 1522100
+	thumbnail "outfit/small shield"
+	"mass" 16
+	"outfit space" -16
+	"hull repair rate" 4.5
+	"hull energy" 2.1
+	"hull heat" 5
+	description "Ouibr ayvoo T4.6 Hull Repair"
+
+
+outfit "Ooiwr Cooling"
+	category "Systems"
+	cost 15800
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 19
+	description "Ouibr ayvoo T4.6 Cooling"
+
+
+outfit "Orhio Heat Shunt"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 1
+	"outfit space" -1
+	"active cooling" 5
+	description "Ouibr ayvoo T4.6 Cooling"
+
+

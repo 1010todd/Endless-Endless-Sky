@@ -1,0 +1,86 @@
+fleet "Uoeaaeta Defense"
+	government "Uoeaaeta"
+	names "Uoeaaeta Military names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 15
+	variant 19
+		"Dxualeorvcoo" 3
+		"Peeiwaze" 0
+		"Laidimxa" 3
+		"Bepuydid" 4
+	variant 15
+		"Aoreloeoacqr" 3
+		"Peeiwaze" 6
+		"Bepuydid" 5
+		"Dxualeorvcoo" 2
+	variant 10
+		"Veuaarauoams" 4
+		"Peeiwaze" 0
+		"Bepuydid" 4
+		"Laidimxa" 4
+fleet "Uoeaaeta Merchant"
+	government "Uoeaaeta"
+	names "Uoeaaeta names"
+	personality
+		timid
+		disables
+		confusion 21
+	variant 0
+		"Isimebdubiuk" 3
+		"Laidimxa" 4
+		"Omhazhuu" 3
+	variant 18
+		"Aoreloeoacqr" 1
+		"Peeiwaze" 3
+		"Isimebdubiuk" 2
+	variant 36
+		"Peeiwaze" 2
+		"Laidimxa" 3
+		"Dxualeorvcoo" 3
+	variant 33
+		"Bepuydid" 2
+		"Veuaarauoams" 2
+		"Aoreloeoacqr" 3
+	variant 64
+		"Dxualeorvcoo" 3
+		"Peeiwaze" 3
+		"Veuaarauoams" 1
+	variant 60
+		"Veuaarauoams" 2
+		"Laidimxa" 1
+		"Omhazhuu" 1
+	variant 24
+		"Aoreloeoacqr" 1
+		"Bepuydid" 1
+		"Laidimxa" 1
+	variant 84
+		"Veuaarauoams" 1
+		"Peeiwaze" 1
+		"Peeiwaze" 1
+	variant 128
+		"Laidimxa" 1
+		"Veuaarauoams" 3
+		"Isimebdubiuk" 1
+fleet "Uoeaaeta Miner"
+	government "Uoeaaeta"
+	names "Uoeaaeta names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 5
+		"Aoreloeoacqr" 2
+		"Peeiwaze" 0
+	variant 12
+		"Aoreloeoacqr" 4
+		"Peeiwaze" 0
+	variant 4
+		"Aoreloeoacqr" 3
+		"Peeiwaze" 0
+	variant 18
+		"Aoreloeoacqr" 2
+		"Peeiwaze" 0

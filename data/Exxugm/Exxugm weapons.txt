@@ -1,0 +1,21 @@
+outfit "Pci Anti-Missile"
+	category "Turrets"
+	cost 744027217400
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 55.2
+		"velocity" 810
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 30.2
+		"firing heat" 13.8
+	description "Exxugm T4.4 Anti-missile"
+

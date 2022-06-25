@@ -1,0 +1,17 @@
+government "Kohjgo"
+	"display name" "Kohjgo"
+	"swizzle" 16
+	"color" 0.756 0.355 0.157 0.678
+	"player reputation" 1
+	"crew attack" 6.2
+	"crew defense" 18.1
+	"attitude toward"
+		"Ege aoe" 0
+		"Uoeaaeta" 1
+		"Ouibr ayvoo" 1
+		"Okxeaiza" -1
+		"Ceesoa" 0
+		"Exxugm" 0
+		"Quckri" 1
+		"Qublo gzaei" 0
+		"Efdfui" -1

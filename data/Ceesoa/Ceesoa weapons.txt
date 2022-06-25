@@ -1,0 +1,141 @@
+outfit "Aol Anti-Missile"
+	category "Turrets"
+	cost 121800
+	thumbnail "outfit/anti-missile"
+	"mass" 29
+	"outfit space" -29
+	"weapon capacity" -29
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 8.6
+		"velocity" 330
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 2.3
+		"firing heat" 37.3
+	description "Ceesoa T1.8 Anti-missile"
+
+outfit "Irv Assault Mortar"
+	category "Guns"
+	cost 251100
+	thumbnail "outfit/inhibitor"
+	"mass" 47
+	"outfit space" -47
+	"weapon capacity" -47
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"velocity" 21
+		"lifetime" 14
+		"reload" 7
+		"firing energy" 32.3
+		"firing heat" 18.0
+		"shield damage" 37.1
+		"hull damage" 52.8
+	description "Ceesoa T1.8 Projectile weapon"
+
+outfit "Irv Assault Mortar Turret"
+	category "Turrets"
+	cost 1133927.0411319078
+	thumbnail "outfit/inhibitor turret"
+	"mass" 122
+	"outfit space" -122
+	"weapon capacity" -122
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/mod blaster"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "proton"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.4
+		"turret turn" 0.8
+		"velocity" 21
+		"lifetime" 14
+		"reload" 2
+		"firing energy" 32.3
+		"firing heat" 18.0
+		"shield damage" 37.1
+		"hull damage" 52.8
+	description "Ceesoa T1.8 Projectile weapon 3gun Turret"
+
+outfit "Aus Anti-Missile"
+	category "Turrets"
+	cost 325100
+	thumbnail "outfit/pug anti-missile"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 12.6
+		"velocity" 380
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 6.8
+		"firing heat" 9.7
+	description "Ceesoa T1.8 Anti-missile"
+
+outfit "Ayo Missile"
+	category "Ammunition"
+	cost 35720
+	thumbnail "outfit/typhoon"
+	"mass" 0.04
+	"Ayo Missile capacity" -1
+	description "Ceesoa Missile"
+
+outfit "Ayo Missile Storage
+	category "Ammunition"
+	cost 323322
+	thumbnail "outfit/typhoon storage"
+	"mass" 2
+	"outfit space" -1
+	"Ayo Missile capacity" 25
+	ammo "Ayo Missile"
+	description "Ayo Missile Storage"
+
+outfit "Ayo Missile Catapult"
+	category "Secondary Weapons"
+	cost 147400
+	thumbnail "outfit/typhoon launcher"
+	"mass" 2
+	"outfit space" -78
+	"weapon capacity" -78
+	"gun ports" -1
+	"Ayo Missile capacity" 25
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Ayo Missile"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.5
+		"velocity" 43
+		"lifetime" 600
+		"reload" 7
+		"firing energy" 46.9
+		"firing heat" 4.5
+		"acceleration" 2.1
+		"drag" 0.2
+		"turn" 4.7
+		"homing" 2
+		"optical tracking" 0.36
+		"shield damage" 50.5
+		"hull damage" 144.5
+		"missile strength" 56.4
+	description "Ceesoa T1.8 Missile weapon"
+

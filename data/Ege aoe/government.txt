@@ -1,0 +1,17 @@
+government "Ege aoe"
+	"display name" "Ege aoe"
+	"swizzle" 15
+	"color" 0.476 0.083 0.842 0.402
+	"player reputation" 0
+	"crew attack" 6.2
+	"crew defense" 18.1
+	"attitude toward"
+		"Uoeaaeta" 1
+		"Ouibr ayvoo" 0
+		"Okxeaiza" -1
+		"Ceesoa" -1
+		"Exxugm" -1
+		"Quckri" -1
+		"Kohjgo" 0
+		"Qublo gzaei" 0
+		"Efdfui" -1

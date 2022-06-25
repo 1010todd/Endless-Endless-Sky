@@ -1,0 +1,110 @@
+fleet "Qublo gzaei Patrol"
+	government "Qublo gzaei"
+	names "Qublo gzaei Military names"
+	personality
+		heroic
+		disables
+		confusion 10
+	variant 18
+		"Gauzg eysul" 4
+		"Ksoep aieyo" 2
+		"Uommi sooui" 3
+		"Ezija auiro lakel" 4
+		"Dloah lokxi" 2
+	variant 4
+		"Gauzg eysul" 3
+		"Hbuie fquzi" 3
+		"Ezija auiro lakel" 3
+		"Odavu uinio ugbai" 3
+	variant 7
+		"Gauzg eysul" 4
+		"Ksoep aieyo" 5
+		"Hbuie fquzi" 4
+		"Ezija auiro lakel" 5
+		"Dloah lokxi" 4
+	variant 15
+		"Gauzg eysul" 3
+		"Uommi sooui" 3
+		"Ezija auiro lakel" 4
+		"Odavu uinio ugbai" 4
+	variant 14
+		"Gauzg eysul" 4
+		"Hbuie fquzi" 4
+		"Dloah lokxi" 4
+fleet "Qublo gzaei Civilian"
+	government "Qublo gzaei"
+	names "Qublo gzaei names"
+	personality
+		timid
+		disables
+		confusion 21
+	variant 0
+		"Uommi sooui" 3
+		"Gauzg eysul" 4
+		"Dloah lokxi" 2
+	variant 6
+		"Odavu uinio ugbai" 2
+		"Gauzg eysul" 2
+		"Hbuie fquzi" 1
+	variant 6
+		"Ksoep aieyo" 1
+		"Ksoep aieyo" 2
+		"Dloah lokxi" 4
+	variant 24
+		"Ksoep aieyo" 1
+		"Ksoep aieyo" 4
+		"Hbuie fquzi" 1
+	variant 52
+		"Ksoep aieyo" 3
+		"Uommi sooui" 2
+		"Gauzg eysul" 1
+	variant 15
+		"Ksoep aieyo" 2
+		"Dloah lokxi" 4
+		"Dloah lokxi" 2
+	variant 84
+		"Hbuie fquzi" 4
+		"Ezija auiro lakel" 2
+		"Odavu uinio ugbai" 1
+	variant 28
+		"Hbuie fquzi" 4
+		"Hbuie fquzi" 4
+		"Odavu uinio ugbai" 1
+	variant 32
+		"Uommi sooui" 1
+		"Ezija auiro lakel" 3
+		"Odavu uinio ugbai" 4
+	variant 63
+		"Gauzg eysul" 3
+		"Ezija auiro lakel" 3
+		"Odavu uinio ugbai" 3
+	variant 140
+		"Dloah lokxi" 3
+		"Odavu uinio ugbai" 4
+		"Hbuie fquzi" 4
+fleet "Qublo gzaei Miner"
+	government "Qublo gzaei"
+	names "Qublo gzaei names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 12
+		"Ezija auiro lakel" 3
+		"Hbuie fquzi" 3
+	variant 14
+		"Hbuie fquzi" 3
+		"Gauzg eysul" 2
+	variant 8
+		"Hbuie fquzi" 4
+		"Ezija auiro lakel" 3
+	variant 9
+		"Ezija auiro lakel" 2
+		"Gauzg eysul" 4
+	variant 3
+		"Gauzg eysul" 3
+		"Dloah lokxi" 3
+	variant 13
+		"Ezija auiro lakel" 3
+		"Hbuie fquzi" 4

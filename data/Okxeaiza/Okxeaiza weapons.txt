@@ -1,0 +1,139 @@
+outfit "Oyue Lance"
+	category "Guns"
+	cost 152878431800
+	thumbnail "outfit/slicer"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "zapper"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 1.0
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.4
+		"firing heat" 6.5
+		"shield damage" 22.4
+		"hull damage" 33.0
+		"heat damage" 24.8
+		"fuel damage" 24.8
+		"ion damage" 24.8
+	description "Okxeaiza T4.4 Beam weapon"
+
+outfit "Obsu Auto Mortar"
+	category "Guns"
+	cost 4125008497900
+	thumbnail "outfit/ion rain gun"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/detainer"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.7
+		"velocity" 18
+		"lifetime" 9
+		"reload" 3
+		"firing energy" 2.3
+		"firing heat" 1.1
+		"shield damage" 10.0
+		"hull damage" 49.8
+	description "Okxeaiza T4.4 Projectile weapon"
+
+outfit "Obsu Auto Mortar Turret"
+	category "Turrets"
+	cost 11834731262057.36
+	thumbnail "outfit/ion rain turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/detainer"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "detainer"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0.7
+		"turret turn" 1.6
+		"velocity" 18
+		"lifetime" 9
+		"reload" 1
+		"firing energy" 2.3
+		"firing heat" 1.1
+		"shield damage" 10.0
+		"hull damage" 49.8
+	description "Okxeaiza T4.4 Projectile weapon 3gun Turret"
+
+outfit "Iiku Anti-Missile"
+	category "Turrets"
+	cost 518959844100
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "tiny explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 122.9
+		"velocity" 1310
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 3.9
+		"firing heat" 5.2
+	description "Okxeaiza T4.4 Anti-missile"
+
+outfit "Qioc Rapid Mortar"
+	category "Guns"
+	cost 837335693200
+	thumbnail "outfit/proton gun"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		sound "disruptor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.3
+		"velocity" 15
+		"lifetime" 11
+		"reload" 2
+		"firing energy" 4.9
+		"firing heat" 2.5
+		"shield damage" 14.5
+		"hull damage" 3.5
+	description "Okxeaiza T4.4 Projectile weapon"
+
+outfit "Qioc Rapid Mortar Turret"
+	category "Turrets"
+	cost 2729989275264.405
+	thumbnail "outfit/proton turret"
+	"mass" 37
+	"outfit space" -37
+	"weapon capacity" -37
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/ees projectile1"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "disruptor"
+		"hit effect" "blaster impact"
+		"inaccuracy" 2.3
+		"turret turn" 1.3
+		"velocity" 15
+		"lifetime" 11
+		"reload" 1
+		"firing energy" 4.9
+		"firing heat" 2.5
+		"shield damage" 14.5
+		"hull damage" 3.5
+	description "Okxeaiza T4.4 Projectile weapon 3gun Turret"
+

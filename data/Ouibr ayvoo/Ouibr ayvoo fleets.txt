@@ -1,0 +1,105 @@
+fleet "Ouibr ayvoo Guard"
+	government "Ouibr ayvoo"
+	names "Ouibr ayvoo Military names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 21
+	variant 2
+		"Vaqar noanm" 4
+		"Blogieseur" 3
+		"Houobonasa" 4
+		"Auushfoyho aelou" 2
+		"Rzasi ajoeo" 3
+		"Xnuab ezsou" 3
+		"Qiawx axxiu" 1
+		"Eavarxtual" 3
+	variant 7
+		"Xnuab ezsou" 2
+		"Auushfoyho aelou" 4
+		"Houobonasa" 3
+		"Qiawx axxiu" 4
+		"Blogieseur" 5
+		"Rzasi ajoeo" 3
+		"Vaqar noanm" 1
+		"Eavarxtual" 2
+	variant 12
+		"Auushfoyho aelou" 1
+		"Rzasi ajoeo" 1
+		"Blogieseur" 4
+		"Vaqar noanm" 4
+		"Xnuab ezsou" 2
+		"Qiawx axxiu" 2
+		"Houobonasa" 3
+		"Eavarxtual" 4
+fleet "Ouibr ayvoo Civilian"
+	government "Ouibr ayvoo"
+	names "Ouibr ayvoo names"
+	personality
+		timid
+		disables
+		confusion 20
+	variant 0
+		"Houobonasa" 3
+		"Houobonasa" 4
+		"Qiawx axxiu" 4
+	variant 11
+		"Houobonasa" 2
+		"Blogieseur" 4
+		"Houobonasa" 2
+	variant 30
+		"Xnuab ezsou" 2
+		"Vaqar noanm" 4
+		"Qiawx axxiu" 4
+	variant 18
+		"Qiawx axxiu" 2
+		"Eavarxtual" 3
+		"Blogieseur" 1
+	variant 44
+		"Vaqar noanm" 1
+		"Eavarxtual" 1
+		"Xnuab ezsou" 3
+	variant 40
+		"Rzasi ajoeo" 3
+		"Blogieseur" 2
+		"Houobonasa" 3
+	variant 48
+		"Vaqar noanm" 1
+		"Qiawx axxiu" 2
+		"Xnuab ezsou" 3
+	variant 119
+		"Houobonasa" 2
+		"Rzasi ajoeo" 4
+		"Auushfoyho aelou" 2
+	variant 152
+		"Blogieseur" 4
+		"Rzasi ajoeo" 1
+		"Qiawx axxiu" 2
+	variant 36
+		"Xnuab ezsou" 4
+		"Auushfoyho aelou" 3
+		"Vaqar noanm" 2
+fleet "Ouibr ayvoo Miner"
+	government "Ouibr ayvoo"
+	names "Ouibr ayvoo names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 12
+		"Rzasi ajoeo" 4
+		"Houobonasa" 2
+	variant 5
+		"Eavarxtual" 4
+		"Houobonasa" 4
+	variant 13
+		"Eavarxtual" 2
+		"Rzasi ajoeo" 2
+	variant 9
+		"Rzasi ajoeo" 2
+		"Houobonasa" 2
+	variant 8
+		"Eavarxtual" 4
+		"Houobonasa" 4

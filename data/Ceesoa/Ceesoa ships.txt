@@ -1,0 +1,457 @@
+ship "Uiqoia"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 5797000
+		"shields" 24500
+		"hull" 27500
+		"required crew" 102
+		"bunks" 170
+		"mass" 1051.8
+		"drag" 21.13
+		"heat dissipation" 0.51
+		"fuel capacity" 700
+		"cargo space" 505
+		"outfit space" 1312
+		"weapon capacity" 390
+		"engine capacity" 357
+		weapon 
+			"blast radius" 284
+			"shield damage" 2840
+			"hull damage" 1420
+			"hit force" 1990
+	outfits 
+		"Aeeoes Shielding" 1
+		"Uzehem Thruster" 1
+		"Uzehem Steering" 1
+		"Ido Cell" 5
+		"Meuogu Battery" 1
+		"Seiaos Cell" 3
+		"Yuo Cell" 3
+		"Iue Cooler" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ceesoa T1.8 ship"
+
+ship "Uarzauuai"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 2706000
+		"shields" 13500
+		"hull" 15200
+		"required crew" 5
+		"bunks" 36
+		"mass" 121.8
+		"drag" 2.51
+		"heat dissipation" 0.66
+		"fuel capacity" 700
+		"cargo space" 15
+		"outfit space" 136
+		"weapon capacity" 50
+		"engine capacity" 42
+		weapon 
+			"blast radius" 156
+			"shield damage" 1570
+			"hull damage" 790
+			"hit force" 1100
+	outfits 
+		"Aol Anti-Missile" 1
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Eii Cell" 2
+		"Hyperdrive"
+	engine 0 43.9
+	gun 1.8 -43.1
+	turret 4.8 -31.4
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Yovgarabb"
+	sprite "ship/indus1 in 2"
+	thumbnail "thumbnail/indus1 in 2"
+	attributes 
+		category "Interceptor"
+		"cost" 199000
+		"shields" 3200
+		"hull" 3500
+		"required crew" 6
+		"bunks" 13
+		"mass" 97.4
+		"drag" 2.1
+		"heat dissipation" 0.7999999999999999
+		"fuel capacity" 1400
+		"cargo space" 15
+		"outfit space" 200
+		"weapon capacity" 50
+		"engine capacity" 52
+		weapon 
+			"blast radius" 37
+			"shield damage" 370
+			"hull damage" 190
+			"hit force" 260
+	outfits 
+		"Irv Assault Mortar" 1
+		"Aeeoes Shielding" 1
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Eam Cell" 2
+		"Hyperdrive"
+	engine -17.0 35.0
+	engine 17.0 35.0
+	gun 26.0 -43.0
+	gun -4.0 -60.0
+	gun 4.0 -60.0
+	gun -26.0 -43.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 0
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Jloduu"
+	sprite "ship/indus1 in 3"
+	thumbnail "thumbnail/indus1 in 3"
+	attributes 
+		category "Interceptor"
+		"cost" 324000
+		"shields" 3200
+		"hull" 3600
+		"required crew" 2
+		"bunks" 6
+		"mass" 87.2
+		"drag" 1.71
+		"heat dissipation" 0.88
+		"fuel capacity" 900
+		"cargo space" 15
+		"outfit space" 126
+		"weapon capacity" 47
+		"engine capacity" 32
+		weapon 
+			"blast radius" 37
+			"shield damage" 380
+			"hull damage" 190
+			"hit force" 260
+	outfits 
+		"Irv Assault Mortar" 1
+		"Joobei Shielding" 1
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Iea iza Generator" 2
+		"Hyperdrive"
+	engine 0 66.3
+	gun -2.2 -68.1
+	gun 2.2 -68.1
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Ayeuie"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 524000
+		"shields" 3500
+		"hull" 4000
+		"required crew" 10
+		"bunks" 16
+		"mass" 336.4
+		"drag" 6.09
+		"heat dissipation" 0.64
+		"fuel capacity" 400
+		"cargo space" 105
+		"outfit space" 693
+		"weapon capacity" 220
+		"engine capacity" 231
+		weapon 
+			"blast radius" 41
+			"shield damage" 410
+			"hull damage" 210
+			"hit force" 290
+	outfits 
+		"Aol Anti-Missile" 1
+		"Irv Assault Mortar" 2
+		"Ayo Missile Catapult" 1
+		"Ayo Missile" 25
+		"Aeeoes Shielding" 1
+		"Ugasie Thruster" 1
+		"Ugasie Steering" 1
+		"Ido Cell" 2
+		"Meuogu Battery" 1
+		"Seiaos Cell" 1
+		"Yuo Cell" 1
+		"Eii Cell" 1
+		"Miovaa Cell" 1
+		"Cuo Cooler" 1
+		"Hyperdrive"
+	engine 0 44.8
+	gun 0.6 -41.0
+	gun 4.5 -43.6
+	gun -4.5 -43.6
+	turret 2.8 -11.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Odooaq"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 151000
+		"shields" 5200
+		"hull" 5900
+		"required crew" 12
+		"bunks" 20
+		"mass" 273.0
+		"drag" 5.95
+		"heat dissipation" 0.75
+		"fuel capacity" 1000
+		"cargo space" 85
+		"outfit space" 430
+		"weapon capacity" 140
+		"engine capacity" 126
+		weapon 
+			"blast radius" 61
+			"shield damage" 610
+			"hull damage" 310
+			"hit force" 430
+	outfits 
+		"Irv Assault Mortar" 1
+		"Aeeoes Shielding" 1
+		"Iiwaom Thruster" 1
+		"Iiwaom Steering" 1
+		"Ido Cell" 2
+		"Meuogu Battery" 1
+		"Rug Cell" 2
+		"Hyperdrive"
+	engine 0 43.0
+	gun 4.3 -40.7
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Oav mco"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 7160000
+		"shields" 29300
+		"hull" 32900
+		"required crew" 11
+		"bunks" 19
+		"mass" 326.8
+		"drag" 6.3
+		"heat dissipation" 0.5
+		"fuel capacity" 1400
+		"cargo space" 40
+		"outfit space" 556
+		"weapon capacity" 170
+		"engine capacity" 158
+		weapon 
+			"blast radius" 339
+			"shield damage" 3400
+			"hull damage" 1700
+			"hit force" 2380
+	outfits 
+		"Aol Anti-Missile" 1
+		"Irv Assault Mortar" 1
+		"Aeeoes Shielding" 1
+		"Ugasie Thruster" 1
+		"Ugasie Steering" 1
+		"Ido Cell" 2
+		"Meuogu Battery" 1
+		"Seiaos Cell" 1
+		"Yuo Cell" 1
+		"Miovaa Cell" 1
+		"Hyperdrive"
+	engine 0 71.1
+	gun 1.5 -75.2
+	turret 5.4 -26.6
+	turret 5.5 -33.1
+	turret -5.5 -33.1
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ceesoa T1.8 ship"
+
+ship "Dloasr buu"
+	sprite "ship/indus1 in 1"
+	thumbnail "thumbnail/indus1 in 1"
+	attributes 
+		category "Interceptor"
+		"cost" 300000
+		"shields" 2100
+		"hull" 2400
+		"required crew" 2
+		"bunks" 6
+		"mass" 79.2
+		"drag" 1.57
+		"heat dissipation" 0.8200000000000001
+		"fuel capacity" 900
+		"cargo space" 10
+		"outfit space" 247
+		"weapon capacity" 47
+		"engine capacity" 32
+		weapon 
+			"blast radius" 25
+			"shield damage" 250
+			"hull damage" 130
+			"hit force" 180
+	outfits 
+		"Aol Anti-Missile" 1
+		"Aeeoes Shielding" 1
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Iea iza Generator" 2
+		"Hyperdrive"
+	engine -7.0 33.0
+	engine 7.0 33.0
+	gun 0.4 -40.6
+	gun -17.5 7.5
+	gun 17.5 7.5
+	gun -3.5 -37.5
+	gun 3.5 -37.5
+	turret 4.5 -34.9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Cacuoygoz"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 942000
+		"shields" 4200
+		"hull" 4700
+		"required crew" 13
+		"bunks" 19
+		"mass" 228.4
+		"drag" 4.24
+		"heat dissipation" 0.52
+		"fuel capacity" 400
+		"cargo space" 70
+		"outfit space" 262
+		"weapon capacity" 100
+		"engine capacity" 74
+		weapon 
+			"blast radius" 49
+			"shield damage" 490
+			"hull damage" 250
+			"hit force" 340
+	outfits 
+		"Eoacom Shielding" 1
+		"Iiwaom Thruster" 1
+		"Iiwaom Steering" 1
+		"Iea iza Generator" 2
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Ido Cell" 1
+		"Seiaos Cell" 1
+		"Cuo Cooler" 1
+		"Hyperdrive"
+	engine 0 43.4
+	gun -4.2 -47.8
+	gun 4.2 -47.8
+	turret 4.2 -12.1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+
+ship "Idieyypee"
+	sprite "ship/combat drone"
+	thumbnail "thumbnail/combat drone"
+	attributes 
+		category "Drone"
+		"cost" 777000
+		"shields" 2700
+		"hull" 3000
+		"required crew" 2
+		"bunks" 5
+		"mass" 60.6
+		"drag" 1.39
+		"heat dissipation" 0.7100000000000001
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 84
+		"weapon capacity" 47
+		"engine capacity" 32
+		weapon 
+			"blast radius" 31
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 220
+	outfits 
+		"Aol Anti-Missile" 1
+		"Hzogup Thruster" 1
+		"Hzogup Steering" 1
+		"Iea iza Generator" 2
+		"Hyperdrive"
+	engine 0 44.6
+	gun 3.4 -42.7
+	turret 1.4 -40.6
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Ceesoa T1.8 ship"
+

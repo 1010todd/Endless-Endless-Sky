@@ -1,0 +1,388 @@
+ship "Gauzg eysul"
+	sprite "ship/Qublo gzaei/Gauzg eysul"
+	attributes 
+		category "Interceptor"
+		"cost" 49000
+		"shields" 1300
+		"hull" 300
+		"required crew" 2
+		"bunks" 5
+		"mass" 78.6
+		"drag" 1.57
+		"heat dissipation" 0.77
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 578
+		"weapon capacity" 80
+		"engine capacity" 40
+		weapon 
+			"blast radius" 27
+			"shield damage" 280
+			"hull damage" 140
+			"hit force" 190
+	outfits 
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 2
+		"Zuasi Chaser" 66
+		"Fazis Chaser Tube" 2
+		"Fazis Chaser" 44
+		"Zyiel Missile Tube" 2
+		"Zyiel Missile" 66
+		"Huhde ofioi Reactor" 2
+		"Niaul Reactor" 3
+		"Nmoodidkah Reactor" 3
+		"Tuiko ohiei Reactor" 1
+		"Lbuze Thruster" 1
+		"Lbuze Steering" 1
+		"Hyperdrive"
+	engine 29.5 31.0
+	gun 29.5 21.5
+	gun 57.0 12.5
+	gun 0.5 12.5
+	gun 50.0 22.0
+	gun 7.5 22.0
+	gun 51.5 20.5
+	gun 6.0 20.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Qublo gzaei T0.6 ship"
+
+ship "Ksoep aieyo"
+	sprite "ship/Qublo gzaei/Ksoep aieyo"
+	attributes 
+		category "Light Freighter"
+		"cost" 41000
+		"shields" 2200
+		"hull" 400
+		"required crew" 11
+		"bunks" 14
+		"mass" 167.2
+		"drag" 2.93
+		"heat dissipation" 0.87
+		"fuel capacity" 400
+		"cargo space" 55
+		"outfit space" 258
+		"weapon capacity" 80
+		"engine capacity" 50
+		weapon 
+			"blast radius" 44
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 310
+	outfits 
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 1
+		"Zuasi Chaser" 33
+		"Fazis Chaser Tube" 1
+		"Fazis Chaser" 22
+		"Zyiel Missile Tube" 1
+		"Zyiel Missile" 33
+		"Iqleu Anti-Missile" 1
+		"Niaul Reactor" 2
+		"Lbuze Thruster" 1
+		"Lbuze Steering" 1
+		"Nmoodidkah Reactor" 1
+		"Hyperdrive"
+	engine 48.5 37.0
+	gun 48.5 13.5
+	gun 57.0 12.5
+	gun 38.5 12.5
+	turret 48.5 25.0
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Qublo gzaei T0.6 ship"
+
+ship "Uommi sooui"
+	sprite "ship/Qublo gzaei/Uommi sooui"
+	attributes 
+		category "Medium Warship"
+		"cost" 33000
+		"shields" 7300
+		"hull" 1300
+		"required crew" 6
+		"bunks" 30
+		"mass" 284.2
+		"drag" 5.66
+		"heat dissipation" 0.56
+		"fuel capacity" 400
+		"cargo space" 35
+		"outfit space" 567
+		"weapon capacity" 198
+		"engine capacity" 140
+		weapon 
+			"blast radius" 145
+			"shield damage" 1460
+			"hull damage" 730
+			"hit force" 1020
+	outfits 
+		"Uurje Thruster" 1
+		"Uurje Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 2
+		"Zuasi Chaser" 66
+		"Fazis Chaser Tube" 1
+		"Fazis Chaser" 22
+		"Zyiel Missile Tube" 1
+		"Zyiel Missile" 33
+		"Iqleu Anti-Missile" 1
+		"Huhde ofioi Reactor" 2
+		"Niaul Reactor" 2
+		"Nmoodidkah Reactor" 3
+		"Tuiko ohiei Reactor" 3
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hyperdrive"
+	engine 54.0 60.5
+	gun 40.0 49.0
+	gun 77.0 22.5
+	gun 29.5 22.5
+	gun 66.5 49.0
+	turret 54.0 32.5
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Qublo gzaei T0.6 ship"
+
+ship "Hbuie fquzi"
+	sprite "ship/Qublo gzaei/Hbuie fquzi"
+	attributes 
+		category "Interceptor"
+		"cost" 7000
+		"shields" 1500
+		"hull" 300
+		"required crew" 1
+		"bunks" 5
+		"mass" 65.4
+		"drag" 1.3
+		"heat dissipation" 0.8800000000000001
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 338
+		"weapon capacity" 80
+		"engine capacity" 30
+		weapon 
+			"blast radius" 30
+			"shield damage" 310
+			"hull damage" 160
+			"hit force" 220
+	outfits 
+		"Huhde ofioi Reactor" 1
+		"Aisii Battery" 1
+		"Lbuze Thruster" 1
+		"Lbuze Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 2
+		"Zuasi Chaser" 66
+		"Fazis Chaser Tube" 1
+		"Fazis Chaser" 22
+		"Zyiel Missile Tube" 1
+		"Zyiel Missile" 33
+		"Niaul Reactor" 1
+		"Nmoodidkah Reactor" 1
+		"Agipx fkoui Cooling" 1
+		"Hyperdrive"
+	engine 28.0 37.0
+	gun 13.5 15.0
+	gun 54.0 12.5
+	gun 0.5 12.5
+	gun 41.0 15.0
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Qublo gzaei T0.6 ship"
+
+ship "Ezija auiro lakel"
+	sprite "ship/Qublo gzaei/Ezija auiro lakel"
+	attributes 
+		category "Light Warship"
+		"cost" 68000
+		"shields" 4500
+		"hull" 800
+		"required crew" 5
+		"bunks" 17
+		"mass" 151.2
+		"drag" 3.15
+		"heat dissipation" 0.56
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 200
+		"weapon capacity" 88
+		"engine capacity" 60
+		weapon 
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 630
+	outfits 
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 1
+		"Zuasi Chaser" 33
+		"Fazis Chaser Tube" 1
+		"Fazis Chaser" 22
+		"Iqleu Anti-Missile" 1
+		"Lbuze Thruster" 1
+		"Lbuze Steering" 1
+		"Niaul Reactor" 1
+		"Tuiko ohiei Reactor" 1
+		"Hyperdrive"
+	engine 39.5 23.0
+	gun 28.5 17.0
+	gun 49.0 17.0
+	turret 39.5 38.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Qublo gzaei T0.6 ship"
+
+ship "Odavu uinio ugbai"
+	sprite "ship/Qublo gzaei/Odavu uinio ugbai"
+	attributes 
+		category "Heavy Warship"
+		"cost" 228000
+		"shields" 13900
+		"hull" 2400
+		"required crew" 15
+		"bunks" 19
+		"mass" 970.4
+		"drag" 20.56
+		"heat dissipation" 0.73
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 1113
+		"weapon capacity" 473
+		"engine capacity" 340
+		weapon 
+			"blast radius" 276
+			"shield damage" 2760
+			"hull damage" 1380
+			"hit force" 1930
+	outfits 
+		"Uurje Thruster" 1
+		"Uurje Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 3
+		"Zuasi Chaser" 99
+		"Fazis Chaser Tube" 3
+		"Fazis Chaser" 66
+		"Zyiel Missile Tube" 2
+		"Zyiel Missile" 66
+		"Iqleu Anti-Missile" 1
+		"Huhde ofioi Reactor" 5
+		"Niaul Reactor" 6
+		"Nmoodidkah Reactor" 5
+		"Tuiko ohiei Reactor" 4
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hyperdrive"
+	engine 96.0 95.5
+	engine 29.5 95.5
+	engine 67.0 94.0
+	gun 36.5 92.5
+	gun 92.0 54.5
+	gun 40.5 54.5
+	gun 87.0 52.5
+	gun 45.5 52.5
+	gun 79.0 79.0
+	gun 53.5 79.0
+	gun 96.0 92.5
+	turret 50.0 71.0
+	turret 93.5 64.5
+	turret 37.5 64.5
+	turret 94.5 91.5
+	turret 36.5 91.5
+	turret 81.0 71.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Qublo gzaei T0.6 ship"
+
+ship "Dloah lokxi"
+	sprite "ship/Qublo gzaei/Dloah lokxi"
+	attributes 
+		category "Interceptor"
+		"cost" 61000
+		"shields" 1000
+		"hull" 200
+		"required crew" 4
+		"bunks" 8
+		"mass" 78.4
+		"drag" 1.52
+		"heat dissipation" 1.0
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 578
+		"weapon capacity" 80
+		"engine capacity" 40
+		weapon 
+			"blast radius" 20
+			"shield damage" 210
+			"hull damage" 110
+			"hit force" 150
+	outfits 
+		"Oliaa qafau Thruster" 1
+		"Oliaa qafau Steering" 1
+		"Hfayo Shield Rejuvenator" 1
+		"Zuasi Chaser Deployer" 2
+		"Zuasi Chaser" 66
+		"Fazis Chaser Tube" 2
+		"Fazis Chaser" 44
+		"Zyiel Missile Tube" 1
+		"Zyiel Missile" 33
+		"Iqleu Anti-Missile" 1
+		"Huhde ofioi Reactor" 2
+		"Niaul Reactor" 3
+		"Nmoodidkah Reactor" 3
+		"Tuiko ohiei Reactor" 1
+		"Lbuze Thruster" 1
+		"Lbuze Steering" 1
+		"Hyperdrive"
+	engine 26.0 11.0
+	gun 26.0 11.5
+	gun 43.0 1.0
+	gun 7.5 1.0
+	gun 33.5 13.0
+	gun 17.0 13.0
+	gun 37.0 17.5
+	gun 13.5 17.5
+	turret 26.0 19.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Qublo gzaei T0.6 ship"
+

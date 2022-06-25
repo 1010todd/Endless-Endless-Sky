@@ -1,0 +1,431 @@
+ship "Eliegw"
+	sprite "ship/Exxugm/Eliegw"
+	attributes 
+		category "Light Freighter"
+		"cost" 30562000
+		"shields" 181800
+		"hull" 258500
+		"required crew" 16
+		"bunks" 33
+		"mass" 308.2
+		"drag" 6.75
+		"heat dissipation" 0.74
+		"fuel capacity" 400
+		"cargo space" 95
+		"outfit space" 620
+		"weapon capacity" 190
+		"engine capacity" 200
+		weapon 
+			"blast radius" 993
+			"shield damage" 9940
+			"hull damage" 4970
+			"hit force" 6960
+	outfits 
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Eewwas Cell" 2
+		"Aywxuo Battery Pack" 1
+		"Ocugor Thruster" 1
+		"Ocugor Steering" 1
+		"Zoi Cell" 1
+		"Oar Heat Pump" 1
+		"Hyperdrive"
+	engine 56.0 60.0
+	engine 8.0 60.0
+	gun 36.0 35.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Exxugm T4.4 ship"
+
+ship "Geyyea ode"
+	sprite "ship/Exxugm/Geyyea ode"
+	attributes 
+		category "Heavy Warship"
+		"cost" 657099000
+		"shields" 2001200
+		"hull" 2845300
+		"required crew" 26
+		"bunks" 86
+		"mass" 863.4
+		"drag" 18.31
+		"heat dissipation" 0.71
+		"fuel capacity" 1900
+		"cargo space" 105
+		"outfit space" 1640
+		"weapon capacity" 600
+		"engine capacity" 440
+		weapon 
+			"blast radius" 10931
+			"shield damage" 109320
+			"hull damage" 54660
+			"hit force" 76530
+	outfits 
+		"Pci Anti-Missile" 1
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Eewwas Cell" 2
+		"Aywxuo Battery Pack" 1
+		"Ocugor Thruster" 1
+		"Ocugor Steering" 1
+		"Zoi Cell" 1
+		"Oar Heat Pump" 1
+		"Hyperdrive"
+	engine 97.5 128.5
+	engine 18.5 128.5
+	engine 72.5 133.5
+	engine 43.5 133.5
+	gun 44.0 56.0
+	gun 90.0 96.0
+	gun 32.5 96.0
+	gun 77.0 65.5
+	gun 45.5 65.5
+	gun 78.5 56.0
+	turret 43.0 133.5
+	turret 95.5 50.5
+	turret 25.5 50.5
+	turret 78.0 133.5
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Exxugm T4.4 ship"
+
+ship "Eeu dih"
+	sprite "ship/Exxugm/Eeu dih"
+	attributes 
+		category "Heavy Warship"
+		"cost" 723001000
+		"shields" 1353500
+		"hull" 1924300
+		"required crew" 32
+		"bunks" 108
+		"mass" 771.4
+		"drag" 14.71
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 95
+		"outfit space" 1220
+		"weapon capacity" 420
+		"engine capacity" 370
+		weapon 
+			"blast radius" 7393
+			"shield damage" 73940
+			"hull damage" 36970
+			"hit force" 51760
+	outfits 
+		"Pci Anti-Missile" 1
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Eewwas Cell" 2
+		"Aywxuo Battery Pack" 1
+		"Ocugor Thruster" 1
+		"Ocugor Steering" 1
+		"Zoi Cell" 1
+		"Oar Heat Pump" 1
+		"Hyperdrive"
+	engine 117.5 69.5
+	engine 62.5 69.5
+	engine 108.0 74.0
+	engine 72.0 74.0
+	gun 65.5 81.5
+	gun 108.5 49.0
+	gun 74.0 49.0
+	gun 117.0 81.5
+	turret 70.5 88.0
+	turret 115.5 49.0
+	turret 65.5 49.0
+	turret 109.5 78.0
+	turret 71.5 78.0
+	turret 103.0 92.0
+	turret 78.0 92.0
+	turret 110.5 88.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Exxugm T4.4 ship"
+
+ship "Uxe pdo"
+	sprite "ship/Exxugm/Uxe pdo"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 300401000
+		"shields" 1228000
+		"hull" 1746000
+		"required crew" 76
+		"bunks" 95
+		"mass" 906.4
+		"drag" 17.17
+		"heat dissipation" 0.57
+		"fuel capacity" 3100
+		"cargo space" 440
+		"outfit space" 1760
+		"weapon capacity" 590
+		"engine capacity" 470
+		weapon 
+			"blast radius" 6708
+			"shield damage" 67080
+			"hull damage" 33540
+			"hit force" 46960
+	outfits 
+		"Pci Anti-Missile" 1
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Eewwas Cell" 2
+		"Aywxuo Battery Pack" 1
+		"Ocugor Thruster" 1
+		"Ocugor Steering" 1
+		"Zoi Cell" 1
+		"Oar Heat Pump" 1
+		"Hyperdrive"
+	engine 90.5 47.0
+	engine 42.5 47.0
+	engine 85.5 81.5
+	engine 47.5 81.5
+	engine 68.5 66.5
+	gun 50.0 28.0
+	gun 85.5 28.0
+	turret 59.0 68.0
+	turret 87.0 37.5
+	turret 47.0 37.5
+	turret 75.0 68.0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Exxugm T4.4 ship"
+
+ship "Uxu uleyio"
+	sprite "ship/Exxugm/Uxu uleyio"
+	attributes 
+		category "Light Warship"
+		"cost" 338340000
+		"shields" 574000
+		"hull" 816000
+		"required crew" 3
+		"bunks" 10
+		"mass" 224.2
+		"drag" 4.37
+		"heat dissipation" 0.56
+		"fuel capacity" 3100
+		"cargo space" 30
+		"outfit space" 280
+		"weapon capacity" 110
+		"engine capacity" 70
+		weapon 
+			"blast radius" 3135
+			"shield damage" 31360
+			"hull damage" 15680
+			"hit force" 21950
+	outfits 
+		"Pci Anti-Missile" 1
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Nigick Thruster" 1
+		"Nigick Steering" 1
+		"Aec Heat Shunt" 2
+		"Hyperdrive"
+	engine 42.0 33.0
+	turret 42.0 53.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Exxugm T4.4 ship"
+
+ship "Eri doehed"
+	sprite "ship/Exxugm/Eri doehed"
+	attributes 
+		category "Interceptor"
+		"cost" 30620000
+		"shields" 107400
+		"hull" 152700
+		"required crew" 4
+		"bunks" 11
+		"mass" 91.2
+		"drag" 1.76
+		"heat dissipation" 1.05
+		"fuel capacity" 3500
+		"cargo space" 15
+		"outfit space" 258
+		"weapon capacity" 80
+		"engine capacity" 60
+		weapon 
+			"blast radius" 587
+			"shield damage" 5870
+			"hull damage" 2940
+			"hit force" 4110
+	outfits 
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Aywxuo Battery Pack" 1
+		"Nigick Thruster" 1
+		"Nigick Steering" 1
+		"Aec Heat Shunt" 11
+		"Hyperdrive"
+	engine 25.0 31.0
+	gun 25.0 14.5
+	gun 42.0 12.5
+	gun 6.5 12.5
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Exxugm T4.4 ship"
+
+ship "Iooguemir"
+	sprite "ship/Exxugm/Iooguemir"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 273232000
+		"shields" 481000
+		"hull" 683900
+		"required crew" 78
+		"bunks" 156
+		"mass" 1127.8
+		"drag" 24.09
+		"heat dissipation" 0.73
+		"fuel capacity" 2900
+		"cargo space" 545
+		"outfit space" 2100
+		"weapon capacity" 760
+		"engine capacity" 550
+		weapon 
+			"blast radius" 2627
+			"shield damage" 26280
+			"hull damage" 13140
+			"hit force" 18400
+	outfits 
+		"Pci Anti-Missile" 1
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Eewwas Cell" 2
+		"Aywxuo Battery Pack" 1
+		"Ocugor Thruster" 1
+		"Ocugor Steering" 1
+		"Zoi Cell" 1
+		"Hyperdrive"
+	engine 95.0 118.0
+	engine 42.0 118.0
+	engine 84.5 90.0
+	engine 52.5 90.0
+	engine 84.0 110.0
+	engine 53.0 110.0
+	gun 72.5 117.0
+	turret 47.5 50.5
+	turret 94.5 50.5
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Exxugm T4.4 ship"
+
+ship "Ouikee"
+	sprite "ship/Exxugm/Ouikee"
+	attributes 
+		category "Light Freighter"
+		"cost" 60238000
+		"shields" 205600
+		"hull" 292200
+		"required crew" 10
+		"bunks" 14
+		"mass" 229.4
+		"drag" 4.64
+		"heat dissipation" 0.81
+		"fuel capacity" 3100
+		"cargo space" 70
+		"outfit space" 300
+		"weapon capacity" 110
+		"engine capacity" 80
+		weapon 
+			"blast radius" 1123
+			"shield damage" 11230
+			"hull damage" 5620
+			"hit force" 7860
+	outfits 
+		"Acwoao Shield Generator" 1
+		"Avc Nanite Repair" 1
+		"Aywxuo Battery Pack" 1
+		"Nigick Thruster" 1
+		"Nigick Steering" 1
+		"Xoyabu Heat Shunt" 3
+		"Aec Heat Shunt" 1
+		"Mae ies Cooling" 1
+		"Hyperdrive"
+	engine 34.0 26.0
+	gun 34.0 22.5
+	gun 62.0 13.0
+	gun 4.5 13.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Exxugm T4.4 ship"
+
+ship "Leklio"
+	sprite "ship/Exxugm/Leklio"
+	attributes 
+		category "Transport"
+		"cost" 189247000
+		"shields" 361900
+		"hull" 514600
+		"required crew" 4
+		"bunks" 18
+		"mass" 59.6
+		"drag" 1.23
+		"heat dissipation" 0.9500000000000001
+		"fuel capacity" 2100
+		"cargo space" 10
+		"outfit space" 100
+		"weapon capacity" 40
+		"engine capacity" 30
+		weapon 
+			"blast radius" 1977
+			"shield damage" 19770
+			"hull damage" 9890
+			"hit force" 13840
+	outfits 
+		"Acwoao Shield Generator" 1
+		"Umo Nanite Repair" 1
+		"Iex jke Thruster" 1
+		"Iex jke Steering" 1
+		"Aec Heat Shunt" 4
+		"Mae ies Cooling" 2
+		"Hyperdrive"
+	engine 63.5 55.0
+	turret 63.5 46.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Exxugm T4.4 ship"
+

@@ -1,0 +1,402 @@
+ship "Blogieseur"
+	sprite "ship/Ouibr ayvoo/Blogieseur"
+	attributes 
+		category "Transport"
+		"cost" 70514000
+		"shields" 776900
+		"hull" 511300
+		"required crew" 3
+		"bunks" 25
+		"mass" 92.2
+		"drag" 1.75
+		"heat dissipation" 1.03
+		"fuel capacity" 1900
+		"cargo space" 15
+		"outfit space" 100
+		"weapon capacity" 40
+		"engine capacity" 30
+		weapon 
+			"blast radius" 2794
+			"shield damage" 27940
+			"hull damage" 13970
+			"hit force" 19560
+	outfits 
+		"Eolaikeati Reactor" 1
+		"Eaeri Battery" 1
+		"Iurli Lance Turret" 1
+		"Aanxa batqi Thruster" 1
+		"Aanxa batqi Steering" 1
+		"Hyperdrive"
+	engine 50.5 46.5
+	turret 50.5 22.5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Xnuab ezsou"
+	sprite "ship/Ouibr ayvoo/Xnuab ezsou"
+	attributes 
+		category "Heavy Warship"
+		"cost" 1337964000
+		"shields" 2310700
+		"hull" 1520500
+		"required crew" 98
+		"bunks" 163
+		"mass" 1056.0
+		"drag" 22.43
+		"heat dissipation" 0.78
+		"fuel capacity" 2600
+		"cargo space" 130
+		"outfit space" 2000
+		"weapon capacity" 650
+		"engine capacity" 610
+		weapon 
+			"blast radius" 8309
+			"shield damage" 83090
+			"hull damage" 41550
+			"hit force" 58170
+	outfits 
+		"Eolaikeati Reactor" 2
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 2
+		"Voueh Torpedo" 100
+		"Riutj Beam" 2
+		"Riutj Beam Turret" 2
+		"Iurli Lance" 1
+		"Iurli Lance Turret" 1
+		"Heqba Missile Deployer" 1
+		"Heqba Missile" 25
+		"Orran Thruster" 1
+		"Orran Steering" 1
+		"Eiibo aeaca Shielding" 1
+		"Avvuozaano Hull Reconstructor" 1
+		"Hyperdrive"
+	engine 88.5 90.0
+	engine 27.5 90.0
+	engine 75.0 115.0
+	engine 41.0 115.0
+	engine 68.5 80.5
+	engine 47.5 80.5
+	gun 46.5 26.0
+	gun 85.0 63.5
+	gun 33.5 63.5
+	gun 74.0 60.0
+	gun 44.5 60.0
+	gun 72.0 26.0
+	turret 60.0 96.0
+	turret 80.0 84.5
+	turret 37.0 84.5
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Qiawx axxiu"
+	sprite "ship/Ouibr ayvoo/Qiawx axxiu"
+	attributes 
+		category "Medium Warship"
+		"cost" 429244000
+		"shields" 1375400
+		"hull" 905100
+		"required crew" 10
+		"bunks" 48
+		"mass" 376.4
+		"drag" 7.74
+		"heat dissipation" 0.72
+		"fuel capacity" 400
+		"cargo space" 50
+		"outfit space" 500
+		"weapon capacity" 200
+		"engine capacity" 140
+		weapon 
+			"blast radius" 4946
+			"shield damage" 49460
+			"hull damage" 24730
+			"hit force" 34620
+	outfits 
+		"Eolaikeati Reactor" 2
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 1
+		"Voueh Torpedo" 50
+		"Riutj Beam" 1
+		"Iurli Lance" 1
+		"Iurli Lance Turret" 4
+		"Orran Thruster" 1
+		"Orran Steering" 1
+		"Eiibo aeaca Shielding" 1
+		"Avvuozaano Hull Reconstructor" 1
+		"Ooiwr Cooling" 1
+		"Hyperdrive"
+	engine 62.0 49.0
+	gun 62.0 64.5
+	gun 97.0 41.0
+	gun 25.5 41.0
+	turret 16.5 40.5
+	turret 100.0 50.0
+	turret 21.0 50.0
+	turret 104.5 40.5
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Eavarxtual"
+	sprite "ship/Ouibr ayvoo/Eavarxtual"
+	attributes 
+		category "Interceptor"
+		"cost" 17115000
+		"shields" 246300
+		"hull" 162100
+		"required crew" 3
+		"bunks" 5
+		"mass" 46.2
+		"drag" 0.97
+		"heat dissipation" 1.19
+		"fuel capacity" 1700
+		"cargo space" 10
+		"outfit space" 57
+		"weapon capacity" 20
+		"engine capacity" 20
+		weapon 
+			"blast radius" 886
+			"shield damage" 8860
+			"hull damage" 4430
+			"hit force" 6200
+	outfits 
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 1
+		"Voueh Torpedo" 50
+		"Iurli Lance" 1
+		"Aanxa batqi Thruster" 1
+		"Aanxa batqi Steering" 1
+		"Orhio Heat Shunt" 1
+		"Hyperdrive"
+	engine 25.5 25.5
+	gun 25.5 14.5
+	gun 33.5 12.5
+	gun 16.0 12.5
+	gun 30.5 20.0
+	gun 19.0 20.0
+	turret 25.5 10.0
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Auushfoyho aelou"
+	sprite "ship/Ouibr ayvoo/Auushfoyho aelou"
+	attributes 
+		category "Heavy Warship"
+		"cost" 300929000
+		"shields" 3027100
+		"hull" 1991900
+		"required crew" 24
+		"bunks" 80
+		"mass" 736.6
+		"drag" 14.9
+		"heat dissipation" 0.79
+		"fuel capacity" 3400
+		"cargo space" 90
+		"outfit space" 1350
+		"weapon capacity" 500
+		"engine capacity" 380
+		weapon 
+			"blast radius" 10885
+			"shield damage" 108850
+			"hull damage" 54430
+			"hit force" 76200
+	outfits 
+		"Eolaikeati Reactor" 2
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 1
+		"Voueh Torpedo" 50
+		"Riutj Beam" 1
+		"Riutj Beam Turret" 2
+		"Iurli Lance" 1
+		"Iurli Lance Turret" 5
+		"Heqba Missile Deployer" 1
+		"Heqba Missile" 25
+		"Orran Thruster" 1
+		"Orran Steering" 1
+		"Eiibo aeaca Shielding" 1
+		"Avvuozaano Hull Reconstructor" 1
+		"Hyperdrive"
+	engine 121.5 74.0
+	engine 74.5 74.0
+	engine 111.0 63.5
+	engine 85.0 63.5
+	gun 84.0 73.0
+	gun 121.5 50.0
+	gun 77.0 50.0
+	gun 114.5 73.0
+	turret 100.0 105.0
+	turret 127.5 37.5
+	turret 69.5 37.5
+	turret 113.0 74.0
+	turret 84.0 74.0
+	turret 127.5 59.0
+	turret 69.5 59.0
+	leak "leak" 60
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Houobonasa"
+	sprite "ship/Ouibr ayvoo/Houobonasa"
+	attributes 
+		category "Interceptor"
+		"cost" 182095000
+		"shields" 278600
+		"hull" 183400
+		"required crew" 1
+		"bunks" 4
+		"mass" 42.8
+		"drag" 0.88
+		"heat dissipation" 0.63
+		"fuel capacity" 3500
+		"cargo space" 10
+		"outfit space" 70
+		"weapon capacity" 30
+		"engine capacity" 20
+		weapon 
+			"blast radius" 1002
+			"shield damage" 10020
+			"hull damage" 5010
+			"hit force" 7020
+	outfits 
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 1
+		"Voueh Torpedo" 50
+		"Iurli Lance" 1
+		"Iurli Lance Turret" 1
+		"Aanxa batqi Thruster" 1
+		"Aanxa batqi Steering" 1
+		"Orhio Heat Shunt" 2
+		"Hyperdrive"
+	engine 28.5 29.5
+	gun 0.5 12.5
+	gun 55.0 12.5
+	turret 28.5 15.0
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Rzasi ajoeo"
+	sprite "ship/Ouibr ayvoo/Rzasi ajoeo"
+	attributes 
+		category "Light Warship"
+		"cost" 515320000
+		"shields" 1025200
+		"hull" 674600
+		"required crew" 2
+		"bunks" 12
+		"mass" 116.8
+		"drag" 2.4
+		"heat dissipation" 0.77
+		"fuel capacity" 900
+		"cargo space" 15
+		"outfit space" 160
+		"weapon capacity" 70
+		"engine capacity" 50
+		weapon 
+			"blast radius" 3686
+			"shield damage" 36870
+			"hull damage" 18440
+			"hit force" 25810
+	outfits 
+		"Eolaikeati Reactor" 1
+		"Eaeri Battery" 1
+		"Iurli Lance Turret" 1
+		"Iaalb Thruster" 1
+		"Iaalb Steering" 1
+		"Inxyeeomeg Shielding" 1
+		"Ooiwr Cooling" 1
+		"Hyperdrive"
+	engine 44.0 40.5
+	turret 44.0 15.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ouibr ayvoo T4.6 ship"
+
+ship "Vaqar noanm"
+	sprite "ship/Ouibr ayvoo/Vaqar noanm"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 404459000
+		"shields" 1956200
+		"hull" 1287200
+		"required crew" 22
+		"bunks" 43
+		"mass" 455.6
+		"drag" 8.79
+		"heat dissipation" 0.58
+		"fuel capacity" 1200
+		"cargo space" 220
+		"outfit space" 640
+		"weapon capacity" 200
+		"engine capacity" 170
+		weapon 
+			"blast radius" 7034
+			"shield damage" 70340
+			"hull damage" 35170
+			"hit force" 49240
+	outfits 
+		"Eolaikeati Reactor" 2
+		"Eaeri Battery" 1
+		"Voueh Torpedo Deployer" 1
+		"Voueh Torpedo" 50
+		"Riutj Beam" 1
+		"Iurli Lance Turret" 3
+		"Orran Thruster" 1
+		"Orran Steering" 1
+		"Eiibo aeaca Shielding" 1
+		"Avvuozaano Hull Reconstructor" 1
+		"Ooiwr Cooling" 1
+		"Hyperdrive"
+	engine 148.0 81.5
+	engine 37.5 81.5
+	gun 42.5 41.0
+	gun 150.0 41.0
+	turret 97.0 76.0
+	turret 132.0 71.0
+	turret 59.0 71.0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ouibr ayvoo T4.6 ship"
+

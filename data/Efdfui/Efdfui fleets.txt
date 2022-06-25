@@ -1,0 +1,66 @@
+fleet "Efdfui Military"
+	government "Efdfui"
+	names "Efdfui Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 11
+	variant 12
+		"Dauoguwde" 4
+		"Xdiaos" 5
+		"Oxnpxuisu" 4
+		"Zeudao" 5
+	variant 4
+		"Dauoguwde" 3
+		"Oxnpxuisu" 3
+		"Zeudao" 4
+		"Xdiaos" 3
+	variant 9
+		"Oxnpxuisu" 5
+		"Dauoguwde" 3
+		"Zeudao" 3
+		"Inu imehuu" 5
+	variant 4
+		"Inu imehuu" 3
+		"Dauoguwde" 3
+		"Uobeae" 3
+		"Xdiaos" 2
+	variant 14
+		"Xdiaos" 4
+		"Dauoguwde" 2
+		"Oxnpxuisu" 4
+		"Inu imehuu" 3
+fleet "Efdfui Merchant"
+	government "Efdfui"
+	names "Efdfui names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Inu imehuu" 4
+		"Xdiaos" 1
+		"Xdiaos" 2
+	variant 13
+		"Inu imehuu" 1
+		"Xdiaos" 3
+		"Xdiaos" 1
+	variant 26
+		"Uobeae" 2
+		"Inu imehuu" 2
+		"Uobeae" 2
+	variant 12
+		"Oxnpxuisu" 2
+		"Dauoguwde" 4
+		"Dauoguwde" 2
+fleet "Efdfui Miner"
+	government "Efdfui"
+	names "Efdfui names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 8
+		"Dauoguwde" 3
+	variant 12
+		"Dauoguwde" 4

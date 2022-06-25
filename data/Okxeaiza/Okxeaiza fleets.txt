@@ -1,0 +1,78 @@
+fleet "Okxeaiza Patrol"
+	government "Okxeaiza"
+	names "Okxeaiza Military names"
+	personality
+		heroic
+		confusion 10
+	variant 13
+		"Oeiqmhoiyiux" 3
+		"Ocxiroardoci" 0
+		"Oyibimec" 4
+		"Iqac recr" 3
+		"Ayjixrot ezde" 2
+	variant 17
+		"Oeiqmhoiyiux" 7
+		"Ocxiroardoci" 0
+		"Ayjixrot ezde" 2
+	variant 8
+		"Oeiqmhoiyiux" 5
+		"Ocxiroardoci" 0
+fleet "Okxeaiza Civilian"
+	government "Okxeaiza"
+	names "Okxeaiza names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Iqac recr" 4
+		"Ocxiroardoci" 2
+		"Iqac recr" 2
+	variant 12
+		"Oyibimec" 4
+		"Iqac recr" 4
+		"Ayjixrot ezde" 4
+	variant 26
+		"Oyibimec" 2
+		"Ayjixrot ezde" 4
+		"Oyibimec" 3
+	variant 45
+		"Ayjixrot ezde" 1
+		"Iqac recr" 1
+		"Oeiqmhoiyiux" 4
+	variant 12
+		"Ocxiroardoci" 1
+		"Oeiqmhoiyiux" 3
+		"Iqac recr" 2
+	variant 45
+		"Ayjixrot ezde" 4
+		"Ocxiroardoci" 4
+		"Oeiqmhoiyiux" 3
+	variant 108
+		"Iqac recr" 4
+		"Ocxiroardoci" 3
+		"Iqac recr" 2
+fleet "Okxeaiza Miner"
+	government "Okxeaiza"
+	names "Okxeaiza names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 4
+		"Iqac recr" 2
+		"Ocxiroardoci" 5
+		"Oeiqmhoiyiux" 3
+	variant 5
+		"Oeiqmhoiyiux" 2
+		"Ocxiroardoci" 0
+		"Ayjixrot ezde" 3
+	variant 6
+		"Oyibimec" 2
+		"Ocxiroardoci" 0
+		"Ayjixrot ezde" 3
+	variant 16
+		"Iqac recr" 2
+		"Ocxiroardoci" 5
+		"Ayjixrot ezde" 3
+		"Oeiqmhoiyiux" 2

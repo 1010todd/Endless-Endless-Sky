@@ -1,0 +1,17 @@
+government "Quckri"
+	"display name" "Quckri"
+	"swizzle" 19
+	"color" 0.945 0.021 0.515 0.684
+	"player reputation" 0
+	"crew attack" 6.2
+	"crew defense" 18.1
+	"attitude toward"
+		"Ege aoe" -1
+		"Uoeaaeta" 1
+		"Ouibr ayvoo" 1
+		"Okxeaiza" -1
+		"Ceesoa" -1
+		"Exxugm" 0
+		"Kohjgo" 0
+		"Qublo gzaei" 1
+		"Efdfui" 0

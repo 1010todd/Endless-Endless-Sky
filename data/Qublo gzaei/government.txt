@@ -1,0 +1,17 @@
+government "Qublo gzaei"
+	"display name" "Qublo gzaei"
+	"swizzle" 13
+	"color" 0.674 0.296 0.585 0.861
+	"player reputation" 0
+	"crew attack" 6.2
+	"crew defense" 18.1
+	"attitude toward"
+		"Ege aoe" 1
+		"Uoeaaeta" 0
+		"Ouibr ayvoo" 1
+		"Okxeaiza" 0
+		"Ceesoa" 0
+		"Exxugm" 1
+		"Quckri" 1
+		"Kohjgo" 1
+		"Efdfui" 0

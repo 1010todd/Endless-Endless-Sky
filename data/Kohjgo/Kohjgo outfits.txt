@@ -1,0 +1,1413 @@
+outfit "Eeaahb Battery Pack"
+	category "Power"
+	cost 306500
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 4560
+	description "Kohjgo T2.2 Battery"
+
+outfit "Ehe Battery Pack"
+	category "Power"
+	cost 551700
+	thumbnail "outfit/tiny battery"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 10950
+	description "Kohjgo T2.2 Battery"
+
+outfit "Oev Battery Pack"
+	category "Power"
+	cost 993100
+	thumbnail "outfit/tiny battery"
+	"mass" 25
+	"outfit space" -25
+	"energy capacity" 26280
+	description "Kohjgo T2.2 Battery"
+
+outfit "Voe Battery Pack"
+	category "Power"
+	cost 1787600
+	thumbnail "outfit/tiny battery"
+	"mass" 45
+	"outfit space" -45
+	"energy capacity" 63080
+	description "Kohjgo T2.2 Battery"
+
+
+outfit "Onxril Generator"
+	category "Power"
+	cost 60600
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 13
+	"outfit space" -13
+	"energy generation" 2.6
+	"heat generation" 4.5
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Ziorev Generator"
+	category "Power"
+	cost 103100
+	thumbnail "outfit/small fuel cell"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 6.2
+	"heat generation" 5.4
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Afh foj Cell"
+	category "Power"
+	cost 55100
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 2.5
+	"heat generation" 6.7
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Cou Cell"
+	category "Power"
+	cost 93700
+	thumbnail "outfit/small fuel cell"
+	"mass" 43
+	"outfit space" -43
+	"energy generation" 6.0
+	"heat generation" 16.1
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Doaati Cell"
+	category "Power"
+	cost 159300
+	thumbnail "outfit/medium fuel cell"
+	"mass" 103
+	"outfit space" -103
+	"energy generation" 14.4
+	"heat generation" 38.6
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Ovo Cell"
+	category "Power"
+	cost 270900
+	thumbnail "outfit/large fuel cell"
+	"mass" 247
+	"outfit space" -247
+	"energy generation" 34.6
+	"heat generation" 92.6
+	description "Kohjgo T2.2 Power generator"
+
+outfit "Ywe Cell"
+	category "Power"
+	cost 460600
+	thumbnail "outfit/huge fuel cell"
+	"mass" 593
+	"outfit space" -593
+	"energy generation" 83.0
+	"heat generation" 222.2
+	description "Kohjgo T2.2 Power generator"
+
+
+outfit "Dehcor Thruster"
+	category "Engines"
+	cost 3060200
+	thumbnail "outfit/small plasma thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 5.1
+	"thrusting energy" 0.5
+	"thrusting heat" 1.0
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.1461132935985852
+	"flare sound" "plasma small"
+	description "Kohjgo T2.2 Thruster"
+
+outfit "Dehcor Steering"
+	category "Engines"
+	cost 2612688
+	thumbnail "outfit/small plasma steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 134
+	"turning energy" 0.4
+	"turning heat" 0.9
+	description "Kohjgo T2.2 steering"
+
+outfit "Fee Thruster"
+	category "Engines"
+	cost 5202400
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 12.2
+	"thrusting energy" 1.1
+	"thrusting heat" 2.2
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1
+	"flare sound" "plasma medium"
+	description "Kohjgo T2.2 Thruster"
+
+outfit "Fee Steering"
+	category "Engines"
+	cost 8844100
+	thumbnail "outfit/medium plasma steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 321.6
+	"turning energy" 0.9
+	"turning heat" 2.0
+	description "Kohjgo T2.2 steering"
+
+outfit "Lnu cof Thruster"
+	category "Engines"
+	cost 8844100
+	thumbnail "outfit/large plasma thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 29.3
+	"thrusting energy" 2.4
+	"thrusting heat" 4.8
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1
+	"flare sound" "plasma large"
+	description "Kohjgo T2.2 Thruster"
+
+outfit "Lnu cof Steering"
+	category "Engines"
+	cost 15035000
+	thumbnail "outfit/large plasma steering"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"turn" 771.8
+	"turning energy" 2.0
+	"turning heat" 4.4
+	description "Kohjgo T2.2 steering"
+
+
+outfit "Fvi Shield Regenerator"
+	category "Systems"
+	cost 61300
+	thumbnail "outfit/tiny shield"
+	"mass" 17
+	"outfit space" -17
+	"shield generation" 0.69
+	"shield energy" 1.17
+	"shield heat" 2
+	description "Kohjgo T2.2 shield gen"
+
+outfit "Jro oqr Shield Regenerator"
+	category "Systems"
+	cost 110400
+	thumbnail "outfit/small shield"
+	"mass" 26
+	"outfit space" -26
+	"shield generation" 1.4
+	"shield energy" 1.9
+	"shield heat" 2
+	description "Kohjgo T2.2 shield gen"
+
+outfit "Naj ozx Shield Regenerator"
+	category "Systems"
+	cost 198800
+	thumbnail "outfit/medium shield"
+	"mass" 39
+	"outfit space" -39
+	"shield generation" 2.8
+	"shield energy" 3.0
+	"shield heat" 2
+	description "Kohjgo T2.2 shield gen"
+
+outfit "Ozc Shield Regenerator"
+	category "Systems"
+	cost 357900
+	thumbnail "outfit/large shield"
+	"mass" 58
+	"outfit space" -58
+	"shield generation" 5.6
+	"shield energy" 4.8
+	"shield heat" 2
+	description "Kohjgo T2.2 shield gen"
+
+outfit "Zlo Shield Regenerator"
+	category "Systems"
+	cost 644300
+	thumbnail "outfit/huge shield"
+	"mass" 87
+	"outfit space" -87
+	"shield generation" 11.2
+	"shield energy" 7.7
+	"shield heat" 2
+	description "Kohjgo T2.2 shield gen"
+
+
+
+outfit "Zaa lak Cooling"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/water cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Evhizi Cooling"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/hai williwaw"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 91
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Buw xra Cooling"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 63
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Nhi Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 76
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Vex eoc Cooling"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 30
+	"outfit space" -30
+	"active cooling" 213
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uwl Temperature Control"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/liquid helium"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 79
+	"active cooling" 185
+	"cooling energy" 27.93226796919438
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Urx tux Cooler"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 22
+	"outfit space" -22
+	"active cooling" 10
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wee jio Cooling"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 50
+	"active cooling" 75
+	"cooling energy" 24.568989971386458
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uto yiz Heatsink"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 47
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ote uzc Cooler"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 75
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Tar Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 85
+	"active cooling" 53
+	"cooling energy" 45.267658533119814
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Vve wuv Temperature Control"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 49
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wit Cooling"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 79
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Cwi Cooler"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 55
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Knayir Cooling"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/hai williwaw"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 82
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Yez Heat Shunt"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid helium"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 85
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Izw onl Temperature Control"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/hai williwaw"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 54
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ceokvu Heat Pump"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 73
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Avj Temperature Control"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 58
+	"active cooling" 5
+	"cooling energy" 24.53217851744615
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Gui Heat Shunt"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 64
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Lfo Cooler"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 84
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Aen cwi Heatsink"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/water cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 65
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ehi Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 64
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eav zyi Temperature Control"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/small heat shunt"
+	"mass" 16
+	"outfit space" -16
+	"active cooling" 222
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Way nca Heat Shunt"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/hai williwaw"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 48
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Yux Heat Pump"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 84
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Yya Temperature Control"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 79
+	"active cooling" 64
+	"cooling energy" 30.71655403746522
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Akleeu Temperature Control"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/hai williwaw"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 81
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eui sef Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/liquid helium"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 70
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Hra aow Temperature Control"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 58
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Tihnhi Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 47
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Powvya Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 84
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uzy Cooler"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Veyaze Heatsink"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 85
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Cci Heat Pump"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 52
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Hel Heat Pump"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 32
+	"outfit space" -32
+	"active cooling" 111
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Evz Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 9
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Zii Cooling"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 88
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Evycoh Cooler"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/hai williwaw"
+	"mass" 33
+	"outfit space" -33
+	"cooling" 80
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eoy Cooling"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/liquid helium"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 88
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Yaxaxo Cooler"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/liquid helium"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 55
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Suktwe Cooling"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 33
+	"outfit space" -33
+	"active cooling" 286
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Awzfoi Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 51
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Onj Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ocx Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 79
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Usr Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 72
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Poauro Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 60
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Hya Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 87
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Xof git Heat Shunt"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/hai williwaw"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 51
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Aew unf Heat Pump"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 80
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Jai znu Cooler"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 60
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Unx Heatsink"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 61
+	"active cooling" 166
+	"cooling energy" 25.858922256197026
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Alk Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/water cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 75
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wzo Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 64
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Mae one Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 77
+	"active cooling" 199
+	"cooling energy" 34.49247914279731
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oyr tan Cooling"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 50
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oey yor Heat Shunt"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 46
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Xay Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"active cooling" 342
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Haruzm Heatsink"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 69
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wia Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 86
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oateca Cooling"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 73
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Waw Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 62
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Axj ixb Temperature Control"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/hai williwaw"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 88
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uhr Heatsink"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 46
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Egtkza Temperature Control"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling module"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 47
+	"active cooling" 144
+	"cooling energy" 26.93003002179208
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oxt Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/large heat shunt"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 70
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Tou Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/hai williwaw"
+	"mass" 34
+	"outfit space" -34
+	"active cooling" 19
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Fco Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 68
+	"active cooling" 282
+	"cooling energy" 25.448399563046788
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Jeo ori Heat Shunt"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 37
+	"outfit space" -37
+	"cooling" 80
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Var Cooler"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid helium"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 78
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uku kci Temperature Control"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 81
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Iyw Heat Shunt"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/large heat shunt"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 87
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Won Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Xuanfe Cooler"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/liquid helium"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 87
+	"active cooling" 350
+	"cooling energy" 49.89310322954217
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Iol auo Heatsink"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"active cooling" 355
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Rvoezi Cooling"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/liquid helium"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 89
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Kow Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 51
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ajv Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 65
+	"active cooling" 47
+	"cooling energy" 38.01196665964566
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Kgo afj Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 65
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Zot Heatsink"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 88
+	"active cooling" 96
+	"cooling energy" 30.560211270861394
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wog Temperature Control"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ekt len Heat Shunt"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/large heat shunt"
+	"mass" 36
+	"outfit space" -36
+	"active cooling" 348
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Uxv klu Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 70
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Hfa Heatsink"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/water cooling"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 57
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Xox Cooling"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling ducts"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 66
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eeo lcu Cooler"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling module"
+	"mass" 17
+	"outfit space" -17
+	"active cooling" 239
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Aya Cooler"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 83
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ceg Cooler"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 57
+	"active cooling" 245
+	"cooling energy" 21.907180929266076
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Owo Temperature Control"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 62
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Yio Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 22
+	"outfit space" -22
+	"active cooling" 121
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Zuhwei Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 86
+	"active cooling" 405
+	"cooling energy" 35.31328811663267
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Acgtae Cooling"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 52
+	"active cooling" 108
+	"cooling energy" 11.752337430142198
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ohfeoa Heat Shunt"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/hai williwaw"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 70
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Anulia Temperature Control"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 59
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Coy Temperature Control"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/liquid helium"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 48
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Zua Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"active cooling" 156
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Wei Cooling"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 84
+	"active cooling" 365
+	"cooling energy" 35.0883375878975
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Nhe Cooling"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 64
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Cho Heatsink"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/hai williwaw"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 56
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oxo Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/water cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 74
+	"active cooling" 238
+	"cooling energy" 36.92793207071248
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Gow ifj Cooling"
+	category "Systems"
+	cost 21700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Auo yux Cooling"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 56
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Asy Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 35
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eoe orw Heat Pump"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/liquid helium"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 49
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Oxvjgu Heat Shunt"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 38
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ufu eey Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Stemta Heat Shunt"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 29
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Atf Heatsink"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 27
+	"active cooling" 46
+	"cooling energy" 3.899277058215381
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Haa tiu Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 5
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Xot Heat Pump"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Ujyift Heat Shunt"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Fue Heat Pump"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Kohjgo T2.2 Cooling"
+
+
+outfit "Eivvuu Heatsink"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Kohjgo T2.2 Cooling"
+
+

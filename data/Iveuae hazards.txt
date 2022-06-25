@@ -1,0 +1,116 @@
+hazard "Loiapu Leakion Hazard"
+	"constant strength"
+	"period" 2664
+	"duration" 314 435
+	"range" 3058 8788
+	"strength" 1
+	"environmental effect" "leakage spark" 97
+	weapon
+		"relative hull damage" 0.00037
+		"leak damage" 24.12782
+		"ion damage" 15.33351
+		"piercing" 0.44
+
+hazard "Veaamp Leakleak Hazard"
+	"period" 2942
+	"duration" 674 709
+	"range" 5021 9726
+	"strength" 1
+	"environmental effect" "leakage spark" 1152
+	weapon
+		"relative heat damage" 0.00086
+		"leak damage" 288.00357
+		"leak damage" 33.93643
+
+hazard "Zamiwe Burnleak Hazard"
+	"constant strength"
+	"period" 2520
+	"duration" 465 3274
+	"range" 5772 6146
+	"strength" 1
+	"environmental effect" "burning spark" 40
+	weapon
+		"relative heat damage" 0.00057
+		"burn damage" 10.06106
+		"leak damage" 6.07611
+		"piercing" 0.52
+
+hazard "Aauuoq Corrosiondisruption Hazard"
+	"constant strength"
+	"period" 2274
+	"duration" 1707 3491
+	"range" 5141 10700
+	"strength" 1
+	"environmental effect" "corrosion spark" 338
+	weapon
+		"relative hull damage" 0.00058
+		"corrosion damage" 84.42601
+		"disruption damage" 52.14369
+
+hazard "Uynxae Fuelfuel Hazard"
+	"period" 856
+	"duration" 2136 4219
+	"range" 3239 6986
+	"strength" 2
+	"environmental effect" "leakage spark" 14
+	weapon
+		"relative fuel damage" 0.00085
+		"relative fuel damage" 0.00070
+		"corrosion damage" 3.54217
+
+hazard "Mtaoai Burn Hazard"
+	"period" 309
+	"duration" 572 2063
+	"range" 5390 6245
+	"strength" 2
+	"environmental effect" "burning spark" 330
+	weapon
+		"relative heat damage" 0.00081
+		"relative hull damage" 0.00064
+		"burn damage" 82.57255
+
+hazard "Gauunm Corrosion Hazard"
+	"period" 1861
+	"duration" 1295 1598
+	"range" 3112 6553
+	"strength" 2
+	"environmental effect" "corrosion spark" 456
+	weapon
+		"relative shield damage" 0.00084
+		"relative fuel damage" 0.00071
+		"corrosion damage" 114.11599
+
+hazard "Oyewim Ion Hazard"
+	"period" 774
+	"duration" 2385 3980
+	"range" 3304 6928
+	"strength" 1
+	"environmental effect" "ion hazard" 935
+	weapon
+		"relative fuel damage" 0.00102
+		"relative shield damage" 0.00100
+		"ion damage" 233.74540
+
+hazard "Huacyi Corrosionion Hazard"
+	"constant strength"
+	"period" 2937
+	"duration" 674 1574
+	"range" 5788 8320
+	"strength" 2
+	"environmental effect" "corrosion spark" 764
+	weapon
+		"relative energy damage" 0.00042
+		"corrosion damage" 191.07086
+		"ion damage" 166.75155
+
+hazard "Pikdiy Corrosion Hazard"
+	"period" 1104
+	"duration" 1816 2889
+	"range" 632 2183
+	"strength" 2
+	"environmental effect" "corrosion spark" 853
+	weapon
+		"relative fuel damage" 0.00148
+		"relative shield damage" 0.00032
+		"corrosion damage" 213.33074
+
