@@ -166,7 +166,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         
         weapon_lifetime = round(weapon_range / weapon_velocity)
 
-        weapon_reload = min(1,math.ceil(60 / weapon_shotpersec)) #Please don't be zero and break stuffs.
+        weapon_reload = max(1,math.ceil(60 / weapon_shotpersec)) #Please don't be zero and break stuffs.
         #print("Shot Per Sec: ", weapon_shotpersec)
         #==============================Regular Damages
         weapon_shield_dps = weapon_damagepersec * weapon_shieldhull_ratio
@@ -227,7 +227,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             missile_turn = 0
             missile_homing = 0
         else:
-            missile_tracking_amount = round(random.uniform(.1, .99), 2)
+            missile_tracking_amount = round(random.uniform(min(.98,.1*(faction.tier)), .99), 2)
             missile_turn = round(random.uniform(1, 30*max(1,faction.tier)), 1)
             missile_homing = random.randrange(1,4)
         missile_strength = round(random.uniform((weapon_reload*.5)*(faction.tier**3), (weapon_reload*3)*(faction.tier**3)), 1)
