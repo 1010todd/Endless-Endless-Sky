@@ -521,11 +521,11 @@ def place_parts(core_img,
             symX = width- round(part_size[1][0]/2) - randX + 1#it was 1 px off for some reason.
             core_img.paste(part[0],(symX, posY),part[0])
             if part_type == 'gun' or part_type == 'turret':
-                hardpoint[i] = [randX/2,posY/2] #Sprites are scaled down in game
-                hardpoint[i+1] = [symX/2,posY/2]
+                hardpoint[i] = [randX-centW,posY-centH]
+                hardpoint[i+1] = [symX-centW,posY-centH]
             elif part_type == 'engine':
-                hardpoint[i] = [randX/2,nposY/2]
-                hardpoint[i+1] = [symX/2,nposY/2]
+                hardpoint[i] = [randX-centW,nposY-centH]
+                hardpoint[i+1] = [symX-centW,nposY-centH]
             count -= 2
             i += 2
             #core_img.save(f'generatedsprites/stp{count}.png')
@@ -572,9 +572,9 @@ def place_parts(core_img,
             
             #print(f"Newmax:{[nposX,nposY]}")
             if part_type == 'gun' or part_type == 'turret':
-                hardpoint[staticcount-count] = [randX/2,posY/2]
+                hardpoint[staticcount-count] = [0,posY-centH]
             elif part_type == 'engine':
-                hardpoint[staticcount-count] = [randX/2,randY/2]
+                hardpoint[staticcount-count] = [0,nposY-centH]
             count -= 1
             #core_img.save(f'generatedsprites/stp{count}.png')
     #===========================CENTER MODE
@@ -657,10 +657,10 @@ def place_parts(core_img,
             newboundmax.append([nposX,nposY])
             #print(f"Newmax:{[nposX,nposY]}")
             if part_type == 'gun' or part_type == 'turret':
-                hardpoint[staticcount-count] = [randX/2,posY/2]
+                hardpoint[staticcount-count] = [(randX/2)-centW,posY-centH]
                 #hardpoint[i+1] = [symX-centW,posY]
             elif part_type == 'engine':
-                hardpoint[staticcount-count] = [randX/2,nposY/2]
+                hardpoint[staticcount-count] = [(randX/2)-centW,nposY-centH]
                 #hardpoint[i+1] = [symX-centW,nposY]
             count -= 1
     bounddict = {}
@@ -831,6 +831,7 @@ def call_generate_sprite(faction,category,name,gun,turret,width=0,height=0,engin
         pass
     sprite.save(f'images/ship/{faction.name}/{name}.png')
     for i,gunxy in gpoints.items():
+        #print(gunxy)
         gunlistx.append(gunxy[0])
         gunlisty.append(gunxy[1])
     for i,turxy in tpoints.items():
