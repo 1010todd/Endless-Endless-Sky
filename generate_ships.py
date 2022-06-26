@@ -880,7 +880,7 @@ def create_ship(faction): #Todo, option for without faction?
 
 #        if "" in line:
 #             = next(generate_ships_config)
-
+    shiplist = []
     smallest_gun,smallest_turret,smallest_power,smallest_engine = analyze_outfits(faction)
     warship = False
     ship_types_generated_count = 1
@@ -1220,7 +1220,7 @@ def create_ship(faction): #Todo, option for without faction?
         for n in range(len(ship_engine_pos_y)):
             ship_output.write(f'\tengine {ship_engine_pos_x[n]} {ship_engine_pos_y[n]}' + "\n")
 
-        for n in range(ship_guns):
+        for n in range(ship_guns): #TODO: Fix whatever mess this is.
             if len(ship_gun_pos_x) != 0: #Both should have the same length so check just one
                 gunX = ship_gun_pos_x[n-1]
                 gunY = ship_gun_pos_y[n-1]
@@ -1246,7 +1246,7 @@ def create_ship(faction): #Todo, option for without faction?
         while i < ship_drones:
             ship_output.write('\tbay "Drone" 0 0' + "\n")
             i += 1
-    #####
+        #####
         ship_output.write('\tleak "leak" ' + str(ship_leak_leak)+'\n')
         ship_output.write('\tleak "flame" ' + str(ship_leak_flame)+'\n')
         ship_output.write('\tleak "big leak" ' + str(ship_leak_big_leak)+'\n')
@@ -1262,13 +1262,15 @@ def create_ship(faction): #Todo, option for without faction?
 
         ship_output.write('\n')
 
-        outfitter_output_file = f"data/{faction.name}/dev sales.txt"
-        outfitter_output = open(outfitter_output_file, "a")
-        #outfitter_output.write('\n')
-        outfitter_output.write(f'\t"{ship_name}"\n')
-        outfitter_output.close()
+        shiplist.append(ship_name)
         ship_types_generated_count += 1
-
+    init_sales(faction)
+    outfitter_output_file = f"data/{faction.name}/dev sales.txt"
+    outfitter_output = open(outfitter_output_file, "a")
+    #outfitter_output.write('\n')
+    for shipn in shiplist:
+        outfitter_output.write(f'\t"{shipn}"\n')
+    outfitter_output.close()
     generate_ships_config.close()
     ship_output.close()
 
@@ -1278,7 +1280,7 @@ def load_ship_configs(faction):
     ship_configs_amount = len(ship_configs_list) #Gets amount of items in list
     ship_configs_iterations = 0
     
-    init_sales(faction)
+    
 
     while ship_configs_iterations < ship_configs_amount: #Creates ships for each config files
         global ship_config_file #Config File
