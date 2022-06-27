@@ -547,7 +547,7 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
     #print(f"Postinit spaceleft: {shipstats['outfit sp']}")
     #Check if it have enough energy gen/store
     c = 0
-    while (shipstats['energy use'] > 0 or (shipstats['energy storage'] <= shipstats['energy use'])) and c <= len(faction.outfitlist)*2:
+    while (shipstats['energy use'] > 0) and c <= len(faction.outfitlist)*2:
         #print("SHIPGEN: Not enough energy?")
         for outfit in powergenlist:
             if (shipstats['energy use'] >= 0) and (outfit.outfit_space <= shipstats['outfit sp']):
@@ -558,26 +558,6 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
                 shipstats['energy storage'] += outfit.energy_cap
                 shipstats['idle heat'] += outfit.heat_gen
         c += 1
-        #Remove battery
-        if False:
-            if c == len(faction.outfitlist) and shipstats['energy use'] >= 0:
-                btrychk = 0
-                for batterychk in ship.outfits_list:
-                    if batterychk.energy_cap > 0 and batterychk.energy_gen <= 0:
-                        shipstats['outfit sp'] += batterychk.outfit_space
-                        shipstats['energy storage'] -= batterychk.energy_cap
-                        shipstats['idle heat'] -= outfit.heat_gen
-                        ship.outfits_list.pop(btrychk)
-                    for outfit in faction.outfitlist:
-                        if outfit.energy_gen > 0 and outfit.outfit_space <= shipstats['outfit sp']:
-                            ship.outfits_list.append(outfit)
-                            shipstats['outfit sp'] -= outfit.outfit_space
-                            shipstats['energy use'] -= outfit.energy_gen
-                            shipstats['energy storage'] += outfit.energy_cap
-                            shipstats['idle heat'] += outfit.heat_gen
-                    if shipstats['energy use'] > 0:
-                        break
-            btrychk += 1
         #Use smaller engines if possible. TODO: Fix,
         if c == len(faction.outfitlist):
             if i >= 0:
@@ -607,6 +587,8 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
                 except IndexError:
                     pass    
     #====================post outfitting check.
+
+    #=====================HEAT CHECK
     cl = 0
     cl_chk = 0 #Prevent infinite loop
     totalheat = shipstats['idle heat']+shipstats['regen heat']+shipstats['engine heat']+(shipstats['weapon heat']/2)
@@ -703,6 +685,7 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
         cl_chk += 1
         if cl_chk == 100:
             print("Heat Balance Failed")
+    #==================TURN CHECK
     turn = (shipstats['turn']*60)/(ship.mass+(ship.outfit_space-shipstats['outfit sp'])+ship.cargo_space)
     insaneturnthreshold = 500
     if turn > insaneturnthreshold:
@@ -748,6 +731,10 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
                         newoutfitlist.append(newengine)
                 #shipstats['outfit sp'] += outfit.outfit_space
         ship.outfit_list = newoutfitlist
+    #====================BATTERY CHECK
+    if shipstats['energy storage'] < shipstats['weapon energy'] and shipstats['outfit sp'] > 0:
+        ship,shipstats = install_battery(faction,ship,shipstats,batterylist)
+        pass
     print(f"SHIPGEN: Done, spaceleft:{shipstats['outfit sp']}, idleheat{round(shipstats['idle heat'],1)}/{ship_max_heat}, eneruse/store{shipstats['energy use']}/{shipstats['energy storage']}")
     return ship
 
