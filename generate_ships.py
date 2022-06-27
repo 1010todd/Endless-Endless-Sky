@@ -184,6 +184,22 @@ def outfit_sort(outfitlist,sortby="outfit space"):
                     outfitlist[i].outfit_space,outfitlist[j].outfit_space = outfitlist[j].outfit_space,outfitlist[i].outfit_space
     return outfitlist
 
+def ship_update(faction,ship,shipstats,outfit,mode):
+    if mode == 'install':
+        shipstats['outfit sp'] += -outfit.outfit_space
+        shipstats['engine sp'] += -outfit.engine_space
+        shipstats['energy use'] += outfit.thrust_ener + outfit.turn_ener
+        shipstats['engine heat'] += outfit.thrust_heat + outfit.turn_heat
+        shipstats['thrust'] += outfit.thrust
+        shipstats['turn'] += outfit.turn
+        shipstats['weapon sp'] += -outfit.weapon_space
+        shipstats['weapon heat'] += outfit.fire_heat
+        shipstats['am energy'] += outfit.fire_ener * 60/outfit.reload
+        shipstats['turret free'] -= 1
+        shipstats['gun free'] -= 1
+        shipstats['am count'] += 1
+    pass
+
 def install_engine(faction,ship,shipstats,steeringlist,thrusterlist,enginelist):
     facengines = faction.engineslist
     facengines.reverse()
@@ -384,6 +400,11 @@ def install_generator(faction,ship,shipstats,powergenlist):
                 for outfit in faction.outfitlist:
                     if outfit_type(outfit) == "power gen":
                         powergenlist.append(outfit)
+                        shipstats['outfit sp'] -= outfit.outfit_space
+                        shipstats['energy use'] -= outfit.energy_gen
+                        shipstats['energy gen'] += outfit.energy_gen
+                        shipstats['energy storage'] += outfit.energy_cap
+                        shipstats['idle heat'] += outfit.heat_gen
             else:
                 #print("Expand ship")
                 ship.outfit_space += outfit.outfit_space
@@ -428,7 +449,8 @@ def install_battery(faction,ship,shipstats,batterylist):
             break
     return ship,shipstats
 #Add outfits to the ship
-def outfit_ship(faction,ship): #Prio: Large to small, stuffs to get running first.
+def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much sometimes too few
+    #TODO: Probably should save outfit attributes as dict for more flexibility?
     #Engines: Pair the thrust/steer then find pair that fits, so no oversized thruster and weak steer
     #shipstats['outfit sp'] = ship.outfit_space
     #shipstats['weapon sp'] = ship.weapon_cap
