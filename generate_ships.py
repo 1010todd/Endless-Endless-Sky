@@ -436,9 +436,9 @@ def install_regen(faction,ship,shipstats,shieldgenlist,hullgenlist):
             break
     return ship,shipstats
 
-def install_battery(faction,ship,shipstats,batterylist):
+def install_battery(faction,ship,shipstats,batterylist,battthreshold=0):
     for outfit in batterylist:
-        if (outfit.outfit_space <= shipstats['outfit sp']) and (shipstats['energy storage'] <= 0): #Just one storage
+        if (outfit.outfit_space <= shipstats['outfit sp']) and (shipstats['energy storage'] <= battthreshold): #Just one storage
             #print(f"installed {outfit.name}, space{outfit.outfit_space}/{shipstats['outfit sp']}")
             ship.outfits_list.append(outfit)
             shipstats['outfit sp'] -= outfit.outfit_space
@@ -733,8 +733,7 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
         ship.outfit_list = newoutfitlist
     #====================BATTERY CHECK
     if shipstats['energy storage'] < shipstats['weapon energy'] and shipstats['outfit sp'] > 0:
-        ship,shipstats = install_battery(faction,ship,shipstats,batterylist)
-        pass
+        ship,shipstats = install_battery(faction,ship,shipstats,batterylist,battthreshold=50000)
     print(f"SHIPGEN: Done, spaceleft:{shipstats['outfit sp']}, idleheat{round(shipstats['idle heat'],1)}/{ship_max_heat}, eneruse/store{shipstats['energy use']}/{shipstats['energy storage']}")
     return ship
 
