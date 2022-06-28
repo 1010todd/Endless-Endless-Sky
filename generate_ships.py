@@ -961,6 +961,8 @@ def create_ship(faction): #Todo, option for without faction?
         ship_shields = roundup100(ship_hp*(1-faction.shieldhullFactor))
         ship_hull = roundup100(ship_hp*faction.shieldhullFactor)
 
+        
+
         ship_cost = abs(roundup1000(random.gauss((ship_hp*163*faction.tier)/4, (ship_hp*163*faction.tier)/8))) #todo, proper formula
 
         #==Flawed math, don't use.
@@ -980,6 +982,8 @@ def create_ship(faction): #Todo, option for without faction?
         ship_bunks = round(max(random.gauss(int(bunkmid), int(bunkmid/3)),1))
         ship_required_crew = round(max((ship_bunks * ship_required_crew_percent/max(1,transport)),1))
 
+        ship_required_crew = max(1,round(ship_required_crew * (1 - faction.automation)))
+        ship_automaton = random.random() < faction.dronechance
         
         #ship_mass = roundup10(random.randint(int(ship_min_mass), int(ship_max_mass)))
         ship_drag = abs(round(ship_mass*random.gauss(0.02,0.001), 2))
@@ -1180,6 +1184,8 @@ def create_ship(faction): #Todo, option for without faction?
         ship_output.write('\t\t"shields" ' + str(ship_shields) + "\n")
         ship_output.write('\t\t"hull" ' + str(ship_hull) + "\n")
         ship_output.write('\t\t"required crew" ' + str(ship_required_crew) + "\n")
+        if ship_automaton:
+            ship_output.write('\t\t"automaton" 1'+ "\n")
         ship_output.write('\t\t"bunks" ' + str(ship_bunks) + "\n")
         ship_output.write('\t\t"mass" ' + str(round(ship_mass,1)) + "\n")
         ship_output.write('\t\t"drag" ' + str(ship_drag) + "\n")

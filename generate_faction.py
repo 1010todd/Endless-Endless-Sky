@@ -41,6 +41,9 @@ class government():
         self.fleet_tactic = 'balance'
         self.civiefleetvariants = 6
         self.ftl = 'Hyperdrive'
+        self.automation = 0
+        self.dronechance = 0
+        self.ship_speciality = ''
         self.militaryname = ''
         self.militaryinit = ''
         self.military = .5
@@ -315,7 +318,15 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         #Special stats faction could gain, weighted from reg stats
         #shield = piercing, disruption...
         ship_special_stats = random.choice('shielding armor heat agility'.split())
+        ship_protection = {'hull': 0, 'shield': 0, 'heat': 0}
+        tech_branches = {'armor': 0, 'shield': 0, 'heat': 0, 'mass': 0, 'space': 0}
+        techpoints = random.randrange(2,5) + round(faction_tier) + round(faction_age)
 
+        for point in range(techpoints):
+            target_tech = random.choice(list(tech_branches.keys()))
+            tech_branches[target_tech] += point
+        if random.random() < .001 + min(.9,faction_tier/10):
+            ship_protection = ['hull']
         civiefleetvariants = random.randrange(3,12)
         fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
         designpriority = 'engine power defense weapon'.split()
@@ -327,6 +338,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
 
         ship_lenghtwidthratio = random.triangular(.3,.7)
         automation = random.random()
+        dronechance = random.random() + (automation*.5)
 
         lang_civie_type = random.choice(['pregen','parts'])
         lang_milit_type = random.choice(['pregen','parts'])
@@ -367,6 +379,9 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.lang_spacechance = lang_spacechance
         faction.lang_charweight = lang_charweight
         faction.ftl = ftl_method
+        faction.automation = automation
+        faction.dronechance = dronechance
+        faction.ship_speciality = ship_special_stats
         faction.designpriority = designpriority
         faction.military = faction_military
         faction.lenwid = ship_lenghtwidthratio
