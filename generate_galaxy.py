@@ -336,9 +336,9 @@ def generate_hazards(faction,galaxy):
                     hazarddamage[i],hazarddamage[j] = hazarddamage[j],hazarddamage[i]
         hazardname = ""
         if len(hazarddamage) == 0:
-            hazarddamage[0] = 0
+            hazarddamage.append(0)
         if len(hazardreldamage) == 0:
-            hazardreldamage[0] =  0
+            hazardreldamage.append(0)
         if (hazardreldamage[0]*14000) >= hazarddamage[0]:
             if hazardreldmgtype[0] == 'shield' or hazardreldmgtype[0] == 'energy':
                 hazardeffchoice = 'ion'
