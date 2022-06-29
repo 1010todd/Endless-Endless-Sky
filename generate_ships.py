@@ -1195,6 +1195,9 @@ def create_ship(faction): #Todo, option for without faction?
         ship_output.write('\t\t"outfit space" ' + str(ship_outfit_space) + "\n")
         ship_output.write('\t\t"weapon capacity" ' + str(ship_weapon_capacity) + "\n")
         ship_output.write('\t\t"engine capacity" ' + str(ship_engine_capacity) + "\n")
+        for key,val in faction.ship_protection.items():
+            if val != 0:
+                ship_output.write(f'\t\t"{key} protection" {val:.3f}' + "\n")
         ship_output.write('\t\tweapon ' + "\n")
         ship_output.write('\t\t\t"blast radius" ' + str(ship_blast_radius) + "\n")
         ship_output.write('\t\t\t"shield damage" ' + str(ship_shield_damage) + "\n")

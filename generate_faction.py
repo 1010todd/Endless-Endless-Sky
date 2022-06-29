@@ -44,6 +44,7 @@ class government():
         self.automation = 0
         self.dronechance = 0
         self.ship_speciality = ''
+        self.ship_protection = {}
         self.militaryname = ''
         self.militaryinit = ''
         self.military = .5
@@ -326,7 +327,11 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             target_tech = random.choice(list(tech_branches.keys()))
             tech_branches[target_tech] += point
         if random.random() < .001 + min(.9,faction_tier/10):
-            ship_protection = ['hull']
+            if random.random() < ship_shield_hull_factor:
+                ship_protection['shield'] = tech_branches['shield'] * .1
+            else:
+                ship_protection['hull'] = tech_branches['armor'] * .1
+            
         civiefleetvariants = random.randrange(3,12)
         fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
         designpriority = 'engine power defense weapon'.split()
@@ -381,6 +386,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.ftl = ftl_method
         faction.automation = automation
         faction.dronechance = dronechance
+        faction.ship_protection = ship_protection
         faction.ship_speciality = ship_special_stats
         faction.designpriority = designpriority
         faction.military = faction_military
