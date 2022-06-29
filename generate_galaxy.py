@@ -399,8 +399,10 @@ def generate_hazards(faction,galaxy):
                     hazard_output.write(f'\t\t"{hazarddmgtype[d]} damage" {hazarddamage[d]:.5f}' + '\n')
             else:
                 for d in range(len(hazardreldmgtype)):
+                    if hazardreldmgtype[0] == 0: break
                     hazard_output.write(f'\t\t"relative {hazardreldmgtype[d]} damage" {hazardreldamage[d]:.5f}' + '\n')
                 for d in range(len(hazarddamage)):
+                    if hazarddamage[0] == 0: break
                     hazard_output.write(f'\t\t"{hazarddmgtype[d]} damage" {hazarddamage[d]:.5f}' + '\n')
             if hazardpiercing > 0:
                 hazard_output.write(f'\t\t"piercing" {hazardpiercing:.2f}' + '\n')
