@@ -340,8 +340,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_type_amount = max(1,round(random.gauss(2, 1),1))
 
     #Generate sets of energy generators;
-    power_types_generated_count = 1
-    while power_types_generated_count <= int(power_type_amount):
+    for n in range(int(power_type_amount)):
         #Calculates new values
         
         power_outfit = random.randint(int(min_outfit_space), int(max_outfit_space))
@@ -353,6 +352,15 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_type = random.choice(['Generator','Core','Reactor', 'Cell'])
         
         pow_heat_effciency = random.gauss(max(1,faction.tier), 1)/max(1,faction.tier)
+
+        pow_intbattery = random.uniform(0.1,.9)
+        pow_battchance = .3
+
+        pow_batter = 0
+        if random.random() < pow_battchance:
+            batterylow = roundup10((pow_intbattery*power_outfit)*150*random.uniform(1.1*faction.tier,2*faction.tier))
+            batteryhigh = roundup10((pow_intbattery*power_outfit)*550*random.uniform(1.1*faction.tier,2*faction.tier))
+            pow_batter = random.randrange(batterylow,batteryhigh)
 
         #Power Name
         power_name_list=[]
@@ -375,6 +383,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_outfit_curve = round(random.gauss(1, .1),1)
         power_power_curve = round(1.1*(max(1,faction.tier/2)),1)
         power_heat_curve = round(1.1*pow_heat_effciency,1)
+        battery_energy_curve = round(1.1*(max(1,random.uniform(faction.tier/3,faction.tier/2))),1)
 
         power_thumb_list = ['tiny fuel cell','small fuel cell','medium fuel cell','large fuel cell','huge fuel cell']
         #Iterates Values
@@ -390,6 +399,8 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
             power_output.write('\t"mass" ' + str(power_outfit) + "\n")
             power_output.write('\t"outfit space" -' + str(power_outfit) + "\n")
             power_output.write('\t"energy generation" ' + str(power_power) + "\n")
+            if pow_batter != 0:
+                power_output.write(f'\t"energy capacity" {pow_batter}' + "\n")
             power_output.write('\t"heat generation" ' + str(power_heat) + "\n")
             power_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Power generator"\n')
             power_output.write('\n')
@@ -398,6 +409,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
 
             outfit = class_Outfit(power_name,'Power',power_cost,power_thumb,power_outfit,power_outfit)
             outfit.energy_gen = power_power
+            outfit.energy_cap = pow_batter
             outfit.heat_gen = power_heat
             faction.outfitlist.append(outfit)
             #Name
@@ -408,9 +420,9 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
             power_outfit = round((power_outfit * 2) * float(power_outfit_curve))
             power_power = round((power_power * 2) * float(power_power_curve), 1)
             power_heat = round((power_heat * 2) * float(power_heat_curve), 1)
+            pow_batter = round((pow_batter * 2) * float(battery_energy_curve), 1)
 
             power_iterations_count += 1
-        power_types_generated_count += 1
     power_output.write('\n')
     outfitter_output.close()
     generate_outfits_config.close()

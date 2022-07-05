@@ -670,7 +670,10 @@ def place_parts(core_img,
 
 def generate_sprite(faction,category="Heavy Warship",width=0,height=0,part_list=[],gun=0,turret=0,enginesp=0):
     stacktype = 2
-    symmode = faction.shipsymmode
+    symmode = True
+    if faction != None:
+        symmode = faction.shipsymmode
+        
     #TODO consider ship data
     if width == 0 or height == 0:
         if category == "Drone" or category == "Fighter":
