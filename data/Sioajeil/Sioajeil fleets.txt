@@ -1,0 +1,101 @@
+fleet "Sioajeil Security"
+	government "Sioajeil"
+	names "Sioajeil Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 11
+	variant 8
+		"Vfajriim" 6
+		"Ifpopeehldoc" 4
+		"Xapkwail" 6
+		"Suomfcuu kojs" 6
+		"Iiufriieomzo" 5
+		"Saoupauifpiu" 4
+		"Zeeafuioirij" 6
+	variant 13
+		"Suomfcuu kojs" 6
+		"Xapkwail" 6
+		"Zeeafuioirij" 5
+		"Iiufriieomzo" 5
+		"Saoupauifpiu" 1
+		"Vfajriim" 5
+		"Ifpopeehldoc" 4
+	variant 2
+		"Saoupauifpiu" 2
+		"Xapkwail" 1
+		"Ifpopeehldoc" 5
+		"Vfajriim" 3
+		"Suomfcuu kojs" 2
+		"Iiufriieomzo" 5
+		"Zeeafuioirij" 2
+	variant 3
+		"Ifpopeehldoc" 4
+		"Vfajriim" 2
+		"Xapkwail" 5
+		"Suomfcuu kojs" 4
+		"Iiufriieomzo" 5
+		"Zeeafuioirij" 4
+		"Saoupauifpiu" 3
+	variant 14
+		"Xapkwail" 6
+		"Saoupauifpiu" 3
+		"Suomfcuu kojs" 5
+		"Iiufriieomzo" 2
+		"Vfajriim" 5
+		"Ifpopeehldoc" 1
+		"Zeeafuioirij" 3
+fleet "Sioajeil Privateer"
+	government "Sioajeil"
+	names "Sioajeil names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Iiufriieomzo" 2
+		"Saoupauifpiu" 2
+		"Ifpopeehldoc" 3
+	variant 17
+		"Saoupauifpiu" 2
+		"Qijuofrzappk" 1
+		"Saoupauifpiu" 2
+	variant 30
+		"Xapkwail" 4
+		"Ifpopeehldoc" 3
+		"Oeoqzuauqeho" 2
+	variant 54
+		"Saoupauifpiu" 1
+		"Suomfcuu kojs" 1
+		"Qijuofrzappk" 4
+	variant 52
+		"Vfajriim" 3
+		"Vfajriim" 3
+		"Saoupauifpiu" 1
+	variant 85
+		"Vfajriim" 4
+		"Vfajriim" 4
+		"Vfajriim" 3
+	variant 90
+		"Xapkwail" 3
+		"Oeoqzuauqeho" 3
+		"Saoupauifpiu" 4
+fleet "Sioajeil Miner"
+	government "Sioajeil"
+	names "Sioajeil names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 2
+		"Saoupauifpiu" 4
+		"Zeeafuioirij" 2
+	variant 7
+		"Zeeafuioirij" 2
+		"Ifpopeehldoc" 2
+	variant 6
+		"Vfajriim" 2
+		"Zeeafuioirij" 2
+	variant 4
+		"Zeeafuioirij" 3
+		"Saoupauifpiu" 3

@@ -1,0 +1,292 @@
+outfit "Zuhk Tachyon Projector"
+	category "Guns"
+	cost 21717400
+	thumbnail "outfit/slicer"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "hion"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.8
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 9.1
+		"firing heat" 2.7
+		"shield damage" 13.4
+		"hull damage" 8.6
+	description "Auau pobo T2.5 Beam weapon"
+
+outfit "Zuhk Tachyon Projector Turret"
+	category "Turrets"
+	cost 101665149.88026738
+	thumbnail "outfit/slicer turret"
+	"mass" 133
+	"outfit space" -133
+	"weapon capacity" -133
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/laser"
+		"hardpoint sprite" "hardpoint/slicer turret"
+		sound "hion"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.8
+		"turret turn" 0.3
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 9.1
+		"firing heat" 2.7
+		"shield damage" 13.4
+		"hull damage" 8.6
+	description "Auau pobo T2.5 Beam weapon 1gun Turret"
+
+outfit "Mroo Torpedo"
+	category "Ammunition"
+	cost 7272251
+	thumbnail "outfit/torpedo"
+	"mass" 0.08
+	"Mroo Torpedo capacity" -1
+	description "Auau pobo Missile"
+
+outfit "Mroo Torpedo Storage
+	category "Ammunition"
+	cost 40585882
+	thumbnail "outfit/torpedo storage"
+	"mass" 3
+	"outfit space" -3
+	"Mroo Torpedo capacity" 38
+	ammo "Mroo Torpedo"
+	description "Mroo Torpedo Storage"
+
+outfit "Mroo Torpedo Tube"
+	category "Secondary Weapons"
+	cost 29528900
+	thumbnail "outfit/torpedo launcher"
+	"mass" 3
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	"Mroo Torpedo capacity" 38
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Mroo Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.1
+		"velocity" 42
+		"lifetime" 100
+		"reload" 11
+		"firing energy" 5.9
+		"firing heat" 57.8
+		"acceleration" 1.4
+		"drag" 0.1
+		"turn" 70.7
+		"homing" 3
+		"infrared tracking" 0.96
+		"shield damage" 76.5
+		"hull damage" 112.3
+		"slowing damage" 9.5
+		"missile strength" 222.7
+	description "Auau pobo T2.5 Missile weapon"
+
+outfit "Faie Rapid Bombard"
+	category "Guns"
+	cost 26585300
+	thumbnail "outfit/bombardment cannon"
+	"mass" 39
+	"outfit space" -39
+	"weapon capacity" -39
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/proton"
+		sound "particle"
+		"hit effect" "small explosion"
+		"inaccuracy" 4.6
+		"velocity" 35
+		"lifetime" 17
+		"reload" 6
+		"firing energy" 22.6
+		"firing heat" 12.7
+		"shield damage" 29.2
+		"hull damage" 60.9
+	description "Auau pobo T2.5 Projectile weapon"
+
+outfit "Faie Rapid Bombard Turret"
+	category "Turrets"
+	cost 117367693.37923506
+	thumbnail "outfit/bombardment turret"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/proton"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		sound "particle"
+		"hit effect" "small explosion"
+		"inaccuracy" 4.6
+		"turret turn" 0.6
+		"velocity" 35
+		"lifetime" 17
+		"reload" 3
+		"firing energy" 22.6
+		"firing heat" 12.7
+		"shield damage" 29.2
+		"hull damage" 60.9
+	description "Auau pobo T2.5 Projectile weapon 2gun Turret"
+
+outfit "Toea Tracker"
+	category "Ammunition"
+	cost 881160
+	thumbnail "outfit/typhoon"
+	"mass" 0.05
+	"Toea Tracker capacity" -1
+	description "Auau pobo Missile"
+
+outfit "Toea Tracker Storage
+	category "Ammunition"
+	cost 8301815
+	thumbnail "outfit/typhoon storage"
+	"mass" 0
+	"outfit space" -2
+	"Toea Tracker capacity" 40
+	ammo "Toea Tracker"
+	description "Toea Tracker Storage"
+
+outfit "Toea Tracker Launcher"
+	category "Secondary Weapons"
+	cost 4164800
+	thumbnail "outfit/typhoon launcher"
+	"mass" 0
+	"outfit space" -58
+	"weapon capacity" -58
+	"gun ports" -1
+	"Toea Tracker capacity" 40
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Toea Tracker"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 15.9
+		"velocity" 26
+		"lifetime" 2000
+		"reload" 4
+		"firing energy" 29.5
+		"firing heat" 65.1
+		"acceleration" 0.8
+		"drag" 0.1
+		"turn" 5.4
+		"homing" 3
+		"radar tracking" 0.87
+		"shield damage" 95.3
+		"hull damage" 39.5
+		"hit force" 14
+		"missile strength" 99.4
+	description "Auau pobo T2.5 Missile weapon"
+
+outfit "Caae Machine Blaster"
+	category "Guns"
+	cost 13686300
+	thumbnail "outfit/proton gun"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "plasma"
+		"hit effect" "proton impact"
+		"inaccuracy" 0.6
+		"velocity" 26
+		"lifetime" 17
+		"reload" 3
+		"firing energy" 6.6
+		"firing heat" 2.1
+		"shield damage" 12.3
+		"hull damage" 13.4
+		"hit force" 20
+	description "Auau pobo T2.5 Projectile weapon"
+
+outfit "Caae Machine Blaster Turret"
+	category "Turrets"
+	cost 45189439.47240155
+	thumbnail "outfit/proton turret"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/tracker"
+		"hardpoint sprite" "hardpoint/proton turret"
+		sound "plasma"
+		"hit effect" "proton impact"
+		"inaccuracy" 0.6
+		"turret turn" 0.3
+		"velocity" 26
+		"lifetime" 17
+		"reload" 3
+		"firing energy" 6.6
+		"firing heat" 2.1
+		"shield damage" 12.3
+		"hull damage" 13.4
+		"hit force" 20
+	description "Auau pobo T2.5 Projectile weapon 1gun Turret"
+
+outfit "Awad Gun"
+	category "Guns"
+	cost 19490400
+	thumbnail "outfit/pulse"
+	"mass" 67
+	"outfit space" -67
+	"weapon capacity" -67
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/proton"
+		sound "pulse"
+		"hit effect" "proton impact"
+		"inaccuracy" 0.7
+		"velocity" 30
+		"lifetime" 59
+		"reload" 2
+		"firing energy" 8.5
+		"firing heat" 19.4
+		"shield damage" 25.7
+		"hull damage" 19.9
+	description "Auau pobo T2.5 Projectile weapon"
+
+outfit "Geye Anti-Missile"
+	category "Turrets"
+	cost 11054500
+	thumbnail "outfit/anti-missile"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "blaster impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 22.2
+		"velocity" 400
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 130.7
+		"firing heat" 129.0
+	description "Auau pobo T2.5 Anti-missile"
+

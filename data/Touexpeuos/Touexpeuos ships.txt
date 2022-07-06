@@ -1,0 +1,472 @@
+ship "Readi okuta"
+	sprite "ship/indus1 in 2"
+	thumbnail "thumbnail/indus1 in 2"
+	attributes 
+		category "Interceptor"
+		"cost" 61000
+		"shields" 500
+		"hull" 1400
+		"required crew" 1
+		"automaton" 1
+		"bunks" 9
+		"mass" 117.6
+		"drag" 2.51
+		"heat dissipation" 0.86
+		"fuel capacity" 700
+		"cargo space" 15
+		"outfit space" 189
+		"weapon capacity" 77
+		"engine capacity" 60
+		weapon 
+			"blast radius" 20
+			"shield damage" 210
+			"hull damage" 110
+			"hit force" 150
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Oaedbolueo Thruster" 1
+		"Oaedbolueo Steering" 1
+		"Uiaou Anti-Missile" 1
+		"Qnaeowsuoo Cell" 1
+		"Aaoyi Capacitor" 1
+		"Oueou Cell" 1
+		"Hyperdrive"
+	engine -17.0 35.0
+	engine 17.0 35.0
+	gun -0.7 -56.1
+	gun -4.0 -60.0
+	gun 4.0 -60.0
+	gun -26.0 -43.0
+	gun 26.0 -43.0
+	gun 0.7 -56.1
+	turret 0.0 16.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Touexpeuos T0.9 ship"
+
+ship "Aideeayuuyfureq"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 150000
+		"shields" 800
+		"hull" 2400
+		"required crew" 8
+		"automaton" 1
+		"bunks" 32
+		"mass" 347.8
+		"drag" 6.9
+		"heat dissipation" 0.88
+		"fuel capacity" 700
+		"cargo space" 105
+		"outfit space" 514
+		"weapon capacity" 187
+		"engine capacity" 130
+		weapon 
+			"blast radius" 34
+			"shield damage" 350
+			"hull damage" 180
+			"hit force" 240
+	outfits 
+		"Oaedbolueo Steering" 1
+		"Uqeuz Machine Basilisk" 4
+		"Otyio ziyag Cell" 1
+		"Aaoyi Capacitor" 1
+		"Auavu Cell" 1
+		"Beeoi Thruster" 1
+		"Beeoi Steering" 1
+		"Oueou Cell" 1
+		"Iujuq Temperature Control" 2
+		"Hyperdrive"
+	engine 0 42.3
+	gun -3.0 -39.8
+	gun 3.3 -40.0
+	gun -3.3 -40.0
+	gun 3.0 -39.8
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Touexpeuos T0.9 ship"
+
+ship "Xiisoseiaa wilii"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 349000
+		"shields" 1400
+		"hull" 4500
+		"required crew" 7
+		"automaton" 1
+		"bunks" 22
+		"mass" 261.6
+		"drag" 5.19
+		"heat dissipation" 0.68
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 472
+		"weapon capacity" 198
+		"engine capacity" 120
+		weapon 
+			"blast radius" 63
+			"shield damage" 640
+			"hull damage" 320
+			"hit force" 450
+	outfits 
+		"Oaedbolueo Steering" 1
+		"Uqeuz Machine Basilisk" 2
+		"Auavu Cell" 2
+		"Aaoyi Capacitor" 1
+		"Beeoi Thruster" 1
+		"Beeoi Steering" 1
+		"Oueou Cell" 1
+		"Iujuq Temperature Control" 2
+		"Hoigu Heat Pump" 1
+		"Hyperdrive"
+	engine 0 44.0
+	gun -4.0 -47.3
+	gun 4.0 -47.3
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Touexpeuos T0.9 ship"
+
+ship "Xyaxeiukyedoqoy"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 314000
+		"shields" 3400
+		"hull" 10700
+		"required crew" 24
+		"automaton" 1
+		"bunks" 82
+		"mass" 1013.6
+		"drag" 19.35
+		"heat dissipation" 0.62
+		"fuel capacity" 500
+		"cargo space" 490
+		"outfit space" 1124
+		"weapon capacity" 407
+		"engine capacity" 330
+		weapon 
+			"blast radius" 151
+			"shield damage" 1510
+			"hull damage" 760
+			"hit force" 1060
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Oaedbolueo Thruster" 1
+		"Oaedbolueo Steering" 1
+		"Uiaou Anti-Missile" 1
+		"Uqeuz Machine Basilisk" 3
+		"Uqeuz Machine Basilisk Turret" 1
+		"Auavu Cell" 2
+		"Aaoyi Capacitor" 1
+		"Otyio ziyag Cell" 1
+		"Oueou Cell" 1
+		"Qnaeowsuoo Cell" 1
+		"Geuiu Temperature Control" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	gun -15.5 -402.5
+	gun 15.5 -402.5
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Touexpeuos T0.9 ship"
+
+ship "Houuy cniabixvfu"
+	sprite "ship/indus1 hf 1"
+	thumbnail "thumbnail/indus1 hf 1"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 307000
+		"shields" 3100
+		"hull" 9700
+		"required crew" 29
+		"automaton" 1
+		"bunks" 133
+		"mass" 888.6
+		"drag" 18.39
+		"heat dissipation" 0.55
+		"fuel capacity" 600
+		"cargo space" 430
+		"outfit space" 1617
+		"weapon capacity" 638
+		"engine capacity" 470
+		weapon 
+			"blast radius" 137
+			"shield damage" 1370
+			"hull damage" 690
+			"hit force" 960
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Oaedbolueo Thruster" 1
+		"Oaedbolueo Steering" 1
+		"Uiaou Anti-Missile" 1
+		"Uqeuz Machine Basilisk" 2
+		"Uqeuz Machine Basilisk Turret" 2
+		"Auavu Cell" 2
+		"Aaoyi Capacitor" 2
+		"Otyio ziyag Cell" 1
+		"Oueou Cell" 1
+		"Qnaeowsuoo Cell" 1
+		"Geuiu Temperature Control" 1
+		"Hyperdrive"
+	engine -102.5 409.5
+	engine 102.5 409.5
+	engine -142.0 390.0
+	engine 142.0 390.0
+	gun 56.5 -403.5
+	gun -15.5 -402.5
+	turret 155.0 213.5
+	turret -42.5 -361.0
+	turret 42.5 -361.0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Touexpeuos T0.9 ship"
+
+ship "Obiirewyru"
+	sprite "ship/indus1 hw 1"
+	thumbnail "thumbnail/indus1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 1627000
+		"shields" 7600
+		"hull" 24000
+		"required crew" 13
+		"bunks" 93
+		"mass" 1289.4
+		"drag" 27.19
+		"heat dissipation" 0.6
+		"fuel capacity" 500
+		"cargo space" 155
+		"outfit space" 2006
+		"weapon capacity" 803
+		"engine capacity" 590
+		weapon 
+			"blast radius" 338
+			"shield damage" 3380
+			"hull damage" 1690
+			"hit force" 2370
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Oaedbolueo Thruster" 1
+		"Oaedbolueo Steering" 1
+		"Uiaou Anti-Missile" 1
+		"Uqeuz Machine Basilisk" 4
+		"Uqeuz Machine Basilisk Turret" 4
+		"Auavu Cell" 2
+		"Aaoyi Capacitor" 2
+		"Otyio ziyag Cell" 1
+		"Oueou Cell" 1
+		"Qnaeowsuoo Cell" 1
+		"Geuiu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 176.1
+	gun -4.4 -160.2
+	gun 0.1 -156.6
+	gun -0.1 -156.6
+	gun 4.4 -160.2
+	turret 4.7 -132.2
+	turret 5.4 -46.0
+	turret -5.4 -46.0
+	turret 3.5 -77.0
+	turret -3.5 -77.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Touexpeuos T0.9 ship"
+
+ship "Iwoeoinayi"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 274000
+		"shields" 4700
+		"hull" 14900
+		"required crew" 8
+		"automaton" 1
+		"bunks" 44
+		"mass" 1051.4
+		"drag" 19.31
+		"heat dissipation" 0.89
+		"fuel capacity" 400
+		"cargo space" 130
+		"outfit space" 1376
+		"weapon capacity" 528
+		"engine capacity" 430
+		weapon 
+			"blast radius" 210
+			"shield damage" 2100
+			"hull damage" 1050
+			"hit force" 1470
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Oaedbolueo Thruster" 1
+		"Oaedbolueo Steering" 1
+		"Uiaou Anti-Missile" 1
+		"Uqeuz Machine Basilisk" 4
+		"Uqeuz Machine Basilisk Turret" 4
+		"Auavu Cell" 2
+		"Aaoyi Capacitor" 2
+		"Otyio ziyag Cell" 1
+		"Oueou Cell" 1
+		"Qnaeowsuoo Cell" 1
+		"Geuiu Temperature Control" 1
+		"Hyperdrive"
+	engine 0 300.8
+	gun 82.0 -13.0
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Touexpeuos T0.9 ship"
+
+ship "Iuloarukiu diyao"
+	sprite "ship/indus1 in 1"
+	thumbnail "thumbnail/indus1 in 1"
+	attributes 
+		category "Interceptor"
+		"cost" 51000
+		"shields" 500
+		"hull" 1400
+		"required crew" 1
+		"bunks" 4
+		"mass" 64.6
+		"drag" 1.25
+		"heat dissipation" 1.06
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 116
+		"weapon capacity" 44
+		"engine capacity" 30
+		weapon 
+			"blast radius" 20
+			"shield damage" 210
+			"hull damage" 110
+			"hit force" 150
+	outfits 
+		"Oelru Shield Rejuvenator" 1
+		"Beeoi Thruster" 1
+		"Beeoi Steering" 1
+		"Uqeuz Machine Basilisk" 2
+		"Hoigu Heat Pump" 2
+		"Ulayo iuiai Cooling" 1
+		"Geuiu Temperature Control" 1
+		"Aaoyi Capacitor" 1
+		"Hyperdrive"
+	engine -7.0 33.0
+	engine 7.0 33.0
+	gun 1.0 -37.7
+	gun -17.5 7.5
+	gun 17.5 7.5
+	gun -3.5 -37.5
+	gun 3.5 -37.5
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Touexpeuos T0.9 ship"
+
+ship "Yaaykbeieiewfue"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 36000
+		"shields" 700
+		"hull" 2200
+		"required crew" 3
+		"automaton" 1
+		"bunks" 25
+		"mass" 298.2
+		"drag" 5.72
+		"heat dissipation" 0.83
+		"fuel capacity" 400
+		"cargo space" 90
+		"outfit space" 494
+		"weapon capacity" 154
+		"engine capacity" 130
+		weapon 
+			"blast radius" 31
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 220
+	outfits 
+		"Oaedbolueo Steering" 1
+		"Uqeuz Machine Basilisk" 5
+		"Aaoyi Capacitor" 1
+		"Heiiu Cell" 2
+		"Beeoi Thruster" 1
+		"Beeoi Steering" 1
+		"Hoigu Heat Pump" 3
+		"Iewiuwawub Cell" 1
+		"Iujuq Temperature Control" 1
+		"Ulayo iuiai Cooling" 1
+		"Hyperdrive"
+	engine 0 41.5
+	gun 4.1 -38.0
+	gun 3.4 -46.5
+	gun -3.4 -46.5
+	gun 0.5 -41.6
+	gun -0.5 -41.6
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Touexpeuos T0.9 ship"
+

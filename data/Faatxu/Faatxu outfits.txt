@@ -1,0 +1,238 @@
+outfit "Apofea Battery Pack"
+	category "Power"
+	cost 556700
+	thumbnail "outfit/tiny battery hai"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 5890
+	description "Faatxu T4.5 Battery"
+
+outfit "Apofea Battery Pack"
+	category "Power"
+	cost 1002100
+	thumbnail "outfit/small battery hai"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 29450
+	description "Faatxu T4.5 Battery"
+
+
+outfit "Afe Cell"
+	category "Power"
+	cost 307200
+	thumbnail "outfit/fission"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 5.6
+	"heat generation" 7.4
+	description "Faatxu T4.5 Power generator"
+
+outfit "Idzuad Cell"
+	category "Power"
+	cost 522300
+	thumbnail "outfit/breeder"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 28.0
+	"heat generation" 19.2
+	description "Faatxu T4.5 Power generator"
+
+
+outfit "Cir Thruster"
+	category "Engines"
+	cost 4110600
+	thumbnail "outfit/small ion thruster"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 5.8
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 1.1642372286924707
+	"flare sound" "ion small"
+	description "Faatxu T4.5 Thruster"
+
+outfit "Cir Steering"
+	category "Engines"
+	cost 3710436
+	thumbnail "outfit/small ion steering"
+	"mass" 9
+	"outfit space" -9
+	"engine capacity" -9
+	"turn" 149
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Faatxu T4.5 steering"
+
+outfit "Iud egn Thruster"
+	category "Engines"
+	cost 6988100
+	thumbnail "outfit/medium ion thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 15.1
+	"thrusting energy" 0.4
+	"thrusting heat" 0.7
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 1
+	"flare sound" "ion medium"
+	description "Faatxu T4.5 Thruster"
+
+outfit "Iud egn Steering"
+	category "Engines"
+	cost 11879800
+	thumbnail "outfit/medium ion steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 387.4
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Faatxu T4.5 steering"
+
+outfit "Sdu Thruster"
+	category "Engines"
+	cost 11879800
+	thumbnail "outfit/large ion thruster"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"thrust" 39.3
+	"thrusting energy" 0.9
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 1
+	"flare sound" "ion large"
+	description "Faatxu T4.5 Thruster"
+
+outfit "Sdu Steering"
+	category "Engines"
+	cost 20195700
+	thumbnail "outfit/large ion steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 1007.2
+	"turning energy" 0.9
+	"turning heat" 1.5
+	description "Faatxu T4.5 steering"
+
+
+outfit "Fsa Shielding"
+	category "Systems"
+	cost 1097900
+	thumbnail "outfit/tiny shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 2.77
+	"shield energy" 3.71
+	"shield heat" 3
+	description "Faatxu T4.5 shield gen"
+
+outfit "Iaipux Shielding"
+	category "Systems"
+	cost 1976300
+	thumbnail "outfit/small shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 5.5
+	"shield energy" 3.0
+	"shield heat" 3
+	description "Faatxu T4.5 shield gen"
+
+outfit "Lag Shielding"
+	category "Systems"
+	cost 3557400
+	thumbnail "outfit/medium shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 11.0
+	"shield energy" 2.4
+	"shield heat" 3
+	description "Faatxu T4.5 shield gen"
+
+
+
+outfit "Ued otx Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 29
+	description "Faatxu T4.5 Cooling"
+
+
+outfit "Ihr ieu Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 17
+	description "Faatxu T4.5 Cooling"
+
+
+outfit "Onc Core"
+	category "Power"
+	cost 322200
+	thumbnail "outfit/tiny fuel cell"
+	"mass" 9
+	"outfit space" -9
+	"energy generation" 4.9
+	"heat generation" 7.1
+	description "Faatxu T4.5 Power generator"
+
+outfit "Owblie Core"
+	category "Power"
+	cost 547800
+	thumbnail "outfit/small fuel cell"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 24.5
+	"heat generation" 11.4
+	description "Faatxu T4.5 Power generator"
+
+outfit "Ruj sei Core"
+	category "Power"
+	cost 931300
+	thumbnail "outfit/medium fuel cell"
+	"mass" 36
+	"outfit space" -36
+	"energy generation" 122.5
+	"heat generation" 18.2
+	description "Faatxu T4.5 Power generator"
+
+outfit "Udaevr Core"
+	category "Power"
+	cost 1583300
+	thumbnail "outfit/large fuel cell"
+	"mass" 72
+	"outfit space" -72
+	"energy generation" 612.5
+	"heat generation" 29.1
+	description "Faatxu T4.5 Power generator"
+
+outfit "Ura kee Core"
+	category "Power"
+	cost 2691700
+	thumbnail "outfit/huge fuel cell"
+	"mass" 144
+	"outfit space" -144
+	"energy generation" 3062.5
+	"heat generation" 46.6
+	description "Faatxu T4.5 Power generator"
+
+
+outfit "Pua Heat Pump"
+	category "Systems"
+	cost 17300
+	thumbnail "outfit/large heat shunt"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 112
+	description "Faatxu T4.5 Cooling"
+
+

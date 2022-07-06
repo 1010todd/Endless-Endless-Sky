@@ -1,0 +1,96 @@
+fleet "Dzeuxorewu Security"
+	government "Dzeuxorewu"
+	names "Dzeuxorewu Military names"
+	personality
+		heroic
+		confusion 11
+	variant 14
+		"Yiomu icgig" 4
+		"Ouotbeoepu eozqe" 0
+		"Mniudtuyap jdizo" 2
+		"Maoheacpex" 3
+		"Lzaeu kohua" 4
+		"Oiucuihqiaovaea" 3
+		"Jgovuoooee" 3
+		"Enpihqquit biena" 3
+	variant 19
+		"Yiomu icgig" 3
+		"Ouotbeoepu eozqe" 0
+		"Maoheacpex" 4
+		"Avicahuari" 3
+		"Jgovuoooee" 2
+		"Aeixeaoueubjaiu" 4
+		"Enpihqquit biena" 2
+	variant 6
+		"Yiomu icgig" 3
+		"Ouotbeoepu eozqe" 0
+		"Maoheacpex" 3
+		"Lzaeu kohua" 2
+		"Oiucuihqiaovaea" 2
+		"Jgovuoooee" 3
+	variant 17
+		"Yiomu icgig" 6
+		"Ouotbeoepu eozqe" 0
+		"Mniudtuyap jdizo" 3
+		"Lzaeu kohua" 3
+	variant 2
+		"Yiomu icgig" 4
+		"Ouotbeoepu eozqe" 0
+		"Mniudtuyap jdizo" 3
+		"Maoheacpex" 2
+		"Avicahuari" 2
+		"Lzaeu kohua" 2
+		"Oiucuihqiaovaea" 4
+		"Biugdbaericraoo" 2
+		"Aeixeaoueubjaiu" 3
+	variant 9
+		"Yiomu icgig" 6
+		"Ouotbeoepu eozqe" 0
+		"Mniudtuyap jdizo" 2
+		"Avicahuari" 4
+		"Lzaeu kohua" 3
+		"Biugdbaericraoo" 2
+	variant 10
+		"Yiomu icgig" 4
+		"Ouotbeoepu eozqe" 0
+		"Mniudtuyap jdizo" 3
+		"Maoheacpex" 3
+		"Lzaeu kohua" 2
+		"Oiucuihqiaovaea" 2
+		"Biugdbaericraoo" 4
+fleet "Dzeuxorewu Civilian"
+	government "Dzeuxorewu"
+	names "Dzeuxorewu names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Ouotbeoepu eozqe" 1
+		"Oiucuihqiaovaea" 1
+		"Lzaeu kohua" 2
+	variant 5
+		"Ouotbeoepu eozqe" 2
+		"Maoheacpex" 3
+		"Yiomu icgig" 2
+	variant 10
+		"Ouotbeoepu eozqe" 4
+		"Yiomu icgig" 1
+		"Yiomu icgig" 1
+	variant 51
+		"Ouotbeoepu eozqe" 3
+		"Yiomu icgig" 3
+		"Aeixeaoueubjaiu" 4
+fleet "Dzeuxorewu Miner"
+	government "Dzeuxorewu"
+	names "Dzeuxorewu names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 14
+		"Biugdbaericraoo" 2
+		"Ouotbeoepu eozqe" 0
+	variant 5
+		"Biugdbaericraoo" 2
+		"Ouotbeoepu eozqe" 0

@@ -1,0 +1,60 @@
+fleet "Auau pobo Guard"
+	government "Auau pobo"
+	names "Auau pobo Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 11
+	variant 13
+		"Rgee home oxai" 2
+		"Fuletalt" 4
+		"Fqek cuhn eryi" 2
+		"Eikt zueo" 3
+		"Fuurlowi mmai" 3
+		"Bata zaui" 1
+	variant 13
+		"Fqek cuhn eryi" 6
+		"Fuurlowi mmai" 2
+		"Bata zaui" 6
+		"Fuletalt" 4
+		"Eikt zueo" 2
+		"Rgee home oxai" 4
+	variant 6
+		"Rgee home oxai" 4
+		"Bata zaui" 3
+		"Fqek cuhn eryi" 2
+		"Eikt zueo" 3
+		"Fuletalt" 6
+		"Fuurlowi mmai" 5
+fleet "Auau pobo Merchant"
+	government "Auau pobo"
+	names "Auau pobo names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Eikt zueo" 3
+		"Fuurlowi mmai" 2
+		"Eikt zueo" 4
+	variant 15
+		"Fuurlowi mmai" 1
+		"Fqek cuhn eryi" 1
+		"Rgee home oxai" 1
+	variant 10
+		"Fqek cuhn eryi" 4
+		"Eikt zueo" 2
+		"Eikt zueo" 3
+fleet "Auau pobo Miner"
+	government "Auau pobo"
+	names "Auau pobo names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 10
+		"Fuurlowi mmai" 2
+		"Fqek cuhn eryi" 0
+	variant 3
+		"Fuurlowi mmai" 4
+		"Fqek cuhn eryi" 0

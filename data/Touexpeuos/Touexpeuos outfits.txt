@@ -1,0 +1,1292 @@
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 70900
+	thumbnail "outfit/tiny battery hai"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 830
+	description "Touexpeuos T0.9 Battery"
+
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 127700
+	thumbnail "outfit/small battery hai"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 1830
+	description "Touexpeuos T0.9 Battery"
+
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 229900
+	thumbnail "outfit/medium battery hai"
+	"mass" 11
+	"outfit space" -11
+	"energy capacity" 4030
+	description "Touexpeuos T0.9 Battery"
+
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 413900
+	thumbnail "outfit/large battery hai"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 8870
+	description "Touexpeuos T0.9 Battery"
+
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 745100
+	thumbnail "outfit/huge battery hai"
+	"mass" 21
+	"outfit space" -21
+	"energy capacity" 19520
+	description "Touexpeuos T0.9 Battery"
+
+outfit "Aaoyi Capacitor"
+	category "Power"
+	cost 1341200
+	thumbnail "outfit/huge battery hai"
+	"mass" 29
+	"outfit space" -29
+	"energy capacity" 42950
+	description "Touexpeuos T0.9 Battery"
+
+
+outfit "Auavu Cell"
+	category "Power"
+	cost 10200
+	thumbnail "outfit/red sun"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 1.2
+	"heat generation" 2.0
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Otyio ziyag Cell"
+	category "Power"
+	cost 17400
+	thumbnail "outfit/yellow sun"
+	"mass" 36
+	"outfit space" -36
+	"energy generation" 2.6
+	"heat generation" 7.6
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Oueou Cell"
+	category "Power"
+	cost 29600
+	thumbnail "outfit/white sun"
+	"mass" 72
+	"outfit space" -72
+	"energy generation" 5.7
+	"heat generation" 28.9
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Qnaeowsuoo Cell"
+	category "Power"
+	cost 50400
+	thumbnail "outfit/blue sun"
+	"mass" 144
+	"outfit space" -144
+	"energy generation" 12.5
+	"heat generation" 109.8
+	description "Touexpeuos T0.9 Power generator"
+
+
+outfit "Beeoi Thruster"
+	category "Engines"
+	cost 2316200
+	thumbnail "outfit/small atomic thruster"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 5.8
+	"thrusting energy" 1.1
+	"thrusting heat" 1.6
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.4122420812069738
+	"flare sound" "atomic small"
+	description "Touexpeuos T0.9 Thruster"
+
+outfit "Beeoi Steering"
+	category "Engines"
+	cost 1614826
+	thumbnail "outfit/small atomic steering"
+	"mass" 6
+	"outfit space" -6
+	"engine capacity" -6
+	"turn" 161
+	"turning energy" 0.8
+	"turning heat" 1.1
+	description "Touexpeuos T0.9 steering"
+
+outfit "Oaedbolueo Thruster"
+	category "Engines"
+	cost 3937600
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 13.9
+	"thrusting energy" 5.3
+	"thrusting heat" 7.7
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "atomic medium"
+	description "Touexpeuos T0.9 Thruster"
+
+outfit "Oaedbolueo Steering"
+	category "Engines"
+	cost 6694000
+	thumbnail "outfit/medium atomic steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 386.4
+	"turning energy" 3.8
+	"turning heat" 5.3
+	description "Touexpeuos T0.9 steering"
+
+
+outfit "Oelru Shield Rejuvenator"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/tiny shield"
+	"mass" 13
+	"outfit space" -13
+	"shield generation" 0.17
+	"shield energy" 0.18
+	description "Touexpeuos T0.9 shield gen"
+
+outfit "Wuiwi Shield Rejuvenator"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 0.3
+	"shield energy" 0.3
+	description "Touexpeuos T0.9 shield gen"
+
+
+
+outfit "Geuiu Temperature Control"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 172
+	"active cooling" 227
+	"cooling energy" 111.95563528921626
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Uohii Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 181
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Liouisiloa Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid helium"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 184
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Heoie Temperature Control"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/large heat shunt"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 228
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Utowi otiui Cooler"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 134
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Qaohoudyio Heatsink"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/large heat shunt"
+	"mass" 62
+	"outfit space" -62
+	"active cooling" 444
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Yusoo xraie Cooling"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 162
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Feyyu Heatsink"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/hai williwaw"
+	"mass" 67
+	"outfit space" -67
+	"active cooling" 700
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Wvuaq Temperature Control"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 142
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Oxhioyoiro Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid helium"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 191
+	"active cooling" 376
+	"cooling energy" 77.78065902587217
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Awaiihiwuo Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 98
+	"outfit space" -98
+	"active cooling" 942
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Faudxeerie Heatsink"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/hai williwaw"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 143
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iloio Heatsink"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 167
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Zaohu aivoa Heat Pump"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 155
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Roekxapede Heat Shunt"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/large heat shunt"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 157
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aqkwiaebes Cooler"
+	category "Systems"
+	cost 2600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 252
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hooia Cooling"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid helium"
+	"mass" 51
+	"outfit space" -51
+	"active cooling" 282
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Afica rioiu Temperature Control"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid helium"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 177
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Quelr Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 170
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Axoaufaese Temperature Control"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 223
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Onuri Temperature Control"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/large heat shunt"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 223
+	"active cooling" 441
+	"cooling energy" 92.7012392551237
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hejeu ixoea Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 209
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Eyfew Heat Pump"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 230
+	"active cooling" 1376
+	"cooling energy" 62.33493589299322
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aguenglaou Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 116
+	"outfit space" -116
+	"cooling" 247
+	"active cooling" 657
+	"cooling energy" 103.09867363599079
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Girhooewee Temperature Control"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 214
+	"active cooling" 58
+	"cooling energy" 120.66711965461963
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Qehuasaiho Heat Shunt"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 153
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aaaihuorli Heat Pump"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 103
+	"outfit space" -103
+	"active cooling" 1260
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Fveeu Temperature Control"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 178
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Yiaoa Temperature Control"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid helium"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 168
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aasiq Heatsink"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 148
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Oaiawrayou Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/liquid helium"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 206
+	"active cooling" 209
+	"cooling energy" 100.04578902552814
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ihuao iutea Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 160
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Joeyiiuyuo Cooling"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 63
+	"outfit space" -63
+	"cooling" 167
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aioxaelokd Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 122
+	"outfit space" -122
+	"cooling" 258
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Laoyw Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 116
+	"outfit space" -116
+	"cooling" 234
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Tueis Cooler"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid helium"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 153
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Wiapq Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/large heat shunt"
+	"mass" 79
+	"outfit space" -79
+	"active cooling" 220
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iohufeuuus Heat Shunt"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/large heat shunt"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 234
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Xgaix Temperature Control"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 223
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Sheeq kuioa Heat Pump"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/large heat shunt"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 259
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Bjemi Heat Pump"
+	category "Systems"
+	cost 2600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 150
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ayiwjbooul Heatsink"
+	category "Systems"
+	cost 2600
+	thumbnail "outfit/hai williwaw"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 262
+	"active cooling" 946
+	"cooling energy" 104.63633083013032
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Teien Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid helium"
+	"mass" 68
+	"outfit space" -68
+	"active cooling" 44
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Wusobubegi Heat Shunt"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 259
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Tlixe jyawi Heatsink"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 86
+	"outfit space" -86
+	"active cooling" 234
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Jaooq Heatsink"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid helium"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 253
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Yaiapurhus Heat Shunt"
+	category "Systems"
+	cost 3100
+	thumbnail "outfit/liquid helium"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 263
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aaeoywkook Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 145
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Skioa Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 114
+	"outfit space" -114
+	"cooling" 233
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aaouusbosa Temperature Control"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/hai williwaw"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 183
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Gouaa Cooler"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 143
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Euyix Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 188
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Qyoilkehii Heat Pump"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 120
+	"outfit space" -120
+	"cooling" 261
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Gaahreeuat Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/large heat shunt"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 155
+	"active cooling" 798
+	"cooling energy" 60.430563187090925
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ohase Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 167
+	"active cooling" 492
+	"cooling energy" 73.79501655619119
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iluue Cooler"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 236
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ioouzaegee Heat Pump"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/large heat shunt"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 152
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Eafui Cooling"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 229
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ausiu Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 221
+	"active cooling" 105
+	"cooling energy" 95.10351255713296
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Eehaa Heat Shunt"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 195
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Whiuaswizo Heat Shunt"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/liquid helium"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 244
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Feawoiohuu Heat Shunt"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 153
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Dudxa Temperature Control"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 74
+	"outfit space" -74
+	"active cooling" 141
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ieexe neyah Temperature Control"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 155
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hiaol Cooling"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 83
+	"outfit space" -83
+	"active cooling" 1200
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ufuiu Temperature Control"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/large heat shunt"
+	"mass" 68
+	"outfit space" -68
+	"active cooling" 452
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hewiu etsoi Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 153
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Zuaralsioe Heat Pump"
+	category "Systems"
+	cost 2600
+	thumbnail "outfit/liquid helium"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 135
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Akwya Heatsink"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 154
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Azeik Cooler"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/liquid helium"
+	"mass" 46
+	"outfit space" -46
+	"active cooling" 670
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Oeiiu udouy Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 200
+	"active cooling" 69
+	"cooling energy" 88.11282824241897
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ohuyu Heat Pump"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/large heat shunt"
+	"mass" 88
+	"outfit space" -88
+	"active cooling" 173
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Niaax exuuo Cooling"
+	category "Systems"
+	cost 2500
+	thumbnail "outfit/large heat shunt"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 191
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Eueei Heat Shunt"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/hai williwaw"
+	"mass" 123
+	"outfit space" -123
+	"cooling" 261
+	"active cooling" 1081
+	"cooling energy" 98.80777264150429
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Aoibdzubaa Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/large heat shunt"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 253
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Eprex Heatsink"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/hai williwaw"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 218
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ihoeuoisji Heat Pump"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/hai williwaw"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 234
+	"active cooling" 828
+	"cooling energy" 116.81954297913414
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iquie Heat Pump"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/liquid helium"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 196
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Uhwewdieus Heat Shunt"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 147
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Lowoe Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 202
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Oyoiaukuui Heatsink"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 220
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Zeuiw Heatsink"
+	category "Systems"
+	cost 3000
+	thumbnail "outfit/large heat shunt"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 141
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ueoeubaiah Heatsink"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 173
+	"active cooling" 810
+	"cooling energy" 57.20980904826584
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Izeid Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 209
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Quauq Cooler"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/liquid helium"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 172
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Izwea Heatsink"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/hai williwaw"
+	"mass" 84
+	"outfit space" -84
+	"active cooling" 801
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Euiky Cooler"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/liquid helium"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 258
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Uqldiiailo Cooler"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 154
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Geouo wxoia Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid helium"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 263
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ivwox Heat Shunt"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/hai williwaw"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 171
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Xieuyeyaqy Heatsink"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 142
+	"active cooling" 544
+	"cooling energy" 43.499247306803476
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Agueqbauol Heat Shunt"
+	category "Systems"
+	cost 2900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 94
+	"outfit space" -94
+	"active cooling" 1225
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Kauoj Cooler"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 120
+	"outfit space" -120
+	"cooling" 255
+	"active cooling" 584
+	"cooling energy" 98.8010436960746
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ehoey ooroe Cooling"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/liquid helium"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 184
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ixhoj Heatsink"
+	category "Systems"
+	cost 2700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 222
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hiedl Heat Shunt"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 242
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Bheah Heatsink"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 184
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Lsuzaykeun Heat Shunt"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/large heat shunt"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 135
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iaaeo Cooler"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 222
+	"active cooling" 680
+	"cooling energy" 96.41092844520134
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Icsji Heatsink"
+	category "Systems"
+	cost 3300
+	thumbnail "outfit/liquid helium"
+	"mass" 91
+	"outfit space" -91
+	"active cooling" 650
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Iujuq Temperature Control"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Hoigu Heat Pump"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Ulayo iuiai Cooling"
+	category "Systems"
+	cost 2800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 6
+	"active cooling" 8
+	"cooling energy" 3.33898538660943
+	description "Touexpeuos T0.9 Cooling"
+
+
+outfit "Gexkewowel Cell"
+	category "Power"
+	cost 48400
+	thumbnail "outfit/red sun"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 0.9
+	"heat generation" 2.5
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Heiiu Cell"
+	category "Power"
+	cost 82300
+	thumbnail "outfit/yellow sun"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 2.0
+	"heat generation" -1.0
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Iewiuwawub Cell"
+	category "Power"
+	cost 140000
+	thumbnail "outfit/white sun"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 4.4
+	"heat generation" 0.4
+	description "Touexpeuos T0.9 Power generator"
+
+outfit "Siquo Cell"
+	category "Power"
+	cost 238000
+	thumbnail "outfit/blue sun"
+	"mass" 29
+	"outfit space" -29
+	"energy generation" 9.7
+	"heat generation" -0.2
+	description "Touexpeuos T0.9 Power generator"
+
+
+outfit "Honuu ayahi Cooling"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/hai williwaw"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 165
+	description "Touexpeuos T0.9 Cooling"
+
+

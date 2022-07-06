@@ -1,0 +1,346 @@
+ship "Acvssace"
+	sprite "ship/quicksilver"
+	thumbnail "thumbnail/quicksilver"
+	attributes 
+		category "Light Warship"
+		"cost" 21802000
+		"shields" 90100
+		"hull" 52500
+		"required crew" 1
+		"bunks" 3
+		"mass" 96.6
+		"drag" 1.81
+		"heat dissipation" 1.01
+		"fuel capacity" 2000
+		"cargo space" 15
+		"outfit space" 120
+		"weapon capacity" 40
+		"engine capacity" 40
+		weapon 
+			"blast radius" 499
+			"shield damage" 5000
+			"hull damage" 2500
+			"hit force" 3500
+	outfits 
+		"Fideitoy Thruster" 1
+		"Fideitoy Steering" 1
+		"Hyperdrive"
+	engine 0 41.0
+	turret 2.2 -14.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xadllepa T2.9 ship"
+
+ship "Liilogbu"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 3047000
+		"shields" 17200
+		"hull" 10000
+		"required crew" 10
+		"bunks" 25
+		"mass" 202.8
+		"drag" 4.07
+		"heat dissipation" 0.87
+		"fuel capacity" 2200
+		"cargo space" 65
+		"outfit space" 350
+		"weapon capacity" 120
+		"engine capacity" 90
+		weapon 
+			"blast radius" 95
+			"shield damage" 960
+			"hull damage" 480
+			"hit force" 670
+	outfits 
+		"Ezvs Culverin" 1
+		"Iulq Rocket Tube" 1
+		"Iulq Rocket" 11
+		"Aqxi Rocket Deployer" 1
+		"Aqxi Rocket" 50
+		"Lyuupuha Thruster" 1
+		"Lyuupuha Steering" 1
+		"Hyperdrive"
+	engine 0 45.0
+	gun 1.0 -48.9
+	gun 4.4 -45.3
+	gun -4.4 -45.3
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Xadllepa T2.9 ship"
+
+ship "Gguhyalu"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 42086000
+		"shields" 186400
+		"hull" 108500
+		"required crew" 40
+		"bunks" 114
+		"mass" 1086.4
+		"drag" 22.77
+		"heat dissipation" 0.72
+		"fuel capacity" 1800
+		"cargo space" 135
+		"outfit space" 1740
+		"weapon capacity" 610
+		"engine capacity" 540
+		weapon 
+			"blast radius" 1033
+			"shield damage" 10330
+			"hull damage" 5170
+			"hit force" 7230
+	outfits 
+		"Ezvs Culverin" 2
+		"Iulq Rocket Tube" 1
+		"Iulq Rocket" 11
+		"Laoo Rapid Blaster" 1
+		"Aqxi Rocket Deployer" 1
+		"Aqxi Rocket" 50
+		"Faid Machine Culverin" 1
+		"Pzaa Thruster" 1
+		"Pzaa Steering" 1
+		"Elan Shield Regenerator" 1
+		"Eyyijuiv Hull Regenerator" 1
+		"Diofkyog Generator" 2
+		"Aqxi Capacitor" 1
+		"Iidu aiou Generator" 1
+		"Hyperdrive"
+	engine 0 315.6
+	gun -8.3 -363.7
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	gun 82.0 -13.0
+	gun 8.3 -363.7
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xadllepa T2.9 ship"
+
+ship "Eytafaye"
+	sprite "ship/indus1 mw 1"
+	thumbnail "thumbnail/indus1 mw 1"
+	attributes 
+		category "Medium Warship"
+		"cost" 23438000
+		"shields" 106000
+		"hull" 61700
+		"required crew" 7
+		"automaton" 1
+		"bunks" 25
+		"mass" 405.8
+		"drag" 6.9
+		"heat dissipation" 0.65
+		"fuel capacity" 1000
+		"cargo space" 50
+		"outfit space" 660
+		"weapon capacity" 210
+		"engine capacity" 210
+		weapon 
+			"blast radius" 587
+			"shield damage" 5880
+			"hull damage" 2940
+			"hit force" 4120
+	outfits 
+		"Ezvs Culverin" 1
+		"Iulq Rocket Tube" 1
+		"Iulq Rocket" 11
+		"Laoo Rapid Blaster" 1
+		"Pzaa Thruster" 1
+		"Pzaa Steering" 1
+		"Elan Shield Regenerator" 1
+		"Eyyijuiv Hull Regenerator" 1
+		"Qjuj Generator" 2
+		"Aqxi Capacitor" 1
+		"Viodolfh Heat Pump" 1
+		"Hyperdrive"
+	engine 0 66.7
+	gun 1.8 -67.7
+	gun 1.7 -63.4
+	gun -1.7 -63.4
+	turret 0.7 -55.5
+	turret 3.5 -58.4
+	turret -3.5 -58.4
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xadllepa T2.9 ship"
+
+ship "Izja xiis"
+	sprite "ship/indus1 hw 2"
+	thumbnail "thumbnail/indus1 hw 2"
+	attributes 
+		category "Heavy Warship"
+		"cost" 103260000
+		"shields" 258300
+		"hull" 150300
+		"required crew" 111
+		"automaton" 1
+		"bunks" 181
+		"mass" 1014.0
+		"drag" 20.21
+		"heat dissipation" 0.78
+		"fuel capacity" 1900
+		"cargo space" 125
+		"outfit space" 1590
+		"weapon capacity" 510
+		"engine capacity" 410
+		weapon 
+			"blast radius" 1431
+			"shield damage" 14310
+			"hull damage" 7160
+			"hit force" 10020
+	outfits 
+		"Ezvs Culverin" 2
+		"Iulq Rocket Tube" 1
+		"Iulq Rocket" 11
+		"Laoo Rapid Blaster" 1
+		"Aqxi Rocket Deployer" 1
+		"Aqxi Rocket" 50
+		"Faid Machine Culverin" 1
+		"Pzaa Thruster" 1
+		"Pzaa Steering" 1
+		"Elan Shield Regenerator" 1
+		"Eyyijuiv Hull Regenerator" 1
+		"Diofkyog Generator" 2
+		"Aqxi Capacitor" 1
+		"Iidu aiou Generator" 1
+		"Hyperdrive"
+	engine 0 330.4
+	gun -11.0 -327.3
+	gun -57.0 -50.0
+	gun 57.0 -50.0
+	gun -82.0 -13.0
+	gun 82.0 -13.0
+	gun 11.0 -327.3
+	turret 70.0 223.0
+	turret 0.0 -64.0
+	turret 0.0 28.0
+	turret -70.0 86.0
+	turret 70.0 86.0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Xadllepa T2.9 ship"
+
+ship "Zouxzeaq"
+	sprite "ship/shuttle"
+	thumbnail "thumbnail/shuttle"
+	attributes 
+		category "Transport"
+		"cost" 7112000
+		"shields" 33500
+		"hull" 19500
+		"required crew" 6
+		"automaton" 1
+		"bunks" 33
+		"mass" 132.8
+		"drag" 2.62
+		"heat dissipation" 0.53
+		"fuel capacity" 1000
+		"cargo space" 20
+		"outfit space" 190
+		"weapon capacity" 70
+		"engine capacity" 60
+		weapon 
+			"blast radius" 186
+			"shield damage" 1860
+			"hull damage" 930
+			"hit force" 1300
+	outfits 
+		"Lyuupuha Thruster" 1
+		"Lyuupuha Steering" 1
+		"Elan Shield Regenerator" 1
+		"Ithi kaow Hull Regenerator" 1
+		"Aqxi Capacitor" 1
+		"Ihas Heatsink" 1
+		"Hyperdrive"
+	engine 0 42.9
+	turret 0.9 -38.4
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Xadllepa T2.9 ship"
+
+ship "Alsaejdajjom"
+	sprite "ship/indus1 lf 1"
+	thumbnail "thumbnail/indus1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 15785000
+		"shields" 54500
+		"hull" 31800
+		"required crew" 16
+		"bunks" 30
+		"mass" 278.6
+		"drag" 5.62
+		"heat dissipation" 0.8
+		"fuel capacity" 2100
+		"cargo space" 85
+		"outfit space" 380
+		"weapon capacity" 150
+		"engine capacity" 110
+		weapon 
+			"blast radius" 302
+			"shield damage" 3030
+			"hull damage" 1520
+			"hit force" 2120
+	outfits 
+		"Ezvs Culverin" 1
+		"Iulq Rocket Tube" 1
+		"Iulq Rocket" 11
+		"Aqxi Rocket Deployer" 1
+		"Aqxi Rocket" 50
+		"Oifezaao Thruster" 1
+		"Oifezaao Steering" 1
+		"Yoazaqua Reactor" 1
+		"Igtn Temperature Control" 1
+		"Hyperdrive"
+	engine 0 44.3
+	gun 1.0 -48.9
+	gun 3.8 -45.1
+	gun -3.8 -45.1
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Xadllepa T2.9 ship"
+

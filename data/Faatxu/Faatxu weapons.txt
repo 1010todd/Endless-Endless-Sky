@@ -1,0 +1,171 @@
+outfit "Rvc Guided Rocket"
+	category "Ammunition"
+	cost 17566259623
+	thumbnail "outfit/torpedo"
+	"mass" 0.07
+	"Rvc Guided Rocket capacity" -1
+	description "Faatxu Missile"
+
+outfit "Rvc Guided Rocket Storage
+	category "Ammunition"
+	cost 155977384832
+	thumbnail "outfit/torpedo storage"
+	"mass" 2
+	"outfit space" -2
+	"Rvc Guided Rocket capacity" 29
+	ammo "Rvc Guided Rocket"
+	description "Rvc Guided Rocket Storage"
+
+outfit "Rvc Guided Rocket Launcher"
+	category "Secondary Weapons"
+	cost 71050183100
+	thumbnail "outfit/torpedo launcher"
+	"mass" 2
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	"Rvc Guided Rocket capacity" 29
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Rvc Guided Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.1
+		"velocity" 23
+		"lifetime" 1400
+		"reload" 12
+		"firing energy" 46.2
+		"firing heat" 38.6
+		"acceleration" 1.1
+		"drag" 0.2
+		"turn" 36.9
+		"homing" 2
+		"infrared tracking" 0.48
+		"shield damage" 126.4
+		"hull damage" 152.4
+		"missile strength" 862.9
+	description "Faatxu T4.5 Missile weapon"
+
+outfit "Wix Anti-Missile"
+	category "Turrets"
+	cost 6084974365400
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "blaster impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 71.1
+		"velocity" 370
+		"lifetime" 1
+		"reload" 7
+		"firing energy" 34.3
+		"firing heat" 125.1
+	description "Faatxu T4.5 Anti-missile"
+
+outfit "Axp Auto Culverin"
+	category "Guns"
+	cost 2360523593900
+	thumbnail "outfit/inhibitor"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/pwavecannon"
+		sound "inhibitor"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.1
+		"velocity" 23
+		"lifetime" 17
+		"reload" 6
+		"firing energy" 20.9
+		"firing heat" 93.9
+		"shield damage" 234.6
+		"hull damage" 203.8
+		"fuel damage" 295.4
+		"ion damage" 295.4
+	description "Faatxu T4.5 Projectile weapon"
+
+outfit "Axp Auto Culverin Turret"
+	category "Turrets"
+	cost 7340396765687.113
+	thumbnail "outfit/inhibitor turret"
+	"mass" 432
+	"outfit space" -432
+	"weapon capacity" -432
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/pwavecannon"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		sound "inhibitor"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.1
+		"turret turn" 0.3
+		"velocity" 23
+		"lifetime" 17
+		"reload" 2
+		"firing energy" 20.9
+		"firing heat" 93.9
+		"shield damage" 234.6
+		"hull damage" 203.8
+		"fuel damage" 295.4
+		"ion damage" 295.4
+	description "Faatxu T4.5 Projectile weapon 3gun Turret"
+
+outfit "Uvj Tachyon Projector"
+	category "Guns"
+	cost 8264979397400
+	thumbnail "outfit/heavy laser"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.0
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.1
+		"firing heat" 3.7
+		"shield damage" 12.3
+		"hull damage" 20.2
+	description "Faatxu T4.5 Beam weapon"
+
+outfit "Uvj Tachyon Projector Turret"
+	category "Turrets"
+	cost 31627797484536.82
+	thumbnail "outfit/heavy laser turret"
+	"mass" 87
+	"outfit space" -87
+	"weapon capacity" -87
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/sunbeam"
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		sound "laser"
+		"hit effect" "sunbeam impact"
+		"inaccuracy" 2.0
+		"turret turn" 0.7
+		"velocity" 540
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.1
+		"firing heat" 3.7
+		"shield damage" 36.900000000000006
+		"hull damage" 60.599999999999994
+	description "Faatxu T4.5 Beam weapon 3gun Turret"
+

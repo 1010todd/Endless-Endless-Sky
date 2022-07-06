@@ -1,0 +1,195 @@
+outfit "Ezvs Culverin"
+	category "Guns"
+	cost 258526900
+	thumbnail "outfit/bombardment cannon"
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/detainer"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 1.3
+		"velocity" 32
+		"lifetime" 2
+		"reload" 2
+		"firing energy" 5.5
+		"firing heat" 3.3
+		"shield damage" 9.9
+		"hull damage" 39.3
+	description "Xadllepa T2.9 Projectile weapon"
+
+outfit "Iulq Rocket"
+	category "Ammunition"
+	cost 32684294
+	thumbnail "outfit/sidewinder"
+	"mass" 0.09
+	"Iulq Rocket capacity" -1
+	description "Xadllepa Missile"
+
+outfit "Iulq Rocket Storage
+	category "Ammunition"
+	cost 211735748
+	thumbnail "outfit/sidewinder storage"
+	"mass" 0
+	"outfit space" -1
+	"Iulq Rocket capacity" 11
+	ammo "Iulq Rocket"
+	description "Iulq Rocket Storage"
+
+outfit "Iulq Rocket Tube"
+	category "Secondary Weapons"
+	cost 159305300
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 0
+	"outfit space" -31
+	"weapon capacity" -31
+	"gun ports" -1
+	"Iulq Rocket capacity" 11
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Iulq Rocket"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.3
+		"velocity" 24
+		"lifetime" 700
+		"reload" 3
+		"firing energy" 1.3
+		"firing heat" 12.5
+		"acceleration" 0.9
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 18.7
+		"hull damage" 19.7
+		"hit force" 22
+		"missile strength" 71.3
+	description "Xadllepa T2.9 Missile weapon"
+
+outfit "Laoo Rapid Blaster"
+	category "Guns"
+	cost 262693800
+	thumbnail "outfit/proton gun"
+	"mass" 78
+	"outfit space" -78
+	"weapon capacity" -78
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/tracker"
+		sound "pulse"
+		"hit effect" "electron impact"
+		"inaccuracy" 1.9
+		"velocity" 30
+		"lifetime" 4
+		"reload" 3
+		"firing energy" 7.2
+		"firing heat" 9.9
+		"shield damage" 42.4
+		"hull damage" 56.9
+	description "Xadllepa T2.9 Projectile weapon"
+
+outfit "Aqxi Rocket"
+	category "Ammunition"
+	cost 28114646
+	thumbnail "outfit/torpedo"
+	"mass" 0.02
+	"Aqxi Rocket capacity" -1
+	description "Xadllepa Missile"
+
+outfit "Aqxi Rocket Storage
+	category "Ammunition"
+	cost 180684418
+	thumbnail "outfit/torpedo storage"
+	"mass" 2
+	"outfit space" -1
+	"Aqxi Rocket capacity" 50
+	ammo "Aqxi Rocket"
+	description "Aqxi Rocket Storage"
+
+outfit "Aqxi Rocket Deployer"
+	category "Secondary Weapons"
+	cost 126315000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 2
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	"Aqxi Rocket capacity" 50
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Aqxi Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.3
+		"velocity" 28
+		"lifetime" 1300
+		"reload" 3
+		"firing energy" 7.3
+		"firing heat" 6.2
+		"acceleration" 1.0
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"shield damage" 11.6
+		"hull damage" 12.6
+		"missile strength" 186.8
+	description "Xadllepa T2.9 Missile weapon"
+
+outfit "Faid Machine Culverin"
+	category "Guns"
+	cost 89717100
+	thumbnail "outfit/ion rain gun"
+	"mass" 77
+	"outfit space" -77
+	"weapon capacity" -77
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/detainer"
+		sound "particle"
+		"hit effect" "proton impact"
+		"inaccuracy" 13.0
+		"velocity" 28
+		"lifetime" 40
+		"reload" 3
+		"firing energy" 20.8
+		"firing heat" 30.6
+		"shield damage" 67.1
+		"hull damage" 31.7
+	description "Xadllepa T2.9 Projectile weapon"
+
+outfit "Faid Machine Culverin Turret"
+	category "Turrets"
+	cost 250334124.30261475
+	thumbnail "outfit/ion rain turret"
+	"mass" 387
+	"outfit space" -387
+	"weapon capacity" -387
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/detainer"
+		"hardpoint sprite" "hardpoint/ion rain turret"
+		sound "particle"
+		"hit effect" "proton impact"
+		"inaccuracy" 13.0
+		"turret turn" 0.2
+		"velocity" 28
+		"lifetime" 40
+		"reload" 2
+		"firing energy" 20.8
+		"firing heat" 30.6
+		"shield damage" 67.1
+		"hull damage" 31.7
+	description "Xadllepa T2.9 Projectile weapon 2gun Turret"
+

@@ -1,0 +1,113 @@
+fleet "Xadllepa Patrol"
+	government "Xadllepa"
+	names "Xadllepa Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 12
+	variant 19
+		"Gguhyalu" 2
+		"Alsaejdajjom" 1
+		"Liilogbu" 5
+		"Izja xiis" 2
+		"Eytafaye" 1
+	variant 15
+		"Gguhyalu" 3
+		"Liilogbu" 5
+		"Eytafaye" 5
+		"Alsaejdajjom" 2
+		"Izja xiis" 2
+	variant 14
+		"Gguhyalu" 3
+		"Alsaejdajjom" 2
+		"Eytafaye" 2
+		"Liilogbu" 5
+		"Izja xiis" 4
+	variant 14
+		"Gguhyalu" 4
+		"Liilogbu" 5
+		"Alsaejdajjom" 4
+		"Eytafaye" 4
+		"Izja xiis" 3
+	variant 11
+		"Alsaejdajjom" 1
+		"Izja xiis" 4
+		"Gguhyalu" 2
+		"Liilogbu" 5
+		"Eytafaye" 4
+fleet "Xadllepa Merchant"
+	government "Xadllepa"
+	names "Xadllepa names"
+	personality
+		timid
+		forbearing
+		confusion 20
+	variant 0
+		"Liilogbu" 2
+		"Izja xiis" 3
+		"Eytafaye" 1
+	variant 3
+		"Liilogbu" 4
+		"Acvssace" 2
+		"Izja xiis" 1
+	variant 16
+		"Gguhyalu" 1
+		"Eytafaye" 3
+		"Zouxzeaq" 2
+	variant 18
+		"Gguhyalu" 4
+		"Zouxzeaq" 4
+		"Izja xiis" 3
+	variant 44
+		"Gguhyalu" 1
+		"Izja xiis" 4
+		"Alsaejdajjom" 2
+	variant 55
+		"Izja xiis" 3
+		"Izja xiis" 2
+		"Izja xiis" 4
+	variant 114
+		"Acvssace" 2
+		"Gguhyalu" 4
+		"Zouxzeaq" 2
+	variant 77
+		"Acvssace" 3
+		"Acvssace" 2
+		"Acvssace" 3
+	variant 104
+		"Gguhyalu" 4
+		"Acvssace" 3
+		"Zouxzeaq" 3
+	variant 27
+		"Gguhyalu" 4
+		"Acvssace" 4
+		"Eytafaye" 1
+	variant 100
+		"Izja xiis" 4
+		"Liilogbu" 3
+		"Eytafaye" 4
+fleet "Xadllepa Miner"
+	government "Xadllepa"
+	names "Xadllepa names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 14
+		"Izja xiis" 2
+	variant 15
+		"Alsaejdajjom" 3
+	variant 15
+		"Liilogbu" 3
+		"Gguhyalu" 3
+		"Eytafaye" 3
+	variant 19
+		"Eytafaye" 2
+	variant 12
+		"Liilogbu" 3
+		"Alsaejdajjom" 2
+		"Gguhyalu" 2
+	variant 19
+		"Gguhyalu" 2
+		"Liilogbu" 2

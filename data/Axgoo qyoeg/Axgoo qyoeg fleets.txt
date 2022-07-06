@@ -1,0 +1,118 @@
+fleet "Axgoo qyoeg Patrol"
+	government "Axgoo qyoeg"
+	names "Axgoo qyoeg Military names"
+	personality
+		heroic
+		confusion 13
+	variant 12
+		"Akmeecbuem rajim" 3
+		"Paulc cojeb" 0
+		"Ecbaz yuokt" 2
+		"Ekmaspochi" 3
+	variant 13
+		"Acope ideoe icueg" 4
+		"Paulc cojeb" 0
+		"Idddedobud" 2
+		"Ekmaspochi" 3
+	variant 2
+		"Acope ideoe icueg" 2
+		"Paulc cojeb" 0
+		"Ekmaspochi" 3
+		"Akmeecbuem rajim" 3
+	variant 15
+		"Idddedobud" 3
+		"Paulc cojeb" 0
+		"Inueumkuhe omeod" 3
+		"Akmeecbuem rajim" 4
+	variant 16
+		"Akmeecbuem rajim" 5
+		"Paulc cojeb" 0
+		"Idddedobud" 4
+		"Acope ideoe icueg" 2
+	variant 17
+		"Inueumkuhe omeod" 2
+		"Paulc cojeb" 0
+		"Ekmaspochi" 3
+		"Yexqexukin" 5
+fleet "Axgoo qyoeg Merchant"
+	government "Axgoo qyoeg"
+	names "Axgoo qyoeg names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Akmeecbuem rajim" 3
+		"Idddedobud" 4
+		"Ekmaspochi" 1
+	variant 16
+		"Idddedobud" 4
+		"Akmeecbuem rajim" 3
+		"Ecbaz yuokt" 3
+	variant 26
+		"Akmeecbuem rajim" 3
+		"Paulc cojeb" 1
+		"Ekmaspochi" 1
+	variant 45
+		"Yexqexukin" 2
+		"Ecbaz yuokt" 4
+		"Inueumkuhe omeod" 3
+	variant 64
+		"Acope ideoe icueg" 3
+		"Acope ideoe icueg" 2
+		"Ekmaspochi" 4
+	variant 15
+		"Yexqexukin" 2
+		"Paulc cojeb" 4
+		"Akmeecbuem rajim" 4
+	variant 24
+		"Inueumkuhe omeod" 3
+		"Paulc cojeb" 3
+		"Ecbaz yuokt" 3
+	variant 77
+		"Inueumkuhe omeod" 4
+		"Inueumkuhe omeod" 4
+		"Ekmaspochi" 1
+	variant 56
+		"Ecbaz yuokt" 3
+		"Akmeecbuem rajim" 3
+		"Inueumkuhe omeod" 2
+	variant 27
+		"Akmeecbuem rajim" 4
+		"Idddedobud" 1
+		"Idddedobud" 1
+fleet "Axgoo qyoeg Miner"
+	government "Axgoo qyoeg"
+	names "Axgoo qyoeg names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 6
+		"Yexqexukin" 3
+		"Paulc cojeb" 0
+		"Inueumkuhe omeod" 3
+		"Akmeecbuem rajim" 3
+	variant 15
+		"Acope ideoe icueg" 2
+		"Paulc cojeb" 0
+		"Ekmaspochi" 3
+		"Akmeecbuem rajim" 2
+		"Idddedobud" 3
+	variant 12
+		"Ekmaspochi" 3
+		"Paulc cojeb" 0
+		"Acope ideoe icueg" 2
+		"Ecbaz yuokt" 3
+		"Akmeecbuem rajim" 2
+	variant 19
+		"Ecbaz yuokt" 2
+		"Paulc cojeb" 0
+		"Yexqexukin" 2
+		"Inueumkuhe omeod" 3
+	variant 14
+		"Akmeecbuem rajim" 3
+		"Paulc cojeb" 0
+		"Acope ideoe icueg" 2
+		"Inueumkuhe omeod" 2
+		"Ekmaspochi" 3

@@ -1,0 +1,99 @@
+fleet "Rewavayi Patrol"
+	government "Rewavayi"
+	names "Rewavayi Military names"
+	personality
+		heroic
+		disables
+		confusion 19
+	variant 14
+		"Igap jevo" 4
+		"Zumufuit ezfo" 4
+	variant 19
+		"Igap jevo" 4
+		"Zumufuit ezfo" 4
+	variant 12
+		"Igap jevo" 3
+		"Zumufuit ezfo" 2
+	variant 7
+		"Igap jevo" 4
+		"Zumufuit ezfo" 2
+	variant 10
+		"Igap jevo" 2
+		"Zumufuit ezfo" 3
+	variant 19
+		"Zumufuit ezfo" 3
+		"Igap jevo" 2
+	variant 7
+		"Zumufuit ezfo" 4
+		"Igap jevo" 3
+	variant 3
+		"Zumufuit ezfo" 4
+		"Igap jevo" 4
+	variant 16
+		"Igap jevo" 3
+		"Zumufuit ezfo" 3
+	variant 3
+		"Zumufuit ezfo" 3
+		"Igap jevo" 3
+	variant 2
+		"Igap jevo" 3
+		"Zumufuit ezfo" 3
+fleet "Rewavayi Civilian"
+	government "Rewavayi"
+	names "Rewavayi names"
+	personality
+		timid
+		disables
+		confusion 22
+	variant 0
+		"Zumufuit ezfo" 3
+		"Veoo mequ" 2
+		"Veoo mequ" 3
+	variant 3
+		"Wekejurm" 2
+		"Veoo mequ" 1
+		"Zumufuit ezfo" 3
+	variant 38
+		"Wekejurm" 3
+		"Igap jevo" 1
+		"Veoo mequ" 4
+	variant 48
+		"Igap jevo" 4
+		"Zumufuit ezfo" 1
+		"Igap jevo" 3
+	variant 44
+		"Igap jevo" 1
+		"Wekejurm" 1
+		"Zumufuit ezfo" 3
+	variant 40
+		"Zumufuit ezfo" 1
+		"Wekejurm" 2
+		"Zumufuit ezfo" 4
+	variant 12
+		"Veoo mequ" 3
+		"Veoo mequ" 3
+		"Neopdiki" 4
+	variant 14
+		"Zumufuit ezfo" 2
+		"Veoo mequ" 4
+		"Eorcnege" 4
+fleet "Rewavayi Miner"
+	government "Rewavayi"
+	names "Rewavayi names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 4
+		"Zumufuit ezfo" 3
+		"Igap jevo" 4
+	variant 11
+		"Zumufuit ezfo" 3
+		"Igap jevo" 2
+	variant 17
+		"Zumufuit ezfo" 4
+		"Igap jevo" 3
+	variant 19
+		"Igap jevo" 4
+		"Zumufuit ezfo" 4

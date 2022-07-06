@@ -1,0 +1,78 @@
+fleet "Touexpeuos Navy"
+	government "Touexpeuos"
+	names "Touexpeuos Military names"
+	personality
+		heroic
+		confusion 10
+	variant 14
+		"Readi okuta" 4
+		"Aideeayuuyfureq" 4
+		"Xiisoseiaa wilii" 3
+		"Obiirewyru" 4
+	variant 14
+		"Readi okuta" 7
+		"Xyaxeiukyedoqoy" 4
+		"Iwoeoinayi" 5
+	variant 8
+		"Readi okuta" 4
+		"Aideeayuuyfureq" 4
+		"Obiirewyru" 4
+		"Iwoeoinayi" 5
+fleet "Touexpeuos Merchant"
+	government "Touexpeuos"
+	names "Touexpeuos names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Iwoeoinayi" 1
+		"Iuloarukiu diyao" 4
+		"Aideeayuuyfureq" 2
+	variant 15
+		"Houuy cniabixvfu" 3
+		"Readi okuta" 4
+		"Xyaxeiukyedoqoy" 4
+	variant 30
+		"Aideeayuuyfureq" 4
+		"Iwoeoinayi" 3
+		"Xiisoseiaa wilii" 3
+	variant 24
+		"Aideeayuuyfureq" 3
+		"Aideeayuuyfureq" 1
+		"Iwoeoinayi" 3
+	variant 16
+		"Obiirewyru" 1
+		"Iwoeoinayi" 1
+		"Iwoeoinayi" 1
+	variant 60
+		"Readi okuta" 4
+		"Iuloarukiu diyao" 1
+		"Readi okuta" 1
+	variant 66
+		"Iuloarukiu diyao" 3
+		"Readi okuta" 3
+		"Iwoeoinayi" 1
+	variant 21
+		"Iwoeoinayi" 2
+		"Iuloarukiu diyao" 4
+		"Xyaxeiukyedoqoy" 4
+fleet "Touexpeuos Miner"
+	government "Touexpeuos"
+	names "Touexpeuos names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 15
+		"Iuloarukiu diyao" 2
+		"Readi okuta" 4
+	variant 17
+		"Iuloarukiu diyao" 3
+		"Xiisoseiaa wilii" 4
+	variant 9
+		"Iuloarukiu diyao" 2
+		"Readi okuta" 3
+	variant 17
+		"Readi okuta" 3
+		"Iuloarukiu diyao" 2

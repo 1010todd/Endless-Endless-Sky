@@ -1,0 +1,76 @@
+fleet "Faatxu Defense"
+	government "Faatxu"
+	names "Faatxu Military names"
+	personality
+		coward
+		confusion 11
+	variant 16
+		"Uuoboioju" 2
+		"Jad tev" 2
+		"Paiixmteg" 4
+	variant 11
+		"Uuoboioju" 5
+		"Acs iijris" 4
+		"Obn dat" 4
+	variant 12
+		"Uuoboioju" 4
+		"Paiixmteg" 4
+		"Tudteeolj" 5
+	variant 10
+		"Uuoboioju" 4
+		"Ciuedt" 2
+		"Jad tev" 3
+fleet "Faatxu Civilian"
+	government "Faatxu"
+	names "Faatxu names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Uuoboioju" 3
+		"Diohoe" 4
+		"Uuoboioju" 3
+	variant 18
+		"Acs iijris" 3
+		"Paiixmteg" 1
+		"Obn dat" 1
+	variant 30
+		"Spo urjdpi" 4
+		"Ciuedt" 1
+		"Acs iijris" 2
+	variant 27
+		"Uuoboioju" 4
+		"Paiixmteg" 4
+		"Tudteeolj" 3
+	variant 20
+		"Tudteeolj" 4
+		"Uuoboioju" 4
+		"Uuoboioju" 3
+	variant 65
+		"Diohoe" 1
+		"Tudteeolj" 4
+		"Paiixmteg" 2
+	variant 108
+		"Spo urjdpi" 2
+		"Acs iijris" 3
+		"Spo urjdpi" 2
+fleet "Faatxu Miner"
+	government "Faatxu"
+	names "Faatxu names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 10
+		"Jad tev" 2
+		"Paiixmteg" 3
+	variant 3
+		"Paiixmteg" 3
+		"Jad tev" 3
+	variant 6
+		"Paiixmteg" 4
+		"Jad tev" 4
+	variant 12
+		"Jad tev" 2
+		"Paiixmteg" 4

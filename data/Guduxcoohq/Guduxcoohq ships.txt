@@ -1,0 +1,380 @@
+ship "Ixteuofuwd"
+	sprite "ship/Guduxcoohq/Ixteuofuwd"
+	attributes 
+		category "Light Warship"
+		"cost" 421000
+		"shields" 3800
+		"hull" 6000
+		"required crew" 1
+		"automaton" 1
+		"bunks" 8
+		"mass" 100.1
+		"drag" 2.17
+		"heat dissipation" 0.53
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 220
+		"weapon capacity" 70
+		"engine capacity" 66
+		weapon 
+			"blast radius" 71
+			"shield damage" 710
+			"hull damage" 360
+			"hit force" 500
+	outfits 
+		"Dheiq Battery" 1
+		"Xequa Thruster" 1
+		"Xequa Steering" 1
+		"Buudj Cell" 2
+		"Ucaem Thruster" 1
+		"Ucaem Steering" 1
+		"Xuugo Cell" 1
+		"Hyperdrive"
+	engine 0 40
+	turret 0 33
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Guduxcoohq T1.4 ship"
+
+ship "Dobitgojoo"
+	sprite "ship/Guduxcoohq/Dobitgojoo"
+	attributes 
+		category "Transport"
+		"cost" 382000
+		"shields" 3700
+		"hull" 5800
+		"required crew" 2
+		"automaton" 1
+		"bunks" 28
+		"mass" 193.5
+		"drag" 4.44
+		"heat dissipation" 0.54
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 407
+		"weapon capacity" 130
+		"engine capacity" 110
+		weapon 
+			"blast radius" 68
+			"shield damage" 690
+			"hull damage" 350
+			"hit force" 480
+	outfits 
+		"Abwia Shield Rejuvenator" 1
+		"Mdeor Core" 1
+		"Dheiq Battery" 1
+		"Xequa Thruster" 1
+		"Xequa Steering" 1
+		"Erbgoigmuv Core" 1
+		"Xuugo Cell" 1
+		"Hyperdrive"
+	engine 0 -3
+	turret 0 -49
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Guduxcoohq T1.4 ship"
+
+ship "Poloeagjcowxaar"
+	sprite "ship/Guduxcoohq/Poloeagjcowxaar"
+	attributes 
+		category "Light Warship"
+		"cost" 166000
+		"shields" 2200
+		"hull" 3500
+		"required crew" 3
+		"automaton" 1
+		"bunks" 15
+		"mass" 104.6
+		"drag" 2.45
+		"heat dissipation" 0.76
+		"fuel capacity" 800
+		"cargo space" 15
+		"outfit space" 220
+		"weapon capacity" 80
+		"engine capacity" 66
+		weapon 
+			"blast radius" 41
+			"shield damage" 420
+			"hull damage" 210
+			"hit force" 290
+	outfits 
+		"Autxo Guided Rocket" 16
+		"Abwia Shield Rejuvenator" 1
+		"Bboei adoai Cell" 1
+		"Dheiq Battery" 1
+		"Xequa Thruster" 1
+		"Xequa Steering" 1
+		"Buudj Cell" 2
+		"Ucaem Thruster" 1
+		"Ucaem Steering" 1
+		"Xuugo Cell" 1
+		"Hyperdrive"
+	engine 0 3
+	gun 0 -35
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Guduxcoohq T1.4 ship"
+
+ship "Goskaxoimhaheod"
+	sprite "ship/Guduxcoohq/Goskaxoimhaheod"
+	attributes 
+		category "Heavy Warship"
+		"cost" 3233000
+		"shields" 21000
+		"hull" 33600
+		"required crew" 12
+		"automaton" 1
+		"bunks" 63
+		"mass" 628.0
+		"drag" 14.43
+		"heat dissipation" 0.53
+		"fuel capacity" 600
+		"cargo space" 85
+		"outfit space" 1320
+		"weapon capacity" 370
+		"engine capacity" 352
+		weapon 
+			"blast radius" 393
+			"shield damage" 3940
+			"hull damage" 1970
+			"hit force" 2760
+	outfits 
+		"Autxo Guided Rocket Catapult" 3
+		"Autxo Guided Rocket" 51
+		"Abwia Shield Rejuvenator" 1
+		"Erbgoigmuv Core" 2
+		"Dheiq Battery" 1
+		"Xequa Thruster" 1
+		"Xequa Steering" 1
+		"Mdeor Core" 1
+		"Bboei adoai Cell" 1
+		"Buudj Cell" 1
+		"Etfae Cell" 1
+		"Lagau Cell" 1
+		"Xuugo Cell" 1
+		"Toumtgirob Cooler" 1
+		"Hyperdrive"
+	engine 92 -25
+	engine -109 -25
+	engine 50 4
+	engine -67 4
+	gun -62 -55
+	gun 104 -78
+	gun -107 -78
+	gun 59 -55
+	turret 0 -5
+	turret 137 -71
+	turret -143 -71
+	turret 142 -39
+	turret -148 -39
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Guduxcoohq T1.4 ship"
+
+ship "Ordue rciec"
+	sprite "ship/Guduxcoohq/Ordue rciec"
+	attributes 
+		category "Interceptor"
+		"cost" 342000
+		"shields" 1200
+		"hull" 1900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 6
+		"mass" 47.9
+		"drag" 1.1
+		"heat dissipation" 0.75
+		"fuel capacity" 900
+		"cargo space" 10
+		"outfit space" 338
+		"weapon capacity" 80
+		"engine capacity" 33
+		weapon 
+			"blast radius" 22
+			"shield damage" 230
+			"hull damage" 120
+			"hit force" 160
+	outfits 
+		"Autxo Guided Rocket" 50
+		"Autxo Guided Rocket Catapult" 2
+		"Abwia Shield Rejuvenator" 1
+		"Mdeor Core" 2
+		"Dheiq Battery" 1
+		"Ucaem Thruster" 1
+		"Ucaem Steering" 1
+		"Eoeroaouxv Thruster" 1
+		"Eoeroaouxv Steering" 1
+		"Bboei adoai Cell" 1
+		"Hyperdrive"
+	engine 0 -1
+	gun -14 -32
+	gun 34 -54
+	gun -37 -54
+	gun 11 -32
+	turret 0 -37
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Guduxcoohq T1.4 ship"
+
+ship "Dxooiassax"
+	sprite "ship/Guduxcoohq/Dxooiassax"
+	attributes 
+		category "Interceptor"
+		"cost" 195000
+		"shields" 1200
+		"hull" 1900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 6
+		"mass" 44.3
+		"drag" 1.01
+		"heat dissipation" 0.94
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 338
+		"weapon capacity" 80
+		"engine capacity" 22
+		weapon 
+			"blast radius" 22
+			"shield damage" 230
+			"hull damage" 120
+			"hit force" 160
+	outfits 
+		"Autxo Guided Rocket Catapult" 3
+		"Autxo Guided Rocket" 51
+		"Abwia Shield Rejuvenator" 1
+		"Mdeor Core" 1
+		"Dheiq Battery" 1
+		"Eoeroaouxv Thruster" 1
+		"Eoeroaouxv Steering" 1
+		"Hyperdrive"
+	engine 0 0
+	gun -17 -32
+	gun 34 -53
+	gun -37 -53
+	gun 14 -32
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Guduxcoohq T1.4 ship"
+
+ship "Mohiumiopd arkta"
+	sprite "ship/Guduxcoohq/Mohiumiopd arkta"
+	attributes 
+		category "Transport"
+		"cost" 979000
+		"shields" 6100
+		"hull" 9600
+		"required crew" 1
+		"automaton" 1
+		"bunks" 19
+		"mass" 81.9
+		"drag" 1.72
+		"heat dissipation" 0.99
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 132
+		"weapon capacity" 40
+		"engine capacity" 44
+		weapon 
+			"blast radius" 113
+			"shield damage" 1140
+			"hull damage" 570
+			"hit force" 800
+	outfits 
+		"Abwia Shield Rejuvenator" 1
+		"Dheiq Battery" 1
+		"Ucaem Thruster" 1
+		"Ucaem Steering" 1
+		"Hyperdrive"
+	engine 0 -31
+	turret 0 -72
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Guduxcoohq T1.4 ship"
+
+ship "Gweavoaegh ulqut"
+	sprite "ship/Guduxcoohq/Gweavoaegh ulqut"
+	attributes 
+		category "Drone"
+		"cost" 251000
+		"shields" 1300
+		"hull" 2100
+		"required crew" 1
+		"automaton" 1
+		"bunks" 4
+		"mass" 38.9
+		"drag" 0.97
+		"heat dissipation" 0.94
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 418
+		"weapon capacity" 80
+		"engine capacity" 22
+		weapon 
+			"blast radius" 24
+			"shield damage" 250
+			"hull damage" 130
+			"hit force" 180
+	outfits 
+		"Autxo Guided Rocket Catapult" 3
+		"Autxo Guided Rocket" 51
+		"Abwia Shield Rejuvenator" 1
+		"Mdeor Core" 1
+		"Dheiq Battery" 1
+		"Eoeroaouxv Thruster" 1
+		"Eoeroaouxv Steering" 1
+		"Hyperdrive"
+	engine 0 25
+	gun 0 -11
+	gun 34 -28
+	gun -36 -28
+	gun 13 -22
+	gun -15 -22
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Guduxcoohq T1.4 ship"
+

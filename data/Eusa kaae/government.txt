@@ -1,0 +1,19 @@
+government "Eusa kaae"
+	"display name" "Eusa kaae"
+	"swizzle" 16
+	"color" 0.036 0.612 0.537 0.291
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 3.5
+	"attitude toward"
+		"Dzeuxorewu" 1
+		"Auau pobo" -1
+		"Guduxcoohq" 1
+		"Faatxu" -1
+		"Axgoo qyoeg" 1
+		"Sacfiaqbev" -1
+		"Xadllepa" 0
+		"Touexpeuos" -1
+		"Rewavayi" 0
+		"Cogzi dizse" -1
+		"Sioajeil" -1

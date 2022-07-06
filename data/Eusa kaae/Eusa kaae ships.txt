@@ -1,0 +1,472 @@
+ship "Yasevaut"
+	sprite "ship/Eusa kaae/Yasevaut"
+	attributes 
+		category "Medium Warship"
+		"cost" 102619000
+		"shields" 446500
+		"hull" 147300
+		"required crew" 7
+		"automaton" 1
+		"bunks" 30
+		"mass" 383.6
+		"drag" 7.12
+		"heat dissipation" 0.68
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 500
+		"weapon capacity" 170
+		"engine capacity" 130
+		weapon 
+			"blast radius" 1744
+			"shield damage" 17450
+			"hull damage" 8730
+			"hit force" 12220
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bgoe vuon Core" 1
+		"Gaogonhg Thruster" 1
+		"Gaogonhg Steering" 1
+		"Iogo xkug Core" 1
+		"Fses ieto Cooler" 2
+		"Hyperdrive"
+	engine 0 90
+	gun 0 -12
+	turret -16 -84
+	turret 9 -84
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Gohu beao"
+	sprite "ship/Eusa kaae/Gohu beao"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 71343000
+		"shields" 309200
+		"hull" 102000
+		"required crew" 12
+		"automaton" 1
+		"bunks" 60
+		"mass" 732.2
+		"drag" 15.22
+		"heat dissipation" 0.58
+		"fuel capacity" 1800
+		"cargo space" 355
+		"outfit space" 1150
+		"weapon capacity" 450
+		"engine capacity" 310
+		weapon 
+			"blast radius" 1208
+			"shield damage" 12080
+			"hull damage" 6040
+			"hit force" 8460
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bgoe vuon Core" 2
+		"Vonh Thruster" 1
+		"Vonh Steering" 1
+		"Iogo xkug Core" 1
+		"Hyperdrive"
+	engine 28 27
+	engine -45 27
+	engine 0 46
+	turret -40 2
+	turret 33 2
+	leak "leak" 20
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Tuhaacii"
+	sprite "ship/Eusa kaae/Tuhaacii"
+	attributes 
+		category "Heavy Warship"
+		"cost" 162374000
+		"shields" 682100
+		"hull" 225000
+		"required crew" 11
+		"automaton" 1
+		"bunks" 71
+		"mass" 786.6
+		"drag" 16.1
+		"heat dissipation" 0.62
+		"fuel capacity" 2500
+		"cargo space" 95
+		"outfit space" 870
+		"weapon capacity" 270
+		"engine capacity" 290
+		weapon 
+			"blast radius" 2665
+			"shield damage" 26650
+			"hull damage" 13330
+			"hit force" 18660
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bgoe vuon Core" 2
+		"Vonh Thruster" 1
+		"Vonh Steering" 1
+		"Iogo xkug Core" 1
+		"Hyperdrive"
+	engine 64 -46
+	engine -81 -46
+	engine 0 28
+	gun -74 -98
+	gun 66 -98
+	turret 0 -113
+	turret 110 -77
+	turret -117 -77
+	turret 49 -98
+	turret -56 -98
+	turret 40 -96
+	turret -47 -96
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Ooie lisocveu"
+	sprite "ship/Eusa kaae/Ooie lisocveu"
+	attributes 
+		category "Light Warship"
+		"cost" 74289000
+		"shields" 220000
+		"hull" 72600
+		"required crew" 6
+		"automaton" 1
+		"bunks" 21
+		"mass" 243.2
+		"drag" 4.96
+		"heat dissipation" 0.75
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 490
+		"weapon capacity" 200
+		"engine capacity" 140
+		weapon 
+			"blast radius" 860
+			"shield damage" 8600
+			"hull damage" 4300
+			"hit force" 6020
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bgoe vuon Core" 1
+		"Gaogonhg Thruster" 1
+		"Gaogonhg Steering" 1
+		"Iogo xkug Core" 1
+		"Fses ieto Cooler" 1
+		"Pouienop Heatsink" 1
+		"Hyperdrive"
+	engine 0 52
+	turret 0 -10
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Ouihbbee"
+	sprite "ship/Eusa kaae/Ouihbbee"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 81897000
+		"shields" 475000
+		"hull" 156600
+		"required crew" 19
+		"automaton" 1
+		"bunks" 76
+		"mass" 799.8
+		"drag" 15.59
+		"heat dissipation" 0.72
+		"fuel capacity" 1700
+		"cargo space" 385
+		"outfit space" 840
+		"weapon capacity" 280
+		"engine capacity" 280
+		weapon 
+			"blast radius" 1855
+			"shield damage" 18560
+			"hull damage" 9280
+			"hit force" 12990
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bgoe vuon Core" 2
+		"Vonh Thruster" 1
+		"Vonh Steering" 1
+		"Iogo xkug Core" 1
+		"Hyperdrive"
+	engine 72 1
+	engine -89 1
+	engine 0 26
+	turret -57 -58
+	turret 50 -58
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Muouotof"
+	sprite "ship/Eusa kaae/Muouotof"
+	attributes 
+		category "Transport"
+		"cost" 25227000
+		"shields" 101200
+		"hull" 33400
+		"required crew" 4
+		"automaton" 1
+		"bunks" 46
+		"mass" 167.8
+		"drag" 3.28
+		"heat dissipation" 0.7
+		"fuel capacity" 900
+		"cargo space" 25
+		"outfit space" 300
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 395
+			"shield damage" 3960
+			"hull damage" 1980
+			"hit force" 2770
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Bait Thruster" 1
+		"Bait Steering" 1
+		"Fses ieto Cooler" 5
+		"Pouienop Heatsink" 5
+		"Ibapguos Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 52
+	turret 0 2
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Eusa kaae T3.4 ship"
+
+ship "Toiiecjisuuv"
+	sprite "ship/Eusa kaae/Toiiecjisuuv"
+	attributes 
+		category "Light Warship"
+		"cost" 34063000
+		"shields" 202900
+		"hull" 66900
+		"required crew" 5
+		"automaton" 1
+		"bunks" 23
+		"mass" 132.0
+		"drag" 2.6
+		"heat dissipation" 0.66
+		"fuel capacity" 2500
+		"cargo space" 20
+		"outfit space" 170
+		"weapon capacity" 60
+		"engine capacity" 50
+		weapon 
+			"blast radius" 793
+			"shield damage" 7930
+			"hull damage" 3970
+			"hit force" 5550
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Agussian Thruster" 1
+		"Agussian Steering" 1
+		"Hyperdrive"
+	engine 0 76
+	turret 0 7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Eusa kaae T3.4 ship"
+
+ship "Toih avfi"
+	sprite "ship/Eusa kaae/Toih avfi"
+	attributes 
+		category "Interceptor"
+		"cost" 9839000
+		"shields" 53600
+		"hull" 17700
+		"required crew" 1
+		"automaton" 1
+		"bunks" 3
+		"mass" 40.8
+		"drag" 0.82
+		"heat dissipation" 0.65
+		"fuel capacity" 2000
+		"cargo space" 5
+		"outfit space" 342
+		"weapon capacity" 80
+		"engine capacity" 22
+		weapon 
+			"blast radius" 209
+			"shield damage" 2100
+			"hull damage" 1050
+			"hit force" 1470
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Moto Core" 1
+		"Fses ieto Cooler" 1
+		"Pouienop Heatsink" 1
+		"Oiralifa Heat Pump" 1
+		"Hyperdrive"
+	engine 0 21
+	gun -10 -11
+	gun 24 -33
+	gun -27 -33
+	gun 7 -11
+	turret 0 14
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 0
+	explode "large explosion" 10
+	description "Eusa kaae T3.4 ship"
+
+ship "Ugolduigcugi"
+	sprite "ship/Eusa kaae/Ugolduigcugi"
+	attributes 
+		category "Interceptor"
+		"cost" 6118000
+		"shields" 69200
+		"hull" 22900
+		"required crew" 2
+		"automaton" 1
+		"bunks" 6
+		"mass" 62.8
+		"drag" 1.34
+		"heat dissipation" 1.02
+		"fuel capacity" 1300
+		"cargo space" 10
+		"outfit space" 342
+		"weapon capacity" 80
+		"engine capacity" 30
+		weapon 
+			"blast radius" 271
+			"shield damage" 2710
+			"hull damage" 1360
+			"hit force" 1900
+	outfits 
+		"Ggua Anti-Missile" 1
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Agussian Thruster" 1
+		"Agussian Steering" 1
+		"Fses ieto Cooler" 22
+		"Hyperdrive"
+	engine 0 24
+	gun -16 -22
+	gun 24 -39
+	gun -27 -39
+	gun 13 -22
+	turret 0 -16
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Eusa kaae T3.4 ship"
+
+ship "Assxeuei"
+	sprite "ship/Eusa kaae/Assxeuei"
+	attributes 
+		category "Fighter"
+		"cost" 12159000
+		"shields" 47400
+		"hull" 15700
+		"required crew" 1
+		"automaton" 1
+		"bunks" 5
+		"mass" 60.4
+		"drag" 1.24
+		"heat dissipation" 1.1
+		"fuel capacity" 1300
+		"cargo space" 10
+		"outfit space" 182
+		"weapon capacity" 80
+		"engine capacity" 30
+		weapon 
+			"blast radius" 185
+			"shield damage" 1860
+			"hull damage" 930
+			"hit force" 1300
+	outfits 
+		"Efoaneif Shield Generator" 1
+		"Apvt Hull Repair" 1
+		"Agussian Thruster" 1
+		"Agussian Steering" 1
+		"Fses ieto Cooler" 2
+		"Hyperdrive"
+	engine 0 18
+	gun -13 -26
+	gun 10 -26
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Eusa kaae T3.4 ship"
+

@@ -1,0 +1,211 @@
+outfit "Rooo Anti-Missile"
+	category "Turrets"
+	cost 220500
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "heavy laser impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 3.0
+		"velocity" 220
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 3.8
+		"firing heat" 7.2
+	description "Rewavayi T1.9 Anti-missile"
+
+outfit "Zaac Anti-Missile"
+	category "Turrets"
+	cost 913600
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 51
+	"outfit space" -51
+	"weapon capacity" -51
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "heavy laser impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 2.4
+		"velocity" 200
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 25.2
+		"firing heat" 27.7
+	description "Rewavayi T1.9 Anti-missile"
+
+outfit "Ceeg Rocket"
+	category "Ammunition"
+	cost 85736
+	thumbnail "outfit/torpedo"
+	"mass" 0.09
+	"Ceeg Rocket capacity" -1
+	description "Rewavayi Missile"
+
+outfit "Ceeg Rocket Storage
+	category "Ammunition"
+	cost 604609
+	thumbnail "outfit/torpedo storage"
+	"mass" 2
+	"outfit space" -1
+	"Ceeg Rocket capacity" 11
+	ammo "Ceeg Rocket"
+	description "Ceeg Rocket Storage"
+
+outfit "Ceeg Rocket Tube"
+	category "Secondary Weapons"
+	cost 348200
+	thumbnail "outfit/torpedo launcher"
+	"mass" 2
+	"outfit space" -73
+	"weapon capacity" -73
+	"gun ports" -1
+	"Ceeg Rocket capacity" 11
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Ceeg Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.4
+		"velocity" 34
+		"lifetime" 1200
+		"reload" 4
+		"firing energy" 41.8
+		"firing heat" 47.3
+		"acceleration" 1.6
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 47.1
+		"hull damage" 11.6
+		"missile strength" 38.2
+	description "Rewavayi T1.9 Missile weapon"
+
+outfit "Iyip Anti-Missile"
+	category "Turrets"
+	cost 793200
+	thumbnail "outfit/pug anti-missile"
+	"mass" 79
+	"outfit space" -79
+	"weapon capacity" -79
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "heavy laser impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 3.4
+		"velocity" 530
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 9.2
+		"firing heat" 13.4
+	description "Rewavayi T1.9 Anti-missile"
+
+outfit "Inag Guided Rocket"
+	category "Ammunition"
+	cost 161902
+	thumbnail "outfit/torpedo"
+	"mass" 0.04
+	"Inag Guided Rocket capacity" -1
+	description "Rewavayi Missile"
+
+outfit "Inag Guided Rocket Storage
+	category "Ammunition"
+	cost 1504710
+	thumbnail "outfit/torpedo storage"
+	"mass" 1
+	"outfit space" -1
+	"Inag Guided Rocket capacity" 25
+	ammo "Inag Guided Rocket"
+	description "Inag Guided Rocket Storage"
+
+outfit "Inag Guided Rocket Catapult"
+	category "Secondary Weapons"
+	cost 797400
+	thumbnail "outfit/torpedo launcher"
+	"mass" 1
+	"outfit space" -31
+	"weapon capacity" -31
+	"gun ports" -1
+	"Inag Guided Rocket capacity" 25
+	weapon
+		"sprite" "projectile/torpedo"
+			"no repeat"
+			"frame rate" .25
+		sound "torpedo"
+		ammo "Inag Guided Rocket"
+		icon "icon/torpedo"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.2
+		"velocity" 26
+		"lifetime" 300
+		"reload" 4
+		"firing energy" 6.0
+		"firing heat" 1.0
+		"acceleration" 0.9
+		"drag" 0.2
+		"turn" 50.0
+		"homing" 1
+		"infrared tracking" 0.33
+		"shield damage" 6.2
+		"hull damage" 28.4
+		"heat damage" 4.3
+		"missile strength" 13.4
+	description "Rewavayi T1.9 Missile weapon"
+
+outfit "Voud Anti-Missile"
+	category "Turrets"
+	cost 511900
+	thumbnail "outfit/anti-missile hai"
+	"mass" 75
+	"outfit space" -75
+	"weapon capacity" -75
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "heavy laser impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 4.5
+		"velocity" 240
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 52.5
+		"firing heat" 54.6
+	description "Rewavayi T1.9 Anti-missile"
+
+outfit "Azee Anti-Missile"
+	category "Turrets"
+	cost 280600
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "proton impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 2.2
+		"velocity" 430
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 18.7
+		"firing heat" 23.0
+	description "Rewavayi T1.9 Anti-missile"
+

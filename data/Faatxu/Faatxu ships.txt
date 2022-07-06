@@ -1,0 +1,425 @@
+ship "Paiixmteg"
+	sprite "ship/Faatxu/Paiixmteg"
+	attributes 
+		category "Interceptor"
+		"cost" 20174000
+		"shields" 175900
+		"hull" 202000
+		"required crew" 2
+		"bunks" 16
+		"mass" 79.7
+		"drag" 1.74
+		"heat dissipation" 0.78
+		"fuel capacity" 800
+		"cargo space" 15
+		"outfit space" 165
+		"weapon capacity" 60
+		"engine capacity" 55
+		weapon 
+			"blast radius" 834
+			"shield damage" 8340
+			"hull damage" 4170
+			"hit force" 5840
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Uvj Tachyon Projector" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Ued otx Cooling" 1
+		"Hyperdrive"
+	engine 0 21
+	gun -15 -27
+	gun 24 -36
+	gun -27 -36
+	gun 12 -27
+	turret 0 -32
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Faatxu T4.5 ship"
+
+ship "Spo urjdpi"
+	sprite "ship/Faatxu/Spo urjdpi"
+	attributes 
+		category "Light Warship"
+		"cost" 411080000
+		"shields" 624800
+		"hull" 717700
+		"required crew" 3
+		"automaton" 1
+		"bunks" 18
+		"mass" 190.4
+		"drag" 3.96
+		"heat dissipation" 0.87
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 242
+		"weapon capacity" 70
+		"engine capacity" 88
+		weapon 
+			"blast radius" 2962
+			"shield damage" 29620
+			"hull damage" 14810
+			"hit force" 20740
+	outfits 
+		"Wix Anti-Missile" 1
+		"Afe Cell" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Hyperdrive"
+	engine 0 7
+	turret 0 -31
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Faatxu T4.5 ship"
+
+ship "Obn dat"
+	sprite "ship/Faatxu/Obn dat"
+	attributes 
+		category "Light Freighter"
+		"cost" 64103000
+		"shields" 181100
+		"hull" 208000
+		"required crew" 5
+		"automaton" 1
+		"bunks" 17
+		"mass" 232.4
+		"drag" 5.23
+		"heat dissipation" 0.68
+		"fuel capacity" 400
+		"cargo space" 80
+		"outfit space" 374
+		"weapon capacity" 130
+		"engine capacity" 121
+		weapon 
+			"blast radius" 858
+			"shield damage" 8590
+			"hull damage" 4300
+			"hit force" 6010
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Wix Anti-Missile" 1
+		"Afe Cell" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Hyperdrive"
+	engine 0 46
+	gun 0 -28
+	turret 0 -16
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Faatxu T4.5 ship"
+
+ship "Diohoe"
+	sprite "ship/Faatxu/Diohoe"
+	attributes 
+		category "Transport"
+		"cost" 183912000
+		"shields" 379500
+		"hull" 435900
+		"required crew" 3
+		"automaton" 1
+		"bunks" 28
+		"mass" 84.8
+		"drag" 1.63
+		"heat dissipation" 1.17
+		"fuel capacity" 2400
+		"cargo space" 15
+		"outfit space" 121
+		"weapon capacity" 50
+		"engine capacity" 33
+		weapon 
+			"blast radius" 1799
+			"shield damage" 17990
+			"hull damage" 9000
+			"hit force" 12600
+	outfits 
+		"Wix Anti-Missile" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Iud egn Thruster" 1
+		"Iud egn Steering" 1
+		"Ihr ieu Cooling" 1
+		"Hyperdrive"
+	engine 0 63
+	turret 0 9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Faatxu T4.5 ship"
+
+ship "Tudteeolj"
+	sprite "ship/Faatxu/Tudteeolj"
+	attributes 
+		category "Transport"
+		"cost" 19591000
+		"shields" 218600
+		"hull" 251100
+		"required crew" 1
+		"automaton" 1
+		"bunks" 1
+		"mass" 61.2
+		"drag" 1.47
+		"heat dissipation" 1.01
+		"fuel capacity" 3400
+		"cargo space" 10
+		"outfit space" 110
+		"weapon capacity" 30
+		"engine capacity" 33
+		weapon 
+			"blast radius" 1036
+			"shield damage" 10370
+			"hull damage" 5190
+			"hit force" 7260
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Iud egn Thruster" 1
+		"Iud egn Steering" 1
+		"Ued otx Cooling" 2
+		"Ihr ieu Cooling" 2
+		"Pua Heat Pump" 1
+		"Apofea Battery Pack" 1
+		"Hyperdrive"
+	engine 0 45
+	gun 0 26
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Faatxu T4.5 ship"
+
+ship "Jad tev"
+	sprite "ship/Faatxu/Jad tev"
+	attributes 
+		category "Interceptor"
+		"cost" 57964000
+		"shields" 168300
+		"hull" 193400
+		"required crew" 1
+		"bunks" 5
+		"mass" 56.7
+		"drag" 1.29
+		"heat dissipation" 0.9400000000000001
+		"fuel capacity" 3300
+		"cargo space" 10
+		"outfit space" 121
+		"weapon capacity" 50
+		"engine capacity" 44
+		weapon 
+			"blast radius" 798
+			"shield damage" 7980
+			"hull damage" 3990
+			"hit force" 5590
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Apofea Battery Pack" 2
+		"Iud egn Thruster" 1
+		"Iud egn Steering" 1
+		"Ued otx Cooling" 1
+		"Ihr ieu Cooling" 1
+		"Hyperdrive"
+	engine 0 0
+	gun 0 -1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Faatxu T4.5 ship"
+
+ship "Ciuedt"
+	sprite "ship/Faatxu/Ciuedt"
+	attributes 
+		category "Heavy Warship"
+		"cost" 920087000
+		"shields" 2114600
+		"hull" 2428900
+		"required crew" 22
+		"automaton" 1
+		"bunks" 64
+		"mass" 518.2
+		"drag" 11.64
+		"heat dissipation" 0.84
+		"fuel capacity" 2600
+		"cargo space" 70
+		"outfit space" 671
+		"weapon capacity" 230
+		"engine capacity" 176
+		weapon 
+			"blast radius" 10024
+			"shield damage" 100250
+			"hull damage" 50130
+			"hit force" 70170
+	outfits 
+		"Rvc Guided Rocket Launcher" 2
+		"Rvc Guided Rocket" 58
+		"Wix Anti-Missile" 1
+		"Axp Auto Culverin" 1
+		"Uvj Tachyon Projector" 1
+		"Afe Cell" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Hyperdrive"
+	engine 112 24
+	engine -129 24
+	gun 0 17
+	gun 84 -104
+	gun -92 -104
+	gun 45 15
+	gun -53 15
+	turret -54 12
+	turret 95 -34
+	turret -102 -34
+	turret 50 -37
+	turret -57 -37
+	turret 47 12
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Faatxu T4.5 ship"
+
+ship "Acs iijris"
+	sprite "ship/Faatxu/Acs iijris"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 157121000
+		"shields" 1100600
+		"hull" 1264200
+		"required crew" 51
+		"automaton" 1
+		"bunks" 150
+		"mass" 967.0
+		"drag" 20.55
+		"heat dissipation" 0.59
+		"fuel capacity" 3600
+		"cargo space" 520
+		"outfit space" 2233
+		"weapon capacity" 720
+		"engine capacity" 748
+		weapon 
+			"blast radius" 5217
+			"shield damage" 52180
+			"hull damage" 26090
+			"hit force" 36530
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Wix Anti-Missile" 1
+		"Axp Auto Culverin" 1
+		"Axp Auto Culverin Turret" 1
+		"Uvj Tachyon Projector Turret" 1
+		"Afe Cell" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Hyperdrive"
+	engine 26 13
+	engine -43 13
+	engine 32 4
+	engine -49 4
+	engine 43 61
+	engine -60 61
+	engine 0 28
+	gun -49 -71
+	gun 41 -71
+	turret 0 -89
+	turret 31 -71
+	turret -38 -71
+	leak "leak" 50
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Faatxu T4.5 ship"
+
+ship "Uuoboioju"
+	sprite "ship/Faatxu/Uuoboioju"
+	attributes 
+		category "Medium Warship"
+		"cost" 326647000
+		"shields" 1358700
+		"hull" 1560700
+		"required crew" 5
+		"automaton" 1
+		"bunks" 23
+		"mass" 228.8
+		"drag" 5.21
+		"heat dissipation" 0.54
+		"fuel capacity" 2600
+		"cargo space" 35
+		"outfit space" 561
+		"weapon capacity" 160
+		"engine capacity" 143
+		weapon 
+			"blast radius" 6441
+			"shield damage" 64410
+			"hull damage" 32210
+			"hit force" 45090
+	outfits 
+		"Rvc Guided Rocket Launcher" 1
+		"Rvc Guided Rocket" 29
+		"Wix Anti-Missile" 1
+		"Axp Auto Culverin" 1
+		"Afe Cell" 1
+		"Apofea Battery Pack" 1
+		"Fsa Shielding" 1
+		"Sdu Thruster" 1
+		"Sdu Steering" 1
+		"Ued otx Cooling" 1
+		"Hyperdrive"
+	engine 0 72
+	gun 0 -2
+	gun 51 -53
+	gun -59 -53
+	turret 0 -10
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Faatxu T4.5 ship"
+

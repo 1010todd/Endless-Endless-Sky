@@ -1,0 +1,4226 @@
+outfit "Cubue Capacitor"
+	category "Power"
+	cost 168500
+	thumbnail "outfit/tiny battery hai"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 2380
+	description "Cogzi dizse T1.9 Battery"
+
+outfit "Cubue Capacitor"
+	category "Power"
+	cost 303300
+	thumbnail "outfit/small battery hai"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 5240
+	description "Cogzi dizse T1.9 Battery"
+
+outfit "Cubue Capacitor"
+	category "Power"
+	cost 546000
+	thumbnail "outfit/medium battery hai"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 11530
+	description "Cogzi dizse T1.9 Battery"
+
+outfit "Cubue Capacitor"
+	category "Power"
+	cost 982800
+	thumbnail "outfit/large battery hai"
+	"mass" 88
+	"outfit space" -88
+	"energy capacity" 25370
+	description "Cogzi dizse T1.9 Battery"
+
+
+outfit "Gayhe Generator"
+	category "Power"
+	cost 30300
+	thumbnail "outfit/red sun"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 2.3
+	"heat generation" 5.3
+	description "Cogzi dizse T1.9 Power generator"
+
+outfit "Jcoak uuubo Generator"
+	category "Power"
+	cost 51600
+	thumbnail "outfit/yellow sun"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 5.1
+	"heat generation" 14.8
+	description "Cogzi dizse T1.9 Power generator"
+
+outfit "Kweit Generator"
+	category "Power"
+	cost 87800
+	thumbnail "outfit/white sun"
+	"mass" 76
+	"outfit space" -76
+	"energy generation" 11.2
+	"heat generation" 41.4
+	description "Cogzi dizse T1.9 Power generator"
+
+outfit "Weoei Generator"
+	category "Power"
+	cost 149300
+	thumbnail "outfit/blue sun"
+	"mass" 152
+	"outfit space" -152
+	"energy generation" 24.6
+	"heat generation" 115.9
+	description "Cogzi dizse T1.9 Power generator"
+
+
+outfit "Dkoaa xhagi Thruster"
+	category "Engines"
+	cost 2964600
+	thumbnail "outfit/small plasma thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 5.4
+	"thrusting energy" 0.6
+	"thrusting heat" 1.0
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.2653305830998314
+	"flare sound" "plasma small"
+	description "Cogzi dizse T1.9 Thruster"
+
+outfit "Dkoaa xhagi Steering"
+	category "Engines"
+	cost 2094765
+	thumbnail "outfit/small plasma steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 151
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Cogzi dizse T1.9 steering"
+
+outfit "Hihii Thruster"
+	category "Engines"
+	cost 5039900
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 13.0
+	"thrusting energy" 1.3
+	"thrusting heat" 2.2
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1
+	"flare sound" "plasma medium"
+	description "Cogzi dizse T1.9 Thruster"
+
+outfit "Hihii Steering"
+	category "Engines"
+	cost 8567900
+	thumbnail "outfit/medium plasma steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 362.4
+	"turning energy" 0.9
+	"turning heat" 1.5
+	description "Cogzi dizse T1.9 steering"
+
+outfit "Jnuihhidic Thruster"
+	category "Engines"
+	cost 8567900
+	thumbnail "outfit/large plasma thruster"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"thrust" 31.2
+	"thrusting energy" 2.9
+	"thrusting heat" 4.8
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1
+	"flare sound" "plasma large"
+	description "Cogzi dizse T1.9 Thruster"
+
+outfit "Jnuihhidic Steering"
+	category "Engines"
+	cost 14565500
+	thumbnail "outfit/large plasma steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 869.8
+	"turning energy" 2.0
+	"turning heat" 3.3
+	description "Cogzi dizse T1.9 steering"
+
+outfit "Qajoohiasu Thruster"
+	category "Engines"
+	cost 14565500
+	thumbnail "outfit/large plasma thruster"
+	"mass" 94
+	"outfit space" -94
+	"engine capacity" -94
+	"thrust" 74.9
+	"thrusting energy" 6.4
+	"thrusting heat" 10.6
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1
+	"flare sound" "plasma large"
+	description "Cogzi dizse T1.9 Thruster"
+
+outfit "Qajoohiasu Steering"
+	category "Engines"
+	cost 24761400
+	thumbnail "outfit/large plasma steering"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 2087.5
+	"turning energy" 4.4
+	"turning heat" 7.3
+	description "Cogzi dizse T1.9 steering"
+
+outfit "Yeoiu gacei Thruster"
+	category "Engines"
+	cost 24761400
+	thumbnail "outfit/large plasma thruster"
+	"mass" 169
+	"outfit space" -169
+	"engine capacity" -169
+	"thrust" 179.8
+	"thrusting energy" 14.1
+	"thrusting heat" 23.3
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1
+	"flare sound" "plasma large"
+	description "Cogzi dizse T1.9 Thruster"
+
+outfit "Yeoiu gacei Steering"
+	category "Engines"
+	cost 42094400
+	thumbnail "outfit/large plasma steering"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"turn" 5010.0
+	"turning energy" 9.7
+	"turning heat" 16.1
+	description "Cogzi dizse T1.9 steering"
+
+
+outfit "Aajocrnubi Shield Core"
+	category "Systems"
+	cost 56600
+	thumbnail "outfit/tiny shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 0.64
+	"shield energy" 1.06
+	"shield heat" 2
+	description "Cogzi dizse T1.9 shield gen"
+
+outfit "Czaob Shield Core"
+	category "Systems"
+	cost 101900
+	thumbnail "outfit/small shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 1.3
+	"shield energy" 1.9
+	"shield heat" 2
+	description "Cogzi dizse T1.9 shield gen"
+
+outfit "Eocheaubem Shield Core"
+	category "Systems"
+	cost 183500
+	thumbnail "outfit/medium shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 2.6
+	"shield energy" 3.4
+	"shield heat" 2
+	description "Cogzi dizse T1.9 shield gen"
+
+outfit "Jkeejagkit Shield Core"
+	category "Systems"
+	cost 330300
+	thumbnail "outfit/large shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 5.2
+	"shield energy" 6.1
+	"shield heat" 2
+	description "Cogzi dizse T1.9 shield gen"
+
+outfit "Woefu Shield Core"
+	category "Systems"
+	cost 594600
+	thumbnail "outfit/huge shield"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 10.4
+	"shield energy" 11.0
+	"shield heat" 2
+	description "Cogzi dizse T1.9 shield gen"
+
+
+outfit "Ahiwo Nanite Repair"
+	category "Systems"
+	cost 43200
+	thumbnail "outfit/tiny shield"
+	"mass" 10
+	"outfit space" -10
+	"hull repair rate" 0.59
+	"hull energy" 0.72
+	"hull heat" 1
+	description "Cogzi dizse T1.9 Hull Repair"
+
+outfit "Miutx ehxeu Nanite Repair"
+	category "Systems"
+	cost 77800
+	thumbnail "outfit/small shield"
+	"mass" 15
+	"outfit space" -15
+	"hull repair rate" 1.2
+	"hull energy" 1.3
+	"hull heat" 1
+	description "Cogzi dizse T1.9 Hull Repair"
+
+
+outfit "Umwuo wmaji Cooling"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 127
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Rojya gleey Heat Pump"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid helium"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 131
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jyaoi baoic Heat Shunt"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid helium"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 228
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Etmoa jrioi Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/hai williwaw"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 222
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Gihai Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/large heat shunt"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 130
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oihue Heat Shunt"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/hai williwaw"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 135
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Emaux caxoj Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 211
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Rousi Cooling"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/large heat shunt"
+	"mass" 39
+	"outfit space" -39
+	"cooling" 148
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zamia jfaho Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/large heat shunt"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 240
+	"active cooling" 84
+	"cooling energy" 119.70417143508304
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wxuiv Cooler"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/large heat shunt"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 181
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eghew doaai Temperature Control"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 203
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zanoz uduge Heat Pump"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/hai williwaw"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 200
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cetog zidum Heatsink"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 152
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oeaabcdoda Cooler"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/liquid helium"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 129
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zibud Heat Shunt"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wozaw Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 137
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kianieeuga Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 125
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Einia buzao Temperature Control"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 213
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uuodh zoaje Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid helium"
+	"mass" 60
+	"outfit space" -60
+	"active cooling" 895
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aeubauggpu Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 172
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Acuek Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/large heat shunt"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 186
+	"active cooling" 156
+	"cooling energy" 71.76140327978253
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cizoe Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 242
+	"active cooling" 1136
+	"cooling energy" 96.55367245263758
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Reaiu moona Cooling"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 106
+	"outfit space" -106
+	"active cooling" 1590
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ekouoaeauh Heatsink"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid helium"
+	"mass" 111
+	"outfit space" -111
+	"cooling" 232
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Pcaao Cooling"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 168
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ziojuapaio Temperature Control"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid helium"
+	"mass" 38
+	"outfit space" -38
+	"active cooling" 278
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kiioa zwaae Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/hai williwaw"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 196
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nikop Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/large heat shunt"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nzaax Cooler"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/hai williwaw"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 183
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Isozu Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 206
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Keaugowino Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 230
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eewgo Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 220
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Desob Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 197
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Emmij uritd Heat Shunt"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/liquid helium"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 235
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wogeacnoir Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/large heat shunt"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 134
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ixfze jeadi Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 197
+	"active cooling" 618
+	"cooling energy" 112.5624281012224
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ofrengroja Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 192
+	"active cooling" 1016
+	"cooling energy" 76.3740132648574
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Roiaz oeoug Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 52
+	"outfit space" -52
+	"active cooling" 469
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Edcei Heat Pump"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 212
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yunia kuaey Heatsink"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 155
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ybuen awimi Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 75
+	"outfit space" -75
+	"active cooling" 98
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bisur igoht Cooler"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/hai williwaw"
+	"mass" 63
+	"outfit space" -63
+	"active cooling" 107
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nuiag Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 55
+	"outfit space" -55
+	"active cooling" 380
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yohoo uagku Heat Shunt"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/hai williwaw"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 131
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bobuh Temperature Control"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/hai williwaw"
+	"mass" 63
+	"outfit space" -63
+	"cooling" 147
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zwobucisew Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/liquid helium"
+	"mass" 40
+	"outfit space" -40
+	"cooling" 131
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Rogic ocyye Heat Pump"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 222
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ezezu Heat Pump"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 203
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Meogukumuz Cooling"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/large heat shunt"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 155
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eoibk Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/hai williwaw"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 188
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hagzaoiwhu Cooling"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 203
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Arroh zyoia Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 105
+	"outfit space" -105
+	"cooling" 235
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Umeam Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 190
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hkiot Cooler"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 191
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nkioi xesje Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/large heat shunt"
+	"mass" 84
+	"outfit space" -84
+	"active cooling" 762
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zuukb hgoda Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/liquid helium"
+	"mass" 79
+	"outfit space" -79
+	"active cooling" 148
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Isuxx xukaw Cooler"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 201
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ekiai Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 55
+	"outfit space" -55
+	"active cooling" 310
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Seogu Cooling"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid helium"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 125
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bazijouawg Heat Shunt"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 181
+	"active cooling" 510
+	"cooling energy" 42.87897256300623
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Raarkhpawe Heat Shunt"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 82
+	"outfit space" -82
+	"active cooling" 683
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bucnegaeac Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 200
+	"active cooling" 437
+	"cooling energy" 90.00932514058873
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Unzejiyowo Cooling"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 131
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Erbit Heatsink"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/liquid helium"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 152
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Gboih oadua Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 242
+	"active cooling" 130
+	"cooling energy" 115.11888648155616
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xyono ungia Heatsink"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 215
+	"active cooling" 164
+	"cooling energy" 54.023470770153345
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Acrunuuaew Cooling"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 35
+	"outfit space" -35
+	"active cooling" 510
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uwuzw Cooling"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 195
+	"active cooling" 201
+	"cooling energy" 91.72653983273592
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Puuck Heat Pump"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid helium"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 166
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Moezf diwvu Cooler"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 151
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ookuy Cooling"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 222
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Woiuujhiux Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mazau ecuam Cooling"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 167
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uapha Heatsink"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 177
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Paefg Cooler"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 205
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ehxihkoeiu Cooler"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/large heat shunt"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 187
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Acedo Temperature Control"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/hai williwaw"
+	"mass" 101
+	"outfit space" -101
+	"cooling" 226
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eszoi giooe Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 144
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Deebg ieyos Heatsink"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid helium"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 132
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xialrechon Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 96
+	"outfit space" -96
+	"cooling" 222
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Pinou Cooling"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 133
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ezaguzhupu Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 214
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kzaiadjihu Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/large heat shunt"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 215
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eeadm Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 38
+	"outfit space" -38
+	"cooling" 169
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zpaiz Heatsink"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/large heat shunt"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 187
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zxeam Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/large heat shunt"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 141
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ezbxa Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/large heat shunt"
+	"mass" 66
+	"outfit space" -66
+	"active cooling" 644
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Goynu kiaro Cooling"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/hai williwaw"
+	"mass" 104
+	"outfit space" -104
+	"cooling" 238
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Buiem Cooler"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 70
+	"outfit space" -70
+	"active cooling" 62
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hmaog Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/hai williwaw"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 133
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Huyeh ocjuo Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 131
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jomnodgiet Cooler"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"active cooling" 366
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Tdoopscoea Heat Pump"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/hai williwaw"
+	"mass" 104
+	"outfit space" -104
+	"cooling" 239
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wasgaudjuu Heat Shunt"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 203
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ozhoc Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/liquid helium"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 232
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mezou Heatsink"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid helium"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 132
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yenaa owuca Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/hai williwaw"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 230
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kojataxxea Temperature Control"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid helium"
+	"mass" 55
+	"outfit space" -55
+	"cooling" 181
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Apxoa uoebo Cooling"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/liquid helium"
+	"mass" 48
+	"outfit space" -48
+	"cooling" 132
+	"active cooling" 534
+	"cooling energy" 62.7785491551804
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uetin Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 86
+	"outfit space" -86
+	"cooling" 177
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uzinc oeece Cooler"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 36
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Akyui kkomi Heatsink"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 59
+	"outfit space" -59
+	"active cooling" 256
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Beaob aemie Temperature Control"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 301
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Saujw yiwou Heatsink"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 262
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Whuua ajxku Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 180
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yzaek Heat Shunt"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/hai williwaw"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 197
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Umkpezaoco Cooling"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/hai williwaw"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 287
+	"active cooling" 75
+	"cooling energy" 132.7725442918794
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jaohw xazag Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/hai williwaw"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 287
+	"active cooling" 332
+	"cooling energy" 117.55418225689152
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Geanzniaaj Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/hai williwaw"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 309
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ciceowikwa Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 45
+	"outfit space" -45
+	"active cooling" 233
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ufeoz Heat Shunt"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/hai williwaw"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 225
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mixadaoedn Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/hai williwaw"
+	"mass" 55
+	"outfit space" -55
+	"active cooling" 304
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kuoua agonu Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/hai williwaw"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 167
+	"active cooling" 715
+	"cooling energy" 40.193897747931025
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mikin Temperature Control"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/hai williwaw"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 214
+	"active cooling" 574
+	"cooling energy" 122.20924966437619
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zgoaw aclyo Temperature Control"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/hai williwaw"
+	"mass" 123
+	"outfit space" -123
+	"cooling" 250
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Onxob sasio Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/large heat shunt"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 230
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wnoiy Heat Pump"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 129
+	"outfit space" -129
+	"cooling" 297
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Meacgxnizi Heat Shunt"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/hai williwaw"
+	"mass" 140
+	"outfit space" -140
+	"cooling" 288
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nujim houok Cooling"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid helium"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 219
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Qihizxzoaz Heat Shunt"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/hai williwaw"
+	"mass" 95
+	"outfit space" -95
+	"cooling" 223
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kieau zixuj Cooler"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 299
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Looaj Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/large heat shunt"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 211
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aiwaq wnoag Heat Pump"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/large heat shunt"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 258
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ufaae jewaw Heat Pump"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 273
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zewoh gecok Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/liquid helium"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aebei enmuh Heat Shunt"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/large heat shunt"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 156
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ezuhyoesea Temperature Control"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 180
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mcaio Heatsink"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 179
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dajoizouok Heat Pump"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 302
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Onjou vukmi Cooler"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 183
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oyudb Heat Shunt"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/hai williwaw"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 258
+	"active cooling" 824
+	"cooling energy" 120.43040983859842
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wcooo iozoe Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 191
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Joaae onoei Cooler"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 117
+	"outfit space" -117
+	"active cooling" 1162
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Widqe jleen Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/large heat shunt"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 244
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Azoac ectoe Heatsink"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 237
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Lareckuoww Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 88
+	"outfit space" -88
+	"active cooling" 1289
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wrexu Cooling"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 104
+	"outfit space" -104
+	"active cooling" 1390
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mxiospeomh Temperature Control"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 119
+	"outfit space" -119
+	"cooling" 263
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jziud Heatsink"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/hai williwaw"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 308
+	"active cooling" 124
+	"cooling energy" 105.54731738622417
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ikanm Heat Shunt"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 217
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Undun cooje Heat Pump"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"active cooling" 200
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ebtam wiheu Heatsink"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/liquid helium"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 184
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jofye kezmo Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 218
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Enjad bukut Heat Shunt"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/hai williwaw"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 187
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Daoxj Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 59
+	"outfit space" -59
+	"active cooling" 433
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wajeo Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 43
+	"outfit space" -43
+	"cooling" 157
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aoajk Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/liquid helium"
+	"mass" 132
+	"outfit space" -132
+	"cooling" 311
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Woimo Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 39
+	"outfit space" -39
+	"active cooling" 430
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Omaanelaro Cooler"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 215
+	"active cooling" 866
+	"cooling energy" 94.01452004278005
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ijikj igcai Cooling"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 179
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uwzoe ozwig Cooler"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"active cooling" 249
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Shuukgajue Heatsink"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/large heat shunt"
+	"mass" 138
+	"outfit space" -138
+	"cooling" 297
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uicau Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 189
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wboin apezk Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 181
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ylowicoodo Cooling"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 186
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wowkoyuvae Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 221
+	"active cooling" 1120
+	"cooling energy" 61.237975831543146
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Icvee daisp Temperature Control"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/liquid helium"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 283
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bexhozbiec Cooling"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/large heat shunt"
+	"mass" 141
+	"outfit space" -141
+	"active cooling" 1634
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Caoqe Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 248
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eonacmiwer Cooling"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/liquid helium"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 288
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Idkuo Cooler"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/large heat shunt"
+	"mass" 81
+	"outfit space" -81
+	"active cooling" 211
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Owioi Temperature Control"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/large heat shunt"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 178
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Suoosecbob Heat Shunt"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 44
+	"outfit space" -44
+	"cooling" 180
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cpiip Heatsink"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 165
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bzaic Temperature Control"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/liquid helium"
+	"mass" 106
+	"outfit space" -106
+	"cooling" 212
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aobaeomaku Heatsink"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 232
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kibac uoeak Cooler"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 297
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aokon yweie Heat Pump"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/liquid helium"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 274
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ipexjneefi Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 217
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Heeez Heat Shunt"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/large heat shunt"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 199
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hojae znomu Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid helium"
+	"mass" 68
+	"outfit space" -68
+	"active cooling" 695
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hoizuzunni Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 290
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eaubu Cooling"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hai williwaw"
+	"mass" 137
+	"outfit space" -137
+	"cooling" 308
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oeaoz Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 194
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Satiw Heat Pump"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid helium"
+	"mass" 116
+	"outfit space" -116
+	"active cooling" 1477
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Arazozueou Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 137
+	"outfit space" -137
+	"cooling" 285
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oejru Heat Shunt"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 213
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Medsoagook Temperature Control"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/large heat shunt"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 228
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uahowzoikd Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid helium"
+	"mass" 86
+	"outfit space" -86
+	"cooling" 247
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aynua Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 193
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aomnacaoay Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/large heat shunt"
+	"mass" 73
+	"outfit space" -73
+	"active cooling" 148
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eguok Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 200
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ajozi ujegc Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 259
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Egponugaen Heat Pump"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 89
+	"outfit space" -89
+	"cooling" 227
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ejoohoaase Temperature Control"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 195
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ogeoe Cooling"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/large heat shunt"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 159
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wieka eoeyi Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid helium"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 247
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Arcos Temperature Control"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid helium"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 270
+	"active cooling" 436
+	"cooling energy" 82.27594466694872
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cikke Heat Shunt"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 132
+	"outfit space" -132
+	"cooling" 270
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Guaxu azkoh Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 252
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Auzao paoja Heat Pump"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 182
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Huaco nekai Temperature Control"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 279
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wriuo Cooler"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 282
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eagne vkoue Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 273
+	"active cooling" 821
+	"cooling energy" 132.55134257397103
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eryiu boped Heat Shunt"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/hai williwaw"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 158
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Agcea Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 149
+	"outfit space" -149
+	"cooling" 305
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ceehawezdu Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Excoo oguiz Cooling"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/hai williwaw"
+	"mass" 111
+	"outfit space" -111
+	"cooling" 226
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Egowi Heat Shunt"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 250
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ogdow Heat Pump"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/hai williwaw"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 283
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Osoru neadw Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 186
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Magew onwou Cell"
+	category "Power"
+	cost 177800
+	thumbnail "outfit/plasma core"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 2.2
+	"heat generation" 5.7
+	description "Cogzi dizse T1.9 Power generator"
+
+outfit "Nnumi Cell"
+	category "Power"
+	cost 302300
+	thumbnail "outfit/double plasma core"
+	"mass" 7
+	"outfit space" -7
+	"energy generation" 4.8
+	"heat generation" 3.4
+	description "Cogzi dizse T1.9 Power generator"
+
+outfit "Wuefa Cell"
+	category "Power"
+	cost 514000
+	thumbnail "outfit/triple plasma core"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 10.6
+	"heat generation" 2.0
+	description "Cogzi dizse T1.9 Power generator"
+
+
+outfit "Wyaon binia Heatsink"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid helium"
+	"mass" 97
+	"outfit space" -97
+	"cooling" 266
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ouabiherwu Heat Pump"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 57
+	"outfit space" -57
+	"active cooling" 839
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ebahn gojaa Heat Pump"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/hai williwaw"
+	"mass" 112
+	"outfit space" -112
+	"cooling" 335
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oceef Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/hai williwaw"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 255
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ruiam upeea Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/large heat shunt"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 221
+	"active cooling" 609
+	"cooling energy" 69.13056577104655
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Deuka asiyw Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 70
+	"outfit space" -70
+	"active cooling" 729
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Akmoebisue Heat Pump"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 234
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ixmeh Heat Shunt"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 307
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Pdeihunwaa Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 253
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Tjooe Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid helium"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 200
+	"active cooling" 650
+	"cooling energy" 69.14846961070612
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Tuyzu zuxee Heat Shunt"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/liquid helium"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 192
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Newko jisyu Heatsink"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/liquid helium"
+	"mass" 87
+	"outfit space" -87
+	"cooling" 184
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nislo ucuoo Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 251
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Egasc Cooler"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid helium"
+	"mass" 77
+	"outfit space" -77
+	"active cooling" 385
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ikepa Temperature Control"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 220
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yawoowegoz Heat Shunt"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 281
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Huamm Heatsink"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/hai williwaw"
+	"mass" 88
+	"outfit space" -88
+	"active cooling" 29
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Gweie Heat Pump"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/hai williwaw"
+	"mass" 128
+	"outfit space" -128
+	"cooling" 268
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uoour Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/liquid helium"
+	"mass" 133
+	"outfit space" -133
+	"cooling" 296
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xhuweohadi Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hai williwaw"
+	"mass" 165
+	"outfit space" -165
+	"cooling" 349
+	"active cooling" 768
+	"cooling energy" 139.73264971026308
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Okpkoonuef Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/large heat shunt"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 260
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uwdee hejze Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 116
+	"outfit space" -116
+	"cooling" 237
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Timgi shieo Cooler"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 93
+	"outfit space" -93
+	"active cooling" 1235
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Buceo udevs Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 205
+	"active cooling" 433
+	"cooling energy" 119.21309007944068
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yoaos Cooler"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 125
+	"outfit space" -125
+	"cooling" 325
+	"active cooling" 1382
+	"cooling energy" 145.3993140216748
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nomoo Heatsink"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 93
+	"outfit space" -93
+	"cooling" 238
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jaozi ayiwy Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid helium"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 206
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Sehij umigu Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/large heat shunt"
+	"mass" 114
+	"outfit space" -114
+	"cooling" 340
+	"active cooling" 8
+	"cooling energy" 188.24060085259515
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aodua Cooling"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 301
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Okauy Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid helium"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 234
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Egiuucreee Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 270
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uzjue Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid helium"
+	"mass" 76
+	"outfit space" -76
+	"active cooling" 8
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Fweoh Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 254
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ugmad etscu Cooling"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 89
+	"outfit space" -89
+	"active cooling" 1313
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dxiwe olohp Temperature Control"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 135
+	"outfit space" -135
+	"cooling" 289
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Imvezoegeo Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 118
+	"outfit space" -118
+	"cooling" 239
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hheeh zowea Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 232
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Guxdo Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/hai williwaw"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 264
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Geiirudees Temperature Control"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 98
+	"outfit space" -98
+	"active cooling" 238
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nugbo Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 105
+	"outfit space" -105
+	"cooling" 339
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jogxg Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/hai williwaw"
+	"mass" 121
+	"outfit space" -121
+	"cooling" 264
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hmaijsgaea Cooler"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 87
+	"outfit space" -87
+	"active cooling" 874
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oomai kbuop Temperature Control"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/hai williwaw"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 195
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yinox ejioc Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 141
+	"outfit space" -141
+	"cooling" 336
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Meejk jzuou Cooling"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/large heat shunt"
+	"mass" 140
+	"outfit space" -140
+	"cooling" 327
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oonea Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 130
+	"outfit space" -130
+	"active cooling" 1608
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Rezao viobo Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 268
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eeyap Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/hai williwaw"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 292
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zeiwk Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 268
+	"active cooling" 1351
+	"cooling energy" 105.60089759858344
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Iyajnaukeo Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hai williwaw"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 243
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wuaxh Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 86
+	"outfit space" -86
+	"active cooling" 349
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Grute hiijp Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/hai williwaw"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 235
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Raete Cooling"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 119
+	"outfit space" -119
+	"cooling" 283
+	"active cooling" 1355
+	"cooling energy" 134.1618962062085
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Occag Heat Pump"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 125
+	"outfit space" -125
+	"cooling" 320
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hieum Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 176
+	"active cooling" 1114
+	"cooling energy" 82.36554698182645
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oaeyz zeoze Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 288
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ngiin woozi Cooling"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/hai williwaw"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 216
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Umrixzazuu Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/large heat shunt"
+	"mass" 65
+	"outfit space" -65
+	"active cooling" 461
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hieme yacao Heat Shunt"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/large heat shunt"
+	"mass" 123
+	"outfit space" -123
+	"cooling" 246
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Naencuzrem Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 109
+	"outfit space" -109
+	"cooling" 240
+	"active cooling" 510
+	"cooling energy" 139.73330188324246
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jicmo ozdme Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 122
+	"outfit space" -122
+	"cooling" 268
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Reofs ahjeh Temperature Control"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 125
+	"outfit space" -125
+	"cooling" 324
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Agsiw Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/hai williwaw"
+	"mass" 84
+	"outfit space" -84
+	"cooling" 334
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uycongiipt Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 262
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oeraj jiwuh Heat Shunt"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/large heat shunt"
+	"mass" 86
+	"outfit space" -86
+	"cooling" 330
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ednki eejex Heatsink"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/liquid helium"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 277
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hiubjoywze Heatsink"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 112
+	"outfit space" -112
+	"cooling" 265
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ashei makou Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 119
+	"outfit space" -119
+	"cooling" 274
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hyoba Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 274
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kuesu Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 149
+	"outfit space" -149
+	"cooling" 324
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mwiyejueoa Temperature Control"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 160
+	"outfit space" -160
+	"cooling" 337
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Iweja euwmu Cooler"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/large heat shunt"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 193
+	"active cooling" 386
+	"cooling energy" 85.72341915040907
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hjuuo Temperature Control"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid helium"
+	"mass" 78
+	"outfit space" -78
+	"active cooling" 29
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mtife Heat Shunt"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/hai williwaw"
+	"mass" 120
+	"outfit space" -120
+	"active cooling" 323
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Kuoeu Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid helium"
+	"mass" 64
+	"outfit space" -64
+	"cooling" 185
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Coyoe acguu Heat Shunt"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 112
+	"outfit space" -112
+	"cooling" 296
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Giira sayof Heatsink"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/hai williwaw"
+	"mass" 111
+	"outfit space" -111
+	"cooling" 232
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ihwad oesep Heat Pump"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 90
+	"outfit space" -90
+	"cooling" 315
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hkeao Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/large heat shunt"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 256
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Owwso Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Seojeyiuea Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ookei irguj Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 21
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bereu niasy Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Sizux ezzci Cooler"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ulwgi Heat Pump"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dbinu Temperature Control"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aoxpe Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uwonk Heat Shunt"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Mzoua Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ceuho gahax Heat Pump"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dexzu Heat Shunt"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uciso Heat Shunt"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dobea Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Momoaeejme Heatsink"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Sfier ceaci Heatsink"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Upaeaoyboa Cooler"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	"active cooling" 28
+	"cooling energy" 6.286013025920612
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Akaho Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Arrag eebin Heatsink"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Easab Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Useaz Cooler"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	"active cooling" 14
+	"cooling energy" 5.466869114666561
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eoieo Heatsink"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zucez Temperature Control"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Onodi Heatsink"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ohshu Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	"active cooling" 24
+	"cooling energy" 5.044972998617026
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Odioz oxkmo Heat Pump"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 5
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nuunocuouz Heat Shunt"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Exgow Cooling"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 15
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Dcoao Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 39
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uqomw Heat Pump"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	"active cooling" 46
+	"cooling energy" 8.667244580733291
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oiucs Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xeoeb Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	"active cooling" 47
+	"cooling energy" 6.196738127325918
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wbeox Cooler"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ejkhe xogua Cooler"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 88
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Iazui Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	"active cooling" 69
+	"cooling energy" 3.0999920062415907
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uuyum Cooling"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nmoaw Heatsink"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uzyru Temperature Control"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Gezia Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xiocm ajnai Cooling"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Lmlao zcoao Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Coimusawue Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oefao Heat Pump"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	"active cooling" 7
+	"cooling energy" 6.290249253568692
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hussa fojii Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 16
+	"active cooling" 35
+	"cooling energy" 5.244683452300915
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Sizuu manou Cooler"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 57
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Meosi Cooling"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	"active cooling" 49
+	"cooling energy" 6.8806292437170695
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wxeze Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	"active cooling" 65
+	"cooling energy" 8.123498259527834
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cuugx Heatsink"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ynioaadnri Cooling"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Auasuuzajb Heat Pump"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ekxaa isafi Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Haqfo Temperature Control"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jkiummouze Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 17
+	"active cooling" 16
+	"cooling energy" 7.4701751434768715
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Arwki Heat Pump"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jeioi Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ejluu Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Maixieyuie Cooling"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Uoika Heat Pump"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wcuku ogizc Heat Shunt"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/water cooling"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Utkaa Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 71
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Caujo Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	"active cooling" 20
+	"cooling energy" 4.201491601162063
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Zijoi fliap Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ngoaw sionn Heatsink"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yneni edpom Heat Shunt"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Nhoorihcua Heatsink"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Aniws Cooling"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Gaedotaeyy Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	"active cooling" 3
+	"cooling energy" 5.650896020589803
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Duwoi Heat Pump"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eiogi iknai Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cnivo nezme Cooler"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	"active cooling" 1
+	"cooling energy" 4.784435519795047
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Cumoo jveoe Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	"active cooling" 43
+	"cooling energy" 7.501443297174976
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ocwezecciw Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Bcean Heat Pump"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Omumi Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ojtaa Heat Shunt"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 18
+	"active cooling" 57
+	"cooling energy" 6.345856088546242
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ihjoz Heat Pump"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 17
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Owaugneimo Cooler"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ezouz awsma Temperature Control"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 62
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ersui Heatsink"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Joodm Temperature Control"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Awirh jiamz Cooler"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eibuh Heatsink"
+	category "Systems"
+	cost 3400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 26
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Acucz Heat Shunt"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Xeasioosot Heat Pump"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 9
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Anzud aobeo Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 44
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Waame neceu Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 56
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Weakr nenuc Temperature Control"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Ekezoozkue Temperature Control"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 14
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Raoha Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/cooling module"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Iekea Heatsink"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Wehai Cooler"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Jaega Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Yxita Cooling"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Neeae eogtu Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	"active cooling" 38
+	"cooling energy" 6.083482650178608
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Hokda eaoao Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Umkwu Heat Pump"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 103
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Oodee sleaa Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 65
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Reyue Cooler"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	"active cooling" 30
+	"cooling energy" 4.3502225684413345
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Eugci Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 18
+	description "Cogzi dizse T1.9 Cooling"
+
+
+outfit "Egcoxujooj Cooling"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	"active cooling" 16
+	"cooling energy" 4.143741065510676
+	description "Cogzi dizse T1.9 Cooling"
+
+

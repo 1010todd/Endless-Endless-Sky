@@ -1,0 +1,19 @@
+government "Sioajeil"
+	"display name" "Sioajeil"
+	"swizzle" 17
+	"color" 0.275 0.390 0.095 0.854
+	"player reputation" -1
+	"crew attack" 1.5
+	"crew defense" 3.5
+	"attitude toward"
+		"Dzeuxorewu" 0
+		"Auau pobo" -1
+		"Guduxcoohq" 0
+		"Faatxu" -1
+		"Axgoo qyoeg" -1
+		"Sacfiaqbev" -1
+		"Xadllepa" -1
+		"Touexpeuos" -1
+		"Rewavayi" -1
+		"Cogzi dizse" -1
+		"Eusa kaae" -1

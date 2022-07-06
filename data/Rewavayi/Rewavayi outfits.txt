@@ -1,0 +1,1339 @@
+outfit "Bqiu reof Capacitor"
+	category "Power"
+	cost 233100
+	thumbnail "outfit/tiny battery hai"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 2950
+	description "Rewavayi T1.9 Battery"
+
+outfit "Bqiu reof Capacitor"
+	category "Power"
+	cost 419600
+	thumbnail "outfit/small battery hai"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 6500
+	description "Rewavayi T1.9 Battery"
+
+outfit "Bqiu reof Capacitor"
+	category "Power"
+	cost 755300
+	thumbnail "outfit/medium battery hai"
+	"mass" 28
+	"outfit space" -28
+	"energy capacity" 14310
+	description "Rewavayi T1.9 Battery"
+
+
+outfit "Gito oqiv Reactor"
+	category "Power"
+	cost 18200
+	thumbnail "outfit/dwarf core hai"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 2.0
+	"energy capacity" 20751
+	"heat generation" 4.1
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Kaiw Reactor"
+	category "Power"
+	cost 31000
+	thumbnail "outfit/fusion hai"
+	"mass" 40
+	"outfit space" -40
+	"energy generation" 4.4
+	"energy capacity" 45652.2
+	"heat generation" 4.1
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Mtef ceso Reactor"
+	category "Power"
+	cost 52700
+	thumbnail "outfit/hai boulder"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 9.7
+	"energy capacity" 100434.8
+	"heat generation" 4.1
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Cjeu Generator"
+	category "Power"
+	cost 39100
+	thumbnail "outfit/dwarf core"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 2.1
+	"heat generation" 5.9
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Eafi pzue Generator"
+	category "Power"
+	cost 66500
+	thumbnail "outfit/fusion"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 4.6
+	"heat generation" 18.9
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Meiw Generator"
+	category "Power"
+	cost 113100
+	thumbnail "outfit/core"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 10.1
+	"heat generation" 60.5
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Tsue Reactor"
+	category "Power"
+	cost 40700
+	thumbnail "outfit/millennium cell"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 1.9
+	"heat generation" 5.7
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Xoud Reactor"
+	category "Power"
+	cost 69200
+	thumbnail "outfit/epoch cell"
+	"mass" 29
+	"outfit space" -29
+	"energy generation" 4.2
+	"heat generation" 4.6
+	description "Rewavayi T1.9 Power generator"
+
+
+outfit "Dcea Thruster"
+	category "Engines"
+	cost 3958900
+	thumbnail "outfit/small remnant thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 6.4
+	"thrusting energy" 0.7
+	"thrusting heat" 1.0
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.0698511524690617
+	"flare sound" "remnant small"
+	description "Rewavayi T1.9 Thruster"
+
+outfit "Dcea Steering"
+	category "Engines"
+	cost 3090255
+	thumbnail "outfit/small remnant steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 164
+	"turning energy" 0.5
+	"turning heat" 0.8
+	description "Rewavayi T1.9 steering"
+
+outfit "Efii Thruster"
+	category "Engines"
+	cost 6730200
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 15.4
+	"thrusting energy" 1.7
+	"thrusting heat" 2.4
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1
+	"flare sound" "remnant medium"
+	description "Rewavayi T1.9 Thruster"
+
+outfit "Efii Steering"
+	category "Engines"
+	cost 11441400
+	thumbnail "outfit/medium remnant steering"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 393.6
+	"turning energy" 1.2
+	"turning heat" 1.9
+	description "Rewavayi T1.9 steering"
+
+outfit "Nuva utov Thruster"
+	category "Engines"
+	cost 11441400
+	thumbnail "outfit/large remnant thruster"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 37.0
+	"thrusting energy" 4.1
+	"thrusting heat" 5.8
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Rewavayi T1.9 Thruster"
+
+outfit "Nuva utov Steering"
+	category "Engines"
+	cost 19450400
+	thumbnail "outfit/large remnant steering"
+	"mass" 25
+	"outfit space" -25
+	"engine capacity" -25
+	"turn" 944.6
+	"turning energy" 2.9
+	"turning heat" 4.6
+	description "Rewavayi T1.9 steering"
+
+outfit "Taiq Thruster"
+	category "Engines"
+	cost 19450400
+	thumbnail "outfit/large remnant thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 88.8
+	"thrusting energy" 9.8
+	"thrusting heat" 13.9
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Rewavayi T1.9 Thruster"
+
+outfit "Taiq Steering"
+	category "Engines"
+	cost 33065700
+	thumbnail "outfit/large remnant steering"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"turn" 2267.0
+	"turning energy" 7.0
+	"turning heat" 11.0
+	description "Rewavayi T1.9 steering"
+
+outfit "Xiovzoai Thruster"
+	category "Engines"
+	cost 33065700
+	thumbnail "outfit/large remnant thruster"
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 213.1
+	"thrusting energy" 23.5
+	"thrusting heat" 33.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Rewavayi T1.9 Thruster"
+
+outfit "Xiovzoai Steering"
+	category "Engines"
+	cost 56211700
+	thumbnail "outfit/large remnant steering"
+	"mass" 81
+	"outfit space" -81
+	"engine capacity" -81
+	"turn" 5440.8
+	"turning energy" 16.8
+	"turning heat" 26.4
+	description "Rewavayi T1.9 steering"
+
+
+
+outfit "Ikfo ziej Hull Reconstructor"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/tiny shield"
+	"mass" 20
+	"outfit space" -20
+	"hull repair rate" 0.48
+	"hull energy" 0.86
+	"hull heat" 0
+	description "Rewavayi T1.9 Hull Repair"
+
+outfit "Mnei Hull Reconstructor"
+	category "Systems"
+	cost 36900
+	thumbnail "outfit/small shield"
+	"mass" 30
+	"outfit space" -30
+	"hull repair rate" 1.0
+	"hull energy" 1.5
+	"hull heat" 0
+	description "Rewavayi T1.9 Hull Repair"
+
+outfit "Woop euzu Hull Reconstructor"
+	category "Systems"
+	cost 66500
+	thumbnail "outfit/medium shield"
+	"mass" 45
+	"outfit space" -45
+	"hull repair rate" 2.0
+	"hull energy" 2.7
+	"hull heat" 0
+	description "Rewavayi T1.9 Hull Repair"
+
+
+outfit "Rowu aoev Reactor"
+	category "Power"
+	cost 185600
+	thumbnail "outfit/dwarf core"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 2.1
+	"energy capacity" 306
+	"heat generation" 4.3
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Toin yoge Reactor"
+	category "Power"
+	cost 315600
+	thumbnail "outfit/fusion"
+	"mass" 6
+	"outfit space" -6
+	"energy generation" 4.6
+	"energy capacity" 673.2
+	"heat generation" 7.7
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Xjoo nveu Reactor"
+	category "Power"
+	cost 536600
+	thumbnail "outfit/core"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 10.1
+	"energy capacity" 1481.0
+	"heat generation" 13.9
+	description "Rewavayi T1.9 Power generator"
+
+
+outfit "Ijpi xwii Temperature Control"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 197
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Trui Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid helium"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 197
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Nmat Heatsink"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 217
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Fuuz Temperature Control"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/large heat shunt"
+	"mass" 54
+	"outfit space" -54
+	"cooling" 212
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oeuc Cooler"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 219
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Cxai Heatsink"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/liquid helium"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 227
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Opxu ujeu Temperature Control"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 206
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Uius Temperature Control"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 84
+	"outfit space" -84
+	"active cooling" 619
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Deos Cooler"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 88
+	"outfit space" -88
+	"active cooling" 215
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oaaf Heat Pump"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 182
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ucue anmg Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/large heat shunt"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 136
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Vuoa quza Heat Pump"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/hai williwaw"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 193
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ocpo Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 89
+	"outfit space" -89
+	"cooling" 231
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Toow Heatsink"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/liquid helium"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 182
+	"active cooling" 562
+	"cooling energy" 88.60613744413504
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Pvom Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 171
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Eoooeuwu Temperature Control"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 208
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Cuopwoca Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/hai williwaw"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 243
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Paez Temperature Control"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/large heat shunt"
+	"mass" 83
+	"outfit space" -83
+	"cooling" 248
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Suai Cooler"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 145
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ajio Cooler"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/liquid helium"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 186
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Qajg Heat Pump"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 206
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Atra Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 44
+	"outfit space" -44
+	"cooling" 184
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ukus Heat Pump"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/hai williwaw"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 147
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Pmiaoudp Heatsink"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/large heat shunt"
+	"mass" 63
+	"outfit space" -63
+	"active cooling" 834
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Aozi qisz Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/hai williwaw"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 183
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Guro Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 225
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iovr Heat Pump"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 188
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Zavi Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 128
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Teir ocie Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 228
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Uyic ardo Heatsink"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/large heat shunt"
+	"mass" 44
+	"outfit space" -44
+	"active cooling" 570
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Tzui wive Cooler"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 88
+	"outfit space" -88
+	"cooling" 248
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Edaz Heat Pump"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/large heat shunt"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 171
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Zane oika Cooling"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/hai williwaw"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 182
+	"active cooling" 552
+	"cooling energy" 108.16514491944284
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Zoos Cooler"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 47
+	"outfit space" -47
+	"cooling" 152
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Grug Cooler"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 44
+	"outfit space" -44
+	"cooling" 165
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iczj xeuj Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/hai williwaw"
+	"mass" 73
+	"outfit space" -73
+	"cooling" 239
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Qeqattau Temperature Control"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 116
+	"outfit space" -116
+	"cooling" 245
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oiii Cooler"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 77
+	"outfit space" -77
+	"cooling" 158
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Essa Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 143
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iuve gauc Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/hai williwaw"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 250
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ioix iuwd Cooler"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 79
+	"outfit space" -79
+	"cooling" 222
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Xoxp poru Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/large heat shunt"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 217
+	"active cooling" 910
+	"cooling energy" 123.6662586660991
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Qoir Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 149
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Pece Temperature Control"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/hai williwaw"
+	"mass" 89
+	"outfit space" -89
+	"cooling" 179
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Vcaz Cooler"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/hai williwaw"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 133
+	"active cooling" 324
+	"cooling energy" 77.60921127591175
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Yyai coam Heat Pump"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/large heat shunt"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 207
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Nivu Heat Pump"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 69
+	"outfit space" -69
+	"cooling" 213
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Zauupeoo Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/large heat shunt"
+	"mass" 34
+	"outfit space" -34
+	"cooling" 141
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iuqe woav Heatsink"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 237
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Wuummiuv Cooler"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 81
+	"outfit space" -81
+	"cooling" 169
+	"active cooling" 439
+	"cooling energy" 45.42975833222342
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Idic Cooling"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 200
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Xiab Heat Pump"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/large heat shunt"
+	"mass" 34
+	"outfit space" -34
+	"active cooling" 15
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ojud efop Cooling"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/large heat shunt"
+	"mass" 62
+	"outfit space" -62
+	"active cooling" 243
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Upti Cooler"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/hai williwaw"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 162
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Foog ouwu Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/liquid helium"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 220
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Wtia gcui Cooler"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/hai williwaw"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 211
+	"active cooling" 666
+	"cooling energy" 94.08635482766046
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Rpio Cooling"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 81
+	"outfit space" -81
+	"active cooling" 595
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Vzaa Temperature Control"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 58
+	"outfit space" -58
+	"cooling" 195
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Uxqp Cooler"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/hai williwaw"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 160
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Imiz oped Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 143
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oaoe Heatsink"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/liquid helium"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 194
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Zoue uosc Heatsink"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/hai williwaw"
+	"mass" 46
+	"outfit space" -46
+	"active cooling" 23
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Mzue pmio Cooling"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/hai williwaw"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 143
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Pano jafc Heat Shunt"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/liquid helium"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 202
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Unqvziem Temperature Control"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/liquid helium"
+	"mass" 101
+	"outfit space" -101
+	"active cooling" 1163
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Uwoi Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 180
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Riat uooq Heat Shunt"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 229
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iaad yioe Temperature Control"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 51
+	"outfit space" -51
+	"cooling" 161
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Baag ayeq Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/liquid helium"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 217
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Uadooqyi Temperature Control"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/large heat shunt"
+	"mass" 98
+	"outfit space" -98
+	"active cooling" 96
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Jueo gpie Temperature Control"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 53
+	"outfit space" -53
+	"cooling" 212
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ucup pfuc Cooling"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/large heat shunt"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 250
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Reur oeyi Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 64
+	"outfit space" -64
+	"active cooling" 181
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Kori Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/hai williwaw"
+	"mass" 76
+	"outfit space" -76
+	"cooling" 204
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Udua Heat Shunt"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid helium"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 226
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Yacu Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/hai williwaw"
+	"mass" 112
+	"outfit space" -112
+	"cooling" 246
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iuiv Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 206
+	"active cooling" 97
+	"cooling energy" 90.2367195791886
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Rayu Heat Pump"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid helium"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 171
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ixni xous Reactor"
+	category "Power"
+	cost 729400
+	thumbnail "outfit/dwarf core"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.3
+	"energy capacity" 127
+	"heat generation" 2.9
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Owih Reactor"
+	category "Power"
+	cost 1240000
+	thumbnail "outfit/fusion"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 5.1
+	"energy capacity" 279.4
+	"heat generation" 5.8
+	description "Rewavayi T1.9 Power generator"
+
+outfit "Ueis nahb Reactor"
+	category "Power"
+	cost 2108000
+	thumbnail "outfit/core"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 11.2
+	"energy capacity" 614.7
+	"heat generation" 11.6
+	description "Rewavayi T1.9 Power generator"
+
+
+outfit "Ooui dtad Temperature Control"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 96
+	"outfit space" -96
+	"active cooling" 1360
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Xuqo Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 259
+	"active cooling" 256
+	"cooling energy" 112.54825805491991
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Rzoi Heat Pump"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 75
+	"outfit space" -75
+	"cooling" 224
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Iuri Cooling"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/hai williwaw"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 157
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ieto Temperature Control"
+	category "Systems"
+	cost 3900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 197
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Frao Cooling"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/large heat shunt"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 197
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Imta Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/hai williwaw"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 219
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Erquvedo Cooling"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 100
+	"outfit space" -100
+	"cooling" 283
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oxok Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 129
+	"outfit space" -129
+	"cooling" 290
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Twoeiipu Cooler"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 60
+	"outfit space" -60
+	"active cooling" 538
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Fapu pzeu Heatsink"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/liquid helium"
+	"mass" 60
+	"outfit space" -60
+	"cooling" 257
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ixocpoci Heat Shunt"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/large heat shunt"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 233
+	"active cooling" 618
+	"cooling energy" 53.76824274303677
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Oqvk yixo Cooling"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 98
+	"outfit space" -98
+	"cooling" 201
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Nref Temperature Control"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 66
+	"outfit space" -66
+	"cooling" 284
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Ovqx Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 74
+	"outfit space" -74
+	"cooling" 173
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Utip eqay Cooling"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/hai williwaw"
+	"mass" 102
+	"outfit space" -102
+	"active cooling" 632
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Jaga Cooler"
+	category "Systems"
+	cost 5900
+	thumbnail "outfit/hai williwaw"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 297
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Esme Temperature Control"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/large heat shunt"
+	"mass" 91
+	"outfit space" -91
+	"cooling" 247
+	description "Rewavayi T1.9 Cooling"
+
+
+outfit "Gduo Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/hai williwaw"
+	"mass" 55
+	"outfit space" -55
+	"active cooling" 716
+	description "Rewavayi T1.9 Cooling"
+
+

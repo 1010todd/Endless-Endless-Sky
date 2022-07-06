@@ -1,0 +1,586 @@
+ship "Yiomu icgig"
+	sprite "ship/Dzeuxorewu/Yiomu icgig"
+	attributes 
+		category "Medium Warship"
+		"cost" 95474000
+		"shields" 122300
+		"hull" 261900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 21
+		"mass" 280.2
+		"drag" 5.82
+		"heat dissipation" 0.72
+		"fuel capacity" 1700
+		"cargo space" 35
+		"outfit space" 346
+		"weapon capacity" 110
+		"engine capacity" 90
+		weapon 
+			"blast radius" 1181
+			"shield damage" 11820
+			"hull damage" 5910
+			"hit force" 8270
+	outfits 
+		"Oaiud Rocket Deployer" 1
+		"Oaiud Rocket" 25
+		"Vviee Anti-Missile" 1
+		"Rihbeqruqu Thruster" 1
+		"Rihbeqruqu Steering" 1
+		"Ketoh Shielding" 1
+		"Yeoyacukra Generator" 1
+		"Uuqeoveyua Cooling" 2
+		"Hyperdrive"
+	engine 0 61
+	gun 0 1
+	gun 32 -38
+	gun -40 -38
+	turret 0 54
+	turret 56 -46
+	turret -63 -46
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Mniudtuyap jdizo"
+	sprite "ship/Dzeuxorewu/Mniudtuyap jdizo"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 39167000
+		"shields" 159200
+		"hull" 341000
+		"required crew" 5
+		"automaton" 1
+		"bunks" 119
+		"mass" 1023.6
+		"drag" 20.9
+		"heat dissipation" 0.76
+		"fuel capacity" 2600
+		"cargo space" 495
+		"outfit space" 1942
+		"weapon capacity" 583
+		"engine capacity" 590
+		weapon 
+			"blast radius" 1538
+			"shield damage" 15390
+			"hull damage" 7700
+			"hit force" 10770
+	outfits 
+		"Oaiud Rocket Deployer" 2
+		"Oaiud Rocket" 50
+		"Giaay Rocket Catapult" 2
+		"Giaay Rocket" 86
+		"Vviee Anti-Missile" 1
+		"Ceovq Auto Ballista" 2
+		"Uqvoh hneez Thruster" 1
+		"Uqvoh hneez Steering" 1
+		"Ketoh Shielding" 1
+		"Eqwioguzao Generator" 2
+		"Guhueeuozk Generator" 1
+		"Hyperdrive"
+	engine 61 -43
+	engine -78 -43
+	engine 37 -12
+	engine -54 -12
+	engine 40 45
+	engine -57 45
+	gun -45 -20
+	gun 52 -69
+	gun -60 -69
+	gun 46 8
+	gun -54 8
+	gun 37 -20
+	turret 0 -47
+	leak "leak" 50
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Maoheacpex"
+	sprite "ship/Dzeuxorewu/Maoheacpex"
+	attributes 
+		category "Heavy Warship"
+		"cost" 46629000
+		"shields" 164900
+		"hull" 353100
+		"required crew" 7
+		"automaton" 1
+		"bunks" 102
+		"mass" 1109.0
+		"drag" 23.51
+		"heat dissipation" 0.87
+		"fuel capacity" 1300
+		"cargo space" 135
+		"outfit space" 1302
+		"weapon capacity" 506
+		"engine capacity" 320
+		weapon 
+			"blast radius" 1593
+			"shield damage" 15930
+			"hull damage" 7970
+			"hit force" 11150
+	outfits 
+		"Oaiud Rocket Deployer" 2
+		"Oaiud Rocket" 50
+		"Giaay Rocket Catapult" 2
+		"Giaay Rocket" 86
+		"Vviee Anti-Missile" 1
+		"Ceovq Auto Ballista" 1
+		"Ceovq Auto Ballista Turret" 1
+		"Uqvoh hneez Thruster" 1
+		"Uqvoh hneez Steering" 1
+		"Ketoh Shielding" 1
+		"Eqwioguzao Generator" 2
+		"Guhueeuozk Generator" 1
+		"Hyperdrive"
+	engine 28 4
+	engine -45 4
+	engine 0 6
+	gun 0 11
+	gun 30 -86
+	gun -38 -86
+	gun 14 -2
+	gun -22 -2
+	turret 0 -9
+	turret 31 -49
+	turret -38 -49
+	turret 26 12
+	turret -33 12
+	turret 18 26
+	turret -25 26
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Avicahuari"
+	sprite "ship/Dzeuxorewu/Avicahuari"
+	attributes 
+		category "Heavy Warship"
+		"cost" 108004000
+		"shields" 179800
+		"hull" 385000
+		"required crew" 14
+		"automaton" 1
+		"bunks" 136
+		"mass" 1145.0
+		"drag" 22.86
+		"heat dissipation" 0.85
+		"fuel capacity" 800
+		"cargo space" 140
+		"outfit space" 2320
+		"weapon capacity" 924
+		"engine capacity" 590
+		weapon 
+			"blast radius" 1737
+			"shield damage" 17370
+			"hull damage" 8690
+			"hit force" 12160
+	outfits 
+		"Oaiud Rocket Deployer" 3
+		"Oaiud Rocket" 75
+		"Giaay Rocket Catapult" 3
+		"Giaay Rocket" 129
+		"Vviee Anti-Missile" 1
+		"Ceovq Auto Ballista" 2
+		"Ceovq Auto Ballista Turret" 2
+		"Uqvoh hneez Thruster" 1
+		"Uqvoh hneez Steering" 1
+		"Ketoh Shielding" 1
+		"Eqwioguzao Generator" 2
+		"Guhueeuozk Generator" 1
+		"Hyperdrive"
+	engine 89 22
+	engine -106 22
+	engine 44 76
+	engine -61 76
+	engine 51 40
+	engine -68 40
+	gun -64 37
+	gun 50 -83
+	gun -58 -83
+	gun 56 -42
+	gun -64 -42
+	gun 56 -24
+	gun -64 -24
+	gun 56 37
+	turret -49 51
+	turret 69 -19
+	turret -76 -19
+	turret 36 -20
+	turret -43 -20
+	turret 42 51
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Lzaeu kohua"
+	sprite "ship/Dzeuxorewu/Lzaeu kohua"
+	attributes 
+		category "Transport"
+		"cost" 9997000
+		"shields" 17700
+		"hull" 37800
+		"required crew" 2
+		"automaton" 1
+		"bunks" 82
+		"mass" 215.8
+		"drag" 4.1
+		"heat dissipation" 0.78
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 410
+		"weapon capacity" 132
+		"engine capacity" 110
+		weapon 
+			"blast radius" 171
+			"shield damage" 1710
+			"hull damage" 860
+			"hit force" 1200
+	outfits 
+		"Oaiud Rocket Deployer" 1
+		"Oaiud Rocket" 25
+		"Vviee Anti-Missile" 1
+		"Rihbeqruqu Thruster" 1
+		"Rihbeqruqu Steering" 1
+		"Ketoh Shielding" 1
+		"Guhueeuozk Generator" 1
+		"Uuqeoveyua Cooling" 1
+		"Hyperdrive"
+	engine 0 28
+	gun -30 -37
+	gun 24 -37
+	turret 0 -33
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Oiucuihqiaovaea"
+	sprite "ship/Dzeuxorewu/Oiucuihqiaovaea"
+	attributes 
+		category "Heavy Warship"
+		"cost" 58756000
+		"shields" 282200
+		"hull" 604400
+		"required crew" 4
+		"automaton" 1
+		"bunks" 99
+		"mass" 868.2
+		"drag" 18.05
+		"heat dissipation" 0.57
+		"fuel capacity" 600
+		"cargo space" 105
+		"outfit space" 976
+		"weapon capacity" 374
+		"engine capacity" 240
+		weapon 
+			"blast radius" 2726
+			"shield damage" 27270
+			"hull damage" 13640
+			"hit force" 19090
+	outfits 
+		"Oaiud Rocket Deployer" 1
+		"Oaiud Rocket" 25
+		"Giaay Rocket Catapult" 1
+		"Giaay Rocket" 43
+		"Vviee Anti-Missile" 1
+		"Ceovq Auto Ballista" 1
+		"Ceovq Auto Ballista Turret" 1
+		"Ucaae Thruster" 1
+		"Ucaae Steering" 1
+		"Ketoh Shielding" 1
+		"Eqwioguzao Generator" 2
+		"Hyperdrive"
+	engine 70 -4
+	engine -87 -4
+	gun -50 -99
+	gun 43 -121
+	gun -51 -121
+	gun 45 -30
+	gun -53 -30
+	gun 42 -99
+	turret 0 -69
+	turret 86 -87
+	turret -93 -87
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Biugdbaericraoo"
+	sprite "ship/Dzeuxorewu/Biugdbaericraoo"
+	attributes 
+		category "Light Warship"
+		"cost" 14941000
+		"shields" 43300
+		"hull" 92700
+		"required crew" 2
+		"automaton" 1
+		"bunks" 20
+		"mass" 144.6
+		"drag" 3.0
+		"heat dissipation" 0.73
+		"fuel capacity" 2500
+		"cargo space" 20
+		"outfit space" 189
+		"weapon capacity" 88
+		"engine capacity" 50
+		weapon 
+			"blast radius" 418
+			"shield damage" 4190
+			"hull damage" 2100
+			"hit force" 2930
+	outfits 
+		"Oaiud Rocket Deployer" 1
+		"Oaiud Rocket" 25
+		"Imuroaeiyz Thruster" 1
+		"Imuroaeiyz Steering" 1
+		"Xqiejvamuu Cooling" 4
+		"Uuqeoveyua Cooling" 2
+		"Aoereiaqve Heat Pump" 1
+		"Hyperdrive"
+	engine 0 63
+	gun -48 -56
+	gun 40 -56
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Jgovuoooee"
+	sprite "ship/Dzeuxorewu/Jgovuoooee"
+	attributes 
+		category "Transport"
+		"cost" 5415000
+		"shields" 63000
+		"hull" 134800
+		"required crew" 2
+		"automaton" 1
+		"bunks" 54
+		"mass" 141.8
+		"drag" 2.82
+		"heat dissipation" 0.79
+		"fuel capacity" 2300
+		"cargo space" 20
+		"outfit space" 189
+		"weapon capacity" 66
+		"engine capacity" 50
+		weapon 
+			"blast radius" 608
+			"shield damage" 6090
+			"hull damage" 3050
+			"hit force" 4260
+	outfits 
+		"Giaay Rocket Catapult" 1
+		"Giaay Rocket" 43
+		"Imuroaeiyz Thruster" 1
+		"Imuroaeiyz Steering" 1
+		"Xqiejvamuu Cooling" 2
+		"Uuqeoveyua Cooling" 1
+		"Elehuaomez Battery Pack" 1
+		"Hyperdrive"
+	engine 0 30
+	gun -30 -42
+	gun 24 -42
+	turret 0 -6
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Aeixeaoueubjaiu"
+	sprite "ship/Dzeuxorewu/Aeixeaoueubjaiu"
+	attributes 
+		category "Light Freighter"
+		"cost" 9476000
+		"shields" 20600
+		"hull" 44100
+		"required crew" 2
+		"automaton" 1
+		"bunks" 23
+		"mass" 245.4
+		"drag" 4.75
+		"heat dissipation" 0.52
+		"fuel capacity" 1800
+		"cargo space" 75
+		"outfit space" 315
+		"weapon capacity" 132
+		"engine capacity" 100
+		weapon 
+			"blast radius" 199
+			"shield damage" 1990
+			"hull damage" 1000
+			"hit force" 1400
+	outfits 
+		"Oaiud Rocket Deployer" 1
+		"Oaiud Rocket" 25
+		"Vviee Anti-Missile" 1
+		"Rihbeqruqu Thruster" 1
+		"Rihbeqruqu Steering" 1
+		"Ketoh Shielding" 1
+		"Dujoeuihac Cell" 1
+		"Elehuaomez Battery Pack" 1
+		"Hyperdrive"
+	engine 0 40
+	gun 0 -32
+	gun 19 -41
+	gun -25 -41
+	turret 0 -9
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Enpihqquit biena"
+	sprite "ship/Dzeuxorewu/Enpihqquit biena"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 29699000
+		"shields" 152100
+		"hull" 325800
+		"required crew" 5
+		"automaton" 1
+		"bunks" 95
+		"mass" 1065.6
+		"drag" 21.46
+		"heat dissipation" 0.59
+		"fuel capacity" 400
+		"cargo space" 515
+		"outfit space" 1638
+		"weapon capacity" 627
+		"engine capacity" 470
+		weapon 
+			"blast radius" 1470
+			"shield damage" 14700
+			"hull damage" 7350
+			"hit force" 10290
+	outfits 
+		"Oaiud Rocket Deployer" 2
+		"Oaiud Rocket" 50
+		"Giaay Rocket Catapult" 2
+		"Giaay Rocket" 86
+		"Vviee Anti-Missile" 1
+		"Ceovq Auto Ballista" 1
+		"Ceovq Auto Ballista Turret" 2
+		"Uqvoh hneez Thruster" 1
+		"Uqvoh hneez Steering" 1
+		"Ketoh Shielding" 1
+		"Eqwioguzao Generator" 2
+		"Guhueeuozk Generator" 1
+		"Hyperdrive"
+	engine 72 -2
+	engine -89 -2
+	engine 38 53
+	engine -55 53
+	engine 0 71
+	gun 0 76
+	gun 70 -93
+	gun -78 -93
+	gun 36 -40
+	gun -44 -40
+	turret 0 79
+	turret 50 -89
+	turret -57 -89
+	leak "leak" 50
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Dzeuxorewu T3.3 ship"
+
+ship "Ouotbeoepu eozqe"
+	sprite "ship/Dzeuxorewu/Ouotbeoepu eozqe"
+	attributes 
+		category "Fighter"
+		"cost" 4810000
+		"shields" 8100
+		"hull" 17300
+		"required crew" 1
+		"automaton" 1
+		"bunks" 5
+		"mass" 67.6
+		"drag" 1.36
+		"heat dissipation" 0.92
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 268
+		"weapon capacity" 55
+		"engine capacity" 40
+		weapon 
+			"blast radius" 78
+			"shield damage" 790
+			"hull damage" 400
+			"hit force" 550
+	outfits 
+		"Ceovq Auto Ballista" 1
+		"Imuroaeiyz Thruster" 1
+		"Imuroaeiyz Steering" 1
+		"Xqiejvamuu Cooling" 3
+		"Uuqeoveyua Cooling" 1
+		"Elehuaomez Battery Pack" 1
+	engine 0 29
+	gun 0 -16
+	gun 24 -30
+	gun -27 -30
+	gun 16 -20
+	gun -19 -20
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Dzeuxorewu T3.3 ship"
+

@@ -1,0 +1,393 @@
+outfit "Heoc Battery"
+	category "Power"
+	cost 298700
+	thumbnail "outfit/tiny battery hai"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 3000
+	description "Sioajeil T2.1 Battery"
+
+outfit "Heoc Battery"
+	category "Power"
+	cost 537700
+	thumbnail "outfit/small battery hai"
+	"mass" 11
+	"outfit space" -11
+	"energy capacity" 7200
+	description "Sioajeil T2.1 Battery"
+
+outfit "Heoc Battery"
+	category "Power"
+	cost 967900
+	thumbnail "outfit/medium battery hai"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 17280
+	description "Sioajeil T2.1 Battery"
+
+
+outfit "Keioaqri Core"
+	category "Power"
+	cost 70000
+	thumbnail "outfit/plasma core"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 2.2
+	"energy capacity" 11830
+	"heat generation" 2.4
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Xiyq Core"
+	category "Power"
+	cost 119000
+	thumbnail "outfit/double plasma core"
+	"mass" 28
+	"outfit space" -28
+	"energy generation" 5.3
+	"energy capacity" 26026.0
+	"heat generation" 1.4
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Yuokouiu Core"
+	category "Power"
+	cost 202300
+	thumbnail "outfit/triple plasma core"
+	"mass" 56
+	"outfit space" -56
+	"energy generation" 12.7
+	"energy capacity" 57257.2
+	"heat generation" 0.8
+	description "Sioajeil T2.1 Power generator"
+
+
+outfit "Fexireuo Thruster"
+	category "Engines"
+	cost 1507100
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 5.2
+	"thrusting energy" 0.5
+	"thrusting heat" 0.9
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.2352766948820098
+	"flare sound" "ka'het small"
+	description "Sioajeil T2.1 Thruster"
+
+outfit "Fexireuo Steering"
+	category "Engines"
+	cost 1273861
+	thumbnail "outfit/small ka'het steering"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 130
+	"turning energy" 0.4
+	"turning heat" 0.8
+	description "Sioajeil T2.1 steering"
+
+outfit "Irre Thruster"
+	category "Engines"
+	cost 2562100
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 33
+	"outfit space" -33
+	"engine capacity" -33
+	"thrust" 12.5
+	"thrusting energy" 1.1
+	"thrusting heat" 2.0
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Sioajeil T2.1 Thruster"
+
+outfit "Irre Steering"
+	category "Engines"
+	cost 4355600
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"turn" 312.0
+	"turning energy" 0.9
+	"turning heat" 1.8
+	description "Sioajeil T2.1 steering"
+
+outfit "Ppuppupr Thruster"
+	category "Engines"
+	cost 4355600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 73
+	"outfit space" -73
+	"engine capacity" -73
+	"thrust" 30.0
+	"thrusting energy" 2.4
+	"thrusting heat" 4.4
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Sioajeil T2.1 Thruster"
+
+outfit "Ppuppupr Steering"
+	category "Engines"
+	cost 7404600
+	thumbnail "outfit/large ka'het steering"
+	"mass" 57
+	"outfit space" -57
+	"engine capacity" -57
+	"turn" 748.8
+	"turning energy" 2.0
+	"turning heat" 4.0
+	description "Sioajeil T2.1 steering"
+
+outfit "Uqtusduo Thruster"
+	category "Engines"
+	cost 7404600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 161
+	"outfit space" -161
+	"engine capacity" -161
+	"thrust" 72.0
+	"thrusting energy" 5.3
+	"thrusting heat" 9.7
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Sioajeil T2.1 Thruster"
+
+outfit "Uqtusduo Steering"
+	category "Engines"
+	cost 12587900
+	thumbnail "outfit/large ka'het steering"
+	"mass" 125
+	"outfit space" -125
+	"engine capacity" -125
+	"turn" 1797.1
+	"turning energy" 4.4
+	"turning heat" 8.8
+	description "Sioajeil T2.1 steering"
+
+outfit "Xfexepue Thruster"
+	category "Engines"
+	cost 12587900
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 354
+	"outfit space" -354
+	"engine capacity" -354
+	"thrust" 172.8
+	"thrusting energy" 11.7
+	"thrusting heat" 21.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Sioajeil T2.1 Thruster"
+
+outfit "Xfexepue Steering"
+	category "Engines"
+	cost 21399500
+	thumbnail "outfit/large ka'het steering"
+	"mass" 275
+	"outfit space" -275
+	"engine capacity" -275
+	"turn" 4313.0
+	"turning energy" 9.7
+	"turning heat" 19.4
+	description "Sioajeil T2.1 steering"
+
+
+outfit "Isudpapo Shield Generator"
+	category "Systems"
+	cost 54500
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 0.58
+	"shield energy" 1.14
+	description "Sioajeil T2.1 shield gen"
+
+
+
+outfit "Ajpi Reactor"
+	category "Power"
+	cost 222200
+	thumbnail "outfit/fission"
+	"mass" 3
+	"outfit space" -3
+	"energy generation" 2.3
+	"heat generation" 2.6
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Asro Reactor"
+	category "Power"
+	cost 377800
+	thumbnail "outfit/breeder"
+	"mass" 6
+	"outfit space" -6
+	"energy generation" 5.5
+	"heat generation" 6.2
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Eump Reactor"
+	category "Power"
+	cost 642300
+	thumbnail "outfit/stack core"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 13.2
+	"heat generation" 14.9
+	description "Sioajeil T2.1 Power generator"
+
+
+outfit "Skauyapo Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 24
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Ekiarews Cooling"
+	category "Systems"
+	cost 19200
+	thumbnail "outfit/cooling module"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Komm Core"
+	category "Power"
+	cost 473700
+	thumbnail "outfit/red sun"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 2.2
+	"heat generation" 5.3
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Ofjaepqo Core"
+	category "Power"
+	cost 805300
+	thumbnail "outfit/yellow sun"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 5.3
+	"heat generation" 14.8
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Sqoi Core"
+	category "Power"
+	cost 1369100
+	thumbnail "outfit/white sun"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 12.7
+	"heat generation" 41.4
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Yaui Core"
+	category "Power"
+	cost 2327500
+	thumbnail "outfit/blue sun"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 30.5
+	"heat generation" 115.9
+	description "Sioajeil T2.1 Power generator"
+
+
+outfit "Uhafqbui Heat Shunt"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 136
+	"outfit space" -136
+	"cooling" 309
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Qkouoojo Heatsink"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 67
+	"outfit space" -67
+	"cooling" 256
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Yaof Heatsink"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/large heat shunt"
+	"mass" 39
+	"outfit space" -39
+	"active cooling" 274
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Koexaxun Core"
+	category "Power"
+	cost 640400
+	thumbnail "outfit/dwarf core"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.5
+	"heat generation" 5.9
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Uqjj Core"
+	category "Power"
+	cost 1088700
+	thumbnail "outfit/fusion"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 6.0
+	"heat generation" 11.8
+	description "Sioajeil T2.1 Power generator"
+
+outfit "Xeiuqoob Core"
+	category "Power"
+	cost 1850800
+	thumbnail "outfit/core"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 14.4
+	"heat generation" 23.6
+	description "Sioajeil T2.1 Power generator"
+
+
+outfit "Iikexupa Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 362
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Axroelar Cooler"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/liquid helium"
+	"mass" 128
+	"outfit space" -128
+	"cooling" 301
+	description "Sioajeil T2.1 Cooling"
+
+
+outfit "Xeui Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 375
+	description "Sioajeil T2.1 Cooling"
+
+

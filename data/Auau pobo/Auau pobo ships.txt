@@ -1,0 +1,328 @@
+ship "Fuurlowi mmai"
+	sprite "ship/fancy1 lw 2"
+	thumbnail "thumbnail/fancy1 lw 2"
+	attributes 
+		category "Light Warship"
+		"cost" 8293000
+		"shields" 12300
+		"hull" 65000
+		"required crew" 5
+		"automaton" 1
+		"bunks" 23
+		"mass" 179.2
+		"drag" 3.36
+		"heat dissipation" 0.59
+		"fuel capacity" 1800
+		"cargo space" 25
+		"outfit space" 270
+		"weapon capacity" 110
+		"engine capacity" 70
+		weapon 
+			"blast radius" 315
+			"shield damage" 3160
+			"hull damage" 1580
+			"hit force" 2210
+	outfits 
+		"Faie Rapid Bombard Turret" 1
+		"Mafa uhon Generator" 2
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Mooc Thruster" 1
+		"Mooc Steering" 1
+		"Rliasxou Generator" 1
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 50.8
+	turret 5.8 -14.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Auau pobo T2.5 ship"
+
+ship "Fuletalt"
+	sprite "ship/fancy1 hw 1"
+	thumbnail "thumbnail/fancy1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 34718000
+		"shields" 44300
+		"hull" 235300
+		"required crew" 15
+		"automaton" 1
+		"bunks" 72
+		"mass" 524.2
+		"drag" 9.82
+		"heat dissipation" 0.83
+		"fuel capacity" 800
+		"cargo space" 65
+		"outfit space" 650
+		"weapon capacity" 200
+		"engine capacity" 200
+		weapon 
+			"blast radius" 1140
+			"shield damage" 11410
+			"hull damage" 5710
+			"hit force" 7990
+	outfits 
+		"Zuhk Tachyon Projector" 1
+		"Zuhk Tachyon Projector Turret" 1
+		"Mafa uhon Generator" 3
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Riae imre Thruster" 1
+		"Riae imre Steering" 1
+		"Rliasxou Generator" 1
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine -19.0 151.5
+	engine 19.0 151.5
+	engine 0.0 156.0
+	gun -9.8 -140.2
+	gun -14.0 -109.5
+	gun 14.0 -109.5
+	gun -23.0 -78.5
+	gun 23.0 -78.5
+	gun 9.8 -140.2
+	turret 0.0 32.0
+	turret 0.0 -49.5
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Auau pobo T2.5 ship"
+
+ship "Rgee home oxai"
+	sprite "ship/fancy1 hw 2"
+	thumbnail "thumbnail/fancy1 hw 2"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 3170000
+		"shields" 26700
+		"hull" 141600
+		"required crew" 4
+		"bunks" 58
+		"mass" 717.4
+		"drag" 13.76
+		"heat dissipation" 0.7
+		"fuel capacity" 1100
+		"cargo space" 345
+		"outfit space" 1150
+		"weapon capacity" 350
+		"engine capacity" 300
+		weapon 
+			"blast radius" 686
+			"shield damage" 6870
+			"hull damage" 3440
+			"hit force" 4810
+	outfits 
+		"Zuhk Tachyon Projector" 1
+		"Zuhk Tachyon Projector Turret" 1
+		"Mroo Torpedo Tube" 1
+		"Mroo Torpedo" 38
+		"Mafa uhon Generator" 3
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Riae imre Thruster" 1
+		"Riae imre Steering" 1
+		"Rliasxou Generator" 1
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine -26.0 182.0
+	engine 26.0 182.0
+	gun -16.4 -145.9
+	gun 16.4 -145.9
+	turret 24.5 98.0
+	leak "leak" 40
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Auau pobo T2.5 ship"
+
+ship "Eikt zueo"
+	sprite "ship/fancy1 lf 1"
+	thumbnail "thumbnail/fancy1 lf 1"
+	attributes 
+		category "Light Freighter"
+		"cost" 565000
+		"shields" 4300
+		"hull" 22700
+		"required crew" 6
+		"automaton" 1
+		"bunks" 28
+		"mass" 344.4
+		"drag" 6.82
+		"heat dissipation" 0.61
+		"fuel capacity" 900
+		"cargo space" 105
+		"outfit space" 650
+		"weapon capacity" 250
+		"engine capacity" 220
+		weapon 
+			"blast radius" 110
+			"shield damage" 1110
+			"hull damage" 560
+			"hit force" 780
+	outfits 
+		"Zuhk Tachyon Projector" 1
+		"Mafa uhon Generator" 3
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Riae imre Thruster" 1
+		"Riae imre Steering" 1
+		"Rliasxou Generator" 1
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine 0.0 52.0
+	gun 2.0 -51.0
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Auau pobo T2.5 ship"
+
+ship "Bata zaui"
+	sprite "ship/fancy1 hw 1"
+	thumbnail "thumbnail/fancy1 hw 1"
+	attributes 
+		category "Heavy Warship"
+		"cost" 16341000
+		"shields" 33200
+		"hull" 176300
+		"required crew" 15
+		"automaton" 1
+		"bunks" 73
+		"mass" 942.8
+		"drag" 18.18
+		"heat dissipation" 0.72
+		"fuel capacity" 1100
+		"cargo space" 115
+		"outfit space" 1710
+		"weapon capacity" 610
+		"engine capacity" 460
+		weapon 
+			"blast radius" 855
+			"shield damage" 8550
+			"hull damage" 4280
+			"hit force" 5990
+	outfits 
+		"Zuhk Tachyon Projector" 1
+		"Zuhk Tachyon Projector Turret" 1
+		"Mroo Torpedo Tube" 1
+		"Mroo Torpedo" 38
+		"Faie Rapid Bombard" 1
+		"Faie Rapid Bombard Turret" 1
+		"Toea Tracker Launcher" 1
+		"Toea Tracker" 40
+		"Caae Machine Blaster Turret" 2
+		"Geye Anti-Missile" 1
+		"Mafa uhon Generator" 4
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Rucioeue Thruster" 1
+		"Rucioeue Steering" 1
+		"Rliasxou Generator" 3
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine -19.0 151.5
+	engine 19.0 151.5
+	engine 0.0 156.0
+	gun 23.0 -78.5
+	gun -14.0 -109.5
+	gun 14.0 -109.5
+	gun -23.0 -78.5
+	turret -0.1 -122.4
+	turret 0.0 -49.5
+	turret -19.0 2.0
+	turret 19.0 2.0
+	turret 0.0 32.0
+	turret 15.5 -144.0
+	turret -15.5 -144.0
+	turret 0.1 -122.4
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	bay "Fighter 0 0
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Auau pobo T2.5 ship"
+
+ship "Fqek cuhn eryi"
+	sprite "ship/fancy1 in 2"
+	thumbnail "thumbnail/fancy1 in 2"
+	attributes 
+		category "Fighter"
+		"cost" 1590000
+		"shields" 2600
+		"hull" 13700
+		"required crew" 1
+		"automaton" 1
+		"bunks" 9
+		"mass" 71.4
+		"drag" 1.42
+		"heat dissipation" 0.74
+		"fuel capacity" 1100
+		"cargo space" 10
+		"outfit space" 107
+		"weapon capacity" 30
+		"engine capacity" 30
+		weapon 
+			"blast radius" 66
+			"shield damage" 670
+			"hull damage" 340
+			"hit force" 470
+	outfits 
+		"Ifoi oyiu Shield Rejuvenator" 1
+		"Asuy keak Hull Reconstructor" 1
+		"Huyu kilo Thruster" 1
+		"Huyu kilo Steering" 1
+		"Cgai Thruster" 1
+		"Cgai Steering" 1
+		"Yico zuia Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 38.3
+	gun 3.8 -34.6
+	gun 1.4 -35.2
+	gun -1.4 -35.2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Auau pobo T2.5 ship"
+

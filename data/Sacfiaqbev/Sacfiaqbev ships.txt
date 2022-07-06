@@ -1,0 +1,387 @@
+ship "Azdej pidipyeqma"
+	sprite "ship/Sacfiaqbev/Azdej pidipyeqma"
+	attributes 
+		category "Heavy Warship"
+		"cost" 576034000
+		"shields" 412400
+		"hull" 2057600
+		"required crew" 42
+		"automaton" 1
+		"bunks" 120
+		"mass" 969.0
+		"drag" 17.35
+		"heat dissipation" 0.64
+		"fuel capacity" 3000
+		"cargo space" 120
+		"outfit space" 1900
+		"weapon capacity" 660
+		"engine capacity" 504
+		weapon 
+			"blast radius" 6355
+			"shield damage" 63550
+			"hull damage" 31780
+			"hit force" 44490
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Uwihe Thruster" 1
+		"Uwihe Steering" 1
+		"Bgiwa Anti-Missile" 1
+		"Uwpjo Rocket Launcher" 2
+		"Uwpjo Rocket" 50
+		"Zgeee Lance" 1
+		"Jiirk Machine Culverin" 1
+		"Jiirk Machine Culverin Turret" 6
+		"Eqioi Reactor" 1
+		"Buoji Capacitor" 2
+		"Hyperdrive"
+	engine 69 -16
+	engine -85 -16
+	engine 39 16
+	engine -55 16
+	engine 0 31
+	gun -45 -45
+	gun 51 -69
+	gun -54 -69
+	gun 42 -45
+	turret -17 -65
+	turret 42 -26
+	turret -50 -26
+	turret 37 -15
+	turret -45 -15
+	turret 42 6
+	turret -50 6
+	turret 9 -65
+	leak "leak" 60
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Dwoeovieidyupes"
+	sprite "ship/Sacfiaqbev/Dwoeovieidyupes"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 11170000
+		"shields" 103200
+		"hull" 514800
+		"required crew" 29
+		"automaton" 1
+		"bunks" 81
+		"mass" 580.6
+		"drag" 11.99
+		"heat dissipation" 0.87
+		"fuel capacity" 3100
+		"cargo space" 280
+		"outfit space" 1092
+		"weapon capacity" 320
+		"engine capacity" 294
+		weapon 
+			"blast radius" 1590
+			"shield damage" 15900
+			"hull damage" 7950
+			"hit force" 11130
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Uwihe Thruster" 1
+		"Uwihe Steering" 1
+		"Bgiwa Anti-Missile" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Jiirk Machine Culverin Turret" 1
+		"Eqioi Reactor" 1
+		"Buoji Capacitor" 1
+		"Hyperdrive"
+	engine 39 -35
+	engine -50 -35
+	engine 0 -79
+	gun 0 -36
+	turret -42 -61
+	turret 34 -61
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Uuhauubuva"
+	sprite "ship/Sacfiaqbev/Uuhauubuva"
+	attributes 
+		category "Interceptor"
+		"cost" 27434000
+		"shields" 14000
+		"hull" 69500
+		"required crew" 4
+		"automaton" 1
+		"bunks" 10
+		"mass" 77.2
+		"drag" 1.53
+		"heat dissipation" 0.78
+		"fuel capacity" 2400
+		"cargo space" 10
+		"outfit space" 126
+		"weapon capacity" 50
+		"engine capacity" 42
+		weapon 
+			"blast radius" 215
+			"shield damage" 2150
+			"hull damage" 1080
+			"hit force" 1510
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Bobiy Thruster" 1
+		"Bobiy Steering" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Jiirk Machine Culverin" 1
+		"Hyperdrive"
+	engine 0 -5
+	gun -24 -37
+	gun 21 -37
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 0
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Guieujcibu"
+	sprite "ship/Sacfiaqbev/Guieujcibu"
+	attributes 
+		category "Transport"
+		"cost" 126472000
+		"shields" 105000
+		"hull" 523600
+		"required crew" 3
+		"automaton" 1
+		"bunks" 38
+		"mass" 126.8
+		"drag" 2.65
+		"heat dissipation" 0.55
+		"fuel capacity" 1000
+		"cargo space" 20
+		"outfit space" 147
+		"weapon capacity" 50
+		"engine capacity" 42
+		weapon 
+			"blast radius" 1617
+			"shield damage" 16180
+			"hull damage" 8090
+			"hit force" 11330
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Bobiy Thruster" 1
+		"Bobiy Steering" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Osgeaiqueg Heatsink" 1
+		"Iobyo Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 11
+	gun 0 -16
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Mibaq ibiie"
+	sprite "ship/Sacfiaqbev/Mibaq ibiie"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 63681000
+		"shields" 185000
+		"hull" 923200
+		"required crew" 14
+		"automaton" 1
+		"bunks" 68
+		"mass" 1150.2
+		"drag" 21.33
+		"heat dissipation" 0.67
+		"fuel capacity" 1400
+		"cargo space" 555
+		"outfit space" 2079
+		"weapon capacity" 670
+		"engine capacity" 556
+		weapon 
+			"blast radius" 2851
+			"shield damage" 28520
+			"hull damage" 14260
+			"hit force" 19960
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Uwihe Thruster" 1
+		"Uwihe Steering" 1
+		"Bgiwa Anti-Missile" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Eqioi Reactor" 1
+		"Buoji Capacitor" 1
+		"Hyperdrive"
+	engine 29 -41
+	engine -53 -41
+	engine 29 34
+	engine -53 34
+	engine 35 59
+	engine -59 59
+	gun 0 16
+	turret 0 -11
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Ordii weihu yalfi"
+	sprite "ship/Sacfiaqbev/Ordii weihu yalfi"
+	attributes 
+		category "Interceptor"
+		"cost" 19815000
+		"shields" 18800
+		"hull" 93600
+		"required crew" 1
+		"automaton" 1
+		"bunks" 6
+		"mass" 80.8
+		"drag" 1.52
+		"heat dissipation" 0.8
+		"fuel capacity" 2600
+		"cargo space" 10
+		"outfit space" 116
+		"weapon capacity" 40
+		"engine capacity" 32
+		weapon 
+			"blast radius" 289
+			"shield damage" 2900
+			"hull damage" 1450
+			"hit force" 2030
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Bobiy Thruster" 1
+		"Bobiy Steering" 1
+		"Bgiwa Anti-Missile" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Hyperdrive"
+	engine 0 10
+	gun 0 -2
+	turret 0 -15
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 0
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Kuvir ocyub"
+	sprite "ship/Sacfiaqbev/Kuvir ocyub"
+	attributes 
+		category "Heavy Warship"
+		"cost" 544016000
+		"shields" 403000
+		"hull" 2011100
+		"required crew" 35
+		"automaton" 1
+		"bunks" 87
+		"mass" 960.6
+		"drag" 19.2
+		"heat dissipation" 0.61
+		"fuel capacity" 2900
+		"cargo space" 120
+		"outfit space" 1732
+		"weapon capacity" 570
+		"engine capacity" 441
+		weapon 
+			"blast radius" 6211
+			"shield damage" 62110
+			"hull damage" 31060
+			"hit force" 43480
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Uwihe Thruster" 1
+		"Uwihe Steering" 1
+		"Bgiwa Anti-Missile" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Zgeee Lance" 1
+		"Jiirk Machine Culverin Turret" 2
+		"Eqioi Reactor" 1
+		"Buoji Capacitor" 1
+		"Hyperdrive"
+	engine 45 -27
+	engine -61 -27
+	engine 31 -53
+	engine -47 -53
+	gun -44 -79
+	gun 41 -79
+	turret 0 -24
+	turret 16 -82
+	turret -23 -82
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sacfiaqbev T3.9 ship"
+
+ship "Bbieb deksa"
+	sprite "ship/Sacfiaqbev/Bbieb deksa"
+	attributes 
+		category "Light Warship"
+		"cost" 63056000
+		"shields" 75800
+		"hull" 378300
+		"required crew" 2
+		"automaton" 1
+		"bunks" 21
+		"mass" 173.6
+		"drag" 3.47
+		"heat dissipation" 0.71
+		"fuel capacity" 3000
+		"cargo space" 25
+		"outfit space" 294
+		"weapon capacity" 120
+		"engine capacity" 94
+		weapon 
+			"blast radius" 1168
+			"shield damage" 11690
+			"hull damage" 5850
+			"hit force" 8180
+	outfits 
+		"Isuia yaoij Shield Rejuvenator" 1
+		"Peioa ioifu Thruster" 1
+		"Peioa ioifu Steering" 1
+		"Uwpjo Rocket Launcher" 1
+		"Uwpjo Rocket" 25
+		"Ugroq Reactor" 1
+		"Buoji Capacitor" 1
+		"Osgeaiqueg Heatsink" 1
+		"Hyperdrive"
+	engine 0 14
+	gun 0 -1
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Sacfiaqbev T3.9 ship"
+

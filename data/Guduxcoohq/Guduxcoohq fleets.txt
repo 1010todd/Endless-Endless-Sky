@@ -1,0 +1,87 @@
+fleet "Guduxcoohq Military"
+	government "Guduxcoohq"
+	names "Guduxcoohq Military names"
+	personality
+		coward
+		confusion 18
+	variant 5
+		"Poloeagjcowxaar" 3
+		"Gweavoaegh ulqut" 0
+		"Ordue rciec" 3
+	variant 3
+		"Poloeagjcowxaar" 3
+		"Gweavoaegh ulqut" 0
+		"Ordue rciec" 2
+	variant 4
+		"Ordue rciec" 3
+		"Gweavoaegh ulqut" 0
+		"Poloeagjcowxaar" 4
+fleet "Guduxcoohq Merchant"
+	government "Guduxcoohq"
+	names "Guduxcoohq names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Dxooiassax" 4
+		"Poloeagjcowxaar" 4
+		"Dxooiassax" 4
+	variant 8
+		"Mohiumiopd arkta" 4
+		"Poloeagjcowxaar" 3
+		"Ixteuofuwd" 3
+	variant 38
+		"Dxooiassax" 3
+		"Ixteuofuwd" 3
+		"Goskaxoimhaheod" 1
+	variant 18
+		"Mohiumiopd arkta" 3
+		"Mohiumiopd arkta" 4
+		"Poloeagjcowxaar" 4
+	variant 76
+		"Mohiumiopd arkta" 3
+		"Ordue rciec" 2
+		"Ixteuofuwd" 3
+	variant 75
+		"Mohiumiopd arkta" 3
+		"Dobitgojoo" 4
+		"Goskaxoimhaheod" 4
+	variant 102
+		"Poloeagjcowxaar" 1
+		"Goskaxoimhaheod" 3
+		"Gweavoaegh ulqut" 3
+	variant 133
+		"Gweavoaegh ulqut" 2
+		"Ordue rciec" 1
+		"Dobitgojoo" 3
+	variant 72
+		"Dxooiassax" 2
+		"Mohiumiopd arkta" 1
+		"Dobitgojoo" 4
+	variant 45
+		"Ixteuofuwd" 4
+		"Goskaxoimhaheod" 2
+		"Poloeagjcowxaar" 1
+fleet "Guduxcoohq Miner"
+	government "Guduxcoohq"
+	names "Guduxcoohq names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 9
+		"Dxooiassax" 2
+		"Gweavoaegh ulqut" 0
+	variant 11
+		"Ordue rciec" 4
+		"Gweavoaegh ulqut" 0
+	variant 19
+		"Ordue rciec" 2
+		"Gweavoaegh ulqut" 0
+	variant 3
+		"Dxooiassax" 2
+		"Gweavoaegh ulqut" 0
+	variant 8
+		"Dxooiassax" 3
+		"Gweavoaegh ulqut" 0

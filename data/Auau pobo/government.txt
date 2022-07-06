@@ -1,0 +1,19 @@
+government "Auau pobo"
+	"display name" "Auau pobo"
+	"swizzle" 10
+	"color" 0.003 0.816 0.191 0.146
+	"player reputation" -1
+	"crew attack" 1.5
+	"crew defense" 3.5
+	"attitude toward"
+		"Dzeuxorewu" -1
+		"Guduxcoohq" 0
+		"Faatxu" -1
+		"Axgoo qyoeg" 0
+		"Sacfiaqbev" -1
+		"Xadllepa" -1
+		"Touexpeuos" -1
+		"Rewavayi" 0
+		"Cogzi dizse" -1
+		"Eusa kaae" 0
+		"Sioajeil" -1

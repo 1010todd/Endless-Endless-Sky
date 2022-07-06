@@ -1,0 +1,19 @@
+government "Sacfiaqbev"
+	"display name" "Sacfiaqbev"
+	"swizzle" 10
+	"color" 0.735 0.999 0.951 0.574
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 3.5
+	"attitude toward"
+		"Dzeuxorewu" 0
+		"Auau pobo" -1
+		"Guduxcoohq" 0
+		"Faatxu" 0
+		"Axgoo qyoeg" -1
+		"Xadllepa" 0
+		"Touexpeuos" -1
+		"Rewavayi" 1
+		"Cogzi dizse" -1
+		"Eusa kaae" 0
+		"Sioajeil" -1

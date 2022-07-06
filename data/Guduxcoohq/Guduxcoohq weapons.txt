@@ -1,0 +1,53 @@
+outfit "Autxo Guided Rocket"
+	category "Ammunition"
+	cost 8292
+	thumbnail "outfit/typhoon"
+	"mass" 0.06
+	"Autxo Guided Rocket capacity" -1
+	description "Guduxcoohq Missile"
+
+outfit "Autxo Guided Rocket Storage
+	category "Ammunition"
+	cost 42528
+	thumbnail "outfit/typhoon storage"
+	"mass" 1
+	"outfit space" -1
+	"Autxo Guided Rocket capacity" 17
+	ammo "Autxo Guided Rocket"
+	description "Autxo Guided Rocket Storage"
+
+outfit "Autxo Guided Rocket Catapult"
+	category "Secondary Weapons"
+	cost 37800
+	thumbnail "outfit/typhoon launcher"
+	"mass" 1
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	"Autxo Guided Rocket capacity" 17
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Autxo Guided Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 7.3
+		"velocity" 19
+		"lifetime" 1900
+		"reload" 2
+		"firing energy" 3.1
+		"firing heat" 6.0
+		"acceleration" 0.8
+		"drag" 0.1
+		"turn" 37.5
+		"homing" 1
+		"radar tracking" 0.72
+		"shield damage" 6.9
+		"hull damage" 7.6
+		"missile strength" 3.6
+	description "Guduxcoohq T1.4 Missile weapon"
+

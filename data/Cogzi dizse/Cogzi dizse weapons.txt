@@ -1,0 +1,21 @@
+outfit "Xacue Anti-Missile"
+	category "Turrets"
+	cost 512600
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 68
+	"outfit space" -68
+	"weapon capacity" -68
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "heavy laser impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 3.9
+		"velocity" 620
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 19.6
+		"firing heat" 10.1
+	description "Cogzi dizse T1.9 Anti-missile"
+

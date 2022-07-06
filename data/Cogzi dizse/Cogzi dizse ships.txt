@@ -1,0 +1,484 @@
+ship "Coirg uugiz aaaiw"
+	sprite "ship/Cogzi dizse/Coirg uugiz aaaiw"
+	attributes 
+		category "Medium Warship"
+		"cost" 12011000
+		"shields" 21800
+		"hull" 44500
+		"required crew" 1
+		"automaton" 1
+		"bunks" 24
+		"mass" 240.3
+		"drag" 5.55
+		"heat dissipation" 0.83
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 506
+		"weapon capacity" 190
+		"engine capacity" 154
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 341
+			"shield damage" 3420
+			"hull damage" 1710
+			"hit force" 2390
+	outfits 
+		"Jnuihhidic Thruster" 1
+		"Jnuihhidic Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Jcoak uuubo Generator" 1
+		"Cubue Capacitor" 1
+		"Gayhe Generator" 1
+		"Weoei Generator" 1
+		"Hyperdrive"
+	engine 65 21
+	engine -81 21
+	gun 0 20
+	gun 59 -83
+	gun -62 -83
+	turret -89 -93
+	turret 82 -93
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Cogzi dizse T1.9 ship"
+
+ship "Xeejs wuooc"
+	sprite "ship/Cogzi dizse/Xeejs wuooc"
+	attributes 
+		category "Light Warship"
+		"cost" 238000
+		"shields" 5500
+		"hull" 11300
+		"required crew" 1
+		"automaton" 1
+		"bunks" 29
+		"mass" 217.6
+		"drag" 4.77
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 30
+		"outfit space" 418
+		"weapon capacity" 140
+		"engine capacity" 110
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 86
+			"shield damage" 870
+			"hull damage" 440
+			"hit force" 610
+	outfits 
+		"Jnuihhidic Thruster" 1
+		"Jnuihhidic Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Jcoak uuubo Generator" 2
+		"Cubue Capacitor" 1
+		"Uzinc oeece Cooler" 1
+		"Hyperdrive"
+	engine 0 47
+	turret 0 2
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Cogzi dizse T1.9 ship"
+
+ship "Ldieu jujur"
+	sprite "ship/Cogzi dizse/Ldieu jujur"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 667000
+		"shields" 12100
+		"hull" 24800
+		"required crew" 3
+		"automaton" 1
+		"bunks" 66
+		"mass" 698.6
+		"drag" 15.53
+		"heat dissipation" 0.57
+		"fuel capacity" 1200
+		"cargo space" 375
+		"outfit space" 1452
+		"weapon capacity" 390
+		"engine capacity" 374
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 190
+			"shield damage" 1900
+			"hull damage" 950
+			"hit force" 1330
+	outfits 
+		"Yeoiu gacei Thruster" 1
+		"Yeoiu gacei Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Gayhe Generator" 3
+		"Cubue Capacitor" 1
+		"Jcoak uuubo Generator" 1
+		"Kweit Generator" 1
+		"Weoei Generator" 1
+		"Umwuo wmaji Cooling" 1
+		"Rojya gleey Heat Pump" 1
+		"Hyperdrive"
+	engine 37 56
+	engine -64 56
+	engine 31 37
+	engine -58 37
+	gun 0 3
+	turret -57 -71
+	turret 49 -71
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Cogzi dizse T1.9 ship"
+
+ship "Wooun oiesx"
+	sprite "ship/Cogzi dizse/Wooun oiesx"
+	attributes 
+		category "Light Freighter"
+		"cost" 1955000
+		"shields" 4500
+		"hull" 9100
+		"required crew" 1
+		"automaton" 1
+		"bunks" 16
+		"mass" 177.8
+		"drag" 3.63
+		"heat dissipation" 0.67
+		"fuel capacity" 1000
+		"cargo space" 60
+		"outfit space" 319
+		"weapon capacity" 90
+		"engine capacity" 99
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 70
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 490
+	outfits 
+		"Jnuihhidic Thruster" 1
+		"Jnuihhidic Steering" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Kweit Generator" 1
+		"Cubue Capacitor" 1
+		"Umwuo wmaji Cooling" 1
+		"Hyperdrive"
+	engine 0 -22
+	gun 0 9
+	gun 38 -54
+	gun -41 -54
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Cogzi dizse T1.9 ship"
+
+ship "Tawoi oeuec"
+	sprite "ship/Cogzi dizse/Tawoi oeuec"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 2534000
+		"shields" 20200
+		"hull" 41400
+		"required crew" 1
+		"bunks" 67
+		"mass" 463.1
+		"drag" 9.59
+		"heat dissipation" 0.87
+		"fuel capacity" 800
+		"cargo space" 250
+		"outfit space" 1078
+		"weapon capacity" 330
+		"engine capacity" 352
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 317
+			"shield damage" 3180
+			"hull damage" 1590
+			"hit force" 2220
+	outfits 
+		"Yeoiu gacei Thruster" 1
+		"Yeoiu gacei Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Gayhe Generator" 3
+		"Cubue Capacitor" 1
+		"Jcoak uuubo Generator" 1
+		"Kweit Generator" 1
+		"Weoei Generator" 1
+		"Umwuo wmaji Cooling" 1
+		"Rojya gleey Heat Pump" 1
+		"Hyperdrive"
+	engine 38 -84
+	engine -65 -84
+	engine 28 -67
+	engine -55 -67
+	gun 0 41
+	turret 0 -65
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Cogzi dizse T1.9 ship"
+
+ship "Oeuuo aizwe"
+	sprite "ship/Cogzi dizse/Oeuuo aizwe"
+	attributes 
+		category "Heavy Warship"
+		"cost" 5593000
+		"shields" 40600
+		"hull" 83000
+		"required crew" 4
+		"automaton" 1
+		"bunks" 132
+		"mass" 807.1
+		"drag" 18.85
+		"heat dissipation" 0.74
+		"fuel capacity" 1500
+		"cargo space" 110
+		"outfit space" 1276
+		"weapon capacity" 400
+		"engine capacity" 385
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 636
+			"shield damage" 6370
+			"hull damage" 3190
+			"hit force" 4460
+	outfits 
+		"Yeoiu gacei Thruster" 1
+		"Yeoiu gacei Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Gayhe Generator" 3
+		"Cubue Capacitor" 1
+		"Jcoak uuubo Generator" 1
+		"Kweit Generator" 1
+		"Weoei Generator" 1
+		"Umwuo wmaji Cooling" 1
+		"Rojya gleey Heat Pump" 1
+		"Hyperdrive"
+	engine 53 -29
+	engine -80 -29
+	engine 33 67
+	engine -60 67
+	gun -45 -15
+	gun 42 -15
+	turret 0 -12
+	turret 45 -58
+	turret -52 -58
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Cogzi dizse T1.9 ship"
+
+ship "Ehsdi upwoo"
+	sprite "ship/Cogzi dizse/Ehsdi upwoo"
+	attributes 
+		category "Light Freighter"
+		"cost" 724000
+		"shields" 1400
+		"hull" 2900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 26
+		"mass" 304.4
+		"drag" 6.24
+		"heat dissipation" 0.84
+		"fuel capacity" 800
+		"cargo space" 105
+		"outfit space" 572
+		"weapon capacity" 160
+		"engine capacity" 165
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 22
+			"shield damage" 230
+			"hull damage" 120
+			"hit force" 160
+	outfits 
+		"Qajoohiasu Thruster" 1
+		"Qajoohiasu Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Gayhe Generator" 2
+		"Cubue Capacitor" 1
+		"Kweit Generator" 1
+		"Weoei Generator" 1
+		"Hyperdrive"
+	engine 37 -13
+	engine -46 -13
+	gun 0 13
+	turret 0 -33
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Cogzi dizse T1.9 ship"
+
+ship "Mejoj doahi"
+	sprite "ship/Cogzi dizse/Mejoj doahi"
+	attributes 
+		category "Transport"
+		"cost" 2854000
+		"shields" 7300
+		"hull" 14900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 77
+		"mass" 241.0
+		"drag" 5.8
+		"heat dissipation" 0.78
+		"fuel capacity" 1200
+		"cargo space" 35
+		"outfit space" 308
+		"weapon capacity" 100
+		"engine capacity" 88
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 114
+			"shield damage" 1150
+			"hull damage" 580
+			"hit force" 800
+	outfits 
+		"Jnuihhidic Thruster" 1
+		"Jnuihhidic Steering" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Kweit Generator" 1
+		"Cubue Capacitor" 1
+		"Umwuo wmaji Cooling" 1
+		"Hyperdrive"
+	engine 0 -10
+	gun 0 10
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Cogzi dizse T1.9 ship"
+
+ship "Zopheahasi eejdo"
+	sprite "ship/Cogzi dizse/Zopheahasi eejdo"
+	attributes 
+		category "Light Freighter"
+		"cost" 1306000
+		"shields" 2500
+		"hull" 5100
+		"required crew" 1
+		"bunks" 14
+		"mass" 211.0
+		"drag" 4.47
+		"heat dissipation" 0.84
+		"fuel capacity" 1200
+		"cargo space" 75
+		"outfit space" 266
+		"weapon capacity" 80
+		"engine capacity" 77
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 39
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 280
+	outfits 
+		"Hihii Thruster" 1
+		"Hihii Steering" 1
+		"Xacue Anti-Missile" 1
+		"Jkeejagkit Shield Core" 1
+		"Hyperdrive"
+	engine 0 -29
+	gun 0 -47
+	gun 46 -47
+	gun -49 -47
+	turret 0 15
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 0
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Cogzi dizse T1.9 ship"
+
+ship "Atbuxsebuo"
+	sprite "ship/Cogzi dizse/Atbuxsebuo"
+	attributes 
+		category "Transport"
+		"cost" 1398000
+		"shields" 16900
+		"hull" 34400
+		"required crew" 1
+		"bunks" 31
+		"mass" 122.0
+		"drag" 2.6
+		"heat dissipation" 0.69
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 275
+		"weapon capacity" 90
+		"engine capacity" 88
+		"hull protection" 0.400
+		weapon 
+			"blast radius" 264
+			"shield damage" 2650
+			"hull damage" 1330
+			"hit force" 1850
+	outfits 
+		"Jnuihhidic Thruster" 1
+		"Jnuihhidic Steering" 1
+		"Xacue Anti-Missile" 1
+		"Aajocrnubi Shield Core" 1
+		"Ahiwo Nanite Repair" 1
+		"Magew onwou Cell" 1
+		"Cubue Capacitor" 1
+		"Nnumi Cell" 1
+		"Wuefa Cell" 1
+		"Hyperdrive"
+	engine 0 -38
+	turret 0 -7
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	description "Cogzi dizse T1.9 ship"
+
