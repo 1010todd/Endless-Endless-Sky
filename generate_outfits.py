@@ -151,11 +151,15 @@ def create_battery(faction,fileout=''):
                                                     seed=faction.devmodeseed+n)
             battery_name_list.append(battery_name)
         battery_name_list.sort() #Sort like vanilla names.
+        battery_thumb_list = ['tiny battery','small battery','medium battery', 'large battery','huge battery']
+        if random.random() < faction.tier*.5:
+            battery_thumb_list = ['tiny battery hai','small battery hai','medium battery hai', 'large battery hai','huge battery hai']
+       
 
-        while battery_iterations_count <= int(battery_iterations):
+        for aa in range(battery_iterations):
             battery_name_final = battery_name_list[battery_iterations_count-1] + " " + battery_type
 
-            battery_thumb = 'tiny battery'
+            battery_thumb = battery_thumb_list[min(4,aa)]
             #Writes ES code to file, use \n for line break
             battery_output.write('outfit "' + battery_name_final + '"' + "\n")
             battery_output.write('\tcategory "Power"\n')
@@ -172,14 +176,13 @@ def create_battery(faction,fileout=''):
             outfit = class_Outfit(battery_name_final,'Power',battery_cost,battery_thumb,battery_outfit,battery_outfit)
             outfit.energy_cap = battery_energy
             faction.outfitlist.append(outfit)
-            print("Created battery " + battery_name_list[battery_iterations_count-1] + " " + battery_type)
+            print("Created battery " + battery_name_list[aa] + " " + battery_type)
 
             #Iterate for next run of loop
             battery_cost = roundup100((battery_cost * 2) * float(battery_cost_curve))
             battery_outfit = round((battery_outfit * 2) * float(battery_outfit_curve))
             battery_energy = roundup10((battery_energy * 2) * float(battery_energy_curve))
 
-            battery_iterations_count += 1
         battery_types_generated_count += 1
     battery_output.write('\n')
     outfitter_output.close()
@@ -386,6 +389,16 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         battery_energy_curve = round(1.1*(max(1,random.uniform(faction.tier/3,faction.tier/2))),1)
 
         power_thumb_list = ['tiny fuel cell','small fuel cell','medium fuel cell','large fuel cell','huge fuel cell']
+        if power_iterations <= 3:
+            powfusions = ['dwarf core','fusion','core']
+            powhfusions = ['dwarf core hai','fusion hai','hai boulder']
+            powhfusions2 = ['hai pebble core','hai geode','hai boulder']
+            powplasma = ['plasma core','double plasma core','triple plasma core']
+            powfission = ['fission','breeder','stack core']
+            powrem = ['millennium cell','epoch cell','aeon cell']
+            power_thumb_list = random.choice([powfusions,powhfusions,powhfusions2,powplasma,powfission,powrem])
+        elif power_iterations <= 4:
+            power_thumb_list = ['red sun','yellow sun','white sun','blue sun']
         #Iterates Values
         power_iterations_count = 1
         while power_iterations_count <= int(power_iterations):

@@ -278,7 +278,12 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         soundgun_list = ['blaster','bombardment','detainer','disruptor','explosion tiny','hion','inhibitor','plasma','proton','particle','pulse']
         soundbeam_list = ['laser','hion','skylance','zapper','heavy laser','electron beam','disruptor','heliarch attractor','heliarch repulsor']
         #soundmissile_list = ['finisher','meteor','sidewinder','torpedo','tracker','rocket']
-        
+        effectsmall_list = ['small explosion','proton impact','electron impact','heavy laser impact','blaster impact']
+        effectlarge_list = ['nuke explosion','large explosion','torpedo hit','plasma explosion','particle impact']
+        effect_list = effectsmall_list
+        if weapon_reload >= 120:
+            effect_list = effectlarge_list
+
         name_length_min = 3
         name_length_max = 5
         #weapon_name = namegen.randomfromExisting(faction.name)
@@ -288,6 +293,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                                                     spacechance=faction.lang_spacechance,
                                                     lang_charweight=faction.lang_charweight)
         
+        weapon_effect = random.choice(effect_list)
         #Writes ES code to file, use \n for line break
         if weapon_type == "projectile": #Write projectile weapon
             weapon_type_name = random.choices(gun_types)
@@ -303,6 +309,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             thumb_select = random.randrange(0,len(gun_thumb_list))
             weapon_thumb_final = gun_thumb_list[thumb_select]
 
+            
             weapon_projectile = random.choice(projectile_list)
             weapon_sound = random.choice(soundgun_list)
 
@@ -317,7 +324,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\tweapon' + "\n")
             weapon_output.write(f'\t\t"sprite" "projectile/{weapon_projectile}"'+ "\n")
             weapon_output.write(f'\t\tsound "{weapon_sound}"'+ "\n")
-            weapon_output.write('\t\t"hit effect" "blaster impact"'+ "\n")
+            weapon_output.write(f'\t\t"hit effect" "{weapon_effect}"'+ "\n")
             weapon_output.write('\t\t"inaccuracy" ' + str(weapon_inaccuracy) + "\n")
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
             weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
@@ -369,7 +376,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write(f'\t\t"sprite" "projectile/{weapon_projectile}"'+ "\n")
                 weapon_output.write(f'\t\t"hardpoint sprite" "hardpoint/{turret_thumb_final}"'+ "\n")
                 weapon_output.write(f'\t\tsound "{weapon_sound}"'+ "\n")
-                weapon_output.write('\t\t"hit effect" "blaster impact"'+ "\n")
+                weapon_output.write(f'\t\t"hit effect" "{weapon_effect}"'+ "\n")
                 weapon_output.write('\t\t"inaccuracy" ' + str(weapon_inaccuracy) + "\n")
                 weapon_output.write('\t\t"turret turn" ' + str(turret_turn) + '\n')
                 weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
@@ -664,9 +671,9 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t"weapon capacity" -' + str(weapon_outfit) + "\n")
             weapon_output.write('\t"turret mounts" -1' + "\n")
             weapon_output.write('\tweapon' + "\n")
-            weapon_output.write('\t\t"hardpoint sprite" "hardpoint/anti-missile"'+ "\n")
+            weapon_output.write(f'\t\t"hardpoint sprite" "hardpoint/{anti_missile_thumb}"'+ "\n")
             weapon_output.write('\t\t"hardpoint offset" 4.'+ "\n")
-            weapon_output.write('\t\t"hit effect" "tiny explosion"'+ "\n")
+            weapon_output.write(f'\t\t"hit effect" "{weapon_effect}"'+ "\n")
             weapon_output.write('\t\t"fire effect" "tiny explosion"'+ "\n")
             weapon_output.write('\t\t"anti-missile" ' + str(anti_missile_strength) + "\n")
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
