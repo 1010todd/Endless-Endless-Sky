@@ -1257,7 +1257,7 @@ def create_ship(faction): #Todo, option for without faction?
 
         i = 0
         while i < ship_fighters:
-            ship_output.write('\tbay "Fighter 0 0' + "\n")
+            ship_output.write('\tbay "Fighter" 0 0' + "\n")
             i += 1
         i = 0
         while i < ship_drones:

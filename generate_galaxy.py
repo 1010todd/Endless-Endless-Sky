@@ -1506,7 +1506,7 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
         #mineables_list = ['copper','iron','lead','silicon','tungsten','titanium','gold','platinum','uranium']
         #random_mineables_list = random.choices(mineables_list,k=random.randint(0,5))
         for minables in system.mineables.keys():
-            galaxy_output.write(f'\tmineables "{minables}" {system.mineables[minables][0]} {system.mineables[minables][1]}'+'\n')
+            galaxy_output.write(f'\minables "{minables}" {system.mineables[minables][0]} {system.mineables[minables][1]}'+'\n')
             
 
         #commodities

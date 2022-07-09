@@ -176,7 +176,7 @@ def create_battery(faction,fileout=''):
             outfit = class_Outfit(battery_name_final,'Power',battery_cost,battery_thumb,battery_outfit,battery_outfit)
             outfit.energy_cap = battery_energy
             faction.outfitlist.append(outfit)
-            print("Created battery " + battery_name_list[aa] + " " + battery_type)
+            print(f'Created battery "{battery_name_final}"')
 
             #Iterate for next run of loop
             battery_cost = roundup100((battery_cost * 2) * float(battery_cost_curve))
@@ -295,7 +295,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
             cooling_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Cooling"\n')
             cooling_output.write('\n')
 
-            outfitter_output.write('\t"' + cooling_name_final + '"\n')
+            outfitter_output.write(f'\t"{cooling_name_final}"' + '"\n')
             outfit = class_Outfit(cooling_name_final,'Systems',cooling_cost,cooling_outfit,cooling_outfit,cooling_outfit)
             outfit.cooling_ener = cooling_ener
             outfit.active_cooling = cooling_active
