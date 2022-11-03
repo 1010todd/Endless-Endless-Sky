@@ -1,3 +1,4 @@
+from math import sqrt
 import random
 import math
 import os
@@ -119,21 +120,23 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         weapon_outfit = round(random.randint(math.floor(weapon_min_outfit),max(1,weapon_max_outfit)))
         weapon_mass = weapon_outfit
 
-        #weapon_is_burst = int(random.paretovariate(5)) #1 = no burst
+        weapon_is_burst = int(random.paretovariate(5)) #1 = no burst
         #Burst doesn't do anything at the moment, will use later.
         create_turrets = False
         if random.randrange(round(weapon_outfit/3),max(1,weapon_outfit)) <= 40:
             create_turrets = True
         print("Weapon type: " + (str(weapon_type)))
 
-        #if weapon_is_burst > 1:
-            #print("Weapon is burst: True")
+        if weapon_is_burst > 1:
+            print("Weapon is burst: True")
         print("Create turrets: ", create_turrets)
 
 
         #Weapon calculations
         weapon_damagepersec = random.uniform(weapon_outfit*(8*faction.tier),weapon_outfit*(16*faction.tier))
-        weapon_cost = roundup100(random.randint(int(weapon_damagepersec/weapon_outfit)*int(100**(faction.tier)), int((weapon_damagepersec/weapon_outfit)*int(300**faction.tier))))
+        wep_cost_min = int((weapon_damagepersec/weapon_outfit)*65*weapon_outfit*sqrt(100*faction.tier))
+        wep_cost_max = int((weapon_damagepersec/weapon_outfit)*75*weapon_outfit*sqrt(150*faction.tier))
+        weapon_cost = roundup100(random.randint(int(wep_cost_min),int(wep_cost_max)))
         weapon_shieldhull_ratio = random.uniform(.1,.9) # .1 shield, .9 hull
         weapon_energy_ratio = random.uniform(.1,2) # .1 shield, .9 hull
         weapon_heat_ratio = random.uniform(.1,2) # .1 shield, .9 hull
@@ -167,6 +170,15 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         weapon_lifetime = round(weapon_range / weapon_velocity)
 
         weapon_reload = max(1,math.ceil(60 / weapon_shotpersec)) #Please don't be zero and break stuffs.
+        if weapon_is_burst and not weapon_type == "beam":
+            if weapon_reload <= 1:
+                weapon_reload = 3
+            weapon_burst_reload = random.randint(1,weapon_reload-1)
+            weapon_burst_count = random.randint(2,round(max(3,60/weapon_burst_reload)))
+        elif weapon_is_burst and weapon_type == "beam":
+            weapon_reload = 1 + random.uniform(0,3)
+            weapon_burst_reload = 1
+            weapon_burst_count = random.randint(10,round(max(12,60/weapon_burst_reload)))
         #print("Shot Per Sec: ", weapon_shotpersec)
         #==============================Regular Damages
         weapon_shield_dps = weapon_damagepersec * weapon_shieldhull_ratio
@@ -178,37 +190,63 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         weapon_firing_energypershot = round((weapon_shield_dpshot*weapon_energy_ratio)/faction.tier,1)
         weapon_firing_heatpershot = round((weapon_shield_dpshot*weapon_heat_ratio)/faction.tier,1)
         #=============================Special Damages todo
-        weapon_heat_dpshot = 0
-        weapon_fuel_dpshot = 0
-        weapon_energy_dpshot = 0
-        weapon_ion_dpshot = 0
-        weapon_disrupt_dpshot = 0
-        weapon_slow_dpshot = 0
+        weapon_special_dpshot = {
+            'heat':0,
+            'fuel':0,
+            'energy':0,
+            'ion':0,
+            'disrupt':0,
+            'slow':0,
+            'discharge':0,
+            'corrosion':0,
+            'leak':0,
+            'burn':0,
+        }
         if random.random() < .1:
             weapon_heat_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_heat_dpshot = round(weapon_heat_dps / weapon_shotpersec,1)
+            weapon_special_dpshot['heat'] = round(weapon_heat_dps / weapon_shotpersec,1)
+        if random.random() < .1 * (faction.tier/3):
+            weapon_special_dmg_picks = random.choices(list(weapon_special_dpshot.keys()))
+            for dmg_type in weapon_special_dmg_picks:
+                weapon_special_mult = weapon_special_ratio/len(weapon_special_dmg_picks)
+                weapon_special_mult += random.uniform(.01,max(.05,weapon_special_mult)) #Add minor variation, TODO: properly calculate it.
+                weapon_special_dps = weapon_damagepersec * weapon_special_mult
+                weapon_special_dpshot[dmg_type] = round(weapon_special_dps / weapon_shotpersec,1)
+        """
         if random.random() < .1 * (faction.tier/3):
             weapon_fuel_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_fuel_dpshot = round(weapon_fuel_dps / weapon_shotpersec,1)
+            weapon_special_dpshot['fuel'] = round(weapon_fuel_dps / weapon_shotpersec,1)
         if random.random() < .1 * (faction.tier/3):
             weapon_energy_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_energy_dpshot = round(weapon_energy_dps / weapon_shotpersec,1)
+            weapon_special_dpshot['energy'] = round(weapon_energy_dps / weapon_shotpersec,1)
         if random.random() < .1 * (faction.tier/3):
             weapon_ion_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_ion_dpshot = round(weapon_ion_dps / weapon_shotpersec,1)
+            weapon_special_dpshot['ion'] = round(weapon_ion_dps / weapon_shotpersec,1)
         if random.random() < .1 * (faction.tier/3):
             weapon_disrupt_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_disrupt_dpshot = round(weapon_disrupt_dps / weapon_shotpersec,1)
+            weapon_special_dpshot['disrupt'] = round(weapon_disrupt_dps / weapon_shotpersec,1)
         if random.random() < .1 * (faction.tier/3):
             weapon_slow_dps = weapon_damagepersec * weapon_special_ratio
-            weapon_slow_dpshot = round(weapon_slow_dps / weapon_shotpersec,1)
-
+            weapon_special_dpshot['slow'] = round(weapon_slow_dps / weapon_shotpersec,1)
+        if random.random() < .1 * (faction.tier/3):
+            weapon_discharge_dps = weapon_damagepersec * weapon_special_ratio
+            weapon_special_dpshot['discharge'] = round(weapon_discharge_dps / weapon_shotpersec,1)
+        if random.random() < .1 * (faction.tier/3):
+            weapon_corrosion_dps = weapon_damagepersec * weapon_special_ratio
+            weapon_special_dpshot['corrosion'] = round(weapon_corrosion_dps / weapon_shotpersec,1)
+        if random.random() < .1 * (faction.tier/3):
+            weapon_leak_dps = weapon_damagepersec * weapon_special_ratio
+            weapon_special_dpshot['leak'] = round(weapon_leak_dps / weapon_shotpersec,1)
+        if random.random() < .1 * (faction.tier/3):
+            weapon_burn_dps = weapon_damagepersec * weapon_special_ratio
+            weapon_special_dpshot['burn'] = round(weapon_burn_dps / weapon_shotpersec,1)
+        """
         #Missile Calculations
         missile_cost = random.randint(weapon_cost/5, weapon_cost/4)
         missile_mass = round(random.uniform(.01, .1), 2)
 
         #Missile storage calculations
-        missile_store_outfit = random.randint(math.ceil(missile_mass*10), math.ceil(missile_mass*30))
+        missile_store_outfit = random.randint(math.ceil(missile_mass*100), math.ceil(missile_mass*300))
         missile_store_cap = round(missile_store_outfit/missile_mass)
         missile_storage_cost = random.randint(round(missile_cost*5), round(missile_cost*10))
         missile_storage_mass = random.randint(round(missile_store_outfit-missile_mass*missile_store_cap), round(missile_store_outfit-missile_mass*missile_store_cap)+3)
@@ -239,26 +277,21 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         turret_gun_num = random.randrange(1,4)
         #If have more than 1 gun and already at 1 reload, increase damage. Else increse fire-rate
         #todo: should consider if reload goes below 1 at 3+ guns but later.
-        if weapon_reload == 1 and turret_gun_num >= 2:
+        turret_special_dpsh = {}
+        if (weapon_reload == 1 or weapon_type =='beam') and turret_gun_num >= 2:
             turret_hull_dpshot = weapon_hull_dpshot*turret_gun_num
             turret_shield_dpshot = weapon_shield_dpshot*turret_gun_num
             turret_hit_force = weapon_hit_force*turret_gun_num
-            turret_heat_dpsh = weapon_heat_dpshot*turret_gun_num
-            turret_fuel_dpsh = weapon_fuel_dpshot*turret_gun_num
-            turret_energy_dpsh = weapon_energy_dpshot*turret_gun_num
-            turret_ion_dpsh = weapon_ion_dpshot*turret_gun_num
-            turret_disrupt_dpsh = weapon_disrupt_dpshot*turret_gun_num
-            turret_slow_dpsh = weapon_slow_dpshot*turret_gun_num
+            for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
+                if(spdmgvalue > 0):
+                    turret_special_dpsh[spdmgtype] = spdmgvalue * turret_gun_num
         else:
             turret_hull_dpshot = weapon_hull_dpshot
             turret_shield_dpshot = weapon_shield_dpshot
             turret_hit_force = weapon_hit_force
-            turret_heat_dpsh = weapon_heat_dpshot
-            turret_fuel_dpsh = weapon_fuel_dpshot
-            turret_energy_dpsh = weapon_energy_dpshot
-            turret_ion_dpsh = weapon_ion_dpshot
-            turret_disrupt_dpsh = weapon_disrupt_dpshot
-            turret_slow_dpsh = weapon_slow_dpshot
+            for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
+                if(spdmgvalue > 0):
+                    turret_special_dpsh[spdmgtype] = spdmgvalue
         turret_reload = round(max(1,weapon_reload/turret_gun_num))
         turret_extra_outfit = random.randrange(round(weapon_outfit/3*(weapon_outfit/10)),round(weapon_outfit/3*(weapon_outfit/5)))
         turret_turn = round(weapon_outfit*1.5/turret_extra_outfit*(turret_gun_num*0.3),1)
@@ -329,24 +362,18 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
             weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
             weapon_output.write('\t\t"reload" ' + str(weapon_reload) + "\n")
+            if weapon_is_burst:
+                weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
+                weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")             
             weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
             weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
             weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
             weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
             if(round(weapon_hit_force) > 0):
                 weapon_output.write('\t\t"hit force" ' + str(weapon_hit_force) + "\n")
-            if(weapon_heat_dpshot > 0):
-                weapon_output.write('\t\t"heat damage" ' + str(weapon_heat_dpshot) + "\n")
-            if(weapon_fuel_dpshot > 0):
-                weapon_output.write('\t\t"fuel damage" ' + str(weapon_fuel_dpshot) + "\n")
-            if(weapon_energy_dpshot > 0):
-                weapon_output.write('\t\t"energy damage" ' + str(weapon_energy_dpshot) + "\n")
-            if(weapon_ion_dpshot > 0):
-                weapon_output.write('\t\t"ion damage" ' + str(weapon_ion_dpshot) + "\n")
-            if(weapon_disrupt_dpshot > 0):
-                weapon_output.write('\t\t"disruption damage" ' + str(weapon_disrupt_dpshot) + "\n")
-            if(weapon_slow_dpshot > 0):
-                weapon_output.write('\t\t"slowing damage" ' + str(weapon_slow_dpshot) + "\n")
+            for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
+                if(spdmgvalue > 0):
+                    weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
             weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Projectile weapon"\n')
             weapon_output.write('\n')
             
@@ -382,24 +409,18 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
                 weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
                 weapon_output.write('\t\t"reload" ' + str(turret_reload) + "\n")
+                if weapon_is_burst:
+                    weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
+                    weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")    
                 weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
                 weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
                 weapon_output.write('\t\t"shield damage" ' + str(turret_shield_dpshot) + "\n")
                 weapon_output.write('\t\t"hull damage" ' + str(turret_hull_dpshot) + "\n")
                 if(weapon_hit_force > 0):
                     weapon_output.write('\t\t"hit force" ' + str(turret_hit_force) + "\n")
-                if(weapon_heat_dpshot > 0):
-                    weapon_output.write('\t\t"heat damage" ' + str(turret_heat_dpsh) + "\n")
-                if(weapon_fuel_dpshot > 0):
-                    weapon_output.write('\t\t"fuel damage" ' + str(turret_fuel_dpsh) + "\n")
-                if(weapon_energy_dpshot > 0):
-                    weapon_output.write('\t\t"energy damage" ' + str(turret_energy_dpsh) + "\n")
-                if(weapon_ion_dpshot > 0):
-                    weapon_output.write('\t\t"ion damage" ' + str(turret_ion_dpsh) + "\n")
-                if(weapon_disrupt_dpshot > 0):
-                    weapon_output.write('\t\t"disruption damage" ' + str(turret_disrupt_dpsh) + "\n")
-                if(weapon_slow_dpshot > 0):
-                    weapon_output.write('\t\t"slowing damage" ' + str(turret_slow_dpsh) + "\n")
+                for spdmgtype,spdmgvalue in turret_special_dpsh.items():
+                    if(spdmgvalue > 0):
+                        weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
                 weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Projectile weapon ' + str(turret_gun_num) + 'gun' + ' Turret"\n')
                 weapon_output.write('\n')
                 turret = class_Weapon(turret_name_final,'Turrets',turret_cost_final,turret_thumb_final,turret_mass,turret_outfit,turret_outfit)
@@ -409,8 +430,8 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 faction.weaponlist.append(turret)
             print("Created " + str(weapon_type) + weapon_name)
             
-
-        elif weapon_type == "beam": #Write beam weapon
+        #================================================BEAM WEAPON
+        elif weapon_type == "beam":
             weapon_type_name = random.choices(beam_types)
             weapon_type_name = weapon_type_name[0]
             weapon_name_final = weapon_name + ' ' + weapon_type_name
@@ -451,25 +472,19 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"inaccuracy" ' + str(weapon_inaccuracy) + "\n")
             weapon_output.write('\t\t"velocity" ' + str(weapon_range) + "\n") #because velocity * lifetime = range
             weapon_output.write('\t\t"lifetime" ' + str(1) + "\n")
-            weapon_output.write('\t\t"reload" ' + str(weapon_reload) + "\n")
+            weapon_output.write('\t\t"reload" ' + str(round(weapon_reload,2)) + "\n")
+            if weapon_is_burst:
+                weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
+                weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")   
             weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
             weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
             weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
             weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
             if(round(weapon_hit_force) > 0):
                 weapon_output.write('\t\t"hit force" ' + str(weapon_hit_force) + "\n")
-            if(weapon_heat_dpshot > 0):
-                weapon_output.write('\t\t"heat damage" ' + str(weapon_heat_dpshot) + "\n")
-            if(weapon_fuel_dpshot > 0):
-                weapon_output.write('\t\t"fuel damage" ' + str(weapon_fuel_dpshot) + "\n")
-            if(weapon_energy_dpshot > 0):
-                weapon_output.write('\t\t"energy damage" ' + str(weapon_energy_dpshot) + "\n")
-            if(weapon_ion_dpshot > 0):
-                weapon_output.write('\t\t"ion damage" ' + str(weapon_ion_dpshot) + "\n")
-            if(weapon_disrupt_dpshot > 0):
-                weapon_output.write('\t\t"disruption damage" ' + str(weapon_disrupt_dpshot) + "\n")
-            if(weapon_slow_dpshot > 0):
-                weapon_output.write('\t\t"slowing damage" ' + str(weapon_slow_dpshot) + "\n")
+            for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
+                if(spdmgvalue > 0):
+                    weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
             weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Beam weapon"\n')
             weapon_output.write('\n')
             print("Created " + str(weapon_type) + " weapon " + weapon_name)
@@ -482,7 +497,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 turret_cost = random.uniform(2,5)
                 turret_thumb_final = weapon_thumb_final+' turret'
                 turret_name_final = weapon_name_final + ' Turret'
-                turret_cost_final = weapon_cost*turret_cost
+                turret_cost_final = roundup10(weapon_cost*turret_cost)
                 turret_mass = weapon_mass+turret_extra_outfit
                 turret_outfit = weapon_outfit+turret_extra_outfit
 
@@ -503,25 +518,19 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write('\t\t"turret turn" ' + str(turret_turn) + '\n')
                 weapon_output.write('\t\t"velocity" ' + str(weapon_range) + "\n")
                 weapon_output.write('\t\t"lifetime" ' + str(1) + "\n")
-                weapon_output.write('\t\t"reload" ' + str(turret_reload) + "\n")
+                weapon_output.write('\t\t"reload" ' + str(round(weapon_reload,2)) + "\n")
+                if weapon_is_burst:
+                    weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
+                    weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")   
                 weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
                 weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
                 weapon_output.write('\t\t"shield damage" ' + str(turret_shield_dpshot) + "\n")
                 weapon_output.write('\t\t"hull damage" ' + str(turret_hull_dpshot) + "\n")
                 if(weapon_hit_force > 0):
                     weapon_output.write('\t\t"hit force" ' + str(turret_hit_force) + "\n")
-                if(weapon_heat_dpshot > 0):
-                    weapon_output.write('\t\t"heat damage" ' + str(turret_heat_dpsh) + "\n")
-                if(weapon_fuel_dpshot > 0):
-                    weapon_output.write('\t\t"fuel damage" ' + str(turret_fuel_dpsh) + "\n")
-                if(weapon_energy_dpshot > 0):
-                    weapon_output.write('\t\t"energy damage" ' + str(turret_energy_dpsh) + "\n")
-                if(weapon_ion_dpshot > 0):
-                    weapon_output.write('\t\t"ion damage" ' + str(turret_ion_dpsh) + "\n")
-                if(weapon_disrupt_dpshot > 0):
-                    weapon_output.write('\t\t"disruption damage" ' + str(turret_disrupt_dpsh) + "\n")
-                if(weapon_slow_dpshot > 0):
-                    weapon_output.write('\t\t"slowing damage" ' + str(turret_slow_dpsh) + "\n")
+                for spdmgtype,spdmgvalue in turret_special_dpsh.items():
+                    if(spdmgvalue > 0):
+                        weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
                 weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Beam weapon ' + str(turret_gun_num) + 'gun' + ' Turret"\n')
                 weapon_output.write('\n')
                 turret = class_Weapon(turret_name_final,'Turrets',turret_cost_final,turret_thumb_final,turret_mass,turret_outfit,turret_outfit)
@@ -569,7 +578,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
 
             missile_stor_name_final = missile_name_final + ' Storage'
             
-            weapon_output.write('outfit "' + missile_stor_name_final + "\n")
+            weapon_output.write(f'outfit "{missile_stor_name_final}"' "\n")
             weapon_output.write('\tcategory "Ammunition"\n')
             weapon_output.write('\tcost ' + str(missile_storage_cost) + "\n")
             weapon_output.write(f'\tthumbnail "outfit/{storage_thumb_final}"\n')
@@ -587,7 +596,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             faction.weaponlist.append(missilestor)
 
             launcher_name_final = missile_name_final + ' ' + launcher_type
-            launcher_mass = weapon_outfit-(weapon_outfit-missile_storage_mass)
+            launcher_mass = weapon_outfit-(missile_storage_mass)
 
             weapon_output.write('outfit "' + launcher_name_final + '"' + "\n")
             weapon_output.write('\tcategory "Secondary Weapons"\n')
@@ -612,6 +621,9 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
             weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
             weapon_output.write('\t\t"reload" ' + str(weapon_reload) + "\n")
+            if weapon_is_burst:
+                weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
+                weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")   
             weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
             weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
             weapon_output.write('\t\t"acceleration" ' + str(missile_acceleration) + "\n")
@@ -632,18 +644,9 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
             if(round(weapon_hit_force) > 0):
                 weapon_output.write('\t\t"hit force" ' + str(weapon_hit_force) + "\n")
-            if(weapon_heat_dpshot > 0):
-                weapon_output.write('\t\t"heat damage" ' + str(weapon_heat_dpshot) + "\n")
-            if(weapon_fuel_dpshot > 0):
-                weapon_output.write('\t\t"fuel damage" ' + str(weapon_fuel_dpshot) + "\n")
-            if(weapon_energy_dpshot > 0):
-                weapon_output.write('\t\t"energy damage" ' + str(weapon_energy_dpshot) + "\n")
-            if(weapon_ion_dpshot > 0):
-                weapon_output.write('\t\t"ion damage" ' + str(weapon_ion_dpshot) + "\n")
-            if(weapon_disrupt_dpshot > 0):
-                weapon_output.write('\t\t"disruption damage" ' + str(weapon_disrupt_dpshot) + "\n")
-            if(weapon_slow_dpshot > 0):
-                weapon_output.write('\t\t"slowing damage" ' + str(weapon_slow_dpshot) + "\n")
+            for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
+                if(spdmgvalue > 0):
+                    weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
             weapon_output.write('\t\t"missile strength" ' + str(missile_strength) + "\n")
             weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Missile weapon"\n')
             weapon_output.write('\n')

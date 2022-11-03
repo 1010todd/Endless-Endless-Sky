@@ -127,7 +127,7 @@ def create_battery(faction,fileout=''):
 
         #Calculates new values
         battery_outfit = random.randint(5, 10)
-        battery_energy = roundup10(random.randint(int(500*random.uniform(1.1*faction.tier,2*faction.tier)), int(1250*random.uniform(1.1*faction.tier,2*faction.tier))))
+        battery_energy = roundup10(random.randint(int(2000*random.uniform(1.1*faction.tier,2*faction.tier)), int(5000*random.uniform(1.1*faction.tier,2*faction.tier))))
         battery_cost = roundup100(random.randint(round((battery_energy/battery_outfit)*500),round((battery_energy/battery_outfit)*600)))
 
         battery_cost_curve = .9
@@ -135,7 +135,7 @@ def create_battery(faction,fileout=''):
         battery_energy_curve = round(1.1*(max(1,faction.tier/2)),1)
         battery_iterations = round(random.gauss(4, 1))
 
-        battery_type = random.choice(['Battery','Capacitor','Battery Pack'])
+        battery_type = random.choice(['Battery','Capacitor','Battery Pack','Capacitor Pack','Battery Rack','Capacitor Rack','Storage Device','Power Storage', 'Power Cache'])
         
         battery_iterations_count = 1
         #Battery Name
