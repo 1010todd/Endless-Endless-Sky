@@ -5,6 +5,8 @@ __pycache__/
 
 # testing
 generatedsprites/
+data/
+images/
 
 # C extensions
 *.so
@@ -28,6 +30,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+release/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
