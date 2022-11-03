@@ -1,0 +1,17 @@
+government "Edavu ayouz"
+	"display name" "Edavu ayouz"
+	"swizzle" 5
+	"color" 0.979 0.223 0.133 0.545
+	"player reputation" 0
+	"crew attack" 2.1
+	"crew defense" 4.5
+	"attitude toward"
+		"Icz giu" -1
+		"Ozujto" 0
+		"Xgautoceeh" 0
+		"Iebau rojoa" -1
+		"Geooc juxuy" 0
+		"Ivupvrbeeb" 0
+		"Uvprluwq" -1
+		"Uaoup umkee" 0
+		"Mzeeoc" 0

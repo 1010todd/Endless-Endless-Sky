@@ -295,7 +295,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
             cooling_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Cooling"\n')
             cooling_output.write('\n')
 
-            outfitter_output.write(f'\t"{cooling_name_final}"' + '"\n')
+            outfitter_output.write(f'\t"{cooling_name_final}"' + '\n')
             outfit = class_Outfit(cooling_name_final,'Systems',cooling_cost,cooling_outfit,cooling_outfit,cooling_outfit)
             outfit.cooling_ener = cooling_ener
             outfit.active_cooling = cooling_active

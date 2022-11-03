@@ -52,12 +52,16 @@ hyperlane_min_distance - minimum distance between systems a hyperlane will gener
 hyperlane_max_distance - maximum distance between systems a hyperlane will generate
 110
 
-wormhole_chance - Chance of generating wormholes.
-0.0001
+wormhole_chance - Chance of generating wormholes. #default .001, range 0 to 1
+0.001
+
+infinite_asteroid_field - Generate infinite invincible asteroid fields, default true
+true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # SYSTEM LEVELS # # #
 #everything related to system levels, lots of customization here
+# Idk if any of these are used anymore.
 
 #random - assigns system levels randomly.
 #radial - assigns system levels based on proximity to generated points. 

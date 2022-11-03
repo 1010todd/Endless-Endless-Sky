@@ -1,0 +1,122 @@
+fleet "Ozujto Military"
+	government "Ozujto"
+	names "Ozujto Military names"
+	personality
+		heroic
+		opportunistic
+		disables
+		confusion 10
+	variant 13
+		"Uiukei" 3
+		"Ufaoko" 4
+		"Fpayoe" 4
+		"Iiu moz kuo" 2
+	variant 12
+		"Ufaoko" 4
+		"Holefe" 5
+		"Mac zeb wya" 4
+		"Fpayoe" 2
+	variant 6
+		"Mac zeb wya" 3
+		"Hwaeou" 5
+		"Fpayoe" 2
+		"Ijo ehkmel" 2
+	variant 12
+		"Ijo ehkmel" 5
+		"Mac zeb wya" 4
+		"Iiu moz kuo" 2
+		"Fpayoe" 4
+	variant 12
+		"Iiu moz kuo" 3
+		"Uiukei" 3
+		"Fpayoe" 5
+		"Ufaoko" 2
+	variant 5
+		"Fpayoe" 2
+		"Mac zeb wya" 4
+		"Ufaoko" 3
+		"Hwaeou" 2
+	variant 10
+		"Uiukei" 3
+		"Hwaeou" 4
+		"Iiu moz kuo" 5
+		"Fpayoe" 4
+	variant 5
+		"Ufaoko" 3
+		"Iiu moz kuo" 4
+		"Ijo ehkmel" 2
+		"Mac zeb wya" 2
+	variant 11
+		"Fpayoe" 2
+		"Holefe" 2
+		"Ufaoko" 4
+		"Ijo ehkmel" 3
+	variant 9
+		"Uiukei" 2
+		"Fpayoe" 5
+		"Ijo ehkmel" 4
+		"Hwaeou" 2
+	variant 16
+		"Hwaeou" 2
+		"Fpayoe" 4
+		"Ijo ehkmel" 3
+		"Mac zeb wya" 4
+fleet "Ozujto Privateer"
+	government "Ozujto"
+	names "Ozujto names"
+	personality
+		timid
+		disables
+		confusion 21
+	variant 0
+		"Mac zeb wya" 1
+		"Mac zeb wya" 1
+		"Ufaoko" 1
+	variant 18
+		"Ufaoko" 2
+		"Mac zeb wya" 1
+		"Fpayoe" 1
+	variant 14
+		"Iiu moz kuo" 1
+		"Iiu moz kuo" 1
+		"Holefe" 2
+	variant 21
+		"Mac zeb wya" 3
+		"Hwaeou" 4
+		"Iiu moz kuo" 2
+	variant 16
+		"Iiu moz kuo" 4
+		"Hwaeou" 1
+		"Holefe" 4
+	variant 70
+		"Ijo ehkmel" 2
+		"Iiu moz kuo" 2
+		"Ufaoko" 1
+	variant 90
+		"Hwaeou" 4
+		"Ufaoko" 1
+		"Fpayoe" 1
+	variant 63
+		"Uiukei" 4
+		"Uiukei" 1
+		"Iiu moz kuo" 2
+fleet "Ozujto Miner"
+	government "Ozujto"
+	names "Ozujto names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 15
+		"Fpayoe" 3
+		"Hwaeou" 4
+	variant 6
+		"Holefe" 4
+		"Fpayoe" 3
+	variant 15
+		"Holefe" 4
+		"Mac zeb wya" 2
+	variant 17
+		"Hwaeou" 3
+		"Mac zeb wya" 3

@@ -18,7 +18,8 @@ def avg_deviation(numlist):
         x += (num-avg)**2
     return avg, math.sqrt(x/totalnum)
 
-#TODO: Train AI for generating parts to be assembled.
+#TODO: Train AI for generating parts to be assembled. (Or maybe not, each checkpoint is massive)
+#TODO: Use PIL.Image.alpha_composite or something to overlay sprites with color patterns and make each faction more unique
 def get_sprites(setselect="human"):
     #print(os.listdir(f"imgparts/{setselect}"))
     file_list = [f for f in os.listdir(f"imgparts/{setselect}") if f.endswith(".png") or f.endswith(".PNG")]

@@ -1,0 +1,116 @@
+fleet "Ivupvrbeeb Guard"
+	government "Ivupvrbeeb"
+	names "Ivupvrbeeb Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 10
+	variant 7
+		"Uvgutsruaiviaij" 2
+		"Sibue tjuoi" 0
+		"Etqzeaisaz xeeup" 2
+		"Kusepzjaiu aisoo" 5
+	variant 9
+		"Seauugiacf" 2
+		"Sibue tjuoi" 0
+		"Etqzeaisaz xeeup" 2
+		"Uvgutsruaiviaij" 4
+	variant 3
+		"Uvgutsruaiviaij" 2
+		"Sibue tjuoi" 0
+		"Seauugiacf" 3
+		"Kusepzjaiu aisoo" 2
+	variant 8
+		"Sibue tjuoi" 0
+		"Xabovxihximogte" 4
+		"Uvgutsruaiviaij" 2
+		"Seauugiacf" 5
+	variant 2
+		"Etqzeaisaz xeeup" 4
+		"Sibue tjuoi" 0
+		"Uogsi jaive" 5
+		"Uvgutsruaiviaij" 4
+	variant 5
+		"Uogsi jaive" 2
+		"Sibue tjuoi" 0
+		"Etqzeaisaz xeeup" 4
+		"Seauugiacf" 2
+	variant 11
+		"Uvgutsruaiviaij" 4
+		"Sibue tjuoi" 12
+		"Etqzeaisaz xeeup" 5
+		"Xabovxihximogte" 3
+	variant 15
+		"Etqzeaisaz xeeup" 5
+		"Sibue tjuoi" 12
+		"Seauugiacf" 2
+		"Xabovxihximogte" 3
+	variant 11
+		"Etqzeaisaz xeeup" 2
+		"Sibue tjuoi" 0
+		"Xabovxihximogte" 2
+		"Uvgutsruaiviaij" 2
+	variant 19
+		"Kusepzjaiu aisoo" 5
+		"Sibue tjuoi" 0
+		"Etqzeaisaz xeeup" 3
+		"Uvgutsruaiviaij" 4
+	variant 6
+		"Sibue tjuoi" 0
+		"Uvgutsruaiviaij" 4
+		"Kusepzjaiu aisoo" 2
+		"Etqzeaisaz xeeup" 4
+fleet "Ivupvrbeeb Privateer"
+	government "Ivupvrbeeb"
+	names "Ivupvrbeeb names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Sibue tjuoi" 2
+		"Uvgutsruaiviaij" 2
+		"Seauugiacf" 2
+	variant 13
+		"Xabovxihximogte" 1
+		"Svuajouaba" 2
+		"Kusepzjaiu aisoo" 3
+	variant 38
+		"Svuajouaba" 3
+		"Xabovxihximogte" 1
+		"Fujti axurjnkiau" 4
+	variant 48
+		"Svuajouaba" 3
+		"Xabovxihximogte" 4
+		"Uogsi jaive" 3
+	variant 8
+		"Xabovxihximogte" 1
+		"Uvgutsruaiviaij" 3
+		"Xabovxihximogte" 2
+	variant 65
+		"Seauugiacf" 4
+		"Seauugiacf" 1
+		"Uogsi jaive" 4
+	variant 30
+		"Xabovxihximogte" 4
+		"Uogsi jaive" 1
+		"Svuajouaba" 3
+fleet "Ivupvrbeeb Miner"
+	government "Ivupvrbeeb"
+	names "Ivupvrbeeb names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 12
+		"Etqzeaisaz xeeup" 2
+		"Sibue tjuoi" 0
+	variant 19
+		"Etqzeaisaz xeeup" 2
+		"Sibue tjuoi" 0
+	variant 19
+		"Etqzeaisaz xeeup" 4
+		"Sibue tjuoi" 0
+	variant 7
+		"Etqzeaisaz xeeup" 4
+		"Sibue tjuoi" 0

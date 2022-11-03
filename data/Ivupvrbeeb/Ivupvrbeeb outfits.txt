@@ -1,0 +1,257 @@
+outfit "Ajepj Battery Pack"
+	category "Power"
+	cost 838000
+	thumbnail "outfit/tiny battery hai"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 8370
+	description "Ivupvrbeeb T5.5 Battery"
+
+outfit "Ajepj Battery Pack"
+	category "Power"
+	cost 1508400
+	thumbnail "outfit/small battery hai"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 50220
+	description "Ivupvrbeeb T5.5 Battery"
+
+outfit "Ajepj Battery Pack"
+	category "Power"
+	cost 2715200
+	thumbnail "outfit/medium battery hai"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 301320
+	description "Ivupvrbeeb T5.5 Battery"
+
+outfit "Ajepj Battery Pack"
+	category "Power"
+	cost 4887400
+	thumbnail "outfit/large battery hai"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 1807920
+	description "Ivupvrbeeb T5.5 Battery"
+
+
+outfit "Sazafheyez Cell"
+	category "Power"
+	cost 298800
+	thumbnail "outfit/hai pebble core"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 6.8
+	"heat generation" 10.3
+	description "Ivupvrbeeb T5.5 Power generator"
+
+outfit "Uenenexzag Cell"
+	category "Power"
+	cost 508000
+	thumbnail "outfit/hai geode"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 40.8
+	"heat generation" 22.7
+	description "Ivupvrbeeb T5.5 Power generator"
+
+outfit "Zsuji rogoo Cell"
+	category "Power"
+	cost 863600
+	thumbnail "outfit/hai boulder"
+	"mass" 76
+	"outfit space" -76
+	"energy generation" 244.8
+	"heat generation" 49.9
+	description "Ivupvrbeeb T5.5 Power generator"
+
+
+outfit "Bpaiugneuy Thruster"
+	category "Engines"
+	cost 2985200
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"thrust" 6.8
+	"thrusting energy" 0.2
+	"thrusting heat" 0.3
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.4698853366203002
+	"flare sound" "ka'het small"
+	description "Ivupvrbeeb T5.5 Thruster"
+
+outfit "Bpaiugneuy Steering"
+	category "Engines"
+	cost 2036173
+	thumbnail "outfit/small ka'het steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 181
+	"turning energy" 0.1
+	"turning heat" 0.2
+	description "Ivupvrbeeb T5.5 steering"
+
+outfit "Mgoot xuatc Thruster"
+	category "Engines"
+	cost 5074900
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 17.7
+	"thrusting energy" 0.4
+	"thrusting heat" 0.7
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Ivupvrbeeb T5.5 Thruster"
+
+outfit "Mgoot xuatc Steering"
+	category "Engines"
+	cost 8627400
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 470.6
+	"turning energy" 0.2
+	"turning heat" 0.4
+	description "Ivupvrbeeb T5.5 steering"
+
+outfit "Pasoa Thruster"
+	category "Engines"
+	cost 8627400
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"thrust" 46.0
+	"thrusting energy" 0.9
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Ivupvrbeeb T5.5 Thruster"
+
+outfit "Pasoa Steering"
+	category "Engines"
+	cost 14666600
+	thumbnail "outfit/large ka'het steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 1223.6
+	"turning energy" 0.4
+	"turning heat" 0.9
+	description "Ivupvrbeeb T5.5 steering"
+
+
+outfit "Etiptsduui Shield Regenerator"
+	category "Systems"
+	cost 1415300
+	thumbnail "outfit/tiny shield"
+	"mass" 17
+	"outfit space" -17
+	"shield generation" 3.67
+	"shield energy" 4.39
+	"shield heat" 1
+	description "Ivupvrbeeb T5.5 shield gen"
+
+outfit "Hxaup Shield Regenerator"
+	category "Systems"
+	cost 2547600
+	thumbnail "outfit/small shield"
+	"mass" 26
+	"outfit space" -26
+	"shield generation" 7.3
+	"shield energy" 2.6
+	"shield heat" 1
+	description "Ivupvrbeeb T5.5 shield gen"
+
+outfit "Iopauavfab Shield Regenerator"
+	category "Systems"
+	cost 4585700
+	thumbnail "outfit/medium shield"
+	"mass" 39
+	"outfit space" -39
+	"shield generation" 14.6
+	"shield energy" 1.6
+	"shield heat" 1
+	description "Ivupvrbeeb T5.5 shield gen"
+
+
+
+outfit "Oadpu Heat Pump"
+	category "Systems"
+	cost 24600
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 16
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Eevex Temperature Control"
+	category "Systems"
+	cost 48200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 1
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Nusnu Heat Shunt"
+	category "Systems"
+	cost 16000
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 79
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Ovenz Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 3
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Utexa ibivs Heatsink"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 70
+	"active cooling" 61
+	"cooling energy" 28.807539341458785
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Nojie iriad Heat Pump"
+	category "Systems"
+	cost 20900
+	thumbnail "outfit/liquid helium"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 57
+	description "Ivupvrbeeb T5.5 Cooling"
+
+
+outfit "Adtxu Cooling"
+	category "Systems"
+	cost 19300
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"active cooling" 189
+	description "Ivupvrbeeb T5.5 Cooling"
+
+

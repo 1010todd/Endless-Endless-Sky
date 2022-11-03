@@ -1,0 +1,1191 @@
+outfit "Anjoi Battery"
+	category "Power"
+	cost 499300
+	thumbnail "outfit/tiny battery hai"
+	"mass" 7
+	"outfit space" -7
+	"energy capacity" 6960
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 898800
+	thumbnail "outfit/small battery hai"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 38980
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 1617900
+	thumbnail "outfit/medium battery hai"
+	"mass" 47
+	"outfit space" -47
+	"energy capacity" 218290
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 2912300
+	thumbnail "outfit/large battery hai"
+	"mass" 122
+	"outfit space" -122
+	"energy capacity" 1222430
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 5242200
+	thumbnail "outfit/huge battery hai"
+	"mass" 317
+	"outfit space" -317
+	"energy capacity" 6845610
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 9436000
+	thumbnail "outfit/huge battery hai"
+	"mass" 824
+	"outfit space" -824
+	"energy capacity" 38335420
+	description "Uaoup umkee T5.1 Battery"
+
+outfit "Anjoi Battery"
+	category "Power"
+	cost 16984800
+	thumbnail "outfit/huge battery hai"
+	"mass" 2142
+	"outfit space" -2142
+	"energy capacity" 214678360
+	description "Uaoup umkee T5.1 Battery"
+
+
+outfit "Daouwpukto Core"
+	category "Power"
+	cost 301800
+	thumbnail "outfit/red sun"
+	"mass" 13
+	"outfit space" -13
+	"energy generation" 5.9
+	"heat generation" 7.1
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Naiitiaquo Core"
+	category "Power"
+	cost 513100
+	thumbnail "outfit/yellow sun"
+	"mass" 23
+	"outfit space" -23
+	"energy generation" 33.0
+	"heat generation" 17.0
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Pjaaragucq Core"
+	category "Power"
+	cost 872300
+	thumbnail "outfit/white sun"
+	"mass" 41
+	"outfit space" -41
+	"energy generation" 184.8
+	"heat generation" 40.8
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Zxiof nmeki Core"
+	category "Power"
+	cost 1483000
+	thumbnail "outfit/blue sun"
+	"mass" 74
+	"outfit space" -74
+	"energy generation" 1034.9
+	"heat generation" 97.9
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Ihmuo Core"
+	category "Power"
+	cost 165200
+	thumbnail "outfit/millennium cell"
+	"mass" 17
+	"outfit space" -17
+	"energy generation" 5.2
+	"heat generation" 9.4
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Irkfaaeeot Core"
+	category "Power"
+	cost 280900
+	thumbnail "outfit/epoch cell"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 29.1
+	"heat generation" 18.8
+	description "Uaoup umkee T5.1 Power generator"
+
+
+outfit "Ensuq Thruster"
+	category "Engines"
+	cost 3115100
+	thumbnail "outfit/small atomic thruster"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 6.3
+	"thrusting energy" 0.2
+	"thrusting heat" 0.4
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.3658061487387612
+	"flare sound" "atomic small"
+	description "Uaoup umkee T5.1 Thruster"
+
+outfit "Ensuq Steering"
+	category "Engines"
+	cost 2170938
+	thumbnail "outfit/small atomic steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 159
+	"turning energy" 0.1
+	"turning heat" 0.3
+	description "Uaoup umkee T5.1 steering"
+
+outfit "Saofbcqiei Thruster"
+	category "Engines"
+	cost 5295700
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"thrust" 16.4
+	"thrusting energy" 0.4
+	"thrusting heat" 0.9
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "atomic medium"
+	description "Uaoup umkee T5.1 Thruster"
+
+outfit "Saofbcqiei Steering"
+	category "Engines"
+	cost 9002700
+	thumbnail "outfit/medium atomic steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 413.4
+	"turning energy" 0.2
+	"turning heat" 0.7
+	description "Uaoup umkee T5.1 steering"
+
+
+outfit "Koimx iuima Shield Core"
+	category "Systems"
+	cost 1390600
+	thumbnail "outfit/tiny shield"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 3.36
+	"shield energy" 4.4
+	"shield heat" 1
+	description "Uaoup umkee T5.1 shield gen"
+
+outfit "Xnoehpuufn Shield Core"
+	category "Systems"
+	cost 2503100
+	thumbnail "outfit/small shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 6.7
+	"shield energy" 3.5
+	"shield heat" 1
+	description "Uaoup umkee T5.1 shield gen"
+
+
+outfit "Biwer Nanite Repair"
+	category "Systems"
+	cost 2797800
+	thumbnail "outfit/tiny shield"
+	"mass" 9
+	"outfit space" -9
+	"hull repair rate" 4.26
+	"hull energy" 4.27
+	"hull heat" 1
+	description "Uaoup umkee T5.1 Hull Repair"
+
+outfit "Kkiuu ruils Nanite Repair"
+	category "Systems"
+	cost 5036100
+	thumbnail "outfit/small shield"
+	"mass" 14
+	"outfit space" -14
+	"hull repair rate" 8.5
+	"hull energy" 3.4
+	"hull heat" 1
+	description "Uaoup umkee T5.1 Hull Repair"
+
+outfit "Ojiiepuunu Nanite Repair"
+	category "Systems"
+	cost 9065000
+	thumbnail "outfit/medium shield"
+	"mass" 21
+	"outfit space" -21
+	"hull repair rate" 17.0
+	"hull energy" 2.7
+	"hull heat" 1
+	description "Uaoup umkee T5.1 Hull Repair"
+
+outfit "Oyaap zaoth Nanite Repair"
+	category "Systems"
+	cost 16317000
+	thumbnail "outfit/large shield"
+	"mass" 32
+	"outfit space" -32
+	"hull repair rate" 34.0
+	"hull energy" 2.2
+	"hull heat" 1
+	description "Uaoup umkee T5.1 Hull Repair"
+
+
+outfit "Ceqaxlrego Generator"
+	category "Power"
+	cost 883600
+	thumbnail "outfit/plasma core"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 5.2
+	"heat generation" 11.5
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Iitai urbgi Generator"
+	category "Power"
+	cost 1502200
+	thumbnail "outfit/double plasma core"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 29.1
+	"heat generation" 27.6
+	description "Uaoup umkee T5.1 Power generator"
+
+outfit "Majoopifei Generator"
+	category "Power"
+	cost 2553800
+	thumbnail "outfit/triple plasma core"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 163.0
+	"heat generation" 66.2
+	description "Uaoup umkee T5.1 Power generator"
+
+
+outfit "Pjuua Heat Pump"
+	category "Systems"
+	cost 21900
+	thumbnail "outfit/liquid helium"
+	"mass" 278
+	"outfit space" -278
+	"active cooling" 2592
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Evhei Heatsink"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/large heat shunt"
+	"mass" 113
+	"outfit space" -113
+	"active cooling" 674
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Obcoe umeoo Heatsink"
+	category "Systems"
+	cost 21600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 241
+	"outfit space" -241
+	"cooling" 498
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Bxuiz hnoim Temperature Control"
+	category "Systems"
+	cost 25000
+	thumbnail "outfit/hai williwaw"
+	"mass" 178
+	"outfit space" -178
+	"active cooling" 2518
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Eiteu hujgo Cooler"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/hai williwaw"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 525
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uptiu jipej Heat Pump"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 82
+	"outfit space" -82
+	"cooling" 298
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dipfabueoc Heatsink"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/hai williwaw"
+	"mass" 78
+	"outfit space" -78
+	"cooling" 460
+	"active cooling" 861
+	"cooling energy" 200.88712437600282
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Gemoo Temperature Control"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 46
+	"outfit space" -46
+	"cooling" 298
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Efoqa iuexu Heat Pump"
+	category "Systems"
+	cost 14100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 169
+	"outfit space" -169
+	"cooling" 581
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Qbuoe kuaxk Heatsink"
+	category "Systems"
+	cost 17000
+	thumbnail "outfit/large heat shunt"
+	"mass" 126
+	"outfit space" -126
+	"cooling" 374
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Buapa Heatsink"
+	category "Systems"
+	cost 17100
+	thumbnail "outfit/large heat shunt"
+	"mass" 172
+	"outfit space" -172
+	"cooling" 483
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ikgei Heatsink"
+	category "Systems"
+	cost 20200
+	thumbnail "outfit/large heat shunt"
+	"mass" 151
+	"outfit space" -151
+	"active cooling" 1048
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Diaap aqeia Heat Shunt"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 305
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Euidsudcea Heatsink"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 47
+	"outfit space" -47
+	"active cooling" 471
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Toeeeepauk Cooler"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 56
+	"outfit space" -56
+	"cooling" 346
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Etauk Heatsink"
+	category "Systems"
+	cost 24700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 232
+	"outfit space" -232
+	"cooling" 478
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dibaa Temperature Control"
+	category "Systems"
+	cost 13600
+	thumbnail "outfit/large heat shunt"
+	"mass" 157
+	"outfit space" -157
+	"active cooling" 345
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ujrii hkuue Heat Shunt"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/liquid helium"
+	"mass" 196
+	"outfit space" -196
+	"cooling" 422
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Okmmo ateqp Cooling"
+	category "Systems"
+	cost 23400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 210
+	"outfit space" -210
+	"cooling" 417
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oanbo iifko Cooling"
+	category "Systems"
+	cost 12600
+	thumbnail "outfit/liquid helium"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 326
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uaadtojucu Temperature Control"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/large heat shunt"
+	"mass" 89
+	"outfit space" -89
+	"cooling" 429
+	"active cooling" 743
+	"cooling energy" 137.2847381217233
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Veayi Temperature Control"
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/hai williwaw"
+	"mass" 134
+	"outfit space" -134
+	"active cooling" 1094
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oytat daaao Heat Shunt"
+	category "Systems"
+	cost 22600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 256
+	"outfit space" -256
+	"cooling" 527
+	"active cooling" 383
+	"cooling energy" 295.06282933781665
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Anhiu Heat Pump"
+	category "Systems"
+	cost 16400
+	thumbnail "outfit/hai williwaw"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 301
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Goaumyaaqo Cooling"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/large heat shunt"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 555
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Guucqrtaai Heat Shunt"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/large heat shunt"
+	"mass" 115
+	"outfit space" -115
+	"cooling" 478
+	"active cooling" 391
+	"cooling energy" 252.89870653604027
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Voateejuuk Cooler"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 158
+	"outfit space" -158
+	"cooling" 435
+	"active cooling" 1054
+	"cooling energy" 156.1405264385242
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Winuo ieeeh Temperature Control"
+	category "Systems"
+	cost 12200
+	thumbnail "outfit/large heat shunt"
+	"mass" 139
+	"outfit space" -139
+	"cooling" 559
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Moeae Temperature Control"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 134
+	"outfit space" -134
+	"active cooling" 1698
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oiakq Heatsink"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/large heat shunt"
+	"mass" 99
+	"outfit space" -99
+	"cooling" 488
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Idekj Temperature Control"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid helium"
+	"mass" 71
+	"outfit space" -71
+	"active cooling" 1017
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dohif Temperature Control"
+	category "Systems"
+	cost 19900
+	thumbnail "outfit/large heat shunt"
+	"mass" 144
+	"outfit space" -144
+	"cooling" 324
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Gegom Cooling"
+	category "Systems"
+	cost 15100
+	thumbnail "outfit/hai williwaw"
+	"mass" 133
+	"outfit space" -133
+	"cooling" 444
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Otjie ozouu Cooler"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/liquid helium"
+	"mass" 105
+	"outfit space" -105
+	"cooling" 308
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Eeixb Heatsink"
+	category "Systems"
+	cost 15200
+	thumbnail "outfit/large heat shunt"
+	"mass" 175
+	"outfit space" -175
+	"cooling" 503
+	"active cooling" 321
+	"cooling energy" 253.25889268807654
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Orioa Temperature Control"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/liquid helium"
+	"mass" 70
+	"outfit space" -70
+	"cooling" 346
+	"active cooling" 311
+	"cooling energy" 124.22858898728275
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ikqeu Temperature Control"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/large heat shunt"
+	"mass" 100
+	"outfit space" -100
+	"active cooling" 1114
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oqoer Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/hai williwaw"
+	"mass" 65
+	"outfit space" -65
+	"cooling" 423
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Potuarieoj Temperature Control"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 64
+	"outfit space" -64
+	"active cooling" 416
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Koxaxnienq Heatsink"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/liquid helium"
+	"mass" 129
+	"outfit space" -129
+	"cooling" 353
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Mxiin Heat Pump"
+	category "Systems"
+	cost 19600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 181
+	"outfit space" -181
+	"cooling" 423
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Nizer tiiae Heat Pump"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/large heat shunt"
+	"mass" 174
+	"outfit space" -174
+	"active cooling" 127
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ufgoq Heatsink"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/hai williwaw"
+	"mass" 103
+	"outfit space" -103
+	"cooling" 501
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Daakr Cooler"
+	category "Systems"
+	cost 14000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 131
+	"outfit space" -131
+	"cooling" 462
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uituf omtik Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 364
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Xoexq ptiar Temperature Control"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/hai williwaw"
+	"mass" 142
+	"outfit space" -142
+	"cooling" 488
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Eyueg Temperature Control"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/liquid helium"
+	"mass" 130
+	"outfit space" -130
+	"cooling" 440
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Aiajy juupw Heat Pump"
+	category "Systems"
+	cost 21500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 192
+	"outfit space" -192
+	"cooling" 450
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Jiibngajef Cooling"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 85
+	"outfit space" -85
+	"cooling" 375
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Zeugi eezux Heat Shunt"
+	category "Systems"
+	cost 20900
+	thumbnail "outfit/large heat shunt"
+	"mass" 219
+	"outfit space" -219
+	"cooling" 535
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Qigii ehion Cooler"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 225
+	"outfit space" -225
+	"cooling" 566
+	"active cooling" 1565
+	"cooling energy" 189.262148285337
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ijude Heat Shunt"
+	category "Systems"
+	cost 16100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 185
+	"outfit space" -185
+	"cooling" 507
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Epahi Cooling"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 164
+	"outfit space" -164
+	"cooling" 555
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dheef fkuta Heatsink"
+	category "Systems"
+	cost 13600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 153
+	"outfit space" -153
+	"cooling" 514
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ambme iuuhu Temperature Control"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 364
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Exlji Heat Pump"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/hai williwaw"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 333
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Qilao eaanu Cooler"
+	category "Systems"
+	cost 19200
+	thumbnail "outfit/hai williwaw"
+	"mass" 209
+	"outfit space" -209
+	"active cooling" 852
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Imouq Heat Pump"
+	category "Systems"
+	cost 16300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 164
+	"outfit space" -164
+	"cooling" 476
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Eafuq otnij Cooler"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 68
+	"outfit space" -68
+	"cooling" 374
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Kegoujakaa Temperature Control"
+	category "Systems"
+	cost 20700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 191
+	"outfit space" -191
+	"cooling" 403
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uerig Cooling"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/large heat shunt"
+	"mass" 113
+	"outfit space" -113
+	"cooling" 448
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ueixb feuxf Heat Shunt"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/liquid helium"
+	"mass" 153
+	"outfit space" -153
+	"cooling" 537
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Joeay Heatsink"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/large heat shunt"
+	"mass" 72
+	"outfit space" -72
+	"cooling" 314
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Iyueu Heatsink"
+	category "Systems"
+	cost 14100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 170
+	"outfit space" -170
+	"cooling" 540
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Iupci dejii Heat Pump"
+	category "Systems"
+	cost 16500
+	thumbnail "outfit/large heat shunt"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 333
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Yaooi Heat Pump"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/liquid helium"
+	"mass" 59
+	"outfit space" -59
+	"cooling" 419
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uubokgoene Heat Shunt"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/large heat shunt"
+	"mass" 102
+	"outfit space" -102
+	"cooling" 302
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dofie Heatsink"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/hai williwaw"
+	"mass" 56
+	"outfit space" -56
+	"active cooling" 839
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Reukiitxru Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/hai williwaw"
+	"mass" 57
+	"outfit space" -57
+	"cooling" 292
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Fvoyu iaeui Heat Pump"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 180
+	"outfit space" -180
+	"cooling" 449
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Naatiexnap Heatsink"
+	category "Systems"
+	cost 14900
+	thumbnail "outfit/large heat shunt"
+	"mass" 127
+	"outfit space" -127
+	"cooling" 374
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Agoey Heatsink"
+	category "Systems"
+	cost 18300
+	thumbnail "outfit/large heat shunt"
+	"mass" 163
+	"outfit space" -163
+	"cooling" 389
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Aurda eiohy Heatsink"
+	category "Systems"
+	cost 17400
+	thumbnail "outfit/large heat shunt"
+	"mass" 168
+	"outfit space" -168
+	"cooling" 437
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Jabpi fofey Cooler"
+	category "Systems"
+	cost 17800
+	thumbnail "outfit/hai williwaw"
+	"mass" 205
+	"outfit space" -205
+	"cooling" 555
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Iuerj Heat Shunt"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/hai williwaw"
+	"mass" 128
+	"outfit space" -128
+	"cooling" 559
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Nooemeeeio Temperature Control"
+	category "Systems"
+	cost 19000
+	thumbnail "outfit/large heat shunt"
+	"mass" 158
+	"outfit space" -158
+	"cooling" 398
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Kgeto Heat Pump"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 254
+	"outfit space" -254
+	"cooling" 522
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oxzofisior Cooling"
+	category "Systems"
+	cost 23000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 203
+	"outfit space" -203
+	"cooling" 407
+	"active cooling" 2453
+	"cooling energy" 186.9173348992928
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ngeoecuofr Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 382
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Wdauo Temperature Control"
+	category "Systems"
+	cost 20500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 191
+	"outfit space" -191
+	"active cooling" 2501
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Uaxea Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/hai williwaw"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 486
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Oxnes Heat Pump"
+	category "Systems"
+	cost 22500
+	thumbnail "outfit/liquid helium"
+	"mass" 232
+	"outfit space" -232
+	"cooling" 522
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Eicho Heat Shunt"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 110
+	"outfit space" -110
+	"cooling" 497
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Rfuue boiaa Cooling"
+	category "Systems"
+	cost 16600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 152
+	"outfit space" -152
+	"cooling" 426
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Tootexofie Heatsink"
+	category "Systems"
+	cost 18600
+	thumbnail "outfit/large heat shunt"
+	"mass" 217
+	"outfit space" -217
+	"cooling" 547
+	"active cooling" 630
+	"cooling energy" 260.1591944758055
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Dyeeu fopia Heat Pump"
+	category "Systems"
+	cost 19600
+	thumbnail "outfit/large heat shunt"
+	"mass" 218
+	"outfit space" -218
+	"active cooling" 1867
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Jumie Heat Shunt"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 92
+	"outfit space" -92
+	"cooling" 333
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Ecuuoubfue Heat Pump"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 350
+	description "Uaoup umkee T5.1 Cooling"
+
+
+outfit "Aegea Heat Pump"
+	category "Systems"
+	cost 22200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 206
+	"outfit space" -206
+	"cooling" 447
+	"active cooling" 2890
+	"cooling energy" 160.77896620227318
+	description "Uaoup umkee T5.1 Cooling"
+
+

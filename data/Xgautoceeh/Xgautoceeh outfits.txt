@@ -1,0 +1,1242 @@
+outfit "Axloi jkeoe Battery Pack"
+	category "Power"
+	cost 955200
+	thumbnail "outfit/tiny battery hai"
+	"mass" 5
+	"outfit space" -5
+	"energy capacity" 7980
+	description "Xgautoceeh T5.0 Battery"
+
+outfit "Axloi jkeoe Battery Pack"
+	category "Power"
+	cost 1719400
+	thumbnail "outfit/small battery hai"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 43100
+	description "Xgautoceeh T5.0 Battery"
+
+outfit "Axloi jkeoe Battery Pack"
+	category "Power"
+	cost 3095000
+	thumbnail "outfit/medium battery hai"
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 232750
+	description "Xgautoceeh T5.0 Battery"
+
+outfit "Axloi jkeoe Battery Pack"
+	category "Power"
+	cost 5571000
+	thumbnail "outfit/large battery hai"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 1256850
+	description "Xgautoceeh T5.0 Battery"
+
+outfit "Axloi jkeoe Battery Pack"
+	category "Power"
+	cost 10027800
+	thumbnail "outfit/huge battery hai"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 6786990
+	description "Xgautoceeh T5.0 Battery"
+
+
+outfit "Aotii Reactor"
+	category "Power"
+	cost 332800
+	thumbnail "outfit/red sun"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 6.1
+	"heat generation" 15.2
+	description "Xgautoceeh T5.0 Power generator"
+
+outfit "Awbuj Reactor"
+	category "Power"
+	cost 565800
+	thumbnail "outfit/yellow sun"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 32.9
+	"heat generation" 36.5
+	description "Xgautoceeh T5.0 Power generator"
+
+outfit "Gboeu Reactor"
+	category "Power"
+	cost 961900
+	thumbnail "outfit/white sun"
+	"mass" 48
+	"outfit space" -48
+	"energy generation" 177.7
+	"heat generation" 87.6
+	description "Xgautoceeh T5.0 Power generator"
+
+outfit "Jimelfubub Reactor"
+	category "Power"
+	cost 1635300
+	thumbnail "outfit/blue sun"
+	"mass" 77
+	"outfit space" -77
+	"energy generation" 959.6
+	"heat generation" 210.2
+	description "Xgautoceeh T5.0 Power generator"
+
+outfit "Goaeuooowe Core"
+	category "Power"
+	cost 222100
+	thumbnail "outfit/millennium cell"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 5.6
+	"energy capacity" 18838
+	"heat generation" 12.5
+	description "Xgautoceeh T5.0 Power generator"
+
+outfit "Uluee Core"
+	category "Power"
+	cost 377600
+	thumbnail "outfit/epoch cell"
+	"mass" 42
+	"outfit space" -42
+	"energy generation" 30.2
+	"energy capacity" 79119.6
+	"heat generation" 25.0
+	description "Xgautoceeh T5.0 Power generator"
+
+
+outfit "Fceao ohlut Thruster"
+	category "Engines"
+	cost 1609700
+	thumbnail "outfit/small atomic thruster"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"thrust" 6.8
+	"thrusting energy" 0.3
+	"thrusting heat" 0.5
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 1.2955101830234805
+	"flare sound" "atomic small"
+	description "Xgautoceeh T5.0 Thruster"
+
+outfit "Fceao ohlut Steering"
+	category "Engines"
+	cost 1123754
+	thumbnail "outfit/small atomic steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 174
+	"turning energy" 0.2
+	"turning heat" 0.3
+	description "Xgautoceeh T5.0 steering"
+
+outfit "Feura khueo Thruster"
+	category "Engines"
+	cost 2736500
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"thrust" 17.7
+	"thrusting energy" 0.7
+	"thrusting heat" 1.1
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 1
+	"flare sound" "atomic medium"
+	description "Xgautoceeh T5.0 Thruster"
+
+outfit "Feura khueo Steering"
+	category "Engines"
+	cost 4652100
+	thumbnail "outfit/medium atomic steering"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 452.4
+	"turning energy" 0.4
+	"turning heat" 0.7
+	description "Xgautoceeh T5.0 steering"
+
+outfit "Imjae Thruster"
+	category "Engines"
+	cost 4652100
+	thumbnail "outfit/large atomic thruster"
+	"mass" 68
+	"outfit space" -68
+	"engine capacity" -68
+	"thrust" 46.0
+	"thrusting energy" 1.5
+	"thrusting heat" 2.4
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Xgautoceeh T5.0 Thruster"
+
+outfit "Imjae Steering"
+	category "Engines"
+	cost 7908600
+	thumbnail "outfit/large atomic steering"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"turn" 1176.2
+	"turning energy" 0.9
+	"turning heat" 1.5
+	description "Xgautoceeh T5.0 steering"
+
+outfit "Uheeo wiogl Thruster"
+	category "Engines"
+	cost 7908600
+	thumbnail "outfit/large atomic thruster"
+	"mass" 136
+	"outfit space" -136
+	"engine capacity" -136
+	"thrust" 119.6
+	"thrusting energy" 3.3
+	"thrusting heat" 5.3
+	"flare sprite" "effect/atomic flare/large"
+		"frame rate" 1
+	"flare sound" "atomic large"
+	description "Xgautoceeh T5.0 Thruster"
+
+outfit "Uheeo wiogl Steering"
+	category "Engines"
+	cost 13444700
+	thumbnail "outfit/large atomic steering"
+	"mass" 88
+	"outfit space" -88
+	"engine capacity" -88
+	"turn" 3058.1
+	"turning energy" 2.0
+	"turning heat" 3.3
+	description "Xgautoceeh T5.0 steering"
+
+
+outfit "Ifoul Shield Core"
+	category "Systems"
+	cost 1659500
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 97.944
+	"shield delay" 22
+	"shield energy" 5.56
+	"shield heat" 11
+	description "Xgautoceeh T5.0 shield gen"
+
+outfit "Juolo ooufa Shield Core"
+	category "Systems"
+	cost 2987100
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 195.9
+	"shield delay" 21.799408752848116
+	"shield energy" 4.4
+	"shield heat" 11
+	description "Xgautoceeh T5.0 shield gen"
+
+outfit "Roafboufao Shield Core"
+	category "Systems"
+	cost 5376800
+	thumbnail "outfit/medium shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 391.8
+	"shield delay" 21.600646453352322
+	"shield energy" 3.5
+	"shield heat" 11
+	description "Xgautoceeh T5.0 shield gen"
+
+
+
+outfit "Weosgamuwi Cooler"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 76
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Auhuw uburm Cooling"
+	category "Systems"
+	cost 11700
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 59
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Obehj Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 52
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Gxail uoefi Cooler"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 49
+	"active cooling" 37
+	"cooling energy" 27.3929869768409
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uemau jjuba Heat Shunt"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 76
+	"active cooling" 105
+	"cooling energy" 26.077501693482784
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uowegcaibc Heatsink"
+	category "Systems"
+	cost 22900
+	thumbnail "outfit/hai williwaw"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 58
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Asukgwehah Heat Shunt"
+	category "Systems"
+	cost 15100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 55
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Golaa eiohi Temperature Control"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 48
+	"active cooling" 202
+	"cooling energy" 17.433712105504814
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Iufituxsiu Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/cooling module"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 49
+	"active cooling" 90
+	"cooling energy" 15.370008862463711
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Fokaa Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 48
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Lowot luuit Cooling"
+	category "Systems"
+	cost 17500
+	thumbnail "outfit/large heat shunt"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 59
+	"active cooling" 40
+	"cooling energy" 23.498042259086745
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Obeya fxeoo Cooler"
+	category "Systems"
+	cost 21500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 46
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Tibae outfu Heat Pump"
+	category "Systems"
+	cost 16200
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 56
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Fogowwegud Heat Shunt"
+	category "Systems"
+	cost 21400
+	thumbnail "outfit/hai williwaw"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 77
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Vjieb paghi Heatsink"
+	category "Systems"
+	cost 14800
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 54
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Guowalucue Cooler"
+	category "Systems"
+	cost 12600
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 46
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uihku Cooler"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 56
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ezure lefla Cooler"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 68
+	"active cooling" 89
+	"cooling energy" 27.772803518065704
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Eblaefjjei Heat Shunt"
+	category "Systems"
+	cost 24200
+	thumbnail "outfit/liquid helium"
+	"mass" 36
+	"outfit space" -36
+	"cooling" 73
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Hiesacsaix Cooler"
+	category "Systems"
+	cost 25200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 49
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Oleat Heat Pump"
+	category "Systems"
+	cost 17200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 51
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Kemok Cooling"
+	category "Systems"
+	cost 24700
+	thumbnail "outfit/liquid helium"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 55
+	"active cooling" 376
+	"cooling energy" 25.77851163773229
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Itsij ijheo Heatsink"
+	category "Systems"
+	cost 20600
+	thumbnail "outfit/hai williwaw"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 63
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Cekju Cooler"
+	category "Systems"
+	cost 19800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 52
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uooof Heat Shunt"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 60
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Buuli Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 163
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ugowo Heat Pump"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 76
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Buousbuabj Heat Pump"
+	category "Systems"
+	cost 19700
+	thumbnail "outfit/hai williwaw"
+	"mass" 24
+	"outfit space" -24
+	"active cooling" 300
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Guaeeubafo Heatsink"
+	category "Systems"
+	cost 17600
+	thumbnail "outfit/cooling module"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 48
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uaepaguuff Cooling"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 30
+	"outfit space" -30
+	"cooling" 63
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Emwga Heat Shunt"
+	category "Systems"
+	cost 12800
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 67
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ansij wibau Heat Shunt"
+	category "Systems"
+	cost 18200
+	thumbnail "outfit/liquid helium"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 54
+	"active cooling" 28
+	"cooling energy" 21.009690341839455
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Aooub Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 186
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Beafe Temperature Control"
+	category "Systems"
+	cost 16100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 28
+	"outfit space" -28
+	"cooling" 77
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Fibqo jouul Heatsink"
+	category "Systems"
+	cost 17900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 71
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Axexi Cooler"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 77
+	"active cooling" 91
+	"cooling energy" 42.68170811366565
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Eskou caoxe Cooling"
+	category "Systems"
+	cost 17100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 48
+	"active cooling" 206
+	"cooling energy" 15.272590416003709
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Xeumbitaas Heat Pump"
+	category "Systems"
+	cost 18900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 44
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ijsec ohebg Heatsink"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/water cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 44
+	"active cooling" 78
+	"cooling energy" 23.949229845114637
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Meogaugfil Heatsink"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 60
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Fazgu liaks Heatsink"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/cooling ducts"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 55
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uoofp Cooling"
+	category "Systems"
+	cost 21000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 39
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uloau Temperature Control"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 67
+	"active cooling" 70
+	"cooling energy" 32.38487990216149
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Usebj Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 37
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Alowr fbaza Heat Shunt"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 65
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ooouuerupa Temperature Control"
+	category "Systems"
+	cost 15000
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 57
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Amunu Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 43
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Urolumtenu Heatsink"
+	category "Systems"
+	cost 11300
+	thumbnail "outfit/cooling module"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 76
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Umyao bulew Heat Pump"
+	category "Systems"
+	cost 13000
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 61
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ujiol Heat Shunt"
+	category "Systems"
+	cost 19700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 58
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Xjuiu Heat Pump"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 76
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Aoage Heatsink"
+	category "Systems"
+	cost 24200
+	thumbnail "outfit/liquid helium"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 43
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Aroie Cooling"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"active cooling" 72
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Wouwugaolo Heat Pump"
+	category "Systems"
+	cost 19400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 59
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Omaxe Heat Pump"
+	category "Systems"
+	cost 24500
+	thumbnail "outfit/hai williwaw"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 65
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Sunoi luaxb Temperature Control"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 41
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Walau guoyf Cooling"
+	category "Systems"
+	cost 11200
+	thumbnail "outfit/cooling ducts"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 106
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Bojel ehcoi Heatsink"
+	category "Systems"
+	cost 14700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 64
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Loapo jupme Heat Shunt"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 76
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ojgok Temperature Control"
+	category "Systems"
+	cost 24800
+	thumbnail "outfit/liquid helium"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 50
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Naooa Heatsink"
+	category "Systems"
+	cost 22900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 40
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Sijixkojum Heat Pump"
+	category "Systems"
+	cost 23800
+	thumbnail "outfit/large heat shunt"
+	"mass" 37
+	"outfit space" -37
+	"active cooling" 549
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Lfeof Cooling"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 73
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Figac Cooling"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 73
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ewugbeaafb Heat Pump"
+	category "Systems"
+	cost 18000
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 73
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Aiwzo vifba Cooling"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 54
+	"active cooling" 82
+	"cooling energy" 18.887136351748765
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uiocauoppu Temperature Control"
+	category "Systems"
+	cost 16500
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 39
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uiuul Heatsink"
+	category "Systems"
+	cost 23900
+	thumbnail "outfit/large heat shunt"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 50
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Auefuwuwal Cooler"
+	category "Systems"
+	cost 11100
+	thumbnail "outfit/cooling module"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 51
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Odlui Heatsink"
+	category "Systems"
+	cost 17600
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"active cooling" 165
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Xutos Heat Pump"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 58
+	"active cooling" 56
+	"cooling energy" 20.821918199336
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uogme Cooling"
+	category "Systems"
+	cost 23400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 59
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Agutu Heatsink"
+	category "Systems"
+	cost 24200
+	thumbnail "outfit/large heat shunt"
+	"mass" 29
+	"outfit space" -29
+	"cooling" 58
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ouaya sgegu Cooler"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/hai williwaw"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 77
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Coojo Heatsink"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 70
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ildke Cooling"
+	category "Systems"
+	cost 18400
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 61
+	"active cooling" 47
+	"cooling energy" 27.884353913848525
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Oyhkatohbu Heat Shunt"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 46
+	"active cooling" 23
+	"cooling energy" 23.808360965501173
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Amuua lanok Cooler"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 72
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Biwou Temperature Control"
+	category "Systems"
+	cost 22500
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 128
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ihouo Heat Pump"
+	category "Systems"
+	cost 14500
+	thumbnail "outfit/cooling module"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 52
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Juwio Temperature Control"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/cooling module"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 41
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Buoum robie Heatsink"
+	category "Systems"
+	cost 13200
+	thumbnail "outfit/hai williwaw"
+	"mass" 20
+	"outfit space" -20
+	"active cooling" 62
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Phaho Cooling"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 63
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Cegei wikue Cooling"
+	category "Systems"
+	cost 23100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 26
+	"outfit space" -26
+	"active cooling" 196
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Bxuig Cooling"
+	category "Systems"
+	cost 11800
+	thumbnail "outfit/cooling ducts"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 60
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Jejisibibw Heat Pump"
+	category "Systems"
+	cost 20900
+	thumbnail "outfit/liquid helium"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 69
+	"active cooling" 287
+	"cooling energy" 32.8336005722474
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ueeji Cooler"
+	category "Systems"
+	cost 22400
+	thumbnail "outfit/liquid helium"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 51
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uscia Cooler"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 56
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Ffiichawwu Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 68
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Uiego Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/small heat shunt"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 30
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Gaagy etase Heatsink"
+	category "Systems"
+	cost 25800
+	thumbnail "outfit/hai williwaw"
+	"mass" 32
+	"outfit space" -32
+	"cooling" 62
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Bxeap Cooling"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 64
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Iziuz ahaao Temperature Control"
+	category "Systems"
+	cost 20400
+	thumbnail "outfit/large heat shunt"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 44
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Wubyu Cooler"
+	category "Systems"
+	cost 18700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 61
+	"active cooling" 302
+	"cooling energy" 28.533773267845678
+	description "Xgautoceeh T5.0 Cooling"
+
+
+outfit "Pnawe Heatsink"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 15
+	description "Xgautoceeh T5.0 Cooling"
+
+

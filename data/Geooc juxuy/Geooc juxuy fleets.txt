@@ -1,0 +1,49 @@
+fleet "Geooc juxuy Defense"
+	government "Geooc juxuy"
+	names "Geooc juxuy Military names"
+	personality
+		heroic
+		confusion 12
+	variant 19
+	variant 16
+	variant 2
+	variant 12
+	variant 2
+	variant 18
+	variant 5
+fleet "Geooc juxuy Privateer"
+	government "Geooc juxuy"
+	names "Geooc juxuy names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Avlea yyooi ieuso" 2
+		"Duujerquaq" 3
+		"Qijoa bvuew xewoo" 4
+	variant 7
+		"Cujvu xiugk" 1
+		"Qijoa bvuew xewoo" 2
+		"Cujvu xiugk" 2
+	variant 18
+		"Wujzu neozu oouox" 2
+		"Qijoa bvuew xewoo" 4
+		"Cujvu xiugk" 4
+	variant 6
+		"Oqjisuabna" 4
+		"Uknen yaoya yquou" 2
+		"Cujvu xiugk" 4
+	variant 56
+		"Avlea yyooi ieuso" 4
+		"Uknen yaoya yquou" 2
+		"Duujerquaq" 3
+fleet "Geooc juxuy Miner"
+	government "Geooc juxuy"
+	names "Geooc juxuy names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 14
+	variant 16

@@ -1,0 +1,126 @@
+outfit "Eaza Rocket"
+	category "Ammunition"
+	cost 1089750
+	thumbnail "outfit/typhoon"
+	"mass" 0.09
+	"Eaza Rocket capacity" -1
+	description "Uvprluwq Missile"
+
+outfit "Eaza Rocket Storage
+	category "Ammunition"
+	cost 9369225
+	thumbnail "outfit/typhoon storage"
+	"mass" 0
+	"outfit space" -3
+	"Eaza Rocket capacity" 33
+	ammo "Eaza Rocket"
+	description "Eaza Rocket Storage"
+
+outfit "Eaza Rocket Catapult"
+	category "Secondary Weapons"
+	cost 4781800
+	thumbnail "outfit/typhoon launcher"
+	"mass" 0
+	"outfit space" -59
+	"weapon capacity" -59
+	"gun ports" -1
+	"Eaza Rocket capacity" 33
+	weapon
+		"sprite" "projectile/typhoon"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		ammo "Eaza Rocket"
+		icon "icon/typhoon"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.6
+		"velocity" 10
+		"lifetime" 600
+		"reload" 4
+		"firing energy" 6.3
+		"firing heat" 7.1
+		"acceleration" 0.3
+		"drag" 0.2
+		"turn" 0
+		"homing" 0
+		"shield damage" 16.2
+		"hull damage" 60.3
+		"missile strength" 36.6
+	description "Uvprluwq T2.3 Missile weapon"
+
+outfit "Geji Torpedo"
+	category "Ammunition"
+	cost 1643213
+	thumbnail "outfit/sidewinder"
+	"mass" 0.07
+	"Geji Torpedo capacity" -1
+	description "Uvprluwq Missile"
+
+outfit "Geji Torpedo Storage
+	category "Ammunition"
+	cost 15919981
+	thumbnail "outfit/sidewinder storage"
+	"mass" 1
+	"outfit space" -2
+	"Geji Torpedo capacity" 29
+	ammo "Geji Torpedo"
+	description "Geji Torpedo Storage"
+
+outfit "Geji Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 7399800
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"Geji Torpedo capacity" 29
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Geji Torpedo"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.6
+		"velocity" 13
+		"lifetime" 1800
+		"reload" 19
+		"firing energy" 62.0
+		"firing heat" 26.8
+		"acceleration" 0.6
+		"drag" 0.2
+		"turn" 44.8
+		"homing" 3
+		"optical tracking" 0.95
+		"shield damage" 113.3
+		"hull damage" 393.5
+		"missile strength" 453.2
+	description "Uvprluwq T2.3 Missile weapon"
+
+outfit "Idwe Anti-Missile"
+	category "Turrets"
+	cost 7103800
+	thumbnail "outfit/pug anti-missile"
+	"mass" 75
+	"outfit space" -75
+	"weapon capacity" -75
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "electron impact"
+		"fire effect" "tiny explosion"
+		"anti-missile" 7.1
+		"velocity" 590
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 36.5
+		"firing heat" 43.7
+	description "Uvprluwq T2.3 Anti-missile"
+

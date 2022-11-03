@@ -1,0 +1,147 @@
+fleet "Icz giu Patrol"
+	government "Icz giu"
+	names "Icz giu Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 14
+	variant 4
+		"Wla iov" 1
+		"Wij hiheid" 2
+		"Caaaqj" 4
+		"Uaw uzl" 5
+		"Acuqieoee" 1
+		"Dni jocqel" 4
+		"Ozk nag" 1
+		"Azpyhuuoi" 3
+		"Leaicefjo" 5
+	variant 8
+		"Uaw uzl" 4
+		"Acuqieoee" 4
+		"Leaicefjo" 2
+		"Dni jocqel" 4
+		"Wla iov" 1
+		"Wij hiheid" 2
+		"Ozk nag" 2
+		"Caaaqj" 5
+		"Azpyhuuoi" 1
+	variant 19
+		"Caaaqj" 2
+		"Uaw uzl" 3
+		"Ozk nag" 1
+		"Wla iov" 4
+		"Acuqieoee" 4
+		"Azpyhuuoi" 2
+		"Leaicefjo" 4
+		"Dni jocqel" 1
+		"Wij hiheid" 4
+	variant 5
+		"Acuqieoee" 5
+		"Leaicefjo" 1
+		"Wla iov" 5
+		"Azpyhuuoi" 2
+		"Wij hiheid" 1
+		"Ozk nag" 5
+		"Dni jocqel" 5
+		"Uaw uzl" 3
+		"Caaaqj" 4
+	variant 13
+		"Leaicefjo" 2
+		"Caaaqj" 2
+		"Wij hiheid" 1
+		"Uaw uzl" 4
+		"Acuqieoee" 5
+		"Ozk nag" 3
+		"Wla iov" 4
+		"Azpyhuuoi" 4
+		"Dni jocqel" 4
+	variant 19
+		"Leaicefjo" 2
+		"Ozk nag" 5
+		"Wij hiheid" 4
+		"Uaw uzl" 1
+		"Caaaqj" 4
+		"Acuqieoee" 1
+		"Wla iov" 5
+		"Azpyhuuoi" 1
+		"Dni jocqel" 5
+	variant 16
+		"Uaw uzl" 3
+		"Wla iov" 4
+		"Azpyhuuoi" 4
+		"Dni jocqel" 2
+		"Acuqieoee" 4
+		"Caaaqj" 2
+		"Ozk nag" 2
+		"Wij hiheid" 4
+		"Leaicefjo" 1
+	variant 6
+		"Wla iov" 1
+		"Ozk nag" 1
+		"Caaaqj" 4
+		"Acuqieoee" 3
+		"Uaw uzl" 2
+		"Wij hiheid" 5
+		"Dni jocqel" 1
+		"Azpyhuuoi" 1
+		"Leaicefjo" 3
+	variant 8
+		"Uaw uzl" 3
+		"Wij hiheid" 5
+		"Azpyhuuoi" 3
+		"Leaicefjo" 3
+		"Acuqieoee" 4
+		"Caaaqj" 4
+		"Wla iov" 2
+		"Dni jocqel" 3
+		"Ozk nag" 1
+	variant 16
+		"Uaw uzl" 5
+		"Leaicefjo" 2
+		"Ozk nag" 4
+		"Caaaqj" 3
+		"Dni jocqel" 1
+		"Wij hiheid" 3
+		"Wla iov" 2
+		"Acuqieoee" 3
+		"Azpyhuuoi" 3
+fleet "Icz giu Privateer"
+	government "Icz giu"
+	names "Icz giu names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Leaicefjo" 2
+		"Wij hiheid" 1
+		"Dni jocqel" 2
+	variant 2
+		"Uaw uzl" 4
+		"Azpyhuuoi" 4
+		"Ozk nag" 2
+	variant 20
+		"Ozk nag" 3
+		"Azpyhuuoi" 1
+		"Dni jocqel" 4
+	variant 33
+		"Dni jocqel" 2
+		"Caaaqj" 3
+		"Azpyhuuoi" 4
+	variant 8
+		"Caaaqj" 1
+		"Uaw uzl" 3
+		"Dni jocqel" 2
+fleet "Icz giu Miner"
+	government "Icz giu"
+	names "Icz giu names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 20
+	variant 2
+		"Wij hiheid" 4
+		"Caaaqj" 4
+	variant 15
+		"Caaaqj" 3
+		"Wij hiheid" 4

@@ -1,0 +1,21 @@
+outfit "Yiuge Anti-Missile"
+	category "Turrets"
+	cost 395201000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 84.6
+		"velocity" 770
+		"lifetime" 1
+		"reload" 13
+		"firing energy" 16.3
+		"firing heat" 37.0
+	description "Geooc juxuy T3.1 Anti-missile"
+

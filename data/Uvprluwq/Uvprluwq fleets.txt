@@ -1,0 +1,131 @@
+fleet "Uvprluwq Navy"
+	government "Uvprluwq"
+	names "Uvprluwq Military names"
+	personality
+		heroic
+		opportunistic
+		confusion 10
+	variant 9
+		"Xmuaipem" 6
+		"Dijiavyjejio" 5
+		"Voqopzuq" 6
+		"Zmeaogkq" 4
+		"Defeexug" 4
+	variant 14
+		"Dijiavyjejio" 2
+		"Xmuaipem" 4
+		"Zmeaogkq" 3
+		"Defeexug" 4
+		"Voqopzuq" 4
+	variant 7
+		"Voqopzuq" 1
+		"Dijiavyjejio" 6
+		"Defeexug" 2
+		"Zmeaogkq" 3
+		"Xmuaipem" 1
+	variant 18
+		"Voqopzuq" 2
+		"Zmeaogkq" 4
+		"Defeexug" 4
+		"Dijiavyjejio" 2
+		"Xmuaipem" 3
+	variant 18
+		"Dijiavyjejio" 6
+		"Zmeaogkq" 3
+		"Xmuaipem" 2
+		"Defeexug" 3
+		"Voqopzuq" 2
+	variant 11
+		"Voqopzuq" 2
+		"Dijiavyjejio" 1
+		"Zmeaogkq" 1
+		"Xmuaipem" 5
+		"Defeexug" 4
+	variant 4
+		"Dijiavyjejio" 1
+		"Xmuaipem" 3
+		"Zmeaogkq" 3
+		"Voqopzuq" 3
+		"Defeexug" 3
+	variant 4
+		"Dijiavyjejio" 1
+		"Voqopzuq" 2
+		"Defeexug" 3
+		"Xmuaipem" 1
+		"Zmeaogkq" 3
+	variant 16
+		"Xmuaipem" 2
+		"Dijiavyjejio" 2
+		"Voqopzuq" 2
+		"Defeexug" 5
+		"Zmeaogkq" 2
+	variant 9
+		"Dijiavyjejio" 4
+		"Zmeaogkq" 2
+		"Xmuaipem" 3
+		"Defeexug" 4
+		"Voqopzuq" 1
+	variant 14
+		"Dijiavyjejio" 1
+		"Voqopzuq" 3
+		"Zmeaogkq" 6
+		"Defeexug" 5
+		"Xmuaipem" 6
+fleet "Uvprluwq Civilian"
+	government "Uvprluwq"
+	names "Uvprluwq names"
+	personality
+		timid
+		confusion 20
+	variant 0
+		"Defeexug" 2
+		"Defeexug" 4
+		"Defeexug" 1
+	variant 6
+		"Voqopzuq" 1
+		"Dijiavyjejio" 3
+		"Voqopzuq" 3
+	variant 30
+		"Voqopzuq" 3
+		"Defeexug" 1
+		"Dijiavyjejio" 3
+	variant 12
+		"Dijiavyjejio" 2
+		"Zmeaogkq" 1
+		"Pouwavjbejif" 1
+	variant 72
+		"Dijiavyjejio" 1
+		"Voqopzuq" 2
+		"Zmeaogkq" 3
+	variant 30
+		"Voqopzuq" 1
+		"Dijiavyjejio" 4
+		"Dijiavyjejio" 3
+	variant 108
+		"Pouwavjbejif" 2
+		"Pouwavjbejif" 2
+		"Defeexug" 3
+	variant 119
+		"Voqopzuq" 4
+		"Dijiavyjejio" 3
+		"Dijiavyjejio" 1
+	variant 144
+		"Xmuaipem" 4
+		"Xmuaipem" 4
+		"Defeexug" 4
+fleet "Uvprluwq Miner"
+	government "Uvprluwq"
+	names "Uvprluwq names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 21
+	variant 3
+		"Xmuaipem" 4
+	variant 17
+		"Xmuaipem" 4
+	variant 15
+		"Xmuaipem" 2
+	variant 7
+		"Xmuaipem" 4

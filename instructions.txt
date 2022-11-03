@@ -11,6 +11,7 @@ Useable Config:
 -galaxy config
 -use_seed and <text>_seed for most config
 -planet descriptions.txt
+-000 stars.txt (same format as ES stars.txt)
 
 This is a rough proof of concept, very fragile and still buggy, beware.
 

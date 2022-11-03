@@ -1,0 +1,384 @@
+ship "Uiukei"
+	sprite "ship/Ozujto/Uiukei"
+	attributes 
+		category "Heavy Warship"
+		"cost" 151443000
+		"shields" 252200
+		"hull" 1067900
+		"required crew" 34
+		"automaton" 1
+		"bunks" 62
+		"mass" 848.2
+		"drag" 18.08
+		"heat dissipation" 0.71
+		"fuel capacity" 2500
+		"cargo space" 105
+		"outfit space" 1190
+		"weapon capacity" 370
+		"engine capacity" 300
+		weapon 
+			"blast radius" 3601
+			"shield damage" 36020
+			"hull damage" 18010
+			"hit force" 25210
+	outfits 
+		"Ewa Laser" 2
+		"Ewa Laser Turret" 5
+		"Eeu Anti-Missile" 1
+		"Evf Rocket Catapult" 2
+		"Evf Rocket" 100
+		"Zan Chaser Tube" 1
+		"Zan Chaser" 33
+		"Vae Thruster" 1
+		"Vae Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Eyi dmo Cell" 2
+		"Hyperdrive"
+	engine 80 -21
+	engine -97 -21
+	engine 0 41
+	gun 0 -18
+	gun 49 -45
+	gun -52 -45
+	gun 35 -44
+	gun -38 -44
+	turret -39 23
+	turret 7 -41
+	turret -13 -41
+	turret 55 -4
+	turret -61 -4
+	turret 33 23
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+
+ship "Ufaoko"
+	sprite "ship/Ozujto/Ufaoko"
+	attributes 
+		category "Light Freighter"
+		"cost" 30362000
+		"shields" 37700
+		"hull" 159600
+		"required crew" 8
+		"automaton" 1
+		"bunks" 21
+		"mass" 191.0
+		"drag" 3.73
+		"heat dissipation" 0.56
+		"fuel capacity" 2700
+		"cargo space" 60
+		"outfit space" 340
+		"weapon capacity" 140
+		"engine capacity" 110
+		weapon 
+			"blast radius" 538
+			"shield damage" 5390
+			"hull damage" 2700
+			"hit force" 3770
+	outfits 
+		"Ewa Laser" 1
+		"Ewa Laser Turret" 1
+		"Vae Thruster" 1
+		"Vae Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Eyi dmo Cell" 2
+		"Qal mua Temperature Control" 1
+		"Hyperdrive"
+	engine 0 49
+	gun 0 3
+	turret 0 4
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 0
+	description "Ozujto T3.7 ship"
+
+ship "Ijo ehkmel"
+	sprite "ship/Ozujto/Ijo ehkmel"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 43876000
+		"shields" 84200
+		"hull" 356600
+		"required crew" 34
+		"automaton" 1
+		"bunks" 87
+		"mass" 1012.0
+		"drag" 20.38
+		"heat dissipation" 0.63
+		"fuel capacity" 2800
+		"cargo space" 490
+		"outfit space" 1030
+		"weapon capacity" 320
+		"engine capacity" 340
+		weapon 
+			"blast radius" 1202
+			"shield damage" 12030
+			"hull damage" 6020
+			"hit force" 8420
+	outfits 
+		"Ewa Laser Turret" 1
+		"Eeu Anti-Missile" 1
+		"Vae Thruster" 1
+		"Vae Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Eyi dmo Cell" 2
+		"Hyperdrive"
+	engine 41 9
+	engine -57 9
+	engine 0 52
+	turret -53 -35
+	turret 47 -35
+	leak "leak" 30
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+
+ship "Holefe"
+	sprite "ship/Ozujto/Holefe"
+	attributes 
+		category "Light Warship"
+		"cost" 28250000
+		"shields" 65800
+		"hull" 278400
+		"required crew" 5
+		"automaton" 1
+		"bunks" 13
+		"mass" 131.6
+		"drag" 2.72
+		"heat dissipation" 0.63
+		"fuel capacity" 2000
+		"cargo space" 20
+		"outfit space" 250
+		"weapon capacity" 90
+		"engine capacity" 70
+		weapon 
+			"blast radius" 939
+			"shield damage" 9390
+			"hull damage" 4700
+			"hit force" 6580
+	outfits 
+		"Ewa Laser Turret" 1
+		"Uzoeoo Thruster" 1
+		"Uzoeoo Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Nozjso Cell" 1
+		"Qal mua Temperature Control" 1
+		"Hyperdrive"
+	engine 0 51
+	turret 0 -29
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+
+ship "Mac zeb wya"
+	sprite "ship/Ozujto/Mac zeb wya"
+	attributes 
+		category "Interceptor"
+		"cost" 9730000
+		"shields" 9200
+		"hull" 39000
+		"required crew" 3
+		"automaton" 1
+		"bunks" 5
+		"mass" 56.4
+		"drag" 1.12
+		"heat dissipation" 0.93
+		"fuel capacity" 1900
+		"cargo space" 10
+		"outfit space" 70
+		"weapon capacity" 30
+		"engine capacity" 22
+		weapon 
+			"blast radius" 131
+			"shield damage" 1320
+			"hull damage" 660
+			"hit force" 930
+	outfits 
+		"Ewa Laser" 2
+		"Evf Rocket Catapult" 2
+		"Evf Rocket" 100
+		"Qal mua Temperature Control" 4
+		"Wai Cooler" 1
+		"Hyperdrive"
+	engine 0 14
+	gun -27 -32
+	gun 34 -55
+	gun -37 -55
+	gun 24 -32
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Ozujto T3.7 ship"
+
+ship "Fpayoe"
+	sprite "ship/Ozujto/Fpayoe"
+	attributes 
+		category "Light Warship"
+		"cost" 71186000
+		"shields" 82400
+		"hull" 348700
+		"required crew" 11
+		"automaton" 1
+		"bunks" 27
+		"mass" 210.2
+		"drag" 3.91
+		"heat dissipation" 0.51
+		"fuel capacity" 3000
+		"cargo space" 30
+		"outfit space" 280
+		"weapon capacity" 90
+		"engine capacity" 80
+		weapon 
+			"blast radius" 1176
+			"shield damage" 11760
+			"hull damage" 5880
+			"hit force" 8240
+	outfits 
+		"Ewa Laser" 1
+		"Uzoeoo Thruster" 1
+		"Uzoeoo Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Nozjso Cell" 1
+		"Qal mua Temperature Control" 1
+		"Hyperdrive"
+	engine 0 34
+	gun 0 -32
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+
+ship "Iiu moz kuo"
+	sprite "ship/Ozujto/Iiu moz kuo"
+	attributes 
+		category "Heavy Warship"
+		"cost" 85926000
+		"shields" 347100
+		"hull" 1470000
+		"required crew" 49
+		"automaton" 1
+		"bunks" 89
+		"mass" 966.0
+		"drag" 19.76
+		"heat dissipation" 0.74
+		"fuel capacity" 2700
+		"cargo space" 120
+		"outfit space" 1510
+		"weapon capacity" 480
+		"engine capacity" 500
+		weapon 
+			"blast radius" 4957
+			"shield damage" 49570
+			"hull damage" 24790
+			"hit force" 34700
+	outfits 
+		"Ewa Laser" 2
+		"Ewa Laser Turret" 4
+		"Eeu Anti-Missile" 1
+		"Evf Rocket Catapult" 2
+		"Evf Rocket" 100
+		"Zan Chaser Tube" 1
+		"Zan Chaser" 33
+		"Vae Thruster" 1
+		"Vae Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Eyi dmo Cell" 2
+		"Hyperdrive"
+	engine 46 -24
+	engine -62 -24
+	engine 48 37
+	engine -64 37
+	engine 0 55
+	gun 0 -20
+	gun 46 -100
+	gun -49 -100
+	gun 43 -5
+	gun -46 -5
+	turret 0 -9
+	turret 70 -84
+	turret -76 -84
+	turret 48 -36
+	turret -54 -36
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+
+ship "Hwaeou"
+	sprite "ship/Ozujto/Hwaeou"
+	attributes 
+		category "Light Warship"
+		"cost" 37814000
+		"shields" 83900
+		"hull" 355400
+		"required crew" 16
+		"automaton" 1
+		"bunks" 34
+		"mass" 296.0
+		"drag" 5.96
+		"heat dissipation" 0.77
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 470
+		"weapon capacity" 190
+		"engine capacity" 130
+		weapon 
+			"blast radius" 1198
+			"shield damage" 11990
+			"hull damage" 6000
+			"hit force" 8390
+	outfits 
+		"Ewa Laser Turret" 1
+		"Vae Thruster" 1
+		"Vae Steering" 1
+		"Acw Shield Core" 1
+		"Esu enp Damage Control" 1
+		"Eyi dmo Cell" 2
+		"Hyperdrive"
+	engine 0 19
+	turret 0 19
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Ozujto T3.7 ship"
+

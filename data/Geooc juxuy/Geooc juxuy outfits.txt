@@ -1,0 +1,1283 @@
+outfit "Coani Capacitor"
+	category "Power"
+	cost 205400
+	thumbnail "outfit/tiny battery hai"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 3640
+	description "Geooc juxuy T3.1 Battery"
+
+outfit "Coani Capacitor"
+	category "Power"
+	cost 369800
+	thumbnail "outfit/small battery hai"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 12380
+	description "Geooc juxuy T3.1 Battery"
+
+outfit "Coani Capacitor"
+	category "Power"
+	cost 665700
+	thumbnail "outfit/medium battery hai"
+	"mass" 32
+	"outfit space" -32
+	"energy capacity" 42100
+	description "Geooc juxuy T3.1 Battery"
+
+outfit "Coani Capacitor"
+	category "Power"
+	cost 1198300
+	thumbnail "outfit/large battery hai"
+	"mass" 58
+	"outfit space" -58
+	"energy capacity" 143140
+	description "Geooc juxuy T3.1 Battery"
+
+
+outfit "Aubie Cell"
+	category "Power"
+	cost 174400
+	thumbnail "outfit/plasma core"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 3.3
+	"heat generation" 3.9
+	description "Geooc juxuy T3.1 Power generator"
+
+outfit "Umaeu oosae Cell"
+	category "Power"
+	cost 296500
+	thumbnail "outfit/double plasma core"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 11.2
+	"heat generation" 14.0
+	description "Geooc juxuy T3.1 Power generator"
+
+
+outfit "Bquor Thruster"
+	category "Engines"
+	cost 3441700
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"thrust" 5.0
+	"thrusting energy" 0.4
+	"thrusting heat" 0.7
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.1552796509539027
+	"flare sound" "ka'het small"
+	description "Geooc juxuy T3.1 Thruster"
+
+outfit "Bquor Steering"
+	category "Engines"
+	cost 2719978
+	thumbnail "outfit/small ka'het steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 135
+	"turning energy" 0.3
+	"turning heat" 0.6
+	description "Geooc juxuy T3.1 steering"
+
+outfit "Eeeen ewual Thruster"
+	category "Engines"
+	cost 5850900
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 12.0
+	"thrusting energy" 0.9
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Geooc juxuy T3.1 Thruster"
+
+outfit "Eeeen ewual Steering"
+	category "Engines"
+	cost 9946600
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"turn" 324.0
+	"turning energy" 0.7
+	"turning heat" 1.3
+	description "Geooc juxuy T3.1 steering"
+
+outfit "Gouxcbeueo Thruster"
+	category "Engines"
+	cost 9946600
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"thrust" 28.8
+	"thrusting energy" 2.0
+	"thrusting heat" 3.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Geooc juxuy T3.1 Thruster"
+
+outfit "Gouxcbeueo Steering"
+	category "Engines"
+	cost 16909300
+	thumbnail "outfit/large ka'het steering"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"turn" 777.6
+	"turning energy" 1.5
+	"turning heat" 2.9
+	description "Geooc juxuy T3.1 steering"
+
+outfit "Mnaod Thruster"
+	category "Engines"
+	cost 16909300
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 88
+	"outfit space" -88
+	"engine capacity" -88
+	"thrust" 69.1
+	"thrusting energy" 4.4
+	"thrusting heat" 7.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Geooc juxuy T3.1 Thruster"
+
+outfit "Mnaod Steering"
+	category "Engines"
+	cost 28745900
+	thumbnail "outfit/large ka'het steering"
+	"mass" 64
+	"outfit space" -64
+	"engine capacity" -64
+	"turn" 1866.2
+	"turning energy" 3.3
+	"turning heat" 6.4
+	description "Geooc juxuy T3.1 steering"
+
+outfit "Obimx aqmuy Thruster"
+	category "Engines"
+	cost 28745900
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 176
+	"outfit space" -176
+	"engine capacity" -176
+	"thrust" 165.8
+	"thrusting energy" 9.7
+	"thrusting heat" 16.1
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Geooc juxuy T3.1 Thruster"
+
+outfit "Obimx aqmuy Steering"
+	category "Engines"
+	cost 48868100
+	thumbnail "outfit/large ka'het steering"
+	"mass" 128
+	"outfit space" -128
+	"engine capacity" -128
+	"turn" 4478.9
+	"turning energy" 7.3
+	"turning heat" 14.1
+	description "Geooc juxuy T3.1 steering"
+
+
+outfit "Bwuiviuyay Shield Rejuvenator"
+	category "Systems"
+	cost 262100
+	thumbnail "outfit/tiny shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 1.01
+	"shield energy" 1.88
+	"shield heat" 1
+	description "Geooc juxuy T3.1 shield gen"
+
+outfit "Ibjci oozin Shield Rejuvenator"
+	category "Systems"
+	cost 471800
+	thumbnail "outfit/small shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 2.0
+	"shield energy" 2.3
+	"shield heat" 1
+	description "Geooc juxuy T3.1 shield gen"
+
+outfit "Rxoef Shield Rejuvenator"
+	category "Systems"
+	cost 849300
+	thumbnail "outfit/medium shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 4.0
+	"shield energy" 2.8
+	"shield heat" 1
+	description "Geooc juxuy T3.1 shield gen"
+
+outfit "Xejai Shield Rejuvenator"
+	category "Systems"
+	cost 1528800
+	thumbnail "outfit/large shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 8.0
+	"shield energy" 3.4
+	"shield heat" 1
+	description "Geooc juxuy T3.1 shield gen"
+
+
+
+outfit "Oskuy Cooler"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/cooling module"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 26
+	"active cooling" 162
+	"cooling energy" 5.359206149488196
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Foyuo Core"
+	category "Power"
+	cost 243300
+	thumbnail "outfit/plasma core"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 3.5
+	"heat generation" 4.8
+	description "Geooc juxuy T3.1 Power generator"
+
+outfit "Rpaii Core"
+	category "Power"
+	cost 413700
+	thumbnail "outfit/double plasma core"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 11.9
+	"heat generation" 5.8
+	description "Geooc juxuy T3.1 Power generator"
+
+outfit "Udbao Core"
+	category "Power"
+	cost 703300
+	thumbnail "outfit/triple plasma core"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 40.5
+	"heat generation" 7.0
+	description "Geooc juxuy T3.1 Power generator"
+
+
+outfit "Uuoxo ihyoa Temperature Control"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling module"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 51
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Taheq uaedd Heat Shunt"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 58
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Feduo qimeo Cooling"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 18
+	"outfit space" -18
+	"active cooling" 4
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Sluew Heat Pump"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 52
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Avauqxyeue Cooling"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 52
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Odeny cnbui Cooling"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 117
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Xquoo viigb Cooler"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/liquid helium"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 47
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Foqib eidua Cooling"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 50
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Covsu Cooler"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 48
+	"active cooling" 13
+	"cooling energy" 23.69533039130304
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Sicue Heatsink"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 39
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Uqutq Heatsink"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/cooling ducts"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 59
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Nepig iwdiw Cooling"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 27
+	"outfit space" -27
+	"active cooling" 389
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Areqwbqufo Cooling"
+	category "Systems"
+	cost 12300
+	thumbnail "outfit/large heat shunt"
+	"mass" 26
+	"outfit space" -26
+	"cooling" 58
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Aciba xiaox Heat Shunt"
+	category "Systems"
+	cost 12500
+	thumbnail "outfit/cooling ducts"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 169
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Jqair Temperature Control"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/water cooling"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 61
+	"active cooling" 139
+	"cooling energy" 39.513724823729156
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Egquajelod Cooler"
+	category "Systems"
+	cost 11000
+	thumbnail "outfit/large heat shunt"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 59
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vinub Cooler"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 35
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Wwoouojoov Cooling"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/cooling ducts"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 34
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Axaoe Heat Pump"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 49
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Giodx Heat Pump"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 60
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oedru aafhe Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 33
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ypuoj dbeye Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/water cooling"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 57
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Inquu Cooling"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 53
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ernixmojii Cooler"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 55
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Bauno Temperature Control"
+	category "Systems"
+	cost 14300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 31
+	"outfit space" -31
+	"cooling" 61
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Cfiyo Heatsink"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/hai williwaw"
+	"mass" 29
+	"outfit space" -29
+	"active cooling" 375
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Nxore Cooler"
+	category "Systems"
+	cost 11600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 19
+	"outfit space" -19
+	"active cooling" 131
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Bojua caenu Cooler"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/cooling ducts"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 38
+	"active cooling" 93
+	"cooling energy" 22.097181258976455
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Uyovo ecoqa Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/small heat shunt"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 54
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oorua Cooling"
+	category "Systems"
+	cost 13800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 49
+	"active cooling" 116
+	"cooling energy" 17.344506143671715
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Pjouo Heatsink"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/liquid helium"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 58
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vodei ziemu Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 139
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oouam uyoao Heat Pump"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/water cooling"
+	"mass" 18
+	"outfit space" -18
+	"active cooling" 225
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Bidqe Heat Shunt"
+	category "Systems"
+	cost 10000
+	thumbnail "outfit/large heat shunt"
+	"mass" 23
+	"outfit space" -23
+	"cooling" 61
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Veuwondeto Heat Pump"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling module"
+	"mass" 11
+	"outfit space" -11
+	"active cooling" 43
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Egaua xuqsu Cooler"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/water cooling"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 44
+	"active cooling" 52
+	"cooling energy" 11.043192960218764
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Uodua thauo Cooler"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 33
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Qoqoe Heatsink"
+	category "Systems"
+	cost 13900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 34
+	"active cooling" 33
+	"cooling energy" 9.463143904283454
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Nemvugaiwl Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 60
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oiqeo jaivj Heatsink"
+	category "Systems"
+	cost 13900
+	thumbnail "outfit/water cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 33
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vvoea daodu Heatsink"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/water cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 44
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Iuifc Temperature Control"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"active cooling" 140
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Sehau Cooling"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 33
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Loubo dooaq Cooling"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 42
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Fxeaeegxau Heat Shunt"
+	category "Systems"
+	cost 10700
+	thumbnail "outfit/cooling module"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 32
+	"active cooling" 151
+	"cooling energy" 13.242286588128724
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Yoman Cooling"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	"active cooling" 35
+	"cooling energy" 14.715046009037401
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Uvqaajuuou Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/water cooling"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 32
+	"active cooling" 110
+	"cooling energy" 13.759344610044058
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vayoq Heat Shunt"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 32
+	"active cooling" 39
+	"cooling energy" 13.113906492253562
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Jadoqnueoo Heat Pump"
+	category "Systems"
+	cost 12400
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 37
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ruenu Cooler"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 44
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Advsaeouoe Heatsink"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/cooling ducts"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 31
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oxhua Cooler"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 91
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Uyqox uoowm Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/cooling module"
+	"mass" 9
+	"outfit space" -9
+	"cooling" 40
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Fvaju Heat Shunt"
+	category "Systems"
+	cost 13700
+	thumbnail "outfit/cooling ducts"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 38
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Fpaod oeuin Cooler"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 61
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Dyoiv Heatsink"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 59
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Iuebeoogri Heat Shunt"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 2
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Soega xuxxo Heatsink"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/liquid helium"
+	"mass" 27
+	"outfit space" -27
+	"cooling" 57
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Gaocxuobod Heat Pump"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/small heat shunt"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 37
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Cqeuv naoxk Heatsink"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 52
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ituceoyoou Heatsink"
+	category "Systems"
+	cost 13400
+	thumbnail "outfit/large heat shunt"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 45
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Eyuea onuxw Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 38
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oeojd faezi Cooling"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/large heat shunt"
+	"mass" 21
+	"outfit space" -21
+	"active cooling" 253
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Leire Temperature Control"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 54
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Hsioe Temperature Control"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/large heat shunt"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 51
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ejluo veuia Cooling"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/large heat shunt"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 59
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vumub Heat Shunt"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 45
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oxooeoeuir Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/small heat shunt"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 60
+	"active cooling" 212
+	"cooling energy" 16.656028675923853
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Zuade icunj Heatsink"
+	category "Systems"
+	cost 11400
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 16
+	"outfit space" -16
+	"cooling" 40
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Neimo Cooler"
+	category "Systems"
+	cost 12700
+	thumbnail "outfit/hai williwaw"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 48
+	"active cooling" 172
+	"cooling energy" 25.88544643609641
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Dueiu Cooling"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/water cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 42
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Vacig Heatsink"
+	category "Systems"
+	cost 14200
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 51
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Wenja aftoa Heat Shunt"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 37
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Awrcu csuea Cooler"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 50
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Byoyaeioea Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 49
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Dvixe roegv Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 17
+	"outfit space" -17
+	"active cooling" 106
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Xoooa Cooling"
+	category "Systems"
+	cost 11600
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 13
+	"outfit space" -13
+	"cooling" 34
+	"active cooling" 110
+	"cooling energy" 15.461814123461087
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Udowe Cooler"
+	category "Systems"
+	cost 12800
+	thumbnail "outfit/large heat shunt"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 51
+	"active cooling" 115
+	"cooling energy" 20.56102280625664
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Lidiuyaxad Heat Shunt"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 33
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Eaimd ycoud Heatsink"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/water cooling"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 36
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Apoubdiaed Heat Shunt"
+	category "Systems"
+	cost 13300
+	thumbnail "outfit/large heat shunt"
+	"mass" 22
+	"outfit space" -22
+	"cooling" 48
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Cvaeu Heatsink"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 59
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Obtet Cooling"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling ducts"
+	"mass" 15
+	"outfit space" -15
+	"cooling" 53
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Qeodm puova Cooler"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 49
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Lcudawobna Heat Shunt"
+	category "Systems"
+	cost 10800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 18
+	"outfit space" -18
+	"cooling" 50
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Nigxu axifq Heat Shunt"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 31
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Duirlmueme Heatsink"
+	category "Systems"
+	cost 15900
+	thumbnail "outfit/liquid helium"
+	"mass" 26
+	"outfit space" -26
+	"active cooling" 265
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ueugw Heatsink"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/small heat shunt"
+	"mass" 12
+	"outfit space" -12
+	"cooling" 38
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Veoraxuoac Heat Shunt"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/water cooling"
+	"mass" 9
+	"outfit space" -9
+	"active cooling" 26
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Oreea oopab Heatsink"
+	category "Systems"
+	cost 13100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 24
+	"outfit space" -24
+	"cooling" 49
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Awbov lidij Heat Pump"
+	category "Systems"
+	cost 13500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 21
+	"outfit space" -21
+	"cooling" 46
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Caoev Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/water cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 36
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Meoue muuji Heat Pump"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 54
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ybiqi Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 17
+	"outfit space" -17
+	"cooling" 51
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Emveg Heat Pump"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/small heat shunt"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 36
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Innif Heat Shunt"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 32
+	"active cooling" 126
+	"cooling energy" 10.60170315893558
+	description "Geooc juxuy T3.1 Cooling"
+
+
+outfit "Ifzau vuaja Cooler"
+	category "Systems"
+	cost 10200
+	thumbnail "outfit/cooling ducts"
+	"mass" 19
+	"outfit space" -19
+	"cooling" 56
+	description "Geooc juxuy T3.1 Cooling"
+
+

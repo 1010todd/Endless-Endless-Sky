@@ -1,0 +1,53 @@
+outfit "Reroc Missile"
+	category "Ammunition"
+	cost 90650194090435
+	thumbnail "outfit/sidewinder"
+	"mass" 0.04
+	"Reroc Missile capacity" -1
+	description "Ivupvrbeeb Missile"
+
+outfit "Reroc Missile Storage
+	category "Ammunition"
+	cost 487791039648284
+	thumbnail "outfit/sidewinder storage"
+	"mass" 1
+	"outfit space" -1
+	"Reroc Missile capacity" 25
+	ammo "Reroc Missile"
+	description "Reroc Missile Storage"
+
+outfit "Reroc Missile Deployer"
+	category "Secondary Weapons"
+	cost 368378847636100
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -69
+	"weapon capacity" -69
+	"gun ports" -1
+	"Reroc Missile capacity" 25
+	weapon
+		"sprite" "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Reroc Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1.5
+		"velocity" 17
+		"lifetime" 2500
+		"reload" 5
+		"firing energy" 7.3
+		"firing heat" 14.1
+		"acceleration" 0.5
+		"drag" 0.1
+		"turn" 47.7
+		"homing" 2
+		"optical tracking" 0.8
+		"shield damage" 39.2
+		"hull damage" 342.8
+		"missile strength" 1814.2
+	description "Ivupvrbeeb T5.5 Missile weapon"
+

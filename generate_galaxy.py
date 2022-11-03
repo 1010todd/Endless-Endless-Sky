@@ -36,6 +36,8 @@ class system():
         self.system_layer = system_layer
         self.planet_list = []
         self.level = level
+        self.habitable = 300
+        self.attributes = []
         self.asteroids = {}
         self.mineables = {} #name: [count, energy]
         self.hazard = []
@@ -104,6 +106,18 @@ def government_region(center_x,center_y,radius_x,radius_y,system_list,government
                 government.systemlist.append(system_list[s])
             #myprint(f"{system.name} government: {government.name}")
     government.allhypot = allhypot
+
+#Find center and make it the government centre, maybe, maybe not.
+def gov_region_center(center_x,center_y,radius_x,radius_y,system_list,government):
+    prevhypot = 999999999999
+    center_system = None
+    for s in range(len(system_list)):
+        hypot = int(math.hypot(center_x - system_list[s].pos[0], center_y - system_list[s].pos[1]))
+        if hypot < radius_x:
+            if hypot < prevhypot:
+                prevhypot = hypot
+                center_system = system_list[s]
+    pass
 
 def duel_over_system(system,government,hypot):
     prevhypot = 0
@@ -207,12 +221,14 @@ def add_hazards(systemlist,hazardlist):
                 systemlist[syssel].hazard.append(hazard)
                 systemlist[syssel].cloud = hazard.cloud
                 systemlist[syssel].haze = hazard.haze
+                systemlist[syssel].attributes.append(hazard.name)
         else:
             for n in range(systemperhazard_min,systemperhazard_max):
                 syssel = random.randrange(len(systemlist))
                 systemlist[syssel].hazard.append(hazard)
                 systemlist[syssel].cloud = hazard.cloud
                 systemlist[syssel].haze = hazard.haze
+                systemlist[syssel].attributes.append(hazard.name)
                 if False: #disabled, too lazy to make rn. TODO: save syslink as object so it's easier to refer to.
                     for sys2 in systemlist[syssel].links:
                         systemlist[syssel].hazard.append(hazard)
@@ -487,6 +503,18 @@ def galaxy_place_systems():
             hyperlane_min_distance = next(generate_galaxy_config)
         if "hyperlane_max_distance" in line:
             hyperlane_max_distance = next(generate_galaxy_config)
+
+        global wormhole_chance
+        wormhole_chance = .001
+        if "wormhole_chance" in line:
+            wormhole_chance = next(generate_galaxy_config)
+            
+        global config_enable_infinite_asteroid
+        config_enable_infinite_asteroid = True
+        if "infinite_asteroid_field" in line:
+            infastroid = next(generate_galaxy_config)
+            if str(infastroid) in ['false', 'False', 'false\n', 'False\n', '0']:
+                config_enable_infinite_asteroid = False
 
         if "system_namelist_file" in line:
             system_namelist_file = next(generate_galaxy_config)
@@ -979,14 +1007,38 @@ def load_description_data():
     #myprint("Landscape dict: " + str(landscape_dict) + '\n')
 
     #==========================================LOAD STARS
+    # Read config at .\config\planet config\planet sprites\000 stars.txt for list of stars in ES format.
     myprint("loading stars...")
     global available_star_list
     available_star_list = []
 
     star_config = open(star_config_file, "r")
+    checkpow = False
+    checkwind = False
+    starinit = False
     for line in star_config:
-        star = line.split(',')
-        available_star_list.append(("star/" + star[0], int(star[1].strip())))
+        line = line.removeprefix("\t\t")
+        line = line.removeprefix("\t")
+        if line.startswith("#"):
+            pass
+        if not checkpow and not checkwind and starinit:
+            habitable = (float(starpower) * 800) * float(starwind) #50 is random magic number, I don't think people would notice
+            available_star_list.append((star[1].replace('"', ''), int(habitable)))
+            starinit = False
+        if line.startswith("star"):
+            star = line.split()
+            starinit = True
+            checkpow = True
+            checkwind = True
+        elif line.startswith("power") and checkpow:
+            starpower = line.split()
+            starpower = starpower[1] 
+            checkpow = False
+        elif line.startswith("wind") and checkwind:
+            starwind = line.split()
+            starwind = starwind[1] 
+            checkwind = False
+            
     star_config.close()
 
     myprint("loading planet sprites...")
@@ -1005,7 +1057,7 @@ def load_description_data():
         planet_sprite_dict[name] = temp_items_list
     myprint('Successfully loaded data.\n\n\n')
         
-def planet_desc_word_replace(description): #UNUSED
+def planet_desc_word_replace(description): #**UNUSED**
     appending_characters = False
     this_desc_words_list = []
     for char in description:
@@ -1351,7 +1403,6 @@ def system_planets(system, galaxy): #Generates planets in system
     #Invisible fence = 10,000 units
     this_system_planet_list = []    #list of planets for this system, resets each time function called, contains planet object
 
-    #TODO:Add new stars https://github.com/endless-sky/endless-sky/pull/6378s
     star = available_star_list[random.randint(0, len(available_star_list) - 1)]
 
     habitable_zone = star[1]
@@ -1359,6 +1410,7 @@ def system_planets(system, galaxy): #Generates planets in system
     #myprint(star)
 
     this_system_planet_list.append(planet(star, None, 10, False, None, None, None))
+    system.habitable = habitable_zone
 
     min_distance_from_center = 50
     planet_radius = 120
@@ -1366,8 +1418,18 @@ def system_planets(system, galaxy): #Generates planets in system
     is_habitable_chance = 1
     number_of_planets = random.randint(4, 5)
 
+    temp_wormhole_chance = 0
+    for existing_wormhole in wormhole_dict.keys():
+        if wormhole_dict[existing_wormhole] < 2:
+            temp_wormhole_chance += .015
+    generate_wormholes = random.random() < wormhole_chance + temp_wormhole_chance
+    max_wormhole_links = random.randint(2, 5)
+
+    wormhole_sprite_list = ['wormhole']
+
     distance = min_distance_from_center
     habitable_planets = 0
+    number_of_planets += int(generate_wormholes)
     i = 0
     while i < number_of_planets:
         #Determines habitable planets
@@ -1377,8 +1439,46 @@ def system_planets(system, galaxy): #Generates planets in system
         if fraction > 2:
             planet_radius = 200
 
-        
-        if fraction > .5 and fraction < 2:
+        #============Generate Wormhole last
+        #Look for existing wormholes to connect to first before generating new one.
+        wormhole_made = False
+        if i == number_of_planets and generate_wormholes:
+            sprite = "planet/" + random.choice(wormhole_sprite_list)
+            for existing_wormhole in wormhole_dict.keys():
+                if wormhole_dict[existing_wormhole] < max_wormhole_links:
+                    name = existing_wormhole
+                    wormhole_dict[name] = wormhole_dict[existing_wormhole]+1
+                    wormhole_made = True
+                    this_system_planet_list.append(planet(sprite, distance, period, is_habitable, name, None, None))   
+                    system.attributes.append("wormhole")
+                    system.attributes.append(name)
+            if not wormhole_made:
+                i2 = 0
+                noinfinite = 0 #Prevent infinite loop of there're more planets than name list.
+                while (i2 < 1) and (noinfinite <= int(galaxy_systems)*number_of_planets):
+                    #name = planet_name_dict[galaxy.desc_files['planet_namelist_file']][random.randint(0, len(planet_name_dict[galaxy.desc_files['planet_namelist_file']]) - 1)]
+                    if system.government != None:
+                        name = namegen.generateNameFromRules(name_length_min,
+                                                            name_length_max,
+                                                            wordlen=system.government.lang_wordlen,
+                                                            spacechance=system.government.lang_spacechance,
+                                                            lang_charweight=system.government.lang_charweight)
+                    else:
+                        name = namegen.completelyRandomNames(name_length_min,
+                                                            name_length_max)
+                    name += " Wormhole"
+                    if name not in planet_used_namelist:
+                        planet_used_namelist.append(name)
+                        wormhole_dict[name] = 1
+                        wormhole_made = True
+                        this_system_planet_list.append(planet(sprite, distance, period, is_habitable, name, None, None))   
+                        system.attributes.append("wormhole")
+                        system.attributes.append(name)
+                        i2 += 1
+                    noinfinite += 1
+
+        #Generate Habitable planet if possible
+        if (fraction > .5 and fraction < 2) and not wormhole_made:
             if random.uniform(0, 1) < is_habitable_chance and habitable_planets < max_habitable_planets:
                 #Make sure the planets' system have government, will require this when assigning sales
                 if system.government != None:
@@ -1447,12 +1547,14 @@ def system_planets(system, galaxy): #Generates planets in system
         astrd_ener = random.uniform(0.1,5)
         system.mineables[minables] = [astrd_num,astrd_ener]
 
-    asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
-    random_asteroids_list = random.choices(asteroids_list,k=random.randint(0,6))
-    for astrd in random_asteroids_list:
-        astrd_num = random.randrange(0,50)
-        astrd_ener = random.uniform(0.1,5)
-        system.asteroids[astrd] = [astrd_num,astrd_ener]
+    global config_enable_infinite_asteroid
+    if config_enable_infinite_asteroid:
+        asteroids_list = ['small rock','medium rock','large rock','small metal','medium metal','large metal']
+        random_asteroids_list = random.choices(asteroids_list,k=random.randint(0,6))
+        for astrd in random_asteroids_list:
+            astrd_num = random.randrange(0,50)
+            astrd_ener = random.uniform(0.1,5)
+            system.asteroids[astrd] = [astrd_num,astrd_ener]
 
 def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
     myprint('Writing systems for galaxy ' + str(galaxy.name) + '...')
@@ -1477,9 +1579,18 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
         except AttributeError:
             galaxy_output.write('\tgovernment ' + '"' + str('Uninhabited') + '"' + "\n")
 
-        #habitable
-        #belt
+        galaxy_output.write('\tattributes ')
+        for attr in system.attributes:
+            galaxy_output.write(f'"{attr}" ')
+        galaxy_output.write('\n')
 
+        #habitable
+        galaxy_output.write(f'\thabitable {system.habitable}' + "\n")
+        
+        #arrival
+        galaxy_output.write(f'\tarrival {max(500, min(10000, system.habitable))}' + "\n")
+        
+        #belt
         galaxy_output.write('\tbelt ' + str(random.randint(1000, 1500)) + "\n")
 
         links_temp_list = system.links
@@ -1506,7 +1617,7 @@ def galaxy_write_systems(galaxy,galaxy_center_x,galaxy_center_y,galaxy_image):
         #mineables_list = ['copper','iron','lead','silicon','tungsten','titanium','gold','platinum','uranium']
         #random_mineables_list = random.choices(mineables_list,k=random.randint(0,5))
         for minables in system.mineables.keys():
-            galaxy_output.write(f'\minables "{minables}" {system.mineables[minables][0]} {system.mineables[minables][1]}'+'\n')
+            galaxy_output.write(f'\tminables "{minables}" {system.mineables[minables][0]} {system.mineables[minables][1]}'+'\n')
             
 
         #commodities
@@ -1670,6 +1781,9 @@ def load_galaxy_configs(government_list):
         global star_config_file
         star_config_file = "config/planet config/planet sprites/000 stars.txt"
 
+        global config_enable_infinite_asteroid
+        config_enable_infinite_asteroid = True
+
         galaxy_place_systems()
 
         
@@ -1682,6 +1796,8 @@ def load_galaxy_configs(government_list):
 
     global planet_used_namelist
     planet_used_namelist = []
+    global wormhole_dict
+    wormhole_dict = {}
     radiusfull = 300
     radiusblackbody = 500
     assign_haze(system_list,radiusfull,radiusblackbody)

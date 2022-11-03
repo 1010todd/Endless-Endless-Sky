@@ -1,0 +1,99 @@
+fleet "Mzeeoc Security"
+	government "Mzeeoc"
+	names "Mzeeoc Military names"
+	personality
+		coward
+		disables
+		confusion 15
+	variant 10
+		"Ajbide" 4
+		"Blu zwidot" 4
+		"Qji ocl" 2
+	variant 15
+		"Xeu uks" 2
+		"Qji ocl" 2
+		"Mougokijm" 2
+	variant 7
+		"Xeu uks" 2
+		"Qji ocl" 2
+		"Qot fio" 3
+fleet "Mzeeoc Merchant"
+	government "Mzeeoc"
+	names "Mzeeoc names"
+	personality
+		timid
+		confusion 21
+	variant 0
+		"Blu zwidot" 3
+		"Mougokijm" 4
+		"Mougokijm" 4
+	variant 6
+		"Qot fio" 1
+		"Mougokijm" 1
+		"Mougokijm" 2
+	variant 30
+		"Xeu uks" 3
+		"Ajbide" 4
+		"Mougokijm" 3
+	variant 39
+		"Qji ocl" 2
+		"Blu zwidot" 3
+		"Qot fio" 2
+	variant 28
+		"Eiv waq" 2
+		"Ajbide" 3
+		"Blu zwidot" 4
+	variant 60
+		"Blu zwidot" 3
+		"Ajbide" 2
+		"Blu zwidot" 1
+	variant 96
+		"Eiv waq" 3
+		"Mougokijm" 1
+		"Ajbide" 1
+	variant 84
+		"Eiv waq" 2
+		"Mougokijm" 4
+		"Mougokijm" 4
+	variant 120
+		"Eiv waq" 1
+		"Ajbide" 2
+		"Qot fio" 4
+	variant 126
+		"Qji ocl" 4
+		"Qot fio" 3
+		"Eiv waq" 1
+	variant 40
+		"Eiv waq" 1
+		"Mougokijm" 4
+		"Blu zwidot" 2
+fleet "Mzeeoc Miner"
+	government "Mzeeoc"
+	names "Mzeeoc names"
+	personality
+		timid
+		mining
+		harvests
+		confusion 22
+	variant 15
+		"Qji ocl" 2
+		"Xeu uks" 2
+		"Mougokijm" 3
+		"Qot fio" 2
+	variant 7
+		"Xeu uks" 3
+		"Blu zwidot" 2
+	variant 18
+		"Xeu uks" 2
+		"Mougokijm" 2
+		"Qot fio" 3
+	variant 10
+		"Blu zwidot" 2
+	variant 10
+		"Xeu uks" 2
+		"Qji ocl" 2
+	variant 6
+		"Ajbide" 2
+		"Qot fio" 2
+		"Mougokijm" 3
+		"Xeu uks" 3

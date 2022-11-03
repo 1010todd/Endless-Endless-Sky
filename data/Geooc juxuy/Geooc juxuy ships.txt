@@ -1,0 +1,457 @@
+ship "Uknen yaoya yquou"
+	sprite "ship/Geooc juxuy/Uknen yaoya yquou"
+	attributes 
+		category "Medium Warship"
+		"cost" 10264000
+		"shields" 61400
+		"hull" 74400
+		"required crew" 2
+		"automaton" 1
+		"bunks" 40
+		"mass" 337.0
+		"drag" 6.13
+		"heat dissipation" 0.51
+		"fuel capacity" 1800
+		"cargo space" 45
+		"outfit space" 546
+		"weapon capacity" 176
+		"engine capacity" 160
+		weapon 
+			"blast radius" 442
+			"shield damage" 4420
+			"hull damage" 2210
+			"hit force" 3100
+	outfits 
+		"Mnaod Thruster" 1
+		"Mnaod Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 2
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 1
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 55 2
+	engine -63 2
+	gun 0 5
+	gun 47 -73
+	gun -50 -73
+	gun 19 -28
+	gun -22 -28
+	turret -14 -22
+	turret 44 -3
+	turret -50 -3
+	turret 8 -22
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Wujzu neozu oouox"
+	sprite "ship/Geooc juxuy/Wujzu neozu oouox"
+	attributes 
+		category "Medium Warship"
+		"cost" 61357000
+		"shields" 150800
+		"hull" 182900
+		"required crew" 1
+		"automaton" 1
+		"bunks" 19
+		"mass" 322.0
+		"drag" 6.05
+		"heat dissipation" 0.77
+		"fuel capacity" 1200
+		"cargo space" 40
+		"outfit space" 430
+		"weapon capacity" 176
+		"engine capacity" 110
+		weapon 
+			"blast radius" 1086
+			"shield damage" 10860
+			"hull damage" 5430
+			"hit force" 7610
+	outfits 
+		"Gouxcbeueo Thruster" 1
+		"Gouxcbeueo Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 2
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 1
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 0 98
+	gun -29 -6
+	gun 50 -52
+	gun -53 -52
+	gun 26 -6
+	turret 0 -47
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Oqjisuabna"
+	sprite "ship/Geooc juxuy/Oqjisuabna"
+	attributes 
+		category "Transport"
+		"cost" 22262000
+		"shields" 53900
+		"hull" 65400
+		"required crew" 1
+		"automaton" 1
+		"bunks" 82
+		"mass" 251.4
+		"drag" 4.92
+		"heat dissipation" 0.88
+		"fuel capacity" 1400
+		"cargo space" 35
+		"outfit space" 336
+		"weapon capacity" 143
+		"engine capacity" 80
+		weapon 
+			"blast radius" 388
+			"shield damage" 3890
+			"hull damage" 1950
+			"hit force" 2720
+	outfits 
+		"Gouxcbeueo Thruster" 1
+		"Gouxcbeueo Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 2
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 1
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 0 47
+	gun -50 -13
+	gun 47 -13
+	turret 0 -11
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 0
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Geooc juxuy T3.1 ship"
+
+ship "Qijoa bvuew xewoo"
+	sprite "ship/Geooc juxuy/Qijoa bvuew xewoo"
+	attributes 
+		category "Transport"
+		"cost" 17577000
+		"shields" 50900
+		"hull" 61700
+		"required crew" 1
+		"automaton" 1
+		"bunks" 65
+		"mass" 171.2
+		"drag" 3.38
+		"heat dissipation" 0.66
+		"fuel capacity" 1400
+		"cargo space" 25
+		"outfit space" 273
+		"weapon capacity" 110
+		"engine capacity" 80
+		weapon 
+			"blast radius" 366
+			"shield damage" 3670
+			"hull damage" 1840
+			"hit force" 2570
+	outfits 
+		"Gouxcbeueo Thruster" 1
+		"Gouxcbeueo Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Aubie Cell" 2
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 1
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 0 14
+	gun -49 -61
+	gun 46 -61
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Geooc juxuy T3.1 ship"
+
+ship "Wbilexaeyl apoci"
+	sprite "ship/Geooc juxuy/Wbilexaeyl apoci"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 29006000
+		"shields" 148200
+		"hull" 179700
+		"required crew" 5
+		"bunks" 69
+		"mass" 857.8
+		"drag" 15.29
+		"heat dissipation" 0.51
+		"fuel capacity" 1500
+		"cargo space" 415
+		"outfit space" 1670
+		"weapon capacity" 572
+		"engine capacity" 440
+		weapon 
+			"blast radius" 1067
+			"shield damage" 10680
+			"hull damage" 5340
+			"hit force" 7470
+	outfits 
+		"Obimx aqmuy Thruster" 1
+		"Obimx aqmuy Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 4
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 2
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 110 28
+	engine -126 28
+	engine 69 53
+	engine -85 53
+	gun 0 8
+	gun 70 -53
+	gun -73 -53
+	gun 48 11
+	gun -51 11
+	turret -68 41
+	turret 87 -59
+	turret -93 -59
+	turret 62 41
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Avlea yyooi ieuso"
+	sprite "ship/Geooc juxuy/Avlea yyooi ieuso"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 32949000
+		"shields" 106100
+		"hull" 128600
+		"required crew" 2
+		"automaton" 1
+		"bunks" 84
+		"mass" 1138.4
+		"drag" 23.19
+		"heat dissipation" 0.79
+		"fuel capacity" 800
+		"cargo space" 550
+		"outfit space" 2194
+		"weapon capacity" 913
+		"engine capacity" 660
+		weapon 
+			"blast radius" 764
+			"shield damage" 7640
+			"hull damage" 3820
+			"hit force" 5350
+	outfits 
+		"Obimx aqmuy Thruster" 1
+		"Obimx aqmuy Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 4
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 2
+		"Hyperdrive"
+	engine 41 -4
+	engine -58 -4
+	engine 24 -30
+	engine -41 -30
+	engine 18 86
+	engine -35 86
+	engine 0 -29
+	gun -46 -77
+	gun 43 -77
+	turret -65 -62
+	turret 59 -62
+	leak "leak" 30
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Goaoc lacla"
+	sprite "ship/Geooc juxuy/Goaoc lacla"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 38209000
+		"shields" 119200
+		"hull" 144600
+		"required crew" 6
+		"automaton" 1
+		"bunks" 130
+		"mass" 1081.2
+		"drag" 24.07
+		"heat dissipation" 0.53
+		"fuel capacity" 1200
+		"cargo space" 520
+		"outfit space" 1932
+		"weapon capacity" 693
+		"engine capacity" 550
+		weapon 
+			"blast radius" 858
+			"shield damage" 8590
+			"hull damage" 4300
+			"hit force" 6010
+	outfits 
+		"Obimx aqmuy Thruster" 1
+		"Obimx aqmuy Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 4
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 2
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 99 44
+	engine -107 44
+	engine 47 -87
+	engine -55 -87
+	engine 45 -15
+	engine -53 -15
+	gun 0 33
+	gun 88 -31
+	gun -91 -31
+	gun 65 45
+	gun -68 45
+	turret 0 39
+	turret 100 -157
+	turret -106 -157
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Duujerquaq"
+	sprite "ship/Geooc juxuy/Duujerquaq"
+	attributes 
+		category "Heavy Warship"
+		"cost" 124543000
+		"shields" 282700
+		"hull" 342800
+		"required crew" 3
+		"bunks" 62
+		"mass" 734.2
+		"drag" 14.45
+		"heat dissipation" 0.68
+		"fuel capacity" 1900
+		"cargo space" 90
+		"outfit space" 1281
+		"weapon capacity" 539
+		"engine capacity" 320
+		weapon 
+			"blast radius" 2035
+			"shield damage" 20360
+			"hull damage" 10180
+			"hit force" 14250
+	outfits 
+		"Obimx aqmuy Thruster" 1
+		"Obimx aqmuy Steering" 1
+		"Bwuiviuyay Shield Rejuvenator" 1
+		"Yiuge Anti-Missile" 1
+		"Aubie Cell" 4
+		"Coani Capacitor" 1
+		"Umaeu oosae Cell" 2
+		"Oskuy Cooler" 1
+		"Hyperdrive"
+	engine 48 -19
+	engine -64 -19
+	engine 0 45
+	gun -31 -38
+	gun 59 -76
+	gun -62 -76
+	gun 42 -32
+	gun -45 -32
+	gun 9 72
+	gun -12 72
+	gun 28 -38
+	turret -43 22
+	turret 63 -74
+	turret -69 -74
+	turret 64 10
+	turret -70 10
+	turret 72 37
+	turret -78 37
+	turret 37 22
+	leak "leak" 70
+	leak "flame" 20
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Geooc juxuy T3.1 ship"
+
+ship "Cujvu xiugk"
+	sprite "ship/Geooc juxuy/Cujvu xiugk"
+	attributes 
+		category "Drone"
+		"cost" 9475000
+		"shields" 25700
+		"hull" 31200
+		"required crew" 1
+		"bunks" 6
+		"mass" 51.8
+		"drag" 0.96
+		"heat dissipation" 0.79
+		"fuel capacity" 200
+		"cargo space" 10
+		"outfit space" 256
+		"weapon capacity" 80
+		"engine capacity" 30
+		weapon 
+			"blast radius" 185
+			"shield damage" 1860
+			"hull damage" 930
+			"hit force" 1300
+	outfits 
+		"Bquor Thruster" 1
+		"Bquor Steering" 1
+		"Yiuge Anti-Missile" 1
+		"Hyperdrive"
+	engine 0 20
+	gun 0 -22
+	gun 34 -29
+	gun -36 -29
+	turret 0 -23
+	leak "leak" 0
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Geooc juxuy T3.1 ship"
+

@@ -1,0 +1,2313 @@
+outfit "Ijibat Capacitor"
+	category "Power"
+	cost 180300
+	thumbnail "outfit/tiny battery hai"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 2450
+	description "Mzeeoc T2.0 Battery"
+
+outfit "Ijibat Capacitor"
+	category "Power"
+	cost 324600
+	thumbnail "outfit/small battery hai"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 5390
+	description "Mzeeoc T2.0 Battery"
+
+
+outfit "Melela Cell"
+	category "Power"
+	cost 43200
+	thumbnail "outfit/hai pebble core"
+	"mass" 14
+	"outfit space" -14
+	"energy generation" 2.0
+	"heat generation" 3.5
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Tie Cell"
+	category "Power"
+	cost 73500
+	thumbnail "outfit/hai geode"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 4.4
+	"heat generation" 9.8
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Yexeup Cell"
+	category "Power"
+	cost 125000
+	thumbnail "outfit/hai boulder"
+	"mass" 45
+	"outfit space" -45
+	"energy generation" 9.7
+	"heat generation" 27.4
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Ielruq Cell"
+	category "Power"
+	cost 24100
+	thumbnail "outfit/red sun"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 2.4
+	"heat generation" 6.3
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Ipl Cell"
+	category "Power"
+	cost 41000
+	thumbnail "outfit/yellow sun"
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 5.3
+	"heat generation" 11.3
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Zmu Cell"
+	category "Power"
+	cost 69700
+	thumbnail "outfit/white sun"
+	"mass" 58
+	"outfit space" -58
+	"energy generation" 11.7
+	"heat generation" 20.3
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Zte Cell"
+	category "Power"
+	cost 118500
+	thumbnail "outfit/blue sun"
+	"mass" 104
+	"outfit space" -104
+	"energy generation" 25.7
+	"heat generation" 36.5
+	description "Mzeeoc T2.0 Power generator"
+
+
+outfit "Eno Thruster"
+	category "Engines"
+	cost 3102300
+	thumbnail "outfit/small plasma thruster"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 6.4
+	"thrusting energy" 0.6
+	"thrusting heat" 1.1
+	"flare sprite" "effect/plasma flare/small"
+		"frame rate" 1.175064638549652
+	"flare sound" "plasma small"
+	description "Mzeeoc T2.0 Thruster"
+
+outfit "Eno Steering"
+	category "Engines"
+	cost 2428191
+	thumbnail "outfit/small plasma steering"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"turn" 178
+	"turning energy" 0.5
+	"turning heat" 0.9
+	description "Mzeeoc T2.0 steering"
+
+outfit "Err Thruster"
+	category "Engines"
+	cost 5274000
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"thrust" 15.4
+	"thrusting energy" 1.3
+	"thrusting heat" 2.4
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 1
+	"flare sound" "plasma medium"
+	description "Mzeeoc T2.0 Thruster"
+
+outfit "Err Steering"
+	category "Engines"
+	cost 8965800
+	thumbnail "outfit/medium plasma steering"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"turn" 427.2
+	"turning energy" 1.1
+	"turning heat" 2.0
+	description "Mzeeoc T2.0 steering"
+
+outfit "Osexen Thruster"
+	category "Engines"
+	cost 8965800
+	thumbnail "outfit/large plasma thruster"
+	"mass" 58
+	"outfit space" -58
+	"engine capacity" -58
+	"thrust" 37.0
+	"thrusting energy" 2.9
+	"thrusting heat" 5.3
+	"flare sprite" "effect/plasma flare/large"
+		"frame rate" 1
+	"flare sound" "plasma large"
+	description "Mzeeoc T2.0 Thruster"
+
+outfit "Osexen Steering"
+	category "Engines"
+	cost 15241900
+	thumbnail "outfit/large plasma steering"
+	"mass" 41
+	"outfit space" -41
+	"engine capacity" -41
+	"turn" 1025.3
+	"turning energy" 2.4
+	"turning heat" 4.4
+	description "Mzeeoc T2.0 steering"
+
+
+outfit "Eno Shield Core"
+	category "Systems"
+	cost 51500
+	thumbnail "outfit/tiny shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 0.61
+	"shield energy" 0.73
+	description "Mzeeoc T2.0 shield gen"
+
+outfit "Mloebv Shield Core"
+	category "Systems"
+	cost 92700
+	thumbnail "outfit/small shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 1.2
+	"shield energy" 1.3
+	description "Mzeeoc T2.0 shield gen"
+
+outfit "Ope aqw Shield Core"
+	category "Systems"
+	cost 166900
+	thumbnail "outfit/medium shield"
+	"mass" 33
+	"outfit space" -33
+	"shield generation" 2.4
+	"shield energy" 2.3
+	description "Mzeeoc T2.0 shield gen"
+
+outfit "Que Shield Core"
+	category "Systems"
+	cost 300500
+	thumbnail "outfit/large shield"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 4.8
+	"shield energy" 4.1
+	description "Mzeeoc T2.0 shield gen"
+
+outfit "Ssu Shield Core"
+	category "Systems"
+	cost 540900
+	thumbnail "outfit/huge shield"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 9.6
+	"shield energy" 7.4
+	description "Mzeeoc T2.0 shield gen"
+
+outfit "Zko vao Shield Core"
+	category "Systems"
+	cost 973700
+	thumbnail "outfit/huge shield"
+	"mass" 112
+	"outfit space" -112
+	"shield generation" 19.2
+	"shield energy" 13.3
+	description "Mzeeoc T2.0 shield gen"
+
+
+outfit "Edzyob Hull Reconstructor"
+	category "Systems"
+	cost 53800
+	thumbnail "outfit/tiny shield"
+	"mass" 12
+	"outfit space" -12
+	"hull repair rate" 0.71
+	"hull energy" 0.8
+	"hull heat" 0
+	description "Mzeeoc T2.0 Hull Repair"
+
+outfit "Npa Hull Reconstructor"
+	category "Systems"
+	cost 96900
+	thumbnail "outfit/small shield"
+	"mass" 18
+	"outfit space" -18
+	"hull repair rate" 1.4
+	"hull energy" 1.4
+	"hull heat" 0
+	description "Mzeeoc T2.0 Hull Repair"
+
+
+outfit "Qmi tzo Heat Shunt"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 20
+	"active cooling" 16
+	"cooling energy" 9.397926687814214
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Feurin Cell"
+	category "Power"
+	cost 298800
+	thumbnail "outfit/red sun"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 2.4
+	"heat generation" 5.1
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Orp Cell"
+	category "Power"
+	cost 508000
+	thumbnail "outfit/yellow sun"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 5.3
+	"heat generation" 23.5
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Qes Cell"
+	category "Power"
+	cost 863600
+	thumbnail "outfit/white sun"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 11.7
+	"heat generation" 108.1
+	description "Mzeeoc T2.0 Power generator"
+
+outfit "Qoojaj Cell"
+	category "Power"
+	cost 1468200
+	thumbnail "outfit/blue sun"
+	"mass" 16
+	"outfit space" -16
+	"energy generation" 25.7
+	"heat generation" 497.3
+	description "Mzeeoc T2.0 Power generator"
+
+
+outfit "Pqa jos Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 519
+	"outfit space" -519
+	"cooling" 1353
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yed zvi Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 591
+	"outfit space" -591
+	"cooling" 1275
+	"active cooling" 5312
+	"cooling energy" 396.4808461232929
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jag Heat Pump"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 367
+	"outfit space" -367
+	"active cooling" 2830
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Swo noe Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/liquid helium"
+	"mass" 224
+	"outfit space" -224
+	"cooling" 795
+	"active cooling" 1010
+	"cooling energy" 244.72634368073503
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Gar Heat Pump"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 466
+	"outfit space" -466
+	"cooling" 1045
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oleeyu Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 338
+	"outfit space" -338
+	"cooling" 1188
+	"active cooling" 2345
+	"cooling energy" 491.6097813013498
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iww Cooling"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/large heat shunt"
+	"mass" 305
+	"outfit space" -305
+	"active cooling" 1120
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Fig zad Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 374
+	"outfit space" -374
+	"cooling" 1029
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mea Heat Pump"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/hai williwaw"
+	"mass" 326
+	"outfit space" -326
+	"cooling" 948
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Paa Cooler"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/hai williwaw"
+	"mass" 325
+	"outfit space" -325
+	"cooling" 939
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Cax Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 448
+	"outfit space" -448
+	"cooling" 1143
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eaf zog Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 327
+	"outfit space" -327
+	"active cooling" 3194
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zsixza Temperature Control"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/large heat shunt"
+	"mass" 381
+	"outfit space" -381
+	"cooling" 854
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Emu Cooling"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/hai williwaw"
+	"mass" 311
+	"outfit space" -311
+	"cooling" 1003
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oni Temperature Control"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/large heat shunt"
+	"mass" 288
+	"outfit space" -288
+	"cooling" 813
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ylo Heatsink"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 365
+	"outfit space" -365
+	"cooling" 750
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oeytai Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/hai williwaw"
+	"mass" 299
+	"outfit space" -299
+	"cooling" 979
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ozn ejw Cooler"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/large heat shunt"
+	"mass" 478
+	"outfit space" -478
+	"cooling" 1063
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qes Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 265
+	"outfit space" -265
+	"active cooling" 2162
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xcu Heat Pump"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/large heat shunt"
+	"mass" 561
+	"outfit space" -561
+	"cooling" 1168
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mdilom Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 312
+	"outfit space" -312
+	"cooling" 807
+	"active cooling" 1635
+	"cooling energy" 303.48929417026767
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oeqrim Heatsink"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 375
+	"outfit space" -375
+	"cooling" 967
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Totsro Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/liquid helium"
+	"mass" 193
+	"outfit space" -193
+	"cooling" 684
+	"active cooling" 2313
+	"cooling energy" 294.567189287188
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Lja Heat Pump"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/large heat shunt"
+	"mass" 406
+	"outfit space" -406
+	"cooling" 822
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Equbge Cooler"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid helium"
+	"mass" 497
+	"outfit space" -497
+	"active cooling" 5661
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iamguo Heat Shunt"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/hai williwaw"
+	"mass" 324
+	"outfit space" -324
+	"cooling" 714
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ueobuz Temperature Control"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 547
+	"outfit space" -547
+	"active cooling" 6120
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eugpbo Cooler"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid helium"
+	"mass" 394
+	"outfit space" -394
+	"cooling" 875
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Igo Heat Shunt"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 377
+	"outfit space" -377
+	"cooling" 795
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uee Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 463
+	"outfit space" -463
+	"active cooling" 2991
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ajr lte Cooler"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 631
+	"outfit space" -631
+	"cooling" 1286
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iqv wjo Heat Shunt"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/large heat shunt"
+	"mass" 498
+	"outfit space" -498
+	"active cooling" 2011
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oti Temperature Control"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/liquid helium"
+	"mass" 487
+	"outfit space" -487
+	"cooling" 1086
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Bye Temperature Control"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 359
+	"outfit space" -359
+	"active cooling" 5227
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Wzo Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 258
+	"outfit space" -258
+	"cooling" 1051
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Wizqis Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 466
+	"outfit space" -466
+	"cooling" 1330
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Weq Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 317
+	"outfit space" -317
+	"cooling" 773
+	"active cooling" 100
+	"cooling energy" 256.5586025863221
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Miukaq Heat Shunt"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/liquid helium"
+	"mass" 266
+	"outfit space" -266
+	"cooling" 730
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Wuy qut Heatsink"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 499
+	"outfit space" -499
+	"cooling" 1057
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mxapna Heatsink"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/liquid helium"
+	"mass" 294
+	"outfit space" -294
+	"cooling" 703
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Bla Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 451
+	"outfit space" -451
+	"cooling" 969
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Wno Heat Pump"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 502
+	"outfit space" -502
+	"cooling" 1116
+	"active cooling" 5274
+	"cooling energy" 424.9308832395263
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Tte bol Cooler"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 207
+	"outfit space" -207
+	"cooling" 823
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qzuire Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/large heat shunt"
+	"mass" 330
+	"outfit space" -330
+	"cooling" 1140
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Umm Cooler"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 354
+	"outfit space" -354
+	"cooling" 751
+	"active cooling" 2345
+	"cooling energy" 335.0023497819751
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Dba Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 401
+	"outfit space" -401
+	"cooling" 941
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Duvnju Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 198
+	"outfit space" -198
+	"cooling" 881
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ixe jqo Heatsink"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 488
+	"outfit space" -488
+	"cooling" 1267
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iqb Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 502
+	"outfit space" -502
+	"cooling" 1194
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zhiexd Temperature Control"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid helium"
+	"mass" 560
+	"outfit space" -560
+	"cooling" 1139
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Orq Cooler"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/large heat shunt"
+	"mass" 223
+	"outfit space" -223
+	"cooling" 778
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Giprxa Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/hai williwaw"
+	"mass" 257
+	"outfit space" -257
+	"cooling" 1119
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xog Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/hai williwaw"
+	"mass" 351
+	"outfit space" -351
+	"cooling" 898
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xor Heat Shunt"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 361
+	"outfit space" -361
+	"cooling" 1059
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xaz Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/large heat shunt"
+	"mass" 423
+	"outfit space" -423
+	"cooling" 1337
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ijn Cooling"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 232
+	"outfit space" -232
+	"cooling" 719
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jjunes Heatsink"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 406
+	"outfit space" -406
+	"cooling" 1225
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jumwyo Heatsink"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/large heat shunt"
+	"mass" 437
+	"outfit space" -437
+	"active cooling" 1204
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Pie rup Temperature Control"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/large heat shunt"
+	"mass" 407
+	"outfit space" -407
+	"cooling" 1324
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ili Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/hai williwaw"
+	"mass" 303
+	"outfit space" -303
+	"cooling" 809
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qru Cooling"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/liquid helium"
+	"mass" 330
+	"outfit space" -330
+	"cooling" 788
+	"active cooling" 3403
+	"cooling energy" 331.9899681738784
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Irycue Heat Shunt"
+	category "Systems"
+	cost 4600
+	thumbnail "outfit/large heat shunt"
+	"mass" 158
+	"outfit space" -158
+	"active cooling" 1743
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eiaufs Temperature Control"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 432
+	"outfit space" -432
+	"cooling" 1333
+	"active cooling" 6383
+	"cooling energy" 658.7855227277947
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Feasta Cooler"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 366
+	"outfit space" -366
+	"cooling" 1282
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iqpqin Heat Shunt"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 254
+	"outfit space" -254
+	"cooling" 834
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ppu mqe Temperature Control"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/large heat shunt"
+	"mass" 222
+	"outfit space" -222
+	"active cooling" 171
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Obg Temperature Control"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 458
+	"outfit space" -458
+	"cooling" 1066
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Loxoez Heat Shunt"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/liquid helium"
+	"mass" 479
+	"outfit space" -479
+	"cooling" 1306
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Doj Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/large heat shunt"
+	"mass" 477
+	"outfit space" -477
+	"cooling" 1002
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Veo oqj Cooling"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 608
+	"outfit space" -608
+	"cooling" 1305
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zareja Heat Pump"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/large heat shunt"
+	"mass" 536
+	"outfit space" -536
+	"cooling" 1162
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ila Temperature Control"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid helium"
+	"mass" 327
+	"outfit space" -327
+	"cooling" 684
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Suzeme Temperature Control"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/large heat shunt"
+	"mass" 414
+	"outfit space" -414
+	"cooling" 1065
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ywu Cooler"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/hai williwaw"
+	"mass" 279
+	"outfit space" -279
+	"cooling" 1206
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Geeomq Cooler"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/hai williwaw"
+	"mass" 445
+	"outfit space" -445
+	"cooling" 899
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xourus Heat Shunt"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 288
+	"outfit space" -288
+	"cooling" 994
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ouv Temperature Control"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid helium"
+	"mass" 221
+	"outfit space" -221
+	"cooling" 595
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uwu Cooler"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/large heat shunt"
+	"mass" 247
+	"outfit space" -247
+	"cooling" 820
+	"active cooling" 3492
+	"cooling energy" 296.86324907645553
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iew Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/hai williwaw"
+	"mass" 252
+	"outfit space" -252
+	"cooling" 657
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Epajeu Heat Pump"
+	category "Systems"
+	cost 5800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 114
+	"outfit space" -114
+	"cooling" 385
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Aux Heatsink"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 193
+	"outfit space" -193
+	"cooling" 625
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Otexyi Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 162
+	"outfit space" -162
+	"cooling" 376
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qed iei Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 71
+	"outfit space" -71
+	"cooling" 262
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mni Heat Shunt"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 61
+	"outfit space" -61
+	"cooling" 236
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Sej Heat Pump"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 104
+	"outfit space" -104
+	"cooling" 213
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zqu Heat Shunt"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 52
+	"outfit space" -52
+	"cooling" 104
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qoyade Cooling"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 62
+	"outfit space" -62
+	"cooling" 126
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Egi mpu Cooling"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 39
+	"active cooling" 110
+	"cooling energy" 12.934609496137712
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ugb due Heat Shunt"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/cooling ducts"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 16
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ieouxt Cooler"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Soe Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Geyajt Cooler"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/small heat shunt"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ibq Temperature Control"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 2
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ura xoa Heat Shunt"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ijq Heat Pump"
+	category "Systems"
+	cost 3500
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qug Heat Pump"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Noo Temperature Control"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Vaiqij Cooler"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ijy gfi Heat Shunt"
+	category "Systems"
+	cost 4100
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 13
+	"active cooling" 30
+	"cooling energy" 7.922064451028
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Oce Heatsink"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	"active cooling" 84
+	"cooling energy" 4.746733491670254
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ieo Heatsink"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	"active cooling" 33
+	"cooling energy" 5.197715491470391
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Evs Heat Shunt"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small heat shunt"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xei goq Cooling"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Tis piy Cooling"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xza Heat Shunt"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 2
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ymeoen Heatsink"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Seu Heatsink"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zfoyas Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yiygae Heatsink"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Muj Cooler"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qiq Heat Pump"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Hqu Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	"active cooling" 2
+	"cooling energy" 4.961964985146377
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eseela Heat Shunt"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zao Heat Pump"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 16
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qzu Cooling"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Addiom Cooling"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"active cooling" 41
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Otr Cooling"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Toe Temperature Control"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/small heat shunt"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ono Cooling"
+	category "Systems"
+	cost 3600
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iso Heatsink"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ozi Cooling"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 35
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Reu Temperature Control"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jpo Heat Shunt"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"active cooling" 46
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yba Cooling"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	"active cooling" 14
+	"cooling energy" 4.497925821284313
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qsosiq Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Fuymov Heat Pump"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jqe Heat Pump"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Npa szi Heat Pump"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Odsyja Cooling"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/cooling ducts"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	"active cooling" 19
+	"cooling energy" 4.4127764121133755
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Dsuruo Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Sao Heat Pump"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ear Heat Shunt"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Saa Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mse Heatsink"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Dojyuv Heatsink"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mfi lio Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qqopea Temperature Control"
+	category "Systems"
+	cost 3200
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uwv Cooler"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 6
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Taa Cooling"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mueeot Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 22
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Sia wea Temperature Control"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 64
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Beu Heatsink"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iee Heat Pump"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Tla usp Cooling"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Axy Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yji Cooling"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/cooling module"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Nge ibt Heatsink"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Azl Heatsink"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uagsuu Heat Shunt"
+	category "Systems"
+	cost 8700
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 13
+	"active cooling" 45
+	"cooling energy" 6.3452710262901615
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Qoq Heat Shunt"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/water cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Old Temperature Control"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Bou Heatsink"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 9
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Cjo Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	"active cooling" 64
+	"cooling energy" 4.069377439601737
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Mejsuo Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eei Cooling"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 20
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Sinoso Heat Pump"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uslnuu Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jas Cooling"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 9
+	"active cooling" 16
+	"cooling energy" 4.948095975860711
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ozn Cooling"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yuz Cooler"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jem Heat Shunt"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Weebvi Cooling"
+	category "Systems"
+	cost 6000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	"active cooling" 8
+	"cooling energy" 5.703722659086395
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jpoovj Cooling"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/small heat shunt"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Ozn Heat Shunt"
+	category "Systems"
+	cost 9700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Yau biz Heat Pump"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 8
+	"active cooling" 8
+	"cooling energy" 3.2519756316260984
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uqa Temperature Control"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 12
+	"active cooling" 25
+	"cooling energy" 6.630500410468678
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Lgiwom Temperature Control"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/water cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 44
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jouqet Cooler"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Aqi Heatsink"
+	category "Systems"
+	cost 8900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Usr Cooler"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/cooling ducts"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 12
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eiifaz Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Izt Heat Shunt"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/cooling ducts"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 8
+	"active cooling" 49
+	"cooling energy" 3.5665297846613595
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Xeu Heatsink"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Eqgeij Heat Shunt"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	"active cooling" 50
+	"cooling energy" 4.8929259683470185
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Uot imj Cooler"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iclixj Cooling"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Lae Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/cooling module"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 24
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Fwiraa Heatsink"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 6
+	"outfit space" -6
+	"active cooling" 27
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Woj nej Temperature Control"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zre Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Itxoqz Heatsink"
+	category "Systems"
+	cost 6700
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Per siv Heat Pump"
+	category "Systems"
+	cost 5500
+	thumbnail "outfit/small heat shunt"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Jpa Cooling"
+	category "Systems"
+	cost 3800
+	thumbnail "outfit/cooling ducts"
+	"mass" 2
+	"outfit space" -2
+	"active cooling" 20
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Byu Heatsink"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 20
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Iby Cooling"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Arr Temperature Control"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/cooling module"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 15
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Saa Cooling"
+	category "Systems"
+	cost 8100
+	thumbnail "outfit/cooling module"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Elo Heat Pump"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 3
+	"outfit space" -3
+	"active cooling" 11
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Upe Temperature Control"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/cooling module"
+	"mass" 7
+	"outfit space" -7
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zbe sju Heat Shunt"
+	category "Systems"
+	cost 4400
+	thumbnail "outfit/cooling module"
+	"mass" 2
+	"outfit space" -2
+	"cooling" 8
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Nza Heat Pump"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 57
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Szosia Heat Shunt"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/small sheragi cooling"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 14
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Aes olo Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 4
+	"outfit space" -4
+	"cooling" 13
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Aro Heat Pump"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/water cooling"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 15
+	"active cooling" 54
+	"cooling energy" 8.39324325531517
+	description "Mzeeoc T2.0 Cooling"
+
+
+outfit "Zbomxo Cooler"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/cooling ducts hai"
+	"mass" 3
+	"outfit space" -3
+	"cooling" 10
+	description "Mzeeoc T2.0 Cooling"
+
+

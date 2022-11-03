@@ -1,0 +1,17 @@
+government "Uaoup umkee"
+	"display name" "Uaoup umkee"
+	"swizzle" 4
+	"color" 0.375 0.512 0.279 0.322
+	"player reputation" 0
+	"crew attack" 2.1
+	"crew defense" 4.5
+	"attitude toward"
+		"Icz giu" -1
+		"Ozujto" 0
+		"Xgautoceeh" 0
+		"Iebau rojoa" -1
+		"Geooc juxuy" -1
+		"Ivupvrbeeb" 0
+		"Uvprluwq" -1
+		"Mzeeoc" 0
+		"Edavu ayouz" 0

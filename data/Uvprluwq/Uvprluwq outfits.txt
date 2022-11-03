@@ -1,0 +1,1205 @@
+outfit "Rloeeqbi Battery"
+	category "Power"
+	cost 154300
+	thumbnail "outfit/tiny battery hai"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 2260
+	description "Uvprluwq T2.3 Battery"
+
+outfit "Rloeeqbi Battery"
+	category "Power"
+	cost 277800
+	thumbnail "outfit/small battery hai"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 5880
+	description "Uvprluwq T2.3 Battery"
+
+
+outfit "Axba Cell"
+	category "Power"
+	cost 66500
+	thumbnail "outfit/red sun"
+	"mass" 19
+	"outfit space" -19
+	"energy generation" 2.8
+	"energy capacity" 19626
+	"heat generation" 3.3
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Ipjeuwjn Cell"
+	category "Power"
+	cost 113100
+	thumbnail "outfit/yellow sun"
+	"mass" 38
+	"outfit space" -38
+	"energy generation" 7.3
+	"energy capacity" 43177.2
+	"heat generation" 14.5
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Oqawfozi Cell"
+	category "Power"
+	cost 192300
+	thumbnail "outfit/white sun"
+	"mass" 76
+	"outfit space" -76
+	"energy generation" 19.0
+	"energy capacity" 94989.8
+	"heat generation" 63.8
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Wimi Cell"
+	category "Power"
+	cost 327000
+	thumbnail "outfit/blue sun"
+	"mass" 152
+	"outfit space" -152
+	"energy generation" 49.4
+	"energy capacity" 208977.6
+	"heat generation" 280.7
+	description "Uvprluwq T2.3 Power generator"
+
+
+outfit "Emgo Thruster"
+	category "Engines"
+	cost 3637800
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 5.2
+	"thrusting energy" 0.5
+	"thrusting heat" 0.7
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.3766276870906957
+	"flare sound" "ka'het small"
+	description "Uvprluwq T2.3 Thruster"
+
+outfit "Emgo Steering"
+	category "Engines"
+	cost 3145265
+	thumbnail "outfit/small ka'het steering"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"turn" 150
+	"turning energy" 0.4
+	"turning heat" 0.6
+	description "Uvprluwq T2.3 steering"
+
+outfit "Faug Thruster"
+	category "Engines"
+	cost 6184300
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 12.5
+	"thrusting energy" 1.1
+	"thrusting heat" 1.5
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Uvprluwq T2.3 Thruster"
+
+outfit "Faug Steering"
+	category "Engines"
+	cost 10513400
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 360.0
+	"turning energy" 0.9
+	"turning heat" 1.3
+	description "Uvprluwq T2.3 steering"
+
+outfit "Omijkjoa Thruster"
+	category "Engines"
+	cost 10513400
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"thrust" 30.0
+	"thrusting energy" 2.4
+	"thrusting heat" 3.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Uvprluwq T2.3 Thruster"
+
+outfit "Omijkjoa Steering"
+	category "Engines"
+	cost 17872800
+	thumbnail "outfit/large ka'het steering"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"turn" 864.0
+	"turning energy" 2.0
+	"turning heat" 2.9
+	description "Uvprluwq T2.3 steering"
+
+outfit "Zend Thruster"
+	category "Engines"
+	cost 17872800
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 106
+	"outfit space" -106
+	"engine capacity" -106
+	"thrust" 72.0
+	"thrusting energy" 5.3
+	"thrusting heat" 7.3
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Uvprluwq T2.3 Thruster"
+
+outfit "Zend Steering"
+	category "Engines"
+	cost 30383800
+	thumbnail "outfit/large ka'het steering"
+	"mass" 88
+	"outfit space" -88
+	"engine capacity" -88
+	"turn" 2073.6
+	"turning energy" 4.4
+	"turning heat" 6.4
+	description "Uvprluwq T2.3 steering"
+
+
+outfit "Niev Shield Core"
+	category "Systems"
+	cost 119800
+	thumbnail "outfit/tiny shield"
+	"mass" 9
+	"outfit space" -9
+	"shield generation" 0.71
+	"shield energy" 1.18
+	"shield heat" 2
+	description "Uvprluwq T2.3 shield gen"
+
+outfit "Oiiwjije Shield Core"
+	category "Systems"
+	cost 215700
+	thumbnail "outfit/small shield"
+	"mass" 14
+	"outfit space" -14
+	"shield generation" 1.4
+	"shield energy" 1.9
+	"shield heat" 2
+	description "Uvprluwq T2.3 shield gen"
+
+
+outfit "Dmei Damage Control"
+	category "Systems"
+	cost 113800
+	thumbnail "outfit/tiny shield"
+	"mass" 14
+	"outfit space" -14
+	"hull repair rate" 0.99
+	"hull energy" 1.45
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+outfit "Moae obey Damage Control"
+	category "Systems"
+	cost 204900
+	thumbnail "outfit/small shield"
+	"mass" 21
+	"outfit space" -21
+	"hull repair rate" 2.0
+	"hull energy" 2.3
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+outfit "Ooiwitro Damage Control"
+	category "Systems"
+	cost 368900
+	thumbnail "outfit/medium shield"
+	"mass" 32
+	"outfit space" -32
+	"hull repair rate" 4.0
+	"hull energy" 3.7
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+outfit "Qazezuow Damage Control"
+	category "Systems"
+	cost 664100
+	thumbnail "outfit/large shield"
+	"mass" 48
+	"outfit space" -48
+	"hull repair rate" 8.0
+	"hull energy" 5.9
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+outfit "Wujomoue Damage Control"
+	category "Systems"
+	cost 1195400
+	thumbnail "outfit/huge shield"
+	"mass" 72
+	"outfit space" -72
+	"hull repair rate" 16.0
+	"hull energy" 9.4
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+outfit "Zpae Damage Control"
+	category "Systems"
+	cost 2151800
+	thumbnail "outfit/huge shield"
+	"mass" 108
+	"outfit space" -108
+	"hull repair rate" 32.0
+	"hull energy" 15.0
+	"hull heat" 2
+	description "Uvprluwq T2.3 Hull Repair"
+
+
+outfit "Buupervp Generator"
+	category "Power"
+	cost 236200
+	thumbnail "outfit/fission"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 2.9
+	"heat generation" 3.0
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Imujojyu Generator"
+	category "Power"
+	cost 401600
+	thumbnail "outfit/breeder"
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 7.5
+	"heat generation" 6.0
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Muwi Generator"
+	category "Power"
+	cost 682800
+	thumbnail "outfit/stack core"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 19.5
+	"heat generation" 12.0
+	description "Uvprluwq T2.3 Power generator"
+
+
+outfit "Feweigxe Cooling"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/large heat shunt"
+	"mass" 168
+	"outfit space" -168
+	"cooling" 399
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Puimiova Heat Shunt"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/hai williwaw"
+	"mass" 233
+	"outfit space" -233
+	"cooling" 586
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Jpoaikup Cooling"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/liquid helium"
+	"mass" 225
+	"outfit space" -225
+	"cooling" 577
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Uqzawiag Cooling"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 200
+	"outfit space" -200
+	"active cooling" 905
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Tyiuovwi Temperature Control"
+	category "Systems"
+	cost 8600
+	thumbnail "outfit/large heat shunt"
+	"mass" 250
+	"outfit space" -250
+	"cooling" 661
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Webazjoi Heat Pump"
+	category "Systems"
+	cost 8400
+	thumbnail "outfit/liquid helium"
+	"mass" 194
+	"outfit space" -194
+	"cooling" 460
+	"active cooling" 2261
+	"cooling energy" 214.18319015108437
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Lwod Heat Pump"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/hai williwaw"
+	"mass" 273
+	"outfit space" -273
+	"cooling" 703
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Udufujgo Cooler"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/large heat shunt"
+	"mass" 107
+	"outfit space" -107
+	"cooling" 396
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ipcd Temperature Control"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 159
+	"outfit space" -159
+	"cooling" 689
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Boxi Cooling"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 94
+	"outfit space" -94
+	"cooling" 448
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Jozb Heatsink"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/hai williwaw"
+	"mass" 167
+	"outfit space" -167
+	"cooling" 386
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Xaxp wuqo Cooler"
+	category "Systems"
+	cost 5100
+	thumbnail "outfit/liquid helium"
+	"mass" 158
+	"outfit space" -158
+	"cooling" 671
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Qaoe piye Temperature Control"
+	category "Systems"
+	cost 9300
+	thumbnail "outfit/liquid helium"
+	"mass" 327
+	"outfit space" -327
+	"cooling" 708
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ofezuxzo Heat Pump"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid helium"
+	"mass" 151
+	"outfit space" -151
+	"cooling" 556
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Busm Cooler"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/large heat shunt"
+	"mass" 229
+	"outfit space" -229
+	"cooling" 715
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Redo Heat Shunt"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/large heat shunt"
+	"mass" 189
+	"outfit space" -189
+	"cooling" 565
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Owem Heat Pump"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 207
+	"outfit space" -207
+	"cooling" 629
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Zeqeoiuj Cooler"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 165
+	"outfit space" -165
+	"cooling" 398
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Wagj Heat Shunt"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 304
+	"outfit space" -304
+	"cooling" 693
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Wuef Heat Shunt"
+	category "Systems"
+	cost 6400
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 165
+	"outfit space" -165
+	"active cooling" 2337
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ujambodu Cooling"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid helium"
+	"mass" 312
+	"outfit space" -312
+	"cooling" 693
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ebvu Cooler"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/large heat shunt"
+	"mass" 198
+	"outfit space" -198
+	"cooling" 494
+	"active cooling" 1751
+	"cooling energy" 196.27254426907683
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Moee Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/large heat shunt"
+	"mass" 196
+	"outfit space" -196
+	"cooling" 538
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Asozoeem Cooling"
+	category "Systems"
+	cost 10600
+	thumbnail "outfit/large heat shunt"
+	"mass" 322
+	"outfit space" -322
+	"active cooling" 3586
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Amiw Heat Shunt"
+	category "Systems"
+	cost 8800
+	thumbnail "outfit/liquid helium"
+	"mass" 265
+	"outfit space" -265
+	"cooling" 664
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Poeoybar Heatsink"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/large heat shunt"
+	"mass" 230
+	"outfit space" -230
+	"cooling" 517
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Koja Cooling"
+	category "Systems"
+	cost 6200
+	thumbnail "outfit/liquid helium"
+	"mass" 138
+	"outfit space" -138
+	"active cooling" 1676
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Kgin Temperature Control"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 167
+	"outfit space" -167
+	"cooling" 460
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Xuoi Heat Shunt"
+	category "Systems"
+	cost 9000
+	thumbnail "outfit/liquid helium"
+	"mass" 205
+	"outfit space" -205
+	"cooling" 508
+	"active cooling" 89
+	"cooling energy" 216.0432774526679
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ipiw Cooler"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 182
+	"outfit space" -182
+	"cooling" 456
+	"active cooling" 1926
+	"cooling energy" 177.44234137716532
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Rwae qowe Heatsink"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/liquid helium"
+	"mass" 217
+	"outfit space" -217
+	"cooling" 468
+	"active cooling" 2652
+	"cooling energy" 226.562101865826
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ewep Heatsink"
+	category "Systems"
+	cost 5700
+	thumbnail "outfit/liquid helium"
+	"mass" 153
+	"outfit space" -153
+	"cooling" 614
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Iaee Heat Shunt"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/hai williwaw"
+	"mass" 149
+	"outfit space" -149
+	"cooling" 467
+	"active cooling" 504
+	"cooling energy" 214.73309074981626
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Neqe leac Heat Shunt"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/hai williwaw"
+	"mass" 158
+	"outfit space" -158
+	"cooling" 614
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Viij Cooler"
+	category "Systems"
+	cost 9500
+	thumbnail "outfit/liquid helium"
+	"mass" 260
+	"outfit space" -260
+	"cooling" 596
+	"active cooling" 1437
+	"cooling energy" 146.243297863666
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ojuwwmaa Temperature Control"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/hai williwaw"
+	"mass" 222
+	"outfit space" -222
+	"cooling" 729
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Yuoe Heat Pump"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/hai williwaw"
+	"mass" 143
+	"outfit space" -143
+	"cooling" 643
+	"active cooling" 754
+	"cooling energy" 239.1616021847077
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Muda Heat Shunt"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/liquid helium"
+	"mass" 152
+	"outfit space" -152
+	"cooling" 602
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Buvtbyau Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 184
+	"outfit space" -184
+	"cooling" 488
+	"active cooling" 1719
+	"cooling energy" 252.1460034447697
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Izvoeiqi Heat Shunt"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 228
+	"outfit space" -228
+	"cooling" 615
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ejydlizc Temperature Control"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/liquid helium"
+	"mass" 222
+	"outfit space" -222
+	"cooling" 621
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Elgujqiu Cooling"
+	category "Systems"
+	cost 5400
+	thumbnail "outfit/hai williwaw"
+	"mass" 117
+	"outfit space" -117
+	"cooling" 478
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Veuqmiso Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 176
+	"outfit space" -176
+	"cooling" 514
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Qejo Heat Shunt"
+	category "Systems"
+	cost 6100
+	thumbnail "outfit/hai williwaw"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 393
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Paab fuuf Cooler"
+	category "Systems"
+	cost 6600
+	thumbnail "outfit/hai williwaw"
+	"mass" 147
+	"outfit space" -147
+	"cooling" 478
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Uezlfioy Heat Pump"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/liquid helium"
+	"mass" 195
+	"outfit space" -195
+	"cooling" 753
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Uezu Heat Shunt"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/liquid helium"
+	"mass" 141
+	"outfit space" -141
+	"cooling" 487
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Wevoamax Heat Shunt"
+	category "Systems"
+	cost 7600
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 273
+	"outfit space" -273
+	"cooling" 729
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ewkeqpua Heat Pump"
+	category "Systems"
+	cost 10900
+	thumbnail "outfit/liquid helium"
+	"mass" 227
+	"outfit space" -227
+	"cooling" 467
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Jpaievwu Heat Shunt"
+	category "Systems"
+	cost 9100
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 274
+	"outfit space" -274
+	"cooling" 689
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Azuerfui Temperature Control"
+	category "Systems"
+	cost 8200
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 197
+	"outfit space" -197
+	"cooling" 499
+	"active cooling" 748
+	"cooling energy" 193.01159670542418
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Iply Heat Pump"
+	category "Systems"
+	cost 4900
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 164
+	"outfit space" -164
+	"cooling" 728
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Xgauqagw Heatsink"
+	category "Systems"
+	cost 6300
+	thumbnail "outfit/hai williwaw"
+	"mass" 200
+	"outfit space" -200
+	"cooling" 657
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Javeekza Heatsink"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/large heat shunt"
+	"mass" 134
+	"outfit space" -134
+	"cooling" 381
+	"active cooling" 688
+	"cooling energy" 143.49208665581938
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Zaumkufo Cooling"
+	category "Systems"
+	cost 5200
+	thumbnail "outfit/hai williwaw"
+	"mass" 161
+	"outfit space" -161
+	"cooling" 694
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Yage Heat Shunt"
+	category "Systems"
+	cost 7900
+	thumbnail "outfit/liquid helium"
+	"mass" 185
+	"outfit space" -185
+	"cooling" 479
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Arvijoog Heat Shunt"
+	category "Systems"
+	cost 5600
+	thumbnail "outfit/liquid helium"
+	"mass" 184
+	"outfit space" -184
+	"cooling" 709
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Foux Temperature Control"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 342
+	"outfit space" -342
+	"cooling" 743
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Xidegufj Heatsink"
+	category "Systems"
+	cost 4700
+	thumbnail "outfit/liquid helium"
+	"mass" 121
+	"outfit space" -121
+	"cooling" 514
+	"active cooling" 890
+	"cooling energy" 191.71980578197218
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Emuk Heat Pump"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 149
+	"outfit space" -149
+	"cooling" 652
+	"active cooling" 234
+	"cooling energy" 362.5239117646504
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Fiifivat Cooling"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/liquid helium"
+	"mass" 126
+	"outfit space" -126
+	"cooling" 385
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Bebekyef Heatsink"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 258
+	"outfit space" -258
+	"active cooling" 3331
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Apzujapj Heat Pump"
+	category "Systems"
+	cost 6900
+	thumbnail "outfit/large heat shunt"
+	"mass" 154
+	"outfit space" -154
+	"cooling" 473
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Rdap uzqi Temperature Control"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/liquid helium"
+	"mass" 141
+	"outfit space" -141
+	"cooling" 564
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Ewca Heatsink"
+	category "Systems"
+	cost 7800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 209
+	"outfit space" -209
+	"cooling" 601
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Tmieowfa Heat Pump"
+	category "Systems"
+	cost 5300
+	thumbnail "outfit/hai williwaw"
+	"mass" 168
+	"outfit space" -168
+	"cooling" 717
+	"active cooling" 454
+	"cooling energy" 371.7054863198995
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Sacowofu Heatsink"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/large heat shunt"
+	"mass" 298
+	"outfit space" -298
+	"cooling" 630
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Boga Heat Pump"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/large heat shunt"
+	"mass" 189
+	"outfit space" -189
+	"cooling" 577
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Evzo Heatsink"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/hai williwaw"
+	"mass" 185
+	"outfit space" -185
+	"cooling" 519
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Fuotciyf Heat Shunt"
+	category "Systems"
+	cost 7000
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 136
+	"outfit space" -136
+	"cooling" 417
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Epeqtiqu Heatsink"
+	category "Systems"
+	cost 7400
+	thumbnail "outfit/hai williwaw"
+	"mass" 185
+	"outfit space" -185
+	"active cooling" 708
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Uwboevze Cooler"
+	category "Systems"
+	cost 7700
+	thumbnail "outfit/large heat shunt"
+	"mass" 130
+	"outfit space" -130
+	"cooling" 380
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Axqa Cooler"
+	category "Systems"
+	cost 7300
+	thumbnail "outfit/hai williwaw"
+	"mass" 174
+	"outfit space" -174
+	"cooling" 538
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Wasiwero Heatsink"
+	category "Systems"
+	cost 9800
+	thumbnail "outfit/liquid helium"
+	"mass" 261
+	"outfit space" -261
+	"cooling" 585
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Rxiiofav Heat Shunt"
+	category "Systems"
+	cost 7200
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 169
+	"outfit space" -169
+	"cooling" 472
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Zgiookex Heat Pump"
+	category "Systems"
+	cost 9400
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 243
+	"outfit space" -243
+	"cooling" 569
+	"active cooling" 221
+	"cooling energy" 285.46291018544645
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Wauw Cooling"
+	category "Systems"
+	cost 9600
+	thumbnail "outfit/large heat shunt"
+	"mass" 273
+	"outfit space" -273
+	"cooling" 581
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Feou Heatsink"
+	category "Systems"
+	cost 4200
+	thumbnail "outfit/liquid helium"
+	"mass" 101
+	"outfit space" -101
+	"cooling" 476
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Yzia Heatsink"
+	category "Systems"
+	cost 9900
+	thumbnail "outfit/liquid helium"
+	"mass" 269
+	"outfit space" -269
+	"active cooling" 1416
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Yvoh Cooling"
+	category "Systems"
+	cost 6800
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 223
+	"outfit space" -223
+	"cooling" 742
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Zbom Heatsink"
+	category "Systems"
+	cost 4800
+	thumbnail "outfit/liquid helium"
+	"mass" 146
+	"outfit space" -146
+	"cooling" 637
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Uofrgrod Heatsink"
+	category "Systems"
+	cost 4500
+	thumbnail "outfit/liquid nitrogen"
+	"mass" 139
+	"outfit space" -139
+	"cooling" 633
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Qmapqeux Heat Shunt"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/large heat shunt"
+	"mass" 207
+	"outfit space" -207
+	"active cooling" 149
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Xeiz Cooler"
+	category "Systems"
+	cost 8500
+	thumbnail "outfit/large heat shunt"
+	"mass" 178
+	"outfit space" -178
+	"cooling" 451
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Gebo Heat Pump"
+	category "Systems"
+	cost 10500
+	thumbnail "outfit/liquid helium"
+	"mass" 50
+	"outfit space" -50
+	"cooling" 102
+	description "Uvprluwq T2.3 Cooling"
+
+
+outfit "Bzii Reactor"
+	category "Power"
+	cost 1059400
+	thumbnail "outfit/dwarf core hai"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 2.7
+	"heat generation" 6.9
+	description "Uvprluwq T2.3 Power generator"
+
+outfit "Ucoj Reactor"
+	category "Power"
+	cost 1801000
+	thumbnail "outfit/fusion hai"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 7.0
+	"heat generation" 9.7
+	description "Uvprluwq T2.3 Power generator"
+
+
+outfit "Moyefdii Heat Shunt"
+	category "Systems"
+	cost 10100
+	thumbnail "outfit/thermoelectric cooler"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 22
+	description "Uvprluwq T2.3 Cooling"
+
+

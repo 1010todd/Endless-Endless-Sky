@@ -1,0 +1,139 @@
+outfit "Ojbue Beam Projector"
+	category "Guns"
+	cost 284541531900300
+	thumbnail "outfit/sunbeam"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/laser"
+			"frame rate" 1
+		sound "electron beam"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 2.7
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5.7
+		"firing heat" 8.7
+		"shield damage" 33.8
+		"hull damage" 59.1
+		"heat damage" 24.5
+		"energy damage" 24.5
+		"ion damage" 24.5
+	description "Uaoup umkee T5.1 Beam weapon"
+
+outfit "Nubgi Anti-Missile"
+	category "Turrets"
+	cost 184991094422400
+	thumbnail "outfit/anti-missile hai"
+	"mass" 41
+	"outfit space" -41
+	"weapon capacity" -41
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "large explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 5191.5
+		"velocity" 1040
+		"lifetime" 1
+		"reload" 147
+		"firing energy" 394.3
+		"firing heat" 966.1
+	description "Uaoup umkee T5.1 Anti-missile"
+
+outfit "Uacmu Machine Cannon"
+	category "Guns"
+	cost 198814864074700
+	thumbnail "outfit/ion rain gun"
+	"mass" 51
+	"outfit space" -51
+	"weapon capacity" -51
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/bombardment"
+		sound "pulse"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 4.4
+		"velocity" 28
+		"lifetime" 2
+		"reload" 6
+		"firing energy" 34.6
+		"firing heat" 78.5
+		"shield damage" 208.1
+		"hull damage" 131.1
+	description "Uaoup umkee T5.1 Projectile weapon"
+
+outfit "Xpoay Anti-Missile"
+	category "Turrets"
+	cost 154138474710500
+	thumbnail "outfit/pug anti-missile"
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 77.2
+		"velocity" 1380
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 23.9
+		"firing heat" 18.4
+	description "Uaoup umkee T5.1 Anti-missile"
+
+outfit "Auaep Laser"
+	category "Guns"
+	cost 121679126563700
+	thumbnail "outfit/moonbeam"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 0.6
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.6
+		"firing heat" 2.6
+		"shield damage" 18.4
+		"hull damage" 8.4
+		"disruption damage" 22.0
+	description "Uaoup umkee T5.1 Beam weapon"
+
+outfit "Auaep Laser Turret"
+	category "Turrets"
+	cost 591503749235852.9
+	thumbnail "outfit/moonbeam turret"
+	"mass" 104
+	"outfit space" -104
+	"weapon capacity" -104
+	"turret mounts" -1
+	weapon
+		"sprite" "projectile/moonbeam"
+		"hardpoint sprite" "hardpoint/moonbeam turret"
+		sound "heavy laser"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" 0.6
+		"turret turn" 0.7
+		"velocity" 490
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 0.6
+		"firing heat" 2.6
+		"shield damage" 55.199999999999996
+		"hull damage" 25.200000000000003
+		"disruption damage" 66.0
+	description "Uaoup umkee T5.1 Beam weapon 3gun Turret"
+

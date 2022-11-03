@@ -1,0 +1,278 @@
+ship "Xmuaipem"
+	sprite "ship/Uvprluwq/Xmuaipem"
+	attributes 
+		category "Light Warship"
+		"cost" 2409000
+		"shields" 10600
+		"hull" 19200
+		"required crew" 5
+		"automaton" 1
+		"bunks" 19
+		"mass" 171.4
+		"drag" 3.44
+		"heat dissipation" 0.82
+		"fuel capacity" 1300
+		"cargo space" 25
+		"outfit space" 260
+		"weapon capacity" 80
+		"engine capacity" 90
+		weapon 
+			"blast radius" 130
+			"shield damage" 1310
+			"hull damage" 660
+			"hit force" 920
+	outfits 
+		"Eaza Rocket Catapult" 1
+		"Eaza Rocket" 33
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Omijkjoa Thruster" 1
+		"Omijkjoa Steering" 1
+		"Hyperdrive"
+	engine 0 44
+	gun 0 -32
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uvprluwq T2.3 ship"
+
+ship "Dijiavyjejio"
+	sprite "ship/Uvprluwq/Dijiavyjejio"
+	attributes 
+		category "Heavy Warship"
+		"cost" 30235000
+		"shields" 75500
+		"hull" 136300
+		"required crew" 50
+		"automaton" 1
+		"bunks" 127
+		"mass" 924.2
+		"drag" 18.95
+		"heat dissipation" 0.89
+		"fuel capacity" 1600
+		"cargo space" 115
+		"outfit space" 1660
+		"weapon capacity" 560
+		"engine capacity" 420
+		weapon 
+			"blast radius" 924
+			"shield damage" 9250
+			"hull damage" 4630
+			"hit force" 6480
+	outfits 
+		"Eaza Rocket Catapult" 1
+		"Eaza Rocket" 33
+		"Geji Torpedo Launcher" 1
+		"Geji Torpedo" 29
+		"Idwe Anti-Missile" 1
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Zend Thruster" 1
+		"Zend Steering" 1
+		"Axba Cell" 2
+		"Ipjeuwjn Cell" 1
+		"Oqawfozi Cell" 1
+		"Feweigxe Cooling" 1
+		"Hyperdrive"
+	engine 57 -28
+	engine -74 -28
+	engine 26 85
+	engine -43 85
+	gun -106 -49
+	gun 98 -49
+	turret 0 -10
+	turret 65 -57
+	turret -72 -57
+	leak "leak" 70
+	leak "flame" 30
+	leak "big leak" 30
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uvprluwq T2.3 ship"
+
+ship "Pouwavjbejif"
+	sprite "ship/Uvprluwq/Pouwavjbejif"
+	attributes 
+		category "Light Warship"
+		"cost" 819000
+		"shields" 21900
+		"hull" 39600
+		"required crew" 5
+		"automaton" 1
+		"bunks" 19
+		"mass" 157.6
+		"drag" 3.46
+		"heat dissipation" 0.6
+		"fuel capacity" 1700
+		"cargo space" 20
+		"outfit space" 310
+		"weapon capacity" 100
+		"engine capacity" 100
+		weapon 
+			"blast radius" 268
+			"shield damage" 2690
+			"hull damage" 1350
+			"hit force" 1880
+	outfits 
+		"Idwe Anti-Missile" 1
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Omijkjoa Thruster" 1
+		"Omijkjoa Steering" 1
+		"Oqawfozi Cell" 1
+		"Gebo Heat Pump" 1
+		"Hyperdrive"
+	engine 0 44
+	turret 0 -30
+	leak "leak" 10
+	leak "flame" 10
+	leak "big leak" 10
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uvprluwq T2.3 ship"
+
+ship "Zmeaogkq"
+	sprite "ship/Uvprluwq/Zmeaogkq"
+	attributes 
+		category "Light Freighter"
+		"cost" 1557000
+		"shields" 5000
+		"hull" 8900
+		"required crew" 6
+		"automaton" 1
+		"bunks" 19
+		"mass" 163.4
+		"drag" 3.4
+		"heat dissipation" 0.81
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 270
+		"weapon capacity" 90
+		"engine capacity" 70
+		weapon 
+			"blast radius" 61
+			"shield damage" 610
+			"hull damage" 310
+			"hit force" 430
+	outfits 
+		"Eaza Rocket Catapult" 1
+		"Eaza Rocket" 33
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Faug Thruster" 1
+		"Faug Steering" 1
+		"Hyperdrive"
+	engine 0 23
+	gun 0 -10
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	description "Uvprluwq T2.3 ship"
+
+ship "Voqopzuq"
+	sprite "ship/Uvprluwq/Voqopzuq"
+	attributes 
+		category "Transport"
+		"cost" 1206000
+		"shields" 14400
+		"hull" 26000
+		"required crew" 16
+		"automaton" 1
+		"bunks" 103
+		"mass" 237.6
+		"drag" 5.02
+		"heat dissipation" 0.78
+		"fuel capacity" 800
+		"cargo space" 30
+		"outfit space" 440
+		"weapon capacity" 170
+		"engine capacity" 120
+		weapon 
+			"blast radius" 176
+			"shield damage" 1770
+			"hull damage" 890
+			"hit force" 1240
+	outfits 
+		"Eaza Rocket Catapult" 1
+		"Eaza Rocket" 33
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Omijkjoa Thruster" 1
+		"Omijkjoa Steering" 1
+		"Ipjeuwjn Cell" 2
+		"Moyefdii Heat Shunt" 1
+		"Hyperdrive"
+	engine 0 50
+	gun 0 -5
+	leak "leak" 10
+	leak "flame" 0
+	leak "big leak" 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	explode "medium explosion" 10
+	explode "large explosion" 0
+	description "Uvprluwq T2.3 ship"
+
+ship "Defeexug"
+	sprite "ship/Uvprluwq/Defeexug"
+	attributes 
+		category "Heavy Freighter"
+		"cost" 13281000
+		"shields" 33000
+		"hull" 59600
+		"required crew" 12
+		"automaton" 1
+		"bunks" 53
+		"mass" 658.0
+		"drag" 13.73
+		"heat dissipation" 0.57
+		"fuel capacity" 1600
+		"cargo space" 320
+		"outfit space" 860
+		"weapon capacity" 270
+		"engine capacity" 280
+		weapon 
+			"blast radius" 404
+			"shield damage" 4050
+			"hull damage" 2030
+			"hit force" 2830
+	outfits 
+		"Eaza Rocket Catapult" 1
+		"Eaza Rocket" 33
+		"Idwe Anti-Missile" 1
+		"Niev Shield Core" 1
+		"Dmei Damage Control" 1
+		"Zend Thruster" 1
+		"Zend Steering" 1
+		"Axba Cell" 2
+		"Ipjeuwjn Cell" 1
+		"Oqawfozi Cell" 1
+		"Feweigxe Cooling" 1
+		"Hyperdrive"
+	engine 33 -6
+	engine -50 -6
+	engine 0 -10
+	gun 0 -75
+	turret -69 -105
+	turret 62 -105
+	leak "leak" 40
+	leak "flame" 20
+	leak "big leak" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 60
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	description "Uvprluwq T2.3 ship"
+

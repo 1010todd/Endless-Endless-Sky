@@ -1,0 +1,80 @@
+hazard "Cpiaye Shieldhull Hazard"
+	"constant strength"
+	"period" 1629
+	"duration" 2943 4495
+	"range" 3746 6161
+	"strength" 1
+	"environmental effect" "ion hazard" 4
+	weapon
+		"relative shield damage" 0.00064
+		"relative hull damage" 0.00039
+		"corrosion damage" 1.06972
+
+hazard "Enhoad Hullshield Hazard"
+	"period" 1543
+	"duration" 746 2193
+	"range" 1360 2127
+	"strength" 2
+	"environmental effect" "corrosion spark" 41
+	weapon
+		"relative hull damage" 0.00111
+		"relative shield damage" 0.00065
+		"leak damage" 10.30867
+
+hazard "Oboegx Leak Hazard"
+	"period" 2751
+	"duration" 2590 4628
+	"range" 2 4663
+	"strength" 2
+	"environmental effect" "leakage spark" 514
+	weapon
+		"relative energy damage" 0.00052
+		"relative fuel damage" 0.00017
+		"leak damage" 128.40878
+
+hazard "Ueotox Disruption Hazard"
+	"period" 2635
+	"duration" 1805 4765
+	"range" 706 1087
+	"strength" 1
+	"environmental effect" "ion spark" 550
+	weapon
+		"relative fuel damage" 0.00128
+		"relative energy damage" 0.00024
+		"disruption damage" 137.40397
+
+hazard "Aqaorm Burn Hazard"
+	"constant strength"
+	"period" 841
+	"duration" 603 2852
+	"range" 5256 9210
+	"strength" 1
+	"environmental effect" "burning spark" 68
+	weapon
+		"relative energy damage" 0.00058
+		"relative hull damage" 0.00035
+		"burn damage" 16.94443
+
+hazard "Punuop Disruption Hazard"
+	"period" 2046
+	"duration" 2938 3622
+	"range" 2021 4095
+	"strength" 1
+	"environmental effect" "disruption spark" 224
+	weapon
+		"relative energy damage" 0.00135
+		"relative shield damage" 0.00042
+		"disruption damage" 56.04781
+
+hazard "Sueeaw Leakdischarge Hazard"
+	"period" 2627
+	"duration" 107 319
+	"range" 5262 8318
+	"strength" 2
+	"environmental effect" "leakage spark" 25
+	weapon
+		"relative heat damage" 0.00011
+		"leak damage" 6.34291
+		"discharge damage" 4.06502
+		"piercing" 0.50
+

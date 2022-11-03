@@ -1,0 +1,23 @@
+outfit "Sadip Lance"
+	category "Guns"
+	cost 166480000
+	thumbnail "outfit/heavy laser"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"gun ports" -1
+	weapon
+		"sprite" "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 2.3
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7.6
+		"firing heat" 1.6
+		"shield damage" 27.4
+		"hull damage" 4.6
+	description "Edavu ayouz T2.9 Beam weapon"
+

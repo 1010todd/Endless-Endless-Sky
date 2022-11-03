@@ -1,0 +1,311 @@
+outfit "Cojufi Capacitor"
+	category "Power"
+	cost 290400
+	thumbnail "outfit/tiny battery hai"
+	"mass" 9
+	"outfit space" -9
+	"energy capacity" 4980
+	description "Ozujto T3.7 Battery"
+
+outfit "Cojufi Capacitor"
+	category "Power"
+	cost 522800
+	thumbnail "outfit/small battery hai"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 19920
+	description "Ozujto T3.7 Battery"
+
+outfit "Cojufi Capacitor"
+	category "Power"
+	cost 941100
+	thumbnail "outfit/medium battery hai"
+	"mass" 36
+	"outfit space" -36
+	"energy capacity" 79680
+	description "Ozujto T3.7 Battery"
+
+
+outfit "Eyi dmo Cell"
+	category "Power"
+	cost 123400
+	thumbnail "outfit/dwarf core hai"
+	"mass" 11
+	"outfit space" -11
+	"energy generation" 4.0
+	"energy capacity" 7809
+	"heat generation" 4.7
+	description "Ozujto T3.7 Power generator"
+
+outfit "Nozjso Cell"
+	category "Power"
+	cost 209800
+	thumbnail "outfit/fusion hai"
+	"mass" 24
+	"outfit space" -24
+	"energy generation" 16.0
+	"energy capacity" 28112.4
+	"heat generation" 15.0
+	description "Ozujto T3.7 Power generator"
+
+outfit "Sonxzo Cell"
+	category "Power"
+	cost 356700
+	thumbnail "outfit/hai boulder"
+	"mass" 53
+	"outfit space" -53
+	"energy generation" 64.0
+	"energy capacity" 101204.6
+	"heat generation" 48.0
+	description "Ozujto T3.7 Power generator"
+
+
+outfit "Pimtec Thruster"
+	category "Engines"
+	cost 2728600
+	thumbnail "outfit/small ka'het thruster"
+	"mass" 16
+	"outfit space" -16
+	"engine capacity" -16
+	"thrust" 6.2
+	"thrusting energy" 0.4
+	"thrusting heat" 0.5
+	"flare sprite" "effect/ka'het flare/small"
+		"frame rate" 1.487041994731979
+	"flare sound" "ka'het small"
+	description "Ozujto T3.7 Thruster"
+
+outfit "Pimtec Steering"
+	category "Engines"
+	cost 2045537
+	thumbnail "outfit/small ka'het steering"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 175
+	"turning energy" 0.3
+	"turning heat" 0.4
+	description "Ozujto T3.7 steering"
+
+outfit "Uzoeoo Thruster"
+	category "Engines"
+	cost 4638700
+	thumbnail "outfit/medium ka'het thruster"
+	"mass" 29
+	"outfit space" -29
+	"engine capacity" -29
+	"thrust" 14.9
+	"thrusting energy" 0.9
+	"thrusting heat" 1.1
+	"flare sprite" "effect/ka'het flare/medium"
+		"frame rate" 1
+	"flare sound" "ka'het medium"
+	description "Ozujto T3.7 Thruster"
+
+outfit "Uzoeoo Steering"
+	category "Engines"
+	cost 7885800
+	thumbnail "outfit/medium ka'het steering"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"turn" 420.0
+	"turning energy" 0.7
+	"turning heat" 0.9
+	description "Ozujto T3.7 steering"
+
+outfit "Vae Thruster"
+	category "Engines"
+	cost 7885800
+	thumbnail "outfit/large ka'het thruster"
+	"mass" 52
+	"outfit space" -52
+	"engine capacity" -52
+	"thrust" 35.8
+	"thrusting energy" 2.0
+	"thrusting heat" 2.4
+	"flare sprite" "effect/ka'het flare/large"
+		"frame rate" 1
+	"flare sound" "ka'het large"
+	description "Ozujto T3.7 Thruster"
+
+outfit "Vae Steering"
+	category "Engines"
+	cost 13405900
+	thumbnail "outfit/large ka'het steering"
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"turn" 1008.0
+	"turning energy" 1.5
+	"turning heat" 2.0
+	description "Ozujto T3.7 steering"
+
+
+outfit "Acw Shield Core"
+	category "Systems"
+	cost 540700
+	thumbnail "outfit/tiny shield"
+	"mass" 7
+	"outfit space" -7
+	"shield generation" 107.86500000000001
+	"shield delay" 36
+	"shield energy" 2.31
+	"shield heat" 3
+	description "Ozujto T3.7 shield gen"
+
+outfit "Mac Shield Core"
+	category "Systems"
+	cost 973300
+	thumbnail "outfit/small shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 215.7
+	"shield delay" 38.693183206204836
+	"shield energy" 2.3
+	"shield heat" 3
+	description "Ozujto T3.7 shield gen"
+
+outfit "Ozi jod Shield Core"
+	category "Systems"
+	cost 1752000
+	thumbnail "outfit/medium shield"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" 431.4
+	"shield delay" 41.587845184137
+	"shield energy" 2.3
+	"shield heat" 3
+	description "Ozujto T3.7 shield gen"
+
+outfit "Ujo yip Shield Core"
+	category "Systems"
+	cost 3153600
+	thumbnail "outfit/large shield"
+	"mass" 22
+	"outfit space" -22
+	"shield generation" 862.8
+	"shield delay" 44.69905869058602
+	"shield energy" 2.3
+	"shield heat" 3
+	description "Ozujto T3.7 shield gen"
+
+
+outfit "Esu enp Damage Control"
+	category "Systems"
+	cost 933900
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"hull repair rate" 1.66
+	"hull energy" 2.2
+	"hull heat" 1
+	description "Ozujto T3.7 Hull Repair"
+
+outfit "Iuh Damage Control"
+	category "Systems"
+	cost 1681100
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"hull repair rate" 3.3
+	"hull energy" 2.2
+	"hull heat" 1
+	description "Ozujto T3.7 Hull Repair"
+
+outfit "Nucmuk Damage Control"
+	category "Systems"
+	cost 3026000
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"hull repair rate" 6.6
+	"hull energy" 2.2
+	"hull heat" 1
+	description "Ozujto T3.7 Hull Repair"
+
+outfit "Oks jon Damage Control"
+	category "Systems"
+	cost 5446800
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"hull repair rate" 13.2
+	"hull energy" 2.2
+	"hull heat" 1
+	description "Ozujto T3.7 Hull Repair"
+
+
+outfit "Qal mua Temperature Control"
+	category "Systems"
+	cost 3700
+	thumbnail "outfit/water cooling"
+	"mass" 1
+	"outfit space" -1
+	"cooling" 9
+	"active cooling" 12
+	"cooling energy" 3.0150033496932616
+	description "Ozujto T3.7 Cooling"
+
+
+outfit "Aep Reactor"
+	category "Power"
+	cost 2161800
+	thumbnail "outfit/red sun"
+	"mass" 1
+	"outfit space" -1
+	"energy generation" 4.7
+	"heat generation" 12.4
+	description "Ozujto T3.7 Power generator"
+
+outfit "Ecwhuk Reactor"
+	category "Power"
+	cost 3675100
+	thumbnail "outfit/yellow sun"
+	"mass" 2
+	"outfit space" -2
+	"energy generation" 18.8
+	"heat generation" 32.2
+	description "Ozujto T3.7 Power generator"
+
+outfit "Soe Reactor"
+	category "Power"
+	cost 6247700
+	thumbnail "outfit/white sun"
+	"mass" 4
+	"outfit space" -4
+	"energy generation" 75.2
+	"heat generation" 83.7
+	description "Ozujto T3.7 Power generator"
+
+outfit "Yao Reactor"
+	category "Power"
+	cost 10621100
+	thumbnail "outfit/blue sun"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 300.8
+	"heat generation" 217.6
+	description "Ozujto T3.7 Power generator"
+
+
+outfit "Wai Cooler"
+	category "Systems"
+	cost 8300
+	thumbnail "outfit/wanderer heat sink"
+	"mass" 108
+	"outfit space" -108
+	"cooling" 447
+	description "Ozujto T3.7 Cooling"
+
+
+outfit "Ooa jun Cooler"
+	category "Systems"
+	cost 9200
+	thumbnail "outfit/liquid helium"
+	"mass" 137
+	"outfit space" -137
+	"cooling" 522
+	description "Ozujto T3.7 Cooling"
+
+

@@ -319,7 +319,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         #Special stats faction could gain, weighted from reg stats
         #shield = piercing, disruption...
         ship_special_stats = random.choice('shielding armor heat agility'.split())
-        ship_protection = {'hull': 0, 'shield': 0, 'heat': 0}
+        ship_protection = {'hull': 0, 'shield': 0, 'heat': 0, 'burn': 0}
         tech_branches = {'armor': 0, 'shield': 0, 'heat': 0, 'mass': 0, 'space': 0}
         techpoints = random.randrange(2,5) + round(faction_tier) + round(faction_age)
 
@@ -331,8 +331,18 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
                 ship_protection['shield'] = tech_branches['shield'] * .1
             else:
                 ship_protection['hull'] = tech_branches['armor'] * .1
+            if random.random() < tech_branches['heat']/10:
+                if random.random() > .3:
+                    ship_protection['heat'] = tech_branches['heat'] * .1
+                elif random.random() > .5:
+                    ship_protection['burn'] = tech_branches['heat'] * .1
+                else:
+                    ship_protection['heat'] = tech_branches['heat'] * .05
+                    ship_protection['burn'] = tech_branches['heat'] * .05
             
-        civiefleetvariants = random.randrange(3,12)
+        civie_fleet_variant_min = 3
+        civie_fleet_variant_max = 12
+        civiefleetvariants = random.randrange(civie_fleet_variant_min,civie_fleet_variant_max)
         fleet_tactic = random.choice('defense offense balance hitrun kite'.split())
         designpriority = 'engine power defense weapon'.split()
         random.shuffle(designpriority)

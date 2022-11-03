@@ -1,0 +1,311 @@
+outfit "Dad Battery Pack"
+	category "Power"
+	cost 262400
+	thumbnail "outfit/tiny battery hai"
+	"mass" 9
+	"outfit space" -9
+	"energy capacity" 4720
+	description "Icz giu T2.2 Battery"
+
+outfit "Dad Battery Pack"
+	category "Power"
+	cost 472400
+	thumbnail "outfit/small battery hai"
+	"mass" 18
+	"outfit space" -18
+	"energy capacity" 11330
+	description "Icz giu T2.2 Battery"
+
+outfit "Dad Battery Pack"
+	category "Power"
+	cost 850400
+	thumbnail "outfit/medium battery hai"
+	"mass" 36
+	"outfit space" -36
+	"energy capacity" 27200
+	description "Icz giu T2.2 Battery"
+
+outfit "Dad Battery Pack"
+	category "Power"
+	cost 1530800
+	thumbnail "outfit/large battery hai"
+	"mass" 72
+	"outfit space" -72
+	"energy capacity" 65280
+	description "Icz giu T2.2 Battery"
+
+
+outfit "Kuz oou Reactor"
+	category "Power"
+	cost 77000
+	thumbnail "outfit/dwarf core hai"
+	"mass" 13
+	"outfit space" -13
+	"energy generation" 2.8
+	"heat generation" 7.5
+	description "Icz giu T2.2 Power generator"
+
+outfit "Okciua Reactor"
+	category "Power"
+	cost 130900
+	thumbnail "outfit/fusion hai"
+	"mass" 26
+	"outfit space" -26
+	"energy generation" 6.7
+	"heat generation" 19.5
+	description "Icz giu T2.2 Power generator"
+
+
+outfit "Caa Thruster"
+	category "Engines"
+	cost 2386200
+	thumbnail "outfit/small remnant thruster"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 5.9
+	"thrusting energy" 0.5
+	"thrusting heat" 0.9
+	"flare sprite" "effect/remnant flare/small"
+		"frame rate" 1.1041950383988497
+	"flare sound" "remnant small"
+	description "Icz giu T2.2 Thruster"
+
+outfit "Caa Steering"
+	category "Engines"
+	cost 2041960
+	thumbnail "outfit/small remnant steering"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"turn" 173
+	"turning energy" 0.4
+	"turning heat" 0.8
+	description "Icz giu T2.2 steering"
+
+outfit "Die Thruster"
+	category "Engines"
+	cost 4056600
+	thumbnail "outfit/medium remnant thruster"
+	"mass" 32
+	"outfit space" -32
+	"engine capacity" -32
+	"thrust" 14.2
+	"thrusting energy" 1.1
+	"thrusting heat" 2.0
+	"flare sprite" "effect/remnant flare/medium"
+		"frame rate" 1
+	"flare sound" "remnant medium"
+	description "Icz giu T2.2 Thruster"
+
+outfit "Die Steering"
+	category "Engines"
+	cost 6896300
+	thumbnail "outfit/medium remnant steering"
+	"mass" 27
+	"outfit space" -27
+	"engine capacity" -27
+	"turn" 415.2
+	"turning energy" 0.9
+	"turning heat" 1.8
+	description "Icz giu T2.2 steering"
+
+outfit "Dzu Thruster"
+	category "Engines"
+	cost 6896300
+	thumbnail "outfit/large remnant thruster"
+	"mass" 51
+	"outfit space" -51
+	"engine capacity" -51
+	"thrust" 34.1
+	"thrusting energy" 2.4
+	"thrusting heat" 4.4
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Icz giu T2.2 Thruster"
+
+outfit "Dzu Steering"
+	category "Engines"
+	cost 11723800
+	thumbnail "outfit/large remnant steering"
+	"mass" 43
+	"outfit space" -43
+	"engine capacity" -43
+	"turn" 996.5
+	"turning energy" 2.0
+	"turning heat" 4.0
+	description "Icz giu T2.2 steering"
+
+outfit "Juaiti Thruster"
+	category "Engines"
+	cost 11723800
+	thumbnail "outfit/large remnant thruster"
+	"mass" 82
+	"outfit space" -82
+	"engine capacity" -82
+	"thrust" 81.8
+	"thrusting energy" 5.3
+	"thrusting heat" 9.7
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Icz giu T2.2 Thruster"
+
+outfit "Juaiti Steering"
+	category "Engines"
+	cost 19930500
+	thumbnail "outfit/large remnant steering"
+	"mass" 69
+	"outfit space" -69
+	"engine capacity" -69
+	"turn" 2391.6
+	"turning energy" 4.4
+	"turning heat" 8.8
+	description "Icz giu T2.2 steering"
+
+outfit "Naovoi Thruster"
+	category "Engines"
+	cost 19930500
+	thumbnail "outfit/large remnant thruster"
+	"mass" 131
+	"outfit space" -131
+	"engine capacity" -131
+	"thrust" 196.3
+	"thrusting energy" 11.7
+	"thrusting heat" 21.3
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 1
+	"flare sound" "remnant large"
+	description "Icz giu T2.2 Thruster"
+
+outfit "Naovoi Steering"
+	category "Engines"
+	cost 33881900
+	thumbnail "outfit/large remnant steering"
+	"mass" 110
+	"outfit space" -110
+	"engine capacity" -110
+	"turn" 5739.8
+	"turning energy" 9.7
+	"turning heat" 19.4
+	description "Icz giu T2.2 steering"
+
+
+outfit "Ami uba Shield Regenerator"
+	category "Systems"
+	cost 86400
+	thumbnail "outfit/tiny shield"
+	"mass" 11
+	"outfit space" -11
+	"shield generation" 0.6
+	"shield energy" 0.89
+	description "Icz giu T2.2 shield gen"
+
+outfit "Blo Shield Regenerator"
+	category "Systems"
+	cost 155600
+	thumbnail "outfit/small shield"
+	"mass" 16
+	"outfit space" -16
+	"shield generation" 1.2
+	"shield energy" 1.4
+	description "Icz giu T2.2 shield gen"
+
+outfit "Iio Shield Regenerator"
+	category "Systems"
+	cost 280100
+	thumbnail "outfit/medium shield"
+	"mass" 24
+	"outfit space" -24
+	"shield generation" 2.4
+	"shield energy" 2.2
+	description "Icz giu T2.2 shield gen"
+
+outfit "Okoaao Shield Regenerator"
+	category "Systems"
+	cost 504200
+	thumbnail "outfit/large shield"
+	"mass" 36
+	"outfit space" -36
+	"shield generation" 4.8
+	"shield energy" 3.5
+	description "Icz giu T2.2 shield gen"
+
+
+outfit "Aootau Hull Repair"
+	category "Systems"
+	cost 124200
+	thumbnail "outfit/tiny shield"
+	"mass" 6
+	"outfit space" -6
+	"hull repair rate" 0.54
+	"hull energy" 1.03
+	"hull heat" 1
+	description "Icz giu T2.2 Hull Repair"
+
+outfit "Iuc Hull Repair"
+	category "Systems"
+	cost 223600
+	thumbnail "outfit/small shield"
+	"mass" 9
+	"outfit space" -9
+	"hull repair rate" 1.1
+	"hull energy" 1.6
+	"hull heat" 1
+	description "Icz giu T2.2 Hull Repair"
+
+outfit "Ouaija Hull Repair"
+	category "Systems"
+	cost 402500
+	thumbnail "outfit/medium shield"
+	"mass" 14
+	"outfit space" -14
+	"hull repair rate" 2.2
+	"hull energy" 2.6
+	"hull heat" 1
+	description "Icz giu T2.2 Hull Repair"
+
+outfit "Qoi uyt Hull Repair"
+	category "Systems"
+	cost 724500
+	thumbnail "outfit/large shield"
+	"mass" 21
+	"outfit space" -21
+	"hull repair rate" 4.4
+	"hull energy" 4.2
+	"hull heat" 1
+	description "Icz giu T2.2 Hull Repair"
+
+outfit "Tia Hull Repair"
+	category "Systems"
+	cost 1304100
+	thumbnail "outfit/huge shield"
+	"mass" 32
+	"outfit space" -32
+	"hull repair rate" 8.8
+	"hull energy" 6.7
+	"hull heat" 1
+	description "Icz giu T2.2 Hull Repair"
+
+
+outfit "Igz Heat Pump"
+	category "Systems"
+	cost 4300
+	thumbnail "outfit/cooling ducts"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 36
+	description "Icz giu T2.2 Cooling"
+
+
+outfit "Hio Heatsink"
+	category "Systems"
+	cost 7100
+	thumbnail "outfit/hai williwaw"
+	"mass" 41
+	"outfit space" -41
+	"cooling" 126
+	description "Icz giu T2.2 Cooling"
+
+

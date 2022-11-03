@@ -1,0 +1,17 @@
+government "Ozujto"
+	"display name" "Ozujto"
+	"swizzle" 19
+	"color" 0.497 0.710 0.230 0.100
+	"player reputation" 0
+	"crew attack" 2.1
+	"crew defense" 4.5
+	"attitude toward"
+		"Icz giu" -1
+		"Xgautoceeh" 0
+		"Iebau rojoa" 0
+		"Geooc juxuy" 0
+		"Ivupvrbeeb" 0
+		"Uvprluwq" -1
+		"Uaoup umkee" -1
+		"Mzeeoc" 0
+		"Edavu ayouz" 0
