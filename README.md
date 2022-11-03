@@ -11,10 +11,10 @@ WARNING: Highly experimental, may not stable enough for regular gameplay.
 WARNING: Data folder and generated sprites will be reset every update to utilize new features, backup what you like.
 
 ## How to use:
- Requires: Python 3.9, Pillow 8.4.0
- This plugin can be installed normally like any other plugin. Pre-generated data is provided if you don't want to run the script.
+ Requires: Python 3.9+, and Pillow 8.4.0+ (For ship sprite generation)
+ This plugin can be installed normally like any other plugin. Pre-generated data is provided [here](https://github.com/1010todd/Endless-Endless-Sky/releases/tag/v0.1.0) if you don't want to run the script.
  
  To run the generator, simply run main.py and wait. If success the console will say so and wait for input before closing.
  
- Some part of the generator can be configured, check config folder.
+ Some part of the generator can be configured, check instructions.txt to see which can be used. (very messy right now, some option works, some don't, will fix later)
  
