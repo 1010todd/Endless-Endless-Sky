@@ -90,6 +90,9 @@ class class_Outfit():
         self.reverse_heat = 0
         self.thrust_flare_sprite = 0
 
+        self.boarding_atk = 0
+        self.boarding_def = 0
+
 
 #Deletes Files
 #filelist = glob.glob(os.path.join("output/", "*.txt"))
@@ -152,6 +155,8 @@ def create_battery(faction,fileout=''):
             battery_name_list.append(battery_name)
         battery_name_list.sort() #Sort like vanilla names.
         battery_thumb_list = ['tiny battery','small battery','medium battery', 'large battery','huge battery']
+        if random.random() < .3:
+            battery_thumb_list = ['battery-s 1','battery-m 1','battery-l 1', 'battery-h 1','battery-h 1']
         if random.random() < faction.tier*.5:
             battery_thumb_list = ['tiny battery hai','small battery hai','medium battery hai', 'large battery hai','huge battery hai']
        
@@ -787,6 +792,145 @@ def create_hull_repair(faction,fileout=''):
     generate_outfits_config.close()
     hull_rep_output.close()
 
+#============================================================================================
+#============================================H2H=========================================
+#============================================================================================
+
+def create_h2h(faction,fileout='',max_outfit_count=4,h2hmin=1):
+    namegen = namegenerator.Namegenerator(faction)
+    generate_outfits_config = open(outfit_config_file, "r")
+    if fileout == '':
+        fileout = f'data/{faction.name}/{faction.name} outfits.txt'
+    h2h_output = open(fileout, "a")
+    outfitter_output = open(outfitter_output_file,'a')
+    #Searches config file for values and creates variables
+    for line in generate_outfits_config: #Creates vars from txt file
+        use_seed = False
+        if "use_seed" in line:
+            use_seed_check = next(generate_outfits_config)
+            if str(use_seed_check) in ['true', 'True', 'true\n', 'True\n']:
+                use_seed = True
+            else:
+                use_seed = False
+        if ("outfit_seed" in line) and use_seed == True:
+            outfit_seed = next(generate_outfits_config)
+            random.seed(int(outfit_seed))
+    if faction.devmode:
+        random.seed(faction.devmodeseed)
+    if max_outfit_count > 1:
+        h2h_type_amount = random.randrange(1,max(2,max_outfit_count))
+    else:
+        h2h_type_amount = max_outfit_count
+
+    h2hmin = max(h2hmin,1)
+    h2h_types_generated_count = 1
+    while h2h_types_generated_count <= int(h2h_type_amount):
+        #Calculates new values
+        h2h_tradeoff_capa_dict = {
+            "outfit space": 0,
+            "weapon space": 0,
+            "cargo space": 0,
+            #"cooling inefficiency": 0,
+        }
+        h2h_tradeoff_drain_dict = {
+            "heat generation": 0,
+            "energy consumption": 0,
+            "fuel consumption": 0,
+            "overheat damage rate": 0,
+            "operating costs": 0
+        }
+        h2h_outfit = 0
+        h2h_have_tradeoff = False
+        h2h_takespace = False
+        h2h_tradeoff = ''
+        h2h_tradeoff_value = 0
+        h2h_total = round(random.randrange(int(faction.tier*1.5), int(faction.tier*2)+1), 1)
+        if random.random() < .3:
+            h2h_total = round(random.randrange(int(faction.tier*3), int(faction.tier*4.5)), 1)
+            h2h_have_tradeoff = True
+            if random.random() < .3: #Todo Multi-tradeoff
+                h2h_tradeoff = random.choice(list(h2h_tradeoff_drain_dict.keys()))
+                h2h_tradeoff_value = random.random()
+                h2h_total = round(random.randrange(int(faction.tier*3.5), int(faction.tier*5.5)), 1)
+            else:
+                h2h_tradeoff = random.choice(list(h2h_tradeoff_capa_dict.keys()))
+                h2h_takespace = True
+                h2h_outfit = random.randrange(0,5)
+                h2h_tradeoff_value = -h2h_outfit
+        h2h_cost = roundup100(random.randrange(int(9500*(h2h_total)), int(15000*(h2h_total)))*faction.tier)
+        h2h_ratio = random.random() # .1 def, .9 atk
+        h2h_atk = h2h_total*h2h_ratio
+        h2h_def = h2h_total*(1-h2h_ratio)
+        #h2h Name        
+        h2h_type_name_small = ['Gun','Rifle','Assault Rifle','Machinegun','Shotgun','Staff','Blaster Rifle']
+        h2h_type_name_large = ['Gun Station','Defense Station','Defense','Turret','Combat Station','Security']
+        h2h_type = random.choice(h2h_type_name_small)
+        if h2h_takespace:
+            h2h_type = random.choice(h2h_type_name_large)
+        h2h_name_list = []
+
+        h2h_iterations = int(random.randrange(1,max(2,h2h_type_amount/2)))
+
+        for n in range(h2h_iterations):
+            name_length_min = 3
+            name_length_max = 7
+            seedy =0 
+            if faction.devmode:
+                seedy = faction.devmodeseed+n
+            h2h_name = namegen.generateNameFromRules(name_length_min,
+                                                    name_length_max,
+                                                    wordlen=faction.lang_wordlen,
+                                                    spacechance=faction.lang_spacechance,
+                                                    lang_charweight=faction.lang_charweight,
+                                                    seed=seedy)
+            h2h_name = h2h_name + ' ' + h2h_type
+            h2h_name_list.append(h2h_name)
+        h2h_name_list.sort()
+        
+        h2h_cost_curve = .85
+        h2h_outfit_curve = 1.1
+        h2h_h2h_curve = random.uniform(1.1,1.3)
+        if not h2h_takespace:
+            h2h_thumb = random.choice(['laser rifle','enforcer riot staff','enforcer confrontation gear','hai rifle','korath rifle','pug staff','h2h 1','h2h 2','h2h 3','h2h 4'])
+        else:
+            h2h_thumb = random.choice(['security station','intrusion countermeasure','microbot defense station','pug bio defense','liquid nitrogen','small systems core'])
+        #Iterates Values
+        h2h_iterations_count = 1
+        while h2h_iterations_count <= h2h_iterations:
+            h2h_name_final = h2h_name_list[h2h_iterations_count-1]
+            #Writes ES code to file, use \n for line break
+            h2h_output.write('outfit "' + h2h_name_final + '"' + "\n")
+            h2h_output.write('\tcategory "Hand to Hand"\n')
+            h2h_output.write('\tcost ' + str(h2h_cost) + "\n")
+            h2h_output.write(f'\tthumbnail "outfit/{h2h_thumb}"\n')
+            h2h_output.write(f'\t"boarding attack" {h2h_atk}\n')
+            h2h_output.write(f'\t"boarding defense" {h2h_def}\n')
+            h2h_output.write(f'\t"unplunderable" 1\n')
+            h2h_output.write(f'{h2h_tradeoff} {h2h_tradeoff_value}' + "\n")
+            h2h_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Hand to Hand"\n')
+            h2h_output.write('\n')
+
+            outfitter_output.write(f'\t"{h2h_name_final}"' + '\n')
+            outfit = class_Outfit(h2h_name_final,'Hand to Hand',h2h_cost,h2h_thumb,h2h_outfit,h2h_outfit)
+            outfit.boarding_atk = h2h_atk
+            outfit.boarding_def = h2h_def
+            faction.outfitlist.append(outfit)
+
+            print(f'Created h2h {faction.name} ' + h2h_name_list[h2h_iterations_count-1] + '.')
+
+            #Iterate for next run of loop
+            h2h_cost = roundup100((h2h_cost * 2) * float(h2h_cost_curve))
+            h2h_outfit = round((h2h_outfit * 2) * float(h2h_outfit_curve))
+            h2h_atk = round((h2h_atk * 2) * float(h2h_h2h_curve), 1)
+            h2h_def = round((h2h_def * 2) * float(h2h_h2h_curve), 1)
+
+            h2h_iterations_count += 1
+        h2h_types_generated_count += 1
+    h2h_output.write('\n')
+    #outfitter_output.close()
+    generate_outfits_config.close()
+    h2h_output.close()
+
 def load_custom_configs(faction):
     if faction.devmode:
         random.seed(faction.devmodeseed)
@@ -811,3 +955,5 @@ def load_custom_configs(faction):
     create_hull_repair(faction)
     if random.randrange(1,3) > 2.3:
         create_cooling(faction)
+    if random.random() > .5:
+        create_h2h(faction)

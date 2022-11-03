@@ -138,8 +138,8 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         wep_cost_max = int((weapon_damagepersec/weapon_outfit)*75*weapon_outfit*sqrt(150*faction.tier))
         weapon_cost = roundup100(random.randint(int(wep_cost_min),int(wep_cost_max)))
         weapon_shieldhull_ratio = random.uniform(.1,.9) # .1 shield, .9 hull
-        weapon_energy_ratio = random.uniform(.1,2) # .1 shield, .9 hull
-        weapon_heat_ratio = random.uniform(.1,2) # .1 shield, .9 hull
+        weapon_energy_ratio = random.uniform(.1,2) # 
+        weapon_heat_ratio = random.uniform(.1,2) # 
         #weapon_outfit = random.randint(int(weapon_min_outfit_space), int(weapon_max_outfit_space))
         weapon_special_ratio = random.triangular(0,.9,-2/faction.tier)
         
@@ -159,6 +159,8 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
         else:
             weapon_shotpersec = random.triangular(0.1,random.randrange(10,60)) #too many single digit reload ffs
             weapon_range = roundup10(random.weibullvariate(350, 1))
+            if weapon_type == 'missile':
+                weapon_range = max(300,weapon_range)
             weapon_velocity = round(random.uniform(7,50))
             weapon_max_inaccuracy = round(random.weibullvariate(5, 1),1)
             #print(f"Projectile stats: range:{weapon_range} shotpSec {weapon_shotpersec}")
@@ -166,7 +168,6 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_hit_force = round(random.weibullvariate(20, 4))
   
         weapon_inaccuracy = round(random.uniform(0, weapon_max_inaccuracy),1)
-        
         weapon_lifetime = round(weapon_range / weapon_velocity)
 
         weapon_reload = max(1,math.ceil(60 / weapon_shotpersec)) #Please don't be zero and break stuffs.
@@ -241,6 +242,67 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_burn_dps = weapon_damagepersec * weapon_special_ratio
             weapon_special_dpshot['burn'] = round(weapon_burn_dps / weapon_shotpersec,1)
         """
+
+        #=======Create Special Projectile with submunitions (shotgun,flak,etc.)
+        projectile_type = 'none'
+        special_proj_chance = .3
+        submunition_parent_stats = {
+            'split range': 0,
+        }
+        submunition_stats = {
+            'velocity': 0,
+            'lifetime': 0,
+            'inaccuracy': 0,
+            'shield damage': 0,
+            'hull damage': 0,
+            'homing': 0,
+            'tracking': 0,
+        }
+        if weapon_type != 'beam':
+            if random.random() > special_proj_chance:
+                projectile_type = random.choice(['shotgun','flak']) #todo, boost/staged, turret
+                if projectile_type == 'shotgun':
+                    submunition_count = random.randint(3,22)
+                    weapon_splitdelay = random.uniform(.1,.3)
+                    submunition_stats['lifetime'] = max(1,weapon_lifetime*(1-weapon_splitdelay))
+                    weapon_lifetime = max(1,weapon_lifetime*weapon_splitdelay)
+                    submunition_stats['inaccuracy'] = random.uniform(12,45)
+                    submunition_stats['shield damage'] = weapon_shield_dpshot/submunition_count
+                    submunition_stats['hull damage'] = weapon_hull_dpshot/submunition_count
+                    for sp_dmg in list( weapon_special_dpshot.keys()):
+                        submunition_stats[sp_dmg+' damage'] = weapon_special_dpshot[sp_dmg]/submunition_count
+                    if faction.tier > 3 and random.random() < .3:
+                        sub_tracking_weight = [1,1,1,0.2*faction.tier]
+                        sub_tracking_type = random.choices(['infrared tracking','optical tracking','radar tracking','tracking'],weights=sub_tracking_weight)
+                        submunition_stats[sub_tracking_type[0]] = round(random.uniform(min(.98,.1*(faction.tier)), .99), 2)
+                        submunition_stats['turn'] = round(random.uniform(1, 30*max(1,faction.tier)), 1)
+                        submunition_stats['homing'] = random.randrange(1,4)
+                        if submunition_count < 12/weapon_reload or random.random() > .1 or weapon_type == "missile":
+                            submunition_stats['missile strength'] = max(1,round(random.uniform((weapon_reload*.5)*(faction.tier**3), (weapon_reload*3)*(faction.tier**3))/submunition_count, 1))
+                if projectile_type == 'flak':
+                    weapon_flakrange = random.randrange(30,60)
+                    submunition_parent_stats['split range'] = round(weapon_flakrange*random.uniform(.3,.7))
+                    weapon_flakvelocity = random.randrange(30,60)
+                    if weapon_flakvelocity > weapon_velocity:
+                        submunition_stats['velocity'] = weapon_velocity-weapon_flakvelocity
+                    elif weapon_flakvelocity < weapon_velocity:
+                        submunition_stats['velocity'] = weapon_flakvelocity-weapon_velocity
+                    submunition_stats['lifetime'] = weapon_flakrange/weapon_flakvelocity
+                    submunition_count = random.randint(6,32)
+                    submunition_stats['inaccuracy'] = 360
+                    submunition_stats['shield damage'] = weapon_shield_dpshot/submunition_count
+                    submunition_stats['hull damage'] = weapon_hull_dpshot/submunition_count
+                    for sp_dmg in list( weapon_special_dpshot.keys()):
+                        submunition_stats[sp_dmg+' damage'] = weapon_special_dpshot[sp_dmg]/submunition_count
+                    if faction.tier > 3 and random.random() < .3:
+                        sub_tracking_weight = [1,1,1,0.2*faction.tier]
+                        sub_tracking_type = random.choices(['infrared tracking','optical tracking','radar tracking','tracking'],weights=sub_tracking_weight)
+                        submunition_stats[sub_tracking_type[0]] = round(random.uniform(min(.98,.1*(faction.tier)), .99), 2)
+                        submunition_stats['turn'] = round(random.uniform(1, 30*max(1,faction.tier)), 1)
+                        submunition_stats['homing'] = random.randrange(1,4)
+                        if submunition_count < 12 / weapon_reload or random.random() > .1 or weapon_type == "missile":
+                            submunition_stats['missile strength'] = max(1,round(random.uniform((weapon_reload*.5)*(faction.tier**3), (weapon_reload*3)*(faction.tier**3))/submunition_count, 1))
+
         #Missile Calculations
         missile_cost = random.randint(weapon_cost/5, weapon_cost/4)
         missile_mass = round(random.uniform(.01, .1), 2)
@@ -361,21 +423,42 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"inaccuracy" ' + str(weapon_inaccuracy) + "\n")
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
             weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
+            if projectile_type != 'none':
+                weapon_sub_name = f"{weapon_name} sub 1"
+                weapon_output.write(f'\t\t"submunition" "{weapon_sub_name}" {submunition_count}' + "\n")
+                for thing,value in submunition_parent_stats.items(): #split range
+                    if value:
+                        weapon_output.write(f'\t\t"{thing}" {value}' + "\n")
             weapon_output.write('\t\t"reload" ' + str(weapon_reload) + "\n")
             if weapon_is_burst:
                 weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
                 weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")             
             weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
             weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
-            weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
-            weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
+            if projectile_type == 'none':
+                weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
+                weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
             if(round(weapon_hit_force) > 0):
                 weapon_output.write('\t\t"hit force" ' + str(weapon_hit_force) + "\n")
             for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
                 if(spdmgvalue > 0):
                     weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
-            weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Projectile weapon"\n')
+            if projectile_type == 'none':
+                weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} projectile weapon"\n')
+            else:
+                weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} {projectile_type} projectile weapon"\n')
             weapon_output.write('\n')
+
+            #======Write Submunition if have one.
+            if projectile_type != 'none':
+                weapon_output.write(f'outfit "{weapon_sub_name}"\n')
+                weapon_output.write('\tweapon' + "\n")
+                weapon_output.write(f'\t\t"sprite" "projectile/{weapon_projectile}"'+ "\n")
+                for thing,value in submunition_stats.items(): #Should include lifetime, velo, inaccu
+                    if value:
+                        weapon_output.write(f'\t\t"{thing}" {value:.3f}'+ "\n")
+                weapon_output.write(f'\t\t"hit effect" "{weapon_effect}"'+ "\n")
+                weapon_output.write('\n')
             
             gun = class_Weapon(weapon_name_final,'Guns',weapon_cost,weapon_thumb_final,weapon_mass,weapon_outfit,weapon_outfit)
             gun.weapon_type = 'gun' #Used for finding weapon in ship outfitting
@@ -393,7 +476,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
 
                 weapon_output.write('outfit "' + turret_name_final + '"' + "\n")
                 weapon_output.write('\tcategory "Turrets"\n')
-                weapon_output.write('\tcost ' + str(turret_cost_final) + "\n")
+                weapon_output.write(f'\tcost {roundup100(turret_cost_final)}' + "\n")
                 weapon_output.write(f'\tthumbnail "outfit/{turret_thumb_final}"\n')
                 weapon_output.write('\t"mass" ' + str(turret_mass) + "\n")
                 weapon_output.write('\t"outfit space" -' + str(turret_outfit) + "\n")
@@ -408,20 +491,27 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write('\t\t"turret turn" ' + str(turret_turn) + '\n')
                 weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
                 weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
+                if projectile_type != 'none':
+                    weapon_sub_name = f"{weapon_name} sub 1"
+                    weapon_output.write(f'\t\t"submunition" "{weapon_sub_name}" {submunition_count}' + "\n")
+                    for thing,value in submunition_parent_stats.items(): #split range
+                        if value:
+                            weapon_output.write(f'\t\t"{thing}" {value}' + "\n")
                 weapon_output.write('\t\t"reload" ' + str(turret_reload) + "\n")
                 if weapon_is_burst:
                     weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
                     weapon_output.write(f'\t\t"burst count" {weapon_burst_count}' + "\n")    
                 weapon_output.write('\t\t"firing energy" ' + str(weapon_firing_energypershot) + "\n")
                 weapon_output.write('\t\t"firing heat" ' + str(weapon_firing_heatpershot) + "\n")
-                weapon_output.write('\t\t"shield damage" ' + str(turret_shield_dpshot) + "\n")
-                weapon_output.write('\t\t"hull damage" ' + str(turret_hull_dpshot) + "\n")
+                if projectile_type == 'none':
+                    weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
+                    weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
                 if(weapon_hit_force > 0):
                     weapon_output.write('\t\t"hit force" ' + str(turret_hit_force) + "\n")
                 for spdmgtype,spdmgvalue in turret_special_dpsh.items():
                     if(spdmgvalue > 0):
                         weapon_output.write(f'\t\t"{spdmgtype} damage" {spdmgvalue}' + "\n")
-                weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Projectile weapon ' + str(turret_gun_num) + 'gun' + ' Turret"\n')
+                weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} projectile weapon {turret_gun_num} gun turret"\n')
                 weapon_output.write('\n')
                 turret = class_Weapon(turret_name_final,'Turrets',turret_cost_final,turret_thumb_final,turret_mass,turret_outfit,turret_outfit)
                 turret.weapon_type = 'turret' #Used for finding weapon in ship outfitting
@@ -597,6 +687,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
 
             launcher_name_final = missile_name_final + ' ' + launcher_type
             launcher_mass = weapon_outfit-(missile_storage_mass)
+            missile_framerate = random.uniform(.1,1)
 
             weapon_output.write('outfit "' + launcher_name_final + '"' + "\n")
             weapon_output.write('\tcategory "Secondary Weapons"\n')
@@ -610,7 +701,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\tweapon' + "\n")
             weapon_output.write(f'\t\t"sprite" "projectile/{missile_thumb_final}"'+ "\n")
             weapon_output.write('\t\t\t"no repeat"' + "\n")
-            weapon_output.write('\t\t\t"frame rate" .25' + "\n")
+            weapon_output.write(f'\t\t\t"frame rate" {missile_framerate:.2f}' + "\n")
             weapon_output.write(f'\t\tsound "{missile_thumb_final}"'+ "\n")
             weapon_output.write('\t\tammo "' + str(missile_name_final) + '"'+ "\n")
             weapon_output.write(f'\t\ticon "icon/{missile_thumb_final}"'+ "\n")
@@ -620,6 +711,12 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write('\t\t"inaccuracy" ' + str(weapon_inaccuracy) + "\n")
             weapon_output.write('\t\t"velocity" ' + str(weapon_velocity) + "\n")
             weapon_output.write('\t\t"lifetime" ' + str(weapon_lifetime) + "\n")
+            if projectile_type != 'none':
+                weapon_sub_name = f"{weapon_name} sub 1"
+                weapon_output.write(f'\t\t"submunition" "{weapon_sub_name}" {submunition_count}' + "\n")
+                for thing,value in submunition_parent_stats.items(): #split range
+                    if value:
+                        weapon_output.write(f'\t\t"{thing}" {value}' + "\n")
             weapon_output.write('\t\t"reload" ' + str(weapon_reload) + "\n")
             if weapon_is_burst:
                 weapon_output.write(f'\t\t"burst reload" {weapon_burst_reload}' + "\n")
@@ -640,8 +737,9 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write('\t\t"radar tracking" ' + str(missile_tracking_amount) + "\n")
             elif missile_tracking_type == "tracking":
                 weapon_output.write('\t\t"tracking" ' + str(missile_tracking_amount) + "\n")
-            weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
-            weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
+            if projectile_type == 'none':
+                weapon_output.write('\t\t"shield damage" ' + str(weapon_shield_dpshot) + "\n")
+                weapon_output.write('\t\t"hull damage" ' + str(weapon_hull_dpshot) + "\n")
             if(round(weapon_hit_force) > 0):
                 weapon_output.write('\t\t"hit force" ' + str(weapon_hit_force) + "\n")
             for spdmgtype,spdmgvalue in weapon_special_dpshot.items():
@@ -651,6 +749,20 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
             weapon_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Missile weapon"\n')
             weapon_output.write('\n')
             print("Created " + str(weapon_type) + " weapon " + weapon_name + " Missile Launcher")
+
+            #======Write Submunition if have one.
+            if projectile_type != 'none':
+                weapon_output.write(f'outfit "{weapon_sub_name}"\n')
+                weapon_output.write('\tweapon' + "\n")
+                if projectile_type == 'flak':
+                    weapon_output.write(f'\t\t"sprite" "projectile/{weapon_projectile}"'+ "\n")
+                else:
+                    weapon_output.write(f'\t\t"sprite" "projectile/{missile_thumb_final}"'+ "\n")
+                for thing,value in submunition_stats.items(): #Should include lifetime, velo, inaccu
+                    if value:
+                        weapon_output.write(f'\t\t"{thing}" {value:.3f}'+ "\n")
+                weapon_output.write(f'\t\t"hit effect" "missile hit"'+ "\n")
+                weapon_output.write('\n')
 
             missilelauncher = class_Weapon(launcher_name_final,'Secondary Weapons',weapon_cost,launcher_thumb_final,launcher_mass,weapon_outfit,weapon_outfit)
             missilelauncher.weapon_type = 'missile'

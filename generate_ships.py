@@ -491,7 +491,8 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
     batterylist = []
     shieldgenlist = []
     hullgenlist = []
-
+    h2hsmall_list = []
+    h2hlarge_list = []
     
     #==============If have fuel, reserve 20 space for FTL
     if ship.fuel > 0:
@@ -509,6 +510,12 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
             shieldgenlist.append(outfit)
         elif outfit_type(outfit) == "hull repair":
             hullgenlist.append(outfit)
+        elif outfit_type(outfit) == "other":
+            if outfit.category == "Hand to Hand":
+                if outfit.outfit_space == 0:
+                    h2hsmall_list.append(outfit)
+                else:
+                    h2hlarge_list.append(outfit)
     powergenlist = outfit_sort(powergenlist)
     shieldgenlist = outfit_sort(shieldgenlist)
     hullgenlist = outfit_sort(hullgenlist)
@@ -734,6 +741,16 @@ def outfit_ship(faction,ship): #TODO: Space calc is wrong, sometimes too much so
     #====================BATTERY CHECK
     if shipstats['energy storage'] < shipstats['weapon energy'] and shipstats['outfit sp'] > 0:
         ship,shipstats = install_battery(faction,ship,shipstats,batterylist,battthreshold=50000)
+    
+    if len(h2hsmall_list) != 0:
+        h2h_to_use = random.choice(h2hsmall_list)
+        h2h_using_percent = random.random()
+        if ship.category.endswith("Warship"): #Todo use outfit space using h2h
+            h2h_using_percent = random.uniform(.5,1)
+        for n in range(round(ship.bunk*h2h_using_percent)):
+            ship.outfits_list.append(h2h_to_use)
+        if shipstats['outfit sp'] > 0:
+            pass
     print(f"SHIPGEN: Done, spaceleft:{shipstats['outfit sp']}, idleheat{round(shipstats['idle heat'],1)}/{ship_max_heat}, eneruse/store{shipstats['energy use']}/{shipstats['energy storage']}")
     return ship
 

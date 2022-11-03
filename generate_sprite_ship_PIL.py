@@ -1,5 +1,4 @@
 #import sys
-from hashlib import new
 import math
 import os
 import random
