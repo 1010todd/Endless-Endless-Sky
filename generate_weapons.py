@@ -755,6 +755,7 @@ def create_weapon(faction,fileout='',weapon_amount = 0,weapon_min_outfit = 5, we
                 weapon_output.write(f'outfit "{weapon_sub_name}"\n')
                 weapon_output.write('\tweapon' + "\n")
                 if projectile_type == 'flak':
+                    weapon_projectile = random.choice(projectile_list)
                     weapon_output.write(f'\t\t"sprite" "projectile/{weapon_projectile}"'+ "\n")
                 else:
                     weapon_output.write(f'\t\t"sprite" "projectile/{missile_thumb_final}"'+ "\n")
