@@ -321,9 +321,9 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         if random.random() < ships_coloring_chance: #Color overall ship.
             ships_grey_chance = .6
             if random.random() < ships_grey_chance:
-                ol_col_sel = random.choice(['grey','white','darkgrey','silver'])
+                ol_col_sel = random.choice(['white','darkgrey'])
             else:
-                ol_col_sel = random.choice(['darksalmon','moccasin','khaki'])
+                ol_col_sel = random.choice(['darksalmon','darkgoldenrod','tan'])
         #get_overlay_pattern(ships_color_pattern_palette)
 
         faction_military = random.triangular(.1,1,militarymean)
