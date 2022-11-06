@@ -287,9 +287,9 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         #=======Set parameters
         faction_age = random.randrange(7) #1 = young, 6 = old
         try:
-            faction_tier = random.triangular(min_tier,max_tier,mean_tier)
+            faction_tier = random.triangular(min_tier+(faction_age/7),max_tier+(faction_age/6),mean_tier)
         except UnboundLocalError:
-            faction_tier = random.triangular(min_tier,max_tier)
+            faction_tier = random.triangular(min_tier+(faction_age/7),max_tier+(faction_age/6))
 
         faction_agg = random.triangular(-1,1,mean_rep)
 
