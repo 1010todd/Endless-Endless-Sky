@@ -5,6 +5,7 @@ import os
 #import math
 
 import namegenerator
+from generate_sprite_ship_PIL import get_overlay_pattern
 
 #A faction in reality is extremely complex, here I'll increase the complexity later.
 
@@ -32,6 +33,7 @@ class government():
         self.shieldhullFactor = 0.1
         self.spriteset = 'default'
         self.partset = ''
+        self.shipcoloring = ''
         self.designpriority = []
         self.lang_wordlen = 3
         self.lang_spacechance = .5
@@ -206,6 +208,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
     for line in generate_gov_config: #Creates vars from txt file
         line = line.rstrip('\n')
         use_seed = False
+        ships_coloring_chance = None
+        automation = None
         if "use_seed" in line:
             use_seed_check = next(generate_gov_config)
             if str(use_seed_check) in ['true', 'True', 'true\n', 'True\n']:
@@ -254,6 +258,10 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             shipgenchance = float(next(generate_gov_config))
         if ('government_ship_symmetrical_chance' in line):
             shipsymchance = float(next(generate_gov_config))
+        if ('government_ship_coloring_chance' in line):
+            ships_coloring_chance = float(next(generate_gov_config))
+        if ('government_ship_automaton_chance' in line):
+            automation = float(next(generate_gov_config))
 
     if 'mean_count' not in locals():
         mean_count = min_count/max_count
@@ -299,6 +307,24 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         
         ships_count = max(min_ships,ships_count)
         ships_symmetry = random.random() <= shipsymchance
+
+        #color_width = random.randint(3,12)
+        pattern_complexity = random.randint(1,6)
+        
+        ships_color_pattern_style = random.randint(1,4)
+        ships_color_pattern_palette = random.randint(1,4)
+        ships_coloring_style = random.randint(1,2)
+
+        ol_col_sel = 'grey'
+        if ships_coloring_chance == None:
+            ships_coloring_chance = .7
+        if random.random() < ships_coloring_chance: #Color overall ship.
+            ships_grey_chance = .6
+            if random.random() < ships_grey_chance:
+                ol_col_sel = random.choice(['grey','white','darkgrey','silver'])
+            else:
+                ol_col_sel = random.choice(['darksalmon','moccasin','khaki'])
+        #get_overlay_pattern(ships_color_pattern_palette)
 
         faction_military = random.triangular(.1,1,militarymean)
         if faction_agg < 0:
@@ -351,8 +377,9 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         else:
             ftl_method = 'Hyperdrive'
 
-        ship_lenghtwidthratio = random.triangular(.3,.7)
-        automation = random.random()
+        ship_lenghtwidthratio = random.triangular(.15,.85,.65)
+        if automation == None:
+            automation = random.random()
         dronechance = random.random() + (automation*.5)
 
         lang_civie_type = random.choice(['pregen','parts'])
@@ -385,6 +412,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
         faction.shieldhullFactor = ship_shield_hull_factor
         faction.spriteset = faction_sprite
         faction.partset = faction_partset
+        faction.shipcoloring = ol_col_sel
         faction.shipcount = ships_count
         faction.fleet_tactic = fleet_tactic
         faction.civiefleetvariants = civiefleetvariants
@@ -418,6 +446,7 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             os.makedirs('data/'+name)
         except FileExistsError:
             pass
+        get_overlay_pattern(faction,ships_color_pattern_palette,pattern_complexity,ships_color_pattern_style,ships_coloring_style)
         faction_list.append(faction)
     generate_gov_config.close()
     return faction_list
