@@ -130,7 +130,7 @@ def create_battery(faction,fileout=''):
 
         #Calculates new values
         battery_outfit = random.randint(5, 10)
-        battery_energy = roundup10(random.randint(int(2000*random.uniform(1.1*faction.tier,2*faction.tier)), int(5000*random.uniform(1.1*faction.tier,2*faction.tier))))
+        battery_energy = roundup10(random.randint(int(1000*random.uniform(1.1*faction.tier,2*faction.tier)), int(2500*random.uniform(1.1*faction.tier,2*faction.tier))))
         battery_cost = roundup100(random.randint(round((battery_energy/battery_outfit)*500),round((battery_energy/battery_outfit)*600)))
 
         battery_cost_curve = .9
