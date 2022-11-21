@@ -2,7 +2,10 @@
 import math
 import os
 import random
-from PIL import Image, ImageDraw
+try:
+    from PIL import Image, ImageDraw
+except ModuleNotFoundError:
+    pass
 
 patt_overlay_path = "imgparts/000 shipoverlay/"
 

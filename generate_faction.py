@@ -5,8 +5,10 @@ import os
 #import math
 
 import namegenerator
-from generate_sprite_ship_PIL import get_overlay_pattern
-
+try:
+    from generate_sprite_ship_PIL import get_overlay_pattern
+except ModuleNotFoundError:
+    pass
 #A faction in reality is extremely complex, here I'll increase the complexity later.
 
 class government():
@@ -446,7 +448,8 @@ def create_faction(noPIL,min_tier=0.1, max_tier=6.,devmode=False):
             os.makedirs('data/'+name)
         except FileExistsError:
             pass
-        get_overlay_pattern(faction,ships_color_pattern_palette,pattern_complexity,ships_color_pattern_style,ships_coloring_style)
+        if not noPIL:
+            get_overlay_pattern(faction,ships_color_pattern_palette,pattern_complexity,ships_color_pattern_style,ships_coloring_style)
         faction_list.append(faction)
     generate_gov_config.close()
     return faction_list

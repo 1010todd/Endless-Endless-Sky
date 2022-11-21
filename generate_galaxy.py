@@ -7,6 +7,8 @@ import random
 
 import namegenerator #Custom Name generator
 
+from sys import platform
+
 def roundup100(x):
     return int(math.ceil(x / 100.0)) * 100
 
@@ -1048,7 +1050,10 @@ def load_description_data():
     planet_sprite_list = glob.glob("config/planet config/planet sprites/*.txt") #Imports files in directory
 
     for item in planet_sprite_list:
-        name = item.replace("config/planet config/planet sprites\\", "").replace(".txt", "")
+        if platform == "linux" or platform == "linux2" or platform == "darwin":
+            name = item.replace("config/planet config/planet sprites/", "").replace(".txt", "")
+        elif platform == "win32":
+            name = item.replace("config/planet config/planet sprites\\", "").replace(".txt", "")
         temp_items_list = []
         item = open(item, "r")
         for line in item:
