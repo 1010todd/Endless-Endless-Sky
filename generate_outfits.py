@@ -238,6 +238,7 @@ def create_cooling(faction,fileout='',max_outfit_count=8, min_outfit_space=1, ma
             cooling_outfit = random.randrange(int(max(1,min_outfit_space)), int(max(2,max_outfit_space)))
             cooling_cooling = round(random.randrange(int(1), int(5*cooling_outfit)), 1)
         cooling_outfit = max(1,cooling_outfit)
+        cooling_outfit = min(max_outfit_space,cooling_outfit)
         cooling_cost = roundup100(random.randrange(int(8500*(cooling_outfit/cooling_cooling)), int(10000*(cooling_outfit/cooling_cooling)))*faction.tier)
         cooling_ener = 0
         cooling_active = 0
@@ -350,10 +351,14 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
     #Generate sets of energy generators;
     for n in range(int(power_type_amount)):
         #Calculates new values
+        powheat_fac_min = (8.4/(8.2 + .01*(2.718)**(2 * faction.tier)))
+        powheat_fac_max = (8.4/(3 + .0001*(2.718)**(2*faction.tier))) + .2
         
         power_outfit = random.randint(int(min_outfit_space), int(max_outfit_space))
-        power_power = round(((random.uniform(float((1)*faction.tier), float((1.3)*faction.tier)))), 1)
-        power_heat = round(((random.uniform(float(power_power), float((power_power)*3)))), 1)
+        #power_power = round(((random.uniform(float((1)*faction.tier), float((1.3)*faction.tier)))), 1)
+        power_power = round(random.uniform(0.055,0.065)*faction.tier, 3)
+        power_power *= power_outfit
+        power_heat = round(((random.uniform(power_power*powheat_fac_min, power_power*powheat_fac_max))), 2)
         power_cost = roundup100(random.uniform(round(((power_power*60)/power_outfit)*1500*faction.tier), round(((power_power*60)/power_outfit)*3500*faction.tier)))
 
         power_iterations = round(random.gauss(3, 1))
@@ -374,7 +379,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_name_list=[]
         for n in range(power_iterations):
             name_length_min = 3
-            name_length_max = 7
+            name_length_max = 10
             seedy =0 
             if faction.devmode:
                 seedy = faction.devmodeseed+n
@@ -387,7 +392,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
             power_name_list.append(power_name)
         power_name_list.sort()
 
-        power_cost_curve = .85
+        power_cost_curve = random.uniform(.85,.95)
         power_outfit_curve = round(random.gauss(1, .1),1)
         power_power_curve = round(1.1*(max(1,faction.tier/2)),1)
         power_heat_curve = round(1.1*pow_heat_effciency,1)
@@ -844,7 +849,8 @@ def create_h2h(faction,fileout='',max_outfit_count=4,h2hmin=1):
         h2h_takespace = False
         h2h_tradeoff = ''
         h2h_tradeoff_value = 0
-        h2h_total = round(random.uniform(float(faction.tier*1.5), float(faction.tier*2)+1), 1)
+        h2h_baseline_tier = 2.718**(1.4*(faction.tier-1))
+        h2h_total = round(random.uniform(float(h2h_baseline_tier*.5), float(h2h_baseline_tier*2)+1), 1)
         if random.random() < .3:
             h2h_total = round(random.uniform(float(faction.tier*3), float(faction.tier*4.5)), 1)
             h2h_have_tradeoff = True
