@@ -8,7 +8,7 @@ Galaxy progressions (system/area changes, ship upgrades and changes.) relative t
 Generate alien lore and intro missions somehow.
 
 In-Progress:
-Improve outfitting 1/2
+Improve outfitting 2/3 (fix negative outfit space)
 Outfit Sprite Generation.
 Improve outfit generation (balance).
 

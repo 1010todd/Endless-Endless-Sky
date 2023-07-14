@@ -33,7 +33,7 @@ class class_Outfit():
         self.outfit_space = outfit_space
         self.weapon_space = weapon_space
         self.engine_space = engine_space
-        
+        #TODO: Use Dict instead so it's easier to add?
         #=====================Note: Not complete.
         self.cooling = 0
         self.active_cooling = 0
@@ -393,8 +393,8 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_name_list.sort()
 
         power_cost_curve = random.uniform(.85,.95)
-        power_outfit_curve = round(random.gauss(1, .1),1)
-        power_power_curve = round(1.1*(max(1,faction.tier/2)),1)
+        power_outfit_curve = round(random.uniform(1.02, 1.1),1)
+        power_power_curve = round(1.1,1)
         power_heat_curve = round(1.1*pow_heat_effciency,1)
         battery_energy_curve = round(1.1*(max(1,random.uniform(faction.tier/3,faction.tier/2))),1)
 
@@ -436,7 +436,8 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
             outfit.heat_gen = power_heat
             faction.outfitlist.append(outfit)
             #Name
-            print(f"Created power {faction.name}" + power_name_list[power_iterations_count-1] + ' ' + power_type)
+            print(f"Created power {faction.name} {power_name_list[power_iterations_count-1]} {power_type}")
+            print(f"-Mass:{power_outfit} E Gen:{power_power}")
 
             #Iterate for next run of loop
             power_cost = roundup100((power_cost * 2) * float(power_cost_curve))
@@ -912,7 +913,8 @@ def create_h2h(faction,fileout='',max_outfit_count=4,h2hmin=1):
             h2h_output.write(f'\t"boarding attack" {h2h_atk}\n')
             h2h_output.write(f'\t"boarding defense" {h2h_def}\n')
             h2h_output.write(f'\t"unplunderable" 1\n')
-            h2h_output.write(f'{h2h_tradeoff} {h2h_tradeoff_value}' + "\n")
+            if(h2h_have_tradeoff):
+                h2h_output.write(f'{h2h_tradeoff} {h2h_tradeoff_value}' + "\n")
             h2h_output.write(f'\tdescription "{faction.name} T{faction.tier:.1f} Hand to Hand"\n')
             h2h_output.write('\n')
 
@@ -941,7 +943,7 @@ def load_custom_configs(faction):
     if faction.devmode:
         random.seed(faction.devmodeseed)
     outfit_configs_list = glob.glob("config/outfit config/*.txt") #Imports files in directory
-    outfit_configs_amount = len(outfit_configs_list) #Gets amount of items in list
+    #outfit_configs_amount = len(outfit_configs_list) #Gets amount of items in list
     outfit_configs_iterations = 0
     global outfit_config_file #Config File
     outfit_config_file = str(outfit_configs_list[outfit_configs_iterations]).replace("\\", "/")
@@ -956,6 +958,11 @@ def load_custom_configs(faction):
 
     create_battery(faction)
     create_power(faction)
+    #Power Verification
+    #print(f"==[POWER VERIFICATION]==")
+    #for outfit in faction.outfitlist:
+    #    print(f"{outfit.name}")
+    #    print(f"-Mass:{outfit.mass} E Gen:{outfit.energy_gen}")
     create_engines(faction)
     create_shield_generator(faction)
     create_hull_repair(faction)
