@@ -363,7 +363,7 @@ def create_power(faction,fileout = '',power_type_amount=0, min_outfit_space=10, 
         power_outfit = random.randint(int(min_outfit_space), int(max_outfit_space))
 
         power_per_ton_base = (17.25 * 2.718 ** (1.407*faction.tier))/60
-        power_power = random.uniform((power_per_ton_base*.6),(power_per_ton_base*1.8))
+        power_power = random.uniform((power_per_ton_base*.8),(power_per_ton_base*1.2))
         #power_power = round(((random.uniform(float((1)*faction.tier), float((1.3)*faction.tier)))), 1)
         #power_power = round(random.uniform(0.055,0.065)*faction.tier, 3)
         power_power /= 10
